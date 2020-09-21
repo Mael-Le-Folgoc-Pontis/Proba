@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="filter" version="4">
+  <OBJECT>
+    <ID name="filter" mc="Standard.Package" uid="0c6cbfda-e835-4edb-8e2f-072f72c814f0"/>
+    <PID name="internal" mc="Standard.Package" uid="8de19d9c-309f-4c7f-968c-e82cba2f8859"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[filter]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="OutlineCustomFiltersDialog" mc="Standard.Class" uid="5dc4dc6b-61c4-4572-8fcc-fb60ee5e0028"/>
+        <COMPID name="OutlineFilterDescriptor" mc="Standard.Class" uid="d47f0a4d-2e52-4a79-80c4-1af2546ab238"/>
+        <COMPID name="OutlineFilterMessages" mc="Standard.Class" uid="f588c0be-c4df-4378-8e56-bf96e5e03f60"/>
+        <COMPID name="OutlineNamePatternFilter" mc="Standard.Class" uid="2faee12a-17b6-420a-b107-b5d4a4576996"/>
+        <COMPID name="StringMatcher" mc="Standard.Class" uid="34d44ac8-a64e-4927-9431-0fa049751c93"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

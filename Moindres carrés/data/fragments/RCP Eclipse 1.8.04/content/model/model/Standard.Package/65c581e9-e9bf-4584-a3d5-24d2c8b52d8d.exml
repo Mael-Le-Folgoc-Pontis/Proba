@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="scripts" version="4">
+  <OBJECT>
+    <ID name="scripts" mc="Standard.Package" uid="65c581e9-e9bf-4584-a3d5-24d2c8b52d8d"/>
+    <PID name="groovy" mc="Standard.Package" uid="8b7bad61-d0fe-4c21-8f32-4bbd68862d89"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[scripts]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractUriScriptSource" mc="Standard.Class" uid="f731d810-bbb2-4183-a2fb-4754d5607e18"/>
+        <COMPID name="NonExistentFileScriptSource" mc="Standard.Class" uid="18ef4a73-6bc8-4932-a5d6-84897b1db3fe"/>
+        <COMPID name="ScriptSource" mc="Standard.Interface" uid="81caac04-2d7f-4b53-956a-642d3a448291"/>
+        <COMPID name="StringScriptSource" mc="Standard.Class" uid="b31dfd7f-0468-4d84-a309-bf98650fb8a0"/>
+        <COMPID name="UriScriptSource" mc="Standard.Class" uid="265dcd1b-8352-4ef3-9e63-7786278b1153"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

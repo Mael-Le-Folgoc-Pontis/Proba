@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="DFA" version="4">
+  <OBJECT>
+    <ID name="DFA" mc="Standard.Interface" uid="443f0a19-8c66-44c0-87a4-4c41ad6bb194"/>
+    <PID name="XSDParticle" mc="Standard.Interface" uid="f0a11941-355d-4e1c-9761-bb9198c96936"/>
+    <ATTRIBUTES>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">true</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[DFA]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="State" mc="Standard.Interface" uid="e48756f5-82e4-420e-be2f-bfe9348706d4"/>
+        <COMPID name="Transition" mc="Standard.Interface" uid="3f5ebeb5-304f-4382-b02b-e675d308ea64"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaInterface" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0267-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

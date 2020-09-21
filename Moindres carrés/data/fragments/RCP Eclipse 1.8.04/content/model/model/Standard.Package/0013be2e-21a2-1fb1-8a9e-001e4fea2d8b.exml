@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="gtk" version="4">
+  <OBJECT>
+    <ID name="gtk" mc="Standard.Package" uid="0013be2e-21a2-1fb1-8a9e-001e4fea2d8b"/>
+    <PID name="accessibility" mc="Standard.Package" uid="0011df5a-21a2-1fb1-8a9e-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[gtk]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ATK" mc="Standard.Class" uid="0016614c-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="AtkActionIface" mc="Standard.Class" uid="00148d90-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="AtkAttribute" mc="Standard.Class" uid="00157318-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="AtkComponentIface" mc="Standard.Class" uid="00143494-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="AtkEditableTextIface" mc="Standard.Class" uid="001460f4-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="AtkHypertextIface" mc="Standard.Class" uid="0013dbe8-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="AtkObjectClass" mc="Standard.Class" uid="00163122-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="AtkObjectFactoryClass" mc="Standard.Class" uid="0015d178-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="AtkSelectionIface" mc="Standard.Class" uid="001407f8-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="AtkTableIface" mc="Standard.Class" uid="00154488-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="AtkTextIface" mc="Standard.Class" uid="00160152-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="AtkTextRange" mc="Standard.Class" uid="0015a1da-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="AtkTextRectangle" mc="Standard.Class" uid="00151670-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="AtkValueIface" mc="Standard.Class" uid="0014bb12-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="GtkAccessible" mc="Standard.Class" uid="0014e858-21a2-1fb1-8a9e-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="submodule" version="4">
+  <OBJECT>
+    <ID name="submodule" mc="Standard.Package" uid="d17fe059-dc90-402a-9963-3e8d9f8fee8d"/>
+    <PID name="internal" mc="Standard.Package" uid="1ad693c0-6f4f-4036-b8b3-856fc090e359"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[submodule]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AddSubmoduleWizard" mc="Standard.Class" uid="96d80326-5a5a-44e3-9e6f-0e8131db645c"/>
+        <COMPID name="SubmodulePathWizardPage" mc="Standard.Class" uid="6c7cce03-c3b5-4b6d-baec-bc0ae05a4166"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

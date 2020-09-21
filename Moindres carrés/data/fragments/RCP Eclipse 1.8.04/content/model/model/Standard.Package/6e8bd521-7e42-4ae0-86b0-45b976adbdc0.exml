@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="log" version="4">
+  <OBJECT>
+    <ID name="log" mc="Standard.Package" uid="6e8bd521-7e42-4ae0-86b0-45b976adbdc0"/>
+    <PID name="service" mc="Standard.Package" uid="2dac8d0c-dcc0-4044-aa9a-81a1bbc04d5c"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[log]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="LogEntry" mc="Standard.Class" uid="df325eba-1d27-45f0-a031-6248a9fbdb44"/>
+        <COMPID name="LogListener" mc="Standard.Class" uid="2f21c251-9669-46aa-964f-19a3734a24cc"/>
+        <COMPID name="LogReaderService" mc="Standard.Class" uid="250b756e-9b09-4fab-9d4b-4e035befc9e8"/>
+        <COMPID name="LogService" mc="Standard.Class" uid="01786efa-768e-4f05-b41b-76742f3fe0ab"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

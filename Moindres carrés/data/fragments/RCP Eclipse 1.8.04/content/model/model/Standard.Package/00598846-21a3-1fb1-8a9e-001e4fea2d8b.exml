@@ -1,0 +1,59 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ui" version="4">
+  <OBJECT>
+    <ID name="ui" mc="Standard.Package" uid="00598846-21a3-1fb1-8a9e-001e4fea2d8b"/>
+    <PID name="application" mc="Standard.Package" uid="003411a6-21a3-1fb1-8a9e-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[ui]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="MContext" mc="Standard.Interface" uid="0014dc3c-21a4-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="MCoreExpression" mc="Standard.Interface" uid="009110a4-21a3-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="MDirtyable" mc="Standard.Interface" uid="00144aec-21a4-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="MElementContainer" mc="Standard.Interface" uid="0013bcc6-21a4-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="MExpression" mc="Standard.Interface" uid="005a0654-21a3-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="MGenericStack" mc="Standard.Interface" uid="0013eba6-21a4-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="MGenericTile" mc="Standard.Interface" uid="006731bc-21a3-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="MGenericTrimContainer" mc="Standard.Interface" uid="00913f5c-21a3-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="MInput" mc="Standard.Interface" uid="00141b44-21a4-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="MLocalizable" mc="Standard.Interface" uid="cc18807f-1735-401e-a7fc-fc60409743da"/>
+        <COMPID name="MSnippetContainer" mc="Standard.Interface" uid="00147a80-21a4-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="MUIElement" mc="Standard.Interface" uid="0059a65a-21a3-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="MUILabel" mc="Standard.Interface" uid="005a33c2-21a3-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="MUiFactory" mc="Standard.Interface" uid="0014aafa-21a4-1fb1-8a9e-001e4fea2d8b"/>
+        <OBJECT>
+          <ID name="SideValue" mc="Standard.Enumeration" uid="0010b918-21a4-1fb1-8a9e-001e4fea2d8b"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[SideValue]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Extension">
+              <FOREIGNID name="JavaEnumeration" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0262-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <COMPID name="advanced" mc="Standard.Package" uid="005b7a02-21a3-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="basic" mc="Standard.Package" uid="0001388a-21a4-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="impl" mc="Standard.Package" uid="0092ec3a-21a3-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="menu" mc="Standard.Package" uid="0068c3b0-21a3-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="util" mc="Standard.Package" uid="00168492-21a4-1fb1-8a9e-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

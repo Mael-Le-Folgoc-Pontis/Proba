@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="datamodel" version="4">
+  <OBJECT>
+    <ID name="datamodel" mc="Standard.Package" uid="14cde85c-b8ab-4eec-8178-fa6d28a0fcbd"/>
+    <PID name="internal" mc="Standard.Package" uid="695fdf82-c8a9-405f-9941-a22ea10b33b0"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[datamodel]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="DataModelExtensionReader" mc="Standard.Class" uid="ce4042a5-d85c-4930-861d-73a7a5440be7"/>
+        <COMPID name="DataModelImpl" mc="Standard.Class" uid="12e04eb2-987b-4b1e-9fc1-9c734873a168"/>
+        <COMPID name="DataModelPausibleOperationEventImpl" mc="Standard.Class" uid="feee7536-184c-4b0e-936e-585e4ef8ee59"/>
+        <COMPID name="DataModelPausibleOperationImpl" mc="Standard.Class" uid="697d2888-6fbd-43ad-83ae-b489ff6c2302"/>
+        <COMPID name="IDataModelPausibleOperation" mc="Standard.Interface" uid="063c8e99-ed7e-4350-ac77-88afca6250c3"/>
+        <COMPID name="IDataModelPausibleOperationEvent" mc="Standard.Interface" uid="a6dfcfde-79d9-4b4e-967e-930a3f36e2b5"/>
+        <COMPID name="IDataModelPausibleOperationListener" mc="Standard.Interface" uid="6c26e08c-932e-4afd-9242-f8fd3964bfdb"/>
+        <COMPID name="IWorkspaceRunnableWithStatus" mc="Standard.Class" uid="f25d1fb1-9365-4f17-8d0e-25afb307bccc"/>
+        <COMPID name="WrappedOperation" mc="Standard.Class" uid="b3fa7918-76da-434f-94ef-987518f12648"/>
+        <COMPID name="ui" mc="Standard.Package" uid="a05a4c8e-d294-4e54-a9b4-da7f2241e202"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

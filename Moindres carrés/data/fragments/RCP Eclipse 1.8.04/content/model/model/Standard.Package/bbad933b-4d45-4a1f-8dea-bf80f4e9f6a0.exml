@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="observers" version="4">
+  <OBJECT>
+    <ID name="observers" mc="Standard.Package" uid="bbad933b-4d45-4a1f-8dea-bf80f4e9f6a0"/>
+    <PID name="wagon" mc="Standard.Package" uid="23edd519-99ba-42c4-9248-5c054e1b0cb4"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[observers]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractTransferListener" mc="Standard.Class" uid="5f354426-5a63-4b22-9245-9713b7b9af2a"/>
+        <COMPID name="ChecksumObserver" mc="Standard.Class" uid="fafc8742-7908-4608-8263-16f6fba504cc"/>
+        <COMPID name="Debug" mc="Standard.Class" uid="6ec8109c-718c-48fa-be31-7b64b5d9b423"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

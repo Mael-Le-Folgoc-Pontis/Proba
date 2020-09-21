@@ -1,0 +1,63 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="dialogs" version="4">
+  <OBJECT>
+    <ID name="dialogs" mc="Standard.Package" uid="004f0fb0-0bd7-112e-9071-001e4fea2d8b"/>
+    <PID name="ide" mc="Standard.Package" uid="003c74c2-0bd7-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[dialogs]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="BuildOrderPreferencePage" mc="Standard.Class" uid="004f1640-0bd7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CleanDialog" mc="Standard.Class" uid="004f1c76-0bd7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ConfigurationLogUpdateSection" mc="Standard.Class" uid="004f2874-0bd7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CreateLinkedResourceGroup" mc="Standard.Class" uid="004f2f86-0bd7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FileFolderSelectionDialog" mc="Standard.Class" uid="004f44e4-0bd7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FileStatesPage" mc="Standard.Class" uid="004f8832-0bd7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FileSystemSelectionArea" mc="Standard.Class" uid="004f8fbc-0bd7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IDEEditorsPreferencePage" mc="Standard.Class" uid="004fb5aa-0bd7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IDEPerspectivesPreferencePage" mc="Standard.Class" uid="004fbe10-0bd7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IDEResourceInfoUtils" mc="Standard.Class" uid="004fc676-0bd7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IDEWorkbenchPreferencePage" mc="Standard.Class" uid="004fcf4a-0bd7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IDEWorkspacePreferencePage" mc="Standard.Class" uid="004fd8b4-0bd7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IElementFilter" mc="Standard.Interface" uid="004fdee0-0bd7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IFileStoreFilter" mc="Standard.Interface" uid="004fe5d4-0bd7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="InternalErrorDialog" mc="Standard.Class" uid="004fef7a-0bd7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LinkedResourceEditor" mc="Standard.Class" uid="004ff8c6-0bd7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LinkedResourcesPreferencePage" mc="Standard.Class" uid="00500e60-0bd7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="OpenResourceDialog" mc="Standard.Class" uid="00502c56-0bd7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PathVariableDialog" mc="Standard.Class" uid="005036c4-0bd7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PathVariableEditDialog" mc="Standard.Class" uid="00504164-0bd7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PathVariablesGroup" mc="Standard.Class" uid="00504c22-0bd7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ProjectContentsLocationArea" mc="Standard.Class" uid="0050785a-0bd7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ProjectLinkedResourcePage" mc="Standard.Class" uid="00508a02-0bd7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ProjectReferencePage" mc="Standard.Class" uid="0050956a-0bd7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RelativePathVariableGroup" mc="Standard.Class" uid="0050a104-0bd7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ResourceComparator" mc="Standard.Class" uid="0050b432-0bd7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ResourceFilterEditDialog" mc="Standard.Class" uid="0050c062-0bd7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ResourceFilterGroup" mc="Standard.Class" uid="0050cc56-0bd7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ResourceFilterPage" mc="Standard.Class" uid="00511d32-0bd7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ResourceInfoPage" mc="Standard.Class" uid="005129da-0bd7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ResourceTreeAndListGroup" mc="Standard.Class" uid="00513d76-0bd7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ResourceWorkingSetPage" mc="Standard.Class" uid="00514a46-0bd7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SimpleListContentProvider" mc="Standard.Class" uid="00515770-0bd7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WelcomeEditor" mc="Standard.Class" uid="0051651c-0bd7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WelcomeEditorActionContributor" mc="Standard.Class" uid="005172a0-0bd7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WelcomeEditorCopyAction" mc="Standard.Class" uid="005188bc-0bd7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WelcomeEditorInput" mc="Standard.Class" uid="005196a4-0bd7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WelcomeEditorInputFactory" mc="Standard.Class" uid="0051a4be-0bd7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WelcomeItem" mc="Standard.Class" uid="0051b35a-0bd7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WelcomeParser" mc="Standard.Class" uid="0051c1c4-0bd7-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

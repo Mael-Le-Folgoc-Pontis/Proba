@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="dtd" version="4">
+  <OBJECT>
+    <ID name="dtd" mc="Standard.Package" uid="14a036ca-aa17-4a91-bd8b-f73762321a98"/>
+    <PID name="dv" mc="Standard.Package" uid="53a7b9ef-7c0a-41c1-9b1d-acc1a155f9e4"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[dtd]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="DTDDVFactoryImpl" mc="Standard.Class" uid="d415cf0a-8ffb-4801-8c44-75f82c9dd8b7"/>
+        <COMPID name="ENTITYDatatypeValidator" mc="Standard.Class" uid="e11b9722-c004-47b2-a635-af7fc728cf05"/>
+        <COMPID name="IDDatatypeValidator" mc="Standard.Class" uid="73b2b5af-62ec-4003-9913-4815c050e9bb"/>
+        <COMPID name="IDREFDatatypeValidator" mc="Standard.Class" uid="432c0261-0067-4fb9-b789-f5e3f60e5e55"/>
+        <COMPID name="ListDatatypeValidator" mc="Standard.Class" uid="e1fea0f8-a042-45f6-8287-453747a159c7"/>
+        <COMPID name="NMTOKENDatatypeValidator" mc="Standard.Class" uid="e0219d6d-7243-4c42-91b9-c0ce41a579d0"/>
+        <COMPID name="NOTATIONDatatypeValidator" mc="Standard.Class" uid="888dd0a2-c16e-4e9a-a4b7-02cb44ef25bc"/>
+        <COMPID name="StringDatatypeValidator" mc="Standard.Class" uid="1d5c115b-5e74-40a0-9ea7-a0dd39e901fa"/>
+        <COMPID name="XML11DTDDVFactoryImpl" mc="Standard.Class" uid="f090e85c-71f7-4195-bd98-3744f0afc527"/>
+        <COMPID name="XML11IDDatatypeValidator" mc="Standard.Class" uid="e76b84a6-14da-4f96-8239-292cfbc61bc5"/>
+        <COMPID name="XML11IDREFDatatypeValidator" mc="Standard.Class" uid="5a0a8513-3e5e-4c19-b82b-e501abff0bf9"/>
+        <COMPID name="XML11NMTOKENDatatypeValidator" mc="Standard.Class" uid="50da24be-b76b-43fe-ba13-68fa6c7bf8e5"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

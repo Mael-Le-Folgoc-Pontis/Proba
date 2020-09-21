@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="descriptor" version="4">
+  <OBJECT>
+    <ID name="descriptor" mc="Standard.Package" uid="89618171-ca84-47bf-844c-077c6710f5af"/>
+    <PID name="plugin" mc="Standard.Package" uid="6251ff3a-fd77-4649-9c6a-dbef415afe20"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[descriptor]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="DuplicateMojoDescriptorException" mc="Standard.Class" uid="5019cfcb-67d8-400a-8ed3-2964c626a12b"/>
+        <COMPID name="DuplicateParameterException" mc="Standard.Class" uid="a5804edd-b859-48b9-8d74-1f6a3ec0c8f7"/>
+        <COMPID name="InvalidParameterException" mc="Standard.Class" uid="1307b2e3-cb9a-46b8-a95a-0475c67dbbb3"/>
+        <COMPID name="InvalidPluginDescriptorException" mc="Standard.Class" uid="72bea59e-e823-4d5d-8691-1166716cfc2f"/>
+        <COMPID name="MojoDescriptor" mc="Standard.Class" uid="5417f6fb-f0d6-4a99-b601-17c9c7ef3054"/>
+        <COMPID name="Parameter" mc="Standard.Class" uid="25e5269a-58cb-4044-b33a-de3e3b222ecb"/>
+        <COMPID name="PluginDescriptor" mc="Standard.Class" uid="b5895ada-691d-4ac4-967f-1283a7873d39"/>
+        <COMPID name="PluginDescriptorBuilder" mc="Standard.Class" uid="debfc4f7-c884-435b-9e6f-4946908f9a87"/>
+        <COMPID name="Requirement" mc="Standard.Class" uid="632d43cb-bce1-4f25-825c-eed0a5130252"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

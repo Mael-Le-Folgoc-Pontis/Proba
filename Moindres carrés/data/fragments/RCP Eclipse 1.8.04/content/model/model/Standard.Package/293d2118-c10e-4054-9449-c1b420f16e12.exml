@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="applet" version="4">
+  <OBJECT>
+    <ID name="applet" mc="Standard.Package" uid="293d2118-c10e-4054-9449-c1b420f16e12"/>
+    <PID name="wizards" mc="Standard.Package" uid="bad8f2d1-5748-4cd1-9baa-90b367d859fe"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[applet]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="NewJAppletWizard" mc="Standard.Class" uid="3c6a055e-a6b2-48e6-bd99-2aa170c688d1"/>
+        <COMPID name="NewJAppletWizardPage" mc="Standard.Class" uid="5b7f6839-ed99-48d4-8e7b-13e595d64718"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

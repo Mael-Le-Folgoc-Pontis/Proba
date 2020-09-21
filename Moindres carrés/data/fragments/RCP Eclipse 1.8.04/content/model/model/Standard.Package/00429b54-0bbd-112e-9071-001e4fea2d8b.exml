@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="hyphenation" version="4">
+  <OBJECT>
+    <ID name="hyphenation" mc="Standard.Package" uid="00429b54-0bbd-112e-9071-001e4fea2d8b"/>
+    <PID name="compound" mc="Standard.Package" uid="0041bbc6-0bbd-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[hyphenation]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ByteVector" mc="Standard.Class" uid="0042a28e-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CharVector" mc="Standard.Class" uid="0042aa2c-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Hyphen" mc="Standard.Class" uid="0042b1ac-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Hyphenation" mc="Standard.Class" uid="0042b9ae-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HyphenationException" mc="Standard.Class" uid="0042c200-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HyphenationTree" mc="Standard.Class" uid="0042ca3e-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PatternConsumer" mc="Standard.Interface" uid="0042d196-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PatternParser" mc="Standard.Class" uid="0042db3c-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TernaryTree" mc="Standard.Class" uid="0042e3fc-0bbd-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

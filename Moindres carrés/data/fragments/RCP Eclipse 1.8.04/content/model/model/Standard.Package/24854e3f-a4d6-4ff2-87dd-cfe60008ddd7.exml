@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="tasks" version="4">
+  <OBJECT>
+    <ID name="tasks" mc="Standard.Package" uid="24854e3f-a4d6-4ff2-87dd-cfe60008ddd7"/>
+    <PID name="api" mc="Standard.Package" uid="e982dc26-8498-4432-83e7-291b435ca4a0"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[tasks]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AntBuilderAware" mc="Standard.Interface" uid="c8361e41-0880-4a06-9103-4a2e2be4bdcf"/>
+        <COMPID name="Input" mc="Standard.Class" uid="4aa79730-016b-4277-b049-89c3c81a2f8a"/>
+        <COMPID name="InputFiles" mc="Standard.Class" uid="3cb93901-db69-40e8-be4a-ffa83003c124"/>
+        <COMPID name="Optional" mc="Standard.Class" uid="7b594b4a-4f8d-46a5-8a42-2e327ceb4664"/>
+        <COMPID name="StopExecutionException" mc="Standard.Class" uid="9ad14c86-38df-4dc3-b898-e19babf7ad46"/>
+        <COMPID name="TaskCollection" mc="Standard.Class" uid="8ad2d7e9-065e-4128-aa52-ebcc4f4a2b78"/>
+        <COMPID name="TaskContainer" mc="Standard.Class" uid="baf5d2a7-91ee-47e0-b159-e9f8a805c60d"/>
+        <COMPID name="TaskDependency" mc="Standard.Interface" uid="ea88ce43-7b80-4076-961f-02a03ba8e428"/>
+        <COMPID name="TaskInputs" mc="Standard.Interface" uid="a434ed4c-12e6-4fd6-940f-a6b043315cf2"/>
+        <COMPID name="TaskOutputs" mc="Standard.Class" uid="a3f876ae-86cc-4de0-b00a-ea8bb8f0a073"/>
+        <COMPID name="TaskState" mc="Standard.Interface" uid="a2291ddd-5cc3-450b-9fc5-59d44d181d0f"/>
+        <COMPID name="WorkResult" mc="Standard.Interface" uid="0a3f6d55-6825-40b5-a93e-fe2df9a352d8"/>
+        <COMPID name="util" mc="Standard.Package" uid="0178fd7a-6a2b-474f-b75f-35352f90a3e7"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

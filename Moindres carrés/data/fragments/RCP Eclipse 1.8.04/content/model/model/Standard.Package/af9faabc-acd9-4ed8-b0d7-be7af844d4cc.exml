@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="actions" version="4">
+  <OBJECT>
+    <ID name="actions" mc="Standard.Package" uid="af9faabc-acd9-4ed8-b0d7-be7af844d4cc"/>
+    <PID name="editor" mc="Standard.Package" uid="31dfef0c-d79c-4515-92b6-79d3df1efe97"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[actions]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="CollapseAllFoldingRulerAction" mc="Standard.Class" uid="f76d6676-8d7c-4568-9ee9-e460beb888ff"/>
+        <COMPID name="ContextHelpAction" mc="Standard.Class" uid="79897670-13ae-4711-84dd-255c35e7f930"/>
+        <COMPID name="ExpandAllFoldingRulerAction" mc="Standard.Class" uid="61e3a3c3-0128-4835-a916-3b8d9cb86aac"/>
+        <COMPID name="PreviewOutlineItemAction" mc="Standard.Class" uid="a422e40a-ee54-464b-99c0-bf57b610491c"/>
+        <COMPID name="SetMarkupLanguageAction" mc="Standard.Class" uid="b05f4c84-ae73-48d4-99d6-0e0cad4fccbe"/>
+        <COMPID name="ToggleFoldingRulerAction" mc="Standard.Class" uid="a1b66bda-7c01-474c-b596-eacbf5e365ff"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="definition" version="4">
+  <OBJECT>
+    <ID name="definition" mc="Standard.Package" uid="0dfc908b-d073-4d58-b95c-5c3a18d5e106"/>
+    <PID name="properties" mc="Standard.Package" uid="002e8c90-21a5-1fb1-8a9e-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[definition]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="CSSPropertyColorDefinitionHandler" mc="Standard.Class" uid="28d71642-2dec-456a-9efe-403572280d7a"/>
+        <COMPID name="CSSPropertyFontDefinitionHandler" mc="Standard.Class" uid="6b4e2f06-e095-4217-b449-7101a85bf7b3"/>
+        <COMPID name="CSSPropertyThemeElementDefinitionHandler" mc="Standard.Class" uid="5ce3e51d-bdb0-4394-ba9b-d0727f017d81"/>
+        <COMPID name="CSSPropertyThemesExtensionHandler" mc="Standard.Class" uid="db05a701-db85-42a2-93ff-04ca2f41e97a"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

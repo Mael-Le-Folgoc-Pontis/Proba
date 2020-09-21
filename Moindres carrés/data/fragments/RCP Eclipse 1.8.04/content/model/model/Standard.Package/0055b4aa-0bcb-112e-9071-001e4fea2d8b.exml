@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="spelling" version="4">
+  <OBJECT>
+    <ID name="spelling" mc="Standard.Package" uid="0055b4aa-0bcb-112e-9071-001e4fea2d8b"/>
+    <PID name="text" mc="Standard.Package" uid="00390c7e-0bcb-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[spelling]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AddWordProposal" mc="Standard.Class" uid="0055bb12-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ChangeCaseProposal" mc="Standard.Class" uid="0055c166-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CoreSpellingProblem" mc="Standard.Class" uid="0055c788-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DefaultSpellingEngine" mc="Standard.Class" uid="0055ce22-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DisableSpellCheckingProposal" mc="Standard.Class" uid="0055d4e4-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HtmlTagDictionary" mc="Standard.Class" uid="0055dbb0-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IJavaDocTagConstants" mc="Standard.Interface" uid="0055e1aa-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaDocTagDictionary" mc="Standard.Class" uid="0055e98e-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaSpellingEngine" mc="Standard.Class" uid="0055f154-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaSpellingProblem" mc="Standard.Class" uid="0055f906-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaSpellingReconcileStrategy" mc="Standard.Class" uid="005600d6-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PropertiesFileSpellCheckIterator" mc="Standard.Class" uid="00560e82-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PropertiesFileSpellingEngine" mc="Standard.Class" uid="005616b6-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SpellCheckEngine" mc="Standard.Class" uid="00561efe-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SpellCheckIterator" mc="Standard.Class" uid="00562796-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SpellingEngine" mc="Standard.Class" uid="00563074-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TaskTagDictionary" mc="Standard.Class" uid="00564726-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TextSpellingEngine" mc="Standard.Class" uid="00565072-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WordCompletionProposalComputer" mc="Standard.Class" uid="005659e6-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WordCorrectionProposal" mc="Standard.Class" uid="0056636e-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WordIgnoreProposal" mc="Standard.Class" uid="00566d5a-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WordQuickFixProcessor" mc="Standard.Class" uid="00567778-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="engine" mc="Standard.Package" uid="0058a854-0bcb-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

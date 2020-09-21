@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="internal" version="4">
+  <OBJECT>
+    <ID name="internal" mc="Standard.Package" uid="eefa5c50-242c-4c17-9e93-4e9dac1eb82b"/>
+    <PID name="contentmodel" mc="Standard.Package" uid="99e81de9-29fc-4f3f-8334-df89b4862d79"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[internal]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="annotation" mc="Standard.Package" uid="02af12ec-8f9f-4ed4-8733-8c0cba44a823"/>
+        <COMPID name="modelqueryimpl" mc="Standard.Package" uid="56c06ba5-ac91-4457-86c3-d45f1a9f1689"/>
+        <COMPID name="util" mc="Standard.Package" uid="47befcc6-76ae-4624-92b3-45ada1ba170e"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

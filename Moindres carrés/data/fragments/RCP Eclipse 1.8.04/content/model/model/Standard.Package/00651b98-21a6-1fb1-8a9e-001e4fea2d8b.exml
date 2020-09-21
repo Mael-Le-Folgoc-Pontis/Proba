@@ -1,0 +1,53 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="adaptor" version="4">
+  <OBJECT>
+    <ID name="adaptor" mc="Standard.Package" uid="00651b98-21a6-1fb1-8a9e-001e4fea2d8b"/>
+    <PID name="internal" mc="Standard.Package" uid="00643552-21a6-1fb1-8a9e-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[adaptor]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="BasicLocation" mc="Standard.Class" uid="00669c8e-21a6-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="BundleLocalizationImpl" mc="Standard.Class" uid="006eddea-21a6-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="CachedManifest" mc="Standard.Class" uid="0068dea4-21a6-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ClasspathManifest" mc="Standard.Class" uid="006c53ea-21a6-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ConsoleManager" mc="Standard.Class" uid="caf13904-0148-4526-99f3-a3bbe46d3a24"/>
+        <COMPID name="ContextFinder" mc="Standard.Class" uid="006537f4-21a6-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="DefaultStartupMonitor" mc="Standard.Class" uid="007377ce-21a6-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="EclipseAdaptorHook" mc="Standard.Class" uid="006d9f02-21a6-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="EclipseAdaptorMsg" mc="Standard.Class" uid="006a923a-21a6-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="EclipseAppLauncher" mc="Standard.Class" uid="0072cbc6-21a6-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="EclipseClassLoadingHook" mc="Standard.Class" uid="006cef08-21a6-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="EclipseCommandProvider" mc="Standard.Class" uid="0067af0c-21a6-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="EclipseEnvironmentInfo" mc="Standard.Class" uid="0066058a-21a6-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="EclipseErrorHandler" mc="Standard.Class" uid="00741594-21a6-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="EclipseLazyStarter" mc="Standard.Class" uid="007027cc-21a6-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="EclipseLogFactory" mc="Standard.Class" uid="0074c250-21a6-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="EclipseLogHook" mc="Standard.Class" uid="00716d44-21a6-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="EclipseLogWriter" mc="Standard.Class" uid="006ba68e-21a6-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="EclipseStorageHook" mc="Standard.Class" uid="0069d4a8-21a6-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="IModel" mc="Standard.Interface" uid="006b4da6-21a6-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="IPluginInfo" mc="Standard.Interface" uid="0065dcae-21a6-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="LocationHelper" mc="Standard.Class" uid="006b79de-21a6-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="Locker" mc="Standard.Interface" uid="00694ca4-21a6-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="Locker_JavaIo" mc="Standard.Class" uid="006b243e-21a6-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="Locker_JavaNio" mc="Standard.Class" uid="00697742-21a6-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="MessageHelper" mc="Standard.Class" uid="0068529a-21a6-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="PluginConverterImpl" mc="Standard.Class" uid="006f749e-21a6-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="PluginParser" mc="Standard.Class" uid="00722126-21a6-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="Semaphore" mc="Standard.Class" uid="0068b44c-21a6-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="URLConverterImpl" mc="Standard.Class" uid="00756660-21a6-1fb1-8a9e-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

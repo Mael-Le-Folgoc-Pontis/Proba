@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="comparator" version="4">
+  <OBJECT>
+    <ID name="comparator" mc="Standard.Package" uid="0032f32a-0bd0-112e-9071-001e4fea2d8b"/>
+    <PID name="provisional" mc="Standard.Package" uid="00300ae8-0bd0-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[comparator]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ApiComparator" mc="Standard.Class" uid="0032f938-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ApiScope" mc="Standard.Class" uid="0032ff78-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CompareApiScopeVisitor" mc="Standard.Class" uid="003305a4-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DeltaProcessor" mc="Standard.Class" uid="00330c2a-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DeltaVisitor" mc="Standard.Class" uid="003312ec-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IDelta" mc="Standard.Interface" uid="003318aa-0bd0-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

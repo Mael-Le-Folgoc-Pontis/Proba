@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="policy" version="4">
+  <OBJECT>
+    <ID name="policy" mc="Standard.Package" uid="ca2ddd4f-7905-412b-a33b-8dd84f679bee"/>
+    <PID name="gefTree" mc="Standard.Package" uid="f7438f58-aff2-4e26-9267-d9dfa5b397fd"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[policy]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ArrayObjectLayoutEditPolicy" mc="Standard.Class" uid="0a0c7f39-1860-4b08-983b-8e336b6c3eff"/>
+        <COMPID name="ArrayObjectRequestValidator" mc="Standard.Class" uid="bcb2989e-6dff-4f3a-affa-ee328d1fa920"/>
+        <COMPID name="dblclick" mc="Standard.Package" uid="0aecf722-ba7e-49ca-a799-4b3c90f77866"/>
+        <COMPID name="generic" mc="Standard.Package" uid="50fd14f5-4e89-47be-8296-02316f8e4259"/>
+        <COMPID name="menu" mc="Standard.Package" uid="8f25d22e-89fa-4721-ae31-4eee13868a1f"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

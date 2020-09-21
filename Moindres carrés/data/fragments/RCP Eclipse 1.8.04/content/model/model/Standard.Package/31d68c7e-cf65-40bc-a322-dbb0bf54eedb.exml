@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="commands" version="4">
+  <OBJECT>
+    <ID name="commands" mc="Standard.Package" uid="31d68c7e-cf65-40bc-a322-dbb0bf54eedb"/>
+    <PID name="nls" mc="Standard.Package" uid="b7c23c83-117c-4c8d-aa9e-abc6cfd31b03"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[commands]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractCommand" mc="Standard.Class" uid="d912838d-81fe-476c-9e0c-c430f8d1c0b4"/>
+        <COMPID name="AddKeyCommand" mc="Standard.Class" uid="af4f6d63-7838-4a46-bca0-004c0746d8a6"/>
+        <COMPID name="AddLocaleCommand" mc="Standard.Class" uid="080381c3-6a69-4ad2-a5f4-5470088ef5bc"/>
+        <COMPID name="CreateSourceCommand" mc="Standard.Class" uid="ad559bff-e321-478b-9c57-aa6d278a399d"/>
+        <COMPID name="ExternalizePropertyCommand" mc="Standard.Class" uid="86d7bd7c-71f8-4de4-aed9-b5e49e8f7aa8"/>
+        <COMPID name="ICommandQueue" mc="Standard.Interface" uid="451b0271-92de-4e5a-bd47-a0efc4f93241"/>
+        <COMPID name="InternalizeKeyCommand" mc="Standard.Class" uid="3ae4f162-73d5-4dad-b54a-2fbd917579ec"/>
+        <COMPID name="RemoveLocaleCommand" mc="Standard.Class" uid="371a2fa2-3909-45ff-9b9a-fc72bd3c9fc4"/>
+        <COMPID name="RenameKeyCommand" mc="Standard.Class" uid="163b5525-5ef9-4c21-9550-cade9deb0fd8"/>
+        <COMPID name="SetValuesCommand" mc="Standard.Class" uid="ed5f0b24-d6f3-4ea7-897c-978c75089fc5"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

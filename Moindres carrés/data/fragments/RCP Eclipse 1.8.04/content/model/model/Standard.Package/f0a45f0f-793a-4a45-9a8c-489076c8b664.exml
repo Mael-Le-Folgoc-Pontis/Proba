@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="css" version="4">
+  <OBJECT>
+    <ID name="css" mc="Standard.Package" uid="f0a45f0f-793a-4a45-9a8c-489076c8b664"/>
+    <PID name="util" mc="Standard.Package" uid="8f7521ff-3123-472e-9266-48a944465ef8"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[css]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AnySelector" mc="Standard.Class" uid="8ed00369-d593-43e2-b17d-4036c49e6fd6"/>
+        <COMPID name="Block" mc="Standard.Class" uid="7c096d9a-4693-4455-947f-de7c1c3bd0f6"/>
+        <COMPID name="CompositeSelector" mc="Standard.Class" uid="116e1889-40fa-4175-a50a-07a04862126d"/>
+        <COMPID name="CssClassSelector" mc="Standard.Class" uid="f690236a-01a1-4de1-a1a5-2ccbe22339f6"/>
+        <COMPID name="CssParser" mc="Standard.Class" uid="159fb0f1-59c4-450e-b027-b58912b98b1c"/>
+        <COMPID name="CssRule" mc="Standard.Class" uid="752f2f71-35d5-4baf-a85c-f470e6e77d5d"/>
+        <COMPID name="DescendantSelector" mc="Standard.Class" uid="8824cd23-bef2-4842-9bd6-8031422e6177"/>
+        <COMPID name="ElementInfo" mc="Standard.Interface" uid="1d155c8a-6ce6-4033-a717-3f07ed6b0da9"/>
+        <COMPID name="IdSelector" mc="Standard.Class" uid="03eaf4e5-1102-4f3f-9968-4b76b578f8fa"/>
+        <COMPID name="NameSelector" mc="Standard.Class" uid="280e3d35-d3b6-40fa-98e4-a78c62a3833e"/>
+        <COMPID name="Selector" mc="Standard.Class" uid="7102f3c2-6ad4-4928-82b0-10d38ba7d548"/>
+        <COMPID name="SparseCharSequence" mc="Standard.Class" uid="83bba9e0-7de0-4b91-913b-f96706bbc86c"/>
+        <COMPID name="Stylesheet" mc="Standard.Class" uid="bbdc2a52-264f-498d-8145-5b0500c94390"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

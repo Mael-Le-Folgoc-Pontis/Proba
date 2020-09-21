@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="resources" version="4">
+  <OBJECT>
+    <ID name="resources" mc="Standard.Package" uid="0088cd36-0bd3-112e-9071-001e4fea2d8b"/>
+    <PID name="core" mc="Standard.Package" uid="007c49a8-0bd3-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[resources]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="CVSEntryLineTag" mc="Standard.Class" uid="0088d362-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CVSWorkspaceRoot" mc="Standard.Class" uid="0088d970-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="EclipseFile" mc="Standard.Class" uid="0088dfd8-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="EclipseSynchronizer" mc="Standard.Class" uid="0088f3ec-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FileContentCachingService" mc="Standard.Class" uid="0088fb12-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FileModificationManager" mc="Standard.Class" uid="00890238-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RemoteFile" mc="Standard.Class" uid="008909d6-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RemoteFolder" mc="Standard.Class" uid="00891746-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RemoteFolderMemberFetcher" mc="Standard.Class" uid="00891f3e-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RemoteFolderSandbox" mc="Standard.Class" uid="00892772-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RemoteFolderTree" mc="Standard.Class" uid="00892fa6-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RemoteFolderTreeBuilder" mc="Standard.Class" uid="0089385c-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RemoteModule" mc="Standard.Class" uid="00894fd6-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RemoteResource" mc="Standard.Class" uid="008958e6-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="UpdateContentCachingService" mc="Standard.Class" uid="00897eac-0bd3-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

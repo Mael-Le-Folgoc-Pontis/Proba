@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="layout" version="4">
+  <OBJECT>
+    <ID name="layout" mc="Standard.Package" uid="65535e5e-3e59-4a8e-ad07-681c62ac218f"/>
+    <PID name="repository" mc="Standard.Package" uid="00f72f5f-71aa-4a79-b5a8-4dd5fd41f1df"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[layout]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ArtifactRepositoryLayout" mc="Standard.Interface" uid="18fcca24-d189-4359-b9f5-2d5c95fafd9e"/>
+        <COMPID name="ArtifactRepositoryLayout2" mc="Standard.Interface" uid="6ce92abe-0ed6-4050-9688-b57382889b7f"/>
+        <COMPID name="DefaultRepositoryLayout" mc="Standard.Class" uid="460b421b-4554-47be-8540-fab8588d2eb5"/>
+        <COMPID name="FlatRepositoryLayout" mc="Standard.Class" uid="482b8172-d434-4e43-b2f3-fc4ec486eb38"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

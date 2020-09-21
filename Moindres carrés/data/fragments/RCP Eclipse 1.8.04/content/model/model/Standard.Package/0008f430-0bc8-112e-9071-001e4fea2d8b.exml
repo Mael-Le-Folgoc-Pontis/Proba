@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="jsp" version="4">
+  <OBJECT>
+    <ID name="jsp" mc="Standard.Package" uid="0008f430-0bc8-112e-9071-001e4fea2d8b"/>
+    <PID name="webapp" mc="Standard.Package" uid="000577e2-0bc8-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[jsp]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="advanced" mc="Standard.Package" uid="000a2b48-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="advancedstate" mc="Standard.Package" uid="000cc0ba-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="basic" mc="Standard.Package" uid="000e1974-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="index_jsp" mc="Standard.Class" uid="000e8e86-0bc8-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="search" version="4">
+  <OBJECT>
+    <ID name="search" mc="Standard.Package" uid="003b5e66-0bd0-112e-9071-001e4fea2d8b"/>
+    <PID name="internal" mc="Standard.Package" uid="0024f752-0bd0-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[search]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ApiDescriptionModifier" mc="Standard.Class" uid="003b64ce-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ConsumerReportConvertor" mc="Standard.Class" uid="003b6b36-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HTMLConvertor" mc="Standard.Class" uid="003b90e8-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IReferenceCollection" mc="Standard.Interface" uid="003b96a6-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IReferenceDescriptor" mc="Standard.Interface" uid="003b9d72-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MigrationReportConvertor" mc="Standard.Class" uid="003ba466-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MissingRefMetadata" mc="Standard.Class" uid="003bab00-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MissingRefReportConverter" mc="Standard.Class" uid="003bbeec-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ReferenceDescriptor" mc="Standard.Class" uid="003bdaa8-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ReferenceLookupVisitor" mc="Standard.Class" uid="003be246-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SearchMessages" mc="Standard.Class" uid="003bea0c-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SkippedComponent" mc="Standard.Class" uid="003bf25e-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="UseMetadata" mc="Standard.Class" uid="003bfa56-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="UseReportConverter" mc="Standard.Class" uid="003c02bc-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="UseScanManager" mc="Standard.Class" uid="003c67de-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="UseScanParser" mc="Standard.Class" uid="003c7e04-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="UseScanReferenceVisitor" mc="Standard.Class" uid="003c8cdc-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="UseScanReferences" mc="Standard.Class" uid="003c95ce-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="UseScanVisitor" mc="Standard.Class" uid="003c9f38-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="UseSearchRequestor" mc="Standard.Class" uid="003ca8c0-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="XmlReferenceDescriptorWriter" mc="Standard.Class" uid="003cb23e-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="XmlSearchReporter" mc="Standard.Class" uid="003cbc2a-0bd0-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

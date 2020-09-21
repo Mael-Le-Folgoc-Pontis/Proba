@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="util" version="4">
+  <OBJECT>
+    <ID name="util" mc="Standard.Package" uid="00969506-0bd0-112e-9071-001e4fea2d8b"/>
+    <PID name="core" mc="Standard.Package" uid="0064dc0a-0bd0-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[util]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="CoreUtility" mc="Standard.Class" uid="00969baa-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HeaderMap" mc="Standard.Class" uid="0096a2bc-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IdUtil" mc="Standard.Class" uid="0096bc7a-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ManifestUtils" mc="Standard.Class" uid="0096c328-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PDEHTMLHelper" mc="Standard.Class" uid="0096c9b8-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PDEJavaHelper" mc="Standard.Class" uid="0096d0b6-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PDESchemaHelper" mc="Standard.Class" uid="0096d7f0-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PDETextHelper" mc="Standard.Class" uid="0096df3e-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PDEXMLHelper" mc="Standard.Class" uid="0096f47e-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PackageFragmentRootPropertyTester" mc="Standard.Class" uid="0096fc58-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PatternConstructor" mc="Standard.Class" uid="00970450-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PropertiesUtil" mc="Standard.Class" uid="00970c48-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SAXParserWrapper" mc="Standard.Class" uid="0097149a-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SchemaUtil" mc="Standard.Class" uid="00971d14-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="VMUtil" mc="Standard.Class" uid="009725d4-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="VersionUtil" mc="Standard.Class" uid="00972ec6-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="XMLComponentRegistry" mc="Standard.Class" uid="009737ae-0bd0-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="util" version="4">
+  <OBJECT>
+    <ID name="util" mc="Standard.Package" uid="d3c2a078-50a2-4649-9a88-1d4b5fd1df13"/>
+    <PID name="mvel2" mc="Standard.Package" uid="9144514c-c276-4a5b-9f46-4b3c52f6ca1f"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[util]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ASTIterator" mc="Standard.Interface" uid="2aeb92a0-5242-43aa-8887-fd61b71755ae"/>
+        <COMPID name="ASTLinkedList" mc="Standard.Class" uid="73df34a7-16f1-4adb-8bab-3f653e82622e"/>
+        <COMPID name="ArrayTools" mc="Standard.Class" uid="29d19edf-4a0f-4066-a461-d3435f53c5a9"/>
+        <COMPID name="CallableProxy" mc="Standard.Interface" uid="7a77f1b2-27e7-4eb5-90e2-3d849f5048b9"/>
+        <COMPID name="CollectionParser" mc="Standard.Class" uid="986530d6-4546-4349-ae14-33440620f9b3"/>
+        <COMPID name="CompilerTools" mc="Standard.Class" uid="d91e4613-d610-4f6a-96ed-662e48288037"/>
+        <COMPID name="ExecutionStack" mc="Standard.Class" uid="dd023879-0ebc-42e4-a6e4-e0aff5f79e50"/>
+        <COMPID name="FastList" mc="Standard.Class" uid="68ad000b-db1e-482b-a3da-318ca1ba7b5e"/>
+        <COMPID name="FunctionParser" mc="Standard.Class" uid="36ff6627-dc3e-45d1-b2ec-16d0eb6e4d08"/>
+        <COMPID name="InternalNumber" mc="Standard.Class" uid="4f249bca-a15d-4a69-8ef8-7daafac76f39"/>
+        <COMPID name="MVELClassLoader" mc="Standard.Interface" uid="609c8662-7e83-4e70-9463-27c2d392ff1c"/>
+        <COMPID name="MethodStub" mc="Standard.Class" uid="12fd38ac-f50e-40df-b3b0-b1fa51ae47e2"/>
+        <COMPID name="ParseTools" mc="Standard.Class" uid="9506e088-e916-4c9b-a4d2-a772cf856af9"/>
+        <COMPID name="PropertyTools" mc="Standard.Class" uid="6d67f07b-71d4-486a-a814-1ed2da6aa759"/>
+        <COMPID name="ReflectionUtil" mc="Standard.Class" uid="c080a528-9cd7-44f7-baf2-74117100ddbd"/>
+        <COMPID name="SimpleIndexHashMapWrapper" mc="Standard.Class" uid="a9dbb53a-d670-4564-9649-ee6ac9e8f183"/>
+        <COMPID name="Soundex" mc="Standard.Class" uid="91c7fdb8-2281-45ee-b87b-eefcd47f655f"/>
+        <COMPID name="Stack" mc="Standard.Interface" uid="81577ec2-a59b-4a38-bc9e-01df93802ca7"/>
+        <COMPID name="StackElement" mc="Standard.Class" uid="7ff4e162-ead5-49ef-95a7-da5d2bd93907"/>
+        <COMPID name="StringAppender" mc="Standard.Class" uid="31c77c5c-5996-4698-8013-283c9a0bd5a8"/>
+        <COMPID name="ThisLiteral" mc="Standard.Class" uid="98c08ef8-47ec-4eae-8f5f-ba080c8fd604"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

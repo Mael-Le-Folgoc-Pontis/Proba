@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="graph" version="4">
+  <OBJECT>
+    <ID name="graph" mc="Standard.Package" uid="198895c8-eaa2-49f6-babb-1798cb66e10f"/>
+    <PID name="maven" mc="Standard.Package" uid="173ccbb1-ee67-4028-9140-8289e1158a15"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[graph]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="DefaultGraphBuilder" mc="Standard.Class" uid="27c235dc-6696-4f8f-af77-a75a3ffee59d"/>
+        <COMPID name="DefaultProjectDependencyGraph" mc="Standard.Class" uid="9b732938-de52-4c60-940b-59a265aaed4c"/>
+        <COMPID name="GraphBuilder" mc="Standard.Interface" uid="ca741ff6-ebef-4723-b121-83fb55721d8f"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

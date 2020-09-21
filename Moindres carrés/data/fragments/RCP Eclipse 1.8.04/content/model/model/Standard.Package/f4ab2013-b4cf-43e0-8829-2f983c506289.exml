@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="java7" version="4">
+  <OBJECT>
+    <ID name="java7" mc="Standard.Package" uid="f4ab2013-b4cf-43e0-8829-2f983c506289"/>
+    <PID name="filesystem" mc="Standard.Package" uid="0023d7fa-0bc0-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[java7]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="DefaultHandler" mc="Standard.Class" uid="9ab41b64-1082-4e3b-a534-ef7f77ae4a68"/>
+        <COMPID name="DosHandler" mc="Standard.Class" uid="2b33d860-d87d-4148-8437-fd9f8ac44a0c"/>
+        <COMPID name="HandlerFactory" mc="Standard.Class" uid="85207bd9-a8e6-4453-88ab-7ad0c9c0caec"/>
+        <COMPID name="PosixHandler" mc="Standard.Class" uid="7e3e9964-b802-4260-9827-35bdc3fd897b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

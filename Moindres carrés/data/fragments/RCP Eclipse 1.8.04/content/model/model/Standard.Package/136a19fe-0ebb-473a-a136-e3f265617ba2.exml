@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="description" version="4">
+  <OBJECT>
+    <ID name="description" mc="Standard.Package" uid="136a19fe-0ebb-473a-a136-e3f265617ba2"/>
+    <PID name="model" mc="Standard.Package" uid="3a547062-d7aa-4b35-8f7f-e2706ee85e55"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[description]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractDescription" mc="Standard.Class" uid="62a7c9f0-c23a-4026-8ccc-950b57a0601a"/>
+        <COMPID name="AbstractInvocationDescription" mc="Standard.Class" uid="b3bf10c8-ed4c-408a-ac13-128880ebdcbd"/>
+        <COMPID name="ComponentDescription" mc="Standard.Class" uid="a4cb0c52-b2de-44a8-8ea9-b00316b7b65d"/>
+        <COMPID name="ComponentDescriptionKey" mc="Standard.Class" uid="65509cf5-5cf1-4801-a87a-c695f7df182e"/>
+        <COMPID name="ComponentPresentation" mc="Standard.Class" uid="951aeb6f-3e62-4a74-8866-b27582bb77c4"/>
+        <COMPID name="ConfigurablePropertyDescription" mc="Standard.Class" uid="3bf779af-d2e6-4c77-8a66-45c3565349ca"/>
+        <COMPID name="ConstructorDescription" mc="Standard.Class" uid="25d34c6b-b4dd-480f-8d01-0283c0ad0ebb"/>
+        <COMPID name="CreationDescription" mc="Standard.Class" uid="bf70a413-2579-42aa-8b96-577b2e8390d2"/>
+        <COMPID name="CreationInvocationDescription" mc="Standard.Class" uid="1efe4921-444d-4ed9-b756-f7a06d1a61b1"/>
+        <COMPID name="ExposingMethodRule" mc="Standard.Class" uid="df2e3eba-70cc-4fdc-b339-7b3ce3070c42"/>
+        <COMPID name="ExposingPackageRule" mc="Standard.Class" uid="6ac16fef-a040-4f67-9540-71c7e49c970c"/>
+        <COMPID name="ExposingRule" mc="Standard.Class" uid="f5db6fbc-5af2-4f38-80b5-5b085674604f"/>
+        <COMPID name="GenericPropertyDescription" mc="Standard.Class" uid="8aaa122e-ccf1-491c-96e3-d59bbe25e789"/>
+        <COMPID name="IComponentDescription" mc="Standard.Interface" uid="ac8304b4-a6b8-494c-90aa-8d7c6ba4d109"/>
+        <COMPID name="IDescriptionProcessor" mc="Standard.Interface" uid="0ea923af-1512-418c-a029-8e1c316af877"/>
+        <COMPID name="IToolkitProvider" mc="Standard.Interface" uid="ff84124c-378b-4678-83db-6a218ebe6a2e"/>
+        <COMPID name="LayoutDescription" mc="Standard.Class" uid="86b2f994-0529-4fdc-8f40-9754a7473ef2"/>
+        <COMPID name="MethodDescription" mc="Standard.Class" uid="460bdec6-bdfb-4290-9dbd-dda58f173474"/>
+        <COMPID name="MorphingTargetDescription" mc="Standard.Class" uid="3473cf2e-a871-4bd5-81cc-d23e667df278"/>
+        <COMPID name="ParameterDescription" mc="Standard.Class" uid="40018736-3e8b-4093-a66e-6afdec4cb113"/>
+        <COMPID name="ToolkitDescription" mc="Standard.Class" uid="996a32cd-2b08-48ae-9086-1eff7b68a4ff"/>
+        <COMPID name="ToolkitDescriptionJava" mc="Standard.Class" uid="30236d51-62d3-4a76-b872-a11d6343abd3"/>
+        <COMPID name="factory" mc="Standard.Package" uid="a5ca731f-bb84-497b-ac99-bf2031171c9d"/>
+        <COMPID name="helpers" mc="Standard.Package" uid="6ba82251-112d-49bd-9e4c-6b2e1c4571b2"/>
+        <COMPID name="internal" mc="Standard.Package" uid="b9c09d1e-cc9e-4b65-abb2-50b87c784d34"/>
+        <COMPID name="resource" mc="Standard.Package" uid="a347debf-4226-44de-b59b-c8bba038f32b"/>
+        <COMPID name="rules" mc="Standard.Package" uid="a9bc8025-a1f1-4a63-af04-f2cb2019f568"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

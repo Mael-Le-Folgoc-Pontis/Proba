@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="repository" version="4">
+  <OBJECT>
+    <ID name="repository" mc="Standard.Package" uid="1c9cfbaf-9652-468c-bbad-8edb33739780"/>
+    <PID name="internal" mc="Standard.Package" uid="5a6dc0a8-cf6b-4224-a3a9-4a2fca584793"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[repository]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="IRepositoryDiscoverer" mc="Standard.Interface" uid="7dd7be56-e8b7-401c-b5be-2ba824f3a2ec"/>
+        <COMPID name="IRepositoryIndexer" mc="Standard.Interface" uid="0bbb062a-4439-48fe-b6c2-12d071e0d1d4"/>
+        <COMPID name="RepositoryInfo" mc="Standard.Class" uid="7e10b168-f077-4caa-b442-d9a4c6b24c06"/>
+        <COMPID name="RepositoryRegistry" mc="Standard.Class" uid="c85ba781-150d-470a-b7a2-75507cbbc9d5"/>
+        <COMPID name="RepositoryRegistryUpdateJob" mc="Standard.Class" uid="8151fd05-19c1-4bae-a3b0-1fea26dfbbe6"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

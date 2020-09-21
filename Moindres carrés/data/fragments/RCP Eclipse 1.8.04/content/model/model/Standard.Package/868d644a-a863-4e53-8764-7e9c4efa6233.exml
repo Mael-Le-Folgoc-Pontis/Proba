@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="preview" version="4">
+  <OBJECT>
+    <ID name="preview" mc="Standard.Package" uid="868d644a-a863-4e53-8764-7e9c4efa6233"/>
+    <PID name="generation" mc="Standard.Package" uid="5e99d068-11e9-4d8e-9ee2-211e23004da5"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[preview]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="GenerationPreview" mc="Standard.Class" uid="9bcef11a-5026-4238-9c64-a67be3864546"/>
+        <COMPID name="GenerationPreviewFieldInitializerBlock" mc="Standard.Class" uid="9bdd1366-cfde-4cef-9d12-5b6a4265ae47"/>
+        <COMPID name="GenerationPreviewFieldInitializerFlat" mc="Standard.Class" uid="d6856e08-2315-4586-9b67-cb743e056238"/>
+        <COMPID name="GenerationPreviewFieldUniqueBlock" mc="Standard.Class" uid="5fd8a454-a78d-42dc-a36d-533ccaed5eab"/>
+        <COMPID name="GenerationPreviewFieldUniqueFlat" mc="Standard.Class" uid="4444d56e-8803-4d96-835d-c3743d6d9bf2"/>
+        <COMPID name="GenerationPreviewLazy" mc="Standard.Class" uid="aa120e6e-9dbe-45ea-9c7b-6d71f61ba117"/>
+        <COMPID name="GenerationPreviewLocalUniqueBlock" mc="Standard.Class" uid="7ef5bb9f-c6d4-420a-a3d2-2f54620efeb4"/>
+        <COMPID name="GenerationPreviewLocalUniqueFlat" mc="Standard.Class" uid="1a596c76-27b3-41d9-bfaa-4f128acee624"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

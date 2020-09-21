@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="transform" version="4">
+  <OBJECT>
+    <ID name="transform" mc="Standard.Package" uid="4570d0fc-79e8-4350-967e-00cdd54ad06a"/>
+    <PID name="resolver" mc="Standard.Package" uid="b5fcf482-7f34-4289-8057-95b6d0ede21c"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[transform]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractVersionTransformation" mc="Standard.Class" uid="b9e3f44b-2cc7-463b-a95e-cc072b268526"/>
+        <COMPID name="ArtifactTransformation" mc="Standard.Interface" uid="6db1983a-d96e-4c8d-8ddf-2ad6e08d0ef1"/>
+        <COMPID name="ArtifactTransformationManager" mc="Standard.Interface" uid="b16e0306-4545-4253-86a7-74c8dddde8e8"/>
+        <COMPID name="DefaultArtifactTransformationManager" mc="Standard.Class" uid="d21846e8-2aa6-4af7-85ad-d4ec55308b87"/>
+        <COMPID name="LatestArtifactTransformation" mc="Standard.Class" uid="78261a44-4744-49c5-94ba-4b9986d09a08"/>
+        <COMPID name="ReleaseArtifactTransformation" mc="Standard.Class" uid="c11ca95b-a7a2-4f37-928e-687113defe10"/>
+        <COMPID name="SnapshotTransformation" mc="Standard.Class" uid="860b210e-a90b-48a7-b286-9fae08682de6"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

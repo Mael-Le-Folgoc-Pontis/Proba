@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="html" version="4">
+  <OBJECT>
+    <ID name="html" mc="Standard.Package" uid="c993769e-2bd2-4996-8c45-6f068f6b86d7"/>
+    <PID name="core" mc="Standard.Package" uid="0101cad1-4db3-4b5d-b30b-1e1efbf9bd6c"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[html]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="CssBuilder" mc="Standard.Interface" uid="80fb95b3-8f64-472a-9f64-e29e42e1d1d2"/>
+        <COMPID name="HTMLLayoutBase" mc="Standard.Class" uid="aef1456f-a076-455c-b970-c967679ac7c4"/>
+        <COMPID name="IThrowableRenderer" mc="Standard.Interface" uid="55401f88-469a-49c6-9c64-db00cc4b8d93"/>
+        <COMPID name="NOPThrowableRenderer" mc="Standard.Class" uid="65e39148-429d-47f3-bd53-319dadd2ff27"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

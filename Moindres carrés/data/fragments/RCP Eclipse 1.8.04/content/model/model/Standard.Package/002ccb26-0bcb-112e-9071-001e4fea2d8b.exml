@@ -1,0 +1,59 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="reorg" version="4">
+  <OBJECT>
+    <ID name="reorg" mc="Standard.Package" uid="002ccb26-0bcb-112e-9071-001e4fea2d8b"/>
+    <PID name="refactoring" mc="Standard.Package" uid="00180c90-0bcb-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[reorg]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="CopyToClipboardAction" mc="Standard.Class" uid="002cd1fc-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CreateTargetQueries" mc="Standard.Class" uid="002cf4d4-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CutAction" mc="Standard.Class" uid="002cfb46-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DeleteAction" mc="Standard.Class" uid="002d01ea-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DeleteUserInterfaceManager" mc="Standard.Class" uid="002d08b6-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DeleteWizard" mc="Standard.Class" uid="002d0fb4-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DestinationContentProvider" mc="Standard.Class" uid="002d2486-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="NewNameQueries" mc="Standard.Class" uid="002d2bfc-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PasteAction" mc="Standard.Class" uid="002d3368-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RenameCuWizard" mc="Standard.Class" uid="002dc8be-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RenameEnumConstWizard" mc="Standard.Class" uid="002dd124-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RenameFieldWizard" mc="Standard.Class" uid="002dd96c-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RenameInformationPopup" mc="Standard.Class" uid="002def42-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RenameJavaProjectWizard" mc="Standard.Class" uid="002e068a-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RenameLinkedMode" mc="Standard.Class" uid="002e0f9a-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RenameLocalVariableWizard" mc="Standard.Class" uid="002e2b10-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RenameMethodUserInterfaceStarter" mc="Standard.Class" uid="002e3448-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RenameMethodWizard" mc="Standard.Class" uid="002e3df8-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RenamePackageWizard" mc="Standard.Class" uid="002e4820-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RenameRefactoringWizard" mc="Standard.Class" uid="002e5f86-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RenameSelectionState" mc="Standard.Class" uid="002e69cc-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RenameSourceFolderWizard" mc="Standard.Class" uid="002e7444-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RenameTypeParameterWizard" mc="Standard.Class" uid="002e7eee-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RenameTypeWizard" mc="Standard.Class" uid="002e898e-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RenameTypeWizardSimilarElementsOptionsDialog" mc="Standard.Class" uid="002ea004-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RenameUserInterfaceManager" mc="Standard.Class" uid="002eef64-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RenameUserInterfaceStarter" mc="Standard.Class" uid="002efb44-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ReorgCopyAction" mc="Standard.Class" uid="002f0724-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ReorgCopyStarter" mc="Standard.Class" uid="002f1354-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ReorgCopyWizard" mc="Standard.Class" uid="002f1fca-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ReorgMessages" mc="Standard.Class" uid="002f39ba-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ReorgMoveAction" mc="Standard.Class" uid="002f4694-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ReorgMoveStarter" mc="Standard.Class" uid="002f53a0-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ReorgMoveWizard" mc="Standard.Class" uid="002f60de-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ReorgQueries" mc="Standard.Class" uid="002f7c04-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TypedSourceTransfer" mc="Standard.Class" uid="002fcfce-0bcb-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

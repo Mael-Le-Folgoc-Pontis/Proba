@@ -1,0 +1,58 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="feature" version="4">
+  <OBJECT>
+    <ID name="feature" mc="Standard.Package" uid="00714eea-0bd1-112e-9071-001e4fea2d8b"/>
+    <PID name="editor" mc="Standard.Package" uid="00619e46-0bd1-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[feature]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Choice" mc="Standard.Class" uid="0071555c-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DataPortabilitySection" mc="Standard.Class" uid="00715b6a-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="EditorBuildFeatureAction" mc="Standard.Class" uid="007161a0-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FeatureDependenciesPage" mc="Standard.Class" uid="00716876-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FeatureEditor" mc="Standard.Class" uid="00716f1a-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FeatureEditorContributor" mc="Standard.Class" uid="007175e6-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FeatureEditorMatchingStrategy" mc="Standard.Class" uid="00717ce4-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FeatureFormPage" mc="Standard.Class" uid="00718428-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FeatureIncludesPage" mc="Standard.Class" uid="00718b8a-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FeatureInputContext" mc="Standard.Class" uid="00719332-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FeatureInputContextManager" mc="Standard.Class" uid="00719af8-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FeatureOutlinePage" mc="Standard.Class" uid="0071a2fa-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FeatureReferencePage" mc="Standard.Class" uid="0071b0e2-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FeatureSourcePage" mc="Standard.Class" uid="0071b95c-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FeatureSpecSection" mc="Standard.Class" uid="0071c1fe-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FeatureUndoManager" mc="Standard.Class" uid="0071cae6-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IncludedFeaturesDetailsSection" mc="Standard.Class" uid="0071d3ec-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IncludedFeaturesPortabilitySection" mc="Standard.Class" uid="0071dd2e-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IncludedFeaturesSection" mc="Standard.Class" uid="0071e6ac-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="InfoFormPage" mc="Standard.Class" uid="0071f5fc-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="InfoSection" mc="Standard.Class" uid="0071ffca-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LicenseFeatureSection" mc="Standard.Class" uid="00720a06-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="OpenReferenceAction" mc="Standard.Class" uid="00721442-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PluginDetailsSection" mc="Standard.Class" uid="00721ed8-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PluginPortabilitySection" mc="Standard.Class" uid="00722978-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PluginReference" mc="Standard.Class" uid="0072345e-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PluginSection" mc="Standard.Class" uid="00723f6c-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PortabilityChoicesDialog" mc="Standard.Class" uid="00725056-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PortabilitySection" mc="Standard.Class" uid="00726762-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RequiresSection" mc="Standard.Class" uid="007272fc-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SynchronizeVersionsAction" mc="Standard.Class" uid="00732cc4-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SynchronizeVersionsWizard" mc="Standard.Class" uid="00733cd2-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SynchronizeVersionsWizardPage" mc="Standard.Class" uid="00734934-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="URLDetailsSection" mc="Standard.Class" uid="007355b4-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="URLSection" mc="Standard.Class" uid="0073625c-0bd1-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

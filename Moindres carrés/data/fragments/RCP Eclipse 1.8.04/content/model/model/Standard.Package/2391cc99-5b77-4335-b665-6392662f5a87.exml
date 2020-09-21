@@ -1,0 +1,100 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="okhttp" version="4">
+  <OBJECT>
+    <ID name="okhttp" mc="Standard.Package" uid="2391cc99-5b77-4335-b665-6392662f5a87"/>
+    <PID name="squareup" mc="Standard.Package" uid="e189d86f-6c75-4414-bcbd-242c30e44ed3"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[okhttp]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Address" mc="Standard.Class" uid="41a315b0-384e-41b3-a142-a4306a387f84"/>
+        <COMPID name="Authenticator" mc="Standard.Interface" uid="e5dded0a-5a4f-4257-97f8-e073f057f78b"/>
+        <COMPID name="Cache" mc="Standard.Class" uid="95910591-6821-49fe-bae2-323b94547421"/>
+        <COMPID name="CacheControl" mc="Standard.Class" uid="646f633f-f236-4c44-9347-a2b7ed2d46c4"/>
+        <COMPID name="Call" mc="Standard.Class" uid="e7f4a8ef-8059-4c4f-bd2e-97ce4bc411a7"/>
+        <COMPID name="Callback" mc="Standard.Interface" uid="29e64507-ccf9-449c-9bd2-be7f5248b9aa"/>
+        <COMPID name="CertificatePinner" mc="Standard.Class" uid="8db72000-052d-44a1-a5dc-a5dbfc26b4c7"/>
+        <COMPID name="Challenge" mc="Standard.Class" uid="3e703d06-aed3-4f60-8fb1-04f8fd5c9231"/>
+        <OBJECT>
+          <ID name="CipherSuite" mc="Standard.Enumeration" uid="031e3d8e-db78-49a0-917b-ed3acd81195b"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[CipherSuite]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Extension">
+              <FOREIGNID name="JavaEnumeration" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0262-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <COMPID name="Connection" mc="Standard.Class" uid="a8716149-fdbb-4f04-88c7-38eb98186a9a"/>
+        <COMPID name="ConnectionPool" mc="Standard.Class" uid="37e6e817-6863-411d-9213-ccb50a609d4e"/>
+        <COMPID name="ConnectionSpec" mc="Standard.Class" uid="85c308d6-f9ed-41b2-9932-c01d70326038"/>
+        <COMPID name="Credentials" mc="Standard.Class" uid="170c7977-4187-4425-abb3-6d238c04e78f"/>
+        <COMPID name="Dispatcher" mc="Standard.Class" uid="25025b8b-d0f1-44c7-8a16-071177d00275"/>
+        <COMPID name="FormEncodingBuilder" mc="Standard.Class" uid="b9e3443b-936e-4257-b4ce-8d2df41f3987"/>
+        <COMPID name="Handshake" mc="Standard.Class" uid="f09324a5-c15c-478a-ae4b-ee32b2916c67"/>
+        <COMPID name="Headers" mc="Standard.Class" uid="63bd37e0-17e3-455f-808c-31183b723394"/>
+        <COMPID name="Interceptor" mc="Standard.Interface" uid="6fd7ab51-9e88-4a7b-8908-b6036c9f1116"/>
+        <COMPID name="MediaType" mc="Standard.Class" uid="aca40cc0-3b69-4ab3-9fd9-815229031cbd"/>
+        <COMPID name="MultipartBuilder" mc="Standard.Class" uid="26602c3b-f5eb-4442-a827-411e863a7c29"/>
+        <COMPID name="OkHttpClient" mc="Standard.Class" uid="f66c1b2f-f7fa-45fd-bafb-6ce01c251336"/>
+        <OBJECT>
+          <ID name="Protocol" mc="Standard.Enumeration" uid="992b213e-556c-4e10-aa5a-bc0386b10f40"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[Protocol]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Extension">
+              <FOREIGNID name="JavaEnumeration" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0262-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <COMPID name="Request" mc="Standard.Class" uid="96047501-b5d6-4f56-858a-f218f923e2cf"/>
+        <COMPID name="RequestBody" mc="Standard.Class" uid="013be2a0-4dfb-4f5f-b0ff-ed153b9cb372"/>
+        <COMPID name="Response" mc="Standard.Class" uid="95645f79-cae8-497f-8c3a-adb712669acf"/>
+        <COMPID name="ResponseBody" mc="Standard.Class" uid="db50f325-5362-4216-bbbb-53e5e8af345b"/>
+        <COMPID name="Route" mc="Standard.Class" uid="3ec47847-a4a3-4adb-83db-6d52004026d0"/>
+        <OBJECT>
+          <ID name="TlsVersion" mc="Standard.Enumeration" uid="dfdd53a5-0277-4f55-9bcf-f972053d93bf"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[TlsVersion]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Extension">
+              <FOREIGNID name="JavaEnumeration" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0262-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <COMPID name="internal" mc="Standard.Package" uid="c06e71f3-4720-4368-b503-adc3524dc62e"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="internal" version="4">
+  <OBJECT>
+    <ID name="internal" mc="Standard.Package" uid="bc78232d-d8d1-4e4d-9822-57fbee84df44"/>
+    <PID name="uriresolver" mc="Standard.Package" uid="ec4084b5-1782-49a0-96f3-abf3e010f43a"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[internal]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ExtensibleURIResolver" mc="Standard.Class" uid="ff2a6927-d6a7-4649-b344-bf6047afd56a"/>
+        <COMPID name="URI" mc="Standard.Class" uid="28398fd2-0e1f-4698-bb49-60389b341062"/>
+        <COMPID name="URIResolverExtensionDescriptor" mc="Standard.Class" uid="3c2be75c-6159-455e-a792-bb0dcf24adff"/>
+        <COMPID name="URIResolverExtensionRegistry" mc="Standard.Class" uid="14f2c555-103d-42b8-8e5a-c39714d80650"/>
+        <COMPID name="URIResolverExtensionRegistryReader" mc="Standard.Class" uid="daddde08-d7e7-4ffe-8d67-dd4eabc3aead"/>
+        <COMPID name="provisional" mc="Standard.Package" uid="9b7bd6ae-96d9-4a66-a94c-143faa56c187"/>
+        <COMPID name="util" mc="Standard.Package" uid="9b880b19-f865-437d-9bd2-90a547b59188"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

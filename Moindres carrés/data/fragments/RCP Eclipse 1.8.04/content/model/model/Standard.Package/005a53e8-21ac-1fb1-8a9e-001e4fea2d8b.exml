@@ -1,0 +1,75 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="handlers" version="4">
+  <OBJECT>
+    <ID name="handlers" mc="Standard.Package" uid="005a53e8-21ac-1fb1-8a9e-001e4fea2d8b"/>
+    <PID name="internal" mc="Standard.Package" uid="0015be4a-21ac-1fb1-8a9e-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[handlers]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractSaveHandler" mc="Standard.Class" uid="005d785c-21ac-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ActionCommandMappingService" mc="Standard.Class" uid="006c2366-21ac-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ActionDelegateHandlerProxy" mc="Standard.Class" uid="005be24e-21ac-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ActiveContextInfoHandler" mc="Standard.Class" uid="005a71b6-21ac-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="CloseAllPerspectivesHandler" mc="Standard.Class" uid="0069e1be-21ac-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ClosePartHandler" mc="Standard.Class" uid="00614d10-21ac-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ClosePerspectiveHandler" mc="Standard.Class" uid="0067f386-21ac-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="CommandLegacyActionWrapper" mc="Standard.Class" uid="00648d4a-21ac-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ContextMenuHandler" mc="Standard.Class" uid="00645bae-21ac-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="CyclePageHandler" mc="Standard.Class" uid="005b216a-21ac-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="DirtyStateTracker" mc="Standard.Class" uid="00693c82-21ac-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="DisplayHelpHandler" mc="Standard.Class" uid="00660f26-21ac-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="DynamicHelpHandler" mc="Standard.Class" uid="005ff460-21ac-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="E4HandlerProxy" mc="Standard.Class" uid="006adac4-21ac-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="EditActionSetsHandler" mc="Standard.Class" uid="0063955c-21ac-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ExecutableExtensionHandler" mc="Standard.Class" uid="0066b2aa-21ac-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="HandlerPersistence" mc="Standard.Class" uid="0060b3c8-21ac-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="HandlerProxy" mc="Standard.Class" uid="006782b6-21ac-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="HelpContentsHandler" mc="Standard.Class" uid="005af94c-21ac-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="HelpSearchHandler" mc="Standard.Class" uid="005cee6e-21ac-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="IActionCommandMappingService" mc="Standard.Interface" uid="005dd7c0-21ac-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="IWorkbenchWindowHandlerDelegate" mc="Standard.Interface" uid="006aa2e8-21ac-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="IntroHandler" mc="Standard.Class" uid="005f915a-21ac-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="LegacyHandlerListenerWrapper" mc="Standard.Class" uid="00685e8e-21ac-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="LegacyHandlerProxy" mc="Standard.Class" uid="00653d80-21ac-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="LegacyHandlerService" mc="Standard.Class" uid="0061ac4c-21ac-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="LegacyHandlerWrapper" mc="Standard.Class" uid="0062d2e8-21ac-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="LockToolBarHandler" mc="Standard.Class" uid="0064dab6-21ac-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="MaximizePartHandler" mc="Standard.Class" uid="005d17e0-21ac-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="MinimizePartHandler" mc="Standard.Class" uid="006718c6-21ac-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="NewEditorHandler" mc="Standard.Class" uid="00664068-21ac-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="OpenInNewWindowHandler" mc="Standard.Class" uid="00659f50-21ac-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="PinEditorHandler" mc="Standard.Class" uid="006269d4-21ac-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="PropertyDialogHandler" mc="Standard.Class" uid="0063326a-21ac-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="QuickMenuHandler" mc="Standard.Class" uid="006e5de8-21ac-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="QuitHandler" mc="Standard.Class" uid="005bb9ae-21ac-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ResetPerspectiveHandler" mc="Standard.Class" uid="0068c7a2-21ac-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="RestartWorkbenchHandler" mc="Standard.Class" uid="005f6586-21ac-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ReuseEditorTester" mc="Standard.Class" uid="006a4a50-21ac-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="SaveAllHandler" mc="Standard.Class" uid="38c71b38-b1d4-406c-84c0-88975a73564c"/>
+        <COMPID name="SaveAsHandler" mc="Standard.Class" uid="006c8bd0-21ac-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="SaveHandler" mc="Standard.Class" uid="6ab7d784-ce7f-4f2e-aecc-a2d33127bfc9"/>
+        <COMPID name="SavePerspectiveHandler" mc="Standard.Class" uid="005ef312-21ac-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="SelectAllHandler" mc="Standard.Class" uid="0060223c-21ac-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ShowKeyAssistHandler" mc="Standard.Class" uid="005c91c6-21ac-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ShowPreferencePageHandler" mc="Standard.Class" uid="00689426-21ac-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="SpyHandler" mc="Standard.Class" uid="006b46b2-21ac-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ToggleCoolbarHandler" mc="Standard.Class" uid="0063f588-21ac-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="TraversePageHandler" mc="Standard.Class" uid="005a9ae2-21ac-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="WidgetMethodHandler" mc="Standard.Class" uid="006bbaac-21ac-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="WizardHandler" mc="Standard.Class" uid="006cf868-21ac-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="WorkbenchWindowHandlerDelegate" mc="Standard.Class" uid="005e60b4-21ac-1fb1-8a9e-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

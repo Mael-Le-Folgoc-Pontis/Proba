@@ -1,0 +1,55 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="core" version="4">
+  <OBJECT>
+    <ID name="core" mc="Standard.Package" uid="005724f2-21b0-1fb1-8a9e-001e4fea2d8b"/>
+    <PID name="internal" mc="Standard.Package" uid="004934be-21b0-1fb1-8a9e-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[core]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractBundle" mc="Standard.Class" uid="0059d594-21b0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="AliasMapper" mc="Standard.Class" uid="0065b490-21b0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="BundleContextImpl" mc="Standard.Class" uid="00594552-21b0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="BundleFragment" mc="Standard.Class" uid="0058b2f4-21b0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="BundleHost" mc="Standard.Class" uid="00654f0a-21b0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="BundleRepository" mc="Standard.Class" uid="0062cce4-21b0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="BundleResourceHandler" mc="Standard.Class" uid="0060fb6c-21b0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="BundleSource" mc="Standard.Class" uid="005742ac-21b0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="BundleURLConnection" mc="Standard.Class" uid="005cfecc-21b0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ConsoleManager" mc="Standard.Class" uid="005c45fe-21b0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ConsoleMsg" mc="Standard.Class" uid="0065e6ea-21b0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="Constants" mc="Standard.Class" uid="00667b46-21b0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="CoreResolverHookFactory" mc="Standard.Class" uid="00632f40-21b0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="EquinoxLauncher" mc="Standard.Class" uid="00606738-21b0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ExportedPackageImpl" mc="Standard.Class" uid="0057f724-21b0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="FilterImpl" mc="Standard.Class" uid="0066dd0c-21b0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="Framework" mc="Standard.Class" uid="00615f9e-21b0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="FrameworkCommandInterpreter" mc="Standard.Class" uid="005d5c82-21b0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="FrameworkCommandProvider" mc="Standard.Class" uid="005fbd38-21b0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="FrameworkConsole" mc="Standard.Class" uid="005be1d6-21b0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="FrameworkConsoleSession" mc="Standard.Class" uid="00695686-21b0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="FrameworkProperties" mc="Standard.Class" uid="005b85ba-21b0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="InternalSystemBundle" mc="Standard.Class" uid="005df430-21b0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ManifestLocalization" mc="Standard.Class" uid="005ac9fe-21b0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="Msg" mc="Standard.Class" uid="00576a70-21b0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="PackageAdminImpl" mc="Standard.Class" uid="0064650e-21b0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ReferenceInputStream" mc="Standard.Class" uid="0068f2b8-21b0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="StartLevelManager" mc="Standard.Class" uid="006857d6-21b0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="SystemBundleActivator" mc="Standard.Class" uid="005f29d6-21b0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="Tokenizer" mc="Standard.Class" uid="005889c8-21b0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="UniversalUniqueIdentifier" mc="Standard.Class" uid="006a5162-21b0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="Util" mc="Standard.Class" uid="006924b8-21b0-1fb1-8a9e-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

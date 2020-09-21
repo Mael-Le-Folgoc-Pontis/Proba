@@ -1,0 +1,60 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="impl" version="4">
+  <OBJECT>
+    <ID name="impl" mc="Standard.Package" uid="1fdff28a-170b-40b2-bc18-eedc3c90c534"/>
+    <PID name="setup" mc="Standard.Package" uid="6a6ae1bc-e3c1-4aa8-ad3a-67deb1afa397"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[impl]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AttributeRuleImpl" mc="Standard.Class" uid="362fb6d9-1df0-4ecc-83ab-fff0b4dcd98a"/>
+        <COMPID name="CatalogSelectionImpl" mc="Standard.Class" uid="524d30f1-829c-4a88-90b6-317c2b09816b"/>
+        <COMPID name="CompoundTaskImpl" mc="Standard.Class" uid="ab875461-948c-40ba-aef0-377e4fd4d11e"/>
+        <COMPID name="DynamicSetupTaskImpl" mc="Standard.Class" uid="d81ae68e-572d-4178-a1cc-ac92cad3bc04"/>
+        <COMPID name="EclipseIniTaskImpl" mc="Standard.Class" uid="9dce27ff-c812-4d96-ab60-7fe28a7200b5"/>
+        <COMPID name="IndexImpl" mc="Standard.Class" uid="1d011b79-34ef-4fd2-92b5-bef7c3d75b24"/>
+        <COMPID name="InstallationImpl" mc="Standard.Class" uid="9e9c5484-d17e-4468-b3bc-5828e92b6ad8"/>
+        <COMPID name="InstallationTaskImpl" mc="Standard.Class" uid="900ff101-e89a-49c5-801f-b497fa9962ee"/>
+        <COMPID name="InstallationToWorkspacesMapEntryImpl" mc="Standard.Class" uid="a52311a6-b212-46c9-bc59-b9b045a047de"/>
+        <COMPID name="LinkLocationTaskImpl" mc="Standard.Class" uid="3fb339d0-ba22-46ef-8969-d7501fa6b7d7"/>
+        <COMPID name="LocationCatalogImpl" mc="Standard.Class" uid="75e6d725-6052-42b6-86cc-36343bbe0bd2"/>
+        <COMPID name="PreferenceTaskImpl" mc="Standard.Class" uid="6de5839b-2080-46f4-978a-50cc745c264a"/>
+        <COMPID name="ProductCatalogImpl" mc="Standard.Class" uid="761f889b-8368-4391-8e22-e8c17711e682"/>
+        <COMPID name="ProductImpl" mc="Standard.Class" uid="4df0cedc-2c9c-4b41-ab7b-06918898e06a"/>
+        <COMPID name="ProductToProductVersionMapEntryImpl" mc="Standard.Class" uid="56ca664e-3c31-4fbb-a5e6-7bbf656ff8fa"/>
+        <COMPID name="ProductVersionImpl" mc="Standard.Class" uid="17721b55-976c-4f4f-a6a8-31721750cbc7"/>
+        <COMPID name="ProjectCatalogImpl" mc="Standard.Class" uid="d86d7ea8-dc87-49e2-bd32-dacf54de8d09"/>
+        <COMPID name="ProjectImpl" mc="Standard.Class" uid="8f1f0809-bba1-4adb-9336-58d363169a2f"/>
+        <COMPID name="ProjectToStreamMapEntryImpl" mc="Standard.Class" uid="3d6e0b29-6b2c-4567-9bfe-9e075dc674e4"/>
+        <COMPID name="RedirectionTaskImpl" mc="Standard.Class" uid="db7fb0dc-af78-4af6-9735-eb374353733c"/>
+        <COMPID name="ResourceCopyTaskImpl" mc="Standard.Class" uid="0edfdd52-32cb-48b8-945d-ab44dd09c549"/>
+        <COMPID name="ResourceCreationTaskImpl" mc="Standard.Class" uid="91913498-5142-45c5-b5d1-136db00685f4"/>
+        <COMPID name="ScopeImpl" mc="Standard.Class" uid="603c945d-145d-4c4a-8f0a-dc732d028097"/>
+        <COMPID name="SetupFactoryImpl" mc="Standard.Class" uid="b2164562-a482-42c9-8a2f-0138d8d0cdbe"/>
+        <COMPID name="SetupPackageImpl" mc="Standard.Class" uid="f8b11926-97cd-4fd9-9dea-a9f3e549fee7"/>
+        <COMPID name="SetupTaskContainerImpl" mc="Standard.Class" uid="fabb91ad-bf5a-4a5e-a3ac-1014493bae36"/>
+        <COMPID name="SetupTaskImpl" mc="Standard.Class" uid="aa595c14-0408-421f-8ed6-725b2002264e"/>
+        <COMPID name="StreamImpl" mc="Standard.Class" uid="88292933-020a-4414-a72c-375b47e029d8"/>
+        <COMPID name="StringSubstitutionTaskImpl" mc="Standard.Class" uid="d0f9e85c-0e2e-421e-8d3c-9f289063c1ce"/>
+        <COMPID name="TextModificationImpl" mc="Standard.Class" uid="8773f457-2042-4399-8253-1f57b5440394"/>
+        <COMPID name="TextModifyTaskImpl" mc="Standard.Class" uid="9790bfd4-eab2-4096-8163-4443849b4ce4"/>
+        <COMPID name="UserImpl" mc="Standard.Class" uid="3ebd2d68-13fb-48f6-ac67-aaec3fdcea5a"/>
+        <COMPID name="VariableChoiceImpl" mc="Standard.Class" uid="ca37799f-0e05-41d6-a2c0-3565b73ebacf"/>
+        <COMPID name="VariableTaskImpl" mc="Standard.Class" uid="5c507fc3-93c8-417c-b562-b19f696978ce"/>
+        <COMPID name="WorkspaceImpl" mc="Standard.Class" uid="ccf1383e-3d5b-4559-b929-3c18954e4df6"/>
+        <COMPID name="WorkspaceTaskImpl" mc="Standard.Class" uid="692fe377-c139-4ace-bd8c-eac9f9b51996"/>
+        <COMPID name="WorkspaceToInstallationsMapEntryImpl" mc="Standard.Class" uid="f96118e6-6dfd-46c8-bdf1-c38c99e11832"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

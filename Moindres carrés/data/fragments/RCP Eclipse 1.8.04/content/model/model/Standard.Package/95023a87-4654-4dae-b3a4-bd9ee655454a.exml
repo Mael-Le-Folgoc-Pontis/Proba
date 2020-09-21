@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="util" version="4">
+  <OBJECT>
+    <ID name="util" mc="Standard.Package" uid="95023a87-4654-4dae-b3a4-bd9ee655454a"/>
+    <PID name="preferences" mc="Standard.Package" uid="e025a1b4-8db6-4ca1-b554-5b8e871d5cad"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[util]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="PreferencesAdapterFactory" mc="Standard.Class" uid="10f7a2f8-a9d6-443a-9b08-eb5d6f6661b0"/>
+        <COMPID name="PreferencesRecorder" mc="Standard.Class" uid="77fc1705-5942-4d71-b241-11b7378bcdc1"/>
+        <COMPID name="PreferencesSwitch" mc="Standard.Class" uid="92942459-02bf-413c-a2b5-9204212eaf16"/>
+        <COMPID name="PreferencesUtil" mc="Standard.Class" uid="e7c87a14-ba89-4a9d-8c17-0503b487b818"/>
+        <COMPID name="PreferencesValidator" mc="Standard.Class" uid="dcaa868f-421a-43c8-965c-a841f9c57573"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

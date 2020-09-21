@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="core" version="4">
+  <OBJECT>
+    <ID name="core" mc="Standard.Package" uid="bd4f936f-8e0b-44a8-a98c-5a24bd236770"/>
+    <PID name="context" mc="Standard.Package" uid="d1429e99-f512-4036-a20d-9c58afd6635b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[core]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractContextContributor" mc="Standard.Class" uid="56ecba5b-5d8a-4c1f-8c65-208b8d257bf3"/>
+        <COMPID name="AbstractContextListener" mc="Standard.Class" uid="7053df0d-d9e5-430e-9004-f030cff6e8e0"/>
+        <COMPID name="AbstractContextStructureBridge" mc="Standard.Class" uid="50eb8691-7d33-442a-9249-051c6520fc0c"/>
+        <COMPID name="ContextChangeEvent" mc="Standard.Class" uid="0877b27f-4800-43f5-8cc1-b12ff2e4b4d8"/>
+        <COMPID name="ContextComputationStrategy" mc="Standard.Class" uid="81c8156a-9928-493f-afdf-697c97c4c48d"/>
+        <COMPID name="ContextCore" mc="Standard.Class" uid="1ed0aadd-f165-4faf-91f3-e1121aff18b2"/>
+        <COMPID name="IContextContributor" mc="Standard.Interface" uid="70ad7c62-22d0-4c81-a175-59a2175d5e67"/>
+        <COMPID name="IContextListener" mc="Standard.Interface" uid="2434e6f5-faf0-4c51-a484-5be3234dcad8"/>
+        <COMPID name="IContextStore" mc="Standard.Interface" uid="5b4f900c-4948-47b4-a997-1453f0c0d609"/>
+        <COMPID name="IDegreeOfInterest" mc="Standard.Interface" uid="ec27a90e-6f7e-4e0b-afc8-6ebe9087aab2"/>
+        <COMPID name="IImplicitlyIntersting" mc="Standard.Interface" uid="3fdcdde5-337e-48d3-8706-a41ef9be19f9"/>
+        <COMPID name="IInteractionContext" mc="Standard.Interface" uid="abe3773f-0072-455a-9081-1bc210526bf4"/>
+        <COMPID name="IInteractionContextManager" mc="Standard.Interface" uid="403d6a6e-c5a9-480e-b2c7-f5336a953547"/>
+        <COMPID name="IInteractionContextScaling" mc="Standard.Interface" uid="630575c3-d959-4e4b-97ca-51b75e985377"/>
+        <COMPID name="IInteractionElement" mc="Standard.Interface" uid="6dec4f01-3f7f-4bdb-9341-2bf87b6474df"/>
+        <COMPID name="IInteractionObject" mc="Standard.Interface" uid="8eb00290-f037-4118-9c5d-3d305a213d69"/>
+        <COMPID name="IInteractionRelation" mc="Standard.Interface" uid="46713265-f610-49fc-8def-c50c1ef897ee"/>
+        <COMPID name="InterestComparator" mc="Standard.Class" uid="d2d2827f-d752-4050-8067-a5dbac72805b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

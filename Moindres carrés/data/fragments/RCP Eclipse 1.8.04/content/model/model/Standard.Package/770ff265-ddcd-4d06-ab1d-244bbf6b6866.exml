@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="routing" version="4">
+  <OBJECT>
+    <ID name="routing" mc="Standard.Package" uid="770ff265-ddcd-4d06-ab1d-244bbf6b6866"/>
+    <PID name="conn" mc="Standard.Package" uid="99a18589-0db3-4e68-b189-836df1bd39fe"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[routing]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="BasicRouteDirector" mc="Standard.Class" uid="68dbb44c-f287-4591-a36c-e06c36bcdcf1"/>
+        <COMPID name="HttpRoute" mc="Standard.Class" uid="f267e8bf-b3c2-41a8-bed1-b00adaf34383"/>
+        <COMPID name="HttpRouteDirector" mc="Standard.Interface" uid="3af02426-dacb-42c0-8c44-56248dd12340"/>
+        <COMPID name="HttpRoutePlanner" mc="Standard.Interface" uid="60b30e4c-7b20-48d2-8203-f4dfac64dfa2"/>
+        <COMPID name="RouteInfo" mc="Standard.Interface" uid="a319c790-c31b-46b3-90aa-f5772da8ec88"/>
+        <COMPID name="RouteTracker" mc="Standard.Class" uid="5e29b3c0-27d1-4764-8882-5ee83fe9754f"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

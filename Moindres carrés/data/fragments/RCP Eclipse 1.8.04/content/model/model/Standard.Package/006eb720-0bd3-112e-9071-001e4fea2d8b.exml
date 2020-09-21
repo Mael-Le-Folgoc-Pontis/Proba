@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="diff" version="4">
+  <OBJECT>
+    <ID name="diff" mc="Standard.Package" uid="006eb720-0bd3-112e-9071-001e4fea2d8b"/>
+    <PID name="core" mc="Standard.Package" uid="006d678a-0bd3-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[diff]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="DiffFilter" mc="Standard.Class" uid="006ebd2e-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FastDiffFilter" mc="Standard.Class" uid="006ec346-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IDiff" mc="Standard.Interface" uid="006ec954-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IDiffChangeEvent" mc="Standard.Interface" uid="006ed00c-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IDiffChangeListener" mc="Standard.Interface" uid="006ed6b0-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IDiffTree" mc="Standard.Interface" uid="006eddb8-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IDiffVisitor" mc="Standard.Interface" uid="006ee4e8-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IThreeWayDiff" mc="Standard.Interface" uid="006eec18-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ITwoWayDiff" mc="Standard.Interface" uid="006ef3ac-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="provider" mc="Standard.Package" uid="006fc1f6-0bd3-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

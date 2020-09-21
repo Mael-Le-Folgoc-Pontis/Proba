@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="launch" version="4">
+  <OBJECT>
+    <ID name="launch" mc="Standard.Package" uid="5681408d-e3d8-4f1b-958e-50ec2583c49b"/>
+    <PID name="internal" mc="Standard.Package" uid="ee13ee76-35f1-4b4c-99b6-18e791864d3a"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[launch]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="MavenJRETab" mc="Standard.Class" uid="f6bce695-e224-487d-a602-9c3869ca648f"/>
+        <COMPID name="MavenLaunchConfigurationTabGroup" mc="Standard.Class" uid="e3275e79-c5e1-4f2a-a200-f17fea2fd058"/>
+        <COMPID name="MavenLaunchExtensionsTab" mc="Standard.Class" uid="478cb179-5a3e-4648-980e-5d3152b819ba"/>
+        <COMPID name="MavenLaunchMainTab" mc="Standard.Class" uid="e82d0760-1a1c-4350-bfc0-5443e11e27dd"/>
+        <COMPID name="MavenRuntimeSelector" mc="Standard.Class" uid="c92279f3-f049-4013-81b8-7b2790c67206"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

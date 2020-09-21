@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="generic" version="4">
+  <OBJECT>
+    <ID name="generic" mc="Standard.Package" uid="e36df5eb-1585-4d16-8ea5-9ab1c91905c7"/>
+    <PID name="util" mc="Standard.Package" uid="acb35c6a-7f86-40a5-a987-53b18790ce47"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[generic]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="CopyPropertyTopAbstractSupport" mc="Standard.Class" uid="f7e5e23b-963d-426c-95ec-5124b0ed1150"/>
+        <COMPID name="CopyPropertyTopChildSupport" mc="Standard.Class" uid="893238ec-1ebf-42b8-b4fe-01e6291e312a"/>
+        <COMPID name="CopyPropertyTopSupport" mc="Standard.Class" uid="39c56071-8a87-4b4d-b63a-5543a2ea9daf"/>
+        <COMPID name="DescriptionDrivenFeaturesParticipator" mc="Standard.Class" uid="ffa08e40-5265-46cc-b54b-53b3dd6e48e8"/>
+        <COMPID name="LocalStaticFactoriesRootProcessor" mc="Standard.Class" uid="0b917b01-fba8-41f6-a76a-32f3d620b60a"/>
+        <COMPID name="ModelMethodPropertyChildSupport" mc="Standard.Class" uid="ec8d9e92-9e18-4f18-8fb5-318bbb1ca740"/>
+        <COMPID name="ModelMethodPropertySupport" mc="Standard.Class" uid="51268a63-0671-493c-8d23-94be04a63e8a"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="metadata" version="4">
+  <OBJECT>
+    <ID name="metadata" mc="Standard.Package" uid="0d30e6a2-04a5-4327-ae2d-f3e9cb7fb0c7"/>
+    <PID name="archetype" mc="Standard.Package" uid="15754755-ea04-4072-b80d-c868ad13cd6a"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[metadata]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractArchetypeDescriptor" mc="Standard.Class" uid="24e8aee7-9246-46c8-b11c-eb9ec4210833"/>
+        <COMPID name="ArchetypeDescriptor" mc="Standard.Class" uid="92cd66e2-28a9-4dea-8511-84c7fe302a5c"/>
+        <COMPID name="FileSet" mc="Standard.Class" uid="da96d97e-de63-4770-89ca-0e41c2aad66c"/>
+        <COMPID name="ModuleDescriptor" mc="Standard.Class" uid="8576a463-1c29-49e6-8b76-e053a1faad07"/>
+        <COMPID name="RequiredProperty" mc="Standard.Class" uid="fb0da9ca-47d6-4bc0-92bf-b196c6b94b73"/>
+        <COMPID name="io" mc="Standard.Package" uid="9260333c-e25b-4c7f-b4e8-7013d324eef8"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

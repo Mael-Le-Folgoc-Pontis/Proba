@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="runtime" version="4">
+  <OBJECT>
+    <ID name="runtime" mc="Standard.Package" uid="0034cace-0bbd-112e-9071-001e4fea2d8b"/>
+    <PID name="jasper" mc="Standard.Package" uid="002b83ba-0bbd-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[runtime]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="BodyContentImpl" mc="Standard.Class" uid="0034d168-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ELContextImpl" mc="Standard.Class" uid="0034d8fc-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ExpressionEvaluatorImpl" mc="Standard.Class" uid="0034e0c2-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HttpJspBase" mc="Standard.Class" uid="00351768-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JspApplicationContextImpl" mc="Standard.Class" uid="00351fa6-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JspContextWrapper" mc="Standard.Class" uid="00352820-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JspFactoryImpl" mc="Standard.Class" uid="003530a4-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JspFragmentHelper" mc="Standard.Class" uid="0035486e-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JspRuntimeLibrary" mc="Standard.Class" uid="003551a6-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JspSourceDependent" mc="Standard.Interface" uid="003567cc-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JspWriterImpl" mc="Standard.Class" uid="0035715e-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PageContextImpl" mc="Standard.Class" uid="0035804a-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ProtectedFunctionMapper" mc="Standard.Class" uid="00358a36-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ServletResponseWrapperInclude" mc="Standard.Class" uid="0035947c-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TagHandlerPool" mc="Standard.Class" uid="0035ae44-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TldScanner" mc="Standard.Class" uid="0035b8ee-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="VariableMapperImpl" mc="Standard.Class" uid="0035d28e-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="VariableResolverImpl" mc="Standard.Class" uid="0035dda6-0bbd-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

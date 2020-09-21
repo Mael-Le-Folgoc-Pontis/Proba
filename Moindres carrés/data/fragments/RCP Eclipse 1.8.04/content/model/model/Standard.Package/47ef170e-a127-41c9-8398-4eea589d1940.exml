@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ui" version="4">
+  <OBJECT>
+    <ID name="ui" mc="Standard.Package" uid="47ef170e-a127-41c9-8398-4eea589d1940"/>
+    <PID name="context" mc="Standard.Package" uid="bfeda6c2-f3a8-4047-b948-853f3bbcf019"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[ui]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractContextLabelProvider" mc="Standard.Class" uid="97195228-420c-4259-af2a-aeae743fd14f"/>
+        <COMPID name="BrowseFilteredListener" mc="Standard.Class" uid="9eebbe98-a82b-45c9-872a-97dbd2a81c89"/>
+        <COMPID name="ColorMap" mc="Standard.Class" uid="ae180998-ceaf-4658-91f3-e5c9533a5004"/>
+        <COMPID name="CompoundContextComputationStrategy" mc="Standard.Class" uid="1343c0dd-f988-4eac-bb80-66cc043fe865"/>
+        <COMPID name="ContentOutlineManager" mc="Standard.Class" uid="1079e7e8-1451-413f-9c62-14f61a2ae126"/>
+        <COMPID name="ContextEditorManager" mc="Standard.Class" uid="668a0fc6-0060-4e2a-9dca-d0689a50d955"/>
+        <COMPID name="ContextPopulationStrategy" mc="Standard.Class" uid="141b97a6-09db-4cdc-900f-0e3090d54bdb"/>
+        <COMPID name="ContextUiImages" mc="Standard.Class" uid="81b378dc-70d9-4122-af71-c204ae83fc80"/>
+        <COMPID name="ContextUiPlugin" mc="Standard.Class" uid="582cdb0f-2c02-413d-b381-e8a1e2e5a5c4"/>
+        <COMPID name="DoiOrderSorter" mc="Standard.Class" uid="e2fe216a-d80d-4023-be92-3de1aed861d2"/>
+        <COMPID name="FilteredChildrenDecorationDrawer" mc="Standard.Class" uid="ae74c598-3ba6-4c80-ac86-a2293fbc41ab"/>
+        <COMPID name="FocusedViewerManager" mc="Standard.Class" uid="126a7ffd-af00-468d-b6f4-bb87af7a71fd"/>
+        <COMPID name="IContextUiConstants" mc="Standard.Class" uid="034f228e-00b1-4275-b6bb-9e7cede8cf6b"/>
+        <COMPID name="IContextUiPreferenceContstants" mc="Standard.Interface" uid="f05b6822-17e3-4f63-9e61-a11a75b1295c"/>
+        <COMPID name="InterestDecorator" mc="Standard.Class" uid="057fb0f6-8e05-4d00-ac43-26f714eff95d"/>
+        <COMPID name="InterestDecoratorLightweight" mc="Standard.Class" uid="33475c0f-1633-455a-b7a6-da52e675c6fc"/>
+        <COMPID name="Messages" mc="Standard.Class" uid="571e1269-efaf-44b7-ad87-b6850ad78734"/>
+        <COMPID name="UiUtil" mc="Standard.Class" uid="a87f19df-41fa-444f-bafe-8491c01813ae"/>
+        <COMPID name="actions" mc="Standard.Package" uid="cd05427c-353d-46c0-a7c1-72781bc68ee5"/>
+        <COMPID name="commands" mc="Standard.Package" uid="0b592c84-a01c-48f8-93b2-35cbac356d57"/>
+        <COMPID name="preferences" mc="Standard.Package" uid="ff9bc111-4cc4-4a0a-a7c3-be2207a54b56"/>
+        <COMPID name="state" mc="Standard.Package" uid="7fb16074-269b-4943-bb59-d402298845bb"/>
+        <COMPID name="views" mc="Standard.Package" uid="b5d0c21b-a7ba-4a03-98e5-4b8e7481b655"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

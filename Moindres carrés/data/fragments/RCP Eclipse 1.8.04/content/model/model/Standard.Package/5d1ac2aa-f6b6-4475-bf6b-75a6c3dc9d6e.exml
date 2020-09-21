@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="document" version="4">
+  <OBJECT>
+    <ID name="document" mc="Standard.Package" uid="5d1ac2aa-f6b6-4475-bf6b-75a6c3dc9d6e"/>
+    <PID name="provisional" mc="Standard.Package" uid="0156578e-d286-42e8-93b9-7aad696df6c1"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[document]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="IDOMAttr" mc="Standard.Interface" uid="e6f91496-1ff7-435d-bc61-2bb282969c89"/>
+        <COMPID name="IDOMDocument" mc="Standard.Interface" uid="ee11fb70-9cab-4f4e-9024-21fa365fb3b4"/>
+        <COMPID name="IDOMDocumentType" mc="Standard.Interface" uid="11a23262-3134-462b-bf84-eabfd88f5a7b"/>
+        <COMPID name="IDOMElement" mc="Standard.Interface" uid="909e26e9-abc8-4063-be70-2f95648f3dd1"/>
+        <COMPID name="IDOMEntity" mc="Standard.Interface" uid="26a6a8f5-88c0-4e2d-a132-131e225c305f"/>
+        <COMPID name="IDOMImplementation" mc="Standard.Interface" uid="05849efd-e12b-44b4-882a-6042b9ca22b8"/>
+        <COMPID name="IDOMModel" mc="Standard.Interface" uid="c300f8c8-6498-406f-88ed-77deaffe5aa3"/>
+        <COMPID name="IDOMNode" mc="Standard.Interface" uid="418eb85f-b86d-4f7c-bc57-1cd9e75f1fe1"/>
+        <COMPID name="IDOMText" mc="Standard.Interface" uid="92b3fcfc-d87f-4c4d-ba61-891f6b66c3d3"/>
+        <COMPID name="ISourceGenerator" mc="Standard.Interface" uid="e90decc9-820a-427a-9f52-7d139aa6cf80"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

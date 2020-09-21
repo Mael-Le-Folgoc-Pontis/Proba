@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="token" version="4">
+  <OBJECT>
+    <ID name="token" mc="Standard.Package" uid="1af0e588-6a90-401b-93b6-5c78895a7da2"/>
+    <PID name="core" mc="Standard.Package" uid="b391b2db-b0b9-46c8-8a9f-76f86e26630c"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[token]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AnchorReplacementToken" mc="Standard.Class" uid="4769c291-8f71-497b-9cd8-926168e14402"/>
+        <COMPID name="EscapedCharacterReplacementToken" mc="Standard.Class" uid="3dab4d89-b25e-4b22-a239-bdaa8e23e664"/>
+        <COMPID name="HorizontalRuleToken" mc="Standard.Class" uid="1851c352-dfc2-48a7-af31-6c5fc2388b69"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

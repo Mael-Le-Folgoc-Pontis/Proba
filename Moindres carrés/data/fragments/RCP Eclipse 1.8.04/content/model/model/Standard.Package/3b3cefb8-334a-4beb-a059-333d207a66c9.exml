@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="actions" version="4">
+  <OBJECT>
+    <ID name="actions" mc="Standard.Package" uid="3b3cefb8-334a-4beb-a059-333d207a66c9"/>
+    <PID name="common" mc="Standard.Package" uid="c4780530-3edd-4852-a6df-c96b2a60b2ea"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[actions]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AddXSDAnyAttributeAction" mc="Standard.Class" uid="5891c287-25c7-4910-9635-ad7a9b757cf5"/>
+        <COMPID name="AddXSDAnyElementAction" mc="Standard.Class" uid="a69d5451-aa5d-4238-a478-5b042b71dbdc"/>
+        <COMPID name="AddXSDAttributeDeclarationAction" mc="Standard.Class" uid="ba0a2be6-cc4d-4ede-a1be-5a01d8e7a88f"/>
+        <COMPID name="AddXSDAttributeGroupDefinitionAction" mc="Standard.Class" uid="f5cc094c-1018-4843-a527-5e9bf62bcb28"/>
+        <COMPID name="AddXSDComplexTypeDefinitionAction" mc="Standard.Class" uid="384af16c-63c5-41f1-9f55-91917e2ae504"/>
+        <COMPID name="AddXSDElementAction" mc="Standard.Class" uid="ee9520aa-b748-49c0-8623-833993b2bf2a"/>
+        <COMPID name="AddXSDEnumerationFacetAction" mc="Standard.Class" uid="e68784e2-4800-4f9a-a33d-b85224ac4d82"/>
+        <COMPID name="AddXSDModelGroupAction" mc="Standard.Class" uid="60850e65-2aac-4674-a951-1a9c88cf4b3e"/>
+        <COMPID name="AddXSDModelGroupDefinitionAction" mc="Standard.Class" uid="26fb5d35-8c9a-43c4-9ac1-e8be72da12c6"/>
+        <COMPID name="AddXSDRedefinableContentAction" mc="Standard.Class" uid="6248d43d-864f-4ee7-b8d6-f3d7ab5f05c9"/>
+        <COMPID name="AddXSDRedefinedAttributeGroupAction" mc="Standard.Class" uid="c512855a-7b60-4ad9-898f-0065ec45241e"/>
+        <COMPID name="AddXSDRedefinedComplexTypeAction" mc="Standard.Class" uid="91f7a14c-111c-4cdc-986e-1b043caeb58f"/>
+        <COMPID name="AddXSDRedefinedModelGroupAction" mc="Standard.Class" uid="ac110e43-9666-4375-90cd-265492d20ae3"/>
+        <COMPID name="AddXSDRedefinedSimpleTypeAction" mc="Standard.Class" uid="311ed9da-57ef-4e68-ad0d-756a13138021"/>
+        <COMPID name="AddXSDSchemaDirectiveAction" mc="Standard.Class" uid="70c6fa43-62e3-48e1-8c9c-94322e607cd5"/>
+        <COMPID name="AddXSDSimpleTypeDefinitionAction" mc="Standard.Class" uid="7d12673c-b8bd-4fe4-bfd7-10c49ca8856c"/>
+        <COMPID name="DeleteXSDConcreteComponentAction" mc="Standard.Class" uid="66b7e48e-b996-4ad9-8fa7-b216f69e35c6"/>
+        <COMPID name="OpenInNewEditor" mc="Standard.Class" uid="b7702eae-89b2-4a37-b451-72e06571e98b"/>
+        <COMPID name="SetBaseTypeAction" mc="Standard.Class" uid="c6e7d836-2295-455b-a2e2-3cb4c28c2538"/>
+        <COMPID name="SetMultiplicityAction" mc="Standard.Class" uid="c5ba8499-aef9-48f6-8b33-1e37e457ff7d"/>
+        <COMPID name="SetTypeAction" mc="Standard.Class" uid="ac555a8c-6def-4b45-92b0-8f3a7abe7be6"/>
+        <COMPID name="XSDBaseAction" mc="Standard.Class" uid="860429e5-d386-4459-b673-6e7446e94195"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

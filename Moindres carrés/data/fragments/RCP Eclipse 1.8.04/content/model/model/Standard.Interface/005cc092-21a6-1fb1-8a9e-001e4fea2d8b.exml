@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="IEclipsePreferences" version="4">
+  <OBJECT>
+    <ID name="IEclipsePreferences" mc="Standard.Interface" uid="005cc092-21a6-1fb1-8a9e-001e4fea2d8b"/>
+    <PID name="preferences" mc="Standard.Package" uid="00587942-21a6-1fb1-8a9e-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">true</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[IEclipsePreferences]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="INodeChangeListener" mc="Standard.Interface" uid="005d2ef6-21a6-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="IPreferenceChangeListener" mc="Standard.Interface" uid="005d6b00-21a6-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="NodeChangeEvent" mc="Standard.Class" uid="005d11b4-21a6-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="PreferenceChangeEvent" mc="Standard.Class" uid="005d4d00-21a6-1fb1-8a9e-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaInterface" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0267-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

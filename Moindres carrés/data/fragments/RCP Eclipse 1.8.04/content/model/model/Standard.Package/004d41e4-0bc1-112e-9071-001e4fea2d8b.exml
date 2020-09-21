@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="console" version="4">
+  <OBJECT>
+    <ID name="console" mc="Standard.Package" uid="004d41e4-0bc1-112e-9071-001e4fea2d8b"/>
+    <PID name="views" mc="Standard.Package" uid="0049cc26-0bc1-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[console]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ConsoleLineNotifier" mc="Standard.Class" uid="004d4842-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ConsoleMessages" mc="Standard.Class" uid="004d4fa4-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ConsoleRemoveAllTerminatedAction" mc="Standard.Class" uid="004d5710-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ConsoleRemoveLaunchAction" mc="Standard.Class" uid="004d5e4a-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ConsoleShowPreferencesAction" mc="Standard.Class" uid="004d6656-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ConsoleTerminateAction" mc="Standard.Class" uid="004d6e44-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ProcessConsole" mc="Standard.Class" uid="004d7628-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ProcessConsoleManager" mc="Standard.Class" uid="004da210-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ProcessConsolePageParticipant" mc="Standard.Class" uid="004daa6c-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ProcessTypePropertyTester" mc="Standard.Class" uid="004db980-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ShowStandardErrorAction" mc="Standard.Class" uid="004dc240-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ShowStandardOutAction" mc="Standard.Class" uid="004dcb46-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ShowWhenContentChangesAction" mc="Standard.Class" uid="004dd44c-0bc1-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

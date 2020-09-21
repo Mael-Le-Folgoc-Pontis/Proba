@@ -1,0 +1,83 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="zip" version="4">
+  <OBJECT>
+    <ID name="zip" mc="Standard.Package" uid="dcd6aedb-f2a4-4a73-9501-d28289d54840"/>
+    <PID name="archivers" mc="Standard.Package" uid="4532fdb7-0b49-4b6f-a887-708552929eb5"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[zip]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractUnicodeExtraField" mc="Standard.Class" uid="d49a7459-7b4d-4e48-a4b7-777db162eebc"/>
+        <COMPID name="AsiExtraField" mc="Standard.Class" uid="275685ad-8a5c-488f-8d03-106176165fd5"/>
+        <COMPID name="ExtraFieldUtils" mc="Standard.Class" uid="f2997a40-ce38-4fb8-b9a1-d00cad769343"/>
+        <COMPID name="GeneralPurposeBit" mc="Standard.Class" uid="3b51d788-dfd6-4b96-a3c7-0b02af063942"/>
+        <COMPID name="JarMarker" mc="Standard.Class" uid="f76035db-6e54-490e-b361-0180791e92ea"/>
+        <COMPID name="UnicodeCommentExtraField" mc="Standard.Class" uid="0363a82c-951c-4996-bdfd-fa5e4a814663"/>
+        <COMPID name="UnicodePathExtraField" mc="Standard.Class" uid="c5812082-6b8f-434f-87dd-cd9d10c06034"/>
+        <COMPID name="UnixStat" mc="Standard.Interface" uid="894fbf83-f4fe-4829-be2e-edb398fde568"/>
+        <COMPID name="UnparseableExtraFieldData" mc="Standard.Class" uid="72664c00-3fca-4456-85c4-5ae4d8653963"/>
+        <COMPID name="UnrecognizedExtraField" mc="Standard.Class" uid="3512cfd2-0c1f-4c27-ac35-74e96209315c"/>
+        <COMPID name="UnsupportedZipFeatureException" mc="Standard.Class" uid="88f462da-fba4-473a-9e9f-e217090bb10d"/>
+        <COMPID name="X5455_ExtendedTimestamp" mc="Standard.Class" uid="fee291fd-2e86-407a-8f82-5851bc7ca9e3"/>
+        <COMPID name="X7875_NewUnix" mc="Standard.Class" uid="bc6ec163-be53-4127-a192-52ae7da45623"/>
+        <COMPID name="Zip64ExtendedInformationExtraField" mc="Standard.Class" uid="3530f76e-4bad-4728-a88b-b86be5734a5a"/>
+        <OBJECT>
+          <ID name="Zip64Mode" mc="Standard.Enumeration" uid="e24b2996-f1a6-4e2e-abfc-289169011cec"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[Zip64Mode]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Extension">
+              <FOREIGNID name="JavaEnumeration" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0262-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <COMPID name="Zip64RequiredException" mc="Standard.Class" uid="7c76f45f-0f5e-4c5e-bb4a-2d6ff2ea1906"/>
+        <COMPID name="ZipArchiveEntry" mc="Standard.Class" uid="e351c3c9-bc0a-45a9-96a4-6550a8bda393"/>
+        <COMPID name="ZipArchiveInputStream" mc="Standard.Class" uid="8cf78fa7-71d3-496e-92fd-8d11e5d6bfa2"/>
+        <COMPID name="ZipArchiveOutputStream" mc="Standard.Class" uid="1c3b85e0-09ce-4650-9511-0b936144f5a5"/>
+        <COMPID name="ZipEightByteInteger" mc="Standard.Class" uid="54a6de7f-1064-4a20-8dc1-87e017c2169f"/>
+        <COMPID name="ZipEncoding" mc="Standard.Interface" uid="bf8a4ce9-fccc-4b2d-b094-50029769c5d4"/>
+        <COMPID name="ZipEncodingHelper" mc="Standard.Class" uid="83e7fd58-9bf3-48d2-8a23-b66c6b7a7d22"/>
+        <COMPID name="ZipExtraField" mc="Standard.Interface" uid="2b9f9440-9ade-4ae7-afed-cd5f93f85b5e"/>
+        <COMPID name="ZipFile" mc="Standard.Class" uid="5737fa1d-de40-42e1-ad21-b2c95812d292"/>
+        <COMPID name="ZipLong" mc="Standard.Class" uid="d1835d97-e332-46e2-910c-184fd270660f"/>
+        <OBJECT>
+          <ID name="ZipMethod" mc="Standard.Enumeration" uid="0018edce-727c-4fec-806a-b5183fadfb07"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[ZipMethod]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Extension">
+              <FOREIGNID name="JavaEnumeration" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0262-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <COMPID name="ZipShort" mc="Standard.Class" uid="a571183c-4628-478a-8268-5d91fb6f7c4a"/>
+        <COMPID name="ZipUtil" mc="Standard.Class" uid="1d4d41d3-fba4-4980-9a9a-811b1e709499"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

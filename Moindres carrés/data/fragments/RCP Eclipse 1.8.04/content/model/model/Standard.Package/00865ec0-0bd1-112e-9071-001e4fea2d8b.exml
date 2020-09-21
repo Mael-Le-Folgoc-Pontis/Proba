@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="targetdefinition" version="4">
+  <OBJECT>
+    <ID name="targetdefinition" mc="Standard.Package" uid="00865ec0-0bd1-112e-9071-001e4fea2d8b"/>
+    <PID name="editor" mc="Standard.Package" uid="00619e46-0bd1-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[targetdefinition]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ArgumentsSection" mc="Standard.Class" uid="008664c4-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ContentPage" mc="Standard.Class" uid="00866ae6-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ContentSection" mc="Standard.Class" uid="0086711c-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DefinitionPage" mc="Standard.Class" uid="0086778e-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="EnvironmentPage" mc="Standard.Class" uid="00867e1e-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="EnvironmentSection" mc="Standard.Class" uid="008684ea-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ImplicitDependenciesSection" mc="Standard.Class" uid="00868be8-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="InformationSection" mc="Standard.Class" uid="00869322-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JRESection" mc="Standard.Class" uid="00869a98-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LocationsSection" mc="Standard.Class" uid="0086a240-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SimpleFormEntryAdapter" mc="Standard.Class" uid="0086aa38-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TargetEditor" mc="Standard.Class" uid="0086b23a-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TargetEditorContributor" mc="Standard.Class" uid="0086c644-0bd1-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

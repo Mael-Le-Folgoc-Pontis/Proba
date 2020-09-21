@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="jaxb" version="4">
+  <OBJECT>
+    <ID name="jaxb" mc="Standard.Package" uid="b4e56e4d-fe39-4c8c-8e0e-3df40accbec8"/>
+    <PID name="dom4j" mc="Standard.Package" uid="eff6051a-f8fa-491f-aac6-6e4ed7ac354f"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[jaxb]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="JAXBModifier" mc="Standard.Class" uid="068e5876-350d-4ff1-8c06-cb3e47ae11b1"/>
+        <COMPID name="JAXBObjectHandler" mc="Standard.Interface" uid="f8106538-267b-498e-b0c0-96d8e4374102"/>
+        <COMPID name="JAXBObjectModifier" mc="Standard.Interface" uid="b10f0604-3e76-44a2-b058-5e93bd056278"/>
+        <COMPID name="JAXBReader" mc="Standard.Class" uid="49a8054c-6d06-4f5e-aebb-b6c628ee86b8"/>
+        <COMPID name="JAXBWriter" mc="Standard.Class" uid="65bd5c89-a0f2-4079-8c2d-851257f0c286"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,104 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="instructions" version="4">
+  <OBJECT>
+    <ID name="instructions" mc="Standard.Package" uid="00156788-0bca-112e-9071-001e4fea2d8b"/>
+    <PID name="ast" mc="Standard.Package" uid="0012c672-0bca-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[instructions]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AndAssignmentOperator" mc="Standard.Class" uid="00156eae-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AndOperator" mc="Standard.Class" uid="001574b2-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ArrayAccess" mc="Standard.Class" uid="00157ae8-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ArrayAllocation" mc="Standard.Class" uid="00158150-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ArrayInitializerInstruction" mc="Standard.Class" uid="001587e0-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ArrayInstruction" mc="Standard.Class" uid="00158ec0-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AssignmentOperator" mc="Standard.Class" uid="001595d2-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BinaryOperator" mc="Standard.Class" uid="00159d16-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Cast" mc="Standard.Class" uid="0015a482-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CompoundInstruction" mc="Standard.Class" uid="0015ac34-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ConditionalJump" mc="Standard.Class" uid="0015b40e-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Constructor" mc="Standard.Class" uid="0015bc1a-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DivideAssignmentOperator" mc="Standard.Class" uid="0015c458-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DivideOperator" mc="Standard.Class" uid="0015ccd2-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Dup" mc="Standard.Class" uid="0015d57e-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DupX1" mc="Standard.Class" uid="0015e0be-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="EqualEqualOperator" mc="Standard.Class" uid="0015e9d8-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="GreaterEqualOperator" mc="Standard.Class" uid="0015f3c4-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="GreaterOperator" mc="Standard.Class" uid="0015fd4c-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="InstanceOfOperator" mc="Standard.Class" uid="0016071a-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Instruction" mc="Standard.Class" uid="00161106-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="InstructionSequence" mc="Standard.Class" uid="00161b24-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="InstructionsEvaluationMessages" mc="Standard.Class" uid="0016256a-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Jump" mc="Standard.Class" uid="00162ff6-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LeftShiftAssignmentOperator" mc="Standard.Class" uid="00163af0-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LeftShiftOperator" mc="Standard.Class" uid="001645cc-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LessEqualOperator" mc="Standard.Class" uid="001650ee-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LessOperator" mc="Standard.Class" uid="00165c2e-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LocalVariableCreation" mc="Standard.Class" uid="00166796-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MinusAssignmentOperator" mc="Standard.Class" uid="00167330-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MinusOperator" mc="Standard.Class" uid="00167f9c-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MultiplyAssignmentOperator" mc="Standard.Class" uid="00168ba4-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MultiplyOperator" mc="Standard.Class" uid="001697e8-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="NoOp" mc="Standard.Class" uid="0016a468-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="NotOperator" mc="Standard.Class" uid="0016b110-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="OrAssignmentOperator" mc="Standard.Class" uid="0016bdf4-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="OrOperator" mc="Standard.Class" uid="0016cb1e-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PlusAssignmentOperator" mc="Standard.Class" uid="0016d884-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PlusOperator" mc="Standard.Class" uid="0016e608-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Pop" mc="Standard.Class" uid="0016f3c8-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PostfixMinusMinusOperator" mc="Standard.Class" uid="0017019c-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PostfixPlusPlusOperator" mc="Standard.Class" uid="00170fc0-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PrefixMinusMinusOperator" mc="Standard.Class" uid="00171e48-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PrefixPlusPlusOperator" mc="Standard.Class" uid="00172cc6-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PushArrayLength" mc="Standard.Class" uid="00173b76-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PushArrayType" mc="Standard.Class" uid="00174a58-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PushBoolean" mc="Standard.Class" uid="00175962-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PushChar" mc="Standard.Class" uid="001768a8-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PushClassLiteralValue" mc="Standard.Class" uid="00177820-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PushDouble" mc="Standard.Class" uid="001787ca-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PushFieldVariable" mc="Standard.Class" uid="001797ce-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PushFloat" mc="Standard.Class" uid="0017a7dc-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PushInt" mc="Standard.Class" uid="0017b862-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PushLocalVariable" mc="Standard.Class" uid="0017c8fc-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PushLong" mc="Standard.Class" uid="0017d9be-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PushNull" mc="Standard.Class" uid="0017eab2-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PushPrimitiveType" mc="Standard.Class" uid="0017fbce-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PushStaticFieldVariable" mc="Standard.Class" uid="00180cfe-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PushString" mc="Standard.Class" uid="00181e74-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PushThis" mc="Standard.Class" uid="00183008-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PushType" mc="Standard.Class" uid="001841c4-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RemainderAssignmentOperator" mc="Standard.Class" uid="00185452-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RemainderOperator" mc="Standard.Class" uid="001866d6-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ReturnInstruction" mc="Standard.Class" uid="0018793c-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RightShiftAssignmentOperator" mc="Standard.Class" uid="00188bc0-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RightShiftOperator" mc="Standard.Class" uid="00189ebc-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RuntimeSignature" mc="Standard.Class" uid="0018b1d6-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SendMessage" mc="Standard.Class" uid="0018c522-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SendStaticMessage" mc="Standard.Class" uid="0018d8d2-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SimpleInstruction" mc="Standard.Class" uid="0018ece6-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ThrowInstruction" mc="Standard.Class" uid="001900b4-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TwiddleOperator" mc="Standard.Class" uid="001914fa-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="UnaryMinusOperator" mc="Standard.Class" uid="00192954-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="UnaryOperator" mc="Standard.Class" uid="00193dc2-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="UnaryPlusOperator" mc="Standard.Class" uid="00195276-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="UnsignedRightShiftAssignmentOperator" mc="Standard.Class" uid="00196770-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="UnsignedRightShiftOperator" mc="Standard.Class" uid="00197c6a-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Value" mc="Standard.Class" uid="001991fa-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="XfixOperator" mc="Standard.Class" uid="0019a776-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="XorAssignmentOperator" mc="Standard.Class" uid="0019bd38-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="XorOperator" mc="Standard.Class" uid="0019d322-0bca-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

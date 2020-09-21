@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="component" version="4">
+  <OBJECT>
+    <ID name="component" mc="Standard.Package" uid="6df04198-80a8-45fa-b56b-cb0e6a32ad1e"/>
+    <PID name="policy" mc="Standard.Package" uid="d99cca2e-ff34-4e51-8d4f-9f9197c876df"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[component]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="JScrollPaneLayoutEditPolicy" mc="Standard.Class" uid="6d408d3b-28f6-4fa4-b121-637fc685b76c"/>
+        <COMPID name="JSplitPaneLayoutEditPolicy" mc="Standard.Class" uid="5b8e9e7b-f35f-46ee-85ed-18952b01206e"/>
+        <COMPID name="JTabbedPaneLayoutEditPolicy" mc="Standard.Class" uid="037476d8-8848-488e-8c6e-edc6548036ad"/>
+        <COMPID name="JTabbedPaneTabLayoutEditPolicy" mc="Standard.Class" uid="82d5f299-4c9e-4450-b226-7cdaa69d899e"/>
+        <COMPID name="box" mc="Standard.Package" uid="334313ae-cb77-4abf-941e-e37ac85771fd"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

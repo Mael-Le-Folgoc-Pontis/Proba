@@ -1,0 +1,56 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="spi" version="4">
+  <OBJECT>
+    <ID name="spi" mc="Standard.Package" uid="4f0fac23-d4e0-4307-9071-277eca4f881d"/>
+    <PID name="core" mc="Standard.Package" uid="0101cad1-4db3-4b5d-b30b-1e1efbf9bd6c"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[spi]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AppenderAttachable" mc="Standard.Interface" uid="9248d05f-b421-4aa9-8016-36cb4b702254"/>
+        <COMPID name="AppenderAttachableImpl" mc="Standard.Class" uid="bb9dfdfd-6447-4d2a-922a-6867ef5cb501"/>
+        <COMPID name="ContextAware" mc="Standard.Interface" uid="99b00dc3-9a5c-4d26-9ba8-787886fea047"/>
+        <COMPID name="ContextAwareBase" mc="Standard.Class" uid="e610990f-9880-4885-9030-3da843342a12"/>
+        <COMPID name="ContextAwareImpl" mc="Standard.Class" uid="bfe76991-ea29-4e50-b49d-92f0ffd96598"/>
+        <COMPID name="CyclicBufferTracker" mc="Standard.Interface" uid="958c61d1-029c-4f4c-b4f2-01ff8cdda2ff"/>
+        <COMPID name="CyclicBufferTrackerImpl" mc="Standard.Class" uid="4b95db2c-aa73-4c9e-af32-938c36349c6c"/>
+        <COMPID name="DeferredProcessingAware" mc="Standard.Interface" uid="0219b7f6-9ddb-4d0b-b9b9-47dcd88e7909"/>
+        <COMPID name="FilterAttachable" mc="Standard.Interface" uid="e7af8f99-fe02-4f87-8f12-2920a5a5ed05"/>
+        <COMPID name="FilterAttachableImpl" mc="Standard.Class" uid="624f387c-45de-4a99-9347-d9c87aebeef8"/>
+        <OBJECT>
+          <ID name="FilterReply" mc="Standard.Enumeration" uid="568ae8b7-411c-42e1-9f39-afe4ef8fb7a5"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[FilterReply]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Extension">
+              <FOREIGNID name="JavaEnumeration" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0262-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <COMPID name="LifeCycle" mc="Standard.Interface" uid="8f26d389-d86b-4d9a-a646-cf09d29fd164"/>
+        <COMPID name="LogbackLock" mc="Standard.Class" uid="badad680-b2c3-4347-a9ff-4722f826e230"/>
+        <COMPID name="PreSerializationTransformer" mc="Standard.Interface" uid="c5261160-032c-4623-8409-c3ea9a72ff3a"/>
+        <COMPID name="PropertyContainer" mc="Standard.Interface" uid="4230eb7d-1a5b-4453-9a3c-5a0ebac8a59a"/>
+        <COMPID name="PropertyDefiner" mc="Standard.Interface" uid="d80ff638-9deb-4e8e-8f98-b93159873990"/>
+        <COMPID name="ScanException" mc="Standard.Class" uid="1f867a4f-84c3-4a44-9b8f-1f993f19f50e"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

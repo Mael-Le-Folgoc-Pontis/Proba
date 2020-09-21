@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="converters" version="4">
+  <OBJECT>
+    <ID name="converters" mc="Standard.Package" uid="00300ef8-21a5-1fb1-8a9e-001e4fea2d8b"/>
+    <PID name="properties" mc="Standard.Package" uid="002e8c90-21a5-1fb1-8a9e-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[converters]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="CSSValueSWTColorConverterImpl" mc="Standard.Class" uid="0030d496-21a5-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="CSSValueSWTCursorConverterImpl" mc="Standard.Class" uid="0033c020-21a5-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="CSSValueSWTFontConverterImpl" mc="Standard.Class" uid="0031781a-21a5-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="CSSValueSWTFontDataConverterImpl" mc="Standard.Class" uid="00302ed8-21a5-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="CSSValueSWTGradientConverterImpl" mc="Standard.Class" uid="00331d8c-21a5-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="CSSValueSWTImageConverterImpl" mc="Standard.Class" uid="0031de90-21a5-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="CSSValueSWTRGBConverterImpl" mc="Standard.Class" uid="00327c42-21a5-1fb1-8a9e-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

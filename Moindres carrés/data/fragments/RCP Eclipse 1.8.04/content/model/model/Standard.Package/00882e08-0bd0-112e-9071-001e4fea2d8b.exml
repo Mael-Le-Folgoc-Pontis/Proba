@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="site" version="4">
+  <OBJECT>
+    <ID name="site" mc="Standard.Package" uid="00882e08-0bd0-112e-9071-001e4fea2d8b"/>
+    <PID name="core" mc="Standard.Package" uid="0064dc0a-0bd0-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[site]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractSiteModel" mc="Standard.Class" uid="00883402-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ExternalSiteModel" mc="Standard.Class" uid="00883a4c-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IdentifiableObject" mc="Standard.Class" uid="00884078-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Site" mc="Standard.Class" uid="0088471c-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SiteArchive" mc="Standard.Class" uid="00884de8-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SiteBundle" mc="Standard.Class" uid="008854be-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SiteCategory" mc="Standard.Class" uid="00885bee-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SiteCategoryDefinition" mc="Standard.Class" uid="0088635a-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SiteDescription" mc="Standard.Class" uid="00886abc-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SiteFeature" mc="Standard.Class" uid="008872d2-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SiteModelFactory" mc="Standard.Class" uid="00887ad4-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SiteObject" mc="Standard.Class" uid="008882cc-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="VersionableObject" mc="Standard.Class" uid="00888b32-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WorkspaceSiteModel" mc="Standard.Class" uid="008893ca-0bd0-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

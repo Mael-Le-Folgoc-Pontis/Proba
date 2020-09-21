@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="migration" version="4">
+  <OBJECT>
+    <ID name="migration" mc="Standard.Package" uid="a14cc842-f292-4109-8c43-52d7e6213fe0"/>
+    <PID name="scheduler" mc="Standard.Package" uid="008ed870-d4f2-111c-bc9b-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[migration]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractImportPage_c" mc="Standard.Class" uid="6cb0dc1b-26a6-40c5-9684-c4a448f940ea"/>
+        <COMPID name="AbstractPage_c" mc="Standard.Class" uid="c3ec48d1-9978-466d-9474-c7cc30357651"/>
+        <COMPID name="ImportFromInstallationPage_c" mc="Standard.Class" uid="06e61c84-e021-4e7e-abfb-9e3f728835e5"/>
+        <COMPID name="ImportFromInstallationWizard_c" mc="Standard.Class" uid="62ad5c6c-5c18-421b-ba1d-aaf3c4382f77"/>
+        <COMPID name="MigrationPage" mc="Standard.Class" uid="11799a3d-6aba-42a6-ba43-7e7817fb91d4"/>
+        <COMPID name="MigrationSupport" mc="Standard.Class" uid="19299e6a-4946-4733-8cf6-00ef5af25353"/>
+        <COMPID name="MigrationWizard" mc="Standard.Class" uid="f138c7f1-7dd3-44bb-9eb6-78a7433dab26"/>
+        <COMPID name="MigrationWizardDialog" mc="Standard.Class" uid="8ba94110-f0e1-4c85-ba55-9d652b012612"/>
+        <COMPID name="ProvUIMessages" mc="Standard.Class" uid="a35d03e0-57ba-4546-ac70-219e3a396df1"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

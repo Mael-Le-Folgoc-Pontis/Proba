@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="internal" version="4">
+  <OBJECT>
+    <ID name="internal" mc="Standard.Package" uid="003f86b2-0bc8-112e-9071-001e4fea2d8b"/>
+    <PID name="core" mc="Standard.Package" uid="003d284a-0bc8-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[internal]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="APTDispatchRunnable" mc="Standard.Class" uid="003f8cd4-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AnnotationProcessorFactoryLoader" mc="Standard.Class" uid="003f99f4-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AptCompilationParticipant" mc="Standard.Class" uid="003fada4-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AptCompilationParticipantExtensionFactory" mc="Standard.Class" uid="a0e178e7-0394-45e0-ae2c-d2e3fd568535"/>
+        <COMPID name="AptPlugin" mc="Standard.Class" uid="003fb484-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AptProject" mc="Standard.Class" uid="003fbbe6-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ExtJarFactoryContainer" mc="Standard.Class" uid="003fcaf0-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FactoryPluginManager" mc="Standard.Class" uid="003fd324-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IServiceFactory" mc="Standard.Interface" uid="003fd982-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JarClassLoader" mc="Standard.Class" uid="003fe1a2-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JarFactoryContainer" mc="Standard.Class" uid="003ff05c-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LoadFailureHandler" mc="Standard.Class" uid="003ff912-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Messages" mc="Standard.Class" uid="004001d2-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="NonEclipseImplementationException" mc="Standard.Class" uid="00400aba-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PluginFactoryContainer" mc="Standard.Class" uid="004013ac-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="VarJarFactoryContainer" mc="Standard.Class" uid="00401d52-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WkspJarFactoryContainer" mc="Standard.Class" uid="004026e4-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="build" mc="Standard.Package" uid="0040f27c-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="declaration" mc="Standard.Package" uid="0041cf26-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="env" mc="Standard.Package" uid="0043cfec-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="generatedfile" mc="Standard.Package" uid="0045a844-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="type" mc="Standard.Package" uid="0046f5a0-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="util" mc="Standard.Package" uid="00485094-0bc8-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

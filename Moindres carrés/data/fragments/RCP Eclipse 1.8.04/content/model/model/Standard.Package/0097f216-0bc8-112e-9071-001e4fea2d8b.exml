@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="env" version="4">
+  <OBJECT>
+    <ID name="env" mc="Standard.Package" uid="0097f216-0bc8-112e-9071-001e4fea2d8b"/>
+    <PID name="compiler" mc="Standard.Package" uid="0083bd82-0bc8-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[env]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AccessRestriction" mc="Standard.Class" uid="0097f842-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AccessRule" mc="Standard.Class" uid="0097ff4a-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AccessRuleSet" mc="Standard.Class" uid="009805e4-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ClassSignature" mc="Standard.Class" uid="00980ce2-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="EnumConstantSignature" mc="Standard.Class" uid="00981430-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IBinaryAnnotation" mc="Standard.Interface" uid="00981a3e-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IBinaryElementValuePair" mc="Standard.Interface" uid="00982114-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IBinaryField" mc="Standard.Interface" uid="009827fe-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IBinaryMethod" mc="Standard.Interface" uid="00982f10-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IBinaryNestedType" mc="Standard.Interface" uid="00983622-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IBinaryType" mc="Standard.Interface" uid="00983d8e-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IBinaryTypeAnnotation" mc="Standard.Interface" uid="e1c54845-1bf3-4776-a7f5-b02dc1b4a9a9"/>
+        <COMPID name="ICompilationUnit" mc="Standard.Interface" uid="00984554-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IDependent" mc="Standard.Interface" uid="00984cfc-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IGenericField" mc="Standard.Interface" uid="009854f4-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IGenericMethod" mc="Standard.Interface" uid="00985d3c-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IGenericType" mc="Standard.Interface" uid="00986566-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="INameEnvironment" mc="Standard.Interface" uid="00986dfe-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ISourceField" mc="Standard.Interface" uid="00987704-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ISourceImport" mc="Standard.Interface" uid="00987fc4-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ISourceMethod" mc="Standard.Interface" uid="009888e8-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ISourceType" mc="Standard.Interface" uid="00989248-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ITypeAnnotationWalker" mc="Standard.Interface" uid="5e8766cb-2c07-4954-9d7e-1239f324c58e"/>
+        <COMPID name="NameEnvironmentAnswer" mc="Standard.Class" uid="00000366-0bc9-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="builder" version="4">
+  <OBJECT>
+    <ID name="builder" mc="Standard.Package" uid="28ca4f44-7fe7-4eeb-ba66-60b85123b889"/>
+    <PID name="lang" mc="Standard.Package" uid="155eaaf0-9175-4065-b6fb-2dab46a99062"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[builder]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="EqualsBuilder" mc="Standard.Class" uid="687777ff-1d2b-4b68-99b8-646b71d3abbc"/>
+        <COMPID name="HashCodeBuilder" mc="Standard.Class" uid="bc7e9271-a73a-47b5-a8a4-86f9ad700c6f"/>
+        <COMPID name="ReflectionToStringBuilder" mc="Standard.Class" uid="fd6916d6-a3ee-48b3-98d9-6d3018a2c811"/>
+        <COMPID name="ToStringBuilder" mc="Standard.Class" uid="75a438d5-7719-4126-b7d9-2e36daa9860c"/>
+        <COMPID name="ToStringStyle" mc="Standard.Class" uid="6dac5fa8-87a6-4c7b-847b-964af3e5dc07"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

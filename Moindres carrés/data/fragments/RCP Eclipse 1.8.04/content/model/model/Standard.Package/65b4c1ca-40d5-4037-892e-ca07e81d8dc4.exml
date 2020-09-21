@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="presentation" version="4">
+  <OBJECT>
+    <ID name="presentation" mc="Standard.Package" uid="65b4c1ca-40d5-4037-892e-ca07e81d8dc4"/>
+    <PID name="editor" mc="Standard.Package" uid="0f7ba2fe-dc30-4ad2-b9c2-60fda75b517e"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[presentation]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ButtonPropertyEditorPresentation" mc="Standard.Class" uid="d4072bb3-52b1-46c9-8ef3-41e53e1536ed"/>
+        <COMPID name="CompoundPropertyEditorPresentation" mc="Standard.Class" uid="76daadf7-5584-4390-9cb1-216c0fb2b8b3"/>
+        <COMPID name="PropertyEditorPresentation" mc="Standard.Class" uid="035278ab-3c66-4f04-9b1f-4f8be3dea421"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

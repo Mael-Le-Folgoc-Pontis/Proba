@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="search" version="4">
+  <OBJECT>
+    <ID name="search" mc="Standard.Package" uid="e5945b40-645e-4f31-a3f1-832aff75dc06"/>
+    <PID name="editor" mc="Standard.Package" uid="a15ca79f-7821-4db9-b668-c0d856708218"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[search]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="IXSDTypesFilter" mc="Standard.Interface" uid="dfebe287-e46d-4630-8ab6-e1de7b336347"/>
+        <COMPID name="XSDAttributeSearchListProvider" mc="Standard.Class" uid="9a3e8c7b-c67b-4eb5-b8b8-3df8365c1d27"/>
+        <COMPID name="XSDComponentDescriptionProvider" mc="Standard.Class" uid="ebd807f4-4ba4-4634-b8c3-db10f5d77d1f"/>
+        <COMPID name="XSDElementsSearchListProvider" mc="Standard.Class" uid="1fdabdec-a557-4036-95fa-d1059323b6b9"/>
+        <COMPID name="XSDSearchListDialogDelegate" mc="Standard.Class" uid="e15fa01f-01a4-4d61-a1e9-a5c7e113cf60"/>
+        <COMPID name="XSDSearchListProvider" mc="Standard.Class" uid="62d30ad2-0ab6-4fd3-b1e3-73917d7fc0d1"/>
+        <COMPID name="XSDTypesSearchListProvider" mc="Standard.Class" uid="eb4b8fcd-a788-44bb-aca8-65c3a2fd90ba"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

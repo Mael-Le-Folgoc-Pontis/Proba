@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="test" version="4">
+  <OBJECT>
+    <ID name="test" mc="Standard.Package" uid="71618417-f364-4de8-adc9-cd0faebcf16b"/>
+    <PID name="events" mc="Standard.Package" uid="11dd7007-895c-455d-899e-5958870b71f6"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[test]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <OBJECT>
+          <ID name="JvmTestKind" mc="Standard.Enumeration" uid="9f5b94d7-7faf-4e9f-a222-f0c6c4bda0fa"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[JvmTestKind]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Extension">
+              <FOREIGNID name="JavaEnumeration" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0262-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <COMPID name="JvmTestOperationDescriptor" mc="Standard.Interface" uid="606f49d6-a603-4cd0-aa37-59fb485aa431"/>
+        <COMPID name="TestFailureResult" mc="Standard.Interface" uid="842ec149-eb5d-46cf-abba-24bd436a1f3e"/>
+        <COMPID name="TestFinishEvent" mc="Standard.Interface" uid="5ee2365f-853c-4282-97e7-150df3c1d255"/>
+        <COMPID name="TestOperationDescriptor" mc="Standard.Interface" uid="841aee24-0696-4bbc-9ee1-a0adb2b83a5f"/>
+        <COMPID name="TestOperationResult" mc="Standard.Interface" uid="29842534-4d6c-4cde-bfbd-ef9f47f0eed2"/>
+        <COMPID name="TestProgressEvent" mc="Standard.Interface" uid="c2387221-cbfc-45f2-a881-52863c22f7a6"/>
+        <COMPID name="TestSkippedResult" mc="Standard.Interface" uid="85998cb6-990f-4ac5-8ede-77d9673822d0"/>
+        <COMPID name="TestStartEvent" mc="Standard.Interface" uid="3ea98283-df2e-4a28-8919-38f015d5149a"/>
+        <COMPID name="TestSuccessResult" mc="Standard.Interface" uid="4b21ff03-ac66-4434-b2bd-33c23f10a124"/>
+        <COMPID name="internal" mc="Standard.Package" uid="a096c1a1-c60c-43ff-a6f2-2c584681e036"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

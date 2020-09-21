@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="entity" version="4">
+  <OBJECT>
+    <ID name="entity" mc="Standard.Package" uid="bdb4d364-c92d-45f4-8d74-0fd6bafe1fe0"/>
+    <PID name="impl" mc="Standard.Package" uid="8b43a0c1-4371-4adf-a277-286d14fe5306"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[entity]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="DisallowIdentityContentLengthStrategy" mc="Standard.Class" uid="11088196-a23c-46d9-b819-5dce5d578eb0"/>
+        <COMPID name="EntityDeserializer" mc="Standard.Class" uid="fb945b4c-7c33-44c3-9a78-a6ec455a0046"/>
+        <COMPID name="EntitySerializer" mc="Standard.Class" uid="4aca1db8-c5e4-4aa5-8ee1-593f2bae915f"/>
+        <COMPID name="LaxContentLengthStrategy" mc="Standard.Class" uid="5b54df52-fd41-47af-96ae-4bc8885a71b6"/>
+        <COMPID name="StrictContentLengthStrategy" mc="Standard.Class" uid="a11d66f7-2923-4885-98ed-8ea53248be37"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

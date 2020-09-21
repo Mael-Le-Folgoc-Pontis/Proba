@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ui" version="4">
+  <OBJECT>
+    <ID name="ui" mc="Standard.Package" uid="34dddc9b-bcb5-40b1-88bf-abf16cbebbcb"/>
+    <PID name="dialog" mc="Standard.Package" uid="8d9e100e-b5d7-43a6-9e52-7988c75c7d41"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[ui]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ErrorDialog" mc="Standard.Class" uid="9da63052-0137-4601-ad26-9b0353a7dcd4"/>
+        <COMPID name="InfoDialog" mc="Standard.Class" uid="69b08697-e065-4dc4-b083-54650c6ec498"/>
+        <COMPID name="MessageDialog" mc="Standard.Class" uid="74e3be4b-0093-4463-a93c-10dbc6947c54"/>
+        <COMPID name="OptionsDialog" mc="Standard.Class" uid="01d710b5-137c-4ed0-94c0-5a4ed11a816d"/>
+        <COMPID name="StatusDialogConstants" mc="Standard.Interface" uid="5eb7599f-a390-41d7-a484-f5b3425a22b3"/>
+        <COMPID name="WarningDialog" mc="Standard.Class" uid="0b31d693-ee2c-4620-a07c-d754114a7670"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

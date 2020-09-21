@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Factory" version="4">
+  <OBJECT>
+    <ID name="Factory" mc="Standard.Interface" uid="fea0acc3-88e5-49e5-abc5-5f2c7d8f94ba"/>
+    <PID name="QueryDelegateTextViewer" mc="Standard.Interface" uid="8d8a5dd0-177c-4cc4-b15e-fa25d230a70b"/>
+    <ATTRIBUTES>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">true</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Factory]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Descriptor" mc="Standard.Interface" uid="81bc77c7-7182-4521-bc16-831714a1a1e9"/>
+        <COMPID name="Registry" mc="Standard.Interface" uid="48b0d833-169b-4786-8e6d-a1b626fceb9e"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaInterface" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0267-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

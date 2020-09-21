@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="runner" version="4">
+  <OBJECT>
+    <ID name="runner" mc="Standard.Package" uid="004f55d8-0bca-112e-9071-001e4fea2d8b"/>
+    <PID name="junit" mc="Standard.Package" uid="0047c26e-0bca-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[runner]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractTestLoader" mc="Standard.Class" uid="004f5bfa-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CustomHashtable" mc="Standard.Class" uid="004f6258-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DefaultClassifier" mc="Standard.Class" uid="004f8aee-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FailedComparison" mc="Standard.Class" uid="004f91b0-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FailuresFirstPrioritizer" mc="Standard.Class" uid="004f98cc-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FirstRunExecutionListener" mc="Standard.Class" uid="004f9fe8-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IClassifiesThrowables" mc="Standard.Interface" uid="004fa5ba-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IElementComparer" mc="Standard.Interface" uid="004fac7c-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IListensToTestExecutions" mc="Standard.Interface" uid="004fb35c-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IStopListener" mc="Standard.Interface" uid="004fba3c-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ITestIdentifier" mc="Standard.Interface" uid="004fc176-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ITestLoader" mc="Standard.Interface" uid="004fc8ec-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ITestPrioritizer" mc="Standard.Interface" uid="004fd04e-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ITestReference" mc="Standard.Interface" uid="004fd846-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ITestRunner" mc="Standard.Interface" uid="004fe048-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IVisitsTestTrees" mc="Standard.Interface" uid="004fe840-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JUnitMessages" mc="Standard.Class" uid="004feff2-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MessageIds" mc="Standard.Class" uid="004ff77c-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MessageSender" mc="Standard.Interface" uid="004fff4c-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="NullPrioritizer" mc="Standard.Class" uid="00500758-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RemoteTestRunner" mc="Standard.Class" uid="00500f50-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RerunExecutionListener" mc="Standard.Class" uid="00502b5c-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TestExecution" mc="Standard.Class" uid="005033b8-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TestIdMap" mc="Standard.Class" uid="00503c28-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TestReferenceFailure" mc="Standard.Class" uid="005044a2-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="junit3" mc="Standard.Package" uid="00517c6e-0bca-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

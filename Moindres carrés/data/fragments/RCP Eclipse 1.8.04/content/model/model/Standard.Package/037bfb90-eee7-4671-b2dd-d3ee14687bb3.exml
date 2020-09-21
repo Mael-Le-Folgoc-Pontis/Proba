@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="validation" version="4">
+  <OBJECT>
+    <ID name="validation" mc="Standard.Package" uid="037bfb90-eee7-4671-b2dd-d3ee14687bb3"/>
+    <PID name="core" mc="Standard.Package" uid="b2a6444b-135c-463b-ab40-643a4d6cc915"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[validation]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="DocumentLocalReferenceValidationRule" mc="Standard.Class" uid="1c3f9c1c-d4b6-4951-a915-bbf7eabc517c"/>
+        <COMPID name="MarkupValidator" mc="Standard.Class" uid="91b0b08d-c950-4068-9fff-bb2b10cf6a5d"/>
+        <COMPID name="ValidationProblem" mc="Standard.Class" uid="0c3d22e8-ae9b-4308-b59f-c46e23370e97"/>
+        <COMPID name="ValidationRule" mc="Standard.Class" uid="2e98c84e-ef52-47cf-bed2-18ce8a669fa2"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="databinding" version="4">
+  <OBJECT>
+    <ID name="databinding" mc="Standard.Package" uid="e01f35d8-13d6-4959-8d26-b9d502c5791b"/>
+    <PID name="emf" mc="Standard.Package" uid="7640aa8b-f7c7-11df-b801-00137279a832"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[databinding]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="DataBindingPlugin" mc="Standard.Class" uid="f6f4a176-5b3f-451a-a8ed-2ecc67a31bb3"/>
+        <COMPID name="EMFDataBindingContext" mc="Standard.Class" uid="21affe4e-9b1e-498d-901e-95bf10099f3a"/>
+        <COMPID name="EMFObservables" mc="Standard.Class" uid="24a84f5b-26a3-45af-89be-8c45246dcc0a"/>
+        <COMPID name="EMFProperties" mc="Standard.Class" uid="d0858e33-606c-4ad9-a21c-cbb4ed84ffbe"/>
+        <COMPID name="EMFUpdateListStrategy" mc="Standard.Class" uid="1ba1b794-c29c-4ee4-9abc-8281f8b0a5de"/>
+        <COMPID name="EMFUpdateValueStrategy" mc="Standard.Class" uid="6552db91-9b59-4620-94c1-74a4f13a93af"/>
+        <COMPID name="EObjectObservableList" mc="Standard.Class" uid="766fe8e4-0597-4e69-becc-659211b4ab43"/>
+        <COMPID name="EObjectObservableMap" mc="Standard.Class" uid="dd4d905b-235b-4d3e-8783-ee9eda6cc859"/>
+        <COMPID name="EObjectObservableValue" mc="Standard.Class" uid="0af89bc1-36a2-4dc8-997b-669deae06940"/>
+        <COMPID name="FeaturePath" mc="Standard.Class" uid="9a1694c1-90bd-4181-92d9-e0fef9ad7e27"/>
+        <COMPID name="IEMFListProperty" mc="Standard.Interface" uid="590d248f-c6fd-46fa-8b74-293db80074cf"/>
+        <COMPID name="IEMFMapProperty" mc="Standard.Interface" uid="f5a41796-329b-41b2-9803-a1da4c6dc136"/>
+        <COMPID name="IEMFObservable" mc="Standard.Interface" uid="a2dcba05-5b5d-4a0e-a180-65475ac11ec1"/>
+        <COMPID name="IEMFProperty" mc="Standard.Interface" uid="59616a2e-4b5e-4953-ac4e-38220adb2475"/>
+        <COMPID name="IEMFSetProperty" mc="Standard.Interface" uid="9ff1dd22-8eb9-4fc5-92e1-f454fac1fb5f"/>
+        <COMPID name="IEMFValueProperty" mc="Standard.Interface" uid="17a52389-4c5c-48f6-ae77-b7b06866563f"/>
+        <COMPID name="internal" mc="Standard.Package" uid="92ebcfbe-01af-474a-a7bd-61cc64b9b705"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,59 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="util" version="4">
+  <OBJECT>
+    <ID name="util" mc="Standard.Package" uid="4db11711-6a51-4a50-aabc-31926afc26d3"/>
+    <PID name="plexus" mc="Standard.Package" uid="c67b106c-3a65-4ab5-8e13-78f5c00efd85"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[util]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractScanner" mc="Standard.Class" uid="f4d682cf-4a85-49c8-9539-bda15bec9cd0"/>
+        <COMPID name="Base64" mc="Standard.Class" uid="f8d8ddc8-53d0-4bf5-9658-995742757797"/>
+        <COMPID name="CachedMap" mc="Standard.Class" uid="6f4bd610-8d62-4240-86a3-8617d97f8b47"/>
+        <COMPID name="CollectionUtils" mc="Standard.Class" uid="4b006b9b-3af7-47e5-8cf1-c061ce37f159"/>
+        <COMPID name="DirectoryScanner" mc="Standard.Class" uid="870ef5e1-9f41-48e2-97cb-33f619ebb916"/>
+        <COMPID name="DirectoryWalkListener" mc="Standard.Interface" uid="c55e0f55-f93b-47e9-a968-25d0e908c9d3"/>
+        <COMPID name="DirectoryWalker" mc="Standard.Class" uid="a339e98d-34cb-46a5-afee-086513ea304e"/>
+        <COMPID name="ExceptionUtils" mc="Standard.Class" uid="34023fe0-f734-4922-9fbf-62cbea1133c8"/>
+        <COMPID name="Expand" mc="Standard.Class" uid="3b44d143-53d6-4642-89d4-b04922ccb0f4"/>
+        <COMPID name="FastMap" mc="Standard.Class" uid="1bad8718-b2a6-4d4a-9cde-397c58ab124a"/>
+        <COMPID name="FileUtils" mc="Standard.Class" uid="ba4c343f-5bac-4009-9e6a-cd613e76bcb4"/>
+        <COMPID name="IOUtil" mc="Standard.Class" uid="599ef7ce-4c59-4995-95f0-48d2b41ec6f5"/>
+        <COMPID name="InterpolationFilterReader" mc="Standard.Class" uid="9903aded-f100-49ae-b03f-6d3f0d827a01"/>
+        <COMPID name="Java7FileUtil" mc="Standard.Class" uid="54a6f0cd-3b31-4a75-ad15-c53378040fcd"/>
+        <COMPID name="LineOrientedInterpolatingReader" mc="Standard.Class" uid="a9c96f68-4755-4c39-ab91-a87c086f2083"/>
+        <COMPID name="MatchPattern" mc="Standard.Class" uid="93e87c21-c637-4af2-8578-227cfe6825ac"/>
+        <COMPID name="MatchPatterns" mc="Standard.Class" uid="fa723f58-ee66-4f4a-9d70-508dc138f30b"/>
+        <COMPID name="Os" mc="Standard.Class" uid="6dfc0376-401d-42b1-9a94-b21f1358a5bc"/>
+        <COMPID name="PathTool" mc="Standard.Class" uid="949e6105-5361-498e-b1d4-a1d0d431f611"/>
+        <COMPID name="PropertyUtils" mc="Standard.Class" uid="2c9a31db-403b-4a03-8e1f-030b7594801f"/>
+        <COMPID name="ReaderFactory" mc="Standard.Class" uid="34a4b149-8c46-4462-b25d-bb73b5cc8310"/>
+        <COMPID name="ReflectionUtils" mc="Standard.Class" uid="8363ce85-da6e-4312-9ecf-8f0ba357c16f"/>
+        <COMPID name="Scanner" mc="Standard.Interface" uid="768f178c-7e73-4de7-90ef-b88c48092d7e"/>
+        <COMPID name="SelectorUtils" mc="Standard.Class" uid="f0fe59d6-d06f-4e77-b671-e4eb0a75b5e3"/>
+        <COMPID name="StringInputStream" mc="Standard.Class" uid="96fdde13-571f-4ee2-b58c-189e8de623da"/>
+        <COMPID name="StringOutputStream" mc="Standard.Class" uid="7acfb54a-ec21-445e-b085-b9f740dbc537"/>
+        <COMPID name="StringUtils" mc="Standard.Class" uid="ceb3db7d-9bf1-4b39-a252-17d0c8fc1bf4"/>
+        <COMPID name="SweeperPool" mc="Standard.Class" uid="1ee0ed8a-d64d-4460-9d5d-fd4acb9f37d6"/>
+        <COMPID name="TypeFormat" mc="Standard.Class" uid="5a1d2895-fed1-426c-850f-a77102b75a2f"/>
+        <COMPID name="WriterFactory" mc="Standard.Class" uid="a00047dd-1501-4bde-9e1f-65edf5821bab"/>
+        <COMPID name="cli" mc="Standard.Package" uid="51828b4d-f5e3-403a-b3df-58aee60ea7fb"/>
+        <COMPID name="dag" mc="Standard.Package" uid="d4cefb6a-72fd-444e-8583-67af1f4a569f"/>
+        <COMPID name="introspection" mc="Standard.Package" uid="1fcaaea1-c289-4e97-9cf8-2c51de5894a9"/>
+        <COMPID name="io" mc="Standard.Package" uid="4bef127f-0cd7-4c95-a0ff-7d3b9dfef1c3"/>
+        <COMPID name="reflection" mc="Standard.Package" uid="647724f7-14ef-4bec-976c-486fdce741c6"/>
+        <COMPID name="xml" mc="Standard.Package" uid="1b3de756-e4e2-42fb-b668-e3bfea7fffa7"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

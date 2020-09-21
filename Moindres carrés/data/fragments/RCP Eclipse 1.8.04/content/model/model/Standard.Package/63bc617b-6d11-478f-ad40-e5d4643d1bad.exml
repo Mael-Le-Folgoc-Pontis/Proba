@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="serializer" version="4">
+  <OBJECT>
+    <ID name="serializer" mc="Standard.Package" uid="63bc617b-6d11-478f-ad40-e5d4643d1bad"/>
+    <PID name="xmlrpc" mc="Standard.Package" uid="3caa19ae-c32b-4acc-b4e2-14d2bd04e5bb"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[serializer]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="BaseXmlWriterFactory" mc="Standard.Class" uid="f22e23e2-3115-4eba-99dd-efdc34a62158"/>
+        <COMPID name="BigDecimalSerializer" mc="Standard.Class" uid="3898e878-f961-4b84-b522-7fed76089385"/>
+        <COMPID name="BigIntegerSerializer" mc="Standard.Class" uid="dda9e2bf-29a2-4f94-b831-0287d072cd0d"/>
+        <COMPID name="BooleanSerializer" mc="Standard.Class" uid="926e75e7-f5b7-4dc5-90f6-54194425c97b"/>
+        <COMPID name="ByteArraySerializer" mc="Standard.Class" uid="95257725-c5fc-4154-9f16-eda64de027e3"/>
+        <COMPID name="CalendarSerializer" mc="Standard.Class" uid="05270336-000a-4202-aff5-985bee523e68"/>
+        <COMPID name="CharSetXmlWriterFactory" mc="Standard.Class" uid="1e3ebb45-a59b-46f1-868c-04b6e74fd61b"/>
+        <COMPID name="DateSerializer" mc="Standard.Class" uid="50b8cad2-a0af-44a2-97aa-5d11c26ef33b"/>
+        <COMPID name="DefaultXMLWriterFactory" mc="Standard.Class" uid="e70754e9-4156-4e79-9cf2-6d9b4e74bbdb"/>
+        <COMPID name="DoubleSerializer" mc="Standard.Class" uid="056b3d61-e9b9-4884-b4a4-04be0c48ccee"/>
+        <COMPID name="ExtSerializer" mc="Standard.Class" uid="d656f7ea-896c-4aa3-a2dc-4d8c0eda250d"/>
+        <COMPID name="FloatSerializer" mc="Standard.Class" uid="e6fa6e90-ae95-4b76-ba28-404873c2dc43"/>
+        <COMPID name="I1Serializer" mc="Standard.Class" uid="8ad132bc-2951-4baa-aa51-54dcc6dc6d12"/>
+        <COMPID name="I2Serializer" mc="Standard.Class" uid="251ecd7d-84eb-4ff9-9b4a-64042318fb2c"/>
+        <COMPID name="I4Serializer" mc="Standard.Class" uid="b2bfbd94-161b-4c62-991c-04bcc54d9ed6"/>
+        <COMPID name="I8Serializer" mc="Standard.Class" uid="37beda97-c619-495c-bfdb-392498bdded1"/>
+        <COMPID name="ListSerializer" mc="Standard.Class" uid="ad6318c7-4fd6-45b1-99bb-9479d16b26a2"/>
+        <COMPID name="MapSerializer" mc="Standard.Class" uid="81770085-a4f4-402a-bb96-968a717115b0"/>
+        <COMPID name="NodeSerializer" mc="Standard.Class" uid="8e4ebf3c-0861-4467-a3a4-4031df015225"/>
+        <COMPID name="NullSerializer" mc="Standard.Class" uid="4ef76a9b-ef29-43be-9b02-8af9ad581521"/>
+        <COMPID name="ObjectArraySerializer" mc="Standard.Class" uid="879a575e-5622-46d9-84c8-f11f113d0d19"/>
+        <COMPID name="SerializableSerializer" mc="Standard.Class" uid="dd808dac-4b8b-4ae4-bf8b-ff75af620e2b"/>
+        <COMPID name="StringSerializer" mc="Standard.Class" uid="8a2f50ae-709b-43c8-962d-763572619273"/>
+        <COMPID name="TypeSerializer" mc="Standard.Interface" uid="212d6674-9015-4034-95af-470e52769a8a"/>
+        <COMPID name="TypeSerializerImpl" mc="Standard.Class" uid="e67867c1-d86b-402d-98fe-6e9bf4ad0162"/>
+        <COMPID name="XmlRpcWriter" mc="Standard.Class" uid="e0c26241-47ef-406a-8fbe-8304e3568ed2"/>
+        <COMPID name="XmlWriterFactory" mc="Standard.Interface" uid="7075c5fc-517b-43b6-8726-3df863434c7d"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

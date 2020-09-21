@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="blame" version="4">
+  <OBJECT>
+    <ID name="blame" mc="Standard.Package" uid="a6f500f8-c714-4cbb-bcf3-3de5f54b4d7f"/>
+    <PID name="jgit" mc="Standard.Package" uid="bf3b61ef-28ee-4cf7-8afd-022df78c66c8"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[blame]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="BlameGenerator" mc="Standard.Class" uid="0c776bda-efec-42f3-b3d8-399ef8ddbd3b"/>
+        <COMPID name="BlameResult" mc="Standard.Class" uid="052cace6-f230-4f2a-ad97-1a4c6b930bcb"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

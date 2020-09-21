@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="filters" version="4">
+  <OBJECT>
+    <ID name="filters" mc="Standard.Package" uid="00438b36-0bd8-112e-9071-001e4fea2d8b"/>
+    <PID name="navigator" mc="Standard.Package" uid="00331fd0-0bd8-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[filters]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="CommonFilterContentProvider" mc="Standard.Class" uid="004391ee-0bd8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CommonFilterDescriptor" mc="Standard.Class" uid="00439810-0bd8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CommonFilterDescriptorManager" mc="Standard.Class" uid="00439ea0-0bd8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CommonFilterLabelProvider" mc="Standard.Class" uid="0043ab48-0bd8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CommonFilterSelectionDialog" mc="Standard.Class" uid="0043b214-0bd8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CommonFiltersTab" mc="Standard.Class" uid="0043b91c-0bd8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ContentExtensionsTab" mc="Standard.Class" uid="0043d38e-0bd8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CoreExpressionFilter" mc="Standard.Class" uid="0043db36-0bd8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CustomizationTab" mc="Standard.Class" uid="0043e324-0bd8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FilterActionGroup" mc="Standard.Class" uid="0043eafe-0bd8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FilterDialogSelectionListener" mc="Standard.Class" uid="0043f346-0bd8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SelectFiltersAction" mc="Standard.Class" uid="0043fbb6-0bd8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SkeletonViewerFilter" mc="Standard.Class" uid="0044041c-0bd8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ToggleFilterAction" mc="Standard.Class" uid="00440cf0-0bd8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="UpdateActiveExtensionsOperation" mc="Standard.Class" uid="004415f6-0bd8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="UpdateActiveFiltersOperation" mc="Standard.Class" uid="00441efc-0bd8-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

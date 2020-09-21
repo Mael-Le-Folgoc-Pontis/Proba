@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="IFilter" version="4">
+  <OBJECT>
+    <ID name="IFilter" mc="Standard.Interface" uid="74ae32c0-587f-427f-bbc2-36e9da506282"/>
+    <PID name="util" mc="Standard.Package" uid="df43e1dc-f4dc-4ec5-849b-18cfc85ded56"/>
+    <ATTRIBUTES>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">true</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[IFilter]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="IFilterEvent" mc="Standard.Interface" uid="b121f37b-0aef-48bb-8af9-8b198dbc6db0"/>
+        <COMPID name="IFilterListener" mc="Standard.Interface" uid="88b5b195-f413-4efc-86b5-8dea8bea67f5"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaInterface" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0267-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

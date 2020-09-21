@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="rcp" version="4">
+  <OBJECT>
+    <ID name="rcp" mc="Standard.Package" uid="d4d36792-e2ee-40db-bc2b-19ec8c578c39"/>
+    <PID name="coordinates" mc="Standard.Package" uid="19f31ea5-4e8f-432c-aa64-7c43470c87e5"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[rcp]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AdvisorDescriptor" mc="Standard.Class" uid="cd245170-d5f7-40fc-a8d9-d67879987d91"/>
+        <COMPID name="AdvisorDescriptors" mc="Standard.Class" uid="f8ce554a-0613-449c-8857-c22c1a227422"/>
+        <COMPID name="AdvisorsPreferencePage" mc="Standard.Class" uid="1e51dce3-2828-45de-a10c-160674fe160c"/>
+        <COMPID name="Constants" mc="Standard.Class" uid="6017c4b2-84bd-47f4-812c-555c170fb8d4"/>
+        <COMPID name="CoordinatesRcpModule" mc="Standard.Class" uid="4f104c94-ad38-4f03-aca2-d6ef71626304"/>
+        <COMPID name="CoordinatesRcpPreferences" mc="Standard.Class" uid="ba7a6294-bdfb-461f-b63a-fe28d5b00f25"/>
+        <COMPID name="DependencyInfoJsonTypeAdapter" mc="Standard.Class" uid="df4314c6-5957-4ac8-81b0-cda956231ced"/>
+        <COMPID name="EclipseDependencyListener" mc="Standard.Class" uid="2daa874d-5f48-4b8a-aafa-0b00fc2d004b"/>
+        <COMPID name="ManualProjectCoordinateAdvisor" mc="Standard.Class" uid="3ea88c8f-21a8-4de5-94ca-14dc950c244d"/>
+        <COMPID name="PreferenceInitializer" mc="Standard.Class" uid="741727fb-cfb1-4523-8618-57df4c7a3476"/>
+        <COMPID name="ProjectCoordinateJsonTypeAdapter" mc="Standard.Class" uid="b2830772-1c76-481f-b7cc-6d026dbe21c3"/>
+        <COMPID name="ProjectCoordinatesView" mc="Standard.Class" uid="ccb8e135-f335-4a5b-8e59-f88eb26d332c"/>
+        <COMPID name="l10n" mc="Standard.Package" uid="49fa5ac8-0983-41f6-a0b1-f86888e4acb9"/>
+        <COMPID name="maven" mc="Standard.Package" uid="4c9c1021-bafd-4682-9ace-fa8f4f0cc372"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

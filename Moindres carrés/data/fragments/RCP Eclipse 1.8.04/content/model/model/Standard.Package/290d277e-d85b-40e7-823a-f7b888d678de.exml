@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="lzma" version="4">
+  <OBJECT>
+    <ID name="lzma" mc="Standard.Package" uid="290d277e-d85b-40e7-823a-f7b888d678de"/>
+    <PID name="xz" mc="Standard.Package" uid="d95f0043-5157-46b7-a345-0537f210e6de"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[lzma]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="LZMADecoder" mc="Standard.Class" uid="07aa6397-b907-4d92-8fe4-54ceb1275a19"/>
+        <COMPID name="LZMAEncoder" mc="Standard.Class" uid="0be081d1-9066-4f1d-bc5b-ac93e43b94ea"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,62 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="scripting" version="4">
+  <OBJECT>
+    <ID name="scripting" mc="Standard.Package" uid="0077241e-0bc9-112e-9071-001e4fea2d8b"/>
+    <PID name="refactoring" mc="Standard.Package" uid="00538518-0bc9-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[scripting]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ChangeMethodSignatureRefactoringContribution" mc="Standard.Class" uid="00772a9a-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ChangeTypeRefactoringContribution" mc="Standard.Class" uid="00773102-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ConvertAnonymousRefactoringContribution" mc="Standard.Class" uid="00773756-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CopyRefactoringContribution" mc="Standard.Class" uid="00773e0e-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DeleteRefactoringContribution" mc="Standard.Class" uid="0077450c-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ExtractClassContribution" mc="Standard.Class" uid="00774bec-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ExtractConstantRefactoringContribution" mc="Standard.Class" uid="0077533a-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ExtractInterfaceRefactoringContribution" mc="Standard.Class" uid="00775ac4-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ExtractMethodRefactoringContribution" mc="Standard.Class" uid="00776244-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ExtractSupertypeRefactoringContribution" mc="Standard.Class" uid="00776a32-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ExtractTempRefactoringContribution" mc="Standard.Class" uid="0077725c-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="InferTypeArgumentsRefactoringContribution" mc="Standard.Class" uid="00777a68-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="InlineConstantRefactoringContribution" mc="Standard.Class" uid="00778332-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="InlineMethodRefactoringContribution" mc="Standard.Class" uid="00778bf2-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="InlineTempRefactoringContribution" mc="Standard.Class" uid="0077949e-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IntroduceFactoryRefactoringContribution" mc="Standard.Class" uid="00779dc2-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IntroduceIndirectionRefactoringContribution" mc="Standard.Class" uid="0077a718-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IntroduceParameterObjectContribution" mc="Standard.Class" uid="0077b06e-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IntroduceParameterRefactoringContribution" mc="Standard.Class" uid="0077ba32-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaUIRefactoringContribution" mc="Standard.Class" uid="0077c414-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MoveMemberTypeRefactoringContribution" mc="Standard.Class" uid="0077ce14-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MoveMethodRefactoringContribution" mc="Standard.Class" uid="0077d846-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MoveRefactoringContribution" mc="Standard.Class" uid="0077e2be-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MoveStaticMembersRefactoringContribution" mc="Standard.Class" uid="0077ed72-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PromoteTempToFieldRefactoringContribution" mc="Standard.Class" uid="0077f826-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PullUpRefactoringContribution" mc="Standard.Class" uid="00780348-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PushDownRefactoringContribution" mc="Standard.Class" uid="00780ed8-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RenameCompilationUnitRefactoringContribution" mc="Standard.Class" uid="00781a40-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RenameEnumConstRefactoringContribution" mc="Standard.Class" uid="0078268e-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RenameFieldRefactoringContribution" mc="Standard.Class" uid="0078328c-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RenameJavaProjectRefactoringContribution" mc="Standard.Class" uid="00783e6c-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RenameLocalVariableRefactoringContribution" mc="Standard.Class" uid="00784ace-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RenameMethodRefactoringContribution" mc="Standard.Class" uid="00785758-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RenamePackageRefactoringContribution" mc="Standard.Class" uid="007863ec-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RenameSourceFolderRefactoringContribution" mc="Standard.Class" uid="007870d0-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RenameTypeParameterRefactoringContribution" mc="Standard.Class" uid="00787df0-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RenameTypeRefactoringContribution" mc="Standard.Class" uid="00788b10-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SelfEncapsulateRefactoringContribution" mc="Standard.Class" uid="0078989e-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="UseSupertypeRefactoringContribution" mc="Standard.Class" uid="0078a654-0bc9-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="url" version="4">
+  <OBJECT>
+    <ID name="url" mc="Standard.Package" uid="9e30251b-5795-4046-82fe-00c2fa08ef34"/>
+    <PID name="internal" mc="Standard.Package" uid="0080c2c6-21af-1fb1-8a9e-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[url]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ContentHandlerFactoryImpl" mc="Standard.Class" uid="2fc22e0d-3159-4f4c-be41-f1ed8575937c"/>
+        <COMPID name="ContentHandlerProxy" mc="Standard.Class" uid="cee6e6c7-0f28-4ac8-af9d-140f6e62b65f"/>
+        <COMPID name="EquinoxFactoryManager" mc="Standard.Class" uid="6a822260-977e-43dd-a342-f9a198179192"/>
+        <COMPID name="MultiplexingContentHandler" mc="Standard.Class" uid="e0a81b53-c52c-401b-82a5-235cdef91fcb"/>
+        <COMPID name="MultiplexingFactory" mc="Standard.Class" uid="4736865b-4a3e-480b-a917-06197a87c137"/>
+        <COMPID name="MultiplexingURLStreamHandler" mc="Standard.Class" uid="0e8b0131-31e2-4cb1-9966-7e4ca82e1da4"/>
+        <COMPID name="NullURLStreamHandlerService" mc="Standard.Class" uid="08947edd-eb17-40f2-aaee-d9b39f2a53d3"/>
+        <COMPID name="URLStreamHandlerFactoryImpl" mc="Standard.Class" uid="3fe048cd-d3fb-4c33-94d9-3bcee3a18b31"/>
+        <COMPID name="URLStreamHandlerProxy" mc="Standard.Class" uid="2a08544e-44af-4022-a1a1-160f48c98435"/>
+        <COMPID name="URLStreamHandlerSetter" mc="Standard.Class" uid="e4ac90af-5c78-4095-a102-cf97ee601a6d"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

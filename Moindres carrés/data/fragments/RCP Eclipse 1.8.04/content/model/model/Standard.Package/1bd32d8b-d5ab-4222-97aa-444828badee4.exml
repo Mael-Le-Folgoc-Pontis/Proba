@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="live" version="4">
+  <OBJECT>
+    <ID name="live" mc="Standard.Package" uid="1bd32d8b-d5ab-4222-97aa-444828badee4"/>
+    <PID name="util" mc="Standard.Package" uid="acb35c6a-7f86-40a5-a987-53b18790ce47"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[live]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractLiveManager" mc="Standard.Class" uid="0718ae84-cf23-4cdb-a380-012adc958f62"/>
+        <COMPID name="ILiveCacheEntry" mc="Standard.Interface" uid="1f435b36-1563-47a9-a93a-c27eeff47ddd"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

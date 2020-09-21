@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="controls" version="4">
+  <OBJECT>
+    <ID name="controls" mc="Standard.Package" uid="603d5690-7814-470d-bdaa-f744e5bb9385"/>
+    <PID name="core" mc="Standard.Package" uid="af8d7b90-9518-4c7e-b238-618caecac626"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[controls]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="BrowserComposite" mc="Standard.Class" uid="d6aa8e86-fb2f-40e2-bb06-628f4425f473"/>
+        <COMPID name="CCombo3" mc="Standard.Class" uid="bbd4183a-f0fc-44a4-8741-a1adf113b2e0"/>
+        <COMPID name="CComboBox" mc="Standard.Class" uid="48c5f7a2-3e3c-4a8e-af52-e9ec11bfd6a3"/>
+        <COMPID name="CFlatButton" mc="Standard.Class" uid="b7c35c44-8ef7-4ce3-bf12-7a3ed28f4c49"/>
+        <COMPID name="CImageLabel" mc="Standard.Class" uid="896ca227-25a5-4153-9ef0-f795a09d3f13"/>
+        <COMPID name="CSpinner" mc="Standard.Class" uid="8194f7fa-7aa2-4c4c-85b0-0a49705929bb"/>
+        <COMPID name="CSpinnerDeferredNotifier" mc="Standard.Class" uid="8eb2e16e-6613-4100-b2b2-429cf104ee4f"/>
+        <COMPID name="CTableCombo" mc="Standard.Class" uid="b3aeac2d-05cd-4df8-8ab0-541a76547130"/>
+        <COMPID name="GhostWindow" mc="Standard.Class" uid="6c06f6b0-6798-47ac-a190-41dd34a4d03e"/>
+        <COMPID name="LineControl" mc="Standard.Class" uid="d19eb042-ce5b-4b6f-a4cd-09c6916345e3"/>
+        <COMPID name="Messages" mc="Standard.Class" uid="75aeb4cb-10e9-464e-a905-5ff11111975b"/>
+        <COMPID name="PageBook" mc="Standard.Class" uid="58795e66-38b3-4404-b1e2-cefc0e78e96c"/>
+        <COMPID name="SelfOrientingSashForm" mc="Standard.Class" uid="b10954b2-b46b-4cb6-9b0c-60f9e758b946"/>
+        <COMPID name="Separator" mc="Standard.Class" uid="e2180921-ad4f-428f-99d1-2ec35f643215"/>
+        <COMPID name="flyout" mc="Standard.Package" uid="7f05c57d-9fb7-4f59-85a1-5eaf704d64ee"/>
+        <COMPID name="jface" mc="Standard.Package" uid="905d7773-d532-47ee-850e-4ac716f9b618"/>
+        <COMPID name="palette" mc="Standard.Package" uid="a11469ba-30be-47fa-9c65-bcb1666b202f"/>
+        <COMPID name="test" mc="Standard.Package" uid="c692c3ae-618f-4cb3-aa98-45768e421ace"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

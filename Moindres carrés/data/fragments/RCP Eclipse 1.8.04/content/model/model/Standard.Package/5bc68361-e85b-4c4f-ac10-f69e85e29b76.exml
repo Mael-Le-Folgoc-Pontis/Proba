@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="order" version="4">
+  <OBJECT>
+    <ID name="order" mc="Standard.Package" uid="5bc68361-e85b-4c4f-ac10-f69e85e29b76"/>
+    <PID name="model" mc="Standard.Package" uid="3a547062-d7aa-4b35-8f7f-e2706ee85e55"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[order]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ComponentOrder" mc="Standard.Class" uid="fe2077d1-6dd3-4165-ae93-272d202c76b7"/>
+        <COMPID name="ComponentOrderBeforeSibling" mc="Standard.Class" uid="a488cc03-53df-4274-afee-0570dabdfcec"/>
+        <COMPID name="ComponentOrderDefault" mc="Standard.Class" uid="ca230b4a-dd6d-4abe-a6e0-379c9a072c4f"/>
+        <COMPID name="ComponentOrderFirst" mc="Standard.Class" uid="adba6fa9-056b-4084-b02d-c8984a8897e1"/>
+        <COMPID name="ComponentOrderLast" mc="Standard.Class" uid="9ef288df-d8bd-4878-a1e0-f40e42baf43b"/>
+        <COMPID name="MethodOrder" mc="Standard.Class" uid="0d900632-9791-4232-ba85-ec31948e7aed"/>
+        <COMPID name="MethodOrderAfter" mc="Standard.Class" uid="3d6ccc71-13f0-4d9f-9fb0-ae98f62ddb62"/>
+        <COMPID name="MethodOrderAfterAssociation" mc="Standard.Class" uid="8c0dd9b7-8fcc-48af-97c3-041caf916020"/>
+        <COMPID name="MethodOrderAfterChildren" mc="Standard.Class" uid="d02df84a-e7f8-4583-b9bc-88026bced756"/>
+        <COMPID name="MethodOrderAfterCreation" mc="Standard.Class" uid="cb373e3d-fc84-4516-903b-5b05f84bacb7"/>
+        <COMPID name="MethodOrderAfterParentChildren" mc="Standard.Class" uid="c6556ccd-d138-43ab-a576-f1727dcb46ee"/>
+        <COMPID name="MethodOrderBeforeAssociation" mc="Standard.Class" uid="1b74288a-5793-4a2a-8b2c-173841db3da1"/>
+        <COMPID name="MethodOrderChildren" mc="Standard.Class" uid="a0c1ba16-4156-4a49-8f23-16ece35fac71"/>
+        <COMPID name="MethodOrderDefault" mc="Standard.Class" uid="bf231c54-479e-4b03-80b0-94c870a8bb9b"/>
+        <COMPID name="MethodOrderFirst" mc="Standard.Class" uid="ab46ff5f-1b14-480f-93b3-e99b8ef1dec3"/>
+        <COMPID name="MethodOrderLast" mc="Standard.Class" uid="40ca2c7a-82e4-43b2-b946-39aa715c12a3"/>
+        <COMPID name="MethodOrderRelativeAssociation" mc="Standard.Class" uid="b09f3d87-195f-4ab3-ae4d-953359b49639"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

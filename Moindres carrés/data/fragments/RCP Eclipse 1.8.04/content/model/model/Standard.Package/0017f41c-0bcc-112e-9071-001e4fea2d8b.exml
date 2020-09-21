@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="nio" version="4">
+  <OBJECT>
+    <ID name="nio" mc="Standard.Package" uid="0017f41c-0bcc-112e-9071-001e4fea2d8b"/>
+    <PID name="server" mc="Standard.Package" uid="0011a33c-0bcc-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[nio]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractNIOConnector" mc="Standard.Class" uid="0017f9da-0bcc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BlockingChannelConnector" mc="Standard.Class" uid="0018002e-0bcc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="InheritedChannelConnector" mc="Standard.Class" uid="00180c2c-0bcc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="NIOConnector" mc="Standard.Interface" uid="00181226-0bcc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="NetworkTrafficSelectChannelConnector" mc="Standard.Class" uid="00181910-0bcc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SelectChannelConnector" mc="Standard.Class" uid="00181fe6-0bcc-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

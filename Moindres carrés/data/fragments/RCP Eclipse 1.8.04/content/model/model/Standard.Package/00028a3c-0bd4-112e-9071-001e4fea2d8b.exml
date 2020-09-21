@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="model" version="4">
+  <OBJECT>
+    <ID name="model" mc="Standard.Package" uid="00028a3c-0bd4-112e-9071-001e4fea2d8b"/>
+    <PID name="ui" mc="Standard.Package" uid="008e9932-0bd3-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[model]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AllRootsElement" mc="Standard.Class" uid="0002909a-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BranchCategory" mc="Standard.Class" uid="0002969e-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CVSAdapterFactory" mc="Standard.Class" uid="00029cfc-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CVSModelElement" mc="Standard.Class" uid="0002a38c-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CVSRemoteFilePropertySource" mc="Standard.Class" uid="0002aa08-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CVSRemoteFolderPropertySource" mc="Standard.Class" uid="0002b160-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CVSRepositoryLocationPropertySource" mc="Standard.Class" uid="0002b886-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CVSRepositoryRootElement" mc="Standard.Class" uid="0002bfb6-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CVSResourceElement" mc="Standard.Class" uid="0002c74a-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CVSTagElement" mc="Standard.Class" uid="0002cf10-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DateTagCategory" mc="Standard.Class" uid="0002d6e0-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RemoteContentProvider" mc="Standard.Class" uid="0002df0a-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RemoteFileElement" mc="Standard.Class" uid="0002e766-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RemoteFolderElement" mc="Standard.Class" uid="0002effe-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RemoteModule" mc="Standard.Class" uid="0002f8c8-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RemoteProjectsElement" mc="Standard.Class" uid="000301ba-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RemoteResourceElement" mc="Standard.Class" uid="00030aa2-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RepositoryLocationSchedulingRule" mc="Standard.Class" uid="000313f8-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TagCategory" mc="Standard.Class" uid="00031d76-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="VersionCategory" mc="Standard.Class" uid="00032708-0bd4-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

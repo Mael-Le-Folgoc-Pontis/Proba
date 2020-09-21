@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="logging" version="4">
+  <OBJECT>
+    <ID name="logging" mc="Standard.Package" uid="c8b24b6e-96dd-4a54-bc11-0100c2ed3ecd"/>
+    <PID name="plexus" mc="Standard.Package" uid="c67b106c-3a65-4ab5-8e13-78f5c00efd85"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[logging]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractLogEnabled" mc="Standard.Class" uid="92baa77b-de05-4674-b02c-7c9924b448d0"/>
+        <COMPID name="AbstractLogger" mc="Standard.Class" uid="a624ff7f-0ec4-4dd1-baf1-941babbf6d94"/>
+        <COMPID name="AbstractLoggerManager" mc="Standard.Class" uid="2e30caa8-0d69-4be1-90c5-3ee53d430660"/>
+        <COMPID name="BaseLoggerManager" mc="Standard.Class" uid="fdbdffd7-221a-4841-9567-91b14bd66d2d"/>
+        <COMPID name="LogEnabled" mc="Standard.Interface" uid="9e43d4c1-9b44-412e-999e-b71c5b2d0cdf"/>
+        <COMPID name="Logger" mc="Standard.Interface" uid="3281efc7-72b6-4beb-8e2e-46f646df9978"/>
+        <COMPID name="LoggerManager" mc="Standard.Interface" uid="844733dc-4412-447b-830e-ec01901e1713"/>
+        <COMPID name="console" mc="Standard.Package" uid="a8b2267e-40e1-428d-9286-c365b2f181a9"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

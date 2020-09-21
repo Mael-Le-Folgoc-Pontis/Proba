@@ -1,0 +1,68 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="text" version="4">
+  <OBJECT>
+    <ID name="text" mc="Standard.Package" uid="00390c7e-0bcb-112e-9071-001e4fea2d8b"/>
+    <PID name="ui" mc="Standard.Package" uid="006159f4-0bca-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[text]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractInformationControl" mc="Standard.Class" uid="00391354-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AbstractJavaScanner" mc="Standard.Class" uid="00391f3e-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BufferedDocumentScanner" mc="Standard.Class" uid="003925a6-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CombinedWordRule" mc="Standard.Class" uid="003932da-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CompositeReconcilingStrategy" mc="Standard.Class" uid="0039563e-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ContentAssistPreference" mc="Standard.Class" uid="00395d96-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DocumentCharacterIterator" mc="Standard.Class" uid="003964d0-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FastJavaPartitionScanner" mc="Standard.Class" uid="00396c78-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HTMLAnnotationHover" mc="Standard.Class" uid="00397452-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ISourceVersionDependent" mc="Standard.Interface" uid="00397a24-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ITypingRunListener" mc="Standard.Interface" uid="0039810e-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaBreakIterator" mc="Standard.Class" uid="0039897e-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaChangeHover" mc="Standard.Class" uid="0039e72a-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaCodeReader" mc="Standard.Class" uid="0039efa4-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaColorManager" mc="Standard.Class" uid="0039f846-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaCommentScanner" mc="Standard.Class" uid="003a017e-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaCompositeReconcilingStrategy" mc="Standard.Class" uid="003a1e0c-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaElementPrefixPatternMatcher" mc="Standard.Class" uid="003a278a-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaElementProvider" mc="Standard.Class" uid="003a30cc-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaHeuristicScanner" mc="Standard.Class" uid="003a3a72-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaIndenter" mc="Standard.Class" uid="003a8298-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaOutlineInformationControl" mc="Standard.Class" uid="003a924c-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaPairMatcher" mc="Standard.Class" uid="003aca32-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaPartitionScanner" mc="Standard.Class" uid="003ad478-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaPresentationReconciler" mc="Standard.Class" uid="003afa98-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaReconciler" mc="Standard.Class" uid="003b057e-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaWhitespaceDetector" mc="Standard.Class" uid="003b2964-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaWordDetector" mc="Standard.Class" uid="003b34a4-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaWordFinder" mc="Standard.Class" uid="003b3fd0-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaWordIterator" mc="Standard.Class" uid="003b4b88-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LineComparator" mc="Standard.Class" uid="003b574a-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PreferencesAdapter" mc="Standard.Class" uid="003b6316-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SequenceCharacterIterator" mc="Standard.Class" uid="003b7536-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SimpleJavaSourceViewerConfiguration" mc="Standard.Class" uid="003b8166-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SingleTokenJavaScanner" mc="Standard.Class" uid="003b8e18-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SmartBackspaceManager" mc="Standard.Class" uid="003b9af2-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Symbols" mc="Standard.Interface" uid="003bb578-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TypingRun" mc="Standard.Class" uid="003bd026-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TypingRunDetector" mc="Standard.Class" uid="003beb1a-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="correction" mc="Standard.Package" uid="003dfd7e-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="folding" mc="Standard.Package" uid="00466748-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="java" mc="Standard.Package" uid="0048950e-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="javadoc" mc="Standard.Package" uid="0052f436-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="spelling" mc="Standard.Package" uid="0055b4aa-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="template" mc="Standard.Package" uid="005b5310-0bcb-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

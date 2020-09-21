@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="hunspell" version="4">
+  <OBJECT>
+    <ID name="hunspell" mc="Standard.Package" uid="0052fd14-0bbd-112e-9071-001e4fea2d8b"/>
+    <PID name="analysis" mc="Standard.Package" uid="003a6222-0bbd-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[hunspell]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="HunspellAffix" mc="Standard.Class" uid="00530386-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HunspellDictionary" mc="Standard.Class" uid="00530b06-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HunspellStemFilter" mc="Standard.Class" uid="00535020-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HunspellStemmer" mc="Standard.Class" uid="005357d2-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HunspellWord" mc="Standard.Class" uid="00536eca-0bbd-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="publisher" version="4">
+  <OBJECT>
+    <ID name="publisher" mc="Standard.Package" uid="0018adf8-d4f3-111c-bc9b-001e4fea2d8b"/>
+    <PID name="build" mc="Standard.Package" uid="00181492-d4f3-111c-bc9b-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[publisher]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="BrandP2Task" mc="Standard.Class" uid="005e35e4-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BuildPublisherApplication" mc="Standard.Class" uid="ff57cdd0-a39d-4951-84ad-e09d903a3364"/>
+        <COMPID name="FeatureRootAdvice" mc="Standard.Class" uid="0b174655-33e2-472c-9060-7c866d8cd98b"/>
+        <COMPID name="FeaturesAndBundlesTask" mc="Standard.Class" uid="005e3d78-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="GatherBundleAction" mc="Standard.Class" uid="251b4821-8c1d-4626-9c3e-b03f9de920e7"/>
+        <COMPID name="GatherFeatureAction" mc="Standard.Class" uid="74bc990f-776e-4617-a54b-38425c6ca4b3"/>
+        <COMPID name="GatheringComputer" mc="Standard.Class" uid="fdac7afb-2c73-41c7-815b-2ff2889d2010"/>
+        <COMPID name="compatibility" mc="Standard.Package" uid="005f5924-0bd0-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

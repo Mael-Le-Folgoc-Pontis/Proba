@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="codec" version="4">
+  <OBJECT>
+    <ID name="codec" mc="Standard.Package" uid="000a3cbe-0bbd-112e-9071-001e4fea2d8b"/>
+    <PID name="commons" mc="Standard.Package" uid="0009d012-0bbd-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[codec]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="BinaryDecoder" mc="Standard.Interface" uid="000a44ac-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BinaryEncoder" mc="Standard.Interface" uid="000a4ccc-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CharEncoding" mc="Standard.Class" uid="10a212c2-60f6-4064-b369-3313f746081e"/>
+        <COMPID name="Decoder" mc="Standard.Interface" uid="000a54ec-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DecoderException" mc="Standard.Class" uid="000a5d52-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Encoder" mc="Standard.Interface" uid="000a65cc-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="EncoderException" mc="Standard.Class" uid="000a6da6-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="StringDecoder" mc="Standard.Interface" uid="000a767a-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="StringEncoder" mc="Standard.Interface" uid="000a7fb2-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="StringEncoderComparator" mc="Standard.Class" uid="000a87e6-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="binary" mc="Standard.Package" uid="000b0234-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="digest" mc="Standard.Package" uid="000b9f5a-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="language" mc="Standard.Package" uid="000c3956-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="net" mc="Standard.Package" uid="000d0962-0bbd-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

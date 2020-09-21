@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="dto" version="4">
+  <OBJECT>
+    <ID name="dto" mc="Standard.Package" uid="f464596e-241f-433e-9865-20c83db98f5f"/>
+    <PID name="startlevel" mc="Standard.Package" uid="00462436-21b1-1fb1-8a9e-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[dto]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="BundleStartLevelDTO" mc="Standard.Class" uid="a224b4cb-f58b-43f3-9e28-afddd689ec49"/>
+        <COMPID name="FrameworkStartLevelDTO" mc="Standard.Class" uid="99b39998-f05c-4911-abcc-9309303d7209"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

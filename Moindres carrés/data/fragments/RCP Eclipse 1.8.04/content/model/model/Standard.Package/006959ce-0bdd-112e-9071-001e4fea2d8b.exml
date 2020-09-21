@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="apt" version="4">
+  <OBJECT>
+    <ID name="apt" mc="Standard.Package" uid="006959ce-0bdd-112e-9071-001e4fea2d8b"/>
+    <PID name="mirror" mc="Standard.Package" uid="0068a290-0bdd-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[apt]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AnnotationProcessor" mc="Standard.Interface" uid="00696018-0bdd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AnnotationProcessorEnvironment" mc="Standard.Interface" uid="00696734-0bdd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AnnotationProcessorFactory" mc="Standard.Interface" uid="00696e14-0bdd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AnnotationProcessorListener" mc="Standard.Interface" uid="006974f4-0bdd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AnnotationProcessors" mc="Standard.Class" uid="00697b84-0bdd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Filer" mc="Standard.Interface" uid="0069a564-0bdd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Messager" mc="Standard.Interface" uid="0069b4b4-0bdd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RoundCompleteEvent" mc="Standard.Class" uid="0069bb4e-0bdd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RoundCompleteListener" mc="Standard.Interface" uid="0069c274-0bdd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RoundState" mc="Standard.Interface" uid="0069ca44-0bdd-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

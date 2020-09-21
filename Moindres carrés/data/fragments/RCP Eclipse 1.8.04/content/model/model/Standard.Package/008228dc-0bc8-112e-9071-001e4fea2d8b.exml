@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="select" version="4">
+  <OBJECT>
+    <ID name="select" mc="Standard.Package" uid="008228dc-0bc8-112e-9071-001e4fea2d8b"/>
+    <PID name="codeassist" mc="Standard.Package" uid="007c7496-0bc8-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[select]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="SelectionJavadoc" mc="Standard.Class" uid="00822f1c-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SelectionJavadocParser" mc="Standard.Class" uid="008235d4-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SelectionNodeFound" mc="Standard.Class" uid="00823cb4-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SelectionOnArgumentName" mc="Standard.Class" uid="00824380-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SelectionOnExplicitConstructorCall" mc="Standard.Class" uid="00824ac4-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SelectionOnFieldReference" mc="Standard.Class" uid="00825244-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SelectionOnFieldType" mc="Standard.Class" uid="008259b0-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SelectionOnImportReference" mc="Standard.Class" uid="0082618a-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SelectionOnLambdaExpression" mc="Standard.Class" uid="54c3e888-e25a-42be-a3c5-306dfa36b7f7"/>
+        <COMPID name="SelectionOnLocalName" mc="Standard.Class" uid="00826996-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SelectionOnMessageSend" mc="Standard.Class" uid="008271a2-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SelectionOnNameOfMemberValuePair" mc="Standard.Class" uid="00827a30-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SelectionOnPackageReference" mc="Standard.Class" uid="00828304-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SelectionOnParameterizedQualifiedTypeReference" mc="Standard.Class" uid="00828ba6-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SelectionOnParameterizedSingleTypeReference" mc="Standard.Class" uid="008294b6-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SelectionOnQualifiedAllocationExpression" mc="Standard.Class" uid="00829e02-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SelectionOnQualifiedNameReference" mc="Standard.Class" uid="0082a73a-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SelectionOnQualifiedSuperReference" mc="Standard.Class" uid="0082b0e0-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SelectionOnQualifiedTypeReference" mc="Standard.Class" uid="0082bacc-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SelectionOnReferenceExpression" mc="Standard.Class" uid="bd6a1796-e9b4-47d1-8d9b-1060e453cf7e"/>
+        <COMPID name="SelectionOnReferenceExpressionName" mc="Standard.Class" uid="2dde635d-f900-4472-a7cc-c73c851407f1"/>
+        <COMPID name="SelectionOnSingleNameReference" mc="Standard.Class" uid="0082c4a4-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SelectionOnSingleTypeReference" mc="Standard.Class" uid="0082cefe-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SelectionOnSuperReference" mc="Standard.Class" uid="0082d9bc-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SelectionParser" mc="Standard.Class" uid="0082e42a-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SelectionScanner" mc="Standard.Class" uid="0082eefc-0bc8-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

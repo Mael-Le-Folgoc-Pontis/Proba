@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="text" version="4">
+  <OBJECT>
+    <ID name="text" mc="Standard.Package" uid="0c471c7f-8994-4923-9bf1-cbf83ce047d0"/>
+    <PID name="internal" mc="Standard.Package" uid="78d3478f-ffaa-4fc9-8123-76468f3ac6f6"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[text]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="XSDModelAdapter" mc="Standard.Class" uid="183d62bb-f1ed-4645-b36f-71a64a4d11f8"/>
+        <COMPID name="XSDModelDelayedReconciler" mc="Standard.Class" uid="f62f3c9f-7912-4475-b0ab-0862e4239200"/>
+        <COMPID name="XSDModelQueryExtension" mc="Standard.Class" uid="d9a7b7ff-aa1e-4cb1-b05e-d5c287a193bf"/>
+        <COMPID name="XSDModelReconcileAdapter" mc="Standard.Class" uid="6ba9fc96-fbba-43ca-ba9e-09d733e3e168"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

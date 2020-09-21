@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="eventbus" version="4">
+  <OBJECT>
+    <ID name="eventbus" mc="Standard.Package" uid="7c723ed5-e9b0-43f3-9680-10b67eb216ab"/>
+    <PID name="common" mc="Standard.Package" uid="a53057d4-becb-49c8-a124-0d91b5f0d087"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[eventbus]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AllowConcurrentEvents" mc="Standard.Class" uid="b169a619-2ae5-4ccb-ad10-19f5ec28cdb7"/>
+        <COMPID name="AsyncEventBus" mc="Standard.Class" uid="d4574e6a-649a-4794-83b0-b0b529df16c1"/>
+        <COMPID name="DeadEvent" mc="Standard.Class" uid="2978a48a-d94c-4b9a-9052-c47a9f9828cb"/>
+        <COMPID name="EventBus" mc="Standard.Class" uid="a9aeff53-de7b-483f-9808-f0de296f20e2"/>
+        <COMPID name="Subscribe" mc="Standard.Class" uid="f0fb31e7-2a1c-430c-a013-3b7b31a578d1"/>
+        <COMPID name="SubscriberExceptionContext" mc="Standard.Class" uid="2c4c9e7f-f6b7-4ed0-bd80-13cec921dd74"/>
+        <COMPID name="SubscriberExceptionHandler" mc="Standard.Interface" uid="182a74f5-e82f-4415-a395-7d56a1fdfeba"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

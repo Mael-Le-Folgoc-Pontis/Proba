@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="exports" version="4">
+  <OBJECT>
+    <ID name="exports" mc="Standard.Package" uid="0070d834-0bd0-112e-9071-001e4fea2d8b"/>
+    <PID name="core" mc="Standard.Package" uid="0064dc0a-0bd0-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[exports]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="BuildUtilities" mc="Standard.Class" uid="0070df32-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ExecutionEnvironmentProfileManager" mc="Standard.Class" uid="0070e554-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FeatureBasedExportOperation" mc="Standard.Class" uid="0070ebbc-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FeatureExportInfo" mc="Standard.Class" uid="0070f260-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FeatureExportOperation" mc="Standard.Class" uid="0070f8fa-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PluginExportOperation" mc="Standard.Class" uid="0070fff8-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ProductExportOperation" mc="Standard.Class" uid="00710732-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SiteBuildOperation" mc="Standard.Class" uid="00710e94-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WorkspaceExportHelper" mc="Standard.Class" uid="00711632-0bd0-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

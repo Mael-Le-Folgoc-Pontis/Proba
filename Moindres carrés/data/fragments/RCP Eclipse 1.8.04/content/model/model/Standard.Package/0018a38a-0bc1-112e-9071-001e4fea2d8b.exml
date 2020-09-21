@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="breakpointGroups" version="4">
+  <OBJECT>
+    <ID name="breakpointGroups" mc="Standard.Package" uid="0018a38a-0bc1-112e-9071-001e4fea2d8b"/>
+    <PID name="actions" mc="Standard.Package" uid="0014080c-0bc1-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[breakpointGroups]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractBreakpointsViewAction" mc="Standard.Class" uid="0018aaa6-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AdvancedGroupBreakpointsByAction" mc="Standard.Class" uid="0018b1d6-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BreakpointGroupMessages" mc="Standard.Class" uid="0018b91a-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BreakpointSelectionAction" mc="Standard.Class" uid="0018c054-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BreakpointWorkingSetAction" mc="Standard.Class" uid="0018c7f2-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ClearDefaultBreakpointGroupAction" mc="Standard.Class" uid="0018cfea-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CopyBreakpointsActionDelegate" mc="Standard.Class" uid="0018d7c4-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="EditBreakpointGroupAction" mc="Standard.Class" uid="0018e00c-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="GroupBreakpointsAction" mc="Standard.Class" uid="0018e8ea-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="GroupBreakpointsByAction" mc="Standard.Class" uid="0018f1aa-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="GroupBreakpointsByDialog" mc="Standard.Class" uid="0018fa4c-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PasteBreakpointsAction" mc="Standard.Class" uid="00191856-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RemoveFromWorkingSetAction" mc="Standard.Class" uid="001921ac-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SelectBreakpointWorkingsetDialog" mc="Standard.Class" uid="001939a8-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SetDefaultBreakpointGroupAction" mc="Standard.Class" uid="00194362-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ToggleDefaultGroupAction" mc="Standard.Class" uid="00194d44-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WorkingSetsAction" mc="Standard.Class" uid="00195726-0bc1-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

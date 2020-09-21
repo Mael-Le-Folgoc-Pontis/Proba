@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="theme" version="4">
+  <OBJECT>
+    <ID name="theme" mc="Standard.Package" uid="002cdfe4-21a2-1fb1-8a9e-001e4fea2d8b"/>
+    <PID name="internal" mc="Standard.Package" uid="005398b4-21a0-1fb1-8a9e-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[theme]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ButtonDrawData" mc="Standard.Class" uid="002f41f8-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ComboDrawData" mc="Standard.Class" uid="002ebd50-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="DrawData" mc="Standard.Class" uid="002cfd76-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ExpanderDrawData" mc="Standard.Class" uid="002fca60-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="GroupDrawData" mc="Standard.Class" uid="002f9cac-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ProgressBarDrawData" mc="Standard.Class" uid="002dd764-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="RangeDrawData" mc="Standard.Class" uid="002ee938-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ScaleDrawData" mc="Standard.Class" uid="002f6ee4-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ScrollBarDrawData" mc="Standard.Class" uid="002e348e-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="TabFolderDrawData" mc="Standard.Class" uid="002d26a2-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="TabItemDrawData" mc="Standard.Class" uid="002e91d6-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="Theme" mc="Standard.Class" uid="002d8264-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ToolBarDrawData" mc="Standard.Class" uid="002dac4e-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ToolItemDrawData" mc="Standard.Class" uid="002f1570-21a2-1fb1-8a9e-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

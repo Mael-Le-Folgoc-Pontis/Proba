@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="input" version="4">
+  <OBJECT>
+    <ID name="input" mc="Standard.Package" uid="0ea43a6c-c34b-43e8-8022-5de2acd85b82"/>
+    <PID name="io" mc="Standard.Package" uid="5e71a916-8548-43c4-a2c2-b88ae4b5171c"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[input]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AutoCloseInputStream" mc="Standard.Class" uid="3940931f-9021-4e61-8a3a-036042dff6a5"/>
+        <COMPID name="BOMInputStream" mc="Standard.Class" uid="c2fc4e02-d948-4d6f-9452-64591d57f972"/>
+        <COMPID name="BoundedInputStream" mc="Standard.Class" uid="3375af5c-71b8-41de-b020-3aeed0703fba"/>
+        <COMPID name="BrokenInputStream" mc="Standard.Class" uid="5c8322d2-c191-4dc4-a667-5d0a74dfa3f1"/>
+        <COMPID name="CharSequenceInputStream" mc="Standard.Class" uid="1446618d-7b96-4471-9d40-6f42108dd346"/>
+        <COMPID name="CharSequenceReader" mc="Standard.Class" uid="ecd4b501-20c2-4ee4-943b-b5631354e209"/>
+        <COMPID name="ClassLoaderObjectInputStream" mc="Standard.Class" uid="a8b4c63a-2cb7-4af1-bf7c-c8e554c0b05f"/>
+        <COMPID name="CloseShieldInputStream" mc="Standard.Class" uid="33c278bf-c09f-4fcc-80ad-f7db4739c116"/>
+        <COMPID name="ClosedInputStream" mc="Standard.Class" uid="ac5912b5-0c63-4473-a16c-fd8c29532525"/>
+        <COMPID name="CountingInputStream" mc="Standard.Class" uid="125546f9-4608-46e2-80fe-72f032fd7ab3"/>
+        <COMPID name="DemuxInputStream" mc="Standard.Class" uid="21f73bf7-0679-4534-9a6c-121125cabfe7"/>
+        <COMPID name="NullInputStream" mc="Standard.Class" uid="387ba1b6-109a-461f-a05d-f4b85c4d9d71"/>
+        <COMPID name="NullReader" mc="Standard.Class" uid="56206934-7668-45a2-b615-0c4c24600daa"/>
+        <COMPID name="ProxyInputStream" mc="Standard.Class" uid="93cc093e-2891-461e-8a81-9ab9bce13376"/>
+        <COMPID name="ProxyReader" mc="Standard.Class" uid="6529e0f9-4ecc-407d-83af-cfb80a6a4490"/>
+        <COMPID name="ReaderInputStream" mc="Standard.Class" uid="5d44b9bb-5f0b-4aca-a9be-ddb71aef8cf9"/>
+        <COMPID name="ReversedLinesFileReader" mc="Standard.Class" uid="84c12363-eeed-4fab-a197-c13d9d4fa77b"/>
+        <COMPID name="SwappedDataInputStream" mc="Standard.Class" uid="8324f212-18d7-4658-82cb-b5fe86608f0d"/>
+        <COMPID name="TaggedInputStream" mc="Standard.Class" uid="1edc0176-2bec-42e1-9bc5-aab9e10cfb4b"/>
+        <COMPID name="Tailer" mc="Standard.Class" uid="24fbb617-5729-4c06-8c37-0127a84cd196"/>
+        <COMPID name="TailerListener" mc="Standard.Interface" uid="732914fa-c39e-4fe8-a565-aa53943aadde"/>
+        <COMPID name="TailerListenerAdapter" mc="Standard.Class" uid="3ca98062-9569-4af6-b561-d9c3fab6e366"/>
+        <COMPID name="TeeInputStream" mc="Standard.Class" uid="0e0a0beb-23c7-4c44-b87c-cb1d2c9b8f3c"/>
+        <COMPID name="XmlStreamReader" mc="Standard.Class" uid="eadbb65a-88b1-42ea-b2fc-30c5379ab333"/>
+        <COMPID name="XmlStreamReaderException" mc="Standard.Class" uid="3362fff5-189e-4d21-b2eb-a7d0d815db57"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

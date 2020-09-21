@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="recovery" version="4">
+  <OBJECT>
+    <ID name="recovery" mc="Standard.Package" uid="abc745f2-51d8-4687-ab43-fa273f790abf"/>
+    <PID name="core" mc="Standard.Package" uid="0101cad1-4db3-4b5d-b30b-1e1efbf9bd6c"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[recovery]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="RecoveryCoordinator" mc="Standard.Class" uid="20881b46-1a19-42e4-a93c-81626b8a859a"/>
+        <COMPID name="ResilientFileOutputStream" mc="Standard.Class" uid="7de7b32b-b832-47d7-8b7d-b9aac0a759e1"/>
+        <COMPID name="ResilientOutputStreamBase" mc="Standard.Class" uid="6251d204-1924-4f34-bde7-a488fabf1feb"/>
+        <COMPID name="ResilientSyslogOutputStream" mc="Standard.Class" uid="b7a50d00-baae-4fff-b5f2-a57de1e968ef"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

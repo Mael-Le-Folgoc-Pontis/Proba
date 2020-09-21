@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="common" version="4">
+  <OBJECT>
+    <ID name="common" mc="Standard.Package" uid="4f6fd1ad-371b-4d8b-b562-29a523d30564"/>
+    <PID name="xz" mc="Standard.Package" uid="d95f0043-5157-46b7-a345-0537f210e6de"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[common]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="DecoderUtil" mc="Standard.Class" uid="bff1a304-773f-4cce-b6df-b3af4aa679ea"/>
+        <COMPID name="EncoderUtil" mc="Standard.Class" uid="c18d8991-1cd3-475a-89bc-cc7379eb76fe"/>
+        <COMPID name="StreamFlags" mc="Standard.Class" uid="5a00025d-6a29-4436-bbed-37e12b6f135c"/>
+        <COMPID name="Util" mc="Standard.Class" uid="3b58869e-33c8-4399-ad5e-b0fc62bc8f98"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

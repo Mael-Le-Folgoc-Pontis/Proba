@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="presentation" version="4">
+  <OBJECT>
+    <ID name="presentation" mc="Standard.Package" uid="02b0800a-4d61-427b-9dea-b3bd9c73d865"/>
+    <PID name="model" mc="Standard.Package" uid="9056f02a-6466-4e71-ad47-e7e20a7b145f"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[presentation]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="IObservePresentationDecorator" mc="Standard.Interface" uid="b731219e-9660-4294-8f6e-66a9c56cc89d"/>
+        <COMPID name="JavaInfoDecorator" mc="Standard.Class" uid="ae49db4b-bad2-4a70-ad00-6a671bbbd213"/>
+        <COMPID name="JavaInfoObservePresentation" mc="Standard.Class" uid="11b9674b-b363-44e1-a252-2b395b27e533"/>
+        <COMPID name="ObservePresentation" mc="Standard.Class" uid="4b2b1d08-f11e-4aaf-bcf2-afc3c62d9602"/>
+        <COMPID name="SimpleObservePresentation" mc="Standard.Class" uid="cac2cdb2-b880-4663-88bb-022d8680c596"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

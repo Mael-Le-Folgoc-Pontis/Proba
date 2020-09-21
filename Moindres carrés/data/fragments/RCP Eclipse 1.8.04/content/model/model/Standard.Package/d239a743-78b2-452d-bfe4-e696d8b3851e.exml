@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ui" version="4">
+  <OBJECT>
+    <ID name="ui" mc="Standard.Package" uid="d239a743-78b2-452d-bfe4-e696d8b3851e"/>
+    <PID name="mylyn" mc="Standard.Package" uid="e88633a5-a6ef-4d3d-9f91-e1afc3ca9016"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[ui]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="CommitHyperlinkDetector" mc="Standard.Class" uid="97e1df1c-83a0-404c-9ae0-149141a5ad7f"/>
+        <COMPID name="EGitMylynUI" mc="Standard.Class" uid="1449978c-8e77-4288-b65c-964b4a2741b3"/>
+        <COMPID name="Messages" mc="Standard.Class" uid="b10a4ee4-b5df-4324-ba85-aa64f3c3936c"/>
+        <COMPID name="commit" mc="Standard.Package" uid="9b168730-5069-4508-872c-c72385e54285"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

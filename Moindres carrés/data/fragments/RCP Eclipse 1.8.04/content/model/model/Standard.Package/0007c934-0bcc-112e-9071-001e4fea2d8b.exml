@@ -1,0 +1,135 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="http" version="4">
+  <OBJECT>
+    <ID name="http" mc="Standard.Package" uid="0007c934-0bcc-112e-9071-001e4fea2d8b"/>
+    <PID name="jetty" mc="Standard.Package" uid="00065040-0bcc-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[http]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractGenerator" mc="Standard.Class" uid="0007d00a-0bcc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DateGenerator" mc="Standard.Class" uid="a0f835c5-a052-458a-ba8b-6009e6ee16cd"/>
+        <COMPID name="EncodedHttpURI" mc="Standard.Class" uid="0007d622-0bcc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Generator" mc="Standard.Interface" uid="0007dc1c-0bcc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HttpBuffers" mc="Standard.Interface" uid="0007e2e8-0bcc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HttpBuffersImpl" mc="Standard.Class" uid="0007e982-0bcc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HttpContent" mc="Standard.Interface" uid="0007effe-0bcc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HttpCookie" mc="Standard.Class" uid="0008050c-0bcc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HttpException" mc="Standard.Class" uid="00080be2-0bcc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HttpField" mc="Standard.Class" uid="3c97cbdf-63c8-45c3-9a00-26ad943ee330"/>
+        <COMPID name="HttpFields" mc="Standard.Class" uid="000812ea-0bcc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HttpGenerator" mc="Standard.Class" uid="000843d2-0bcc-112e-9071-001e4fea2d8b"/>
+        <OBJECT>
+          <ID name="HttpHeader" mc="Standard.Enumeration" uid="80e90c04-0e2a-4c4f-9278-a8bfd47cde93"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[HttpHeader]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Extension">
+              <FOREIGNID name="JavaEnumeration" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0262-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="HttpHeaderValue" mc="Standard.Enumeration" uid="da0e1d49-69b5-4279-aefa-5bf86f49f426"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[HttpHeaderValue]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Extension">
+              <FOREIGNID name="JavaEnumeration" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0262-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <COMPID name="HttpHeaderValues" mc="Standard.Class" uid="000858d6-0bcc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HttpHeaders" mc="Standard.Class" uid="0008607e-0bcc-112e-9071-001e4fea2d8b"/>
+        <OBJECT>
+          <ID name="HttpMethod" mc="Standard.Enumeration" uid="bd4911de-fac0-474d-a080-7435456b3407"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[HttpMethod]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Extension">
+              <FOREIGNID name="JavaEnumeration" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0262-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <COMPID name="HttpMethods" mc="Standard.Class" uid="00086858-0bcc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HttpParser" mc="Standard.Class" uid="000870d2-0bcc-112e-9071-001e4fea2d8b"/>
+        <OBJECT>
+          <ID name="HttpScheme" mc="Standard.Enumeration" uid="2d8cc355-8d0c-4af1-9ecb-1b6ab401d38a"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[HttpScheme]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Extension">
+              <FOREIGNID name="JavaEnumeration" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0262-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <COMPID name="HttpSchemes" mc="Standard.Class" uid="00088676-0bcc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HttpStatus" mc="Standard.Class" uid="00088ee6-0bcc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HttpTester" mc="Standard.Class" uid="5d109bc1-abf0-4ba2-b9f6-fd05e050c74a"/>
+        <COMPID name="HttpTokens" mc="Standard.Interface" uid="00089d32-0bcc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HttpURI" mc="Standard.Class" uid="0008a656-0bcc-112e-9071-001e4fea2d8b"/>
+        <OBJECT>
+          <ID name="HttpVersion" mc="Standard.Enumeration" uid="def31b7b-c626-483a-b294-d7d974266ec5"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[HttpVersion]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Extension">
+              <FOREIGNID name="JavaEnumeration" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0262-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <COMPID name="HttpVersions" mc="Standard.Class" uid="0008af20-0bcc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MimeTypes" mc="Standard.Class" uid="0008b7e0-0bcc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Parser" mc="Standard.Interface" uid="0008bec0-0bcc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PathMap" mc="Standard.Class" uid="0008c85c-0bcc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="gzip" mc="Standard.Package" uid="0009840e-0bcc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ssl" mc="Standard.Package" uid="000a46b4-0bcc-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

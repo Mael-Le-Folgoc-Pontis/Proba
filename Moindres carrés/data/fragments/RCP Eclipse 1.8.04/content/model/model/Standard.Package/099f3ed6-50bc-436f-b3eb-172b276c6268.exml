@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="common" version="4">
+  <OBJECT>
+    <ID name="common" mc="Standard.Package" uid="099f3ed6-50bc-436f-b3eb-172b276c6268"/>
+    <PID name="google" mc="Standard.Package" uid="88b60d61-0fff-4da1-a4ed-aa71daab91b8"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[common]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="annotations" mc="Standard.Package" uid="057f0c94-a578-4133-b523-5a50d7cd22a1"/>
+        <COMPID name="base" mc="Standard.Package" uid="5915bb06-7738-4f5c-9ea6-a540be98904e"/>
+        <COMPID name="collect" mc="Standard.Package" uid="c9503102-5220-4410-be6b-5fcf607360b1"/>
+        <COMPID name="math" mc="Standard.Package" uid="d3385878-8164-4656-b527-52413b43ae8c"/>
+        <COMPID name="primitives" mc="Standard.Package" uid="30b77d9b-e774-482d-adce-52ce0d20f8f8"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

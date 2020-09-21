@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="internal" version="4">
+  <OBJECT>
+    <ID name="internal" mc="Standard.Package" uid="0901ce1f-38de-4aa8-8843-246006682930"/>
+    <PID name="launch" mc="Standard.Package" uid="9511f9e3-7ee7-4382-97b8-68c1ec9a895e"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[internal]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="BuildExecutionParticipants" mc="Standard.Class" uid="9502ea5b-7124-4eb8-8a2b-c1fc7ba09839"/>
+        <COMPID name="DefaultExecuteLaunchRequestEvent" mc="Standard.Class" uid="731e61ac-d0e6-45d0-995f-2b928016f3d2"/>
+        <COMPID name="DefaultGradleLaunchConfigurationManager" mc="Standard.Class" uid="ab2d7dca-185c-4573-9a1d-f5ab94925ce3"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

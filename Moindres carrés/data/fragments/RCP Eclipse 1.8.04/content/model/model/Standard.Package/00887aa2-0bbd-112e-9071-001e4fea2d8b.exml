@@ -1,0 +1,77 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="index" version="4">
+  <OBJECT>
+    <ID name="index" mc="Standard.Package" uid="00887aa2-0bbd-112e-9071-001e4fea2d8b"/>
+    <PID name="lucene" mc="Standard.Package" uid="0039f17a-0bbd-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[index]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractAllTermDocs" mc="Standard.Class" uid="008887cc-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CheckIndex" mc="Standard.Class" uid="0088f888-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ConcurrentMergeScheduler" mc="Standard.Class" uid="0089d4e2-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CorruptIndexException" mc="Standard.Class" uid="0089e5fe-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FieldInvertState" mc="Standard.Class" uid="008b7dec-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FieldReaderException" mc="Standard.Class" uid="008b8bf2-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FieldSortedTermVectorMapper" mc="Standard.Class" uid="008b9a66-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FilterIndexReader" mc="Standard.Class" uid="008bce46-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IndexCommit" mc="Standard.Class" uid="008cf41a-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IndexCommitPoint" mc="Standard.Interface" uid="8272ed21-975f-4dc6-a63f-0a425de2e5d3"/>
+        <COMPID name="IndexDeletionPolicy" mc="Standard.Interface" uid="008cfb4a-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IndexFileNameFilter" mc="Standard.Class" uid="008d3e48-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IndexFormatTooNewException" mc="Standard.Class" uid="008d645e-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IndexFormatTooOldException" mc="Standard.Class" uid="008d773c-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IndexNotFoundException" mc="Standard.Class" uid="008d8ad8-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IndexReader" mc="Standard.Class" uid="008d9e7e-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IndexUpgrader" mc="Standard.Class" uid="008dc110-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IndexWriter" mc="Standard.Class" uid="008dd4e8-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IndexWriterConfig" mc="Standard.Class" uid="008e194e-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="KeepOnlyLastCommitDeletionPolicy" mc="Standard.Class" uid="008ecd62-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LogByteSizeMergePolicy" mc="Standard.Class" uid="008ee3b0-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LogDocMergePolicy" mc="Standard.Class" uid="008efa12-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LogMergePolicy" mc="Standard.Class" uid="008f106a-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MergePolicy" mc="Standard.Class" uid="008f5192-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MergeScheduler" mc="Standard.Class" uid="008fa6ec-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MultiReader" mc="Standard.Class" uid="008ffdcc-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MultipleTermPositions" mc="Standard.Class" uid="00901596-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="NoDeletionPolicy" mc="Standard.Class" uid="00904c6e-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="NoMergePolicy" mc="Standard.Class" uid="00906578-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="NoMergeScheduler" mc="Standard.Class" uid="0090806c-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ParallelReader" mc="Standard.Class" uid="0091125c-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Payload" mc="Standard.Class" uid="009142f4-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PayloadProcessorProvider" mc="Standard.Class" uid="00915c12-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PersistentSnapshotDeletionPolicy" mc="Standard.Class" uid="009194c0-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PositionBasedTermVectorMapper" mc="Standard.Class" uid="0091ae2e-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SegmentReader" mc="Standard.Class" uid="009334ec-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SegmentWriteState" mc="Standard.Class" uid="0093e5d6-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SerialMergeScheduler" mc="Standard.Class" uid="00940282-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SnapshotDeletionPolicy" mc="Standard.Class" uid="00941fa6-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SortedTermVectorMapper" mc="Standard.Class" uid="0094567e-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="StaleReaderException" mc="Standard.Class" uid="00947438-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Term" mc="Standard.Class" uid="0094d69e-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TermDocs" mc="Standard.Interface" uid="0094fd22-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TermEnum" mc="Standard.Class" uid="00951dde-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TermFreqVector" mc="Standard.Interface" uid="0095259a-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TermPositionVector" mc="Standard.Interface" uid="0095d850-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TermPositions" mc="Standard.Interface" uid="0095e0a2-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TermVectorEntry" mc="Standard.Class" uid="00960050-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TermVectorEntryFreqSortedComparator" mc="Standard.Class" uid="00961fe0-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TermVectorMapper" mc="Standard.Class" uid="00963fca-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TermVectorOffsetInfo" mc="Standard.Class" uid="00965fd2-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TieredMergePolicy" mc="Standard.Class" uid="00980c06-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="UpgradeIndexMergePolicy" mc="Standard.Class" uid="0098446e-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="memory" mc="Standard.Package" uid="cadf85aa-ca80-442a-a5c0-1ef673b0ebac"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

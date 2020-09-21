@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="actions" version="4">
+  <OBJECT>
+    <ID name="actions" mc="Standard.Package" uid="001eba7c-0bcb-112e-9071-001e4fea2d8b"/>
+    <PID name="refactoring" mc="Standard.Package" uid="00180c90-0bcb-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[actions]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ApplyRefactoringScriptAction" mc="Standard.Class" uid="001ec0da-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CreateRefactoringScriptAction" mc="Standard.Class" uid="001ec6e8-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="InlineConstantAction" mc="Standard.Class" uid="001ecd50-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="InlineMethodAction" mc="Standard.Class" uid="001ed3ea-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MigrateJarFileAction" mc="Standard.Class" uid="001eda7a-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MoveInstanceMethodAction" mc="Standard.Class" uid="001ee1a0-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MoveStaticMembersAction" mc="Standard.Class" uid="001ee8d0-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RefactoringActions" mc="Standard.Class" uid="001ef00a-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RefactoringStarter" mc="Standard.Class" uid="001ef7a8-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RenameJavaElementAction" mc="Standard.Class" uid="001eff78-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RenameResourceAction" mc="Standard.Class" uid="001f07c0-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ShowRefactoringHistoryAction" mc="Standard.Class" uid="001f1008-0bcb-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

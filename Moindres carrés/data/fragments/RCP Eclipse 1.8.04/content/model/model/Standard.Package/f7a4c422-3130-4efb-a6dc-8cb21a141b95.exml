@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="editors" version="4">
+  <OBJECT>
+    <ID name="editors" mc="Standard.Package" uid="f7a4c422-3130-4efb-a6dc-8cb21a141b95"/>
+    <PID name="rcp" mc="Standard.Package" uid="08293717-83c7-4729-9923-194af2609ee6"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[editors]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="EditorUtils" mc="Standard.Class" uid="a7a56a62-0635-4b3a-b048-e86b98ff9b23"/>
+        <COMPID name="SnippetEditorActionBarContributor" mc="Standard.Class" uid="1c754aae-4457-4dfc-987c-29b06bc370dc"/>
+        <COMPID name="SnippetMetadataPage" mc="Standard.Class" uid="4d6116f0-90bc-40b6-8d1f-8ccfba247bcd"/>
+        <COMPID name="SnippetMetadataPageFactory" mc="Standard.Class" uid="f4bdd83b-bb86-4910-a529-3d654310ebd3"/>
+        <COMPID name="SnippetSourcePage" mc="Standard.Class" uid="50b4cf75-995f-4b35-a3e9-0ad08617f012"/>
+        <COMPID name="SnippetSourcePageFactory" mc="Standard.Class" uid="0decb698-da80-4908-8dff-55eb4bcead9a"/>
+        <COMPID name="SnippetSourceValidator" mc="Standard.Class" uid="7bafe5aa-8d2f-44fa-ae08-f1d3d911bc06"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

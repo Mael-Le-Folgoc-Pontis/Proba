@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="matchers" version="4">
+  <OBJECT>
+    <ID name="matchers" mc="Standard.Package" uid="000ffa00-0bdb-112e-9071-001e4fea2d8b"/>
+    <PID name="internal" mc="Standard.Package" uid="000ee354-0bdb-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[matchers]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="StacktracePrintingMatcher" mc="Standard.Class" uid="1e4cc20b-0576-4d74-8e81-b0aca09c5a1a"/>
+        <COMPID name="ThrowableCauseMatcher" mc="Standard.Class" uid="25954166-e20f-4ef5-97f4-6bd7c4d75669"/>
+        <COMPID name="ThrowableMessageMatcher" mc="Standard.Class" uid="a154e4a9-a2cd-437a-a563-4de491f19bba"/>
+        <COMPID name="TypeSafeMatcher" mc="Standard.Class" uid="00102084-0bdb-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

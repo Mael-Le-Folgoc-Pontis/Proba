@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="util" version="4">
+  <OBJECT>
+    <ID name="util" mc="Standard.Package" uid="9a0b0bbd-a490-48cb-aff4-7cbd54bf140c"/>
+    <PID name="math" mc="Standard.Package" uid="6f81fdc4-2ff0-400d-8d89-7999bec4c6cd"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[util]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="BigReal" mc="Standard.Class" uid="659a84a7-6f45-43c8-9512-b165bc28e15e"/>
+        <COMPID name="BigRealField" mc="Standard.Class" uid="7482e691-a3e6-43b0-ab63-f71d29b1595a"/>
+        <COMPID name="CompositeFormat" mc="Standard.Class" uid="6d133448-e7fb-44a9-b5e9-8884599adfce"/>
+        <COMPID name="ContinuedFraction" mc="Standard.Class" uid="53b2ec0a-4f5f-4c36-b4f0-a2c1b84349a4"/>
+        <COMPID name="DefaultTransformer" mc="Standard.Class" uid="24fa0ca6-5793-47c9-a2a1-202e917a1043"/>
+        <COMPID name="DoubleArray" mc="Standard.Interface" uid="943ed1df-e4f9-423f-ae92-c02f218958ca"/>
+        <COMPID name="MathUtils" mc="Standard.Class" uid="8eb64203-fc9d-4986-b605-c24f81c97f8c"/>
+        <COMPID name="NumberTransformer" mc="Standard.Interface" uid="cbaff442-482a-4fba-a254-e3e1174c6ad6"/>
+        <COMPID name="OpenIntToDoubleHashMap" mc="Standard.Class" uid="1adbea20-251c-43aa-8bff-41b7187e0f2d"/>
+        <COMPID name="OpenIntToFieldHashMap" mc="Standard.Class" uid="bc31e3d3-272f-48b6-85f9-31ab7d417a73"/>
+        <COMPID name="ResizableDoubleArray" mc="Standard.Class" uid="32c066f9-3bd4-41fe-b805-721ad36998cf"/>
+        <COMPID name="TransformerMap" mc="Standard.Class" uid="4c695a21-4278-40f8-9a31-c031f6d13448"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

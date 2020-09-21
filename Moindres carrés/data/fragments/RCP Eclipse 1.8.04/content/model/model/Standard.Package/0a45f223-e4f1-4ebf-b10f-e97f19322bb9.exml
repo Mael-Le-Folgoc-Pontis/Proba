@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="parser" version="4">
+  <OBJECT>
+    <ID name="parser" mc="Standard.Package" uid="0a45f223-e4f1-4ebf-b10f-e97f19322bb9"/>
+    <PID name="internal" mc="Standard.Package" uid="fed72978-bb15-4d8f-baa5-a833797392d0"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[parser]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="DTDRegionFactory" mc="Standard.Class" uid="ac1ce317-29ad-4fba-b67f-719de3ce9dc6"/>
+        <COMPID name="DTDRegionParser" mc="Standard.Class" uid="171dcfa6-90be-4681-b66a-df1ce8105a43"/>
+        <COMPID name="DTDRegionTypes" mc="Standard.Interface" uid="58692038-8854-4df0-b210-39d0442ced0a"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

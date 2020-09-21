@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="statushandlers" version="4">
+  <OBJECT>
+    <ID name="statushandlers" mc="Standard.Package" uid="00746cb0-21ae-1fb1-8a9e-001e4fea2d8b"/>
+    <PID name="internal" mc="Standard.Package" uid="0015be4a-21ac-1fb1-8a9e-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[statushandlers]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="DefaultDetailsArea" mc="Standard.Class" uid="0077e962-21ae-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="DetailsAreaManager" mc="Standard.Class" uid="00778bc0-21ae-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="IStatusDialogConstants" mc="Standard.Interface" uid="00753032-21ae-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="InternalDialog" mc="Standard.Class" uid="0076345a-21ae-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="LabelProviderWrapper" mc="Standard.Class" uid="007488d0-21ae-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="StackTraceSupportArea" mc="Standard.Class" uid="0076f296-21ae-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="StatusHandlerDescriptor" mc="Standard.Class" uid="0078ac80-21ae-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="StatusHandlerRegistry" mc="Standard.Class" uid="00758e38-21ae-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="SupportTray" mc="Standard.Class" uid="00769620-21ae-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="WorkbenchStatusDialogManagerImpl" mc="Standard.Class" uid="0075b5f2-21ae-1fb1-8a9e-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

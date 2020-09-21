@@ -1,0 +1,69 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="spi" version="4">
+  <OBJECT>
+    <ID name="spi" mc="Standard.Package" uid="0fd64b14-9dd2-4faa-8d11-8aa6bf75d098"/>
+    <PID name="inject" mc="Standard.Package" uid="8ae47951-ec4b-4139-8eb5-d40d8d278ac2"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[spi]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="BindingScopingVisitor" mc="Standard.Interface" uid="039eba3c-8901-4ed1-8944-2b83923e6768"/>
+        <COMPID name="BindingTargetVisitor" mc="Standard.Interface" uid="f4e023a2-6afe-47cc-bb60-c48aaee8d733"/>
+        <COMPID name="ConstructorBinding" mc="Standard.Interface" uid="fce4f873-89a2-430b-a000-8d97e649f94e"/>
+        <COMPID name="ConvertedConstantBinding" mc="Standard.Interface" uid="e605842f-825b-44ed-9b3b-73c3e4059f27"/>
+        <COMPID name="DefaultBindingScopingVisitor" mc="Standard.Class" uid="46d70c2d-536d-4458-b3a4-285c805d9b88"/>
+        <COMPID name="DefaultBindingTargetVisitor" mc="Standard.Class" uid="327f09d1-de0f-4d95-8a2f-68c98e62ca0f"/>
+        <COMPID name="DefaultElementVisitor" mc="Standard.Class" uid="ae22eac2-48d4-4293-bdd0-9edfbcb648ed"/>
+        <COMPID name="Dependency" mc="Standard.Class" uid="6e1dda48-63db-4f2d-b1be-b200c5e98684"/>
+        <COMPID name="DependencyAndSource" mc="Standard.Class" uid="4a2ec68a-df7e-4501-9411-a3691afa7338"/>
+        <COMPID name="DisableCircularProxiesOption" mc="Standard.Class" uid="f01c56c4-a773-4695-b62c-4dbc4e6b936a"/>
+        <COMPID name="Element" mc="Standard.Interface" uid="5199a256-af32-400f-8c30-b49782b2ff3c"/>
+        <COMPID name="ElementSource" mc="Standard.Class" uid="11ac2ad9-da4e-49d5-aee0-8082b448f1a4"/>
+        <COMPID name="ElementVisitor" mc="Standard.Interface" uid="9bcd943c-30e4-4481-8a3f-87d81edaf30b"/>
+        <COMPID name="Elements" mc="Standard.Class" uid="2d019be5-deb7-4757-9966-b9a8338d2b64"/>
+        <COMPID name="ExposedBinding" mc="Standard.Interface" uid="40de3c48-fa87-4853-8725-22670f76ce44"/>
+        <COMPID name="HasDependencies" mc="Standard.Interface" uid="f5faacd7-fb22-4a07-9c09-0798a1ee9a54"/>
+        <COMPID name="InjectionListener" mc="Standard.Interface" uid="3a633c0e-84d2-4b04-8187-71b0cd880b9c"/>
+        <COMPID name="InjectionPoint" mc="Standard.Class" uid="db139ace-528f-4df4-a575-654d2420a916"/>
+        <COMPID name="InjectionRequest" mc="Standard.Class" uid="276c16d8-8ea1-4a9d-a0fc-3646e192408c"/>
+        <COMPID name="InstanceBinding" mc="Standard.Interface" uid="5b6bbba6-33a7-4a98-a0bd-ddbf20e21176"/>
+        <COMPID name="LinkedKeyBinding" mc="Standard.Interface" uid="88e837de-7171-4c82-9e47-448a428960ad"/>
+        <COMPID name="MembersInjectorLookup" mc="Standard.Class" uid="df743ea3-cbaf-4a21-9c1b-8eb778cd3dab"/>
+        <COMPID name="Message" mc="Standard.Class" uid="038e8cfe-e5a7-435e-8099-f1f47a10b3ee"/>
+        <COMPID name="PrivateElements" mc="Standard.Interface" uid="a602a413-f0c5-4df0-acb0-0a74c47ac106"/>
+        <COMPID name="ProviderBinding" mc="Standard.Interface" uid="c7aeee1a-30c3-4602-a32d-561b9a677be7"/>
+        <COMPID name="ProviderInstanceBinding" mc="Standard.Interface" uid="606cc0a5-1cc4-4283-b333-4690d5d46340"/>
+        <COMPID name="ProviderKeyBinding" mc="Standard.Interface" uid="c49c7131-32b9-4b2b-b43b-8d6785bdf054"/>
+        <COMPID name="ProviderLookup" mc="Standard.Class" uid="59ab3c4f-55ee-4a43-87b1-43dc4469b76a"/>
+        <COMPID name="ProviderWithDependencies" mc="Standard.Interface" uid="47d89718-95bc-4cca-b1f7-ff76dcb6c5b9"/>
+        <COMPID name="ProviderWithExtensionVisitor" mc="Standard.Interface" uid="b220d9fb-ae08-4c63-9deb-7a582aaba339"/>
+        <COMPID name="ProvidesMethodBinding" mc="Standard.Interface" uid="efb9dd30-f4d6-4333-b073-8fbf3073bc79"/>
+        <COMPID name="ProvidesMethodTargetVisitor" mc="Standard.Interface" uid="72b40498-b003-4db5-8709-72ff4d546e4c"/>
+        <COMPID name="ProvisionListener" mc="Standard.Interface" uid="fe70ae60-4e6f-4334-8c78-045a11196951"/>
+        <COMPID name="ProvisionListenerBinding" mc="Standard.Class" uid="105d7445-51e8-45fe-af95-9f0065739b97"/>
+        <COMPID name="RequireAtInjectOnConstructorsOption" mc="Standard.Class" uid="a0f49311-5238-492d-bd3c-f9539abf8bfe"/>
+        <COMPID name="RequireExactBindingAnnotationsOption" mc="Standard.Class" uid="2f33caa3-2b5c-44c2-8493-f9a8b833c673"/>
+        <COMPID name="RequireExplicitBindingsOption" mc="Standard.Class" uid="9e8158fe-f615-4b11-bad4-cb821e814bb2"/>
+        <COMPID name="ScopeBinding" mc="Standard.Class" uid="d8d2a8ad-2a44-4995-9a63-0cc196922a4d"/>
+        <COMPID name="StaticInjectionRequest" mc="Standard.Class" uid="c6c57a76-9c65-4534-9012-4810ec99e65d"/>
+        <COMPID name="Toolable" mc="Standard.Class" uid="5b374582-c952-4813-a885-28d5e8443cbd"/>
+        <COMPID name="TypeConverter" mc="Standard.Interface" uid="7a9a9615-2f14-4b76-b73e-dc3bcca49d68"/>
+        <COMPID name="TypeConverterBinding" mc="Standard.Class" uid="0cd4e234-0d7a-48af-b475-00c6fc532fa2"/>
+        <COMPID name="TypeEncounter" mc="Standard.Interface" uid="dc744ac1-ab65-4926-810b-2b749eabda19"/>
+        <COMPID name="TypeListener" mc="Standard.Interface" uid="74ec97d8-7c3a-4bfe-9719-c15dfa1db399"/>
+        <COMPID name="TypeListenerBinding" mc="Standard.Class" uid="87c3102d-ec57-4819-877f-11972b0c2b59"/>
+        <COMPID name="UntargettedBinding" mc="Standard.Interface" uid="10d30736-6264-4dd6-8c18-a362c71a83b6"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

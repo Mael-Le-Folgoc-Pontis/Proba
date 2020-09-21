@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="params" version="4">
+  <OBJECT>
+    <ID name="params" mc="Standard.Package" uid="9ce10c9b-3c29-4b5a-9b1f-5c7a1aee66a7"/>
+    <PID name="common" mc="Standard.Package" uid="afa5ddb8-81a2-4770-817c-de70661e2d12"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[params]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AnalysisParams" mc="Standard.Interface" uid="cb85b94d-1788-4392-a24a-a69eca5fd083"/>
+        <COMPID name="AppendedSolrParams" mc="Standard.Class" uid="7a621ba1-1ec3-4fc8-8d0e-4c2a8313e45b"/>
+        <COMPID name="CommonParams" mc="Standard.Interface" uid="8eaccfb1-f2db-4310-a039-5272a16b7eb8"/>
+        <COMPID name="CoreAdminParams" mc="Standard.Interface" uid="88805dca-fce7-494b-881c-61ce320ca2cd"/>
+        <COMPID name="DefaultSolrParams" mc="Standard.Class" uid="de1fe7e0-52c2-4ad2-892e-ed6217491d57"/>
+        <COMPID name="DisMaxParams" mc="Standard.Interface" uid="ce16e7b8-8b6c-4cc2-a3ad-9cf57ffa1ba6"/>
+        <COMPID name="EventParams" mc="Standard.Interface" uid="395a8724-4723-483e-8dd4-2c46f1efb15b"/>
+        <COMPID name="FacetParams" mc="Standard.Interface" uid="d4426533-79c3-401a-947c-bd79e843252b"/>
+        <COMPID name="GroupParams" mc="Standard.Interface" uid="45df2064-3188-4054-9f2f-4de1aafc1191"/>
+        <COMPID name="HighlightParams" mc="Standard.Interface" uid="ab9a2038-9a3b-4602-9e1d-77caa7be2239"/>
+        <COMPID name="MapSolrParams" mc="Standard.Class" uid="d8983b13-4a8f-4200-a999-c566f4a18762"/>
+        <COMPID name="ModifiableSolrParams" mc="Standard.Class" uid="d437561a-8e32-49a0-b28e-3eb1b662ffce"/>
+        <COMPID name="MoreLikeThisParams" mc="Standard.Interface" uid="36e649cc-862e-4046-944c-f244cd5cd8af"/>
+        <COMPID name="MultiMapSolrParams" mc="Standard.Class" uid="a0d1a85a-db58-4084-b388-c3e25f2e65f7"/>
+        <COMPID name="QueryElevationParams" mc="Standard.Interface" uid="cea3e4a4-d281-475d-96a4-f05e52ef3a63"/>
+        <COMPID name="RequiredSolrParams" mc="Standard.Class" uid="56f2d98a-0b49-418e-a0a9-44ac734be6f6"/>
+        <COMPID name="ShardParams" mc="Standard.Interface" uid="37efd87c-9fbd-414d-a5ba-421616f39838"/>
+        <COMPID name="SolrParams" mc="Standard.Class" uid="278557a7-1c79-471b-a9f9-c65bab8457b9"/>
+        <COMPID name="SpatialParams" mc="Standard.Interface" uid="c41a196f-a81f-4388-987c-29ed3745330a"/>
+        <COMPID name="SpellingParams" mc="Standard.Interface" uid="f33c4ac8-ea2b-41d7-9c8b-cc7934df13c8"/>
+        <COMPID name="StatsParams" mc="Standard.Interface" uid="4d322f91-aade-42e2-838f-34b494c8824b"/>
+        <COMPID name="TermVectorParams" mc="Standard.Interface" uid="97f62e85-150d-4d6b-a33c-226604bac2c8"/>
+        <COMPID name="TermsParams" mc="Standard.Interface" uid="e2384e0f-2b77-4d19-b263-b93befa344f6"/>
+        <COMPID name="UpdateParams" mc="Standard.Interface" uid="1fd72af5-ea83-4dc8-afd3-c70969d514b9"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

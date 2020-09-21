@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="realm" version="4">
+  <OBJECT>
+    <ID name="realm" mc="Standard.Package" uid="e4e1fbc8-eb55-4be1-b049-03b50f263816"/>
+    <PID name="classworlds" mc="Standard.Package" uid="198d96f5-9f28-4c4b-b182-d969946b6fa5"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[realm]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ClassRealm" mc="Standard.Class" uid="8d5f495a-9698-4d95-b913-0f3cd32b9411"/>
+        <COMPID name="DuplicateRealmException" mc="Standard.Class" uid="24484dce-18b1-4cd0-9242-10f2c2a52777"/>
+        <COMPID name="NoSuchRealmException" mc="Standard.Class" uid="5e527f59-68ba-4d32-ad81-8ba3ae6468d3"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

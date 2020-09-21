@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="blame" version="4">
+  <OBJECT>
+    <ID name="blame" mc="Standard.Package" uid="331ce2b7-0b8b-40bf-bee2-71a004d3a03c"/>
+    <PID name="internal" mc="Standard.Package" uid="1ad693c0-6f4f-4036-b8b3-856fc090e359"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[blame]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AuthorColors" mc="Standard.Class" uid="da6fd10a-389b-4187-8010-eddf39f272ff"/>
+        <COMPID name="BlameInformationControl" mc="Standard.Class" uid="855b1622-ee1c-47ad-bce1-81d96fe66112"/>
+        <COMPID name="BlameInformationControlCreator" mc="Standard.Class" uid="8e0f9438-1af6-49a3-867b-6886c7e60b02"/>
+        <COMPID name="BlameOperation" mc="Standard.Class" uid="a3eba8f4-15e9-4629-9f40-7ac08eac6d9d"/>
+        <COMPID name="BlameRevision" mc="Standard.Class" uid="b9558eb9-8ea9-4819-b9df-b2781a9d414a"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

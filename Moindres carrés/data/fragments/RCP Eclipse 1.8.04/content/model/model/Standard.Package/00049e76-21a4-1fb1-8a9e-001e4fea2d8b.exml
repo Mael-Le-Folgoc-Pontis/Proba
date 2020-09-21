@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="impl" version="4">
+  <OBJECT>
+    <ID name="impl" mc="Standard.Package" uid="00049e76-21a4-1fb1-8a9e-001e4fea2d8b"/>
+    <PID name="basic" mc="Standard.Package" uid="0001388a-21a4-1fb1-8a9e-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[impl]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="BasicFactoryImpl" mc="Standard.Class" uid="0008b11e-21a4-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="BasicPackageImpl" mc="Standard.Class" uid="000559ec-21a4-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="CompositePartImpl" mc="Standard.Class" uid="9b9a703a-7cff-451c-8ac3-9aa5a492e4e7"/>
+        <COMPID name="DialogImpl" mc="Standard.Class" uid="52b1fb2f-ab31-4557-aabf-75add64cfc75"/>
+        <COMPID name="InputPartImpl" mc="Standard.Class" uid="000804ee-21a4-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="PartImpl" mc="Standard.Class" uid="0006d146-21a4-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="PartSashContainerImpl" mc="Standard.Class" uid="00096f32-21a4-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="PartStackImpl" mc="Standard.Class" uid="0004bc30-21a4-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="TrimBarImpl" mc="Standard.Class" uid="00063682-21a4-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="TrimElementImpl" mc="Standard.Class" uid="0007a012-21a4-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="TrimmedWindowImpl" mc="Standard.Class" uid="0009e430-21a4-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="WindowImpl" mc="Standard.Class" uid="000a9e0c-21a4-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="WizardDialogImpl" mc="Standard.Class" uid="24d1edb0-efd0-4906-a632-ea18d50ec847"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

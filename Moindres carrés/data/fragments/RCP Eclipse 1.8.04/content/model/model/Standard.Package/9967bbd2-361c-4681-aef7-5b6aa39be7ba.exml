@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ui" version="4">
+  <OBJECT>
+    <ID name="ui" mc="Standard.Package" uid="9967bbd2-361c-4681-aef7-5b6aa39be7ba"/>
+    <PID name="snippets" mc="Standard.Package" uid="c3797e2a-fe03-4cb0-a5cd-b216489bf6a6"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[ui]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="DefaultSnippetInsertion" mc="Standard.Class" uid="7a720dab-d706-4a6c-8139-f9fb5200db09"/>
+        <COMPID name="ISnippetInsertion" mc="Standard.Interface" uid="cfe41e14-fe1d-41f2-afce-3cf1d22866f1"/>
+        <COMPID name="TextSnippetProvider" mc="Standard.Class" uid="1e783947-ea57-4085-ae22-340a2775433d"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

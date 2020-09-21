@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="http" version="4">
+  <OBJECT>
+    <ID name="http" mc="Standard.Package" uid="7715a72c-70c9-4ff2-81d1-ab3d4e29680c"/>
+    <PID name="net" mc="Standard.Package" uid="6ec6162c-e533-4d7e-979c-b9617f24c605"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[http]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="CommonHttpClient3" mc="Standard.Class" uid="fb102910-6b14-4128-9e2f-f30e2e443138"/>
+        <COMPID name="CommonHttpMethod3" mc="Standard.Interface" uid="bd1f0bac-5791-4761-8fd8-9e360fb19a50"/>
+        <COMPID name="HttpOperation3" mc="Standard.Class" uid="67fb3811-be2f-42f5-a952-30829c745a2a"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

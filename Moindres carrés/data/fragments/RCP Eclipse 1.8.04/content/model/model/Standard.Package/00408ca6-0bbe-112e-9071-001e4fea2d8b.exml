@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="cvslib" version="4">
+  <OBJECT>
+    <ID name="cvslib" mc="Standard.Package" uid="00408ca6-0bbe-112e-9071-001e4fea2d8b"/>
+    <PID name="taskdefs" mc="Standard.Package" uid="002c7e78-0bbe-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[cvslib]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="CVSEntry" mc="Standard.Class" uid="004094f8-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ChangeLogTask" mc="Standard.Class" uid="0040a3e4-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ChangeLogWriter" mc="Standard.Class" uid="0040abb4-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CvsTagDiff" mc="Standard.Class" uid="0040b37a-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CvsTagEntry" mc="Standard.Class" uid="0040bbae-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CvsUser" mc="Standard.Class" uid="0040c414-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CvsVersion" mc="Standard.Class" uid="0040cc7a-0bbe-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

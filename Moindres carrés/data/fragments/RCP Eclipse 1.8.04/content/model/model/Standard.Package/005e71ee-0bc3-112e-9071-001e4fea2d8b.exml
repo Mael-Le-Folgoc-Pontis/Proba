@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="util" version="4">
+  <OBJECT>
+    <ID name="util" mc="Standard.Package" uid="005e71ee-0bc3-112e-9071-001e4fea2d8b"/>
+    <PID name="core" mc="Standard.Package" uid="002d659a-d4f1-111c-bc9b-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[util]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractFactory" mc="Standard.Class" uid="005e784c-0bc3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AdapterContainerFilter" mc="Standard.Class" uid="005e7fd6-0bc3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AdapterManagerTracker" mc="Standard.Class" uid="a22e76f4-b43c-435c-b49b-983b47758881"/>
+        <COMPID name="Base64" mc="Standard.Class" uid="005e872e-0bc3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ConnectedContainerFilter" mc="Standard.Class" uid="005e8e5e-0bc3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ContainerFactoryTracker" mc="Standard.Class" uid="005e9606-0bc3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ContainerManagerTracker" mc="Standard.Class" uid="005e9df4-0bc3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ECFException" mc="Standard.Class" uid="005ea5ce-0bc3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ECFRuntimeException" mc="Standard.Class" uid="005eae16-0bc3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Event" mc="Standard.Interface" uid="005eb4c4-0bc3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ExtensionRegistryRunnable" mc="Standard.Class" uid="0b9a16bb-abd7-4254-a4bc-7494d2c9e2b3"/>
+        <COMPID name="IContainerFilter" mc="Standard.Interface" uid="005ebbcc-0bc3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IDFactoryTracker" mc="Standard.Class" uid="005ec45a-0bc3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IEventProcessor" mc="Standard.Interface" uid="005ecba8-0bc3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IExceptionHandler" mc="Standard.Interface" uid="005ed30a-0bc3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LogHelper" mc="Standard.Class" uid="005edbca-0bc3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PlatformHelper" mc="Standard.Class" uid="005ee4a8-0bc3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Proxy" mc="Standard.Class" uid="005eed72-0bc3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ProxyAddress" mc="Standard.Class" uid="005f091a-0bc3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="StringUtils" mc="Standard.Class" uid="005f12ac-0bc3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SystemLogService" mc="Standard.Class" uid="005f1c5c-0bc3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Trace" mc="Standard.Class" uid="005f2634-0bc3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="reflection" mc="Standard.Package" uid="bbd9c2f8-36f2-4349-b759-0b36e1438e84"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

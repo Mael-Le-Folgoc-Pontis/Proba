@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="theories" version="4">
+  <OBJECT>
+    <ID name="theories" mc="Standard.Package" uid="000d33ec-0bdb-112e-9071-001e4fea2d8b"/>
+    <PID name="experimental" mc="Standard.Package" uid="000b10a8-0bdb-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[theories]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="DataPoint" mc="Standard.Class" uid="5c8da40a-d85d-4185-95dc-f7f676773b9a"/>
+        <COMPID name="DataPoints" mc="Standard.Class" uid="51a583c3-762f-4f68-9cc9-a5774b42d9d2"/>
+        <COMPID name="FromDataPoints" mc="Standard.Class" uid="7e3638f1-ec1d-4fe2-95b2-424d5d7c6a45"/>
+        <COMPID name="ParameterSignature" mc="Standard.Class" uid="000d46e8-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ParameterSupplier" mc="Standard.Class" uid="000d4d28-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ParametersSuppliedBy" mc="Standard.Class" uid="dc61b96d-ce1f-401c-8767-398122c66d16"/>
+        <COMPID name="PotentialAssignment" mc="Standard.Class" uid="000d5af2-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Theories" mc="Standard.Class" uid="000d6f92-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Theory" mc="Standard.Class" uid="b13919ef-fe4f-4594-96a2-fbc30b2c4282"/>
+        <COMPID name="internal" mc="Standard.Package" uid="000df2b4-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="suppliers" mc="Standard.Package" uid="000e8a44-0bdb-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

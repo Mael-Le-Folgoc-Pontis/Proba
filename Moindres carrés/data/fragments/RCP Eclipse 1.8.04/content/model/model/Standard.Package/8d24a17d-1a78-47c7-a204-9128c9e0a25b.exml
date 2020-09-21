@@ -1,0 +1,66 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="tree" version="4">
+  <OBJECT>
+    <ID name="tree" mc="Standard.Package" uid="8d24a17d-1a78-47c7-a204-9128c9e0a25b"/>
+    <PID name="repository" mc="Standard.Package" uid="eae32fd0-18b5-4795-90d4-3451b0ba74c9"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[tree]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AdditionalRefNode" mc="Standard.Class" uid="e7df6a57-208c-4a4f-9b85-649c69d3059a"/>
+        <COMPID name="AdditionalRefsNode" mc="Standard.Class" uid="1a2d0776-7c5d-4dbe-8c2c-3b7895c9106f"/>
+        <COMPID name="BranchHierarchyNode" mc="Standard.Class" uid="a0bcc558-fa99-4809-b57b-1d4a56acbb71"/>
+        <COMPID name="BranchesNode" mc="Standard.Class" uid="8f92cd94-fb2f-4eb6-a7de-8140fe1a07bc"/>
+        <COMPID name="ErrorNode" mc="Standard.Class" uid="49734c64-000a-4266-9221-5b2c5a290d7a"/>
+        <COMPID name="FetchNode" mc="Standard.Class" uid="3cf2d498-bd10-4071-b6ef-bb8457a544c8"/>
+        <COMPID name="FileNode" mc="Standard.Class" uid="f29d42ec-b093-4fbc-88d0-d9b2199cdf59"/>
+        <COMPID name="FolderNode" mc="Standard.Class" uid="e8d08d17-8c40-4565-b959-7758533372b8"/>
+        <COMPID name="LinkHelper" mc="Standard.Class" uid="b72088a7-c826-4c98-948c-cd4c310c7f19"/>
+        <COMPID name="LocalNode" mc="Standard.Class" uid="e13b7cef-8ca6-44c9-9b2a-6b1d8911b7e6"/>
+        <COMPID name="PushNode" mc="Standard.Class" uid="5667ff59-f380-4520-8fd5-e977ee0cd52c"/>
+        <COMPID name="RefNode" mc="Standard.Class" uid="3e3b665f-1e9b-470b-9dbd-70143322fe13"/>
+        <COMPID name="RemoteNode" mc="Standard.Class" uid="8d0dc387-9889-489d-978e-33bc6ad7ce79"/>
+        <COMPID name="RemoteTrackingNode" mc="Standard.Class" uid="1c07b050-1971-41e3-91b0-426654dca230"/>
+        <COMPID name="RemotesNode" mc="Standard.Class" uid="b356513d-73f6-4827-93a2-14ad4a88c88b"/>
+        <COMPID name="RepositoriesViewPropertyTester" mc="Standard.Class" uid="7300d5ca-2037-4d8f-b389-70b35269f639"/>
+        <COMPID name="RepositoriesViewSorter" mc="Standard.Class" uid="f2e0f278-cc6a-4be5-9307-05d3b0cf6ed5"/>
+        <COMPID name="RepositoryNode" mc="Standard.Class" uid="0f978563-3ee7-4589-83de-b66f646c981c"/>
+        <COMPID name="RepositoryTreeNode" mc="Standard.Class" uid="6c596c14-1612-44fe-8f65-eda747e6d1d4"/>
+        <OBJECT>
+          <ID name="RepositoryTreeNodeType" mc="Standard.Enumeration" uid="6debabc5-57ee-475c-89f1-01827254fa6b"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[RepositoryTreeNodeType]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Extension">
+              <FOREIGNID name="JavaEnumeration" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0262-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <COMPID name="StashNode" mc="Standard.Class" uid="e5d02a22-2e5f-473a-a196-0c76c42b0d40"/>
+        <COMPID name="StashedCommitNode" mc="Standard.Class" uid="9e43c13a-a779-43b9-8c8b-129a7db460de"/>
+        <COMPID name="SubmodulesNode" mc="Standard.Class" uid="460e77e9-65e6-4485-a992-a3d718e268c6"/>
+        <COMPID name="TagNode" mc="Standard.Class" uid="5cb756d9-d89e-46d7-8bf0-e71d2c236700"/>
+        <COMPID name="TagsNode" mc="Standard.Class" uid="6977eecc-e9f8-46b0-aad9-4588cf825039"/>
+        <COMPID name="WorkingDirNode" mc="Standard.Class" uid="fd08ff50-5475-4c51-b326-6bc8d39d4412"/>
+        <COMPID name="command" mc="Standard.Package" uid="dc156e47-b0dc-4587-b269-576e7451cca5"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

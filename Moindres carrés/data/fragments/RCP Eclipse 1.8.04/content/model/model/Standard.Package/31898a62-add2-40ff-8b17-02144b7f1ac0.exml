@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="parameters" version="4">
+  <OBJECT>
+    <ID name="parameters" mc="Standard.Package" uid="31898a62-add2-40ff-8b17-02144b7f1ac0"/>
+    <PID name="consumer" mc="Standard.Package" uid="224edeca-9a38-4bad-8fb0-2a229e97b70c"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[parameters]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="BuildCancellationTokenAdapter" mc="Standard.Class" uid="b1ea4a00-7dc1-45b4-8916-a6812ee0ff66"/>
+        <COMPID name="BuildProgressListenerAdapter" mc="Standard.Class" uid="d859a47a-d224-450e-b558-f70696af2cd0"/>
+        <COMPID name="ConsumerOperationParameters" mc="Standard.Class" uid="cb8ab8eb-0453-41cc-9b25-2c1845497d53"/>
+        <COMPID name="FailsafeBuildProgressListenerAdapter" mc="Standard.Class" uid="29dbca39-1a8e-4f9a-9cc2-bd7a0d112893"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="navigator" version="4">
+  <OBJECT>
+    <ID name="navigator" mc="Standard.Package" uid="008288cc-0bda-112e-9071-001e4fea2d8b"/>
+    <PID name="views" mc="Standard.Package" uid="004caa22-21af-1fb1-8a9e-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[navigator]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="CollapseAllAction" mc="Standard.Class" uid="0082909c-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FilterSelectionAction" mc="Standard.Class" uid="00829d80-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="GotoActionGroup" mc="Standard.Class" uid="0082aaf0-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="GotoResourceAction" mc="Standard.Class" uid="0082b220-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IResourceNavigator" mc="Standard.Interface" uid="0082c6e8-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LocalSelectionTransfer" mc="Standard.Class" uid="0082cecc-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MainActionGroup" mc="Standard.Class" uid="0082d660-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="NavigatorDragAdapter" mc="Standard.Class" uid="0082de4e-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="NavigatorDropAdapter" mc="Standard.Class" uid="0082e678-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="NavigatorFrameSource" mc="Standard.Class" uid="0082ee8e-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="OpenActionGroup" mc="Standard.Class" uid="0082f712-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RefactorActionGroup" mc="Standard.Class" uid="00830888-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ResourceComparator" mc="Standard.Class" uid="008311c0-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ResourceNavigator" mc="Standard.Class" uid="00831b5c-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ResourceNavigatorAction" mc="Standard.Class" uid="008324b2-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ResourceNavigatorActionGroup" mc="Standard.Class" uid="00832e8a-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ResourceNavigatorMessages" mc="Standard.Class" uid="0083386c-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ResourceNavigatorMoveAction" mc="Standard.Class" uid="00834262-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ResourceNavigatorRenameAction" mc="Standard.Class" uid="00834cc6-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ResourcePatternFilter" mc="Standard.Class" uid="00835752-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ResourceSelectionUtil" mc="Standard.Class" uid="00836206-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ResourceSorter" mc="Standard.Class" uid="00836d00-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ShowInNavigatorAction" mc="Standard.Class" uid="00837854-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SortAndFilterActionGroup" mc="Standard.Class" uid="00838376-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SortViewAction" mc="Standard.Class" uid="00838fe2-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ToggleLinkingAction" mc="Standard.Class" uid="0083bca6-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WorkspaceActionGroup" mc="Standard.Class" uid="0083c8f4-0bda-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

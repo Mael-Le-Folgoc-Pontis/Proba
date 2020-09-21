@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="hooks" version="4">
+  <OBJECT>
+    <ID name="hooks" mc="Standard.Package" uid="9c7e522e-419b-47e4-b83c-a3e22b72c4c9"/>
+    <PID name="internal" mc="Standard.Package" uid="0080c2c6-21af-1fb1-8a9e-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[hooks]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="DevClassLoadingHook" mc="Standard.Class" uid="38028bf6-4a56-4789-96e4-013d2301c00a"/>
+        <COMPID name="EclipseLazyStarter" mc="Standard.Class" uid="00ecdde2-6ab8-4f5d-96fa-b027ff5742a1"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

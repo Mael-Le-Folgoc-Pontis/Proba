@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="osgi" version="4">
+  <OBJECT>
+    <ID name="osgi" mc="Standard.Package" uid="2689fe9a-e6a7-4f7e-befd-5f92bdc08180"/>
+    <PID name="org" mc="Standard.Package" uid="f5fbad06-f89a-4fde-872d-e64e4f1c49fc"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[osgi]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="service" mc="Standard.Package" uid="2dac8d0c-dcc0-4044-aa9a-81a1bbc04d5c"/>
+        <COMPID name="util" mc="Standard.Package" uid="38427339-43ba-49ce-a34e-f0cc5c8e6d73"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

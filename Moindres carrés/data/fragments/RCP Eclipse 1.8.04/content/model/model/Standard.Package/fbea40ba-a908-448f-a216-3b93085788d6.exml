@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="cache" version="4">
+  <OBJECT>
+    <ID name="cache" mc="Standard.Package" uid="fbea40ba-a908-448f-a216-3b93085788d6"/>
+    <PID name="client" mc="Standard.Package" uid="ccb9e063-b689-4552-97c0-7280c8f057fc"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[cache]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="BasicHttpCacheStorage" mc="Standard.Class" uid="554a8245-5f5a-4552-af1d-9ed1805aac7c"/>
+        <COMPID name="CacheConfig" mc="Standard.Class" uid="1efc0d68-bc6a-426e-bd36-2030e91e404f"/>
+        <COMPID name="CachingExec" mc="Standard.Class" uid="67b6c289-0326-4a03-aaa0-51e820ad06ea"/>
+        <COMPID name="CachingHttpClient" mc="Standard.Class" uid="68f2727b-9c04-4c01-8003-2a3cb153d1ec"/>
+        <COMPID name="CachingHttpClientBuilder" mc="Standard.Class" uid="c3e6eec5-2838-4284-8ddc-478b6dc8f1f5"/>
+        <COMPID name="CachingHttpClients" mc="Standard.Class" uid="5b069c26-aadd-4055-9e4e-0e4a11c65778"/>
+        <COMPID name="DefaultFailureCache" mc="Standard.Class" uid="620e17e2-e6b5-4bd8-8c68-b89c56d43cd8"/>
+        <COMPID name="DefaultHttpCacheEntrySerializer" mc="Standard.Class" uid="d70bd33d-5eac-489b-bb89-884f6eef3f93"/>
+        <COMPID name="ExponentialBackOffSchedulingStrategy" mc="Standard.Class" uid="c64fb254-c4bf-4df0-a84a-ccb8dbb3d856"/>
+        <COMPID name="FailureCache" mc="Standard.Interface" uid="eaa9a3c1-9ea9-464f-ae40-afe37beb40bb"/>
+        <COMPID name="FailureCacheValue" mc="Standard.Class" uid="d04c8425-b413-4ff9-b44b-c870c2df6085"/>
+        <COMPID name="FileResource" mc="Standard.Class" uid="0611868c-9875-41f5-b547-b23658b0f2da"/>
+        <COMPID name="FileResourceFactory" mc="Standard.Class" uid="04c45d10-c66c-435e-ae0c-849e804ea8f8"/>
+        <COMPID name="HeapResource" mc="Standard.Class" uid="8bfc0a13-45ab-4fe6-98d4-a6ac85c0415b"/>
+        <COMPID name="HeapResourceFactory" mc="Standard.Class" uid="4c73c0a2-074c-4efa-a230-7aac082f4851"/>
+        <COMPID name="ImmediateSchedulingStrategy" mc="Standard.Class" uid="3aa011b7-99fd-41c0-94b9-68ba8bcabdde"/>
+        <COMPID name="ManagedHttpCacheStorage" mc="Standard.Class" uid="1d8e787a-80d0-44ab-af60-97462a30785d"/>
+        <COMPID name="SchedulingStrategy" mc="Standard.Interface" uid="fa416df6-4360-4903-aca5-f0974db5a5f7"/>
+        <COMPID name="ehcache" mc="Standard.Package" uid="06fc7464-6b45-46b7-9941-dd6814ec8cfa"/>
+        <COMPID name="memcached" mc="Standard.Package" uid="675d3a4b-f1ab-4ecd-99c2-5add2990c95a"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

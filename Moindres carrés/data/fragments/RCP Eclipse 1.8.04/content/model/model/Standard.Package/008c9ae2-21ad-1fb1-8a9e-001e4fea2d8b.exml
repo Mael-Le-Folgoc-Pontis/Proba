@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ws" version="4">
+  <OBJECT>
+    <ID name="ws" mc="Standard.Package" uid="008c9ae2-21ad-1fb1-8a9e-001e4fea2d8b"/>
+    <PID name="activities" mc="Standard.Package" uid="0085a1f6-21ad-1fb1-8a9e-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[ws]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractTriggerPoint" mc="Standard.Class" uid="008f2b86-21ad-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ActivityCategoryContentProvider" mc="Standard.Class" uid="008e1476-21ad-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ActivityCategoryLabelProvider" mc="Standard.Class" uid="008d63e6-21ad-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ActivityContentProvider" mc="Standard.Class" uid="0090d742-21ad-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ActivityEnabler" mc="Standard.Class" uid="009018ac-21ad-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ActivityLabelProvider" mc="Standard.Class" uid="008d90e6-21ad-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ActivityMessages" mc="Standard.Class" uid="008e3e92-21ad-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ActivityViewerFilter" mc="Standard.Class" uid="008d3b3c-21ad-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="CategorizedActivity" mc="Standard.Class" uid="00904502-21ad-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="EnablementDialog" mc="Standard.Class" uid="008dba26-21ad-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ImageBindingRegistry" mc="Standard.Class" uid="008fb646-21ad-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="RegistryTriggerPoint" mc="Standard.Class" uid="008f566a-21ad-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="TriggerPointAdvisorDescriptor" mc="Standard.Class" uid="008eccd6-21ad-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="TriggerPointAdvisorRegistry" mc="Standard.Class" uid="0090711c-21ad-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="TriggerPointManager" mc="Standard.Class" uid="008cb73e-21ad-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="WorkbenchActivitySupport" mc="Standard.Class" uid="009104e2-21ad-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="WorkbenchTriggerPoints" mc="Standard.Interface" uid="008d1328-21ad-1fb1-8a9e-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

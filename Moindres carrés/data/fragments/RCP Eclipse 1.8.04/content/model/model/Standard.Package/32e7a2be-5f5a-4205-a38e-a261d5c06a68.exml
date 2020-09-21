@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="gradle" version="4">
+  <OBJECT>
+    <ID name="gradle" mc="Standard.Package" uid="32e7a2be-5f5a-4205-a38e-a261d5c06a68"/>
+    <PID name="internal" mc="Standard.Package" uid="5e01f584-4d56-4af0-ac71-6b632782eb92"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[gradle]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="BasicGradleProject" mc="Standard.Class" uid="3976cc24-c0a6-4fea-95cc-9e91b7410927"/>
+        <COMPID name="ConsumerProvidedTask" mc="Standard.Class" uid="2939a575-3553-45d9-93ec-c883933b557b"/>
+        <COMPID name="ConsumerProvidedTaskSelector" mc="Standard.Class" uid="ee294d37-4a70-4331-9216-3249b33fc0fb"/>
+        <COMPID name="DefaultGradleBuild" mc="Standard.Class" uid="15bf8f33-9939-4c17-ac32-612e6c034040"/>
+        <COMPID name="DefaultGradleModuleVersion" mc="Standard.Class" uid="d5527ef4-1fa4-4cd2-8fdc-d6b44f6ef625"/>
+        <COMPID name="DefaultGradleProject" mc="Standard.Class" uid="4159046f-d7b3-468d-81a7-8885a897bb92"/>
+        <COMPID name="DefaultGradlePublication" mc="Standard.Class" uid="e2276cad-5a70-434f-b9ac-ad02bd86a39f"/>
+        <COMPID name="DefaultGradleScript" mc="Standard.Class" uid="db9e4e88-ebc8-415f-9f06-ddf09f3c4256"/>
+        <COMPID name="DefaultProjectPublications" mc="Standard.Class" uid="c406ed39-03e7-4c2d-90a3-c098efbcab24"/>
+        <COMPID name="GradleProjectIdentity" mc="Standard.Interface" uid="af40741c-c48a-4661-9d1a-0c2bff4d82d8"/>
+        <COMPID name="PartialBasicGradleProject" mc="Standard.Class" uid="bde2d09d-1afb-483b-b6c0-7b0fd16d5f39"/>
+        <COMPID name="PartialGradleProject" mc="Standard.Class" uid="71e2de13-73f7-4efb-848e-0d7ff831fd81"/>
+        <COMPID name="TaskListingLaunchable" mc="Standard.Interface" uid="ef4e32a8-3a8a-4631-bc20-55ed0b0fedef"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

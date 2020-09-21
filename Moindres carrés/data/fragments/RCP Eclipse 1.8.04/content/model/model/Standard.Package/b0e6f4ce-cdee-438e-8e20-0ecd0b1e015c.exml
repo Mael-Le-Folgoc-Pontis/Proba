@@ -1,0 +1,61 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="dialogs" version="4">
+  <OBJECT>
+    <ID name="dialogs" mc="Standard.Package" uid="b0e6f4ce-cdee-438e-8e20-0ecd0b1e015c"/>
+    <PID name="internal" mc="Standard.Package" uid="1ad693c0-6f4f-4036-b8b3-856fc090e359"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[dialogs]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractBranchSelectionDialog" mc="Standard.Class" uid="2485c995-fc29-439e-a3cd-0c8052c31cd5"/>
+        <COMPID name="BasicConfigurationDialog" mc="Standard.Class" uid="a947976b-c8d5-4ab8-9727-6716ccf5371a"/>
+        <COMPID name="BranchConfigurationDialog" mc="Standard.Class" uid="fca79fa1-4656-48dd-a1ee-fa8b45e61b0e"/>
+        <COMPID name="BranchEditDialog" mc="Standard.Class" uid="10d7aa0f-91ac-4db7-b47e-ec5621f9e236"/>
+        <COMPID name="BranchRenameDialog" mc="Standard.Class" uid="4b8bed9a-ba24-4119-aee8-909149ab2fd7"/>
+        <COMPID name="BranchSelectionAndEditDialog" mc="Standard.Class" uid="79dfbb52-7347-462f-a5e2-2e474b071382"/>
+        <COMPID name="BranchSelectionDialog" mc="Standard.Class" uid="6fc12a5c-148f-41fa-a069-acfdfeee12b4"/>
+        <COMPID name="CheckoutConflictDialog" mc="Standard.Class" uid="d96f2540-4f6f-467c-8a97-3f7dd23b275c"/>
+        <COMPID name="CheckoutDialog" mc="Standard.Class" uid="9d0298ee-dad7-403a-9deb-1d174bc9eddd"/>
+        <COMPID name="CommitCombo" mc="Standard.Class" uid="50fed0c7-4e7f-4f56-9092-0711c72830f8"/>
+        <COMPID name="CommitDialog" mc="Standard.Class" uid="f05c9310-e5d4-4f57-a5dd-4e138a4cb033"/>
+        <COMPID name="CommitLabelProvider" mc="Standard.Class" uid="0f4c2624-289c-4b4e-8d59-5b7aee11b236"/>
+        <COMPID name="CommitMessageArea" mc="Standard.Class" uid="e7fb9a50-eba7-4d68-9a95-132c8842298e"/>
+        <COMPID name="CommitMessageComponent" mc="Standard.Class" uid="8e2aee60-ca59-4fcf-a386-022e9e8d0820"/>
+        <COMPID name="CommitMessageComponentState" mc="Standard.Class" uid="b1046869-6aa2-4989-95f6-3389c1cf7f18"/>
+        <COMPID name="CommitMessageComponentStateManager" mc="Standard.Class" uid="9017b210-0935-4de5-999c-30e7b033b813"/>
+        <COMPID name="CommitSelectDialog" mc="Standard.Class" uid="f909035c-49cc-40d8-98e2-66331cf372a8"/>
+        <COMPID name="CompareTargetSelectionDialog" mc="Standard.Class" uid="3e51ceb0-227b-4c9d-99d1-8a3a5af082da"/>
+        <COMPID name="CompareTreeView" mc="Standard.Class" uid="e3afda5c-26e6-407c-b959-39ee71c8976f"/>
+        <COMPID name="CreateTagDialog" mc="Standard.Class" uid="e02bfe0d-cfb1-4bf6-9c3f-3141de7bf04f"/>
+        <COMPID name="CustomPromptDialog" mc="Standard.Class" uid="7dd8e1f7-e43b-4250-8f80-71719cb3fbde"/>
+        <COMPID name="DeleteBranchDialog" mc="Standard.Class" uid="d56dbd96-baea-4a3f-8277-1eac5269a5ea"/>
+        <COMPID name="FileTreeContentProvider" mc="Standard.Class" uid="4d3cdd16-3ee4-4606-b63f-c95362a14b63"/>
+        <COMPID name="FileTreeLabelProvider" mc="Standard.Class" uid="5e9bf174-626b-41dc-ba18-a10a9cf20010"/>
+        <COMPID name="GitTraceConfigurationDialog" mc="Standard.Class" uid="61e4a7e1-412b-4d84-a6aa-2056a4324482"/>
+        <COMPID name="ICommitMessageComponentNotifications" mc="Standard.Interface" uid="d29d68e7-2d97-4c26-8da0-139eb9620eab"/>
+        <COMPID name="MergeTargetSelectionDialog" mc="Standard.Class" uid="08c8c450-2853-44b6-ab1b-a20b10b231be"/>
+        <COMPID name="NewRemoteDialog" mc="Standard.Class" uid="c9125e64-ea2a-4b9a-ada9-01af297edb42"/>
+        <COMPID name="NonDeletedFilesDialog" mc="Standard.Class" uid="5c99dbad-a0a4-4d41-85e1-f18bf59ff4e1"/>
+        <COMPID name="NonDeletedFilesTree" mc="Standard.Class" uid="d8086cd6-609e-4263-86e6-492808e9b70f"/>
+        <COMPID name="RebaseTargetSelectionDialog" mc="Standard.Class" uid="2aef69af-e5ba-4910-adde-f9f953d6aa97"/>
+        <COMPID name="RenameBranchDialog" mc="Standard.Class" uid="6f3c1841-9192-45e0-b4ab-10eaf6f9178e"/>
+        <COMPID name="ReplaceTargetSelectionDialog" mc="Standard.Class" uid="d2babcc8-6a60-42e4-871d-ce8b11c60e32"/>
+        <COMPID name="ResetTargetSelectionDialog" mc="Standard.Class" uid="66743e15-89e9-4655-87fc-e289a357bc9b"/>
+        <COMPID name="RevertFailureDialog" mc="Standard.Class" uid="2778a874-1849-450b-b242-8b7b3e752477"/>
+        <COMPID name="SourceBranchFailureDialog" mc="Standard.Class" uid="81baee6f-832c-4d5c-9a12-8cfe3fff9265"/>
+        <COMPID name="SpellcheckableMessageArea" mc="Standard.Class" uid="4e3743d2-d555-4fdb-aa78-d02bf8160d3b"/>
+        <COMPID name="UnmergedBranchDialog" mc="Standard.Class" uid="42b8734d-f55e-4cf9-be61-eab4ddfab2b6"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

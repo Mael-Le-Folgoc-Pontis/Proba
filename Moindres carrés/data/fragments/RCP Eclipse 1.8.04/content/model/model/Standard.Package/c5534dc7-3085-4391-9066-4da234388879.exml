@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="visitor" version="4">
+  <OBJECT>
+    <ID name="visitor" mc="Standard.Package" uid="c5534dc7-3085-4391-9066-4da234388879"/>
+    <PID name="graph" mc="Standard.Package" uid="2440364e-b9d2-432e-9f81-7c4d084f26bf"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[visitor]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="CloningDependencyVisitor" mc="Standard.Class" uid="918d36a8-77d1-42f4-8767-9f1d4f244dea"/>
+        <COMPID name="FilteringDependencyVisitor" mc="Standard.Class" uid="c215368a-d12f-4f35-a67f-cd772bd3b62e"/>
+        <COMPID name="PathRecordingDependencyVisitor" mc="Standard.Class" uid="c26d1ca7-ea74-4fb3-8270-91f5ee38c0fd"/>
+        <COMPID name="PostorderNodeListGenerator" mc="Standard.Class" uid="2141317b-d404-4163-bdd7-1b492296b61f"/>
+        <COMPID name="PreorderNodeListGenerator" mc="Standard.Class" uid="2e0d989d-dc1a-4b93-ba2e-bda7328492d4"/>
+        <COMPID name="TreeDependencyVisitor" mc="Standard.Class" uid="c736c00e-5b2b-4f1b-a38f-8ae164ca1734"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="compare" version="4">
+  <OBJECT>
+    <ID name="compare" mc="Standard.Package" uid="006df682-0bca-112e-9071-001e4fea2d8b"/>
+    <PID name="ui" mc="Standard.Package" uid="006159f4-0bca-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[compare]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="CompareMessages" mc="Standard.Class" uid="006e0910-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JarStructureCreator" mc="Standard.Class" uid="006e1bf8-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaAddElementFromHistory" mc="Standard.Class" uid="006e22ec-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaCompareAction" mc="Standard.Class" uid="006e3124-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaCompareUtilities" mc="Standard.Class" uid="006e3e62-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaCompareWithEditionAction" mc="Standard.Class" uid="006e4614-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaContentViewerCreator" mc="Standard.Class" uid="006e55e6-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaElementHistoryPageSource" mc="Standard.Class" uid="006e5eb0-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaHistoryAction" mc="Standard.Class" uid="006e673e-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaMergeViewer" mc="Standard.Class" uid="006e78c8-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaReplaceWithEditionAction" mc="Standard.Class" uid="006e9a74-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaReplaceWithPreviousEditionAction" mc="Standard.Class" uid="006eade8-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaStructureCreator" mc="Standard.Class" uid="006eb81a-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaStructureDiffViewerCreator" mc="Standard.Class" uid="006eefba-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaTextViewer" mc="Standard.Class" uid="006f0586-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaTextViewerCreator" mc="Standard.Class" uid="006f10b2-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaTokenComparator" mc="Standard.Class" uid="006f1c10-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LocalHistoryActionGroup" mc="Standard.Class" uid="006f275a-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PropertiesFileMergeViewer" mc="Standard.Class" uid="006f3312-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PropertiesFileMergeViewerCreator" mc="Standard.Class" uid="006f3ef2-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PropertiesFileViewer" mc="Standard.Class" uid="006f4adc-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PropertiesFileViewerCreator" mc="Standard.Class" uid="006f572a-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PropertiesStructureCreator" mc="Standard.Class" uid="006f63aa-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ResizableDialog" mc="Standard.Class" uid="006f7df4-0bca-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

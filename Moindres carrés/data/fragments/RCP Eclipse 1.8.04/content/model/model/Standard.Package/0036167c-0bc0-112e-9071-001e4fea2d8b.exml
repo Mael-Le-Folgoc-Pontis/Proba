@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="winhttp" version="4">
+  <OBJECT>
+    <ID name="winhttp" mc="Standard.Package" uid="0036167c-0bc0-112e-9071-001e4fea2d8b"/>
+    <PID name="win32" mc="Standard.Package" uid="0034a954-0bc0-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[winhttp]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AutoProxyHolder" mc="Standard.Class" uid="00361d16-0bc0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ProxyBypass" mc="Standard.Class" uid="00362496-0bc0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ProxyProviderUtil" mc="Standard.Class" uid="00362bee-0bc0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="StaticProxyConfig" mc="Standard.Class" uid="00363468-0bc0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WinHttp" mc="Standard.Class" uid="00363df0-0bc0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WinHttpAutoProxyOptions" mc="Standard.Class" uid="003645e8-0bc0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WinHttpCurrentUserIEProxyConfig" mc="Standard.Class" uid="00364e58-0bc0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WinHttpProxyInfo" mc="Standard.Class" uid="003656fa-0bc0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WinHttpProxyProvider" mc="Standard.Class" uid="00365f88-0bc0-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

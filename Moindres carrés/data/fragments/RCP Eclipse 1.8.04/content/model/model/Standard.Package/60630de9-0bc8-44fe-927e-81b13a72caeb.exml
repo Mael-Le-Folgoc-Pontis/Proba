@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ui" version="4">
+  <OBJECT>
+    <ID name="ui" mc="Standard.Package" uid="60630de9-0bc8-44fe-927e-81b13a72caeb"/>
+    <PID name="tasks" mc="Standard.Package" uid="f165ab33-2877-4553-a4fd-037fdaa30644"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[ui]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="WikiTextTasksUiPlugin" mc="Standard.Class" uid="f0e0ae15-d372-4b14-8752-8d99d2b450f5"/>
+        <COMPID name="commands" mc="Standard.Package" uid="75c7cd05-8ef2-4d00-b0da-3d1d91df8273"/>
+        <COMPID name="editor" mc="Standard.Package" uid="228783d4-7409-41cb-8d7a-ae1b9413f107"/>
+        <COMPID name="preferences" mc="Standard.Package" uid="f1341ee7-d74f-407f-b121-5acf78fefa01"/>
+        <COMPID name="util" mc="Standard.Package" uid="135736d0-50ee-49e2-8334-fe3b607a2cd4"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

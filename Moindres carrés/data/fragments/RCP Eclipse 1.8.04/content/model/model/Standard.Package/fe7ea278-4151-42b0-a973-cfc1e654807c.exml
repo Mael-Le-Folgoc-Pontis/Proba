@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="policies" version="4">
+  <OBJECT>
+    <ID name="policies" mc="Standard.Package" uid="fe7ea278-4151-42b0-a973-cfc1e654807c"/>
+    <PID name="core" mc="Standard.Package" uid="3547cc62-b0e9-4f39-b1ca-6458a5303bbd"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[policies]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="EditPolicy" mc="Standard.Class" uid="fffb60f3-d843-408c-83b5-ab82abcbd99c"/>
+        <COMPID name="IEditPartDecorationListener" mc="Standard.Interface" uid="8e980076-1fc4-45c2-96f0-c222febe077c"/>
+        <COMPID name="ILayoutRequestValidator" mc="Standard.Interface" uid="a04e8a96-9d12-48fd-9910-e06df7b974d3"/>
+        <COMPID name="IRefreshableEditPolicy" mc="Standard.Interface" uid="7a17b302-88ab-40b3-a838-196ef9297b4b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

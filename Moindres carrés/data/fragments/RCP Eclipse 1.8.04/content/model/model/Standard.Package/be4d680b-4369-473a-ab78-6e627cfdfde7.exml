@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="image" version="4">
+  <OBJECT>
+    <ID name="image" mc="Standard.Package" uid="be4d680b-4369-473a-ab78-6e627cfdfde7"/>
+    <PID name="dialogs" mc="Standard.Package" uid="9afc2c6a-3952-4142-a4d1-560c1f19eac0"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[image]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractImageDialog" mc="Standard.Class" uid="3908754a-418d-4169-85ff-c4e261586a39"/>
+        <COMPID name="AbstractImagePage" mc="Standard.Class" uid="f47a7c63-ceb7-4af4-ba82-2a294d12017c"/>
+        <COMPID name="ImageInfo" mc="Standard.Class" uid="508284ff-3d57-436e-a288-c0e64d95a543"/>
+        <COMPID name="ImagePreviewComposite" mc="Standard.Class" uid="16dbe84e-78e4-4cff-8630-b90b16200f54"/>
+        <COMPID name="pages" mc="Standard.Package" uid="aa5dbbcf-81c7-4e68-96d6-d38737da7194"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

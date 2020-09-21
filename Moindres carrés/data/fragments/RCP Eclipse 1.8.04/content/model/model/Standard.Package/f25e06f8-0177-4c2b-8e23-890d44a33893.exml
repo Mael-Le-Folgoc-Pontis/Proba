@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="util" version="4">
+  <OBJECT>
+    <ID name="util" mc="Standard.Package" uid="f25e06f8-0177-4c2b-8e23-890d44a33893"/>
+    <PID name="core" mc="Standard.Package" uid="e277ad09-dcdf-45b6-8109-d8cf5cbdfde9"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[util]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Authenticator" mc="Standard.Class" uid="0c109c64-0522-4056-bb22-271141b32b9f"/>
+        <COMPID name="CatalogManager" mc="Standard.Class" uid="fe8d7114-dd3f-4791-bb26-fe769af4e3a7"/>
+        <COMPID name="ECFURIHandlerImpl" mc="Standard.Class" uid="3cf55ed2-f91f-479c-873b-2d0e4dd61afb"/>
+        <COMPID name="ResourceMirror" mc="Standard.Class" uid="79714cfe-5800-4d80-99e0-ab3d93993e6a"/>
+        <COMPID name="SelfProductCatalogURIHandlerImpl" mc="Standard.Class" uid="173de1eb-f54d-459f-8ca2-e09441d37bb6"/>
+        <COMPID name="SetupCoreUtil" mc="Standard.Class" uid="144f644b-c0c3-4ace-a738-8f7c014ef59b"/>
+        <COMPID name="UserURIHandlerImpl" mc="Standard.Class" uid="c7acaac3-138d-4780-8061-f10f4d196ad1"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

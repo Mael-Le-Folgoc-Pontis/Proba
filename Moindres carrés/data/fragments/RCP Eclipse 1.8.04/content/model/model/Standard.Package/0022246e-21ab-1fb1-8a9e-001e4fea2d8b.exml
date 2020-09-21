@@ -1,0 +1,83 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="actions" version="4">
+  <OBJECT>
+    <ID name="actions" mc="Standard.Package" uid="0022246e-21ab-1fb1-8a9e-001e4fea2d8b"/>
+    <PID name="ui" mc="Standard.Package" uid="001f4794-21ab-1fb1-8a9e-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[actions]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ActionContext" mc="Standard.Class" uid="00276820-21ab-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ActionDelegate" mc="Standard.Class" uid="0029f98c-21ab-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ActionFactory" mc="Standard.Class" uid="00243074-21ab-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ActionGroup" mc="Standard.Class" uid="002265be-21ab-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="AddBookmarkAction" mc="Standard.Class" uid="0063501a-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AddTaskAction" mc="Standard.Class" uid="00635dda-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BaseNewWizardMenu" mc="Standard.Class" uid="0025559e-21ab-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="BaseSelectionListenerAction" mc="Standard.Class" uid="002dcee0-21ab-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="BuildAction" mc="Standard.Class" uid="0063c680-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CloseResourceAction" mc="Standard.Class" uid="0063d2c4-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CloseUnrelatedProjectsAction" mc="Standard.Class" uid="0063defe-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CommandNotMappedException" mc="Standard.Class" uid="002ae1da-21ab-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="CompoundContributionItem" mc="Standard.Class" uid="002ab64c-21ab-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ContributedAction" mc="Standard.Class" uid="002b0d72-21ab-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ContributionItemFactory" mc="Standard.Class" uid="0022be4c-21ab-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="CopyFilesAndFoldersOperation" mc="Standard.Class" uid="0064a582-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CopyProjectAction" mc="Standard.Class" uid="0064b28e-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CopyProjectOperation" mc="Standard.Class" uid="0064bf5e-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CopyResourceAction" mc="Standard.Class" uid="0064cc42-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CreateFileAction" mc="Standard.Class" uid="0064d98a-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CreateFolderAction" mc="Standard.Class" uid="0064e736-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DeleteResourceAction" mc="Standard.Class" uid="0064f492-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ExportResourcesAction" mc="Standard.Class" uid="0023433a-21ab-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="GlobalBuildAction" mc="Standard.Class" uid="00654b4a-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ImportResourcesAction" mc="Standard.Class" uid="002963be-21ab-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="LabelRetargetAction" mc="Standard.Class" uid="002a8abe-21ab-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="MoveFilesAndFoldersOperation" mc="Standard.Class" uid="0065b954-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MoveProjectAction" mc="Standard.Class" uid="0065c80e-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MoveResourceAction" mc="Standard.Class" uid="0065d682-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="NewExampleAction" mc="Standard.Class" uid="0065e550-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="NewProjectAction" mc="Standard.Class" uid="0065f450-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="NewWizardAction" mc="Standard.Class" uid="002d4fb0-21ab-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="NewWizardDropDownAction" mc="Standard.Class" uid="0025f792-21ab-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="NewWizardMenu" mc="Standard.Class" uid="00666566-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="OpenFileAction" mc="Standard.Class" uid="00667556-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="OpenInNewWindowAction" mc="Standard.Class" uid="0028f262-21ab-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="OpenNewPageMenu" mc="Standard.Class" uid="00282256-21ab-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="OpenNewWindowMenu" mc="Standard.Class" uid="002bc406-21ab-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="OpenPerspectiveAction" mc="Standard.Class" uid="002c30bc-21ab-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="OpenPerspectiveMenu" mc="Standard.Class" uid="0026fb06-21ab-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="OpenResourceAction" mc="Standard.Class" uid="00677b68-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="OpenSystemEditorAction" mc="Standard.Class" uid="00678b58-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="OpenWithMenu" mc="Standard.Class" uid="00679b7a-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PartEventAction" mc="Standard.Class" uid="002790fc-21ab-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="PerspectiveMenu" mc="Standard.Class" uid="002681da-21ab-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="QuickMenuCreator" mc="Standard.Class" uid="00224066-21ab-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="QuickStartAction" mc="Standard.Class" uid="00683fbc-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ReadOnlyStateChecker" mc="Standard.Class" uid="0068504c-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RefreshAction" mc="Standard.Class" uid="006860c8-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RenameResourceAction" mc="Standard.Class" uid="00687162-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RetargetAction" mc="Standard.Class" uid="00288bba-21ab-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ScrubLocalAction" mc="Standard.Class" uid="0068b5a0-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SelectionListenerAction" mc="Standard.Class" uid="0068c6f8-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SelectionProviderAction" mc="Standard.Class" uid="002409c8-21ab-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="SimpleWildcardTester" mc="Standard.Class" uid="00265944-21ab-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="TextActionHandler" mc="Standard.Class" uid="006939c6-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WorkingSetFilterActionGroup" mc="Standard.Class" uid="002cce6e-21ab-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="WorkspaceAction" mc="Standard.Class" uid="0069acbc-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WorkspaceModifyDelegatingOperation" mc="Standard.Class" uid="0069be8c-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WorkspaceModifyOperation" mc="Standard.Class" uid="0069d052-0bd4-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

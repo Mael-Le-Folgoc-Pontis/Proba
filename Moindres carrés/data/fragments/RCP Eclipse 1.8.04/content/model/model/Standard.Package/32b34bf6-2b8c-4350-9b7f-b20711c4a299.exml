@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="category" version="4">
+  <OBJECT>
+    <ID name="category" mc="Standard.Package" uid="32b34bf6-2b8c-4350-9b7f-b20711c4a299"/>
+    <PID name="property" mc="Standard.Package" uid="57d4b3c1-3f69-43fa-a6b2-42cf73f8f4fa"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[category]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="PropertyCategory" mc="Standard.Class" uid="9a67598f-1693-45cb-bdc1-894f615d355f"/>
+        <COMPID name="PropertyCategoryProvider" mc="Standard.Interface" uid="3fc4fb28-4a61-4e2a-bea7-9fafd6a4ec01"/>
+        <COMPID name="PropertyCategoryProviders" mc="Standard.Class" uid="00c1049d-e2da-4a61-b4a0-2e447f1a20a8"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="launch" version="4">
+  <OBJECT>
+    <ID name="launch" mc="Standard.Package" uid="9d91c076-0d30-4532-af9b-78688111ba6a"/>
+    <PID name="internal" mc="Standard.Package" uid="5a6dc0a8-cf6b-4224-a3a9-4a2fca584793"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[launch]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractMavenRuntime" mc="Standard.Class" uid="a2aab52b-1be6-4c47-ba99-cfda3c86c0fc"/>
+        <COMPID name="ClasspathEntry" mc="Standard.Class" uid="2bd02a8c-1bad-45af-952a-9c9453b680c2"/>
+        <COMPID name="DefaultWorkspaceRuntime" mc="Standard.Class" uid="53812894-ca1d-41bc-bb91-c6a839af41c3"/>
+        <COMPID name="MavenEmbeddedRuntime" mc="Standard.Class" uid="3a936e97-6aa7-41b5-b10c-17ff304a85e6"/>
+        <COMPID name="MavenExternalRuntime" mc="Standard.Class" uid="cdaeeedb-1479-4ab6-8923-5f3a4fedbe25"/>
+        <COMPID name="MavenRuntimeManagerImpl" mc="Standard.Class" uid="a3e434b0-8ccb-4ecf-b3c5-0779c16b6332"/>
+        <COMPID name="MavenWorkspaceRuntime" mc="Standard.Class" uid="7c1410ff-266a-4bd0-8d6d-4c9103964f98"/>
+        <COMPID name="ProjectClasspathEntry" mc="Standard.Class" uid="55b4112f-7f75-414c-9f56-c982be8ef354"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

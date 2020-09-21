@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="markup" version="4">
+  <OBJECT>
+    <ID name="markup" mc="Standard.Package" uid="99805526-e7fe-4104-a587-d8289d40d43f"/>
+    <PID name="parser" mc="Standard.Package" uid="fcf88f0b-828f-431a-8d24-99d859f5e2a2"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[markup]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractMarkupLanguage" mc="Standard.Class" uid="3a17991f-bc29-4c06-8614-84699aabb5d6"/>
+        <COMPID name="Block" mc="Standard.Class" uid="ae0153bf-b7e1-4516-ad0e-76b89b5eee2a"/>
+        <COMPID name="ConfigurationBuilder" mc="Standard.Class" uid="e17b5122-2dd3-4653-8c9e-8fe16bc0fd61"/>
+        <COMPID name="ContentState" mc="Standard.Class" uid="c32fc14c-2e9f-4991-933e-36b11dd812a4"/>
+        <COMPID name="DefaultIdGenerationStrategy" mc="Standard.Class" uid="fcbf4921-8cf5-412b-915d-3b7bf0e34e9b"/>
+        <COMPID name="IdGenerationStrategy" mc="Standard.Class" uid="2760541f-f1b1-4f51-b1a1-cdabaffceb8c"/>
+        <COMPID name="MarkupLanguage" mc="Standard.Class" uid="27d6474d-316e-489b-abb6-26dab79590c8"/>
+        <COMPID name="MarkupLanguageConfiguration" mc="Standard.Class" uid="80c7dbc4-eb15-46fc-832e-108dc4b4a19e"/>
+        <COMPID name="MarkupLanguageProvider" mc="Standard.Class" uid="b85a50c3-68d5-4271-a6d7-624f13e9f664"/>
+        <COMPID name="PatternBasedElement" mc="Standard.Class" uid="b3755887-ee81-46f2-b88a-68abe1dac4dc"/>
+        <COMPID name="PatternBasedElementProcessor" mc="Standard.Class" uid="15d43667-f0c8-44ed-98bf-535e37e2334c"/>
+        <COMPID name="Processor" mc="Standard.Class" uid="c263155e-d755-4e0f-ac8f-8dc886a6f02c"/>
+        <COMPID name="block" mc="Standard.Package" uid="4914c146-2025-476e-9d90-9e46973a15f8"/>
+        <COMPID name="phrase" mc="Standard.Package" uid="ebeb75a2-f896-43d1-959f-8ded9dea3536"/>
+        <COMPID name="token" mc="Standard.Package" uid="f54de4a6-8f66-4134-9aa0-50be6f6a3f91"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

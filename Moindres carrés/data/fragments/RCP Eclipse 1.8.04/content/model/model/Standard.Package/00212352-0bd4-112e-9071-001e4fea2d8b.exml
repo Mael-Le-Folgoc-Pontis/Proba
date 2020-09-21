@@ -1,0 +1,71 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="mapping" version="4">
+  <OBJECT>
+    <ID name="mapping" mc="Standard.Package" uid="00212352-0bd4-112e-9071-001e4fea2d8b"/>
+    <PID name="ui" mc="Standard.Package" uid="001ad506-0bd4-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[mapping]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractCompareInput" mc="Standard.Class" uid="00212992-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BuildScopeOperation" mc="Standard.Class" uid="00212ff0-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CommonMenuManager" mc="Standard.Class" uid="0021364e-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CommonViewerAdvisor" mc="Standard.Class" uid="00213cb6-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CompareInputChangeNotifier" mc="Standard.Class" uid="00215d7c-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DefaultResourceMappingMerger" mc="Standard.Class" uid="00217f3c-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DiffTreeChangesSection" mc="Standard.Class" uid="00218630-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DiffTreeStatusLineContributionGroup" mc="Standard.Class" uid="0021942c-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FuzzFactorAction" mc="Standard.Class" uid="00219b98-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FuzzFactorDialog" mc="Standard.Class" uid="0021a368-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="GererateRejFileAction" mc="Standard.Class" uid="0021ab60-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IEmptyTreeListener" mc="Standard.Interface" uid="0021b11e-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IgnoreLeadingPathSegmentsAction" mc="Standard.Class" uid="0021b9ca-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MergeAction" mc="Standard.Class" uid="0021c23a-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MergeAllActionHandler" mc="Standard.Class" uid="0021ca96-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MergeAllOperation" mc="Standard.Class" uid="0021d34c-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MergeIncomingChangesAction" mc="Standard.Class" uid="0021dc3e-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ModelCompareEditorInput" mc="Standard.Class" uid="0021e530-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ModelElementSelectionPage" mc="Standard.Class" uid="0021eeb8-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ModelEnablementPreferencePage" mc="Standard.Class" uid="0021f84a-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ModelSelectionDropDownAction" mc="Standard.Class" uid="002201dc-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ModelSynchronizePage" mc="Standard.Class" uid="002211fe-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RemoveFromViewAction" mc="Standard.Class" uid="00221c44-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ResourceCompareInputChangeNotifier" mc="Standard.Class" uid="002226b2-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ResourceDiffCompareInput" mc="Standard.Class" uid="00223710-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ResourceDragAdapterAssistant" mc="Standard.Class" uid="002241e2-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ResourceMappingLabelProvider" mc="Standard.Class" uid="00224cf0-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ResourceMarkAsMergedHandler" mc="Standard.Class" uid="002257fe-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ResourceMergeActionHandler" mc="Standard.Class" uid="0022637a-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ResourceMergeHandler" mc="Standard.Class" uid="00226f14-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ResourceModelActionProvider" mc="Standard.Class" uid="00227aae-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ResourceModelContentProvider" mc="Standard.Class" uid="002286e8-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ResourceModelLabelProvider" mc="Standard.Class" uid="0022932c-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ResourceModelParticipantAction" mc="Standard.Class" uid="00229f5c-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ResourceModelPersistenceAdapter" mc="Standard.Class" uid="0022ac5e-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ResourceModelProviderOperation" mc="Standard.Class" uid="0022b956-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ResourceModelScopeParticipant" mc="Standard.Class" uid="0022c61c-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ResourceModelScopeParticipantFactory" mc="Standard.Class" uid="0022d35a-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ResourceModelSorter" mc="Standard.Class" uid="0022e0ca-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ResourceModelTraversalCalculator" mc="Standard.Class" uid="0022ee1c-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RestoreRemovedItemsAction" mc="Standard.Class" uid="0022fc04-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ReversePatchAction" mc="Standard.Class" uid="002309f6-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ShowModelProviderAction" mc="Standard.Class" uid="00231806-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="StorageStreamMerger" mc="Standard.Class" uid="00232684-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="StreamMergerDelegate" mc="Standard.Class" uid="00233534-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SynchronizationResourceMappingContext" mc="Standard.Class" uid="002343da-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TeamViewerSorter" mc="Standard.Class" uid="0023530c-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WorkspaceTeamStateProvider" mc="Standard.Class" uid="00236234-0bd4-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="jdom" version="4">
+  <OBJECT>
+    <ID name="jdom" mc="Standard.Package" uid="0063a7ea-0bc8-112e-9071-001e4fea2d8b"/>
+    <PID name="core" mc="Standard.Package" uid="004e9184-0bc8-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[jdom]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="DOMException" mc="Standard.Class" uid="0063ae3e-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DOMFactory" mc="Standard.Class" uid="0063b514-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IDOMCompilationUnit" mc="Standard.Interface" uid="0063bbc2-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IDOMFactory" mc="Standard.Interface" uid="0063c2ac-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IDOMField" mc="Standard.Interface" uid="0063c996-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IDOMImport" mc="Standard.Interface" uid="0063d080-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IDOMInitializer" mc="Standard.Interface" uid="0063d80a-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IDOMMember" mc="Standard.Interface" uid="0063df8a-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IDOMMethod" mc="Standard.Interface" uid="0063e73c-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IDOMNode" mc="Standard.Interface" uid="0063eee4-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IDOMPackage" mc="Standard.Interface" uid="0063f6fa-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IDOMType" mc="Standard.Interface" uid="0063ff74-0bc8-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

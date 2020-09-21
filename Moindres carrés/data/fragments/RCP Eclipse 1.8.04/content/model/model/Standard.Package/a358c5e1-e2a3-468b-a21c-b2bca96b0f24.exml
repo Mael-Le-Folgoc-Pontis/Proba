@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="recommenders" version="4">
+  <OBJECT>
+    <ID name="recommenders" mc="Standard.Package" uid="a358c5e1-e2a3-468b-a21c-b2bca96b0f24"/>
+    <PID name="eclipse" mc="Standard.Package" uid="0015e0b4-219f-1fb1-8a9e-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[recommenders]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="apidocs" mc="Standard.Package" uid="b7a2faa1-be50-479a-853a-68db1733c2d1"/>
+        <COMPID name="calls" mc="Standard.Package" uid="2b1318ee-b67d-4801-aa10-c8674876cfd9"/>
+        <COMPID name="commons" mc="Standard.Package" uid="07999d4d-941b-4c8a-96e1-c6383c63e52b"/>
+        <COMPID name="completion" mc="Standard.Package" uid="98a193a0-77aa-43c8-a6e2-0cc571410e51"/>
+        <COMPID name="constructors" mc="Standard.Package" uid="4662dab4-a6a6-41e7-acc3-3451c785a0f9"/>
+        <COMPID name="coordinates" mc="Standard.Package" uid="947efbd6-4947-41ba-9943-3e707aeb1d68"/>
+        <COMPID name="examples" mc="Standard.Package" uid="df24108b-b0ab-441a-ab9d-f1f665ae150e"/>
+        <COMPID name="injection" mc="Standard.Package" uid="4e0a5fef-baaf-42a9-b481-2c77512957a4"/>
+        <COMPID name="internal" mc="Standard.Package" uid="383557bf-8a8d-41f6-911f-a83c736ed478"/>
+        <COMPID name="jayes" mc="Standard.Package" uid="9bbbc226-2719-4a18-b1ed-a2f7004d0413"/>
+        <COMPID name="jdt" mc="Standard.Package" uid="571b1dfb-28b1-4fc8-b6b5-e1476cb2c08b"/>
+        <COMPID name="models" mc="Standard.Package" uid="ea892aef-3f64-40eb-8039-982ee5dc255c"/>
+        <COMPID name="net" mc="Standard.Package" uid="e5f37864-19d1-4160-a1bc-bf5468a5a136"/>
+        <COMPID name="overrides" mc="Standard.Package" uid="055b8879-2fc7-4e65-be8a-1e448ebeb4a7"/>
+        <COMPID name="rcp" mc="Standard.Package" uid="365cff46-87fc-4ef8-977f-f59e8cbbef51"/>
+        <COMPID name="snipmatch" mc="Standard.Package" uid="b65247aa-99a3-4f34-bb31-66558903f323"/>
+        <COMPID name="utils" mc="Standard.Package" uid="4a3c717d-586c-43a8-abdd-03a5b9f1c1de"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="errorinfo" version="4">
+  <OBJECT>
+    <ID name="errorinfo" mc="Standard.Package" uid="c78551ac-74e8-4ccd-b5b7-77b8d7b5d5cb"/>
+    <PID name="core" mc="Standard.Package" uid="1eb80b28-2d3a-4eef-bb17-6a050c52ac76"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[errorinfo]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="GroupNamePropertyTester" mc="Standard.Class" uid="0689a2da-30c0-46ec-a5d1-706eb0ea32c2"/>
+        <COMPID name="ReferencedFileErrorDialog" mc="Standard.Class" uid="154e5b70-99fe-498f-b419-adc236143823"/>
+        <COMPID name="ReferencedFileErrorUtility" mc="Standard.Class" uid="7da6bf82-5a70-4f09-93f4-212b4b2c0d7b"/>
+        <COMPID name="ReferencedFileErrorsHandler" mc="Standard.Class" uid="1be3b706-ba91-4221-bf2b-c465baa25c1f"/>
+        <COMPID name="TaskListTableViewer" mc="Standard.Class" uid="a6ae0c27-a78d-4f5e-897a-57d11b21b32d"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

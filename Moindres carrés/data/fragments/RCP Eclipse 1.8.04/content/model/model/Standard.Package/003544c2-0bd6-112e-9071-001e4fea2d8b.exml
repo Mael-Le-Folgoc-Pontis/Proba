@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="model" version="4">
+  <OBJECT>
+    <ID name="model" mc="Standard.Package" uid="003544c2-0bd6-112e-9071-001e4fea2d8b"/>
+    <PID name="composite" mc="Standard.Package" uid="002e7ce6-0bd6-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[model]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractTask" mc="Standard.Class" uid="00354b48-0bd6-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BlockedTaskFinder" mc="Standard.Class" uid="00355156-0bd6-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CompositeCheatSheetModel" mc="Standard.Class" uid="003557be-0bd6-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CompositeCheatSheetSaveHelper" mc="Standard.Class" uid="00355e6c-0bd6-112e-9071-001e4fea2d8b"/>
+        <COMPID name="EditableTask" mc="Standard.Class" uid="00356506-0bd6-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SuccesorTaskFinder" mc="Standard.Class" uid="00356c04-0bd6-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TaskChoiceCompletionStrategy" mc="Standard.Class" uid="00357334-0bd6-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TaskDependencies" mc="Standard.Class" uid="00357a8c-0bd6-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TaskGroup" mc="Standard.Class" uid="003587e8-0bd6-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TaskSetCompletionStrategy" mc="Standard.Class" uid="00359738-0bd6-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TaskStateUtilities" mc="Standard.Class" uid="00359f4e-0bd6-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

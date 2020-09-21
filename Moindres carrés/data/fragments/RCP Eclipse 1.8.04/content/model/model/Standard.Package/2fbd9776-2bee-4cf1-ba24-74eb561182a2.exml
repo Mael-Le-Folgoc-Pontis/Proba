@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="decorate" version="4">
+  <OBJECT>
+    <ID name="decorate" mc="Standard.Package" uid="2fbd9776-2bee-4cf1-ba24-74eb561182a2"/>
+    <PID name="model" mc="Standard.Package" uid="eddbcd43-71e0-4ca5-8592-890b416fe753"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[decorate]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="BeanDecorationInfo" mc="Standard.Class" uid="427f1cbc-04c2-4f9d-94e8-301c62ec9436"/>
+        <COMPID name="DecorationUtils" mc="Standard.Class" uid="d8ac242f-5072-428f-8025-98ec64035bb6"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="bugzilla" version="4">
+  <OBJECT>
+    <ID name="bugzilla" mc="Standard.Package" uid="182c2885-72bb-409b-b705-7da97119000a"/>
+    <PID name="internal" mc="Standard.Package" uid="07b9c40b-70dd-47d8-a499-56d1e7451ee5"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[bugzilla]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="core" mc="Standard.Package" uid="4a803f96-7396-45ff-b1a2-91a6d53dd25b"/>
+        <COMPID name="ui" mc="Standard.Package" uid="a1357edf-9556-4b30-8e14-d9159d3a7e49"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

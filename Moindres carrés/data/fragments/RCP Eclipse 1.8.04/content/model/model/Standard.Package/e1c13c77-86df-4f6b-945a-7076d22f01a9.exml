@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="benchmark" version="4">
+  <OBJECT>
+    <ID name="benchmark" mc="Standard.Package" uid="e1c13c77-86df-4f6b-945a-7076d22f01a9"/>
+    <PID name="javaewah" mc="Standard.Package" uid="e57c6778-7756-4ce3-bbfc-6eee11c4ff8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[benchmark]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Benchmark" mc="Standard.Class" uid="db8b18b8-c2b4-4f07-ac92-625c30304895"/>
+        <COMPID name="Benchmark32" mc="Standard.Class" uid="df9f6666-feb2-488c-b019-5e5781492172"/>
+        <COMPID name="BenchmarkIntersection" mc="Standard.Class" uid="2c8cd896-f86e-4455-b318-f8ac5a994e6d"/>
+        <COMPID name="BenchmarkIntersection32" mc="Standard.Class" uid="288693e0-6796-40e2-8565-f376ca76f72e"/>
+        <COMPID name="BenchmarkUnion" mc="Standard.Class" uid="cbf9f42c-f656-4dcb-a36c-cda7700cfb79"/>
+        <COMPID name="BenchmarkUnion32" mc="Standard.Class" uid="6e6a7268-dc1a-4e28-a175-043cf2df8844"/>
+        <COMPID name="BenchmarkXOR" mc="Standard.Class" uid="3d287e28-af89-437a-821e-d230127237ad"/>
+        <COMPID name="BenchmarkXOR32" mc="Standard.Class" uid="674c7790-e49a-49ab-9dba-a0b15c093c44"/>
+        <COMPID name="ClusteredDataGenerator" mc="Standard.Class" uid="3fe36b11-a3ec-4a94-8dbe-8dbb4c6ceff9"/>
+        <COMPID name="UniformDataGenerator" mc="Standard.Class" uid="907db36f-458c-412b-8eb4-ff5b1f438c83"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

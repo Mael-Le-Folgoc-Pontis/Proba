@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="actions" version="4">
+  <OBJECT>
+    <ID name="actions" mc="Standard.Package" uid="1d521b15-373f-4fd0-8405-3f87963bbc07"/>
+    <PID name="header" mc="Standard.Package" uid="fde92afc-295c-4d8e-9cbc-b172b69a1939"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[actions]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="DimensionHeaderAction" mc="Standard.Class" uid="a57fab81-ee9c-442f-89e1-323b20935023"/>
+        <COMPID name="SetAlignmentColumnAction" mc="Standard.Class" uid="d62cd330-7efd-4a5e-9bac-611027a6a4d5"/>
+        <COMPID name="SetAlignmentRowAction" mc="Standard.Class" uid="d076a2da-81bb-4240-91e7-93e43032dae2"/>
+        <COMPID name="SetGrowAction" mc="Standard.Class" uid="58a52ba8-7436-4834-829f-6ab96f7e1daf"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

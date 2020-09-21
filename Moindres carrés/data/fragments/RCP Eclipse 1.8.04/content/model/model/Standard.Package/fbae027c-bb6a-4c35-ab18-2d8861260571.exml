@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ui" version="4">
+  <OBJECT>
+    <ID name="ui" mc="Standard.Package" uid="fbae027c-bb6a-4c35-ab18-2d8861260571"/>
+    <PID name="team" mc="Standard.Package" uid="d20e9d96-2fc1-4499-a6a5-33e5b37a21ec"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[ui]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractActiveChangeSetProvider" mc="Standard.Class" uid="7bb556e7-d6e7-45fd-9c6b-7bc37cf8a75f"/>
+        <COMPID name="AbstractCommitTemplateVariable" mc="Standard.Class" uid="9b261ea3-a35d-4c65-a829-ea1d71e3d2a9"/>
+        <COMPID name="AbstractContextChangeSetManager" mc="Standard.Class" uid="d2bc1aa8-0b9a-4a7c-af1d-af8d7d440b72"/>
+        <COMPID name="AbstractTaskReference" mc="Standard.Class" uid="94d66bbd-f7db-46c7-bf3e-f5dfe530295a"/>
+        <COMPID name="IContextChangeSet" mc="Standard.Interface" uid="7221cf1f-8b60-4113-a7e1-e232c6b708e6"/>
+        <COMPID name="TeamUiUtil" mc="Standard.Class" uid="8ee07164-8cce-4481-b647-0887902c424d"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="core" version="4">
+  <OBJECT>
+    <ID name="core" mc="Standard.Package" uid="3c185ebe-dffb-43f2-8b4e-39d5ff607b28"/>
+    <PID name="internal" mc="Standard.Package" uid="d9212ba3-aeff-4017-b122-a2ad13473688"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[core]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="EmptySchedulingRule" mc="Standard.Class" uid="21fe0974-6553-402b-b607-85f254c35b5c"/>
+        <COMPID name="FileDelta" mc="Standard.Class" uid="3b6b6ade-4613-445f-9bff-81c7eb35979b"/>
+        <COMPID name="IFileDelta" mc="Standard.Interface" uid="7eed562f-5b9a-49da-8a65-434ef625e68e"/>
+        <COMPID name="IMessageAccess" mc="Standard.Interface" uid="5b0a7391-5059-4e7f-a395-8ae6f3f9c28e"/>
+        <COMPID name="Message" mc="Standard.Class" uid="d785fff6-73f3-469c-bb81-228f1c154672"/>
+        <COMPID name="MessageFilter" mc="Standard.Class" uid="2fe6b90e-f306-437b-822b-04517f2d9508"/>
+        <COMPID name="ValidationException" mc="Standard.Class" uid="726f3ac0-bc81-4916-92ea-8ec7856d171d"/>
+        <COMPID name="ValidatorLauncher" mc="Standard.Class" uid="0f3aa0b4-7098-4d8b-b3af-fdef632cb886"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

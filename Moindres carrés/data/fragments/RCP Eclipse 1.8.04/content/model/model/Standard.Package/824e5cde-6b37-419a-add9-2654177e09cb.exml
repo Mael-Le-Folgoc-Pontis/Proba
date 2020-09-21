@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ignore" version="4">
+  <OBJECT>
+    <ID name="ignore" mc="Standard.Package" uid="824e5cde-6b37-419a-add9-2654177e09cb"/>
+    <PID name="jgit" mc="Standard.Package" uid="bf3b61ef-28ee-4cf7-8afd-022df78c66c8"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[ignore]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="FastIgnoreRule" mc="Standard.Class" uid="9abc7e27-ef0d-4801-bf3f-c31e16778672"/>
+        <COMPID name="IgnoreNode" mc="Standard.Class" uid="35f5c935-c8c6-4b5d-8d57-07f7c9b30c54"/>
+        <COMPID name="internal" mc="Standard.Package" uid="8939c80e-5307-4ef6-945c-bf83e0c1b7e9"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

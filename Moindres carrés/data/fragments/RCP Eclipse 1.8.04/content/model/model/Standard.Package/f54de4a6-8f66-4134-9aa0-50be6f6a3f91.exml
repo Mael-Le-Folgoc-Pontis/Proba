@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="token" version="4">
+  <OBJECT>
+    <ID name="token" mc="Standard.Package" uid="f54de4a6-8f66-4134-9aa0-50be6f6a3f91"/>
+    <PID name="markup" mc="Standard.Package" uid="99805526-e7fe-4104-a587-d8289d40d43f"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[token]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AcronymReplacementToken" mc="Standard.Class" uid="2bfc183d-a6f4-429d-b1c4-5af7c53165a9"/>
+        <COMPID name="EntityReferenceReplacementToken" mc="Standard.Class" uid="7e543f2f-8714-44e4-9c0e-3a7b05c35a37"/>
+        <COMPID name="EntityReplacementTokenProcessor" mc="Standard.Class" uid="1d5b37b1-a04c-4b3b-8817-7d123a21528c"/>
+        <COMPID name="EntityWrappingReplacementToken" mc="Standard.Class" uid="4db051f1-f6b5-4f32-a46b-e1b4382dc318"/>
+        <COMPID name="ImpliedHyperlinkReplacementToken" mc="Standard.Class" uid="2709f252-ecbc-485d-a1d6-daa9ba2c7906"/>
+        <COMPID name="LineBreakReplacementTokenProcessor" mc="Standard.Class" uid="8f82204c-bc7f-49bf-9583-77ede4e75546"/>
+        <COMPID name="LiteralReplacementTokenProcessor" mc="Standard.Class" uid="a04f81f3-6937-4e52-8738-e6651f07326a"/>
+        <COMPID name="PatternEntityReferenceReplacementToken" mc="Standard.Class" uid="8ce269e7-75e0-4616-8916-ce720b3ac44f"/>
+        <COMPID name="PatternLineBreakReplacementToken" mc="Standard.Class" uid="ba9d80b3-efdf-41f9-b142-6e183de85ec6"/>
+        <COMPID name="PatternLiteralReplacementToken" mc="Standard.Class" uid="807f76dd-4509-4397-9b42-8bff4503b1d2"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

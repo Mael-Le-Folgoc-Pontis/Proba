@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="debug" version="4">
+  <OBJECT>
+    <ID name="debug" mc="Standard.Package" uid="908387a1-7bd7-4f51-9746-8bb77566a1bb"/>
+    <PID name="internal" mc="Standard.Package" uid="8de19d9c-309f-4c7f-968c-e82cba2f8859"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[debug]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="BreakpointRulerAction" mc="Standard.Class" uid="77491f05-cefb-41ad-ae27-c7d83c4b28bb"/>
+        <COMPID name="DebugTextEditor" mc="Standard.Class" uid="e3238042-ed66-413b-b418-aee91790952b"/>
+        <COMPID name="EditBreakpointAction" mc="Standard.Class" uid="0b412060-39bd-4fdf-a175-b6f9524f5e86"/>
+        <COMPID name="ManageBreakpointAction" mc="Standard.Class" uid="9a8ef0ec-765f-4ed6-9366-3c6aa6f3bd46"/>
+        <COMPID name="ToggleBreakpointAction" mc="Standard.Class" uid="396bddce-bebe-4905-9bbe-011bf8ff76c4"/>
+        <COMPID name="ToggleBreakpointsTarget" mc="Standard.Class" uid="b643fd40-d4dc-442f-9906-d7b6213d59a3"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

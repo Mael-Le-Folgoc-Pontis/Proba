@@ -1,0 +1,70 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="complete" version="4">
+  <OBJECT>
+    <ID name="complete" mc="Standard.Package" uid="007e1a44-0bc8-112e-9071-001e4fea2d8b"/>
+    <PID name="codeassist" mc="Standard.Package" uid="007c7496-0bc8-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[complete]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="CompletionJavadoc" mc="Standard.Class" uid="007e20d4-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CompletionJavadocParser" mc="Standard.Class" uid="007e2796-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CompletionNodeDetector" mc="Standard.Class" uid="007e2e44-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CompletionNodeFound" mc="Standard.Class" uid="007e3560-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CompletionOnAnnotationMemberValuePair" mc="Standard.Class" uid="007e3d12-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CompletionOnAnnotationOfType" mc="Standard.Class" uid="007e4460-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CompletionOnArgumentName" mc="Standard.Class" uid="007e4bfe-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CompletionOnBranchStatementLabel" mc="Standard.Class" uid="007e53e2-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CompletionOnClassLiteralAccess" mc="Standard.Class" uid="007e5bbc-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CompletionOnExplicitConstructorCall" mc="Standard.Class" uid="007e63fa-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CompletionOnFieldName" mc="Standard.Class" uid="007e6c7e-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CompletionOnFieldType" mc="Standard.Class" uid="007e74f8-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CompletionOnImportReference" mc="Standard.Class" uid="007e7dd6-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CompletionOnJavadoc" mc="Standard.Interface" uid="007e8420-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CompletionOnJavadocAllocationExpression" mc="Standard.Class" uid="007e8d30-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CompletionOnJavadocFieldReference" mc="Standard.Class" uid="007e96ae-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CompletionOnJavadocMessageSend" mc="Standard.Class" uid="007ea018-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CompletionOnJavadocParamNameReference" mc="Standard.Class" uid="007ea996-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CompletionOnJavadocQualifiedTypeReference" mc="Standard.Class" uid="007eb3be-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CompletionOnJavadocSingleTypeReference" mc="Standard.Class" uid="007ebdd2-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CompletionOnJavadocTag" mc="Standard.Class" uid="007ec82c-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CompletionOnJavadocTypeParamReference" mc="Standard.Class" uid="007ed272-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CompletionOnKeyword" mc="Standard.Interface" uid="007ed952-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CompletionOnKeyword1" mc="Standard.Class" uid="007ee438-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CompletionOnKeyword2" mc="Standard.Class" uid="007eeeec-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CompletionOnKeyword3" mc="Standard.Class" uid="007ef9fa-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CompletionOnLocalName" mc="Standard.Class" uid="007f0544-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CompletionOnMarkerAnnotationName" mc="Standard.Class" uid="007f10d4-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CompletionOnMemberAccess" mc="Standard.Class" uid="007f1c96-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CompletionOnMemberValueName" mc="Standard.Class" uid="007f2880-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CompletionOnMessageSend" mc="Standard.Class" uid="007f3460-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CompletionOnMessageSendName" mc="Standard.Class" uid="007f40ae-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CompletionOnMethodName" mc="Standard.Class" uid="007f4d38-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CompletionOnMethodReturnType" mc="Standard.Class" uid="007f59a4-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CompletionOnMethodTypeParameter" mc="Standard.Class" uid="007f6688-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CompletionOnPackageReference" mc="Standard.Class" uid="007f73d0-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CompletionOnParameterizedQualifiedTypeReference" mc="Standard.Class" uid="007f80f0-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CompletionOnQualifiedAllocationExpression" mc="Standard.Class" uid="007f8e74-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CompletionOnQualifiedNameReference" mc="Standard.Class" uid="007f9c2a-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CompletionOnQualifiedTypeReference" mc="Standard.Class" uid="007fa9d6-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CompletionOnReferenceExpressionName" mc="Standard.Class" uid="32c1d3d1-6931-4357-9d6f-e9f5b93d68d3"/>
+        <COMPID name="CompletionOnSingleNameReference" mc="Standard.Class" uid="007fb80e-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CompletionOnSingleTypeReference" mc="Standard.Class" uid="007fc66e-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CompletionOnStringLiteral" mc="Standard.Class" uid="007fd4ba-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CompletionParser" mc="Standard.Class" uid="007fe356-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CompletionScanner" mc="Standard.Class" uid="007ff22e-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="InvalidCursorLocation" mc="Standard.Class" uid="0080012e-0bc8-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

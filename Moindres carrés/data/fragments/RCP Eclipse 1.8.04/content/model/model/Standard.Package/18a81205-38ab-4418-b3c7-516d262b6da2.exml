@@ -1,0 +1,51 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="impl" version="4">
+  <OBJECT>
+    <ID name="impl" mc="Standard.Package" uid="18a81205-38ab-4418-b3c7-516d262b6da2"/>
+    <PID name="internal" mc="Standard.Package" uid="999b298b-d15f-4f3b-8e5a-71f986a32262"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[impl]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ArtifactEditModelFactory" mc="Standard.Class" uid="c868cef5-347d-4acb-8f6d-9ddbc0bab681"/>
+        <COMPID name="ComponentCoreURIConverter" mc="Standard.Class" uid="74d57630-6561-4bcb-9b0b-9d9ed33129b4"/>
+        <COMPID name="ComponentResourceImpl" mc="Standard.Class" uid="e097de68-1ac5-4ca6-88bb-0cb390345c61"/>
+        <COMPID name="ComponentTypeImpl" mc="Standard.Class" uid="5de417ff-7d62-42a7-b587-f15eedcb4e60"/>
+        <COMPID name="ComponentcoreFactoryImpl" mc="Standard.Class" uid="e747d712-3f24-4646-8381-2e2046e810e8"/>
+        <COMPID name="ComponentcorePackageImpl" mc="Standard.Class" uid="a66e227b-9115-4ca5-a4cf-2a4af3dccf57"/>
+        <COMPID name="IModuleStructureListener" mc="Standard.Interface" uid="117ad363-a0d9-45e5-9cf3-4c2c7806e05f"/>
+        <COMPID name="IResourceFactoryExtPtConstants" mc="Standard.Interface" uid="cc980e08-28bf-46b8-a25c-0607246a715f"/>
+        <COMPID name="MappedComponentXMIHelper" mc="Standard.Class" uid="2f4c00f8-d46b-4e31-ae83-42c52616b853"/>
+        <COMPID name="ModuleIndexingAdapter" mc="Standard.Class" uid="50f7615a-d754-4e38-a360-c6503aa9f5e8"/>
+        <COMPID name="ModuleStructuralModelFactory" mc="Standard.Class" uid="f7c7dc59-64a7-49c6-8e52-3c70ac44af1e"/>
+        <COMPID name="ModuleStructureEvent" mc="Standard.Class" uid="20d1e04f-373f-41bd-b0dc-5772f01f65df"/>
+        <COMPID name="ModuleURIUtil" mc="Standard.Class" uid="f1e063e3-e462-4f4a-9416-8c6d30e4727c"/>
+        <COMPID name="PlatformURLModuleConnection" mc="Standard.Class" uid="ea338cfa-69ea-4861-9b15-93c29b3f2258"/>
+        <COMPID name="ProjectComponentsImpl" mc="Standard.Class" uid="f3f20656-b38b-4fba-807d-8b449c9372c5"/>
+        <COMPID name="PropertyImpl" mc="Standard.Class" uid="f62233cc-11fb-40be-b838-52fe650c583c"/>
+        <COMPID name="ReferencedComponentImpl" mc="Standard.Class" uid="be8d0d61-166b-47cf-bddd-3bb5d2c1de7a"/>
+        <COMPID name="ReferencedComponentXMIResourceFactory" mc="Standard.Class" uid="787de79a-c6e1-4da8-98eb-6ed2232de72b"/>
+        <COMPID name="ReferencedComponentXMIResourceImpl" mc="Standard.Class" uid="b1b4c8cc-e1dc-473c-8c7d-a4052c2c64ea"/>
+        <COMPID name="ResourceTreeNode" mc="Standard.Class" uid="1f2aa54f-929b-4b7c-a389-7b175b027055"/>
+        <COMPID name="ResourceTreeRoot" mc="Standard.Class" uid="219901d3-581d-4f95-9f04-b5be474334c3"/>
+        <COMPID name="ResourceTreeRootAdapter" mc="Standard.Class" uid="d80ff3ee-3945-442f-89e9-6acea3aec4fc"/>
+        <COMPID name="WTPEntityResolver" mc="Standard.Class" uid="d7e5a372-3550-441c-97f8-085199fe2241"/>
+        <COMPID name="WTPModulesInit" mc="Standard.Class" uid="222d1db3-7bd2-462d-bf07-cc1d0b4f77db"/>
+        <COMPID name="WTPModulesResource" mc="Standard.Class" uid="4d7cd25e-359d-4da6-9c0f-b60db1abd38e"/>
+        <COMPID name="WTPModulesResourceFactory" mc="Standard.Class" uid="d679df0e-f67d-42e0-961b-0ce1810153bf"/>
+        <COMPID name="WTPResourceFactoryRegistry" mc="Standard.Class" uid="3bb299ea-25d5-452e-81d6-99a23794b67a"/>
+        <COMPID name="WorkbenchComponentImpl" mc="Standard.Class" uid="b32b81b1-372e-4622-97e1-32082f0ffd41"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

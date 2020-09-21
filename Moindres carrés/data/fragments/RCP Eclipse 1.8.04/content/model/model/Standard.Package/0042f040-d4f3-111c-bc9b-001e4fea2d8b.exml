@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="phases" version="4">
+  <OBJECT>
+    <ID name="phases" mc="Standard.Package" uid="0042f040-d4f3-111c-bc9b-001e4fea2d8b"/>
+    <PID name="engine" mc="Standard.Package" uid="004109b0-d4f3-111c-bc9b-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[phases]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="CertificateChecker" mc="Standard.Class" uid="004339d8-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="CheckTrust" mc="Standard.Class" uid="00434cf2-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="Collect" mc="Standard.Class" uid="0042fcb6-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="Configure" mc="Standard.Class" uid="00437376-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="Install" mc="Standard.Class" uid="0043a8dc-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="Property" mc="Standard.Class" uid="00430fd0-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="Sizing" mc="Standard.Class" uid="00436048-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="Unconfigure" mc="Standard.Class" uid="00440dd6-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="Uninstall" mc="Standard.Class" uid="0043db5e-d4f3-111c-bc9b-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

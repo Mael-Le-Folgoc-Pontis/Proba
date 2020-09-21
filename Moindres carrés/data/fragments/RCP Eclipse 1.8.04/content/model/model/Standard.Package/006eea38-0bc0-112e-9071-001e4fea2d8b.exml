@@ -1,0 +1,74 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="resources" version="4">
+  <OBJECT>
+    <ID name="resources" mc="Standard.Package" uid="006eea38-0bc0-112e-9071-001e4fea2d8b"/>
+    <PID name="core" mc="Standard.Package" uid="00359468-21a6-1fb1-8a9e-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[resources]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="FileInfoMatcherDescription" mc="Standard.Class" uid="006ef14a-0bc0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IBuildConfiguration" mc="Standard.Interface" uid="006ef94c-0bc0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IBuildContext" mc="Standard.Interface" uid="006f00ae-0bc0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ICommand" mc="Standard.Interface" uid="006f08ba-0bc0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IContainer" mc="Standard.Interface" uid="006f10bc-0bc0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IEncodedStorage" mc="Standard.Interface" uid="006f18fa-0bc0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IFile" mc="Standard.Interface" uid="006f2142-0bc0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IFileModificationValidator" mc="Standard.Interface" uid="006f29f8-0bc0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IFileState" mc="Standard.Interface" uid="006f32e0-0bc0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IFilterMatcherDescriptor" mc="Standard.Interface" uid="006f3c04-0bc0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IFolder" mc="Standard.Interface" uid="006f4564-0bc0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IMarker" mc="Standard.Interface" uid="006f4eec-0bc0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IMarkerDelta" mc="Standard.Interface" uid="006f58ba-0bc0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IPathVariableChangeEvent" mc="Standard.Interface" uid="006f62ba-0bc0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IPathVariableChangeListener" mc="Standard.Interface" uid="006f6cec-0bc0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IPathVariableManager" mc="Standard.Interface" uid="006f775a-0bc0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IProject" mc="Standard.Interface" uid="006f81c8-0bc0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IProjectDescription" mc="Standard.Interface" uid="006f8ca4-0bc0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IProjectNature" mc="Standard.Interface" uid="006f97ee-0bc0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IProjectNatureDescriptor" mc="Standard.Interface" uid="006fa2fc-0bc0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IResource" mc="Standard.Interface" uid="006fae82-0bc0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IResourceChangeEvent" mc="Standard.Interface" uid="006fba30-0bc0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IResourceChangeListener" mc="Standard.Interface" uid="006fc5f2-0bc0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IResourceDelta" mc="Standard.Interface" uid="006fd222-0bc0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IResourceDeltaVisitor" mc="Standard.Interface" uid="006fde84-0bc0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IResourceFilterDescription" mc="Standard.Interface" uid="006feb22-0bc0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IResourceProxy" mc="Standard.Interface" uid="006ff7b6-0bc0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IResourceProxyVisitor" mc="Standard.Interface" uid="007004cc-0bc0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IResourceRuleFactory" mc="Standard.Interface" uid="00701200-0bc0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IResourceStatus" mc="Standard.Interface" uid="00701f3e-0bc0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IResourceVisitor" mc="Standard.Interface" uid="00702cf4-0bc0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ISaveContext" mc="Standard.Interface" uid="00703b0e-0bc0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ISaveParticipant" mc="Standard.Interface" uid="00704900-0bc0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ISavedState" mc="Standard.Interface" uid="0070574c-0bc0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IStorage" mc="Standard.Interface" uid="007065e8-0bc0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ISynchronizer" mc="Standard.Interface" uid="007074a2-0bc0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IWorkspace" mc="Standard.Interface" uid="00708370-0bc0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IWorkspaceDescription" mc="Standard.Interface" uid="0070a6e8-0bc0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IWorkspaceRoot" mc="Standard.Interface" uid="0070b656-0bc0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IWorkspaceRunnable" mc="Standard.Interface" uid="0070c5c4-0bc0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IncrementalProjectBuilder" mc="Standard.Class" uid="0070cdc6-0bc0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ProjectScope" mc="Standard.Class" uid="0070d58c-0bc0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ResourceAttributes" mc="Standard.Class" uid="0070dd20-0bc0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ResourcesPlugin" mc="Standard.Class" uid="0070e540-0bc0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WorkspaceJob" mc="Standard.Class" uid="0070ed74-0bc0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WorkspaceLock" mc="Standard.Class" uid="0070f5c6-0bc0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="filtermatchers" mc="Standard.Package" uid="0071cf78-0bc0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="mapping" mc="Standard.Package" uid="0072bf6e-0bc0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="refresh" mc="Standard.Package" uid="0073f5a0-0bc0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="team" mc="Standard.Package" uid="0074fb9e-0bc0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="variableresolvers" mc="Standard.Package" uid="00762186-0bc0-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

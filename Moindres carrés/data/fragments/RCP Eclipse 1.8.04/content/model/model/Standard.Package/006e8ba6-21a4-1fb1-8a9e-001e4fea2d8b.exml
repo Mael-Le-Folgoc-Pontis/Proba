@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="dndaddon" version="4">
+  <OBJECT>
+    <ID name="dndaddon" mc="Standard.Package" uid="006e8ba6-21a4-1fb1-8a9e-001e4fea2d8b"/>
+    <PID name="addons" mc="Standard.Package" uid="0069c13e-21a4-1fb1-8a9e-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[dndaddon]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="DetachedDropAgent" mc="Standard.Class" uid="0072ef66-21a4-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="DnDAddon" mc="Standard.Class" uid="006febc2-21a4-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="IBFDragAgent" mc="Standard.Class" uid="00742d54-21a4-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="PartDragAgent" mc="Standard.Class" uid="006eaffa-21a4-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="SplitDropAgent" mc="Standard.Class" uid="0071f728-21a4-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="SplitDropAgent2" mc="Standard.Class" uid="0a160fff-7fef-4fc8-a0de-d28f715611fb"/>
+        <COMPID name="SplitFeedbackOverlay" mc="Standard.Class" uid="00738d7c-21a4-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="StackDropAgent" mc="Standard.Class" uid="0071582c-21a4-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="TrimDropAgent" mc="Standard.Class" uid="0070553a-21a4-1fb1-8a9e-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

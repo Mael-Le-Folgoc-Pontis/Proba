@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="datatransfer" version="4">
+  <OBJECT>
+    <ID name="datatransfer" mc="Standard.Package" uid="009206c6-0bda-112e-9071-001e4fea2d8b"/>
+    <PID name="wizards" mc="Standard.Package" uid="00557c9c-21ab-1fb1-8a9e-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[datatransfer]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ExternalProjectImportWizard" mc="Standard.Class" uid="009212ec-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FileStoreStructureProvider" mc="Standard.Class" uid="009219d6-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FileSystemExportWizard" mc="Standard.Class" uid="0092205c-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FileSystemImportWizard" mc="Standard.Class" uid="00922714-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FileSystemStructureProvider" mc="Standard.Class" uid="00922dcc-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IImportStructureProvider" mc="Standard.Interface" uid="009235ba-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ImportOperation" mc="Standard.Class" uid="00923e0c-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PopulateRootOperation" mc="Standard.Class" uid="00924546-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SelectFilesOperation" mc="Standard.Class" uid="00924cc6-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WizardExternalProjectImportPage" mc="Standard.Class" uid="00925482-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ZipFileExportWizard" mc="Standard.Class" uid="00925cd4-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ZipFileImportWizard" mc="Standard.Class" uid="009264fe-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ZipFileStructureProvider" mc="Standard.Class" uid="00926d5a-0bda-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

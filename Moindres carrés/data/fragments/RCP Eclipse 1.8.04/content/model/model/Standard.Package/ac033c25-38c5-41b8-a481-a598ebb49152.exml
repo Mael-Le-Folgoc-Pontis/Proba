@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="hudson" version="4">
+  <OBJECT>
+    <ID name="hudson" mc="Standard.Package" uid="ac033c25-38c5-41b8-a481-a598ebb49152"/>
+    <PID name="internal" mc="Standard.Package" uid="07b9c40b-70dd-47d8-a499-56d1e7451ee5"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[hudson]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="core" mc="Standard.Package" uid="6c6682d7-a9c0-4036-b98a-ffcb91e4d40d"/>
+        <COMPID name="model" mc="Standard.Package" uid="f2a7db3a-4099-41dc-9fc6-dc74d462cfc0"/>
+        <COMPID name="ui" mc="Standard.Package" uid="0150539c-27b8-41ba-9ac6-e3ef0b82b468"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,54 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="core" version="4">
+  <OBJECT>
+    <ID name="core" mc="Standard.Package" uid="006fb454-0bc8-112e-9071-001e4fea2d8b"/>
+    <PID name="debug" mc="Standard.Package" uid="006f032e-0bc8-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[core]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="IEvaluationRunnable" mc="Standard.Interface" uid="006fba8a-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IJavaArray" mc="Standard.Interface" uid="006fc174-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IJavaArrayType" mc="Standard.Interface" uid="006fc868-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IJavaBreakpoint" mc="Standard.Interface" uid="006fcf98-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IJavaBreakpointListener" mc="Standard.Interface" uid="006fd6b4-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IJavaClassObject" mc="Standard.Interface" uid="006fde2a-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IJavaClassPrepareBreakpoint" mc="Standard.Interface" uid="00702b6e-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IJavaClassType" mc="Standard.Interface" uid="007033f2-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IJavaDebugTarget" mc="Standard.Interface" uid="00703c12-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IJavaExceptionBreakpoint" mc="Standard.Interface" uid="00704464-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IJavaFieldVariable" mc="Standard.Interface" uid="00704ca2-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IJavaHotCodeReplaceListener" mc="Standard.Interface" uid="0070556c-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IJavaInterfaceType" mc="Standard.Interface" uid="00705e5e-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IJavaLineBreakpoint" mc="Standard.Interface" uid="0070676e-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IJavaMethodBreakpoint" mc="Standard.Interface" uid="00707060-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IJavaMethodEntryBreakpoint" mc="Standard.Interface" uid="007079b6-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IJavaModifiers" mc="Standard.Interface" uid="00708348-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IJavaObject" mc="Standard.Interface" uid="00708d0c-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IJavaPatternBreakpoint" mc="Standard.Interface" uid="007096f8-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IJavaPrimitiveValue" mc="Standard.Interface" uid="0070a120-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IJavaReferenceType" mc="Standard.Interface" uid="0070ab34-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IJavaStackFrame" mc="Standard.Interface" uid="0070b5ac-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IJavaStratumLineBreakpoint" mc="Standard.Interface" uid="0070c042-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IJavaTargetPatternBreakpoint" mc="Standard.Interface" uid="0070cb5a-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IJavaThread" mc="Standard.Interface" uid="0070d65e-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IJavaThreadGroup" mc="Standard.Interface" uid="0070e18a-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IJavaType" mc="Standard.Interface" uid="0070ecde-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IJavaValue" mc="Standard.Interface" uid="0070f832-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IJavaVariable" mc="Standard.Interface" uid="007103ea-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IJavaWatchpoint" mc="Standard.Interface" uid="00710ff2-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JDIDebugModel" mc="Standard.Class" uid="0071163c-0bc8-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

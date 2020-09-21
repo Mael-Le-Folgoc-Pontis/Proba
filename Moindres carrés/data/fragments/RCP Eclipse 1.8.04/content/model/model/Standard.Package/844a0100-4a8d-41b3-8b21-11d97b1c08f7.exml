@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="strategy" version="4">
+  <OBJECT>
+    <ID name="strategy" mc="Standard.Package" uid="844a0100-4a8d-41b3-8b21-11d97b1c08f7"/>
+    <PID name="discovery" mc="Standard.Package" uid="992a8916-cb4b-47d9-bb9a-5ba93187a51f"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[strategy]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="M2EConnectorDiscoveryExtensionReader" mc="Standard.Class" uid="9f140372-6ca3-45b5-9d0a-ad726c3dde2a"/>
+        <COMPID name="M2ERemoteBundleDiscoveryStrategy" mc="Standard.Class" uid="92251664-16e7-4e1b-af80-a79582498360"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="phrase" version="4">
+  <OBJECT>
+    <ID name="phrase" mc="Standard.Package" uid="c1ed000e-a0f3-49ff-a426-7bbce2e88763"/>
+    <PID name="core" mc="Standard.Package" uid="d917b643-68de-4c19-9c97-66bfcebc7f77"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[phrase]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="EscapePhraseModifier" mc="Standard.Class" uid="b1f012ef-a21b-465c-8ff1-134e139c570f"/>
+        <COMPID name="SimplePhraseModifier" mc="Standard.Class" uid="4016680e-796d-438f-a8b0-8600a1a3d3ff"/>
+        <COMPID name="SimpleWrappedPhraseModifier" mc="Standard.Class" uid="0d22570b-28fb-4938-a36d-7f9bc662d1f4"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

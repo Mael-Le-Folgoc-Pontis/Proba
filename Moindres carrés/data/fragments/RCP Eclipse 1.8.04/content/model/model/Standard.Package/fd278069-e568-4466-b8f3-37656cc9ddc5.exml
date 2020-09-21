@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="selection" version="4">
+  <OBJECT>
+    <ID name="selection" mc="Standard.Package" uid="fd278069-e568-4466-b8f3-37656cc9ddc5"/>
+    <PID name="util" mc="Standard.Package" uid="5123570b-df35-4857-b7c6-74cacda74e7f"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[selection]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ContextActivatingSelectionListener" mc="Standard.Class" uid="04df46f2-2a5b-470f-a75f-37eed6cf3952"/>
+        <COMPID name="ContextActivatingViewPartListener" mc="Standard.Class" uid="5647f407-5380-408e-911c-abda946720a0"/>
+        <COMPID name="ContextActivatingWindowListener" mc="Standard.Class" uid="aee31eca-cdbc-4734-891e-5da65cccf538"/>
+        <COMPID name="Enabler" mc="Standard.Class" uid="9650c6e2-9ead-4389-8424-da8a61627e74"/>
+        <COMPID name="SelectionUtils" mc="Standard.Class" uid="cf342b41-79bb-4828-861c-8846a3ca69e1"/>
+        <COMPID name="TargetWidgetsInvertingSelectionListener" mc="Standard.Class" uid="62e24fb9-dd51-4dd2-bef3-d904bcacce5e"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

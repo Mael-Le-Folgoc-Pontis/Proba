@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="helpers" version="4">
+  <OBJECT>
+    <ID name="helpers" mc="Standard.Package" uid="5b448a97-ae6d-4364-8adb-7988fdd5ae5c"/>
+    <PID name="log4j" mc="Standard.Package" uid="ed6a544b-48f0-4c81-b6a9-45e027c242cd"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[helpers]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbsoluteTimeDateFormat" mc="Standard.Class" uid="44862395-683b-4812-b1c2-4d8d06c43954"/>
+        <COMPID name="AppenderAttachableImpl" mc="Standard.Class" uid="5eca6080-d9a5-4e4f-aa24-ac94c7d364af"/>
+        <COMPID name="BoundedFIFO" mc="Standard.Class" uid="924abaed-fd29-4b94-9aa0-df491d6ea095"/>
+        <COMPID name="CountingQuietWriter" mc="Standard.Class" uid="acbd141d-b451-4b94-9000-4c5f14fb5b63"/>
+        <COMPID name="CyclicBuffer" mc="Standard.Class" uid="c4672abb-cee7-435e-97e0-cdf75d29bf20"/>
+        <COMPID name="DateLayout" mc="Standard.Class" uid="1e7792a2-961b-43d5-8510-f56f86d3241e"/>
+        <COMPID name="DateTimeDateFormat" mc="Standard.Class" uid="e986ee26-1ebb-4d4e-ab83-3717833cf527"/>
+        <COMPID name="FileWatchdog" mc="Standard.Class" uid="acef8a81-6214-4848-acaf-13bdaf3a5912"/>
+        <COMPID name="FormattingInfo" mc="Standard.Class" uid="8c5895fc-377f-4d21-b55e-f5dce9b17783"/>
+        <COMPID name="ISO8601DateFormat" mc="Standard.Class" uid="1844f6c4-437b-4ddd-88b9-d697738fce0a"/>
+        <COMPID name="Loader" mc="Standard.Class" uid="fba67afc-129b-456f-b599-ca935192ee1d"/>
+        <COMPID name="LogLog" mc="Standard.Class" uid="324b71cd-f413-4680-80f0-aef470bfc1dd"/>
+        <COMPID name="NullEnumeration" mc="Standard.Class" uid="690e60be-e9a9-4bed-ba51-11065ec20b83"/>
+        <COMPID name="OnlyOnceErrorHandler" mc="Standard.Class" uid="88d24a52-926b-43d7-b6d9-26aba942153d"/>
+        <COMPID name="OptionConverter" mc="Standard.Class" uid="f6e19dc6-e44d-4b51-8861-35b8ab3294c6"/>
+        <COMPID name="PatternConverter" mc="Standard.Class" uid="67a86a57-8bc7-48bf-b0e1-47d4fe2eab62"/>
+        <COMPID name="PatternParser" mc="Standard.Class" uid="a74dc735-335d-4f6a-b416-10dc6bb3ca20"/>
+        <COMPID name="QuietWriter" mc="Standard.Class" uid="35819922-5328-49c7-bf1d-c16b78808cda"/>
+        <COMPID name="RelativeTimeDateFormat" mc="Standard.Class" uid="19e829ab-08b5-4b40-9b7d-2ecdff7e2c15"/>
+        <COMPID name="SyslogQuietWriter" mc="Standard.Class" uid="20aa168f-0d37-42bd-9d89-b60c389038d6"/>
+        <COMPID name="SyslogWriter" mc="Standard.Class" uid="fbad93fe-6a0b-4edd-a06f-67961e3fe4a2"/>
+        <COMPID name="ThreadLocalMap" mc="Standard.Class" uid="48f1405a-d1d4-4270-91b4-61e6f5a7d89c"/>
+        <COMPID name="Transform" mc="Standard.Class" uid="4441943d-e822-43ba-851e-eee9550fb856"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

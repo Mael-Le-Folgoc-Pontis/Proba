@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="xpp3" version="4">
+  <OBJECT>
+    <ID name="xpp3" mc="Standard.Package" uid="dd4d6a75-3b49-479d-bf72-f9ab18eb84a3"/>
+    <PID name="io" mc="Standard.Package" uid="b3e48a3a-5684-4adc-a866-1bf39ea30e1e"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[xpp3]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="SecurityConfigurationXpp3Reader" mc="Standard.Class" uid="363407a3-0795-46ba-98aa-ab4d94a69108"/>
+        <COMPID name="SecurityConfigurationXpp3Writer" mc="Standard.Class" uid="f6246ea8-e32e-43f5-b7b1-ef96db97284e"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

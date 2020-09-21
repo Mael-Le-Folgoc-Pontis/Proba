@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="rule" version="4">
+  <OBJECT>
+    <ID name="rule" mc="Standard.Package" uid="b16ae54f-ba7d-4960-b618-420c1a6ea1c0"/>
+    <PID name="dom4j" mc="Standard.Package" uid="eff6051a-f8fa-491f-aac6-6e4ed7ac354f"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[rule]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Action" mc="Standard.Interface" uid="f90d7f8f-0ce2-42d8-bf2f-657c752c8607"/>
+        <COMPID name="Mode" mc="Standard.Class" uid="1b0f01ad-3264-489b-bada-613ec747745f"/>
+        <COMPID name="NullAction" mc="Standard.Class" uid="c9e22415-4cb5-4712-908d-771829ce8715"/>
+        <COMPID name="Pattern" mc="Standard.Interface" uid="a7813f98-cf99-454f-8397-59e97fe0ac5a"/>
+        <COMPID name="Rule" mc="Standard.Class" uid="39ef7a7c-be99-4bfc-8ec2-b3c6b8eb8489"/>
+        <COMPID name="RuleManager" mc="Standard.Class" uid="abfb9595-a8de-442a-b46b-458804d0b1f4"/>
+        <COMPID name="RuleSet" mc="Standard.Class" uid="fcb76934-628e-4bdd-a037-42b04e68f519"/>
+        <COMPID name="Stylesheet" mc="Standard.Class" uid="d121f578-6377-4a06-99f4-9f529a5c58a6"/>
+        <COMPID name="pattern" mc="Standard.Package" uid="79c75a81-7346-415a-8368-e89caf072c12"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

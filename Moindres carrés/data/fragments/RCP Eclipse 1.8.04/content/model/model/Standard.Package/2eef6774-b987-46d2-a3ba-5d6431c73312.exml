@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="surround" version="4">
+  <OBJECT>
+    <ID name="surround" mc="Standard.Package" uid="2eef6774-b987-46d2-a3ba-5d6431c73312"/>
+    <PID name="util" mc="Standard.Package" uid="acb35c6a-7f86-40a5-a987-53b18790ce47"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[surround]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ISurroundProcessor" mc="Standard.Interface" uid="60d55190-8c54-4ed2-b874-d9e9f738a5a8"/>
+        <COMPID name="ISurroundTarget" mc="Standard.Class" uid="c397d28c-5106-4c9f-be29-b4f22073948a"/>
+        <COMPID name="SurroundSupport" mc="Standard.Class" uid="04140c86-22f1-43f2-9c38-73027d970c08"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

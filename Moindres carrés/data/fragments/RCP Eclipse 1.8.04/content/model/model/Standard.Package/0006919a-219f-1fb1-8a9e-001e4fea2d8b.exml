@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="org" version="4">
+  <OBJECT>
+    <ID name="org" mc="Standard.Package" uid="0006919a-219f-1fb1-8a9e-001e4fea2d8b"/>
+    <PID name="RCP_Eclipse" mc="Standard.Package" uid="77bde393-efee-4f8c-849d-b135981a30d6"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[org]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="apache" mc="Standard.Package" uid="00858518-21b0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="codehaus" mc="Standard.Package" uid="3f7575f8-1a58-4389-bdbc-7371f8d7e7c8"/>
+        <COMPID name="dom4j" mc="Standard.Package" uid="eff6051a-f8fa-491f-aac6-6e4ed7ac354f"/>
+        <COMPID name="eclipse" mc="Standard.Package" uid="0015e0b4-219f-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="glassfish" mc="Standard.Package" uid="0008267c-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="gradle" mc="Standard.Package" uid="b0a3a6a5-f52d-4ed0-a27b-9f7ce9859eef"/>
+        <COMPID name="hamcrest" mc="Standard.Package" uid="000900f6-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="jdom" mc="Standard.Package" uid="f2cb053a-09e2-411e-9342-9d8b064789bd"/>
+        <COMPID name="jsoup" mc="Standard.Package" uid="7860095d-1867-4806-b4ff-0938d134bb58"/>
+        <COMPID name="junit" mc="Standard.Package" uid="000a5ad2-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="mozilla" mc="Standard.Package" uid="125e5d95-7086-4ca9-99a1-7d27bffdb72a"/>
+        <COMPID name="mvel2" mc="Standard.Package" uid="9144514c-c276-4a5b-9f46-4b3c52f6ca1f"/>
+        <COMPID name="netbeans" mc="Standard.Package" uid="06d0bdd5-2982-42b9-ba9e-e7db1a240f49"/>
+        <COMPID name="objectweb" mc="Standard.Package" uid="00178a0e-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="osgi" mc="Standard.Package" uid="0003d130-21b1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="sat4j" mc="Standard.Package" uid="001eadc0-d4f0-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="slf4j" mc="Standard.Package" uid="008f5b04-e68e-457a-87c6-69bbbb43aa09"/>
+        <COMPID name="sonatype" mc="Standard.Package" uid="02d2b414-db2f-4b31-9024-a002b34f928c"/>
+        <COMPID name="tartarus" mc="Standard.Package" uid="007935e2-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="tukaani" mc="Standard.Package" uid="444f4426-6b6e-40b2-a796-02dd6113dc58"/>
+        <COMPID name="w3c" mc="Standard.Package" uid="007ae608-0bdb-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

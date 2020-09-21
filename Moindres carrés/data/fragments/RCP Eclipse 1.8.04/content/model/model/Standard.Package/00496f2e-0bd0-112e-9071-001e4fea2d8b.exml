@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="use" version="4">
+  <OBJECT>
+    <ID name="use" mc="Standard.Package" uid="00496f2e-0bd0-112e-9071-001e4fea2d8b"/>
+    <PID name="internal" mc="Standard.Package" uid="003fc852-0bd0-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[use]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ApiUseLaunchDelegate" mc="Standard.Class" uid="0049751e-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ApiUsePatternTab" mc="Standard.Class" uid="00497b2c-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ApiUseScanJob" mc="Standard.Class" uid="00499328-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ApiUseScanTab" mc="Standard.Class" uid="00499990-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ApiUseTabGroup" mc="Standard.Class" uid="0049a020-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ArchivePatternPage" mc="Standard.Class" uid="0049a6ec-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DescriptionPatternPage" mc="Standard.Class" uid="0049ade0-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Messages" mc="Standard.Class" uid="0049b4fc-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PatternSelectionPage" mc="Standard.Class" uid="0049bcc2-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PatternWizard" mc="Standard.Class" uid="0049d004-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ReportPatternPage" mc="Standard.Class" uid="0049d7d4-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="UsePatternPage" mc="Standard.Class" uid="0049dfcc-0bd0-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

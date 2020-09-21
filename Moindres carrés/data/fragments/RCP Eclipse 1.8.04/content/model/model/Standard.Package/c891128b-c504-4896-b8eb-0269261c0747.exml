@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="nonui" version="4">
+  <OBJECT>
+    <ID name="nonui" mc="Standard.Package" uid="c891128b-c504-4896-b8eb-0269261c0747"/>
+    <PID name="enablement" mc="Standard.Package" uid="70197069-e595-493c-afd6-de3e962b1407"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[nonui]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="IWFTWrappedException" mc="Standard.Interface" uid="3a533e92-fa47-440d-93e7-64f757ee6eaf"/>
+        <COMPID name="WFTWrappedException" mc="Standard.Class" uid="bb83d889-122c-4062-88dc-b838ceeb2f2c"/>
+        <COMPID name="WorkbenchUtil" mc="Standard.Class" uid="717116ab-e46a-4bb8-9797-0627cbaeec6e"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

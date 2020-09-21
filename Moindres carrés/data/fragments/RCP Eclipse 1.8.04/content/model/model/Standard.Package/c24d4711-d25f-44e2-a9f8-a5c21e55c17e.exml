@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="catalog" version="4">
+  <OBJECT>
+    <ID name="catalog" mc="Standard.Package" uid="c24d4711-d25f-44e2-a9f8-a5c21e55c17e"/>
+    <PID name="internal" mc="Standard.Package" uid="8dac5e70-eadd-4ac5-9e61-066073002452"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[catalog]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AdvancedOptionsDialog" mc="Standard.Class" uid="c572ca9a-a902-4f99-b119-c2f3ed7e2766"/>
+        <COMPID name="CatalogFileTypeRegistryReader" mc="Standard.Class" uid="b2922df6-b15e-44e1-8e1d-92b18db51c0c"/>
+        <COMPID name="EditCatalogEntryDialog" mc="Standard.Class" uid="6c1cdd0c-3a1f-402e-814d-19f29b67d615"/>
+        <COMPID name="ElementNodePage" mc="Standard.Class" uid="0ee30252-67e5-4657-ad4a-be02a099d240"/>
+        <COMPID name="ImageFactory" mc="Standard.Class" uid="85fff365-e3f4-48f6-a30a-89c8228ddb83"/>
+        <COMPID name="URIUtils" mc="Standard.Class" uid="01208513-d30d-4ab3-aa5b-9d0b86fd5394"/>
+        <COMPID name="XMLCatalogEntriesView" mc="Standard.Class" uid="0c454e6a-3b5f-4cc0-8e89-3c7c2de3d2be"/>
+        <COMPID name="XMLCatalogEntryDetailsView" mc="Standard.Class" uid="1afccb4d-c2c9-4a5b-963c-737296d71121"/>
+        <COMPID name="XMLCatalogFileType" mc="Standard.Class" uid="74679498-b310-4081-bd5e-29ef61209989"/>
+        <COMPID name="XMLCatalogMessages" mc="Standard.Class" uid="618be97b-95e7-4858-b01f-4fbfed9b3177"/>
+        <COMPID name="XMLCatalogPreferencePage" mc="Standard.Class" uid="48559eea-0561-4272-8692-6d65fc66835b"/>
+        <COMPID name="XMLCatalogTreeViewer" mc="Standard.Class" uid="bb7263cc-b196-4ab5-bdf3-6b1ee4dd2c22"/>
+        <COMPID name="XMLQuickScan" mc="Standard.Class" uid="c65693d8-e413-4d84-9271-4dc64033d341"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

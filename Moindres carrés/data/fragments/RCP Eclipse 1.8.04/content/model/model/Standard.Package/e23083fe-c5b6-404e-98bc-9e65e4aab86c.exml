@@ -1,0 +1,55 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="nodes" version="4">
+  <OBJECT>
+    <ID name="nodes" mc="Standard.Package" uid="e23083fe-c5b6-404e-98bc-9e65e4aab86c"/>
+    <PID name="refl" mc="Standard.Package" uid="2e2eafaa-440e-4f51-9d2d-6d188cf456a9"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[nodes]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ArrayAccessor" mc="Standard.Class" uid="018438f3-cd3c-4ee1-882b-f75af4ccbf9a"/>
+        <COMPID name="ArrayAccessorNest" mc="Standard.Class" uid="0b37f46f-541c-4176-aaa4-c7249e2f4a14"/>
+        <COMPID name="ArrayLength" mc="Standard.Class" uid="cb028939-849a-484c-ab9e-1874dbff97af"/>
+        <COMPID name="BaseAccessor" mc="Standard.Class" uid="862d1838-f7ec-4319-adf3-5027bfc1170c"/>
+        <COMPID name="ConstructorAccessor" mc="Standard.Class" uid="fa172d3d-8841-4f43-b875-afdd6b80fdec"/>
+        <COMPID name="DynamicFieldAccessor" mc="Standard.Class" uid="8632a39a-6353-47c8-a598-d7831b2fafde"/>
+        <COMPID name="DynamicSetterAccessor" mc="Standard.Class" uid="ffaaa831-8cc2-433d-9e60-0e13363bc867"/>
+        <COMPID name="FieldAccessor" mc="Standard.Class" uid="5958242a-07e5-42dc-bbe3-fa24d80276cb"/>
+        <COMPID name="FieldAccessorNH" mc="Standard.Class" uid="3646bd00-5311-47d5-b898-1ee586d35b0b"/>
+        <COMPID name="FunctionAccessor" mc="Standard.Class" uid="b5a37b11-1cde-4806-81a7-60d945f34aca"/>
+        <COMPID name="GetterAccessor" mc="Standard.Class" uid="ad7fb424-1331-46ac-a268-79488c0c42af"/>
+        <COMPID name="GetterAccessorNH" mc="Standard.Class" uid="4226a0f9-5152-48d4-a6d4-d9e307fa50b2"/>
+        <COMPID name="IndexedCharSeqAccessor" mc="Standard.Class" uid="2a90ad22-07ab-451a-b634-bb2c87fc87fd"/>
+        <COMPID name="IndexedCharSeqAccessorNest" mc="Standard.Class" uid="a04db211-2a20-411e-9c68-79a1f9050470"/>
+        <COMPID name="IndexedVariableAccessor" mc="Standard.Class" uid="6ec59c22-473b-4f50-bef0-89220ce8c6f8"/>
+        <COMPID name="ListAccessor" mc="Standard.Class" uid="edc44bee-1780-4bf5-aa10-dcdf85648f10"/>
+        <COMPID name="ListAccessorNest" mc="Standard.Class" uid="0681c1ee-e4ba-46be-9e9e-7242ab55f00d"/>
+        <COMPID name="MapAccessor" mc="Standard.Class" uid="623339cb-1c94-4c8d-a64d-e552de117b66"/>
+        <COMPID name="MapAccessorNest" mc="Standard.Class" uid="22e79e52-1e53-4274-a80a-5c8deb18570f"/>
+        <COMPID name="MethodAccessor" mc="Standard.Class" uid="8f782f43-a0a7-4715-ab95-34778e17e4b0"/>
+        <COMPID name="MethodAccessorNH" mc="Standard.Class" uid="295daf49-258c-456b-a618-7dffa4412765"/>
+        <COMPID name="Notify" mc="Standard.Class" uid="2a89cf05-eabf-46b9-9c53-991f2202fd21"/>
+        <COMPID name="NullSafe" mc="Standard.Class" uid="24fc3814-f29b-482b-b8c9-f31153a149f3"/>
+        <COMPID name="PropertyHandlerAccessor" mc="Standard.Class" uid="cc918636-833b-4571-b579-978f3c6017d1"/>
+        <COMPID name="SetterAccessor" mc="Standard.Class" uid="4b693085-15df-4369-bb71-d2b65374495e"/>
+        <COMPID name="StaticReferenceAccessor" mc="Standard.Class" uid="116513ac-a8ac-46da-a782-dc3627d743a5"/>
+        <COMPID name="StaticVarAccessor" mc="Standard.Class" uid="3a5a639b-06dc-440e-a53d-0bb1f018f22d"/>
+        <COMPID name="StaticVarAccessorNH" mc="Standard.Class" uid="e7438646-f4aa-4ff6-bb41-83c00b448ed9"/>
+        <COMPID name="ThisValueAccessor" mc="Standard.Class" uid="c4c26503-3f50-47d9-8641-1d433a11f98f"/>
+        <COMPID name="Union" mc="Standard.Class" uid="52268d9a-215f-4ae6-981c-219640b70fc7"/>
+        <COMPID name="VariableAccessor" mc="Standard.Class" uid="d15db7dd-95ef-4e10-b2fb-308a7b4d4997"/>
+        <COMPID name="WithAccessor" mc="Standard.Class" uid="585183af-80e8-46ce-b374-9411ea0a8343"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

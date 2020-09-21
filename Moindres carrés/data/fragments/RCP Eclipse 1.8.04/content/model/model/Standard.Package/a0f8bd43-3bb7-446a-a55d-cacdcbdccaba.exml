@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="io" version="4">
+  <OBJECT>
+    <ID name="io" mc="Standard.Package" uid="a0f8bd43-3bb7-446a-a55d-cacdcbdccaba"/>
+    <PID name="dom4j" mc="Standard.Package" uid="eff6051a-f8fa-491f-aac6-6e4ed7ac354f"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[io]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="DOMReader" mc="Standard.Class" uid="14977ec0-bf56-4ebd-afd3-91770e57f3e3"/>
+        <COMPID name="DOMWriter" mc="Standard.Class" uid="33b4e408-1526-44eb-880f-105cce14f972"/>
+        <COMPID name="DocumentResult" mc="Standard.Class" uid="95f091ce-b229-4604-bf13-96568bc8b45f"/>
+        <COMPID name="DocumentSource" mc="Standard.Class" uid="fa6f1737-e29e-473b-8ad8-bc2365a198d6"/>
+        <COMPID name="ElementModifier" mc="Standard.Interface" uid="fabb1f23-74bf-4dac-9b2f-5104a02fedf9"/>
+        <COMPID name="HTMLWriter" mc="Standard.Class" uid="7187b827-5918-4096-a399-c2bef2d80f11"/>
+        <COMPID name="OutputFormat" mc="Standard.Class" uid="c0d6be3e-3488-4f67-94b2-33daaa38e85b"/>
+        <COMPID name="SAXContentHandler" mc="Standard.Class" uid="f3603fcd-a334-4f53-9ded-41404a15ede1"/>
+        <COMPID name="SAXEventRecorder" mc="Standard.Class" uid="e7223e99-3beb-4b3b-a3fa-072bafe56dd9"/>
+        <COMPID name="SAXModifier" mc="Standard.Class" uid="1301d101-9771-4648-baed-8d3f1a9ff809"/>
+        <COMPID name="SAXReader" mc="Standard.Class" uid="389789e1-71e3-4e82-9780-7dcc6f159151"/>
+        <COMPID name="SAXValidator" mc="Standard.Class" uid="f64e4e6c-3534-444c-b020-03721cd0b8b7"/>
+        <COMPID name="SAXWriter" mc="Standard.Class" uid="2f92a7cb-eeb8-4560-b840-1ca9426d9213"/>
+        <COMPID name="STAXEventReader" mc="Standard.Class" uid="02255935-bc27-422f-b00c-0bc9386870a8"/>
+        <COMPID name="STAXEventWriter" mc="Standard.Class" uid="bc6eb250-da1f-4dfd-b5ea-62396fc75d1d"/>
+        <COMPID name="XMLResult" mc="Standard.Class" uid="6297240b-0acb-4157-a4b9-d698ee656f85"/>
+        <COMPID name="XMLWriter" mc="Standard.Class" uid="082c64dd-e4fd-4fe9-88b7-469de5037239"/>
+        <COMPID name="XPP3Reader" mc="Standard.Class" uid="22ce5655-ff94-4ff0-93a2-3c8871d0bcd2"/>
+        <COMPID name="XPPReader" mc="Standard.Class" uid="264a7029-c801-4454-ae3f-80075370476d"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

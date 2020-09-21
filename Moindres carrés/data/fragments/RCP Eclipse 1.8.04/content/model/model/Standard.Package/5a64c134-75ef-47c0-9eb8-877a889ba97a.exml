@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="errorcustomization" version="4">
+  <OBJECT>
+    <ID name="errorcustomization" mc="Standard.Package" uid="5a64c134-75ef-47c0-9eb8-877a889ba97a"/>
+    <PID name="validation" mc="Standard.Package" uid="f1d649d4-333f-41d1-a97c-ab3eb55558b2"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[errorcustomization]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ElementInformation" mc="Standard.Class" uid="73747e1a-9a32-40cb-b3ee-d2ac13a425f9"/>
+        <COMPID name="ErrorCustomizationManager" mc="Standard.Class" uid="af3ba9c1-089d-4215-a7fd-f9717f34fc76"/>
+        <COMPID name="ErrorCustomizationRegistry" mc="Standard.Class" uid="ee27c349-666d-4c1a-ab58-131bf3b90ec4"/>
+        <COMPID name="ErrorMessageCustomizerDelegate" mc="Standard.Class" uid="ca0cf3bb-5d7c-41c4-ac26-102270db631c"/>
+        <COMPID name="IErrorMessageCustomizer" mc="Standard.Interface" uid="8e52eb30-3ee6-4b7f-8bc3-b1632fd1bbd1"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

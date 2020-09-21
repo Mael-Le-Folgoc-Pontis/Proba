@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="emf" version="4">
+  <OBJECT>
+    <ID name="emf" mc="Standard.Package" uid="77f7cff0-f1e9-42ce-b28d-ea45403f1f8c"/>
+    <PID name="internal" mc="Standard.Package" uid="b171e41e-82e5-4dc0-85bb-acdb308816c0"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[emf]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ResourceSynchronizedIsLoadingAdapter" mc="Standard.Class" uid="95729f05-8eca-4ced-9913-9b436ead2f67"/>
+        <COMPID name="ResourceSynchronizedIsLoadingAdapterFactory" mc="Standard.Class" uid="82a07796-d532-4f62-be00-bddbdc4a150b"/>
+        <COMPID name="plugin" mc="Standard.Package" uid="94ecb7a5-25aa-4016-9db1-10d96d8d35cd"/>
+        <COMPID name="resource" mc="Standard.Package" uid="825f9394-06ca-4086-83d7-1f63eb8f1b89"/>
+        <COMPID name="utilities" mc="Standard.Package" uid="5cfa1f7e-8406-43ff-a587-987a0e5a7b21"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="utils" version="4">
+  <OBJECT>
+    <ID name="utils" mc="Standard.Package" uid="4a3c717d-586c-43a8-abdd-03a5b9f1c1de"/>
+    <PID name="recommenders" mc="Standard.Package" uid="a358c5e1-e2a3-468b-a21c-b2bca96b0f24"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[utils]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AnonymousId" mc="Standard.Class" uid="bf3013b7-359c-4b1c-b881-f2c7c42f6645"/>
+        <COMPID name="Bags" mc="Standard.Class" uid="4f868f4b-4df8-44a4-81d2-272f25f2df69"/>
+        <COMPID name="Checks" mc="Standard.Class" uid="0415d4df-6cb0-4e63-83bb-a58dc2a1032f"/>
+        <COMPID name="Constants" mc="Standard.Class" uid="490efcc5-2600-43f5-86b5-d46e33bb53ac"/>
+        <COMPID name="Executors" mc="Standard.Class" uid="5cf5f6b7-eb6a-4664-9f1b-5875ac026956"/>
+        <COMPID name="Fingerprints" mc="Standard.Class" uid="96b656d2-be62-4678-8de4-dc1a666b304e"/>
+        <COMPID name="IOUtils" mc="Standard.Class" uid="53c4d4d0-f8ee-4a6c-80ea-82ee7f92c05c"/>
+        <COMPID name="LogMessages" mc="Standard.Class" uid="613085aa-bca9-48e4-9dbb-fd5ecf115e93"/>
+        <COMPID name="Logs" mc="Standard.Class" uid="cf1a3bb1-8bc0-488a-bb07-3f0e8357100f"/>
+        <COMPID name="NonNullByDefault" mc="Standard.Class" uid="5e662da3-7640-4a1c-b348-331b8f17f622"/>
+        <COMPID name="Nonnull" mc="Standard.Class" uid="ead252d3-4389-4cb7-82f6-5f221ce3671d"/>
+        <COMPID name="Nullable" mc="Standard.Class" uid="56a270bf-2531-4f1a-9ac5-202a02916ee0"/>
+        <COMPID name="Openable" mc="Standard.Interface" uid="2e2508a6-8b45-4ee3-b300-7ea7c1d1dbb4"/>
+        <COMPID name="Pair" mc="Standard.Class" uid="a6c4cb5f-6a78-45cd-b465-bb488a4f96c1"/>
+        <COMPID name="Recommendation" mc="Standard.Class" uid="99cc678e-a0a3-47ef-99aa-5c76bba09da2"/>
+        <COMPID name="Recommendations" mc="Standard.Class" uid="bb22f786-1f88-4f41-aa2e-d9b1e1274e65"/>
+        <COMPID name="Reflections" mc="Standard.Class" uid="9dd7e41e-b270-49f5-a0f9-3c5628fef4a6"/>
+        <COMPID name="Result" mc="Standard.Class" uid="1a9dc149-64d2-4a13-ac67-e30c3d34db89"/>
+        <COMPID name="Throws" mc="Standard.Class" uid="f2e3e1a8-a812-4890-b68b-8ea76d347f0c"/>
+        <COMPID name="Urls" mc="Standard.Class" uid="a6b73b6c-31fc-4c99-ba4b-1f29bbff9b2f"/>
+        <COMPID name="Uuidable" mc="Standard.Interface" uid="6f854f37-b73a-4f93-a531-17e54c04158f"/>
+        <COMPID name="Version" mc="Standard.Class" uid="c81ff2ea-6327-4872-a1c5-0b338468de0a"/>
+        <COMPID name="Versions" mc="Standard.Class" uid="51ba2bad-76a3-4141-bf9e-e03a4c484d38"/>
+        <COMPID name="Zips" mc="Standard.Class" uid="e0f5cd66-5428-4982-838e-f774fb4b1a13"/>
+        <COMPID name="gson" mc="Standard.Package" uid="96425e2e-21f8-4652-b125-1018f7735a7f"/>
+        <COMPID name="names" mc="Standard.Package" uid="694f31e5-522f-4dab-a766-0304b30f9628"/>
+        <COMPID name="rcp" mc="Standard.Package" uid="47a9bb46-39ef-401c-8f08-e09a8c524089"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

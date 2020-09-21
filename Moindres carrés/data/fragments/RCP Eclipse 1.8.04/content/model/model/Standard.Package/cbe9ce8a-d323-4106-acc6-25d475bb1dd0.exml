@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="implement" version="4">
+  <OBJECT>
+    <ID name="implement" mc="Standard.Package" uid="cbe9ce8a-d323-4106-acc6-25d475bb1dd0"/>
+    <PID name="event" mc="Standard.Package" uid="896fa382-05ea-4473-a31b-69e35267331e"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[implement]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="EscapeHtmlReference" mc="Standard.Class" uid="e0f57985-78b7-4d71-a936-a2f9e0714cbb"/>
+        <COMPID name="EscapeJavaScriptReference" mc="Standard.Class" uid="170f9d58-8605-439b-8d07-3a59c1135213"/>
+        <COMPID name="EscapeReference" mc="Standard.Class" uid="34ab0322-16b9-47c0-acf7-6b09f717b44a"/>
+        <COMPID name="EscapeSqlReference" mc="Standard.Class" uid="039a725e-5879-4c3e-bcbd-ac1f5fbc6220"/>
+        <COMPID name="EscapeXmlReference" mc="Standard.Class" uid="d8ab3e7c-5ccd-4169-8f38-5cdc886c6bb7"/>
+        <COMPID name="IncludeNotFound" mc="Standard.Class" uid="64e51f41-06e0-4f88-b7c7-7ceedddb589f"/>
+        <COMPID name="IncludeRelativePath" mc="Standard.Class" uid="637b6c87-c486-4274-a174-63091a6e4759"/>
+        <COMPID name="InvalidReferenceInfo" mc="Standard.Class" uid="17ef9947-b6c3-4bc9-81bc-4c4d840a92d7"/>
+        <COMPID name="PrintExceptions" mc="Standard.Class" uid="647b93f9-baec-434f-8efa-42ff39e9dd88"/>
+        <COMPID name="ReportInvalidReferences" mc="Standard.Class" uid="60401bd6-a346-4c83-aec3-dd1c4aba1d76"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

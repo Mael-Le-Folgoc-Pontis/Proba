@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="jreinfo" version="4">
+  <OBJECT>
+    <ID name="jreinfo" mc="Standard.Package" uid="79e8abf4-4b28-4229-b5b6-f1e163782194"/>
+    <PID name="oomph" mc="Standard.Package" uid="20106332-b188-45ff-af40-2d5b786a9692"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[jreinfo]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="JRE" mc="Standard.Class" uid="b138b878-2da8-4922-8cf1-c51be0b45e80"/>
+        <COMPID name="JREFilter" mc="Standard.Class" uid="13dc279a-7768-4a21-82b1-725caa60cc10"/>
+        <COMPID name="JREInfo" mc="Standard.Class" uid="4f31b042-4fd7-4614-8057-754e9181aca8"/>
+        <COMPID name="JREManager" mc="Standard.Class" uid="10e7890f-6277-4d21-a3c3-eb5359e79280"/>
+        <OBJECT>
+          <ID name="OSType" mc="Standard.Enumeration" uid="731dfb5b-9a3e-4817-b1b8-67092bcdee72"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[OSType]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Extension">
+              <FOREIGNID name="JavaEnumeration" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0262-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <COMPID name="ui" mc="Standard.Package" uid="eaa082a5-a86e-490c-9bec-5268de4072d3"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

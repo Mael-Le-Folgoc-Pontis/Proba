@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="layoutdesign" version="4">
+  <OBJECT>
+    <ID name="layoutdesign" mc="Standard.Package" uid="cae28c1e-e56e-4fc0-a881-d010ae827dc0"/>
+    <PID name="form" mc="Standard.Package" uid="35594cfb-268b-40a4-b3c6-069363d0a4b9"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[layoutdesign]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="IFeedbacksDrawer" mc="Standard.Interface" uid="525eedfa-ec86-43c6-bbca-af8564fc10ef"/>
+        <COMPID name="LayoutComponent" mc="Standard.Class" uid="97ef2477-89ef-4307-b739-500c0b3a3d52"/>
+        <COMPID name="LayoutConstants" mc="Standard.Interface" uid="6256f0d2-f58b-455c-ac6d-fe14b1d6c983"/>
+        <COMPID name="LayoutDesigner" mc="Standard.Class" uid="cad462c0-d391-4a3e-bc9e-483c06c6d72b"/>
+        <COMPID name="LayoutInterval" mc="Standard.Class" uid="5da13162-f299-42bc-965c-176c74db4058"/>
+        <COMPID name="LayoutModel" mc="Standard.Class" uid="a6fbf18c-982f-46c6-b42c-e9d3a0730351"/>
+        <COMPID name="LayoutUtils" mc="Standard.Class" uid="f72aad41-9593-4907-bed6-325a0b93dd08"/>
+        <COMPID name="VisualMapper" mc="Standard.Interface" uid="caa75639-b77c-42cf-a4da-21e033ce8887"/>
+        <COMPID name="support" mc="Standard.Package" uid="4c2a62e8-0c4c-464e-8ad6-59096131bda7"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

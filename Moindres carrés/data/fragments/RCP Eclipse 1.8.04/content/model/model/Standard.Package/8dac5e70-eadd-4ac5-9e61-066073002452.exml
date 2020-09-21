@@ -1,0 +1,63 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="internal" version="4">
+  <OBJECT>
+    <ID name="internal" mc="Standard.Package" uid="8dac5e70-eadd-4ac5-9e61-066073002452"/>
+    <PID name="ui" mc="Standard.Package" uid="068a1f6f-44b4-449b-81b3-ccfabe8e90d1"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[internal]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="DOMObserver" mc="Standard.Class" uid="99878f9e-1070-4f25-8194-5a10bc94fc65"/>
+        <COMPID name="DOMObserverAdapter" mc="Standard.Class" uid="70704ae0-a7c4-43f9-b72a-1f5fdd9500cf"/>
+        <COMPID name="IProductConstants" mc="Standard.Interface" uid="9e207743-ae34-4b90-b2fb-8a017b80eff9"/>
+        <COMPID name="Logger" mc="Standard.Class" uid="6f0530a0-ede2-4f59-b77a-9d1cbf67e01d"/>
+        <COMPID name="ProductProperties" mc="Standard.Class" uid="a4f411c5-431a-46cd-90bd-7823718dcefd"/>
+        <COMPID name="XMLFormattingStrategy" mc="Standard.Class" uid="f313df18-8c57-4cea-beef-b7a5c505d56b"/>
+        <COMPID name="XMLUIMessages" mc="Standard.Class" uid="3864a569-5007-48a3-a6f4-eba16c21abd2"/>
+        <COMPID name="XMLUIPlugin" mc="Standard.Class" uid="b63a2865-2f77-4349-aa0c-5fe93717de65"/>
+        <COMPID name="actions" mc="Standard.Package" uid="bb6eecbc-5f7d-4d64-aa68-be4fca04a974"/>
+        <COMPID name="autoedit" mc="Standard.Package" uid="269f89fe-d076-4007-9ec7-9252ca7eb59a"/>
+        <COMPID name="catalog" mc="Standard.Package" uid="c24d4711-d25f-44e2-a9f8-a5c21e55c17e"/>
+        <COMPID name="contentassist" mc="Standard.Package" uid="a7839e99-f89b-4757-9548-466c031e562a"/>
+        <COMPID name="contentoutline" mc="Standard.Package" uid="73c77817-4d83-4c4a-a265-6cd6537e8352"/>
+        <COMPID name="correction" mc="Standard.Package" uid="b4cec354-889f-4be8-97dc-b15f4362a987"/>
+        <COMPID name="dialogs" mc="Standard.Package" uid="2805cb36-04b6-4ae3-ab62-2833f6ee5ca4"/>
+        <COMPID name="dnd" mc="Standard.Package" uid="3e14b425-0b40-4b5d-bc5f-cb20b9d53a8a"/>
+        <COMPID name="doubleclick" mc="Standard.Package" uid="79095459-4409-47f1-8e0c-4253df661924"/>
+        <COMPID name="editor" mc="Standard.Package" uid="01f6fe6d-de1f-4772-8129-00e6af7fabd9"/>
+        <COMPID name="handlers" mc="Standard.Package" uid="44a07e60-6cae-4590-8080-6c06164d107b"/>
+        <COMPID name="hyperlink" mc="Standard.Package" uid="7e65cd88-f84d-41ac-9359-d6e8a68b8c3d"/>
+        <COMPID name="nsedit" mc="Standard.Package" uid="54f8f1e9-e6ed-453a-ae39-f380f9b206c7"/>
+        <COMPID name="perspective" mc="Standard.Package" uid="a0484d10-9358-491d-95ca-836d1905cce4"/>
+        <COMPID name="preferences" mc="Standard.Package" uid="76b1a534-032e-4be4-b68e-2c72555767b0"/>
+        <COMPID name="projection" mc="Standard.Package" uid="3eebd87a-2f0c-4a62-8b78-72d25e8ee689"/>
+        <COMPID name="properties" mc="Standard.Package" uid="f4b505ce-a6c2-497a-9514-8ca3e109d202"/>
+        <COMPID name="provisional" mc="Standard.Package" uid="f28b822f-f954-4199-8a47-4b50f3a8e332"/>
+        <COMPID name="quickoutline" mc="Standard.Package" uid="9c3c6b21-e29e-446e-9f3c-fa5662cfa555"/>
+        <COMPID name="registry" mc="Standard.Package" uid="f66f074d-9e3d-46e8-880e-75dad96f9c7a"/>
+        <COMPID name="search" mc="Standard.Package" uid="8e556a66-088e-459e-b386-21cfa4d117fb"/>
+        <COMPID name="selection" mc="Standard.Package" uid="2e13be4d-bb95-4eb1-9ac8-41372ceab46a"/>
+        <COMPID name="spelling" mc="Standard.Package" uid="22bac890-579f-40c6-bcb3-5c026f11dca4"/>
+        <COMPID name="style" mc="Standard.Package" uid="a809cb3d-997e-4aad-b55d-d22a1996786d"/>
+        <COMPID name="tabletree" mc="Standard.Package" uid="9906e9db-f551-4b9d-ae2b-a62743e13ee4"/>
+        <COMPID name="taginfo" mc="Standard.Package" uid="79689124-79d5-4ab8-848a-7a249b3955b3"/>
+        <COMPID name="templates" mc="Standard.Package" uid="b2134ef0-baf3-4111-afaa-95df66e480e4"/>
+        <COMPID name="text" mc="Standard.Package" uid="5ac142c5-e425-4d46-9d8d-b643abd0977e"/>
+        <COMPID name="util" mc="Standard.Package" uid="5edc88c9-a3c9-49d8-b689-76d75259e2e0"/>
+        <COMPID name="validation" mc="Standard.Package" uid="aa13bfb1-b588-4a23-9c69-12e283c3310a"/>
+        <COMPID name="views" mc="Standard.Package" uid="ec65f720-6d62-4c3b-a06e-3aa2ef672569"/>
+        <COMPID name="wizards" mc="Standard.Package" uid="a05fc8ad-0713-43a7-b98e-486f3f3d18de"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

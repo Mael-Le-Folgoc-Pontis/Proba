@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="location" version="4">
+  <OBJECT>
+    <ID name="location" mc="Standard.Package" uid="2aca2258-ba2a-42a1-a73a-b26ffa01bd76"/>
+    <PID name="internal" mc="Standard.Package" uid="0080c2c6-21af-1fb1-8a9e-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[location]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="BasicLocation" mc="Standard.Class" uid="4a611cf0-8e64-49b8-a56b-59276efde903"/>
+        <COMPID name="EquinoxLocations" mc="Standard.Class" uid="18e4da5a-891d-49fa-ba98-89a95615d153"/>
+        <COMPID name="LocationHelper" mc="Standard.Class" uid="82dd3f22-4be5-41ff-a0c1-ac0d0f8bfefb"/>
+        <COMPID name="Locker" mc="Standard.Interface" uid="8b0f5358-0abf-4a17-88f2-105ca520abd8"/>
+        <COMPID name="Locker_JavaIo" mc="Standard.Class" uid="6a35df39-06d5-4068-8dbf-293f73820434"/>
+        <COMPID name="Locker_JavaNio" mc="Standard.Class" uid="6aa8646b-846f-4a1f-b054-01e71b90bae4"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,104 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="lookup" version="4">
+  <OBJECT>
+    <ID name="lookup" mc="Standard.Package" uid="00043986-0bc9-112e-9071-001e4fea2d8b"/>
+    <PID name="compiler" mc="Standard.Package" uid="0083bd82-0bc8-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[lookup]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AnnotatableTypeSystem" mc="Standard.Class" uid="7e48972d-4629-4a71-99d5-6a67c4e55689"/>
+        <COMPID name="AnnotationBinding" mc="Standard.Class" uid="000440b6-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AnnotationHolder" mc="Standard.Class" uid="0004473c-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AptBinaryLocalVariableBinding" mc="Standard.Class" uid="0004702c-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AptSourceLocalVariableBinding" mc="Standard.Class" uid="00047748-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ArrayBinding" mc="Standard.Class" uid="00047e82-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BaseTypeBinding" mc="Standard.Class" uid="000485bc-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BinaryTypeBinding" mc="Standard.Class" uid="00048d64-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Binding" mc="Standard.Class" uid="0004953e-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BlockScope" mc="Standard.Class" uid="00049d04-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CaptureBinding" mc="Standard.Class" uid="0004a542-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CaptureBinding18" mc="Standard.Class" uid="3cd3f23e-7b35-41e4-b54f-d8dd58e16c93"/>
+        <COMPID name="CatchParameterBinding" mc="Standard.Class" uid="0004adbc-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ClassScope" mc="Standard.Class" uid="0004b618-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CompilationUnitScope" mc="Standard.Class" uid="0004bee2-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ConstraintExceptionFormula" mc="Standard.Class" uid="ae6d7a42-69c6-436f-9859-c11bc4c93a4d"/>
+        <COMPID name="ElementValuePair" mc="Standard.Class" uid="0004c860-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ExtraCompilerModifiers" mc="Standard.Interface" uid="0004ce6e-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FieldBinding" mc="Standard.Class" uid="0004d7ec-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IQualifiedTypeResolutionListener" mc="Standard.Interface" uid="0004de90-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ImplicitNullAnnotationVerifier" mc="Standard.Class" uid="0004e7f0-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ImportBinding" mc="Standard.Class" uid="00050244-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ImportConflictBinding" mc="Standard.Class" uid="00050c1c-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="InferenceContext" mc="Standard.Class" uid="000515ea-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="InferenceContext18" mc="Standard.Class" uid="96337e4f-ab5c-4788-aef4-3b49758dc311"/>
+        <COMPID name="InferenceFailureException" mc="Standard.Class" uid="4a8f2bcf-6b12-45eb-8c2a-8e942ee7da54"/>
+        <COMPID name="InferenceSubstitution" mc="Standard.Class" uid="f9732e58-70db-45bf-99a3-b1be9c811e09"/>
+        <COMPID name="InferenceVariable" mc="Standard.Class" uid="eae2e5fc-8006-40bb-b95f-9f0b51ae6e76"/>
+        <COMPID name="InnerEmulationDependency" mc="Standard.Class" uid="0005201c-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IntersectionTypeBinding18" mc="Standard.Class" uid="f10d01d8-4a92-4f46-9df2-bfef0dfd61ee"/>
+        <COMPID name="InvocationSite" mc="Standard.Interface" uid="000526de-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LocalTypeBinding" mc="Standard.Class" uid="00053142-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LocalVariableBinding" mc="Standard.Class" uid="00053bec-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LookupEnvironment" mc="Standard.Class" uid="000546b4-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MemberTypeBinding" mc="Standard.Class" uid="00055186-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MethodBinding" mc="Standard.Class" uid="00055cb2-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MethodScope" mc="Standard.Class" uid="00056856-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MethodVerifier" mc="Standard.Class" uid="000573b4-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MissingTypeBinding" mc="Standard.Class" uid="00058b9c-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MostSpecificExceptionMethodBinding" mc="Standard.Class" uid="00059790-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="NestedTypeBinding" mc="Standard.Class" uid="0005a406-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="NullTypeBinding" mc="Standard.Class" uid="c260607d-6f4e-4e2f-aeeb-b610c28457a5"/>
+        <COMPID name="PackageBinding" mc="Standard.Class" uid="0005b09a-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ParameterizedFieldBinding" mc="Standard.Class" uid="0005bd38-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ParameterizedGenericMethodBinding" mc="Standard.Class" uid="0005ca26-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ParameterizedMethodBinding" mc="Standard.Class" uid="0005e7c2-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ParameterizedTypeBinding" mc="Standard.Class" uid="0005f546-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PolyParameterizedGenericMethodBinding" mc="Standard.Class" uid="e283b3ae-7c35-416a-b7a8-8a1655490111"/>
+        <COMPID name="PolyTypeBinding" mc="Standard.Class" uid="dc71f05f-221d-4eb0-a0d3-b04fa36766da"/>
+        <COMPID name="PolymorphicMethodBinding" mc="Standard.Class" uid="0006031a-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ProblemBinding" mc="Standard.Class" uid="000610f8-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ProblemFieldBinding" mc="Standard.Class" uid="00061eb8-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ProblemMethodBinding" mc="Standard.Class" uid="00062d18-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ProblemPackageBinding" mc="Standard.Class" uid="00063ba0-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ProblemReasons" mc="Standard.Interface" uid="00064280-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ProblemReferenceBinding" mc="Standard.Class" uid="00065176-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RawTypeBinding" mc="Standard.Class" uid="00066044-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ReductionResult" mc="Standard.Class" uid="fe566ddf-7683-442b-a0a7-3a5fb4ee0f61"/>
+        <COMPID name="ReferenceBinding" mc="Standard.Class" uid="00066f12-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Scope" mc="Standard.Class" uid="00067e62-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SignatureWrapper" mc="Standard.Class" uid="00068dd0-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SourceTypeBinding" mc="Standard.Class" uid="00069db6-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SourceTypeCollisionException" mc="Standard.Class" uid="0006ad92-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Substitution" mc="Standard.Interface" uid="0006b51c-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SyntheticArgumentBinding" mc="Standard.Class" uid="0006c520-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SyntheticFactoryMethodBinding" mc="Standard.Class" uid="b5832c62-3e05-4c11-9f0f-b934b7fe6354"/>
+        <COMPID name="SyntheticFieldBinding" mc="Standard.Class" uid="0006d560-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SyntheticMethodBinding" mc="Standard.Class" uid="0006e5d2-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TagBits" mc="Standard.Interface" uid="0006ed0c-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TypeBinding" mc="Standard.Class" uid="0006fdce-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TypeBindingVisitor" mc="Standard.Class" uid="9a8a8d5a-08dd-4612-94da-7c665ed94cdc"/>
+        <COMPID name="TypeBound" mc="Standard.Class" uid="504ecb0c-e437-443d-8a77-90c538c372ac"/>
+        <COMPID name="TypeConstants" mc="Standard.Interface" uid="00070580-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TypeIds" mc="Standard.Interface" uid="00070d46-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TypeSystem" mc="Standard.Class" uid="4796c151-ffd1-4623-b955-5f346f3690f9"/>
+        <COMPID name="TypeVariableBinding" mc="Standard.Class" uid="00071e30-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="UnresolvedAnnotationBinding" mc="Standard.Class" uid="00072f56-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="UnresolvedReferenceBinding" mc="Standard.Class" uid="00074086-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="VariableBinding" mc="Standard.Class" uid="000751e8-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="VoidTypeBinding" mc="Standard.Class" uid="e8f9b8ae-3c30-4359-8da2-073a11b6d747"/>
+        <COMPID name="WildcardBinding" mc="Standard.Class" uid="00076368-0bc9-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

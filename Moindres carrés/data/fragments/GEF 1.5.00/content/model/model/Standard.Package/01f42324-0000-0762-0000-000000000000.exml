@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="tools" version="4">
+  <OBJECT>
+    <ID name="tools" mc="Standard.Package" uid="01f42324-0000-0762-0000-000000000000"/>
+    <PID name="gef" mc="Standard.Package" uid="01f42324-0000-0594-0000-000000000000"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[tools]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractConnectionCreationTool" mc="Standard.Class" uid="01f42324-0000-076d-0000-000000000000"/>
+        <COMPID name="AbstractTool" mc="Standard.Class" uid="01f42324-0000-0774-0000-000000000000"/>
+        <COMPID name="CellEditorLocator" mc="Standard.Interface" uid="54b1551c-8b12-11de-aace-001e4fea2d8b"/>
+        <COMPID name="ConnectionBendpointTracker" mc="Standard.Class" uid="01f42324-0000-0773-0000-000000000000"/>
+        <COMPID name="ConnectionCreationTool" mc="Standard.Class" uid="01f42324-0000-076a-0000-000000000000"/>
+        <COMPID name="ConnectionDragCreationTool" mc="Standard.Class" uid="01f42324-0000-0778-0000-000000000000"/>
+        <COMPID name="ConnectionEndpointTracker" mc="Standard.Class" uid="01f42324-0000-076c-0000-000000000000"/>
+        <COMPID name="CreationTool" mc="Standard.Class" uid="01f42324-0000-0770-0000-000000000000"/>
+        <COMPID name="DeselectAllTracker" mc="Standard.Class" uid="01f42324-0000-0764-0000-000000000000"/>
+        <COMPID name="DirectEditManager" mc="Standard.Class" uid="01f42324-0000-0766-0000-000000000000"/>
+        <COMPID name="DragEditPartsTracker" mc="Standard.Class" uid="01f42324-0000-0765-0000-000000000000"/>
+        <COMPID name="DragTreeItemsTracker" mc="Standard.Class" uid="01f42324-0000-0776-0000-000000000000"/>
+        <COMPID name="MarqueeDragTracker" mc="Standard.Class" uid="01f42324-0000-0777-0000-000000000000"/>
+        <COMPID name="MarqueeSelectionTool" mc="Standard.Class" uid="01f42324-0000-0769-0000-000000000000"/>
+        <COMPID name="PanningSelectionTool" mc="Standard.Class" uid="01f42324-0000-0768-0000-000000000000"/>
+        <COMPID name="ResizeTracker" mc="Standard.Class" uid="01f42324-0000-0767-0000-000000000000"/>
+        <COMPID name="SelectEditPartTracker" mc="Standard.Class" uid="01f42324-0000-0772-0000-000000000000"/>
+        <COMPID name="SelectionTool" mc="Standard.Class" uid="01f42324-0000-076b-0000-000000000000"/>
+        <COMPID name="SimpleDragTracker" mc="Standard.Class" uid="01f42324-0000-076f-0000-000000000000"/>
+        <COMPID name="TargetingTool" mc="Standard.Class" uid="01f42324-0000-0771-0000-000000000000"/>
+        <COMPID name="ToolUtilities" mc="Standard.Class" uid="01f42324-0000-076e-0000-000000000000"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

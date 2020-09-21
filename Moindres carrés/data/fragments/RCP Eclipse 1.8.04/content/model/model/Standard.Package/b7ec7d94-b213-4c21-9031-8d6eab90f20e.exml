@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="evaluators" version="4">
+  <OBJECT>
+    <ID name="evaluators" mc="Standard.Package" uid="b7ec7d94-b213-4c21-9031-8d6eab90f20e"/>
+    <PID name="eval" mc="Standard.Package" uid="737fb020-064a-416c-bc85-1846725d6a73"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[evaluators]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AnonymousEvaluationError" mc="Standard.Class" uid="d00db8df-7ff0-4db0-898c-26f82bad84c0"/>
+        <COMPID name="ArrayEvaluator" mc="Standard.Class" uid="4f4ec638-3f1e-4a28-988d-0fef4ef98e25"/>
+        <COMPID name="AssignmentEvaluator" mc="Standard.Class" uid="4f3db377-349b-486f-961a-9f6210fd22ca"/>
+        <COMPID name="BooleanEvaluator" mc="Standard.Class" uid="cfc4c8a7-d728-417b-9c93-2771c6553759"/>
+        <COMPID name="CastEvaluator" mc="Standard.Class" uid="9496cd08-0360-4869-95bd-5373609afeb7"/>
+        <COMPID name="CharEvaluator" mc="Standard.Class" uid="3c2ba7cf-5998-4312-8a45-756bf083f521"/>
+        <COMPID name="ClassEvaluator" mc="Standard.Class" uid="11b1bc3c-7b3d-47f4-b5ea-5301e8f788c3"/>
+        <COMPID name="ConditionalExpressionEvaluator" mc="Standard.Class" uid="72fe8f94-76bf-447f-adb6-4cedadb05008"/>
+        <COMPID name="DoubleEvaluator" mc="Standard.Class" uid="324d473c-040e-4eea-9125-d2367c7f391a"/>
+        <COMPID name="FieldAccessEvaluator" mc="Standard.Class" uid="1348044a-bacf-49ea-ba7a-2692639e551d"/>
+        <COMPID name="FloatEvaluator" mc="Standard.Class" uid="2dd9ae79-0bb6-4097-9ecb-e89eedac8a39"/>
+        <COMPID name="IntegerEvaluator" mc="Standard.Class" uid="47f788e6-764b-4e17-b54c-75db9c67d88a"/>
+        <COMPID name="InvocationEvaluator" mc="Standard.Class" uid="139d1d1e-bedf-4920-ac9a-c700d921fc68"/>
+        <COMPID name="LongEvaluator" mc="Standard.Class" uid="d9dd72a4-fbd4-49a1-a268-8ac6463f1c3c"/>
+        <COMPID name="QualifiedNameEvaluator" mc="Standard.Class" uid="88bf83cd-9b80-40d2-a647-4cd9ec7e51b1"/>
+        <COMPID name="SimpleNameEvaluator" mc="Standard.Class" uid="be0bca18-095f-4d7e-bf14-3a0e0025a5b3"/>
+        <COMPID name="StringEvaluator" mc="Standard.Class" uid="a7033976-c6f7-454d-b18c-1460b64d48b2"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

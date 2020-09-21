@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="site" version="4">
+  <OBJECT>
+    <ID name="site" mc="Standard.Package" uid="0083d4de-0bd1-112e-9071-001e4fea2d8b"/>
+    <PID name="editor" mc="Standard.Package" uid="00619e46-0bd1-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[site]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ArchivePage" mc="Standard.Class" uid="0083db0a-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ArchiveSection" mc="Standard.Class" uid="0083e118-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CategoryDetailsSection" mc="Standard.Class" uid="0083f8f6-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CategorySection" mc="Standard.Class" uid="0083ff68-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DescriptionSection" mc="Standard.Class" uid="00840bac-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FeatureDetailsSection" mc="Standard.Class" uid="00841282-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FeaturesPage" mc="Standard.Class" uid="00841976-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MirrorsSection" mc="Standard.Class" uid="00842646-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="NewArchiveDialog" mc="Standard.Class" uid="00842d9e-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PortabilitySection" mc="Standard.Class" uid="0084353c-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SiteEditor" mc="Standard.Class" uid="00843d0c-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SiteEditorContributor" mc="Standard.Class" uid="0084450e-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SiteFeatureAdapter" mc="Standard.Class" uid="00844d42-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SiteInputContext" mc="Standard.Class" uid="008455e4-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SiteInputContextManager" mc="Standard.Class" uid="00845e86-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SiteOutlinePage" mc="Standard.Class" uid="00847060-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SiteSourcePage" mc="Standard.Class" uid="008479a2-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SiteUndoManager" mc="Standard.Class" uid="00848316-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SynchronizePropertiesAction" mc="Standard.Class" uid="00848cb2-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SynchronizePropertiesWizard" mc="Standard.Class" uid="0084968a-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SynchronizePropertiesWizardPage" mc="Standard.Class" uid="0084a094-0bd1-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

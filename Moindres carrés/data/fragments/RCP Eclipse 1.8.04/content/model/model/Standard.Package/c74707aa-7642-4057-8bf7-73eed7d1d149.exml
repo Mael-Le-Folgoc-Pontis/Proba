@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="provisional" version="4">
+  <OBJECT>
+    <ID name="provisional" mc="Standard.Package" uid="c74707aa-7642-4057-8bf7-73eed7d1d149"/>
+    <PID name="catalog" mc="Standard.Package" uid="07ab066c-9149-40fa-b5fd-d2ea8d1b5d3c"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[provisional]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ICatalog" mc="Standard.Interface" uid="14dc6f0f-b23c-43f9-a685-798db18eb0ee"/>
+        <COMPID name="ICatalogElement" mc="Standard.Interface" uid="98dee1eb-1da2-48d8-8553-6f0516be2878"/>
+        <COMPID name="ICatalogEntry" mc="Standard.Interface" uid="3ac682d0-2740-4eb1-936c-fc2d2029c21d"/>
+        <COMPID name="ICatalogEvent" mc="Standard.Interface" uid="6a56bcb0-47ff-4daf-887f-a3ce2af2cd9c"/>
+        <COMPID name="ICatalogListener" mc="Standard.Interface" uid="9728d983-63dc-4ecc-b38f-5c19496408c4"/>
+        <COMPID name="IDelegateCatalog" mc="Standard.Interface" uid="1926edd3-9a58-4575-8536-4a1fedb28051"/>
+        <COMPID name="INextCatalog" mc="Standard.Interface" uid="0723d579-18db-4668-924b-7074f45420a0"/>
+        <COMPID name="IRewriteEntry" mc="Standard.Interface" uid="0c9039d5-4f72-43f9-9caf-2e0cf7c71098"/>
+        <COMPID name="ISuffixEntry" mc="Standard.Interface" uid="cae51513-1343-4946-acef-4ca64c57e0d3"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

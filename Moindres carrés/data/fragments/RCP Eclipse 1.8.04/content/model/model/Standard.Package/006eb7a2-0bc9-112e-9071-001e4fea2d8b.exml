@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="rename" version="4">
+  <OBJECT>
+    <ID name="rename" mc="Standard.Package" uid="006eb7a2-0bc9-112e-9071-001e4fea2d8b"/>
+    <PID name="refactoring" mc="Standard.Package" uid="00538518-0bc9-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[rename]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="GenericRefactoringHandleTransplanter" mc="Standard.Class" uid="006ebdd8-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaRenameProcessor" mc="Standard.Class" uid="006ec454-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MethodChecks" mc="Standard.Class" uid="006ecada-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RefactoringAnalyzeUtil" mc="Standard.Class" uid="006ed890-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RefactoringHandleTransplanter" mc="Standard.Class" uid="006edfb6-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RefactoringScanner" mc="Standard.Class" uid="006ee6d2-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RenameCompilationUnitProcessor" mc="Standard.Class" uid="006f2e08-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RenameEnumConstProcessor" mc="Standard.Class" uid="006f360a-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RenameFieldProcessor" mc="Standard.Class" uid="006f3df8-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RenameJavaProjectProcessor" mc="Standard.Class" uid="006f464a-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RenameLocalVariableProcessor" mc="Standard.Class" uid="006f4ed8-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RenameMethodProcessor" mc="Standard.Class" uid="006f575c-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RenameModifications" mc="Standard.Class" uid="006f6094-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RenameNonVirtualMethodProcessor" mc="Standard.Class" uid="006f69c2-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RenamePackageProcessor" mc="Standard.Class" uid="006f72dc-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RenameSourceFolderProcessor" mc="Standard.Class" uid="006fa61c-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RenameTypeParameterProcessor" mc="Standard.Class" uid="006fafea-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RenameTypeProcessor" mc="Standard.Class" uid="006fbfc6-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RenameVirtualMethodProcessor" mc="Standard.Class" uid="006fe438-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RenamingNameSuggestor" mc="Standard.Class" uid="006fee92-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RippleMethodFinder2" mc="Standard.Class" uid="006ff900-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TempDeclarationFinder" mc="Standard.Class" uid="00701f84-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TempOccurrenceAnalyzer" mc="Standard.Class" uid="0070385c-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TypeOccurrenceCollector" mc="Standard.Class" uid="00704e82-0bc9-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

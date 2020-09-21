@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="introspection" version="4">
+  <OBJECT>
+    <ID name="introspection" mc="Standard.Package" uid="1fcaaea1-c289-4e97-9cf8-2c51de5894a9"/>
+    <PID name="util" mc="Standard.Package" uid="4db11711-6a51-4a50-aabc-31926afc26d3"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[introspection]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ClassMap" mc="Standard.Class" uid="c9e7827b-e590-43f1-a816-48b8cd89e71a"/>
+        <COMPID name="MethodMap" mc="Standard.Class" uid="3d10c8e5-de21-4967-966a-7ca78a33e12e"/>
+        <COMPID name="ReflectionValueExtractor" mc="Standard.Class" uid="3ecc4b77-06f5-41c3-a1a8-1abdcd78bae8"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

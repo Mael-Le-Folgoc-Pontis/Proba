@@ -1,0 +1,117 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="model" version="4">
+  <OBJECT>
+    <ID name="model" mc="Standard.Package" uid="f2a7db3a-4099-41dc-9fc6-dc74d462cfc0"/>
+    <PID name="hudson" mc="Standard.Package" uid="ac033c25-38c5-41b8-a481-a598ebb49152"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[model]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="HudsonMavenAbstractMavenBuild" mc="Standard.Class" uid="9667ea44-8f2c-4451-b800-ae2372210de3"/>
+        <COMPID name="HudsonMavenMavenModuleSetBuild" mc="Standard.Class" uid="182452f3-4682-4fb7-ab02-2730933b7e97"/>
+        <COMPID name="HudsonMavenReportersSurefireAggregatedReport" mc="Standard.Class" uid="e779e641-3593-43c2-ada4-96d6a84bab4a"/>
+        <COMPID name="HudsonModelAbstractBuild" mc="Standard.Class" uid="dab97cd5-0c42-47a0-b9b7-19a6bad7f607"/>
+        <COMPID name="HudsonModelAbstractItem" mc="Standard.Class" uid="9b1ef2bc-4108-4c1c-9d06-1b366511955e"/>
+        <COMPID name="HudsonModelAbstractProject" mc="Standard.Class" uid="395b3f8b-3fd4-4f9e-83ef-5bf9cbeac74a"/>
+        <COMPID name="HudsonModelActionable" mc="Standard.Class" uid="8af9a70e-7534-4f28-82a8-ae88753d22e6"/>
+        <OBJECT>
+          <ID name="HudsonModelBallColor" mc="Standard.Enumeration" uid="430df8be-c007-48f8-b7f2-f4f055c5708f"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[HudsonModelBallColor]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Extension">
+              <FOREIGNID name="JavaEnumeration" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0262-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <COMPID name="HudsonModelBuild" mc="Standard.Class" uid="8488d886-39f2-4218-9d9c-083b0d7a09ce"/>
+        <COMPID name="HudsonModelFreeStyleBuild" mc="Standard.Class" uid="7354340e-2d16-4827-abaf-94c046cc5eed"/>
+        <COMPID name="HudsonModelFreeStyleProject" mc="Standard.Class" uid="adfa04e1-a9ec-45df-95a3-5f858aa8459e"/>
+        <COMPID name="HudsonModelHealthReport" mc="Standard.Class" uid="8e4263be-8a1d-434a-b50e-afbfa4ee0e7d"/>
+        <COMPID name="HudsonModelHudson" mc="Standard.Class" uid="3f2e1893-e709-47e6-9254-8d44b099f01d"/>
+        <COMPID name="HudsonModelJob" mc="Standard.Class" uid="d20ad232-4c24-442c-8be9-98975618b5a9"/>
+        <COMPID name="HudsonModelJobProperty" mc="Standard.Class" uid="4f7d7d2e-a51e-4dfb-bada-e02c5e73d783"/>
+        <COMPID name="HudsonModelLabel" mc="Standard.Class" uid="fc16db00-a366-4933-819b-01ee046fba23"/>
+        <COMPID name="HudsonModelLoadStatistics" mc="Standard.Class" uid="89a49ad4-1535-40ce-b1c2-e67daf5fce77"/>
+        <COMPID name="HudsonModelMultiStageTimeSeries" mc="Standard.Class" uid="d2cb4473-dfb0-4683-b7e1-3073d2bc60e4"/>
+        <COMPID name="HudsonModelNode" mc="Standard.Class" uid="165ac025-2c57-4d98-a012-81aaf1a8adb4"/>
+        <OBJECT>
+          <ID name="HudsonModelNodeMode" mc="Standard.Enumeration" uid="32a34eca-d998-4815-a900-142c32286819"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[HudsonModelNodeMode]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Extension">
+              <FOREIGNID name="JavaEnumeration" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0262-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <COMPID name="HudsonModelOverallLoadStatistics" mc="Standard.Class" uid="d15deac3-4b5d-4faf-a063-8cf7533a705e"/>
+        <COMPID name="HudsonModelProject" mc="Standard.Class" uid="5120fe9f-e017-4ee7-bc98-c72f19740695"/>
+        <COMPID name="HudsonModelQueueItem" mc="Standard.Class" uid="455f51a4-e38b-42bd-a512-e4a9eabb02d3"/>
+        <COMPID name="HudsonModelRun" mc="Standard.Class" uid="d91e88dd-f351-4245-a259-00ae08118987"/>
+        <COMPID name="HudsonModelRunArtifact" mc="Standard.Class" uid="d4a43888-3801-4cb6-977a-dd902713548c"/>
+        <COMPID name="HudsonModelTimeSeries" mc="Standard.Class" uid="c4269d00-3d60-40a5-b1d1-f991d0e8e558"/>
+        <COMPID name="HudsonModelUser" mc="Standard.Class" uid="34d62803-55bd-4f36-872c-232b5f21e88a"/>
+        <COMPID name="HudsonModelUserProperty" mc="Standard.Class" uid="8ffe4c41-9bda-41ed-a83d-4f293b6096ab"/>
+        <COMPID name="HudsonModelView" mc="Standard.Class" uid="2d2b4942-a52b-4b01-9cd2-d87a99ac113e"/>
+        <COMPID name="HudsonModelViewPeople" mc="Standard.Class" uid="791898f9-65aa-4f60-bf57-2ae16e439412"/>
+        <COMPID name="HudsonModelViewUserInfo" mc="Standard.Class" uid="48c7fd33-b201-43ee-b00c-dd9b96355f54"/>
+        <COMPID name="HudsonScmChangeLogSet" mc="Standard.Class" uid="4ef7fee0-2d61-47fa-b074-720d7dfa0d07"/>
+        <COMPID name="HudsonScmRepositoryBrowser" mc="Standard.Class" uid="48385459-1b91-4696-adf1-fc200de63336"/>
+        <COMPID name="HudsonScmSCM" mc="Standard.Class" uid="a889e223-5f8c-42ce-a4dd-e7b1aa837ad6"/>
+        <COMPID name="HudsonTasksJunitCaseResult" mc="Standard.Class" uid="c47936ef-4140-4b3d-b5ef-4f91f87f6317"/>
+        <OBJECT>
+          <ID name="HudsonTasksJunitCaseResultStatus" mc="Standard.Enumeration" uid="cc60a987-1148-4a95-ab37-7b6b68d65f73"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[HudsonTasksJunitCaseResultStatus]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Extension">
+              <FOREIGNID name="JavaEnumeration" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0262-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <COMPID name="HudsonTasksJunitSuiteResult" mc="Standard.Class" uid="8703e0ed-63c4-4670-8705-7b74103471f8"/>
+        <COMPID name="HudsonTasksJunitTestObject" mc="Standard.Class" uid="d603cbd2-e13a-44e2-9fa2-809d08405314"/>
+        <COMPID name="HudsonTasksJunitTestResult" mc="Standard.Class" uid="7d8ddff6-714b-45e3-8d8f-d8c39ade14de"/>
+        <COMPID name="HudsonTasksTestAbstractTestResultAction" mc="Standard.Class" uid="6a0f98f8-f998-46aa-82d0-9009612a7fbb"/>
+        <COMPID name="HudsonTasksTestAggregatedTestResultAction" mc="Standard.Class" uid="c481a63e-8070-4165-9594-6dfb69c4eee0"/>
+        <COMPID name="HudsonTasksTestAggregatedTestResultActionChildReport" mc="Standard.Class" uid="4af3e871-5d55-4a2e-83d4-68472c18a0b3"/>
+        <COMPID name="HudsonTasksTestMetaTabulatedResult" mc="Standard.Class" uid="f337b8cd-5dd5-43ec-a27e-5bab66699f7c"/>
+        <COMPID name="HudsonTasksTestTabulatedResult" mc="Standard.Class" uid="a54d4836-132d-44d7-afe4-c7f3efb91b74"/>
+        <COMPID name="HudsonTasksTestTestObject" mc="Standard.Class" uid="857c795a-27eb-4ef9-be83-8e700b55f0ba"/>
+        <COMPID name="HudsonTasksTestTestResult" mc="Standard.Class" uid="71803a62-c99d-4161-9c2c-ba732a7209fb"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

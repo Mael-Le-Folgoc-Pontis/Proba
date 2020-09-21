@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="preferences" version="4">
+  <OBJECT>
+    <ID name="preferences" mc="Standard.Package" uid="29014d60-c43c-4e27-a66f-9880b5810184"/>
+    <PID name="internal" mc="Standard.Package" uid="eb0e606b-c69e-4970-bbfc-e8920bb39595"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[preferences]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ValidationPreferencePage" mc="Standard.Class" uid="7fd40e25-14b3-4765-9463-c050753ca984"/>
+        <COMPID name="ValidationPropertyPage" mc="Standard.Class" uid="a8376f9a-80c2-4009-8410-afa7c726a219"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

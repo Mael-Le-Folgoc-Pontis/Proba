@@ -1,0 +1,52 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="model" version="4">
+  <OBJECT>
+    <ID name="model" mc="Standard.Package" uid="002210b4-0bbf-112e-9071-001e4fea2d8b"/>
+    <PID name="ui" mc="Standard.Package" uid="000c1b7e-0bbf-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[model]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AntAntNode" mc="Standard.Class" uid="0022178a-0bbf-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AntAugmentTaskNode" mc="Standard.Class" uid="00221f0a-0bbf-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AntCommentNode" mc="Standard.Class" uid="002226da-0bbf-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AntDTDNode" mc="Standard.Class" uid="00222e78-0bbf-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AntDefiningTaskNode" mc="Standard.Class" uid="0022367a-0bbf-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AntElementAdapterFactory" mc="Standard.Class" uid="00223eb8-0bbf-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AntElementNode" mc="Standard.Class" uid="0022471e-0bbf-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AntImportNode" mc="Standard.Class" uid="00224fd4-0bbf-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AntModel" mc="Standard.Class" uid="002258b2-0bbf-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AntModelChangeEvent" mc="Standard.Class" uid="002268ac-0bbf-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AntModelContentProvider" mc="Standard.Class" uid="002271e4-0bbf-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AntModelCore" mc="Standard.Class" uid="00227b62-0bbf-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AntModelLabelProvider" mc="Standard.Class" uid="002284f4-0bbf-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AntModelMessages" mc="Standard.Class" uid="00228ecc-0bbf-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AntModelProblem" mc="Standard.Class" uid="00229890-0bbf-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AntModelProject" mc="Standard.Class" uid="0022a2ae-0bbf-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AntProjectNode" mc="Standard.Class" uid="0022b4c4-0bbf-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AntProjectNodeProxy" mc="Standard.Class" uid="0022bf6e-0bbf-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AntPropertyNode" mc="Standard.Class" uid="0022ca4a-0bbf-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AntTargetNode" mc="Standard.Class" uid="0022d512-0bbf-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AntTaskNode" mc="Standard.Class" uid="0022e03e-0bbf-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IAntElement" mc="Standard.Interface" uid="0022e75a-0bbf-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IAntModel" mc="Standard.Interface" uid="0022eebc-0bbf-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IAntModelConstants" mc="Standard.Interface" uid="0022f68c-0bbf-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IAntModelListener" mc="Standard.Interface" uid="0022fea2-0bbf-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IProblem" mc="Standard.Interface" uid="002306a4-0bbf-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IProblemRequestor" mc="Standard.Interface" uid="00230faa-0bbf-112e-9071-001e4fea2d8b"/>
+        <COMPID name="InternalTargetFilter" mc="Standard.Class" uid="00231b44-0bbf-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LocationProvider" mc="Standard.Class" uid="002326b6-0bbf-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

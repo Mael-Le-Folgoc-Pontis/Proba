@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="lang" version="4">
+  <OBJECT>
+    <ID name="lang" mc="Standard.Package" uid="003650ce-21b2-1fb1-8a9e-001e4fea2d8b"/>
+    <PID name="icu" mc="Standard.Package" uid="0059052e-21b1-1fb1-8a9e-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[lang]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="CharSequences" mc="Standard.Class" uid="00564d52-0bdc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="UCharacter" mc="Standard.Class" uid="00366d5c-21b2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="UCharacterCategory" mc="Standard.Class" uid="003ac21c-21b2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="UCharacterDirection" mc="Standard.Class" uid="00394a7c-21b2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="UCharacterEnums" mc="Standard.Class" uid="0039d41a-21b2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="UProperty" mc="Standard.Interface" uid="003be69c-21b2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="UScript" mc="Standard.Class" uid="003c29d6-21b2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="UScriptRun" mc="Standard.Class" uid="003ae864-21b2-1fb1-8a9e-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="viewer" version="4">
+  <OBJECT>
+    <ID name="viewer" mc="Standard.Package" uid="8ad64ece-9499-4e2b-ae05-fe42db067e3e"/>
+    <PID name="external" mc="Standard.Package" uid="b3aceedf-fc49-4d9c-8609-4ce84cdfcbaa"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[viewer]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="BasicUIJob" mc="Standard.Class" uid="ab5965c5-36b9-4485-8fa4-6e84e78e3dac"/>
+        <COMPID name="FilteredTree" mc="Standard.Class" uid="50355344-fb96-42a4-b3e0-eb0b44e850e0"/>
+        <COMPID name="PatternFilter" mc="Standard.Class" uid="2c076ca5-ebf1-42be-972c-6004c68b132d"/>
+        <COMPID name="StringMatcher" mc="Standard.Class" uid="3cb30bed-5106-47f8-9f30-cea454471a93"/>
+        <COMPID name="ViewerMessages" mc="Standard.Class" uid="fe14431f-e354-4f49-b0e0-e71cb54913c4"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

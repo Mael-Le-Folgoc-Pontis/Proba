@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="params" version="4">
+  <OBJECT>
+    <ID name="params" mc="Standard.Package" uid="c7d5462d-6e8f-4339-b15d-a90abd0c148e"/>
+    <PID name="http" mc="Standard.Package" uid="69579971-0298-4981-9fc7-48c3562d4504"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[params]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractHttpParams" mc="Standard.Class" uid="fec43168-8bea-4ffa-ad1a-843e5dd2ba01"/>
+        <COMPID name="BasicHttpParams" mc="Standard.Class" uid="6321f356-8577-4d84-934c-c96692a9f37c"/>
+        <COMPID name="CoreConnectionPNames" mc="Standard.Interface" uid="33db238f-5258-4755-afc4-95f8141746a0"/>
+        <COMPID name="CoreProtocolPNames" mc="Standard.Interface" uid="ebfc3b50-01c5-4050-9499-5086b4b7f6a5"/>
+        <COMPID name="DefaultedHttpParams" mc="Standard.Class" uid="1ef4bb4f-bd0c-4bf2-b1e4-71d000eff866"/>
+        <COMPID name="HttpAbstractParamBean" mc="Standard.Class" uid="780e8b2a-4306-4330-8e50-c0c6ae8ea041"/>
+        <COMPID name="HttpConnectionParamBean" mc="Standard.Class" uid="077c241f-beb2-458b-9dd8-05188a9b91f5"/>
+        <COMPID name="HttpConnectionParams" mc="Standard.Class" uid="85930df9-8072-4ea0-b86d-e88b03d56139"/>
+        <COMPID name="HttpParamConfig" mc="Standard.Class" uid="b51c6d22-12a4-4045-8d20-1aa3908bcbfe"/>
+        <COMPID name="HttpParams" mc="Standard.Interface" uid="e3ac530c-82d0-4f6d-89f6-4436cc97fc33"/>
+        <COMPID name="HttpParamsNames" mc="Standard.Interface" uid="c6479f8c-a3d8-47f8-952b-fbf44ef8e85e"/>
+        <COMPID name="HttpProtocolParamBean" mc="Standard.Class" uid="e27f3650-5a2c-48aa-9649-1d89728d4937"/>
+        <COMPID name="HttpProtocolParams" mc="Standard.Class" uid="7a5e0755-5fa4-4233-bf6a-98583bbf44f8"/>
+        <COMPID name="SyncBasicHttpParams" mc="Standard.Class" uid="cbbed901-68a2-4941-8aed-411fa104e08c"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

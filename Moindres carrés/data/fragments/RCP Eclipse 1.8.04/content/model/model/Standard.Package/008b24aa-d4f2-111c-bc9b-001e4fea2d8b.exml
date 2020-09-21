@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="extensionlocation" version="4">
+  <OBJECT>
+    <ID name="extensionlocation" mc="Standard.Package" uid="008b24aa-d4f2-111c-bc9b-001e4fea2d8b"/>
+    <PID name="p2" mc="Standard.Package" uid="00381d32-d4f2-111c-bc9b-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[extensionlocation]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Activator" mc="Standard.Class" uid="008bc2c0-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="BundlePoolFilteredListener" mc="Standard.Class" uid="008b4110-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="Constants" mc="Standard.Interface" uid="008b9c32-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="ExtensionLocationArtifactRepository" mc="Standard.Class" uid="008baf9c-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="ExtensionLocationArtifactRepositoryFactory" mc="Standard.Class" uid="008b8a8a-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="ExtensionLocationMetadataRepository" mc="Standard.Class" uid="008b77d4-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="ExtensionLocationMetadataRepositoryFactory" mc="Standard.Class" uid="008b6550-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="Messages" mc="Standard.Class" uid="008b2f36-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="SiteListener" mc="Standard.Class" uid="008b533a-d4f2-111c-bc9b-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

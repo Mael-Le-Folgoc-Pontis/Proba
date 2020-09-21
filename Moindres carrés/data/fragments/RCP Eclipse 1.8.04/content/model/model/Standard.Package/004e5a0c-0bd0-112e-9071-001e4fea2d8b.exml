@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="core" version="4">
+  <OBJECT>
+    <ID name="core" mc="Standard.Package" uid="004e5a0c-0bd0-112e-9071-001e4fea2d8b"/>
+    <PID name="pde" mc="Standard.Package" uid="001356b4-d4f3-111c-bc9b-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[core]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="IBaseModel" mc="Standard.Interface" uid="004e6024-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IBundleClasspathResolver" mc="Standard.Interface" uid="004e66b4-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IClasspathContributor" mc="Standard.Interface" uid="004e6d9e-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IEditable" mc="Standard.Interface" uid="004e747e-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IEditableModel" mc="Standard.Interface" uid="004e7b86-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IIdentifiable" mc="Standard.Interface" uid="004e82c0-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IModel" mc="Standard.Interface" uid="004e8a2c-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IModelChangeProvider" mc="Standard.Interface" uid="004e91ca-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IModelChangedEvent" mc="Standard.Interface" uid="004e9990-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IModelChangedListener" mc="Standard.Interface" uid="004ea1ba-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IModelProvider" mc="Standard.Interface" uid="004ea9e4-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IModelProviderEvent" mc="Standard.Interface" uid="004eb240-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IModelProviderListener" mc="Standard.Interface" uid="004ebac4-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ISourceObject" mc="Standard.Interface" uid="004ec384-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IWritable" mc="Standard.Interface" uid="004ecc6c-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ModelChangedEvent" mc="Standard.Class" uid="004ed27a-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="build" mc="Standard.Package" uid="004f95d4-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="plugin" mc="Standard.Package" uid="005079ea-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="project" mc="Standard.Package" uid="00522402-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="target" mc="Standard.Package" uid="00532eec-0bd0-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

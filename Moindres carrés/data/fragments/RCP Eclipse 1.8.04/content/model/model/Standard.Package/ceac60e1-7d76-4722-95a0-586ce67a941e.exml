@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="errors" version="4">
+  <OBJECT>
+    <ID name="errors" mc="Standard.Package" uid="ceac60e1-7d76-4722-95a0-586ce67a941e"/>
+    <PID name="editor" mc="Standard.Package" uid="7ba225bc-30f5-4b76-acd8-b6a7c0ac3c83"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[errors]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="BrowserMessageDialog" mc="Standard.Class" uid="edc6347a-4477-41f0-bc30-3c9769db8021"/>
+        <COMPID name="CoreExceptionRewriter" mc="Standard.Class" uid="24b94a0b-a419-4943-a539-30266c39126e"/>
+        <COMPID name="CoreExceptionRewriter2" mc="Standard.Class" uid="6e7d4762-984d-462b-ba82-7a9a2e073a40"/>
+        <COMPID name="ErrorEntryInfo" mc="Standard.Class" uid="d7a42ee6-675b-49e9-98e7-bbf53821bbb9"/>
+        <COMPID name="ExceptionComposite" mc="Standard.Class" uid="8ca68a6e-d6e0-45c0-8f7e-10de4088bedd"/>
+        <COMPID name="JavaExceptionComposite" mc="Standard.Class" uid="fee13dfd-9e88-42ab-a4be-6be2ffe11ee6"/>
+        <COMPID name="JavaWarningComposite" mc="Standard.Class" uid="b47158de-421f-4b5e-9ec6-0cebc18f10ca"/>
+        <COMPID name="MultipleConstructorsComposite" mc="Standard.Class" uid="fefefde5-2271-4247-bf82-c42ef86e00be"/>
+        <COMPID name="NoEntryPointComposite" mc="Standard.Class" uid="0ec2361f-5ebf-4d49-96b9-91191d142ee4"/>
+        <COMPID name="NotUiJavaWarningComposite" mc="Standard.Class" uid="1584a4e7-7224-4dd3-a101-1cc3d45e13da"/>
+        <COMPID name="ProxySettingDialog" mc="Standard.Class" uid="30550eb7-08eb-4c7a-9baa-5be3889488cb"/>
+        <COMPID name="WarningComposite" mc="Standard.Class" uid="dbcc56f1-6b71-4b74-bbe6-39575b9cd8f6"/>
+        <COMPID name="report2" mc="Standard.Package" uid="1b6457c5-f9d0-49c4-b7cc-a13fed098d88"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

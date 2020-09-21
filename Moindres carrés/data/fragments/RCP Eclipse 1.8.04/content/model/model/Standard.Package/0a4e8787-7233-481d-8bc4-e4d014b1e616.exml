@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="resources" version="4">
+  <OBJECT>
+    <ID name="resources" mc="Standard.Package" uid="0a4e8787-7233-481d-8bc4-e4d014b1e616"/>
+    <PID name="api" mc="Standard.Package" uid="e982dc26-8498-4432-83e7-291b435ca4a0"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[resources]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="MissingResourceException" mc="Standard.Class" uid="ccdc41b5-c51d-446a-87bb-11882101e87a"/>
+        <COMPID name="ReadableResource" mc="Standard.Interface" uid="8988d77e-d494-49ee-b047-e540f80afb69"/>
+        <COMPID name="Resource" mc="Standard.Interface" uid="bc1620da-2655-4a3c-9e0d-057f99d24799"/>
+        <COMPID name="ResourceException" mc="Standard.Class" uid="e9960be4-4829-4f59-99ee-c49677f164b1"/>
+        <COMPID name="ResourceHandler" mc="Standard.Interface" uid="2593986a-244e-48ac-b65d-611ba593d4d7"/>
+        <COMPID name="TextResource" mc="Standard.Interface" uid="051f2d4b-6ead-4e89-b25d-fce0556bc08e"/>
+        <COMPID name="TextResourceFactory" mc="Standard.Interface" uid="6b4c1a8e-8b5f-460a-aac8-f0b170fb0e03"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

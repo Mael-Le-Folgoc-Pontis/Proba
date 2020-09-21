@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="format" version="4">
+  <OBJECT>
+    <ID name="format" mc="Standard.Package" uid="8cba670e-4852-48a9-9262-fcac8939488f"/>
+    <PID name="internal" mc="Standard.Package" uid="8de19d9c-309f-4c7f-968c-e82cba2f8859"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[format]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="FormattingDelegate" mc="Standard.Class" uid="4d7b0d91-ec0b-4b3d-80d2-167d47e0710b"/>
+        <COMPID name="StructuredFormattingStrategy" mc="Standard.Class" uid="8bee21ed-33e5-4be6-a7a4-c236fb371a69"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

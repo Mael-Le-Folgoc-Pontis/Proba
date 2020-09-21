@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="factory" version="4">
+  <OBJECT>
+    <ID name="factory" mc="Standard.Package" uid="4d25c397-b75d-4122-96b5-1bd8b39e51d2"/>
+    <PID name="command" mc="Standard.Package" uid="dadec2db-7956-4306-8c7a-c99866b81628"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[factory]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="FactoryAbstractCommand" mc="Standard.Class" uid="bfee8eaa-e131-413d-ba15-825766461c97"/>
+        <COMPID name="FactoryAddCommand" mc="Standard.Class" uid="b5491c40-53f5-4b5f-aec7-55cae2e8d961"/>
+        <COMPID name="FactoryEditCommand" mc="Standard.Class" uid="8aacb159-530d-4890-8839-06f7b4b32c05"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

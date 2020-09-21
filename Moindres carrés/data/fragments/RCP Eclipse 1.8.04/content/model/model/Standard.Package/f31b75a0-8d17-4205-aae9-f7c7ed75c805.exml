@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="internal" version="4">
+  <OBJECT>
+    <ID name="internal" mc="Standard.Package" uid="f31b75a0-8d17-4205-aae9-f7c7ed75c805"/>
+    <PID name="workspace" mc="Standard.Package" uid="09c371a7-3a84-4766-86bf-86acb07fe2f9"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[internal]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="DefaultGradleClasspathContainer" mc="Standard.Class" uid="6cf1bcf7-479c-40e9-8c51-6d35bb5786a0"/>
+        <COMPID name="DefaultProjectCreatedEvent" mc="Standard.Class" uid="491752ea-431f-4fa3-ba1a-dab460795e2b"/>
+        <COMPID name="DefaultWorkspaceGradleOperations" mc="Standard.Class" uid="c2448b42-20d6-476c-b122-1637be8cb128"/>
+        <COMPID name="DefaultWorkspaceOperations" mc="Standard.Class" uid="6b3b9d96-e216-40b5-a86d-481c34dcf07f"/>
+        <COMPID name="GradleClasspathContainerInitializer" mc="Standard.Class" uid="6fe95843-99ae-4c4b-8e21-7ff8ad8cc69c"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

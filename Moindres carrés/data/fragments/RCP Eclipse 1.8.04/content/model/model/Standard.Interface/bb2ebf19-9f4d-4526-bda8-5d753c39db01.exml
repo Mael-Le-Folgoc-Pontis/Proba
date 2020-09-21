@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Generator" version="4">
+  <OBJECT>
+    <ID name="Generator" mc="Standard.Interface" uid="bb2ebf19-9f4d-4526-bda8-5d753c39db01"/>
+    <PID name="table" mc="Standard.Package" uid="e2be2dd5-d32c-43fb-9f54-2072aa5f24bb"/>
+    <ATTRIBUTES>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">true</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Generator]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Incrementer" mc="Standard.Class" uid="45cd8d48-265b-4c9c-ba47-f56be5a63a15"/>
+        <COMPID name="Sequencer" mc="Standard.Class" uid="a1c4d37a-cfc7-4727-9a79-f6746e56919a"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaInterface" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0267-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

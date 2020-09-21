@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="handlers" version="4">
+  <OBJECT>
+    <ID name="handlers" mc="Standard.Package" uid="44a07e60-6cae-4590-8080-6c06164d107b"/>
+    <PID name="internal" mc="Standard.Package" uid="8dac5e70-eadd-4ac5-9e61-066073002452"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[handlers]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractSiblingNavigationHandler" mc="Standard.Class" uid="80739c05-9652-49e1-b87b-9867c8bf9578"/>
+        <COMPID name="CleanupdocumentHandler" mc="Standard.Class" uid="74351831-65d9-4522-a4f1-f4f589b15447"/>
+        <COMPID name="CollapseAllHandler" mc="Standard.Class" uid="ea9b3fee-091b-4f83-a91f-7dc86f5caf88"/>
+        <COMPID name="ContentModelSynchWithEditorHandler" mc="Standard.Class" uid="bc9dad2e-a856-46cd-a7fa-d0b5e44517e8"/>
+        <COMPID name="ExpandAllHandler" mc="Standard.Class" uid="71c1b43e-2928-4c7c-8b0b-d1af2a9bfa8f"/>
+        <COMPID name="ExpandCollapseAllHandler" mc="Standard.Class" uid="922a74ec-2203-4d50-a252-360c6cc07194"/>
+        <COMPID name="NextSiblingNavigationHandler" mc="Standard.Class" uid="f5a6429b-ceb9-4cd0-bf9d-a1de7ce65880"/>
+        <COMPID name="PreviousSiblingNavigationHandler" mc="Standard.Class" uid="bed5f5ac-690d-420b-ae67-dd06214536db"/>
+        <COMPID name="ReloadDependenciesHandler" mc="Standard.Class" uid="a034f3ba-8700-4fee-b7db-8815753136bf"/>
+        <COMPID name="StructuredSelectEnclosingXMLHandler" mc="Standard.Class" uid="a94beb5e-6a8e-4b15-be7b-03a59be5e0a4"/>
+        <COMPID name="StructuredSelectNextXMLHandler" mc="Standard.Class" uid="109be574-9a0a-4514-9427-46c4c6b62a6b"/>
+        <COMPID name="StructuredSelectPreviousXMLHandler" mc="Standard.Class" uid="f03249a6-6965-43a2-a84c-9320f595d9d0"/>
+        <COMPID name="ToggleEditModeHandler" mc="Standard.Class" uid="737b3f91-c4a7-4d29-92d8-bc9a3cf14673"/>
+        <COMPID name="XMLFindOccurencesHandler" mc="Standard.Class" uid="42a0e3c7-6716-4a5c-9973-e29bfb6f36f3"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

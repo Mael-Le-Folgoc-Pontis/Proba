@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="learning" version="4">
+  <OBJECT>
+    <ID name="learning" mc="Standard.Package" uid="006c6e7a-0bdb-112e-9071-001e4fea2d8b"/>
+    <PID name="minisat" mc="Standard.Package" uid="0068dd14-0bdb-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[learning]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ActiveLearning" mc="Standard.Class" uid="006c7ab4-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ClauseOnlyLearning" mc="Standard.Class" uid="006c80e0-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FixedLengthLearning" mc="Standard.Class" uid="006c87ac-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LimitedLearning" mc="Standard.Class" uid="006c8e6e-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MiniSATLearning" mc="Standard.Class" uid="006c953a-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="NoLearningButHeuristics" mc="Standard.Class" uid="006c9c6a-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="NoLearningNoHeuristics" mc="Standard.Class" uid="006ca3d6-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PercentLengthLearning" mc="Standard.Class" uid="006cab38-0bdb-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

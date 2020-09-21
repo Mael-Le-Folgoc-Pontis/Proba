@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="editor" version="4">
+  <OBJECT>
+    <ID name="editor" mc="Standard.Package" uid="228783d4-7409-41cb-8d7a-ae1b9413f107"/>
+    <PID name="ui" mc="Standard.Package" uid="60630de9-0bc8-44fe-927e-81b13a72caeb"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[editor]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ConfluenceMarkupTaskEditorExtension" mc="Standard.Class" uid="1ed8c983-46fb-4b7b-9786-08733b5233b6"/>
+        <COMPID name="MarkdownMarkupTaskEditorExtension" mc="Standard.Class" uid="c5cdc5ae-dd62-485c-916e-10a86c2fbc28"/>
+        <COMPID name="MediaWikiMarkupTaskEditorExtension" mc="Standard.Class" uid="e178cf0a-89fa-4a5d-a3ef-74f6ed8f67be"/>
+        <COMPID name="TWikiMarkupTaskEditorExtension" mc="Standard.Class" uid="546df910-2092-42c9-a134-bb6b967764fd"/>
+        <COMPID name="TextileMarkupTaskEditorExtension" mc="Standard.Class" uid="9f642312-2273-4628-870f-f500f161df1f"/>
+        <COMPID name="TracWikiMarkupTaskEditorExtension" mc="Standard.Class" uid="b7235d7e-d099-4633-bc08-cf10a828bdc1"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

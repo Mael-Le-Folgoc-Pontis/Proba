@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="facade" version="4">
+  <OBJECT>
+    <ID name="facade" mc="Standard.Package" uid="a6710566-d554-4edf-8afe-706227d52cee"/>
+    <PID name="adt" mc="Standard.Package" uid="a3a23521-b45e-47e1-87e5-28af7cb8151d"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[facade]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="IADTObject" mc="Standard.Interface" uid="cffbb256-20fd-4192-9aea-58cc6cec2306"/>
+        <COMPID name="IADTObjectListener" mc="Standard.Interface" uid="21b405fe-fc7b-4e6c-966a-727f5134eb45"/>
+        <COMPID name="IComplexType" mc="Standard.Interface" uid="74c85a43-280b-4162-9a31-1dab53c238c6"/>
+        <COMPID name="IField" mc="Standard.Interface" uid="72a41b64-cb01-4a3f-a30d-0c9cd3fedb6d"/>
+        <COMPID name="IModel" mc="Standard.Interface" uid="cc8f70e1-19ee-4140-acce-51a98bcedf54"/>
+        <COMPID name="IStructure" mc="Standard.Interface" uid="80f62483-7187-4ccc-8f6a-f634c00766f6"/>
+        <COMPID name="IType" mc="Standard.Interface" uid="cdfbdcbb-015b-49ce-8a57-9e80ab17bcf8"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

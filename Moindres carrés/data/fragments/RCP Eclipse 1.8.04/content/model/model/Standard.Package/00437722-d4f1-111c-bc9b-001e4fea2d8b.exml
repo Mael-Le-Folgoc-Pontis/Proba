@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="frameworkadmin" version="4">
+  <OBJECT>
+    <ID name="frameworkadmin" mc="Standard.Package" uid="00437722-d4f1-111c-bc9b-001e4fea2d8b"/>
+    <PID name="provisional" mc="Standard.Package" uid="002347ea-21a9-1fb1-8a9e-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[frameworkadmin]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="BundlesState" mc="Standard.Interface" uid="0028d926-0bc6-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ConfigData" mc="Standard.Class" uid="007ddc0a-d4f1-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="FrameworkAdmin" mc="Standard.Interface" uid="00290db0-0bc6-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FrameworkAdminFactory" mc="Standard.Class" uid="00291648-0bc6-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FrameworkAdminRuntimeException" mc="Standard.Class" uid="000fd0e8-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="LauncherData" mc="Standard.Class" uid="004e87ca-d4f1-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="Manipulator" mc="Standard.Interface" uid="0026afde-d4f2-111c-bc9b-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

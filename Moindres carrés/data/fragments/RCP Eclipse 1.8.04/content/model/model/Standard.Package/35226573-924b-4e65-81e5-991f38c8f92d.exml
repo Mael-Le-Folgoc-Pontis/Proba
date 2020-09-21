@@ -1,0 +1,88 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="core" version="4">
+  <OBJECT>
+    <ID name="core" mc="Standard.Package" uid="35226573-924b-4e65-81e5-991f38c8f92d"/>
+    <PID name="tasks" mc="Standard.Package" uid="119e7c00-c9ac-4bfe-8321-ed9570f2ad8e"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[core]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractSearchHandler" mc="Standard.Class" uid="281a61f7-bb8c-489f-bfe1-e02c832ea144"/>
+        <COMPID name="AbstractTask" mc="Standard.Class" uid="d9e12b5d-0bb6-4f97-a1ce-1fd16f8dae90"/>
+        <COMPID name="AbstractTaskCategory" mc="Standard.Class" uid="9b38c21b-b3d0-4cc5-8889-c76b34cd0f75"/>
+        <COMPID name="AbstractTaskContainer" mc="Standard.Class" uid="f521fc2a-18ce-4687-8e89-0ae4acbdbe35"/>
+        <COMPID name="AttributeMap" mc="Standard.Class" uid="188c2cfa-164d-40c8-a53b-18906ddd57c7"/>
+        <COMPID name="AutomaticRepositoryTaskContainer" mc="Standard.Class" uid="73537297-ec08-41ea-a3b4-2c1348ea1107"/>
+        <COMPID name="Category" mc="Standard.Class" uid="3b9d880f-2a02-4261-83f8-3d97900e5faa"/>
+        <COMPID name="CommentQuoter" mc="Standard.Class" uid="2a59b464-5978-4ab9-acbd-13d656444daa"/>
+        <COMPID name="DateRange" mc="Standard.Class" uid="56eeaa8b-0020-4cb6-95d3-b970af86caa7"/>
+        <COMPID name="DayDateRange" mc="Standard.Class" uid="a7ba399c-c59c-4ac6-a36c-670e34d1bcf5"/>
+        <COMPID name="DefaultTaskMapping" mc="Standard.Class" uid="1cbf9ec2-e51e-4db7-80aa-3e97bb88812e"/>
+        <COMPID name="IRepositoryChangeListener" mc="Standard.Interface" uid="20c5ccaf-28f7-47d2-9413-bd419fef363d"/>
+        <COMPID name="IRepositoryConstants" mc="Standard.Interface" uid="c680337e-b9a2-4132-9410-88991277fbfa"/>
+        <COMPID name="IRepositoryModelListener" mc="Standard.Interface" uid="e2eab947-0488-4de8-928a-5c93786ba6a4"/>
+        <COMPID name="ITaskJobFactory" mc="Standard.Interface" uid="efb6432b-887a-46b8-9349-cb5d8ab40b33"/>
+        <COMPID name="ITaskList" mc="Standard.Interface" uid="0cc0e13c-1b86-4b49-ab3e-e9699074c0e5"/>
+        <COMPID name="ITaskListChangeListener" mc="Standard.Interface" uid="8be0d0d0-b729-41a7-919c-d48b404464e9"/>
+        <COMPID name="ITaskListRunnable" mc="Standard.Interface" uid="9a660f7b-9155-4dbb-9c6e-78bf71a058a6"/>
+        <COMPID name="ITaskRepositoryElement" mc="Standard.Interface" uid="9c5297b3-5bfb-4b45-a570-491dc271b77a"/>
+        <COMPID name="ITaskRepositoryFilter" mc="Standard.Interface" uid="e1624101-c676-41f2-a8d9-fbc518db4877"/>
+        <COMPID name="ITasksCoreConstants" mc="Standard.Interface" uid="64024ae8-5b1d-45d5-a239-55891689d641"/>
+        <COMPID name="ITransferList" mc="Standard.Interface" uid="10c0b729-f880-4271-bd53-66c1a43e29a1"/>
+        <COMPID name="LocalRepositoryConnector" mc="Standard.Class" uid="b613b47a-9e4f-4edb-988d-bfde32f6fd3c"/>
+        <COMPID name="LocalTask" mc="Standard.Class" uid="e75231b8-2fd3-4889-9372-209e5ee4a2d8"/>
+        <COMPID name="Messages" mc="Standard.Class" uid="dbdce8a3-5554-4495-b3ab-14282bd34988"/>
+        <COMPID name="Person" mc="Standard.Class" uid="b884b48c-dc95-405a-b167-4ff427d2ec11"/>
+        <COMPID name="RepositoryExternalizationParticipant" mc="Standard.Class" uid="f8f8453d-b985-4b70-8294-db69ce9a80ed"/>
+        <COMPID name="RepositoryModel" mc="Standard.Class" uid="b7fc310b-f99d-4e14-a7a8-9651cc8174d7"/>
+        <COMPID name="RepositoryPerson" mc="Standard.Class" uid="e2ab4a1f-0958-4a72-b82d-940147933f08"/>
+        <COMPID name="RepositoryQuery" mc="Standard.Class" uid="8cd95e71-69e8-49c0-84df-8eb418c9674f"/>
+        <COMPID name="RepositoryTaskHandleUtil" mc="Standard.Class" uid="97e06d9e-1222-40ac-a3d9-3f13e8268395"/>
+        <COMPID name="RepositoryTemplateManager" mc="Standard.Class" uid="6e89e3a3-d672-48d7-af19-6de7dd421f4b"/>
+        <COMPID name="SaxRepositoriesContentHandler" mc="Standard.Class" uid="4ccb7627-9aaf-444f-83b4-40e8ee91cfaa"/>
+        <COMPID name="SaxRepositoriesWriter" mc="Standard.Class" uid="59fef753-4ea5-41a5-842d-57a6869101bb"/>
+        <COMPID name="ScheduledTaskContainer" mc="Standard.Class" uid="1cd9ed6c-3f28-423a-ad21-8c2e511ab643"/>
+        <COMPID name="TaskActivationHistory" mc="Standard.Class" uid="774c620f-4abd-4839-a612-5d161b022548"/>
+        <COMPID name="TaskActivityManager" mc="Standard.Class" uid="e1c273c7-862d-4287-b612-bc58edba270a"/>
+        <COMPID name="TaskActivityUtil" mc="Standard.Class" uid="a37402be-13de-4426-a42c-e14d30f6fcc1"/>
+        <COMPID name="TaskAttachment" mc="Standard.Class" uid="392e600e-0a2e-4717-b4be-77dbd37598db"/>
+        <COMPID name="TaskCategory" mc="Standard.Class" uid="a76805c5-e56a-4c3f-b577-005f699cf14d"/>
+        <COMPID name="TaskComment" mc="Standard.Class" uid="cf44e727-77d4-4ef0-9692-1d281d527919"/>
+        <COMPID name="TaskContainerDelta" mc="Standard.Class" uid="3eb361b2-f816-4c3a-8cf7-d17ec8b04a76"/>
+        <COMPID name="TaskExternalizationException" mc="Standard.Class" uid="379ee507-42b1-48d7-882d-fd3d6b03268f"/>
+        <COMPID name="TaskGroup" mc="Standard.Class" uid="1da6b5fb-9583-44b4-a635-66ef4849a41c"/>
+        <COMPID name="TaskJobFactory" mc="Standard.Class" uid="3bb8886d-6474-4220-9ffa-cd0c9ffdddcf"/>
+        <COMPID name="TaskList" mc="Standard.Class" uid="5fb9aa62-c5b5-4f96-a3b0-8d38daafd3e6"/>
+        <COMPID name="TaskRepositoriesExternalizer" mc="Standard.Class" uid="2c09ada8-e6b5-47aa-b801-6e8b369fcdd4"/>
+        <COMPID name="TaskRepositoryAdapter" mc="Standard.Class" uid="5e9dbd1b-7001-4d80-8ff6-979ceb1a1c53"/>
+        <COMPID name="TaskRepositoryChangeEvent" mc="Standard.Class" uid="71f1254e-6bf1-4ced-bd63-00ee7b028d02"/>
+        <COMPID name="TaskRepositoryDelta" mc="Standard.Class" uid="d522508d-b65e-4749-a191-69dbc4c1269f"/>
+        <COMPID name="TaskRepositoryLocation" mc="Standard.Class" uid="1897005d-5e2d-4669-b62e-f6feaef6cde2"/>
+        <COMPID name="TaskRepositoryManager" mc="Standard.Class" uid="0dbf5758-3c4a-4b02-be98-7cb39b5f90d1"/>
+        <COMPID name="TaskTask" mc="Standard.Class" uid="efc409f9-13da-406f-b8d0-7a0c2aa0015f"/>
+        <COMPID name="TransferList" mc="Standard.Class" uid="a52143ea-50ea-4bc9-affd-1ffa358b70fd"/>
+        <COMPID name="UncategorizedTaskContainer" mc="Standard.Class" uid="f4813175-5054-44ae-86b3-95eb7f9d5753"/>
+        <COMPID name="UnmatchedTaskContainer" mc="Standard.Class" uid="f56d5eb2-477f-4507-9b79-ef1e303ae28b"/>
+        <COMPID name="UnsubmittedTaskContainer" mc="Standard.Class" uid="e07c7297-f301-44d1-9123-02b0fce84aa3"/>
+        <COMPID name="WeekDateRange" mc="Standard.Class" uid="d2ba47d8-e2ec-4f5d-b3f1-01039e169ac0"/>
+        <COMPID name="XmlReaderUtil" mc="Standard.Class" uid="91451711-bda9-404a-af9c-125b57f9bca1"/>
+        <COMPID name="activity" mc="Standard.Package" uid="dacec659-95fd-4281-8622-cfc369fa5a3f"/>
+        <COMPID name="context" mc="Standard.Package" uid="b291f1a0-9ae6-4e49-b90d-7609dd89bf58"/>
+        <COMPID name="data" mc="Standard.Package" uid="38f5548d-ace1-408d-ae59-2f178fbc2d6a"/>
+        <COMPID name="externalization" mc="Standard.Package" uid="8442bd30-f10a-44d6-8b1f-794c687d8f52"/>
+        <COMPID name="sync" mc="Standard.Package" uid="b017186d-0d25-4f60-ac6a-2bdb8dc40181"/>
+        <COMPID name="util" mc="Standard.Package" uid="645e8923-6774-4f2a-bd99-03b58080c68b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

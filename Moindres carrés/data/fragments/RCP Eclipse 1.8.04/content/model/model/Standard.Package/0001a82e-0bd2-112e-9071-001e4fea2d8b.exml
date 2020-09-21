@@ -1,0 +1,53 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="refactoring" version="4">
+  <OBJECT>
+    <ID name="refactoring" mc="Standard.Package" uid="0001a82e-0bd2-112e-9071-001e4fea2d8b"/>
+    <PID name="ui" mc="Standard.Package" uid="00559196-0bd1-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[refactoring]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="BuildPropertiesChange" mc="Standard.Class" uid="0001ae5a-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BundleManifestChange" mc="Standard.Class" uid="0001b472-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ContainerMoveParticipant" mc="Standard.Class" uid="0001baee-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ContainerRenameParticipant" mc="Standard.Class" uid="0001c142-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CreateHeaderChangeOperation" mc="Standard.Class" uid="0001c7fa-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FileMoveParticipant" mc="Standard.Class" uid="0001ced0-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FileRenameParticipant" mc="Standard.Class" uid="0001d5ba-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FindReferenceOperation" mc="Standard.Class" uid="0001dcf4-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="GeneralRenameIDWizardPage" mc="Standard.Class" uid="0001e460-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ManifestPackageMoveParticipant" mc="Standard.Class" uid="0001ec08-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ManifestPackageRenameParticipant" mc="Standard.Class" uid="0001f3c4-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ManifestTypeMoveParticipant" mc="Standard.Class" uid="0001fbc6-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ManifestTypeRenameParticipant" mc="Standard.Class" uid="0002040e-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MoveFromChange" mc="Standard.Class" uid="00020c7e-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MovedTextFileChange" mc="Standard.Class" uid="0002150c-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PDEMoveParticipant" mc="Standard.Class" uid="00021dd6-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PDERefactor" mc="Standard.Class" uid="000226be-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PDERefactoringAction" mc="Standard.Class" uid="00022ff6-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PDERenameParticipant" mc="Standard.Class" uid="0002396a-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PluginManifestChange" mc="Standard.Class" uid="000242e8-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RefactoringActionFactory" mc="Standard.Class" uid="00024cb6-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RefactoringInfo" mc="Standard.Class" uid="00025706-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RefactoringPluginInfo" mc="Standard.Class" uid="00026138-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RenameExtensionPointProcessor" mc="Standard.Class" uid="00026bc4-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RenameExtensionPointWizard" mc="Standard.Class" uid="00027664-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RenamePluginProcessor" mc="Standard.Class" uid="00028122-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RenamePluginWizard" mc="Standard.Class" uid="00028c26-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RenamePluginWizardPage" mc="Standard.Class" uid="00029766-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RenameProjectChange" mc="Standard.Class" uid="0002a2ba-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ResourceMoveParticipant" mc="Standard.Class" uid="0002ae40-0bd2-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

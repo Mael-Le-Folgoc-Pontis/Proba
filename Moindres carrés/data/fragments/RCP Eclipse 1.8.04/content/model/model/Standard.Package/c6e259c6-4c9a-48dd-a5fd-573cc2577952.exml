@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="confluence" version="4">
+  <OBJECT>
+    <ID name="confluence" mc="Standard.Package" uid="c6e259c6-4c9a-48dd-a5fd-573cc2577952"/>
+    <PID name="wikitext" mc="Standard.Package" uid="3245825f-a4b3-4d18-b378-20e02bd2ee34"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[confluence]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="core" mc="Standard.Package" uid="b391b2db-b0b9-46c8-8a9f-76f86e26630c"/>
+        <COMPID name="validation" mc="Standard.Package" uid="37f0787f-8ce5-4fa6-af8a-7fe967c5584c"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

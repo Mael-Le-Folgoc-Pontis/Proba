@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="concurrent" version="4">
+  <OBJECT>
+    <ID name="concurrent" mc="Standard.Package" uid="5392bebb-d8bd-4afa-81c4-54c838f4e549"/>
+    <PID name="lang3" mc="Standard.Package" uid="5a22ce01-ca4b-4c97-924f-8551fc63766c"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[concurrent]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AtomicInitializer" mc="Standard.Class" uid="3cfbb0ab-e872-419d-9be8-7845ddfcc377"/>
+        <COMPID name="AtomicSafeInitializer" mc="Standard.Class" uid="640ab417-115e-4c49-96b5-35493f633660"/>
+        <COMPID name="BackgroundInitializer" mc="Standard.Class" uid="c2ec81a6-6348-4760-b98b-4a54ab9b5555"/>
+        <COMPID name="BasicThreadFactory" mc="Standard.Class" uid="3390c583-998d-44fa-9ee6-a54ad15f5a7f"/>
+        <COMPID name="CallableBackgroundInitializer" mc="Standard.Class" uid="c872b9cf-7d04-4bda-a21a-084e1ca3c46b"/>
+        <COMPID name="ConcurrentException" mc="Standard.Class" uid="fa2c2a3b-08c8-4e6b-8298-77758e5973a3"/>
+        <COMPID name="ConcurrentInitializer" mc="Standard.Interface" uid="32357901-e268-4fb9-9ce6-efc9f7332863"/>
+        <COMPID name="ConcurrentRuntimeException" mc="Standard.Class" uid="5acea298-6d1d-41c4-babd-c431e251182a"/>
+        <COMPID name="ConcurrentUtils" mc="Standard.Class" uid="3a53fb0c-5465-4e7d-9df1-2d5769d07c84"/>
+        <COMPID name="ConstantInitializer" mc="Standard.Class" uid="4b90583f-5885-4e68-901e-ee3abeb07324"/>
+        <COMPID name="LazyInitializer" mc="Standard.Class" uid="aa91633b-249b-497c-960c-0b612a31ed95"/>
+        <COMPID name="MultiBackgroundInitializer" mc="Standard.Class" uid="ee7798e1-1e0b-4e3f-86c0-7e5be202e912"/>
+        <COMPID name="TimedSemaphore" mc="Standard.Class" uid="0793688f-ef44-44f3-bdce-c26b269574f2"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

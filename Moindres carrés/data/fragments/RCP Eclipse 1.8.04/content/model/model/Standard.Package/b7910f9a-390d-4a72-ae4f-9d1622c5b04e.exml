@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="impl" version="4">
+  <OBJECT>
+    <ID name="impl" mc="Standard.Package" uid="b7910f9a-390d-4a72-ae4f-9d1622c5b04e"/>
+    <PID name="transform" mc="Standard.Package" uid="6dc3d0cb-9ec4-401b-9d3d-33b43b6039ed"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[impl]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractInterceptFieldCallback" mc="Standard.Class" uid="8dd03acf-7f35-4982-bb97-ebc4a2632556"/>
+        <COMPID name="AccessFieldTransformer" mc="Standard.Class" uid="8cbb4d4a-f6ed-4b85-9137-97d97e402405"/>
+        <COMPID name="AddDelegateTransformer" mc="Standard.Class" uid="97e01a5c-7b38-410b-a88c-a13e8b5560a4"/>
+        <COMPID name="AddInitTransformer" mc="Standard.Class" uid="630fe973-0cca-4495-a555-184bad7c3517"/>
+        <COMPID name="AddPropertyTransformer" mc="Standard.Class" uid="47aa6ee8-c190-4b6e-8943-5fbcb201f46b"/>
+        <COMPID name="AddStaticInitTransformer" mc="Standard.Class" uid="bdb2c39f-66db-4d8e-8542-d0ce0272a50b"/>
+        <COMPID name="FieldProvider" mc="Standard.Interface" uid="a03ef3e4-c4ca-44cb-9463-fd25bae81828"/>
+        <COMPID name="FieldProviderTransformer" mc="Standard.Class" uid="f0b7ae71-6240-47b8-b045-3fe11b531cb7"/>
+        <COMPID name="InterceptFieldCallback" mc="Standard.Interface" uid="e55401a2-7825-4a0c-aec6-31d1f66f289c"/>
+        <COMPID name="InterceptFieldEnabled" mc="Standard.Interface" uid="bf0620ac-b08e-43e9-864a-680ec45eb978"/>
+        <COMPID name="InterceptFieldFilter" mc="Standard.Interface" uid="0f2a7cc7-8ca2-4875-b49f-7efecb1f245d"/>
+        <COMPID name="InterceptFieldTransformer" mc="Standard.Class" uid="f9b50d25-5b6e-4e41-b625-e2672d685a91"/>
+        <COMPID name="UndeclaredThrowableStrategy" mc="Standard.Class" uid="bd5b0d60-a58d-471e-8b1f-e8c66d5ba410"/>
+        <COMPID name="UndeclaredThrowableTransformer" mc="Standard.Class" uid="d6b25934-b977-42b1-a98a-0ddb11a4350c"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="mylyn" version="4">
+  <OBJECT>
+    <ID name="mylyn" mc="Standard.Package" uid="514c24cd-dfd6-4cf0-95dc-3b2cbafcc2a7"/>
+    <PID name="eclipse" mc="Standard.Package" uid="0015e0b4-219f-1fb1-8a9e-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[mylyn]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="builds" mc="Standard.Package" uid="3b6204d9-0cf6-46fa-a695-8d5e80f0e24f"/>
+        <COMPID name="commons" mc="Standard.Package" uid="7a1d6d86-ba7e-4f55-b54c-a883ddc492f4"/>
+        <COMPID name="context" mc="Standard.Package" uid="d1429e99-f512-4036-a20d-9c58afd6635b"/>
+        <COMPID name="hudson" mc="Standard.Package" uid="933b2e8a-2aa5-410b-9aaf-59483673de35"/>
+        <COMPID name="ide" mc="Standard.Package" uid="ea5c1afa-ce7b-473a-b607-07b2739d626f"/>
+        <COMPID name="internal" mc="Standard.Package" uid="07b9c40b-70dd-47d8-a499-56d1e7451ee5"/>
+        <COMPID name="monitor" mc="Standard.Package" uid="26e3b710-e8ad-439a-ae99-ab93bf832220"/>
+        <COMPID name="resources" mc="Standard.Package" uid="1386be35-a5e8-4a04-811e-00486d5144bc"/>
+        <COMPID name="tasks" mc="Standard.Package" uid="dbbda19b-2b5b-4b94-a043-3f5068771aaa"/>
+        <COMPID name="team" mc="Standard.Package" uid="d20e9d96-2fc1-4499-a6a5-33e5b37a21ec"/>
+        <COMPID name="versions" mc="Standard.Package" uid="169204cf-c0c4-492f-a9cf-e9b798b6fc63"/>
+        <COMPID name="wikitext" mc="Standard.Package" uid="a8f3ee81-d544-4501-b755-6b888c21a09c"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

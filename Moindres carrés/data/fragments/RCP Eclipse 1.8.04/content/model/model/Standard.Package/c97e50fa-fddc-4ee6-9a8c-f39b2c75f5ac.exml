@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="modelquery" version="4">
+  <OBJECT>
+    <ID name="modelquery" mc="Standard.Package" uid="c97e50fa-fddc-4ee6-9a8c-f39b2c75f5ac"/>
+    <PID name="internal" mc="Standard.Package" uid="e9152071-ab45-4e26-8cf6-708827cd7d86"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[modelquery]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ModelQueryAdapterFactoryForEmbeddedXML" mc="Standard.Class" uid="855f4e79-e430-4f48-ae2d-05914f7e412d"/>
+        <COMPID name="ModelQueryAdapterFactoryForXML" mc="Standard.Class" uid="df589012-a0fe-4ad7-a341-c894fc6ee0e2"/>
+        <COMPID name="ModelQueryUtil" mc="Standard.Class" uid="5faf6d35-82d6-486a-9780-a85e33f213d7"/>
+        <COMPID name="XMLCatalogIdResolver" mc="Standard.Class" uid="cb05b0d8-f4d0-4ed3-8bfb-884f2af999a9"/>
+        <COMPID name="XMLModelQueryAssociationProvider" mc="Standard.Class" uid="cac2e265-3de5-43a3-a4c6-7b6f88405f42"/>
+        <COMPID name="XMLModelQueryImpl" mc="Standard.Class" uid="43f161af-fc6a-4082-8242-61efe459fbdd"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

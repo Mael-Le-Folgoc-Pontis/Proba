@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="source" version="4">
+  <OBJECT>
+    <ID name="source" mc="Standard.Package" uid="8db25998-c6f4-4ee6-950c-2547af36b40a"/>
+    <PID name="archetype" mc="Standard.Package" uid="15754755-ea04-4072-b80d-c868ad13cd6a"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[source]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ArchetypeDataSink" mc="Standard.Interface" uid="4827e6dc-3e8c-4a7a-a806-7c2735418df2"/>
+        <COMPID name="ArchetypeDataSinkException" mc="Standard.Class" uid="cbe60962-ead2-45c4-98ad-e8170e456767"/>
+        <COMPID name="ArchetypeDataSource" mc="Standard.Interface" uid="c8358ede-7ca5-4cce-a595-ada6d6d2180e"/>
+        <COMPID name="ArchetypeDataSourceException" mc="Standard.Class" uid="d9d12b3a-7a8f-42c5-9557-d133ccb58e04"/>
+        <COMPID name="CatalogArchetypeDataSink" mc="Standard.Class" uid="aaf497e9-2b7b-4ccd-9c65-11fa289b96c2"/>
+        <COMPID name="CatalogArchetypeDataSource" mc="Standard.Class" uid="e8bed7d5-f026-4825-b532-999fe408fd08"/>
+        <COMPID name="InternalCatalogArchetypeDataSource" mc="Standard.Class" uid="84d75f27-4442-4aeb-8de1-7e13f24adaf7"/>
+        <COMPID name="RemoteCatalogArchetypeDataSource" mc="Standard.Class" uid="c828721e-5353-487e-b7bb-c1cdbe2ae6a8"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

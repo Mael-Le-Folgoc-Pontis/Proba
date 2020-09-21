@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="sync" version="4">
+  <OBJECT>
+    <ID name="sync" mc="Standard.Package" uid="b017186d-0d25-4f60-ac6a-2bdb8dc40181"/>
+    <PID name="core" mc="Standard.Package" uid="35226573-924b-4e65-81e5-991f38c8f92d"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[sync]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="DeleteTasksJob" mc="Standard.Class" uid="fce07b99-f7d0-42db-84fb-885d704fde1d"/>
+        <COMPID name="GetTaskHistoryJob" mc="Standard.Class" uid="2f55e4bd-b5fb-4d69-820e-b785ffc8aebe"/>
+        <COMPID name="Messages" mc="Standard.Class" uid="e07a842c-5f27-4520-96cd-cffb5385616a"/>
+        <COMPID name="SubmitTaskAttachmentJob" mc="Standard.Class" uid="130c3a3c-ad99-448b-9c17-920d4b68522d"/>
+        <COMPID name="SubmitTaskJob" mc="Standard.Class" uid="85422187-30b0-47eb-ba93-3d784eda1901"/>
+        <COMPID name="SynchronizationScheduler" mc="Standard.Class" uid="8dad41c5-5ba6-4f40-86db-5a9a42d5ed8d"/>
+        <COMPID name="SynchronizationSession" mc="Standard.Class" uid="a7a9d231-d53a-43d4-baf5-6f3cfdfe61f8"/>
+        <COMPID name="SynchronizeQueriesJob" mc="Standard.Class" uid="3046b455-af0f-4a5a-af49-627a62183644"/>
+        <COMPID name="SynchronizeRepositoriesJob" mc="Standard.Class" uid="69b4f505-fe64-4179-b386-4499987df3d7"/>
+        <COMPID name="SynchronizeTasksJob" mc="Standard.Class" uid="aae05ba3-a5fb-4d2a-ab5b-dfecd6ce6c5a"/>
+        <COMPID name="UpdateRepositoryConfigurationJob" mc="Standard.Class" uid="61692e54-23fa-4f48-b7f9-78772f842940"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

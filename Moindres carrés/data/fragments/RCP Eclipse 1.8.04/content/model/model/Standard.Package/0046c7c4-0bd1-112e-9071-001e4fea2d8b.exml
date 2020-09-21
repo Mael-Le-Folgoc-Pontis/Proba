@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="details" version="4">
+  <OBJECT>
+    <ID name="details" mc="Standard.Package" uid="0046c7c4-0bd1-112e-9071-001e4fea2d8b"/>
+    <PID name="simple" mc="Standard.Package" uid="00437fb0-0bd1-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[details]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="SimpleCSCommandComboPart" mc="Standard.Class" uid="0046cdb4-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SimpleCSCommandDetails" mc="Standard.Class" uid="0046d412-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SimpleCSDetails" mc="Standard.Class" uid="0046da34-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SimpleCSHelpDetails" mc="Standard.Class" uid="0046e0ce-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SimpleCSIntroDetails" mc="Standard.Class" uid="0046e79a-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SimpleCSItemDetails" mc="Standard.Class" uid="0046ee66-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SimpleCSSubItemDetails" mc="Standard.Class" uid="0046f5a0-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SimpleDetailsMessages" mc="Standard.Class" uid="0046fcf8-0bd1-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

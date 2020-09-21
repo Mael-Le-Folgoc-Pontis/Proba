@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="palette" version="4">
+  <OBJECT>
+    <ID name="palette" mc="Standard.Package" uid="49a65cdd-7c95-4352-b030-3b87dfd721c1"/>
+    <PID name="editor" mc="Standard.Package" uid="7ba225bc-30f5-4b76-acd8-b6a7c0ac3c83"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[palette]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="DesignerPalette" mc="Standard.Class" uid="b6d16a33-9ef9-4f31-8755-3a3252547220"/>
+        <COMPID name="PaletteManager" mc="Standard.Class" uid="1812a931-a85d-44cf-bcc5-28975054467a"/>
+        <COMPID name="PluginPalettePreferences" mc="Standard.Class" uid="0f5084a3-a9fd-481b-a8c0-62d4103b444e"/>
+        <COMPID name="TypeParameterComposite" mc="Standard.Class" uid="31a50efe-2f82-4ea9-a833-f74c476b4f1f"/>
+        <COMPID name="TypeParametersDialog" mc="Standard.Class" uid="d38fe4cc-7afb-4960-869b-01111d76146f"/>
+        <COMPID name="command" mc="Standard.Package" uid="dadec2db-7956-4306-8c7a-c99866b81628"/>
+        <COMPID name="dialogs" mc="Standard.Package" uid="57f2a129-d0e0-4d92-9cd0-d75ae764d90b"/>
+        <COMPID name="model" mc="Standard.Package" uid="94b4cc8e-143e-4dc2-86a7-79e32f52a441"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="di" version="4">
+  <OBJECT>
+    <ID name="di" mc="Standard.Package" uid="0030366c-21a6-1fb1-8a9e-001e4fea2d8b"/>
+    <PID name="ui" mc="Standard.Package" uid="002a5d1e-21a3-1fb1-8a9e-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[di]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AboutToHide" mc="Standard.Class" uid="9a29ee84-aa83-475d-a8fa-5669c825ba0e"/>
+        <COMPID name="AboutToShow" mc="Standard.Class" uid="541fc8b9-fbec-400e-9a78-ef55d33fa146"/>
+        <COMPID name="Focus" mc="Standard.Class" uid="00322b7a-21a6-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="Persist" mc="Standard.Class" uid="00307ab4-21a6-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="PersistState" mc="Standard.Class" uid="00315312-21a6-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="UIEventTopic" mc="Standard.Class" uid="003302ca-21a6-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="UISynchronize" mc="Standard.Class" uid="0030530e-21a6-1fb1-8a9e-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

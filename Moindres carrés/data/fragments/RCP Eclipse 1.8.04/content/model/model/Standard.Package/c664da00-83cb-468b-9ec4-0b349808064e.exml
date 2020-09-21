@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="java6" version="4">
+  <OBJECT>
+    <ID name="java6" mc="Standard.Package" uid="c664da00-83cb-468b-9ec4-0b349808064e"/>
+    <PID name="swing" mc="Standard.Package" uid="9830b5a7-65f5-42f6-9ec2-f443714086a1"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[java6]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Activator" mc="Standard.Class" uid="58580ed0-a268-472c-9c7c-3fd74300eaf2"/>
+        <COMPID name="Messages" mc="Standard.Class" uid="c8acb396-6886-491f-b065-440e0148c304"/>
+        <COMPID name="gef" mc="Standard.Package" uid="9bfce287-a452-4538-bb5f-6f8493e4a9ff"/>
+        <COMPID name="laf" mc="Standard.Package" uid="a407af8c-4c79-4c17-9e18-8e057fb7d7aa"/>
+        <COMPID name="model" mc="Standard.Package" uid="e7a5b182-fe42-4b87-a686-25cc8a6485c3"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

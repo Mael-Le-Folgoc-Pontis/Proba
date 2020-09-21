@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="part" version="4">
+  <OBJECT>
+    <ID name="part" mc="Standard.Package" uid="0667893c-4e8a-4744-ab12-8379f4d170f8"/>
+    <PID name="gef" mc="Standard.Package" uid="1c993a1a-7653-4dbd-88ac-ff883e19eeb4"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[part]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractWrapperEditPart" mc="Standard.Class" uid="404d4ea9-e9b2-4600-8851-3fb2dec24842"/>
+        <COMPID name="DesignRootEditPart" mc="Standard.Class" uid="e7d963f4-0280-4dca-9f77-c1ceef398600"/>
+        <COMPID name="menu" mc="Standard.Package" uid="fea0b049-bd71-4740-8012-74d273a2950a"/>
+        <COMPID name="nonvisual" mc="Standard.Package" uid="41d6dea9-b6bf-47a4-abca-925900045227"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="projectimport" version="4">
+  <OBJECT>
+    <ID name="projectimport" mc="Standard.Package" uid="144f8673-bc08-4ac1-8767-4a1328cb240c"/>
+    <PID name="core" mc="Standard.Package" uid="7b7ddca1-fd25-4e5e-b303-f349cd5fa217"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[projectimport]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ProjectImportConfiguration" mc="Standard.Class" uid="362547cc-40d4-460e-8092-ad615dd98704"/>
+        <COMPID name="ProjectPreviewJob" mc="Standard.Class" uid="7754bc15-221a-43fa-8171-c6bc0506c7d4"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

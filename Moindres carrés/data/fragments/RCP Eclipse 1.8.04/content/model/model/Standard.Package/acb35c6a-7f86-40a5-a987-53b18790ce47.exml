@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="util" version="4">
+  <OBJECT>
+    <ID name="util" mc="Standard.Package" uid="acb35c6a-7f86-40a5-a987-53b18790ce47"/>
+    <PID name="model" mc="Standard.Package" uid="3a547062-d7aa-4b35-8f7f-e2706ee85e55"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[util]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbsoluteLayoutCreationFlowSupport" mc="Standard.Class" uid="44d95a8f-5620-4efd-b40e-20e211f0e5c5"/>
+        <COMPID name="AbstractMorphingSupport" mc="Standard.Class" uid="f6c80906-3b1b-4651-b4b2-34b8ee68a6b9"/>
+        <COMPID name="ExposeComponentSupport" mc="Standard.Class" uid="3f091070-3d02-4cc2-80e1-077ea90b73d8"/>
+        <COMPID name="ExposePropertySupport" mc="Standard.Class" uid="e79ca0c9-25a4-4c1d-b92f-f1cfd2d965b0"/>
+        <COMPID name="GenericTypeResolverJavaInfo" mc="Standard.Class" uid="4ca7f54c-f820-4595-a712-669918a7c1a9"/>
+        <COMPID name="GlobalStateJava" mc="Standard.Class" uid="89cb05f8-e40f-41ac-a214-2bb42506a3bd"/>
+        <COMPID name="IJavaInfoRendering" mc="Standard.Interface" uid="ca9ad57b-4ddb-4f8d-b5fa-401cd41fcf1b"/>
+        <COMPID name="ImportantPropertiesDialog" mc="Standard.Class" uid="f6c778dc-1916-4f30-b139-df7ba918d51d"/>
+        <COMPID name="MorphingSupport" mc="Standard.Class" uid="1552be51-f441-49a5-a7db-ab893d9c8f1a"/>
+        <COMPID name="ObjectInfoAction" mc="Standard.Class" uid="9d5208b5-d762-4fea-afcf-c29d5036c952"/>
+        <COMPID name="ObjectsLabelProvider" mc="Standard.Class" uid="208c11e0-f2e5-405a-b202-4300b522bc99"/>
+        <COMPID name="ObjectsTreeContentProvider" mc="Standard.Class" uid="c871fb06-6107-40ec-9a2e-9908bc76f385"/>
+        <COMPID name="PlaceholderUtils" mc="Standard.Class" uid="64a00cbe-912d-46dd-801b-1abb1424f704"/>
+        <COMPID name="PropertyUtils" mc="Standard.Class" uid="2e917463-85ed-42d7-a883-55b0b1d36447"/>
+        <COMPID name="PropertyUtils2" mc="Standard.Class" uid="2674f098-fd8b-4b5b-a83d-abb4559d3b75"/>
+        <COMPID name="RenameConvertSupport" mc="Standard.Class" uid="862e9185-8478-45cc-86fa-77907adcf30f"/>
+        <COMPID name="ScriptUtils" mc="Standard.Class" uid="a0f82702-499c-4e53-ae8c-7c2a46abc1c3"/>
+        <COMPID name="StackContainerSupport" mc="Standard.Class" uid="ca079e6c-6c14-48c3-874a-b51cf504d3a5"/>
+        <COMPID name="TemplateUtils" mc="Standard.Class" uid="98d8f985-9ca7-497b-b87f-26d0302b34e9"/>
+        <COMPID name="WorkspaceUtils" mc="Standard.Class" uid="75a34599-0db1-4bfd-931d-00c525e27d32"/>
+        <COMPID name="factory" mc="Standard.Package" uid="b2efbe12-26e4-436c-a839-c4e680dbd89e"/>
+        <COMPID name="generic" mc="Standard.Package" uid="e36df5eb-1585-4d16-8ea5-9ab1c91905c7"/>
+        <COMPID name="grid" mc="Standard.Package" uid="9301f5c1-5f66-4af8-ada1-30e9e68874be"/>
+        <COMPID name="live" mc="Standard.Package" uid="1bd32d8b-d5ab-4222-97aa-444828badee4"/>
+        <COMPID name="predicate" mc="Standard.Package" uid="d19c16f8-790f-43d8-b3fb-e34a6d3d5ae5"/>
+        <COMPID name="surround" mc="Standard.Package" uid="2eef6774-b987-46d2-a3ba-5d6431c73312"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

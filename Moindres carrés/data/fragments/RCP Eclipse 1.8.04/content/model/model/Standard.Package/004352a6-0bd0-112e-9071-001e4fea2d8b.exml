@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="markers" version="4">
+  <OBJECT>
+    <ID name="markers" mc="Standard.Package" uid="004352a6-0bd0-112e-9071-001e4fea2d8b"/>
+    <PID name="internal" mc="Standard.Package" uid="003fc852-0bd0-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[markers]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ApiMarkerResolutionGenerator" mc="Standard.Class" uid="004359a4-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CreateApiFilterOperation" mc="Standard.Class" uid="0043600c-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DefaultApiProfileResolution" mc="Standard.Class" uid="0043666a-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DuplicateTagResolution" mc="Standard.Class" uid="00436d04-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FilterProblemResolution" mc="Standard.Class" uid="004373a8-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FilterProblemWithCommentResolution" mc="Standard.Class" uid="00437a9c-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="InstallEEDescriptionProblemResolution" mc="Standard.Class" uid="004381d6-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavadocTagOperation" mc="Standard.Class" uid="00438924-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MarkerMessages" mc="Standard.Class" uid="004390b8-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MissingEEDescriptionProblemResolution" mc="Standard.Class" uid="00439888-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="NodeFinder" mc="Standard.Class" uid="0043a0b2-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="OpenPropertyPageResolution" mc="Standard.Class" uid="0043a8dc-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RemoveFilterProblemResolution" mc="Standard.Class" uid="0043b142-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RemoveUnsupportedTagOperation" mc="Standard.Class" uid="0043b99e-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SinceTagResolution" mc="Standard.Class" uid="0043c25e-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="UnsupportedTagResolution" mc="Standard.Class" uid="0043cb5a-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="UpdateBundleVersionOperation" mc="Standard.Class" uid="0043d44c-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="UpdateProjectSettingResolution" mc="Standard.Class" uid="0043ddca-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="UpdateProjectSettingsOperation" mc="Standard.Class" uid="0043e77a-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="UpdateSinceTagOperation" mc="Standard.Class" uid="0043f116-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="VersionNumberingResolution" mc="Standard.Class" uid="0043fb16-0bd0-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

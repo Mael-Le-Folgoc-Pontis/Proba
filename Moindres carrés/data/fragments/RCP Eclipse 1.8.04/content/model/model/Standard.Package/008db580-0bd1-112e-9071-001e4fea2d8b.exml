@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="elements" version="4">
+  <OBJECT>
+    <ID name="elements" mc="Standard.Package" uid="008db580-0bd1-112e-9071-001e4fea2d8b"/>
+    <PID name="ui" mc="Standard.Package" uid="00559196-0bd1-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[elements]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="DefaultContentProvider" mc="Standard.Class" uid="008dbb84-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DefaultElement" mc="Standard.Class" uid="008dc17e-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DefaultTableProvider" mc="Standard.Class" uid="008dc7f0-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ElementLabelProvider" mc="Standard.Class" uid="008dce62-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ElementList" mc="Standard.Class" uid="008dd4fc-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IPDEElement" mc="Standard.Interface" uid="008ddad8-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ListContentProvider" mc="Standard.Class" uid="008de244-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="NamedElement" mc="Standard.Class" uid="008de974-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TreeContentProvider" mc="Standard.Class" uid="008df0c2-0bd1-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

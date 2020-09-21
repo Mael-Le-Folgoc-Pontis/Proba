@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="dnd" version="4">
+  <OBJECT>
+    <ID name="dnd" mc="Standard.Package" uid="3e14b425-0b40-4b5d-bc5f-cb20b9d53a8a"/>
+    <PID name="internal" mc="Standard.Package" uid="8dac5e70-eadd-4ac5-9e61-066073002452"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[dnd]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="DragNodeCommand" mc="Standard.Class" uid="623f4fe7-ba43-4a2a-9dea-5509c77653f6"/>
+        <COMPID name="XMLDragAndDropManager" mc="Standard.Class" uid="225f79cb-48ab-4c6c-b242-17b0e2527638"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

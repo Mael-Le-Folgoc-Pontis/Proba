@@ -1,0 +1,88 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="editor" version="4">
+  <OBJECT>
+    <ID name="editor" mc="Standard.Package" uid="00619e46-0bd1-112e-9071-001e4fea2d8b"/>
+    <PID name="ui" mc="Standard.Package" uid="00559196-0bd1-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[editor]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractFoldingStructureProvider" mc="Standard.Class" uid="0061a512-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="EditorUtilities" mc="Standard.Class" uid="0061ab5c-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="EmptyOutlinePage" mc="Standard.Class" uid="0061cda8-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FormEntryAdapter" mc="Standard.Class" uid="0061d41a-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FormLayoutFactory" mc="Standard.Class" uid="0061dae6-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FormOutlinePage" mc="Standard.Class" uid="0061e1e4-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="GenericSourcePage" mc="Standard.Class" uid="0061fb0c-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IContextPart" mc="Standard.Interface" uid="0062011a-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IFoldingStructureProvider" mc="Standard.Interface" uid="00620818-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ILauncherFormPageHelper" mc="Standard.Interface" uid="00620f16-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IModelUndoManager" mc="Standard.Interface" uid="006215f6-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IPDEDragParticipant" mc="Standard.Interface" uid="00621d3a-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IPDEDropParticipant" mc="Standard.Interface" uid="006224ec-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IPDESourceParticipant" mc="Standard.Interface" uid="00622c62-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ISortableContentOutlinePage" mc="Standard.Interface" uid="0062343c-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JarEntryEditorInput" mc="Standard.Class" uid="00623c16-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JarEntryFile" mc="Standard.Class" uid="00624382-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="KeyValueSourcePage" mc="Standard.Class" uid="00624b52-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LaunchShortcutOverviewPage" mc="Standard.Class" uid="00625368-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LinkSection" mc="Standard.Class" uid="00625b6a-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ModelDataTransfer" mc="Standard.Class" uid="006269b6-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ModelUndoManager" mc="Standard.Class" uid="0062721c-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MultiSourceEditor" mc="Standard.Class" uid="00627b22-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="OpenManifestHandler" mc="Standard.Class" uid="00628432-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="OrientableBlock" mc="Standard.Class" uid="00628d24-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PDEDetails" mc="Standard.Class" uid="00629684-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PDEDetailsSections" mc="Standard.Class" uid="0062a016-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PDEDragAdapter" mc="Standard.Class" uid="0062a9a8-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PDEDropAdapter" mc="Standard.Class" uid="0062b3a8-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PDEEditorLaunchManager" mc="Standard.Class" uid="b1fd4be0-5008-4f60-a504-f3e587d20f60"/>
+        <COMPID name="PDEFormEditor" mc="Standard.Class" uid="0062bdda-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PDEFormEditorContributor" mc="Standard.Class" uid="0062dc66-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PDEFormPage" mc="Standard.Class" uid="006314a6-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PDEFormTextEditorContributor" mc="Standard.Class" uid="00631f64-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PDEHyperlinkDetector" mc="Standard.Class" uid="00633026-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PDELauncherFormEditor" mc="Standard.Class" uid="00633b7a-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PDEMasterDetailsBlock" mc="Standard.Class" uid="006346e2-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PDEMultiPageContentOutline" mc="Standard.Class" uid="00635240-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PDEOutlinePage" mc="Standard.Class" uid="0063641a-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PDEProjectionSourcePage" mc="Standard.Class" uid="00636fdc-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PDEProjectionViewer" mc="Standard.Class" uid="00637c20-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PDESection" mc="Standard.Class" uid="0063888c-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PDESourcePage" mc="Standard.Class" uid="006394ee-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PDEStorageDocumentProvider" mc="Standard.Class" uid="0063a79a-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SourceOutlinePage" mc="Standard.Class" uid="0063b46a-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="StructuredViewerSection" mc="Standard.Class" uid="0063c180-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SystemFileMarkerAnnotationModel" mc="Standard.Class" uid="0063cef0-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TableSection" mc="Standard.Class" uid="0063dc60-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ToggleLinkWithEditorAction" mc="Standard.Class" uid="0063f010-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TreeSection" mc="Standard.Class" uid="0063fe48-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="XMLSourcePage" mc="Standard.Class" uid="0064125c-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="actions" mc="Standard.Package" uid="00656198-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="build" mc="Standard.Package" uid="0066ff3a-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="category" mc="Standard.Package" uid="006a4672-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="contentassist" mc="Standard.Package" uid="006c118c-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="context" mc="Standard.Package" uid="006f9b68-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="feature" mc="Standard.Package" uid="00714eea-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="outline" mc="Standard.Package" uid="0074fd9c-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="plugin" mc="Standard.Package" uid="0076b218-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="product" mc="Standard.Package" uid="007d86b0-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="schema" mc="Standard.Package" uid="0080a142-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="site" mc="Standard.Package" uid="0083d4de-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="targetdefinition" mc="Standard.Package" uid="00865ec0-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="text" mc="Standard.Package" uid="00889244-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="validation" mc="Standard.Package" uid="008c51fe-0bd1-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,51 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="impl" version="4">
+  <OBJECT>
+    <ID name="impl" mc="Standard.Package" uid="a29d047c-19b4-469b-b3b9-392b9c4d0e9e"/>
+    <PID name="xerces" mc="Standard.Package" uid="80c42980-a493-459a-9c50-b9ae0d56f35b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[impl]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Constants" mc="Standard.Class" uid="ee422a9c-0b33-4c04-a176-f22ab6b651bd"/>
+        <COMPID name="ExternalSubsetResolver" mc="Standard.Interface" uid="94c116f2-b780-4cf1-8779-1fcc0ff82581"/>
+        <COMPID name="RevalidationHandler" mc="Standard.Interface" uid="626053d9-a339-4feb-941d-61e7a79bda93"/>
+        <COMPID name="Version" mc="Standard.Class" uid="b3e791a6-69a2-4edc-a3e3-3444893fb494"/>
+        <COMPID name="XML11DTDScannerImpl" mc="Standard.Class" uid="09d0881c-fb6c-471c-86fc-57767f0d4e83"/>
+        <COMPID name="XML11DocumentScannerImpl" mc="Standard.Class" uid="e6b24c5b-f6ba-4a4b-9381-3a831c75c706"/>
+        <COMPID name="XML11EntityScanner" mc="Standard.Class" uid="d99a86bc-a9fb-4b17-9ba3-0a050d6a6394"/>
+        <COMPID name="XML11NSDocumentScannerImpl" mc="Standard.Class" uid="ed8b4674-7bb8-4dbf-b98e-a3ebad9877ea"/>
+        <COMPID name="XML11NamespaceBinder" mc="Standard.Class" uid="52160e00-3361-44bb-9477-6de991eee964"/>
+        <COMPID name="XMLDTDScannerImpl" mc="Standard.Class" uid="8c3bd09e-dd80-44ea-836b-33520fd350dd"/>
+        <COMPID name="XMLDocumentFragmentScannerImpl" mc="Standard.Class" uid="0e345241-88f2-463d-9137-fb4a47650fba"/>
+        <COMPID name="XMLDocumentScannerImpl" mc="Standard.Class" uid="156f5e70-3b2d-492f-9953-0ddbdf6adeea"/>
+        <COMPID name="XMLEntityDescription" mc="Standard.Interface" uid="84a8fb70-38d7-4ca2-985b-b4fbaf1f7495"/>
+        <COMPID name="XMLEntityHandler" mc="Standard.Interface" uid="1d583e39-067b-498c-867f-f66a9f8c4a1c"/>
+        <COMPID name="XMLEntityManager" mc="Standard.Class" uid="9df64309-b8c3-44e6-bce4-dd0a21ddf1fe"/>
+        <COMPID name="XMLEntityScanner" mc="Standard.Class" uid="ccdbaa47-27ba-4910-be9d-64bffb574705"/>
+        <COMPID name="XMLErrorReporter" mc="Standard.Class" uid="12b9a3ee-cd4c-496a-9a02-0d5baa09e826"/>
+        <COMPID name="XMLNSDocumentScannerImpl" mc="Standard.Class" uid="799c36d5-24fe-4412-91e1-ad566abab1a6"/>
+        <COMPID name="XMLNamespaceBinder" mc="Standard.Class" uid="f7a73547-e384-4808-bf2b-d531c5849b5e"/>
+        <COMPID name="XMLScanner" mc="Standard.Class" uid="86b7c737-0beb-4297-8e00-7a3cedc895d5"/>
+        <COMPID name="XMLVersionDetector" mc="Standard.Class" uid="10d428b5-6d29-41d3-940d-fa7488a58fa2"/>
+        <COMPID name="dtd" mc="Standard.Package" uid="f63f9c21-2776-4266-8d6d-fb9d4f3de938"/>
+        <COMPID name="dv" mc="Standard.Package" uid="53a7b9ef-7c0a-41c1-9b1d-acc1a155f9e4"/>
+        <COMPID name="io" mc="Standard.Package" uid="e2922cd7-8c93-4d6c-99e2-95c80166b485"/>
+        <COMPID name="msg" mc="Standard.Package" uid="007b7b13-36e9-4284-b735-4fabdcb86d7c"/>
+        <COMPID name="validation" mc="Standard.Package" uid="7239e8a8-4539-470d-8d4e-1be61691a51a"/>
+        <COMPID name="xpath" mc="Standard.Package" uid="743f311f-3d5c-4fe7-a323-e5c4ef76b0ab"/>
+        <COMPID name="xs" mc="Standard.Package" uid="3710217b-443b-4d36-9a89-27b4bddb95aa"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

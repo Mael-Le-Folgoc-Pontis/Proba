@@ -1,0 +1,86 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="dom" version="4">
+  <OBJECT>
+    <ID name="dom" mc="Standard.Package" uid="0fb38b0e-274a-4b7e-989c-c8396c8ff569"/>
+    <PID name="xerces" mc="Standard.Package" uid="80c42980-a493-459a-9c50-b9ae0d56f35b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[dom]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ASDOMImplementationImpl" mc="Standard.Class" uid="987cb8a3-68c1-419f-bf96-c4e09158e3a4"/>
+        <COMPID name="ASModelImpl" mc="Standard.Class" uid="861a6b11-1856-4144-92f2-42b6fa4b7dc7"/>
+        <COMPID name="AttrImpl" mc="Standard.Class" uid="b9719d39-19b8-4ced-a0da-ca43113281f1"/>
+        <COMPID name="AttrNSImpl" mc="Standard.Class" uid="e29c76d3-a5be-4cf7-a8f1-b7959a9f8bf0"/>
+        <COMPID name="AttributeMap" mc="Standard.Class" uid="b2e9d27d-c7ba-4686-b728-0d7d42ab8246"/>
+        <COMPID name="CDATASectionImpl" mc="Standard.Class" uid="8315251e-3e62-495d-aa2d-f337277375dc"/>
+        <COMPID name="CharacterDataImpl" mc="Standard.Class" uid="c5033106-5422-4b84-8b08-0035f9ef30b0"/>
+        <COMPID name="ChildNode" mc="Standard.Class" uid="2e0b0556-2989-4b1f-8e9e-7d3b598f7e4a"/>
+        <COMPID name="CommentImpl" mc="Standard.Class" uid="040d72f3-8a30-440a-9647-f50f7d2f48d0"/>
+        <COMPID name="CoreDOMImplementationImpl" mc="Standard.Class" uid="10b35b14-25f6-4014-9ad7-4e6b9b69b80a"/>
+        <COMPID name="CoreDocumentImpl" mc="Standard.Class" uid="77fb68a1-6164-4f65-8041-d884299645ae"/>
+        <COMPID name="DOMConfigurationImpl" mc="Standard.Class" uid="3e2e117a-e0d9-4028-9b2d-ed90649113ac"/>
+        <COMPID name="DOMErrorImpl" mc="Standard.Class" uid="205e88ad-fd3c-4238-b3e2-960bd1b32708"/>
+        <COMPID name="DOMImplementationImpl" mc="Standard.Class" uid="e1d6385f-3a73-4595-8120-847f8a15c79d"/>
+        <COMPID name="DOMImplementationListImpl" mc="Standard.Class" uid="0b45df4a-8f7a-4389-9ef7-396e5e3cd3fc"/>
+        <COMPID name="DOMImplementationSourceImpl" mc="Standard.Class" uid="95105803-1886-4cc3-8a15-e2966bcd2977"/>
+        <COMPID name="DOMInputImpl" mc="Standard.Class" uid="b9f6806c-691d-4c69-80a2-f33f914b56e4"/>
+        <COMPID name="DOMLocatorImpl" mc="Standard.Class" uid="64ccaf4c-554c-4f9d-8f34-77f5c709ce2d"/>
+        <COMPID name="DOMMessageFormatter" mc="Standard.Class" uid="8fa9d4c4-8015-4c43-b956-1cb457c677cf"/>
+        <COMPID name="DOMNormalizer" mc="Standard.Class" uid="bc532f4e-3dab-4741-a1dc-fd48f2dda8bb"/>
+        <COMPID name="DOMOutputImpl" mc="Standard.Class" uid="4241de11-5dab-4775-ac49-17969330475c"/>
+        <COMPID name="DOMStringListImpl" mc="Standard.Class" uid="7b2a5a3f-e148-4db5-9663-0f63886c2b53"/>
+        <COMPID name="DOMXSImplementationSourceImpl" mc="Standard.Class" uid="331f42e9-fa9f-4274-b58b-25159b3bb18d"/>
+        <COMPID name="DeepNodeListImpl" mc="Standard.Class" uid="eab8b73e-d433-4aa3-b161-3ef26c47baf2"/>
+        <COMPID name="DeferredAttrImpl" mc="Standard.Class" uid="01a7c9ca-c97a-49ec-8a22-6c5f7037289f"/>
+        <COMPID name="DeferredAttrNSImpl" mc="Standard.Class" uid="616f962f-f59a-4bff-8dc3-958b8f285e0f"/>
+        <COMPID name="DeferredCDATASectionImpl" mc="Standard.Class" uid="5c4699ea-d6e7-4a55-aa6e-baad5eaf2cab"/>
+        <COMPID name="DeferredCommentImpl" mc="Standard.Class" uid="e12e0a76-f16d-4e01-9f42-d9c16308f42e"/>
+        <COMPID name="DeferredDOMImplementationImpl" mc="Standard.Class" uid="35176de8-b878-47df-b321-fe4cbeb7b738"/>
+        <COMPID name="DeferredDocumentImpl" mc="Standard.Class" uid="f04f8652-c580-4201-8a4e-5dba324d8996"/>
+        <COMPID name="DeferredDocumentTypeImpl" mc="Standard.Class" uid="2d4c4e8a-61c5-4c85-a75c-19d0e7ab736e"/>
+        <COMPID name="DeferredElementDefinitionImpl" mc="Standard.Class" uid="b259c33f-a7cd-4006-b7fa-04b5be5755a2"/>
+        <COMPID name="DeferredElementImpl" mc="Standard.Class" uid="73cb2d20-4cd9-47b4-8ae2-5c48b27e9a28"/>
+        <COMPID name="DeferredElementNSImpl" mc="Standard.Class" uid="fc560a44-e8fe-424a-b0c6-e643ae725f05"/>
+        <COMPID name="DeferredEntityImpl" mc="Standard.Class" uid="9cb18ed5-84f6-454b-9ff8-409780096686"/>
+        <COMPID name="DeferredEntityReferenceImpl" mc="Standard.Class" uid="cc0018d3-e1f0-49d6-ba27-3cc0912ac1b9"/>
+        <COMPID name="DeferredNode" mc="Standard.Interface" uid="5d0f577c-8b06-4bc3-83bd-7795ae4d4f7a"/>
+        <COMPID name="DeferredNotationImpl" mc="Standard.Class" uid="183b46fe-da27-4e4e-ae2a-74bc1a9ffbc5"/>
+        <COMPID name="DeferredProcessingInstructionImpl" mc="Standard.Class" uid="af3f0ffc-a69e-4983-9c9d-4abbe5814a49"/>
+        <COMPID name="DeferredTextImpl" mc="Standard.Class" uid="0e4e528a-5ad5-4f7e-ab32-826922bbff1c"/>
+        <COMPID name="DocumentFragmentImpl" mc="Standard.Class" uid="252735a2-d908-463d-8407-f909fb568bf3"/>
+        <COMPID name="DocumentImpl" mc="Standard.Class" uid="6339e0f4-f7d9-4caf-ab2d-2825b3e14d35"/>
+        <COMPID name="DocumentTypeImpl" mc="Standard.Class" uid="837a65aa-335b-4de9-a9c0-8fd6393d6cdb"/>
+        <COMPID name="ElementDefinitionImpl" mc="Standard.Class" uid="c2d94574-d4ae-4b7d-b848-1c6e724919bc"/>
+        <COMPID name="ElementImpl" mc="Standard.Class" uid="66b812c0-1395-4405-b39d-6bdee827fdfd"/>
+        <COMPID name="ElementNSImpl" mc="Standard.Class" uid="8c2209c5-897d-4c26-9626-399d4aa1a662"/>
+        <COMPID name="EntityImpl" mc="Standard.Class" uid="361ef22f-1e73-451a-8212-ceee22415caa"/>
+        <COMPID name="EntityReferenceImpl" mc="Standard.Class" uid="5b5ec378-6b7d-42b7-af81-7ae0391df6eb"/>
+        <COMPID name="NamedNodeMapImpl" mc="Standard.Class" uid="8f5da4a7-2671-4d42-b6c9-c71f74583c16"/>
+        <COMPID name="NodeImpl" mc="Standard.Class" uid="0eb19cf8-0eff-4240-a77b-01a18635b99e"/>
+        <COMPID name="NodeIteratorImpl" mc="Standard.Class" uid="8aba689c-5484-4690-a532-45dc3f7507f7"/>
+        <COMPID name="NotationImpl" mc="Standard.Class" uid="bb674645-400c-4749-b0ab-7052a132faf6"/>
+        <COMPID name="PSVIAttrNSImpl" mc="Standard.Class" uid="37618a75-1714-4c92-97d2-f2f210bd5f04"/>
+        <COMPID name="PSVIDOMImplementationImpl" mc="Standard.Class" uid="c5638f50-697d-41bf-b963-609ff3d59104"/>
+        <COMPID name="PSVIDocumentImpl" mc="Standard.Class" uid="cc4942db-472c-4c2a-aee0-bfd85ffc17fc"/>
+        <COMPID name="PSVIElementNSImpl" mc="Standard.Class" uid="ea400923-a761-4633-b3c3-185591292936"/>
+        <COMPID name="ParentNode" mc="Standard.Class" uid="2d52c8ba-0dc8-4db8-8ffe-0a1a4a28245a"/>
+        <COMPID name="ProcessingInstructionImpl" mc="Standard.Class" uid="e24a8af5-bef9-48bf-882a-9a4e6111fd17"/>
+        <COMPID name="RangeExceptionImpl" mc="Standard.Class" uid="4c19199e-fe81-447f-ba08-38023ae22ecb"/>
+        <COMPID name="RangeImpl" mc="Standard.Class" uid="75669ed4-6741-4ee5-9736-f051c4a55533"/>
+        <COMPID name="TextImpl" mc="Standard.Class" uid="c182bf75-d1b2-44d7-afcd-5f7e4d19e46f"/>
+        <COMPID name="TreeWalkerImpl" mc="Standard.Class" uid="55094cda-a95f-486c-ad60-c4bfd5cf80a5"/>
+        <COMPID name="events" mc="Standard.Package" uid="74b9a971-ece3-4faa-9b95-2401e09d4866"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

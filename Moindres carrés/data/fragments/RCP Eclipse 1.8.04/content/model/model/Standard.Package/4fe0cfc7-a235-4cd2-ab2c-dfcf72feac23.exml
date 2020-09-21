@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="definition" version="4">
+  <OBJECT>
+    <ID name="definition" mc="Standard.Package" uid="4fe0cfc7-a235-4cd2-ab2c-dfcf72feac23"/>
+    <PID name="swt" mc="Standard.Package" uid="0010339e-21a5-1fb1-8a9e-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[definition]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="IColorAndFontProvider" mc="Standard.Interface" uid="757e63c0-0ea1-47ba-9319-89c115828fec"/>
+        <COMPID name="IColorDefinitionOverridable" mc="Standard.Interface" uid="eaa321cf-f94d-4c0f-bd51-5ee85de47203"/>
+        <COMPID name="IFontDefinitionOverridable" mc="Standard.Interface" uid="d2b58642-3a56-48e1-a483-3ccb26f8418b"/>
+        <COMPID name="IThemeElementDefinitionOverridable" mc="Standard.Interface" uid="fdf9429b-b396-44cb-be9f-fc59f67f2b00"/>
+        <COMPID name="IThemesExtension" mc="Standard.Interface" uid="57f287a6-3621-4597-904f-323efd3e1685"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

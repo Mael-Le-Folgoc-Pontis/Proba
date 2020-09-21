@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="derived" version="4">
+  <OBJECT>
+    <ID name="derived" mc="Standard.Package" uid="9688d416-271c-4252-bf19-cb7348979536"/>
+    <PID name="internal" mc="Standard.Package" uid="8de19d9c-309f-4c7f-968c-e82cba2f8859"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[derived]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="HTML2TextReader" mc="Standard.Class" uid="714053ca-261b-4b67-828a-a72865675f0e"/>
+        <COMPID name="HTMLTextPresenter" mc="Standard.Class" uid="9124d7f9-cd5e-44a7-9a09-cea5898668ea"/>
+        <COMPID name="LineBreakingReader" mc="Standard.Class" uid="dfe34109-20bc-4121-a791-dd4ed31c4533"/>
+        <COMPID name="SingleCharReader" mc="Standard.Class" uid="00340bc5-6b98-4397-b4ca-051916593da5"/>
+        <COMPID name="SubstitutionTextReader" mc="Standard.Class" uid="2e2147a1-84cc-4f11-bfeb-681a0bb637b1"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

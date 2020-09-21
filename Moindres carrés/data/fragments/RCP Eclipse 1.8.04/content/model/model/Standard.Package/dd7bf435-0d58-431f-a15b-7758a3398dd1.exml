@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="core" version="4">
+  <OBJECT>
+    <ID name="core" mc="Standard.Package" uid="dd7bf435-0d58-431f-a15b-7758a3398dd1"/>
+    <PID name="commons" mc="Standard.Package" uid="7a1d6d86-ba7e-4f55-b54c-a883ddc492f4"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[core]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractErrorReporter" mc="Standard.Class" uid="a1ca570a-c046-4d7c-9548-47536138b5e6"/>
+        <COMPID name="CommonListenerList" mc="Standard.Class" uid="89599416-9a69-4f5c-b83f-1df8f32abf81"/>
+        <COMPID name="CommonMessages" mc="Standard.Class" uid="ba7635ed-d3c0-44ae-9887-c9aa43cebef5"/>
+        <COMPID name="CoreUtil" mc="Standard.Class" uid="b25d1aca-5cf0-4586-8ef1-0436f0532ffa"/>
+        <COMPID name="DateUtil" mc="Standard.Class" uid="01f018c9-e818-4b73-b70e-d615217e2e8c"/>
+        <COMPID name="DelegatingProgressMonitor" mc="Standard.Class" uid="0fd01b55-fe13-464e-ac0a-956b1978da86"/>
+        <COMPID name="ExtensionPointReader" mc="Standard.Class" uid="890974a8-ddf8-46cd-bd63-7bdcf5926862"/>
+        <COMPID name="HtmlStreamTokenizer" mc="Standard.Class" uid="adffe856-e233-40d4-85c2-27883a5885b0"/>
+        <COMPID name="HtmlTag" mc="Standard.Class" uid="f9b11f80-b2b7-4518-a6dd-883d0224d883"/>
+        <COMPID name="HtmlUtil" mc="Standard.Class" uid="75e4e567-1cdc-4606-b5ee-dcc445516056"/>
+        <COMPID name="ICoreRunnable" mc="Standard.Interface" uid="87cff414-8c00-4f32-b840-f418e26c7f01"/>
+        <COMPID name="IDelegatingProgressMonitor" mc="Standard.Interface" uid="006a77fc-095a-477b-9cb0-97deea4c4125"/>
+        <COMPID name="InfiniteSubProgressMonitor" mc="Standard.Class" uid="094aaddd-c8b2-40c3-8bde-b26809957cec"/>
+        <COMPID name="StatusHandler" mc="Standard.Class" uid="3d320d6a-3454-4709-b9ef-ea915ddd61b7"/>
+        <COMPID name="XmlMemento" mc="Standard.Class" uid="1a0dd34e-4920-445f-a1c4-a5c6bdc8f984"/>
+        <COMPID name="io" mc="Standard.Package" uid="1be36d84-5e58-4c76-b001-a1d63338d665"/>
+        <COMPID name="net" mc="Standard.Package" uid="624897ee-7a3c-4048-8531-bfd64d81e443"/>
+        <COMPID name="operations" mc="Standard.Package" uid="0d642137-a15d-4ad1-95dc-a29f2cb8a43e"/>
+        <COMPID name="storage" mc="Standard.Package" uid="dea4a4b1-9133-4a7d-89c2-264890a00467"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

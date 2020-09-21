@@ -1,0 +1,107 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="internal" version="4">
+  <OBJECT>
+    <ID name="internal" mc="Standard.Package" uid="d9212ba3-aeff-4017-b122-a2ad13473688"/>
+    <PID name="validation" mc="Standard.Package" uid="d78463d4-cee5-4656-8618-bfd426f503ea"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[internal]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ConfigurationConstants" mc="Standard.Interface" uid="b83e3ec3-7c60-4d55-9df4-e5202885156c"/>
+        <COMPID name="ConfigurationManager" mc="Standard.Class" uid="86384b0f-0678-46db-9391-def1bb6c548a"/>
+        <COMPID name="ContentTypeWrapper" mc="Standard.Class" uid="03f59dd3-0d12-42b0-8059-391c1327ff5b"/>
+        <COMPID name="DebugConstants" mc="Standard.Interface" uid="a2175331-0b8f-455c-808c-a56831c2594e"/>
+        <COMPID name="DependencyIndex" mc="Standard.Class" uid="d068b22b-e72a-442b-bc1c-434400cae6f9"/>
+        <COMPID name="Deserializer" mc="Standard.Class" uid="e6836170-6abc-4e72-bd50-bde0924a3871"/>
+        <COMPID name="DisabledResourceManager" mc="Standard.Class" uid="fb627417-d335-47a3-bbd5-ed6570d79bd2"/>
+        <COMPID name="DisabledValidatorManager" mc="Standard.Class" uid="3ed4ebcd-862b-48ef-be47-6ab6ee48982c"/>
+        <COMPID name="EventManager" mc="Standard.Class" uid="bc362605-08c2-48bc-8488-03ed34aa2406"/>
+        <COMPID name="ExtensionConstants" mc="Standard.Interface" uid="0f1fab00-7ad1-406b-ba9a-5c6a1140669f"/>
+        <COMPID name="ExtensionValidators" mc="Standard.Class" uid="7fc8f276-d426-4487-856e-9d81c9156ac0"/>
+        <COMPID name="FilterUtil" mc="Standard.Class" uid="370862af-162a-458f-9e5a-992223e08e9d"/>
+        <COMPID name="FullBuildJob" mc="Standard.Class" uid="c79779b4-8f71-4386-bab0-c32b2b506b55"/>
+        <COMPID name="GlobalConfiguration" mc="Standard.Class" uid="0ceafe43-469f-45d0-a3df-924df9644e85"/>
+        <COMPID name="IProjectChangeListener" mc="Standard.Interface" uid="f76ed2d9-0834-439d-bb74-94e27a9e7ed8"/>
+        <COMPID name="IProjectValidationHelper" mc="Standard.Interface" uid="111cd82f-b383-4449-9098-35ab682fc4df"/>
+        <COMPID name="IValChangedListener" mc="Standard.Interface" uid="9de5b049-dbaa-41a5-a433-d68ed30e78b2"/>
+        <COMPID name="IValidationSelectionHandler" mc="Standard.Interface" uid="18026671-bced-4402-8a5d-a02b7aff0f10"/>
+        <COMPID name="InternalValidatorManager" mc="Standard.Class" uid="d760b088-fe95-4557-a84d-7eac01136fa4"/>
+        <COMPID name="MarkerManager" mc="Standard.Class" uid="06d41703-5bfb-465c-b8c4-fcc448b989d1"/>
+        <COMPID name="Misc" mc="Standard.Class" uid="b0deeb3c-f1b1-4abc-aea6-aa0dd6ac97f2"/>
+        <COMPID name="NullValidator" mc="Standard.Class" uid="7a4555af-a302-4a51-9c13-18bb8afc5283"/>
+        <COMPID name="PerformanceMonitor" mc="Standard.Class" uid="c703c7e1-e39f-4f58-970a-aa420d75b5e7"/>
+        <COMPID name="PrefConstants" mc="Standard.Interface" uid="c3406a1d-4169-45d4-ade0-916cd1fc9262"/>
+        <COMPID name="PreferencesWrapper" mc="Standard.Class" uid="0de5e627-9376-4107-841a-ead51388390b"/>
+        <COMPID name="ProjectConfiguration" mc="Standard.Class" uid="4c4402d1-d720-47e4-835a-3e8070607f33"/>
+        <COMPID name="ProjectUnavailableError" mc="Standard.Class" uid="3354cde0-ebd1-49bd-a40f-390b9f04a444"/>
+        <COMPID name="ReferencialFileValidatorExtension" mc="Standard.Class" uid="abf77e2f-b7c1-416e-adfd-72073ab2024f"/>
+        <COMPID name="ReferencialFileValidatorRegistryReader" mc="Standard.Class" uid="0b1df091-c0df-4676-ba4e-e19e12acd4c6"/>
+        <COMPID name="RegistryConstants" mc="Standard.Interface" uid="f3395dbd-5dfe-4146-bdda-deb881ee31bb"/>
+        <COMPID name="ResourceConstants" mc="Standard.Interface" uid="5ef8253e-31c4-47b7-9782-3ac27e97496c"/>
+        <COMPID name="ResourceHandler" mc="Standard.Class" uid="c498109a-3bcc-48e4-9b47-3fc228548290"/>
+        <COMPID name="ResourceUnavailableError" mc="Standard.Class" uid="0b07aafa-3f33-49fa-bef6-3622de533aa9"/>
+        <COMPID name="Serializer" mc="Standard.Class" uid="97122676-9711-4804-86e7-798be107cb58"/>
+        <COMPID name="SummaryReporter" mc="Standard.Class" uid="086848e4-b626-40fa-a189-6f34c4923c02"/>
+        <COMPID name="TaskListUtility" mc="Standard.Class" uid="7377f1a2-ceea-4ed5-b5f0-03d0bcb9b658"/>
+        <COMPID name="Tracing" mc="Standard.Class" uid="f292f3f5-bc1c-4189-badd-b2fec1521457"/>
+        <COMPID name="VThreadManager" mc="Standard.Class" uid="f051c2cf-82f7-481d-abe3-e5e95ca28a27"/>
+        <COMPID name="ValBuilderJob" mc="Standard.Class" uid="300506b8-5d3c-4317-9fb5-91887a2cf35e"/>
+        <COMPID name="ValConstants" mc="Standard.Interface" uid="3cffd764-7aef-4925-b936-377689359ab7"/>
+        <COMPID name="ValManager" mc="Standard.Class" uid="9ecf679d-5ba6-4eed-b923-ceceb52c2bac"/>
+        <COMPID name="ValMessages" mc="Standard.Class" uid="f42cc43c-8d31-408a-ae1a-b225f5446a91"/>
+        <COMPID name="ValOperation" mc="Standard.Class" uid="54970708-d16d-4707-a28c-e49dca5c7c8e"/>
+        <COMPID name="ValPrefManagerGlobal" mc="Standard.Class" uid="e653cf1c-9e6b-4636-b792-ad9c4b0a875a"/>
+        <COMPID name="ValPrefManagerProject" mc="Standard.Class" uid="d0c14825-ddb1-457b-b12c-1eb3fb03bb65"/>
+        <COMPID name="ValProperty" mc="Standard.Class" uid="4c7cfb91-9a43-4dbe-8c2a-388988cb05b3"/>
+        <OBJECT>
+          <ID name="ValType" mc="Standard.Enumeration" uid="f8b7e1c5-ff18-460c-8cb1-7661df2f17e0"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[ValType]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Extension">
+              <FOREIGNID name="JavaEnumeration" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0262-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <COMPID name="ValidationConfiguration" mc="Standard.Class" uid="58f98802-311f-4579-9c51-8f1b9c8c4e26"/>
+        <COMPID name="ValidationFactoryImpl" mc="Standard.Class" uid="20654f1a-86c5-47a2-b644-34ddacb194e3"/>
+        <COMPID name="ValidationRegistryReader" mc="Standard.Class" uid="c17e9b18-0c3a-4158-8b7e-e51a64062421"/>
+        <COMPID name="ValidationResultSummary" mc="Standard.Class" uid="f227b4fa-397f-4d47-a9f6-64de58bbd7fc"/>
+        <COMPID name="ValidationRunner" mc="Standard.Class" uid="8ca4c1d9-03bf-42a5-98f2-fe2d47e7505d"/>
+        <COMPID name="ValidationSelectionHandlerRegistryReader" mc="Standard.Class" uid="30a58d9b-f6ab-49fe-824d-01891756f50b"/>
+        <COMPID name="ValidatorActionFilter" mc="Standard.Class" uid="370f40ae-659c-4637-97ff-6db3e863d096"/>
+        <COMPID name="ValidatorExtensionReader" mc="Standard.Class" uid="97fc39ce-d0d9-46fb-8fde-4a00fbf8dc70"/>
+        <COMPID name="ValidatorFilter" mc="Standard.Class" uid="ff2a37a5-da46-4f31-9f30-aacf678ecf0d"/>
+        <COMPID name="ValidatorGroupExtensionReader" mc="Standard.Class" uid="8985df79-745b-4ef1-b05d-fb8f924376e9"/>
+        <COMPID name="ValidatorMetaData" mc="Standard.Class" uid="749a4f95-c94a-4caa-8e6a-2d806413b1ce"/>
+        <COMPID name="ValidatorMutable" mc="Standard.Class" uid="f87e750c-2cb6-4194-bb18-28f4fa3a420a"/>
+        <COMPID name="ValidatorNameFilter" mc="Standard.Class" uid="f290dce1-5a36-41ed-ae10-cd0ed2150179"/>
+        <COMPID name="ValidatorTypeFilter" mc="Standard.Class" uid="b2a2c8c1-56b6-4920-9909-4008800a40ff"/>
+        <COMPID name="core" mc="Standard.Package" uid="3c185ebe-dffb-43f2-8b4e-39d5ff607b28"/>
+        <COMPID name="delegates" mc="Standard.Package" uid="55ba1e5c-ee54-404a-b5fc-4915e3464226"/>
+        <COMPID name="model" mc="Standard.Package" uid="3384216a-5dca-4f85-ae25-f9decc0d4614"/>
+        <COMPID name="operations" mc="Standard.Package" uid="c3b1018f-21bb-4194-9eff-2fb82d77b8d2"/>
+        <COMPID name="plugin" mc="Standard.Package" uid="587d4272-b030-456c-b7de-77a960d86ced"/>
+        <COMPID name="provisional" mc="Standard.Package" uid="a524eddb-ed6c-47b1-8b76-11b13ad2a9aa"/>
+        <COMPID name="ui" mc="Standard.Package" uid="92f12de4-b0d4-4182-97bc-7bf1c2802fe1"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

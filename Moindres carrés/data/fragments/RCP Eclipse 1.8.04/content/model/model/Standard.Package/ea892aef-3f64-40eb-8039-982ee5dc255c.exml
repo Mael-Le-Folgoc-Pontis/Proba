@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="models" version="4">
+  <OBJECT>
+    <ID name="models" mc="Standard.Package" uid="ea892aef-3f64-40eb-8039-982ee5dc255c"/>
+    <PID name="recommenders" mc="Standard.Package" uid="a358c5e1-e2a3-468b-a21c-b2bca96b0f24"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[models]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractUniqueName" mc="Standard.Class" uid="fe7e55c4-e77b-40d4-a982-ced66482b716"/>
+        <COMPID name="DownloadCallback" mc="Standard.Class" uid="b06c8751-d6e7-404c-bd89-d0fab72421b9"/>
+        <COMPID name="IInputStreamTransformer" mc="Standard.Interface" uid="d1e1b5ac-b847-4cba-9e47-6a3061c6f0ed"/>
+        <COMPID name="IModelArchiveCoordinateAdvisor" mc="Standard.Interface" uid="dbff3091-a095-426f-aa40-a1e81365d26c"/>
+        <COMPID name="IModelIndex" mc="Standard.Interface" uid="0f686789-0b60-4804-a6f3-827793a4094f"/>
+        <COMPID name="IModelProvider" mc="Standard.Interface" uid="0b0aba1f-9828-4cad-aa06-cd8b0e76b68c"/>
+        <COMPID name="IModelRepository" mc="Standard.Interface" uid="5eab822d-a953-415c-bde9-f8cebf426904"/>
+        <COMPID name="IUniqueName" mc="Standard.Interface" uid="c548501f-b8b0-4fde-b409-eb3146cf7902"/>
+        <COMPID name="ModelCoordinate" mc="Standard.Class" uid="dc8bc635-be29-491e-99b5-1a22baf956c9"/>
+        <COMPID name="ModelCoordinates" mc="Standard.Class" uid="02884f09-1148-4b2c-a1e9-49bf5348df78"/>
+        <COMPID name="ModelRepository" mc="Standard.Class" uid="c5e8d8e1-52eb-46d0-a42d-99d29e4484f0"/>
+        <COMPID name="PoolingModelProvider" mc="Standard.Class" uid="a61b9228-6574-4b73-825a-c334111aec68"/>
+        <COMPID name="SimpleModelProvider" mc="Standard.Class" uid="de78e5ca-bf52-4e99-9cc5-d1e91618250b"/>
+        <COMPID name="UniqueMethodName" mc="Standard.Class" uid="8751a119-fa11-4153-befa-98bfbfaa3293"/>
+        <COMPID name="UniqueTypeName" mc="Standard.Class" uid="cae224de-d0df-45d7-933e-aa4e2d67158d"/>
+        <COMPID name="advisors" mc="Standard.Package" uid="0fef8bb4-4b7c-4f24-9d28-402050560857"/>
+        <COMPID name="rcp" mc="Standard.Package" uid="6cf1842e-9d1d-4968-841a-c0392e448e85"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="rcp" version="4">
+  <OBJECT>
+    <ID name="rcp" mc="Standard.Package" uid="094151d9-1049-477a-a832-f5536c8338b4"/>
+    <PID name="chain" mc="Standard.Package" uid="e9f9ab0f-4407-47fb-8794-460869f5bf8e"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[rcp]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Chain" mc="Standard.Class" uid="2f92b8be-b512-44e0-a4da-d1345ba382f0"/>
+        <COMPID name="ChainCompletionProposal" mc="Standard.Class" uid="e16bbd39-7644-41e1-9317-6510ac4291cd"/>
+        <COMPID name="ChainCompletionProposalComputer" mc="Standard.Class" uid="90e12ef5-d71c-4ef9-bcdb-cadd4e2ab467"/>
+        <COMPID name="ChainElement" mc="Standard.Class" uid="0c53b0b9-6ec5-4e99-b85e-0b5664e0fa23"/>
+        <COMPID name="ChainFinder" mc="Standard.Class" uid="f8c0fdc5-5832-4c97-92f0-e0fdea10b555"/>
+        <COMPID name="ChainPreferenceInitializer" mc="Standard.Class" uid="7992d192-55ba-4bc2-9812-c6ac5859a864"/>
+        <COMPID name="ChainQuickAssistProcessor" mc="Standard.Class" uid="63d5cfa6-1bc1-4743-a3fd-728f3db142c7"/>
+        <COMPID name="ChainRcpModule" mc="Standard.Class" uid="4b91770e-3582-4081-8aee-1f7d9452b0ba"/>
+        <COMPID name="ChainRcpPlugin" mc="Standard.Class" uid="2cbdc905-1cf2-481c-8e1f-4767111b8938"/>
+        <COMPID name="ChainsPreferencePage" mc="Standard.Class" uid="dead23ef-7b36-4f00-98e6-6c957399b4ed"/>
+        <COMPID name="CompletionKeyShortcutHandler" mc="Standard.Class" uid="1a4b3bbd-d04b-4a90-954e-8e1c57efc1ea"/>
+        <COMPID name="CompletionTemplateBuilder" mc="Standard.Class" uid="87777b3f-8a16-4848-bab2-fff1d1aa807d"/>
+        <COMPID name="ScopeAccessWorkaround" mc="Standard.Class" uid="245c4c04-7e2d-4e2f-91a0-470029936d7c"/>
+        <COMPID name="TypeBindingAnalyzer" mc="Standard.Class" uid="b55e5b1b-9943-4cab-8aff-3991e226607f"/>
+        <COMPID name="l10n" mc="Standard.Package" uid="6eacc68c-def3-41f8-a76e-15c4543c0576"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

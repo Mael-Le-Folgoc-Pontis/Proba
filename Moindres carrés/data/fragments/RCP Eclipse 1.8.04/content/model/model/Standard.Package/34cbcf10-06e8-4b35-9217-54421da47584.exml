@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="hash" version="4">
+  <OBJECT>
+    <ID name="hash" mc="Standard.Package" uid="34cbcf10-06e8-4b35-9217-54421da47584"/>
+    <PID name="common" mc="Standard.Package" uid="a53057d4-becb-49c8-a124-0d91b5f0d087"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[hash]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="BloomFilter" mc="Standard.Class" uid="229355b6-86bf-43e1-8985-54c199c6fa66"/>
+        <COMPID name="Funnel" mc="Standard.Interface" uid="68bfe5d6-7356-428b-a40f-dd528622ddd7"/>
+        <COMPID name="Funnels" mc="Standard.Class" uid="5fa7befb-da58-4cc9-8f2f-5e10b4b7c840"/>
+        <COMPID name="HashCode" mc="Standard.Class" uid="382fadfa-e0d4-4cf6-8daf-1014fcf32da2"/>
+        <COMPID name="HashCodes" mc="Standard.Class" uid="d4145067-6ed3-4a02-8379-f6dc183e3c64"/>
+        <COMPID name="HashFunction" mc="Standard.Interface" uid="19800ccb-8546-49b8-9223-c5d121b57f70"/>
+        <COMPID name="Hasher" mc="Standard.Interface" uid="6033cfa8-1c94-4b57-b973-830b9e86c0fb"/>
+        <COMPID name="Hashing" mc="Standard.Class" uid="38f21958-6c52-48bd-9785-9c8ded45e215"/>
+        <COMPID name="HashingInputStream" mc="Standard.Class" uid="de2f62f3-7194-45b6-b9f9-8586c031a1b5"/>
+        <COMPID name="HashingOutputStream" mc="Standard.Class" uid="ebd350e1-f0a0-437c-8632-88a7c1a19e6f"/>
+        <COMPID name="PrimitiveSink" mc="Standard.Interface" uid="333f0ef9-06dc-47f0-87cc-b3c81768ac2e"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

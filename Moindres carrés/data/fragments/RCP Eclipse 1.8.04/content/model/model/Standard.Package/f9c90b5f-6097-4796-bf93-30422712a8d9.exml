@@ -1,0 +1,79 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="node" version="4">
+  <OBJECT>
+    <ID name="node" mc="Standard.Package" uid="f9c90b5f-6097-4796-bf93-30422712a8d9"/>
+    <PID name="parser" mc="Standard.Package" uid="4290afbf-f62d-4b24-9ff7-9cab789e98c0"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[node]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ASTAddNode" mc="Standard.Class" uid="8c04bb75-b9d2-4fc3-b7b6-18b0c8f52b10"/>
+        <COMPID name="ASTAndNode" mc="Standard.Class" uid="c6a924dc-08b2-4c57-bd52-0eec22fd5e7f"/>
+        <COMPID name="ASTAssignment" mc="Standard.Class" uid="bd41fc49-0659-48e3-b5eb-9564136bb738"/>
+        <COMPID name="ASTBlock" mc="Standard.Class" uid="4195eeaf-6add-4a6c-a096-adcfe95d8a24"/>
+        <COMPID name="ASTComment" mc="Standard.Class" uid="30365992-385a-4fe7-a718-5bcb8ea49bee"/>
+        <COMPID name="ASTDirective" mc="Standard.Class" uid="36dd410d-b40c-4481-848b-c95291f9fc85"/>
+        <COMPID name="ASTDivNode" mc="Standard.Class" uid="c874fd44-e693-42ae-ac97-de3e4d86f82b"/>
+        <COMPID name="ASTEQNode" mc="Standard.Class" uid="12b3fb1e-d900-4970-8fc5-69982cb93ecc"/>
+        <COMPID name="ASTElseIfStatement" mc="Standard.Class" uid="84edda82-6d86-4ae1-b790-56e3f2659821"/>
+        <COMPID name="ASTElseStatement" mc="Standard.Class" uid="c63a8984-4408-4fcc-ae0d-0e82fde22b25"/>
+        <COMPID name="ASTEscape" mc="Standard.Class" uid="97f77f07-5774-402e-9d4c-12a69ad7e005"/>
+        <COMPID name="ASTEscapedDirective" mc="Standard.Class" uid="6b384953-da0b-4973-809f-31a4bb7888e7"/>
+        <COMPID name="ASTExpression" mc="Standard.Class" uid="52ccbd7a-d513-403d-a6e0-c769f81ae821"/>
+        <COMPID name="ASTFalse" mc="Standard.Class" uid="d4505272-2e8e-4073-89a5-c70aea7291ee"/>
+        <COMPID name="ASTFloatingPointLiteral" mc="Standard.Class" uid="602e2d86-2f03-4d50-b965-4aaf866dad39"/>
+        <COMPID name="ASTGENode" mc="Standard.Class" uid="78f7f706-12ef-4c22-857c-917d7ffff60e"/>
+        <COMPID name="ASTGTNode" mc="Standard.Class" uid="59bc31ea-6ca9-4a91-a82d-068429d50e14"/>
+        <COMPID name="ASTIdentifier" mc="Standard.Class" uid="a61f1bd8-5f19-4c40-979e-4049113a497b"/>
+        <COMPID name="ASTIfStatement" mc="Standard.Class" uid="852d15d7-2517-49ce-82b9-0ee22282f1bb"/>
+        <COMPID name="ASTIncludeStatement" mc="Standard.Class" uid="ce81a2fe-b477-468b-b98f-86d63e024b67"/>
+        <COMPID name="ASTIntegerLiteral" mc="Standard.Class" uid="97bb4f0f-cf75-4514-960c-22c983519235"/>
+        <COMPID name="ASTIntegerRange" mc="Standard.Class" uid="bf518dc8-6dc5-4901-99c3-c735c9bd63bb"/>
+        <COMPID name="ASTLENode" mc="Standard.Class" uid="67f76909-8521-45bf-bd04-e50f68463837"/>
+        <COMPID name="ASTLTNode" mc="Standard.Class" uid="d45fb682-e54d-44aa-80cd-5d2aae600142"/>
+        <COMPID name="ASTMap" mc="Standard.Class" uid="4d1ba604-3d1c-47b2-a796-c01809e6bf8a"/>
+        <COMPID name="ASTMethod" mc="Standard.Class" uid="a4a863cd-719e-4b05-87f3-08bbf52ce36c"/>
+        <COMPID name="ASTModNode" mc="Standard.Class" uid="184492cd-02f2-4873-afe7-7a1531ec8801"/>
+        <COMPID name="ASTMulNode" mc="Standard.Class" uid="f3a33140-680c-47b3-baf5-3ea55370c8da"/>
+        <COMPID name="ASTNENode" mc="Standard.Class" uid="55fdf82b-e71d-4fc9-88df-32053f0cdfe3"/>
+        <COMPID name="ASTNotNode" mc="Standard.Class" uid="0c7245fc-b81c-4032-aeba-94e7fe7fa371"/>
+        <COMPID name="ASTObjectArray" mc="Standard.Class" uid="aa458d5f-9e12-4640-8c62-cb4fdbb90539"/>
+        <COMPID name="ASTOrNode" mc="Standard.Class" uid="f2f5c5f9-2547-486a-8f51-f71cb943f6dd"/>
+        <COMPID name="ASTParameters" mc="Standard.Class" uid="370a4730-5c7e-4ecf-969e-fcb0f9ad81a7"/>
+        <COMPID name="ASTReference" mc="Standard.Class" uid="ea24ef7e-8a86-43eb-a3c0-f78bb92e2146"/>
+        <COMPID name="ASTSetDirective" mc="Standard.Class" uid="8a63d4f2-9916-48bc-b94b-876ecebc4dc2"/>
+        <COMPID name="ASTStop" mc="Standard.Class" uid="7a4fb255-c3dd-404b-b456-13bc5324c09d"/>
+        <COMPID name="ASTStringLiteral" mc="Standard.Class" uid="c72bbb74-bc61-4898-bae0-afef2d90dbb4"/>
+        <COMPID name="ASTSubtractNode" mc="Standard.Class" uid="2f5b40fc-94fa-4294-9709-bff86346b39f"/>
+        <COMPID name="ASTText" mc="Standard.Class" uid="5cd43d6c-8d62-4528-8f19-9a9507e6e07a"/>
+        <COMPID name="ASTTrue" mc="Standard.Class" uid="eabb6408-9756-4597-9315-886b12c4b7e6"/>
+        <COMPID name="ASTVariable" mc="Standard.Class" uid="32831a86-328e-45fe-9279-9d877517fec1"/>
+        <COMPID name="ASTWord" mc="Standard.Class" uid="12bb76e3-c8bc-4c97-80c0-a9e807cde9c5"/>
+        <COMPID name="ASTprocess" mc="Standard.Class" uid="c0d42d18-55cc-4acc-b882-7b26cbfa17db"/>
+        <COMPID name="AbstractExecutor" mc="Standard.Class" uid="88f8e092-94ba-4c41-ac41-b7c585ee2f02"/>
+        <COMPID name="BooleanPropertyExecutor" mc="Standard.Class" uid="fb479692-26b3-4e4e-9041-13438351a85b"/>
+        <COMPID name="GetExecutor" mc="Standard.Class" uid="9535f080-7c1d-4c2a-a270-83b1504038d7"/>
+        <COMPID name="MapGetExecutor" mc="Standard.Class" uid="91d3e9b5-5e52-426c-b647-7d95aada9a05"/>
+        <COMPID name="MapSetExecutor" mc="Standard.Class" uid="c24631ae-09a7-40ef-8d47-f1d01dd97fbb"/>
+        <COMPID name="MathUtils" mc="Standard.Class" uid="b690274c-1412-4136-9ff5-1a8bbca04400"/>
+        <COMPID name="Node" mc="Standard.Interface" uid="39c606b7-59af-4416-b050-9757183b2185"/>
+        <COMPID name="NodeUtils" mc="Standard.Class" uid="757caf6c-4d14-4d51-b19a-e929add85f17"/>
+        <COMPID name="PropertyExecutor" mc="Standard.Class" uid="92f777dc-781b-4a6b-853b-4cf73246dee9"/>
+        <COMPID name="PutExecutor" mc="Standard.Class" uid="597d347b-cebf-44ac-ab0e-aefab7049e70"/>
+        <COMPID name="SetExecutor" mc="Standard.Class" uid="027453ee-95e5-41a5-8da0-3300ef900e1d"/>
+        <COMPID name="SetPropertyExecutor" mc="Standard.Class" uid="a3665d6b-3950-4a3e-abec-5d6f585cee07"/>
+        <COMPID name="SimpleNode" mc="Standard.Class" uid="084e261e-9b62-473d-83bd-5ba2e270c067"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

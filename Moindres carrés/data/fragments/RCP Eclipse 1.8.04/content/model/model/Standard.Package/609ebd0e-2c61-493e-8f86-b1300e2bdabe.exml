@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="internal" version="4">
+  <OBJECT>
+    <ID name="internal" mc="Standard.Package" uid="609ebd0e-2c61-493e-8f86-b1300e2bdabe"/>
+    <PID name="search" mc="Standard.Package" uid="c7bd5619-309b-4014-896e-815b6d74b821"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[internal]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Messages" mc="Standard.Class" uid="0149733e-e20e-4004-9eb3-43b69cac9d40"/>
+        <COMPID name="SearchDocumentSetImpl" mc="Standard.Class" uid="e0676b0b-6555-426e-bf81-6003e00d6995"/>
+        <COMPID name="SearchParticipantDescriptor" mc="Standard.Class" uid="719c5012-d6a4-423c-a73a-a2caf4d6e5c7"/>
+        <COMPID name="SearchParticipantRegistry" mc="Standard.Class" uid="be4fa07a-c630-4c2a-9bb9-5df5664e7321"/>
+        <COMPID name="SearchParticipantRegistryReader" mc="Standard.Class" uid="0bc9b14e-b866-4158-ab97-019113ec376c"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

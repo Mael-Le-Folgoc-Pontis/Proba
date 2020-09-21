@@ -1,0 +1,58 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="map" version="4">
+  <OBJECT>
+    <ID name="map" mc="Standard.Package" uid="6dff1955-dff3-49c4-925a-00443b88510c"/>
+    <PID name="collections" mc="Standard.Package" uid="a284a2b1-efc0-4907-b43d-a516c9a55292"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[map]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractHashedMap" mc="Standard.Class" uid="c624e84c-25ba-4d7f-9685-02eb11b43413"/>
+        <COMPID name="AbstractLinkedMap" mc="Standard.Class" uid="6ed514af-ba82-4eaf-afec-0581ca2e86ee"/>
+        <COMPID name="AbstractMapDecorator" mc="Standard.Class" uid="3cb8266f-3d8a-406d-8cbb-b4ea7b07dae7"/>
+        <COMPID name="AbstractOrderedMapDecorator" mc="Standard.Class" uid="4e56cfa8-2642-4d76-b83a-6022f39de9f6"/>
+        <COMPID name="AbstractReferenceMap" mc="Standard.Class" uid="7cb7eeb7-b0b8-4d56-bf61-9f4313990524"/>
+        <COMPID name="AbstractSortedMapDecorator" mc="Standard.Class" uid="d9c66ae5-6f46-432d-a31d-50b92ca7385e"/>
+        <COMPID name="CaseInsensitiveMap" mc="Standard.Class" uid="91290966-8793-4ec3-a898-16fa34a30764"/>
+        <COMPID name="CompositeMap" mc="Standard.Class" uid="c1469d20-916f-45d8-a773-a3172d1665e2"/>
+        <COMPID name="DefaultedMap" mc="Standard.Class" uid="c13ba0a3-6573-4972-aaba-993158f391d0"/>
+        <COMPID name="FixedSizeMap" mc="Standard.Class" uid="0bec8943-d54d-4ade-9c60-4f4c56fbcb46"/>
+        <COMPID name="FixedSizeSortedMap" mc="Standard.Class" uid="1c117411-b38b-431e-a11c-ab66a8490e5d"/>
+        <COMPID name="Flat3Map" mc="Standard.Class" uid="24df6019-d37d-4eeb-9ffd-d00c6b40d1d4"/>
+        <COMPID name="HashedMap" mc="Standard.Class" uid="479d0bb9-501f-4762-839a-3fb454d1ec09"/>
+        <COMPID name="IdentityMap" mc="Standard.Class" uid="8ff31b0c-20e1-4372-92f1-2a0b9bd4e08b"/>
+        <COMPID name="LRUMap" mc="Standard.Class" uid="f312236c-aa7a-43ca-9881-cc88a48e0d76"/>
+        <COMPID name="LazyMap" mc="Standard.Class" uid="4f9e6587-1d12-4c0f-87d5-0cc7fd159eb6"/>
+        <COMPID name="LazySortedMap" mc="Standard.Class" uid="2643b4b5-589a-45e4-b08b-3e406f09b44c"/>
+        <COMPID name="LinkedMap" mc="Standard.Class" uid="0cca81aa-d281-462e-9079-0d89bf2716c3"/>
+        <COMPID name="ListOrderedMap" mc="Standard.Class" uid="bc74ff51-5476-4f19-a1d0-64a8af9d726b"/>
+        <COMPID name="MultiKeyMap" mc="Standard.Class" uid="3c8a9571-bf1f-4754-916b-8b31dc493048"/>
+        <COMPID name="MultiValueMap" mc="Standard.Class" uid="6247e0c6-2c62-4de8-b79b-14b73be693d4"/>
+        <COMPID name="PredicatedMap" mc="Standard.Class" uid="c1d667e9-b36c-40ef-94b3-38d698163f95"/>
+        <COMPID name="PredicatedSortedMap" mc="Standard.Class" uid="f9f2f1b9-3fb9-4da5-b9e1-ccf300f430b6"/>
+        <COMPID name="ReferenceIdentityMap" mc="Standard.Class" uid="657d232a-0194-4386-b90c-b0661e72dd40"/>
+        <COMPID name="ReferenceMap" mc="Standard.Class" uid="7a74ae7a-ed1f-4061-9fd3-35d02a6b9d1f"/>
+        <COMPID name="SingletonMap" mc="Standard.Class" uid="2413073f-1ce3-444c-89dd-784195a1f4f8"/>
+        <COMPID name="StaticBucketMap" mc="Standard.Class" uid="f445f804-5670-4c23-816b-dea96ab4fc03"/>
+        <COMPID name="TransformedMap" mc="Standard.Class" uid="ee517af7-10e5-4273-af83-38eef8d1d21b"/>
+        <COMPID name="TransformedSortedMap" mc="Standard.Class" uid="678272f4-e028-4484-aa5a-164915adae54"/>
+        <COMPID name="TypedMap" mc="Standard.Class" uid="f8b08946-d5c4-4378-bda7-d1e39de6d6fc"/>
+        <COMPID name="TypedSortedMap" mc="Standard.Class" uid="e84186d5-31d9-4535-a281-a07a8ad419c9"/>
+        <COMPID name="UnmodifiableEntrySet" mc="Standard.Class" uid="0654d967-ecc4-457d-b6ca-8902bafbe66b"/>
+        <COMPID name="UnmodifiableMap" mc="Standard.Class" uid="bef66d75-628b-4640-ad8a-a87aae3b21b6"/>
+        <COMPID name="UnmodifiableOrderedMap" mc="Standard.Class" uid="48b77b3f-ce33-4128-89ef-5ccc475bd189"/>
+        <COMPID name="UnmodifiableSortedMap" mc="Standard.Class" uid="a31ff4d1-9d23-4b3d-be20-ee942c3fd1bf"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

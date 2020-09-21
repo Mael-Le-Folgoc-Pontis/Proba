@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="util" version="4">
+  <OBJECT>
+    <ID name="util" mc="Standard.Package" uid="674585d9-1a4b-11e0-8090-00137279a832"/>
+    <PID name="type" mc="Standard.Package" uid="661de240-1a4b-11e0-8090-00137279a832"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[util]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="XMLTypeResourceImpl" mc="Standard.Class" uid="674f0f4a-1a4b-11e0-8090-00137279a832"/>
+        <COMPID name="XMLTypeUtil" mc="Standard.Class" uid="674585db-1a4b-11e0-8090-00137279a832"/>
+        <COMPID name="XMLTypeValidator" mc="Standard.Class" uid="674585da-1a4b-11e0-8090-00137279a832"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

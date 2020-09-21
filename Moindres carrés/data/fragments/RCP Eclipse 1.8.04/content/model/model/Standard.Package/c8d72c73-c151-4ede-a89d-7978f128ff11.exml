@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="webserver" version="4">
+  <OBJECT>
+    <ID name="webserver" mc="Standard.Package" uid="c8d72c73-c151-4ede-a89d-7978f128ff11"/>
+    <PID name="xmlrpc" mc="Standard.Package" uid="3caa19ae-c32b-4acc-b4e2-14d2bd04e5bb"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[webserver]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Connection" mc="Standard.Class" uid="53eefeeb-2bc9-4307-9291-dde6abb44b64"/>
+        <COMPID name="HttpServletRequestImpl" mc="Standard.Class" uid="bea63310-0077-46dc-b43a-a0c430c5b3e1"/>
+        <COMPID name="HttpServletResponseImpl" mc="Standard.Class" uid="35819415-fe71-4caa-aad7-668098a8da7d"/>
+        <COMPID name="RequestData" mc="Standard.Class" uid="1b6b1c02-baf3-456f-85f4-01ec5af8ef4e"/>
+        <COMPID name="ServletConnection" mc="Standard.Class" uid="34131ad5-6c66-4a12-b7a9-8926ed699031"/>
+        <COMPID name="ServletWebServer" mc="Standard.Class" uid="05bc951d-407a-452a-a50d-291a1869da48"/>
+        <COMPID name="WebServer" mc="Standard.Class" uid="8b7e6c23-d9d5-4523-950a-5da27e0e6f57"/>
+        <COMPID name="XmlRpcServlet" mc="Standard.Class" uid="b9bb55d7-bc48-4258-8f5b-d91f07dad410"/>
+        <COMPID name="XmlRpcServletServer" mc="Standard.Class" uid="35063cee-5e20-4c69-a5d5-4bb8caa7108c"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="wagon" version="4">
+  <OBJECT>
+    <ID name="wagon" mc="Standard.Package" uid="5218404c-5535-4d19-890e-f29b4ac7811a"/>
+    <PID name="transport" mc="Standard.Package" uid="c799872a-8e1f-40a1-b36c-a842004d3c44"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[wagon]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="WagonConfigurator" mc="Standard.Interface" uid="437103df-5302-4aa7-b235-d0a2b8378741"/>
+        <COMPID name="WagonProvider" mc="Standard.Interface" uid="91a586b8-e2ab-493b-83da-023094e8eebf"/>
+        <COMPID name="WagonTransporterFactory" mc="Standard.Class" uid="638debdb-f8d3-4cd8-ac1d-a17fd4686e04"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

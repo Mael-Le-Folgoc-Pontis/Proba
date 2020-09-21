@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="beans" version="4">
+  <OBJECT>
+    <ID name="beans" mc="Standard.Package" uid="340508ed-065c-43e8-a1e0-dcb67c08999d"/>
+    <PID name="cglib" mc="Standard.Package" uid="2bf8a8fe-acc9-4c36-86d5-2828785e1d53"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[beans]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="BeanCopier" mc="Standard.Class" uid="bb2b05cb-909f-4db5-b7aa-b7731a13f892"/>
+        <COMPID name="BeanGenerator" mc="Standard.Class" uid="b1d209a7-99cf-409f-b5f7-61862cf01841"/>
+        <COMPID name="BeanMap" mc="Standard.Class" uid="b4c813f1-054f-4187-8444-43d00c7170d9"/>
+        <COMPID name="BulkBean" mc="Standard.Class" uid="ec9b6d90-78de-4f45-88bd-1f13c7f261d2"/>
+        <COMPID name="BulkBeanException" mc="Standard.Class" uid="c1391b16-6f55-42a0-9db0-d6fbef399f46"/>
+        <COMPID name="FixedKeySet" mc="Standard.Class" uid="944bded3-b2eb-4791-a145-20df4c2bb968"/>
+        <COMPID name="ImmutableBean" mc="Standard.Class" uid="17b8de5f-55d9-4d03-b5a0-66e1f96cff3f"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

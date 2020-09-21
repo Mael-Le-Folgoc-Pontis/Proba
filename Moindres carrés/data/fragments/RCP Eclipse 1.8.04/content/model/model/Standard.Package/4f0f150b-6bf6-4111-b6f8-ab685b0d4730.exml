@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="policy" version="4">
+  <OBJECT>
+    <ID name="policy" mc="Standard.Package" uid="4f0f150b-6bf6-4111-b6f8-ab685b0d4730"/>
+    <PID name="gefTree" mc="Standard.Package" uid="3ad157e7-571f-4919-818f-02cb19542d03"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[policy]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbsoluteLayoutEditPolicy" mc="Standard.Class" uid="6109a07f-4442-4b54-987d-c9bee92174d5"/>
+        <COMPID name="BorderLayoutEditPolicy" mc="Standard.Class" uid="eb827027-6724-49d2-a0af-bfe9cf8787db"/>
+        <COMPID name="DefaultLayoutEditPolicy" mc="Standard.Class" uid="cbd973b9-296a-4c65-9284-e70026d0b59d"/>
+        <COMPID name="DropLayoutEditPolicy" mc="Standard.Class" uid="7b28ebd9-3b14-4eab-9a0c-cd9cf5fd91d5"/>
+        <COMPID name="GenericFlowLayoutEditPolicy" mc="Standard.Class" uid="5308d1d0-4143-42b4-b184-4c09ec2be7c1"/>
+        <COMPID name="GridBagLayoutEditPolicy" mc="Standard.Class" uid="c6c6cc73-aeb3-40c9-9d35-fbde01598ad9"/>
+        <COMPID name="SpringLayoutEditPolicy" mc="Standard.Class" uid="e7b7b88d-1d01-4bc0-b663-2469fa8697e1"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

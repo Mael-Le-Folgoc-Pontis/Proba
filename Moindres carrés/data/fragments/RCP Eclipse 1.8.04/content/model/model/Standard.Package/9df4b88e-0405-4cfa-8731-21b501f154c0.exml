@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="forms" version="4">
+  <OBJECT>
+    <ID name="forms" mc="Standard.Package" uid="9df4b88e-0405-4cfa-8731-21b501f154c0"/>
+    <PID name="workbench" mc="Standard.Package" uid="c03ad54e-b791-45c1-9675-fb8e7f68d391"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[forms]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="CommonFormUtil" mc="Standard.Class" uid="0c1dc471-2925-4663-bbba-9e5a5470d134"/>
+        <COMPID name="DatePicker" mc="Standard.Class" uid="56de936e-f5c6-42bf-9f09-9801354677e8"/>
+        <COMPID name="DatePickerPanel" mc="Standard.Class" uid="437862ce-1473-4210-b441-6dc5eb46308b"/>
+        <COMPID name="DateSelectionDialog" mc="Standard.Class" uid="f6f28c16-4887-4d7c-81e6-f7e90fa16c4f"/>
+        <COMPID name="InPlaceDateSelectionDialog" mc="Standard.Class" uid="adc439ab-3326-496b-831f-bf0dfc36eeb2"/>
+        <COMPID name="MessageControl" mc="Standard.Class" uid="18c48682-98e1-4f4b-bd02-b16220e8f4aa"/>
+        <COMPID name="RichToolTip" mc="Standard.Class" uid="4e189657-e446-48a7-a3e7-40b6e96cba39"/>
+        <COMPID name="ScalingHyperlink" mc="Standard.Class" uid="c5a947e7-eafa-480c-bcdb-a3b6e4fedcd9"/>
+        <COMPID name="SectionComposite" mc="Standard.Class" uid="9062ccf1-c9d5-42a8-9129-23633297010b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

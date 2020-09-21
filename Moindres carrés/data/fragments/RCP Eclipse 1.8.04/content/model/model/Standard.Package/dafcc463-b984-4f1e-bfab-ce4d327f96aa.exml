@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="annotations" version="4">
+  <OBJECT>
+    <ID name="annotations" mc="Standard.Package" uid="dafcc463-b984-4f1e-bfab-ce4d327f96aa"/>
+    <PID name="component" mc="Standard.Package" uid="a636ff1a-7e5e-4a10-ac67-3c0b934785fc"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[annotations]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Activate" mc="Standard.Class" uid="bff1d8fb-b1ba-4171-9048-6ce463451c19"/>
+        <COMPID name="Component" mc="Standard.Class" uid="f25eb8bf-ed7f-4108-84cf-668f43abd5c7"/>
+        <COMPID name="ConfigurationPolicy" mc="Standard.Class" uid="435767da-60bc-43c9-a550-42c5847d92de"/>
+        <COMPID name="Deactivate" mc="Standard.Class" uid="0b6804b7-96b9-40e0-b658-8de206f43fe8"/>
+        <COMPID name="Modified" mc="Standard.Class" uid="faeb1dd4-07a8-4972-b8fe-4fc98efcdd72"/>
+        <COMPID name="Reference" mc="Standard.Class" uid="79ea1918-5971-46e3-8b69-ef1ae4c439f7"/>
+        <COMPID name="ReferenceCardinality" mc="Standard.Class" uid="22fb0eef-3ea7-4bd8-8ef1-783f65472cf7"/>
+        <COMPID name="ReferencePolicy" mc="Standard.Class" uid="dff2130b-e0b9-40cb-849f-a2edc11290ef"/>
+        <COMPID name="ReferencePolicyOption" mc="Standard.Class" uid="67afd564-6b64-4f3f-b2b4-788c56ed5765"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

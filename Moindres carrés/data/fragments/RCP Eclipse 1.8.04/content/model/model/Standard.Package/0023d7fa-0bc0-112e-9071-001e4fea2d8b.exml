@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="filesystem" version="4">
+  <OBJECT>
+    <ID name="filesystem" mc="Standard.Package" uid="0023d7fa-0bc0-112e-9071-001e4fea2d8b"/>
+    <PID name="internal" mc="Standard.Package" uid="008cece0-21a6-1fb1-8a9e-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[filesystem]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Activator" mc="Standard.Class" uid="0023deda-0bc0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FileCache" mc="Standard.Class" uid="0023e6b4-0bc0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="InternalFileSystemCore" mc="Standard.Class" uid="0023ee16-0bc0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Messages" mc="Standard.Class" uid="0023f5e6-0bc0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="NullFileStore" mc="Standard.Class" uid="0023fdde-0bc0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="NullFileSystem" mc="Standard.Class" uid="002405d6-0bc0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Policy" mc="Standard.Class" uid="00240e28-0bc0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="java7" mc="Standard.Package" uid="f4ab2013-b4cf-43e0-8829-2f983c506289"/>
+        <COMPID name="local" mc="Standard.Package" uid="00254626-0bc0-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="dto" version="4">
+  <OBJECT>
+    <ID name="dto" mc="Standard.Package" uid="8295f6de-7c2e-4dc1-bdf4-c75ba76e017e"/>
+    <PID name="resource" mc="Standard.Package" uid="003a480a-21b1-1fb1-8a9e-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[dto]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="CapabilityDTO" mc="Standard.Class" uid="fe6385d5-823d-431c-828f-39fbbf1c1e6d"/>
+        <COMPID name="CapabilityRefDTO" mc="Standard.Class" uid="3a11b5b6-59ea-42f0-bc3a-79b21911c1bb"/>
+        <COMPID name="RequirementDTO" mc="Standard.Class" uid="9288f760-098d-487b-8263-27ae8c9cc63d"/>
+        <COMPID name="RequirementRefDTO" mc="Standard.Class" uid="db671c0c-3b13-40d2-a310-b7bebf8209d9"/>
+        <COMPID name="ResourceDTO" mc="Standard.Class" uid="211b2e7a-88cf-44e1-a8f8-b2d21c01b022"/>
+        <COMPID name="WireDTO" mc="Standard.Class" uid="084a8805-abcd-451a-a8ae-91ec8bb5b441"/>
+        <COMPID name="WiringDTO" mc="Standard.Class" uid="2f5fc448-9001-4775-80dd-ada98245e3d4"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

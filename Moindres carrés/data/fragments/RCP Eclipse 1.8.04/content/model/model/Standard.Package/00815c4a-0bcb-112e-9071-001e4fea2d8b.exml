@@ -1,0 +1,54 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="launching" version="4">
+  <OBJECT>
+    <ID name="launching" mc="Standard.Package" uid="00815c4a-0bcb-112e-9071-001e4fea2d8b"/>
+    <PID name="jdt" mc="Standard.Package" uid="003b0678-0bc8-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[launching]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractJavaLaunchConfigurationDelegate" mc="Standard.Class" uid="00816294-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AbstractVMInstall" mc="Standard.Class" uid="008168f2-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AbstractVMInstallType" mc="Standard.Class" uid="00816f28-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AbstractVMRunner" mc="Standard.Class" uid="008175b8-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ExecutionArguments" mc="Standard.Class" uid="00817c8e-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IJavaLaunchConfigurationConstants" mc="Standard.Interface" uid="00818256-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ILibraryLocationResolver" mc="Standard.Interface" uid="436d9d43-bebb-437a-8c1a-967284e01538"/>
+        <COMPID name="IRuntimeClasspathEntry" mc="Standard.Interface" uid="00818922-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IRuntimeClasspathEntry2" mc="Standard.Interface" uid="00818ff8-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IRuntimeClasspathEntryResolver" mc="Standard.Interface" uid="008196c4-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IRuntimeClasspathEntryResolver2" mc="Standard.Interface" uid="00819e08-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IRuntimeClasspathProvider" mc="Standard.Interface" uid="0081a574-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IRuntimeContainerComparator" mc="Standard.Interface" uid="0081acd6-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IVMConnector" mc="Standard.Interface" uid="0081b4a6-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IVMInstall" mc="Standard.Interface" uid="0081bca8-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IVMInstall2" mc="Standard.Interface" uid="0081c4b4-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IVMInstall3" mc="Standard.Interface" uid="0081ccf2-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IVMInstallChangedListener" mc="Standard.Interface" uid="0081d576-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IVMInstallType" mc="Standard.Interface" uid="0081de4a-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IVMRunner" mc="Standard.Interface" uid="0081e778-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaLaunchDelegate" mc="Standard.Class" uid="0081eee4-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaRuntime" mc="Standard.Class" uid="0081f632-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LibraryLocation" mc="Standard.Class" uid="0081fd6c-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PropertyChangeEvent" mc="Standard.Class" uid="0082055a-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SocketUtil" mc="Standard.Class" uid="00820d34-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="StandardClasspathProvider" mc="Standard.Class" uid="0082152c-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="StandardSourcePathProvider" mc="Standard.Class" uid="00821d6a-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="VMRunnerConfiguration" mc="Standard.Class" uid="00822b8e-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="VMStandin" mc="Standard.Class" uid="0082343a-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="environments" mc="Standard.Package" uid="0082fcd0-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="sourcelookup" mc="Standard.Package" uid="0083f554-0bcb-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="cnf" version="4">
+  <OBJECT>
+    <ID name="cnf" mc="Standard.Package" uid="ce2b5d94-2417-452b-bcd5-78324a21d9ef"/>
+    <PID name="ui" mc="Standard.Package" uid="d7e20bb8-a809-424a-871f-6607a58074e5"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[cnf]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="BreakpointManagerContentProvider" mc="Standard.Class" uid="092bfc29-fa64-4784-9daa-73757b02ae88"/>
+        <COMPID name="BreakpointManagerLabelProvider" mc="Standard.Class" uid="981728d6-62e0-4471-bf61-17543dbbce96"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

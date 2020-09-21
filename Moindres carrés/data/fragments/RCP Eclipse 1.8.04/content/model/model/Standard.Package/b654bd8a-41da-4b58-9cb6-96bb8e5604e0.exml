@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="part" version="4">
+  <OBJECT>
+    <ID name="part" mc="Standard.Package" uid="b654bd8a-41da-4b58-9cb6-96bb8e5604e0"/>
+    <PID name="gefTree" mc="Standard.Package" uid="6e08750d-15bf-45b2-a367-ca6dedfe6fce"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[part]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="JavaEditPart" mc="Standard.Class" uid="bb1a77cf-59b8-40ce-9d2f-c712fb777d37"/>
+        <COMPID name="ObjectEditPart" mc="Standard.Class" uid="4b5748ac-4882-4e0d-8c35-49d1b7f59cba"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="editor" version="4">
+  <OBJECT>
+    <ID name="editor" mc="Standard.Package" uid="ea6e6803-9483-4c40-a2ce-e6d031aecf7c"/>
+    <PID name="ui" mc="Standard.Package" uid="329fdeb4-ff7a-4255-a32a-1b2aca9d076a"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[editor]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractWikiTextDocumentProvider" mc="Standard.Class" uid="66931f3d-a739-42a4-b72e-e3233e8dbb7a"/>
+        <COMPID name="AbstractWikiTextSourceEditorOutline" mc="Standard.Class" uid="f6b6a327-a051-4706-a6a2-a5104cf3b36d"/>
+        <COMPID name="DefaultWikiTextSourceEditorOutline" mc="Standard.Class" uid="619d95d2-735d-4451-a116-32e03b5bd711"/>
+        <COMPID name="MarkupSourceViewer" mc="Standard.Class" uid="6f9e6d2e-951c-435c-a5bb-9e0fd8cd8e98"/>
+        <COMPID name="MarkupSourceViewerConfiguration" mc="Standard.Class" uid="94dfa925-f0bc-4f70-b7b3-45f4e79016aa"/>
+        <COMPID name="ShowInTargetBridge" mc="Standard.Class" uid="f2221791-cc17-4ab2-aaf9-09bcc366a2f6"/>
+        <COMPID name="WikiTextDocumentProvider" mc="Standard.Interface" uid="0de82063-e80e-43cc-bb5a-c588d6f2c119"/>
+        <COMPID name="WikiTextSourceEditor" mc="Standard.Class" uid="f9a49451-df52-4686-8fe3-0260e16b5fa9"/>
+        <COMPID name="WikiTextSourcePartitioning" mc="Standard.Class" uid="46873faf-f787-4370-987c-bde76e787ad1"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,54 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="plugin" version="4">
+  <OBJECT>
+    <ID name="plugin" mc="Standard.Package" uid="007deb1e-0bd0-112e-9071-001e4fea2d8b"/>
+    <PID name="core" mc="Standard.Package" uid="0064dc0a-0bd0-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[plugin]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbbreviatedFragmentModel" mc="Standard.Class" uid="007df1fe-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AbbreviatedPluginHandler" mc="Standard.Class" uid="007df816-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AbbreviatedPluginModel" mc="Standard.Class" uid="007dfe7e-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AbstractExtensions" mc="Standard.Class" uid="007e0536-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AbstractExtensionsModel" mc="Standard.Class" uid="007e0bc6-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AbstractPluginModelBase" mc="Standard.Class" uid="007e12d8-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AttributeChangedEvent" mc="Standard.Class" uid="007e1a12-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Extensions" mc="Standard.Class" uid="007e214c-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ExternalFragmentModel" mc="Standard.Class" uid="007e28e0-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ExternalPluginModel" mc="Standard.Class" uid="007e30ba-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ExternalPluginModelBase" mc="Standard.Class" uid="007e38bc-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Fragment" mc="Standard.Class" uid="007e4104-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IWritableDelimiter" mc="Standard.Interface" uid="007e4712-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IdentifiablePluginObject" mc="Standard.Class" uid="007e4ff0-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ImportObject" mc="Standard.Class" uid="007e58e2-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Plugin" mc="Standard.Class" uid="007e61c0-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PluginAttribute" mc="Standard.Class" uid="007e6a80-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PluginBase" mc="Standard.Class" uid="007e73c2-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PluginElement" mc="Standard.Class" uid="007e7d22-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PluginExtension" mc="Standard.Class" uid="007e866e-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PluginExtensionPoint" mc="Standard.Class" uid="007e9096-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PluginHandler" mc="Standard.Class" uid="007e9a96-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PluginImport" mc="Standard.Class" uid="007ea48c-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PluginLibrary" mc="Standard.Class" uid="007eaf36-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PluginObject" mc="Standard.Class" uid="007eb9d6-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PluginParent" mc="Standard.Class" uid="007ec46c-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PluginReference" mc="Standard.Class" uid="007ecf70-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WorkspaceExtensionsModel" mc="Standard.Class" uid="007edb1e-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WorkspaceFragmentModel" mc="Standard.Class" uid="007ee640-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WorkspacePluginModel" mc="Standard.Class" uid="007ef1c6-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WorkspacePluginModelBase" mc="Standard.Class" uid="007efd88-0bd0-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

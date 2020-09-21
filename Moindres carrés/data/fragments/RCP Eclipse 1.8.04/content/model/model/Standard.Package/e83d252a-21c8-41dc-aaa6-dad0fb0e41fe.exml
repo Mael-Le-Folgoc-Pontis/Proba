@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="tooling" version="4">
+  <OBJECT>
+    <ID name="tooling" mc="Standard.Package" uid="e83d252a-21c8-41dc-aaa6-dad0fb0e41fe"/>
+    <PID name="gradleware" mc="Standard.Package" uid="0ec126ff-751d-4041-9144-83afbdd2d7e3"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[tooling]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="toolingclient" mc="Standard.Package" uid="f243faeb-f43b-457f-abec-13a14bdd23c0"/>
+        <COMPID name="toolingmodel" mc="Standard.Package" uid="6454d015-5c3e-453e-9a19-30beea78c954"/>
+        <COMPID name="toolingutils" mc="Standard.Package" uid="f8308fd1-4c8d-415a-98b7-91e2704157b6"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

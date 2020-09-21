@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="taginfo" version="4">
+  <OBJECT>
+    <ID name="taginfo" mc="Standard.Package" uid="a2af6b85-3360-4547-8b62-47138b1d9d4e"/>
+    <PID name="internal" mc="Standard.Package" uid="8de19d9c-309f-4c7f-968c-e82cba2f8859"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[taginfo]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractHoverProcessor" mc="Standard.Class" uid="d75fd851-8f62-427b-b271-ad8b5a97223c"/>
+        <COMPID name="AnnotationHoverProcessor" mc="Standard.Class" uid="deaf161c-e575-4a64-b2a3-c19b7ac1a5ae"/>
+        <COMPID name="BestMatchHover" mc="Standard.Class" uid="b365044a-85a0-4ed7-9301-57751ff8efa1"/>
+        <COMPID name="DebugInfoHoverProcessor" mc="Standard.Class" uid="69007c03-bcf2-4bb5-8f50-299d6d245cb8"/>
+        <COMPID name="ProblemAnnotationHoverProcessor" mc="Standard.Class" uid="2c52ba66-2fda-4c5e-9ef1-ba4b22e588dc"/>
+        <COMPID name="TextHoverManager" mc="Standard.Class" uid="c0158b47-c568-422a-88d4-7de76f22d4e6"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

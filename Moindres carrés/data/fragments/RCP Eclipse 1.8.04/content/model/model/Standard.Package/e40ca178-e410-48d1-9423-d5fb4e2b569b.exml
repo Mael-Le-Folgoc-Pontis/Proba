@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="maven" version="4">
+  <OBJECT>
+    <ID name="maven" mc="Standard.Package" uid="e40ca178-e410-48d1-9423-d5fb4e2b569b"/>
+    <PID name="coordinates" mc="Standard.Package" uid="947efbd6-4947-41ba-9943-3e707aeb1d68"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[maven]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="MavenCentralFingerprintSearchAdvisor" mc="Standard.Class" uid="863a99bd-c37c-498c-a7c5-74e95e5f633f"/>
+        <COMPID name="MavenPomPropertiesAdvisor" mc="Standard.Class" uid="f50eb2b1-09ca-418c-9f37-e355151f5728"/>
+        <COMPID name="MavenPomXmlAdvisor" mc="Standard.Class" uid="89ced912-cc5c-4970-8d2a-8ae78ce83719"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

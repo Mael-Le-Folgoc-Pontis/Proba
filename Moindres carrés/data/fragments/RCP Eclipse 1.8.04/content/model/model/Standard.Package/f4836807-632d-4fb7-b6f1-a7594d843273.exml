@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="util" version="4">
+  <OBJECT>
+    <ID name="util" mc="Standard.Package" uid="f4836807-632d-4fb7-b6f1-a7594d843273"/>
+    <PID name="core" mc="Standard.Package" uid="1174b24d-8cb0-49f4-8c06-9db5b4c9b021"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[util]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="HttpLaunchable" mc="Standard.Class" uid="3ac3393c-96b6-412b-b173-a764e1808690"/>
+        <COMPID name="IStaticWeb" mc="Standard.Interface" uid="01802766-b6cd-4a33-97d5-1f0554586a52"/>
+        <COMPID name="ModuleFile" mc="Standard.Class" uid="a55eaef4-71d4-45fe-8e07-4ff682fafa75"/>
+        <COMPID name="ModuleFolder" mc="Standard.Class" uid="ed507662-5cfe-4ee8-ae11-0cec5fa96e43"/>
+        <COMPID name="NullModuleArtifact" mc="Standard.Class" uid="5ac2063b-d8f1-437e-a247-a6360e4074a7"/>
+        <COMPID name="ProjectModule" mc="Standard.Class" uid="8fa823aa-a839-458c-b53c-e48452057492"/>
+        <COMPID name="ProjectModuleFactoryDelegate" mc="Standard.Class" uid="6c239394-05ae-419d-832c-ece7ea3aa1c8"/>
+        <COMPID name="PublishAdapter" mc="Standard.Class" uid="622cd33c-a995-43be-908b-9dacd93f99a1"/>
+        <COMPID name="PublishHelper" mc="Standard.Class" uid="3dba741e-82c6-42c5-86bc-35bfaa153b44"/>
+        <COMPID name="PublishUtil" mc="Standard.Class" uid="d8b13033-937f-45fd-9851-d3ea9b101ac3"/>
+        <COMPID name="RuntimeLifecycleAdapter" mc="Standard.Class" uid="908f565c-11cb-483d-a5e0-df849779077a"/>
+        <COMPID name="ServerLifecycleAdapter" mc="Standard.Class" uid="04f52488-b562-49f6-bd80-c30ce58ccdf4"/>
+        <COMPID name="SocketUtil" mc="Standard.Class" uid="06a47f30-26c4-479b-afd4-8e5b10309c64"/>
+        <COMPID name="WebResource" mc="Standard.Class" uid="d8e55452-23a8-427f-a1f8-f15b338b3ff9"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

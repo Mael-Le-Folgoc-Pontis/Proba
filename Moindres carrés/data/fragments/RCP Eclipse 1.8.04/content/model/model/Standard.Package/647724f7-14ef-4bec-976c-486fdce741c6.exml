@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="reflection" version="4">
+  <OBJECT>
+    <ID name="reflection" mc="Standard.Package" uid="647724f7-14ef-4bec-976c-486fdce741c6"/>
+    <PID name="util" mc="Standard.Package" uid="4db11711-6a51-4a50-aabc-31926afc26d3"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[reflection]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Reflector" mc="Standard.Class" uid="48924c67-ab16-48b5-993a-fedfc9c64f58"/>
+        <COMPID name="ReflectorException" mc="Standard.Class" uid="22b46c22-b417-496a-ad64-fe145352608d"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="log" version="4">
+  <OBJECT>
+    <ID name="log" mc="Standard.Package" uid="e64a04fe-5bd3-47cc-863c-b14c9239166c"/>
+    <PID name="runtime" mc="Standard.Package" uid="b49e96ae-43ea-4b59-bab5-7fead6df26ae"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[log]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AvalonLogChute" mc="Standard.Class" uid="4e068585-4c2d-4307-a5df-e63913fc9293"/>
+        <COMPID name="AvalonLogSystem" mc="Standard.Class" uid="3c4e7ef4-d9e7-4a0d-9f7a-74ba4935b63c"/>
+        <COMPID name="JdkLogChute" mc="Standard.Class" uid="13a722ee-954f-4134-b982-7d553a78cef4"/>
+        <COMPID name="Log" mc="Standard.Class" uid="34e400e1-f40d-4d12-a1f2-90af5b9b16ad"/>
+        <COMPID name="Log4JLogChute" mc="Standard.Class" uid="c2a278b0-c150-42d1-829d-d9c816c68415"/>
+        <COMPID name="Log4JLogSystem" mc="Standard.Class" uid="ab9fcec3-1930-472d-b4c2-48b12c8853eb"/>
+        <COMPID name="LogChute" mc="Standard.Interface" uid="673efb9b-8381-4100-a4d7-3c0b482b369f"/>
+        <COMPID name="LogChuteSystem" mc="Standard.Class" uid="170fe615-1607-4acf-be9d-953b4ffef245"/>
+        <COMPID name="LogDisplayWrapper" mc="Standard.Class" uid="85da95ef-ec73-4f8a-85b9-2b7c2032c2a1"/>
+        <COMPID name="LogManager" mc="Standard.Class" uid="b199fb6a-9551-484e-b49b-ccf89c66eb77"/>
+        <COMPID name="LogSystem" mc="Standard.Interface" uid="e3f56781-5b78-4459-963f-f64a0460508a"/>
+        <COMPID name="NullLogChute" mc="Standard.Class" uid="ba1864c0-8465-4393-82a8-a6f41ecfc5ce"/>
+        <COMPID name="NullLogSystem" mc="Standard.Class" uid="14ef5e68-3a29-4583-a5f1-7510b2be4a0c"/>
+        <COMPID name="PrimordialLogSystem" mc="Standard.Class" uid="db3618c8-4b28-4431-906b-1f18def6b725"/>
+        <COMPID name="RuntimeLoggerLog" mc="Standard.Class" uid="0b945dbf-0125-4fe5-bc9a-847ad816aa4c"/>
+        <COMPID name="SimpleLog4JLogSystem" mc="Standard.Class" uid="a2422fc5-1036-4613-8466-76cdb06ed9ff"/>
+        <COMPID name="SystemLogChute" mc="Standard.Class" uid="29924039-b52e-4f3d-ae51-a7a8edf7a10c"/>
+        <COMPID name="VelocityFormatter" mc="Standard.Class" uid="c843eafe-cfdc-4b68-b4e3-b43622496648"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="util" version="4">
+  <OBJECT>
+    <ID name="util" mc="Standard.Package" uid="b5240454-e9f3-4325-9451-831fbea99efb"/>
+    <PID name="oro" mc="Standard.Package" uid="9b6c849d-7caa-4be9-9aaf-a9591491bafb"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[util]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Cache" mc="Standard.Interface" uid="da7d7b5b-f8e3-4545-a610-fbf6320808d5"/>
+        <COMPID name="CacheFIFO" mc="Standard.Class" uid="9bd4bf49-2f29-43d1-841e-1ae3331ad163"/>
+        <COMPID name="CacheFIFO2" mc="Standard.Class" uid="085163e3-9795-4ab9-8fbc-abf69fea4dd2"/>
+        <COMPID name="CacheLRU" mc="Standard.Class" uid="c60b7692-85b3-420b-beb3-8bcf28574991"/>
+        <COMPID name="CacheRandom" mc="Standard.Class" uid="8f1cdf0c-08a1-4baa-83fe-4ddb7ea69f77"/>
+        <COMPID name="GenericCache" mc="Standard.Class" uid="e3b769fe-eb16-4d9d-a779-d072945bbb10"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

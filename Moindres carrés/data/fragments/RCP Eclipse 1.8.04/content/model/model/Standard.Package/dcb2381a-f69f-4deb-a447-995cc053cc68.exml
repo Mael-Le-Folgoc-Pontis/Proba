@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="xmleditor" version="4">
+  <OBJECT>
+    <ID name="xmleditor" mc="Standard.Package" uid="dcb2381a-f69f-4deb-a447-995cc053cc68"/>
+    <PID name="gui" mc="Standard.Package" uid="00044520-0bbd-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[xmleditor]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="XMLContext" mc="Standard.Class" uid="34b4e797-7136-4c33-ac82-037874da7526"/>
+        <COMPID name="XMLDocument" mc="Standard.Class" uid="dc4a02ec-cbfe-4e5a-a0e7-21a6dd493006"/>
+        <COMPID name="XMLEditorKit" mc="Standard.Class" uid="3f70a95e-4286-45f6-bd31-68d97f316e73"/>
+        <COMPID name="XMLScanner" mc="Standard.Class" uid="d93f32c8-80a6-4c73-aa4c-8eb11f8764e7"/>
+        <COMPID name="XMLTextEditor" mc="Standard.Class" uid="5923b0de-cd7d-464c-ab17-e7c102e87b5f"/>
+        <COMPID name="XMLToken" mc="Standard.Class" uid="536c78ef-4968-482a-9fad-1e6cbca15d8c"/>
+        <COMPID name="XMLView" mc="Standard.Class" uid="48dff18b-e512-4980-99dd-79c12278461e"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

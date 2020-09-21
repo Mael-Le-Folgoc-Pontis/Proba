@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="commons" version="4">
+  <OBJECT>
+    <ID name="commons" mc="Standard.Package" uid="0009d012-0bbd-112e-9071-001e4fea2d8b"/>
+    <PID name="apache" mc="Standard.Package" uid="00858518-21b0-1fb1-8a9e-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[commons]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="beanutils" mc="Standard.Package" uid="2d34d6e3-423d-4ca3-a197-ae9edb436c07"/>
+        <COMPID name="cli" mc="Standard.Package" uid="491aca3c-34ce-49e0-837d-cb179ecf2d10"/>
+        <COMPID name="codec" mc="Standard.Package" uid="000a3cbe-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="collections" mc="Standard.Package" uid="a284a2b1-efc0-4907-b43d-a516c9a55292"/>
+        <COMPID name="compress" mc="Standard.Package" uid="4bbfa8b2-c665-4f31-8bdf-deb5f9e97724"/>
+        <COMPID name="digester" mc="Standard.Package" uid="6d31e989-2200-4a23-9aed-1a9f26c65a63"/>
+        <COMPID name="httpclient" mc="Standard.Package" uid="000db1aa-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="io" mc="Standard.Package" uid="5e71a916-8548-43c4-a2c2-b88ae4b5171c"/>
+        <COMPID name="jxpath" mc="Standard.Package" uid="5605dc9c-f600-4a17-96a6-7ff45b5b4e36"/>
+        <COMPID name="lang" mc="Standard.Package" uid="aaa366b2-06b1-4bbf-b7dd-3497ccf82d96"/>
+        <COMPID name="lang3" mc="Standard.Package" uid="5a22ce01-ca4b-4c97-924f-8551fc63766c"/>
+        <COMPID name="logging" mc="Standard.Package" uid="001a85ce-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="math" mc="Standard.Package" uid="6f81fdc4-2ff0-400d-8d89-7999bec4c6cd"/>
+        <COMPID name="pool" mc="Standard.Package" uid="128d5666-e80e-4844-9929-5e5dea80b723"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

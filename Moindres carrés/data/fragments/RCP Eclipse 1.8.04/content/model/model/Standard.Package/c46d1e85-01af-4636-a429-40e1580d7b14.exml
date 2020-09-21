@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="impl" version="4">
+  <OBJECT>
+    <ID name="impl" mc="Standard.Package" uid="c46d1e85-01af-4636-a429-40e1580d7b14"/>
+    <PID name="internal" mc="Standard.Package" uid="15e3a0b9-371b-4f36-9b9d-294eede5a953"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[impl]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="DefaultArtifactResolver" mc="Standard.Class" uid="56449a87-2c98-490c-b4e4-c62283e59d4e"/>
+        <COMPID name="DefaultChecksumPolicyProvider" mc="Standard.Class" uid="e41489f7-e5d2-4ed9-b8ed-a7762c1b24b9"/>
+        <COMPID name="DefaultDependencyCollector" mc="Standard.Class" uid="db70b567-2f09-4355-88fb-e5e92bf9cb55"/>
+        <COMPID name="DefaultDeployer" mc="Standard.Class" uid="34dbd409-440c-466d-bc79-e44f8597619d"/>
+        <COMPID name="DefaultFileProcessor" mc="Standard.Class" uid="e767f953-587f-4a17-aa1f-2b2b4efcd048"/>
+        <COMPID name="DefaultInstaller" mc="Standard.Class" uid="7aabef09-430d-4d71-a134-06adcb1cfdf4"/>
+        <COMPID name="DefaultLocalRepositoryProvider" mc="Standard.Class" uid="9d785e84-5a40-4fe8-9b87-1b3e4ac937f3"/>
+        <COMPID name="DefaultMetadataResolver" mc="Standard.Class" uid="b9f72b1a-69d0-4d85-ad0d-19f57b985444"/>
+        <COMPID name="DefaultOfflineController" mc="Standard.Class" uid="3b79f6b8-721b-4b8f-84fc-a560682475c8"/>
+        <COMPID name="DefaultRemoteRepositoryManager" mc="Standard.Class" uid="afd3b564-f11a-49cb-b8a3-1bb549fc1221"/>
+        <COMPID name="DefaultRepositoryConnectorProvider" mc="Standard.Class" uid="8988a986-64a5-481b-8ef1-af657af1a830"/>
+        <COMPID name="DefaultRepositoryEventDispatcher" mc="Standard.Class" uid="a3c7f7e7-fae0-483f-af2f-55b2175d9376"/>
+        <COMPID name="DefaultRepositoryLayoutProvider" mc="Standard.Class" uid="804a6c35-850b-49de-8258-c91c6d261cc7"/>
+        <COMPID name="DefaultRepositorySystem" mc="Standard.Class" uid="28250d4f-b567-438e-bc3f-0fc4ff6a2357"/>
+        <COMPID name="DefaultSyncContextFactory" mc="Standard.Class" uid="630966e2-9922-42a6-891d-358e9743cf6c"/>
+        <COMPID name="DefaultTransporterProvider" mc="Standard.Class" uid="dbb89ed2-d5c6-4c73-a679-bdae276769ab"/>
+        <COMPID name="DefaultUpdateCheckManager" mc="Standard.Class" uid="d3d18756-6ad2-4644-9d4e-3c7e8b0d805e"/>
+        <COMPID name="DefaultUpdatePolicyAnalyzer" mc="Standard.Class" uid="80f62e43-ea82-4898-a597-2425e0780a31"/>
+        <COMPID name="EnhancedLocalRepositoryManagerFactory" mc="Standard.Class" uid="e3be3a5e-ef9f-457c-bbef-ebf0cede1c26"/>
+        <COMPID name="LoggerFactoryProvider" mc="Standard.Class" uid="a9004fe9-1b39-48eb-a49d-f25941ecc55e"/>
+        <COMPID name="Maven2RepositoryLayoutFactory" mc="Standard.Class" uid="c659a242-bc22-465f-9a97-20e636a6e033"/>
+        <COMPID name="SimpleLocalRepositoryManagerFactory" mc="Standard.Class" uid="dc1de084-cf0d-455b-8e56-44a3f9ed1d2a"/>
+        <COMPID name="slf4j" mc="Standard.Package" uid="8283eaea-792d-4fd0-87ef-2ebd37721565"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

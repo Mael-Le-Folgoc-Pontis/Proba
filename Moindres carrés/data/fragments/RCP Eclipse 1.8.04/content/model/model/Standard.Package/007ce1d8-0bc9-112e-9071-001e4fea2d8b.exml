@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="structure" version="4">
+  <OBJECT>
+    <ID name="structure" mc="Standard.Package" uid="007ce1d8-0bc9-112e-9071-001e4fea2d8b"/>
+    <PID name="refactoring" mc="Standard.Package" uid="00538518-0bc9-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[structure]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ASTNodeSearchUtil" mc="Standard.Class" uid="007ce886-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BodyUpdater" mc="Standard.Class" uid="007ceebc-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ChangeSignatureProcessor" mc="Standard.Class" uid="007cf560-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ChangeTypeRefactoring" mc="Standard.Class" uid="007d23e6-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CompilationUnitRewrite" mc="Standard.Class" uid="007d30a2-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ExtractClassRefactoring" mc="Standard.Class" uid="007d3ef8-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ExtractInterfaceConstraintsSolver" mc="Standard.Class" uid="007d69d2-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ExtractInterfaceProcessor" mc="Standard.Class" uid="007d7198-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ExtractSupertypeProcessor" mc="Standard.Class" uid="007d794a-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HierarchyProcessor" mc="Standard.Class" uid="007d817e-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IDefaultValueAdvisor" mc="Standard.Interface" uid="007d9538-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IMemberActionInfo" mc="Standard.Interface" uid="007d9ce0-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ImportRemover" mc="Standard.Class" uid="007da578-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ImportRewriteUtil" mc="Standard.Class" uid="007dbc16-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IntroduceParameterObjectProcessor" mc="Standard.Class" uid="007dc4ea-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MemberVisibilityAdjustor" mc="Standard.Class" uid="007de2ea-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MoveInnerToTopRefactoring" mc="Standard.Class" uid="007e0e5a-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MoveInstanceMethodProcessor" mc="Standard.Class" uid="007e2bd8-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MoveStaticMembersProcessor" mc="Standard.Class" uid="007ea3f6-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ParameterObjectFactory" mc="Standard.Class" uid="007ec62e-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PullUpRefactoringProcessor" mc="Standard.Class" uid="007ede66-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PushDownRefactoringProcessor" mc="Standard.Class" uid="007ef6d0-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ReferenceFinderUtil" mc="Standard.Class" uid="007f1aac-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TypeVariableMaplet" mc="Standard.Class" uid="007f25d8-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TypeVariableUtil" mc="Standard.Class" uid="007f3172-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="UseSuperTypeProcessor" mc="Standard.Class" uid="007f3d2a-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="constraints" mc="Standard.Package" uid="008168f2-0bc9-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

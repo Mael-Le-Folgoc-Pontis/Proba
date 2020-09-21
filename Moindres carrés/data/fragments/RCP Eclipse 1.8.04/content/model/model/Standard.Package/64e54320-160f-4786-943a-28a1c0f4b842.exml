@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="annotation" version="4">
+  <OBJECT>
+    <ID name="annotation" mc="Standard.Package" uid="64e54320-160f-4786-943a-28a1c0f4b842"/>
+    <PID name="http" mc="Standard.Package" uid="69579971-0298-4981-9fc7-48c3562d4504"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[annotation]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="GuardedBy" mc="Standard.Class" uid="dcf0122d-5697-48b8-99fd-c0428a57a406"/>
+        <COMPID name="Immutable" mc="Standard.Class" uid="6dbe0010-126a-45c6-a3fa-3ee07f7cfaf6"/>
+        <COMPID name="NotThreadSafe" mc="Standard.Class" uid="39361ec6-a02c-4503-97ea-07df6b944919"/>
+        <COMPID name="ThreadSafe" mc="Standard.Class" uid="803faf43-ab09-47e5-95fd-a72700f97cc5"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

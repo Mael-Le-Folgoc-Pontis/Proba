@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="modifiedselector" version="4">
+  <OBJECT>
+    <ID name="modifiedselector" mc="Standard.Package" uid="008c1086-0bbe-112e-9071-001e4fea2d8b"/>
+    <PID name="selectors" mc="Standard.Package" uid="0089936a-0bbe-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[modifiedselector]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Algorithm" mc="Standard.Interface" uid="008c1752-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Cache" mc="Standard.Interface" uid="008c1ebe-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ChecksumAlgorithm" mc="Standard.Class" uid="008c2602-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DigestAlgorithm" mc="Standard.Class" uid="008c2d78-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="EqualComparator" mc="Standard.Class" uid="008c34da-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HashvalueAlgorithm" mc="Standard.Class" uid="008c3caa-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ModifiedSelector" mc="Standard.Class" uid="008c44d4-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PropertiesfileCache" mc="Standard.Class" uid="008c7aee-0bbe-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="util" version="4">
+  <OBJECT>
+    <ID name="util" mc="Standard.Package" uid="f54e2cda-748d-4754-a7ef-0fbf1f2f798c"/>
+    <PID name="resolver" mc="Standard.Package" uid="269e334d-83c2-4e1f-ab18-40070523feb5"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[util]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="CopyOnWriteList" mc="Standard.Class" uid="d19f19b2-c655-4257-b57f-144205d2f446"/>
+        <COMPID name="CopyOnWriteSet" mc="Standard.Class" uid="5632b9e0-286d-47b2-9465-6413f98536ae"/>
+        <COMPID name="OpenHashMap" mc="Standard.Class" uid="fce10ab0-9a5d-4d74-b0d7-700f1638a26f"/>
+        <COMPID name="OpenHashMapList" mc="Standard.Class" uid="5ace5dc9-070b-4bb1-9a04-49b524429821"/>
+        <COMPID name="OpenHashMapSet" mc="Standard.Class" uid="e23da010-a7ab-49ad-80ae-6992fcd228b1"/>
+        <COMPID name="ShadowList" mc="Standard.Class" uid="59febe81-8191-4161-887a-cee7f406cc4d"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

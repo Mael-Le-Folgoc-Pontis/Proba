@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ui" version="4">
+  <OBJECT>
+    <ID name="ui" mc="Standard.Package" uid="6f900284-e2a7-46cd-a311-001bd46654f0"/>
+    <PID name="repositories" mc="Standard.Package" uid="690620e3-934a-4abc-9909-3e7650c45444"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[ui]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="EmptyRepositoryCategoriesFilter" mc="Standard.Class" uid="cf96a58a-1b82-4b38-8b5d-0bcedd6c0d5e"/>
+        <COMPID name="Messages" mc="Standard.Class" uid="9d284823-79d3-4dea-afad-1cb2aa592975"/>
+        <COMPID name="NewRepositoryHandler" mc="Standard.Class" uid="5e836ef9-cd39-4bba-b4ea-73593b1f9911"/>
+        <COMPID name="RepositoriesUiPlugin" mc="Standard.Class" uid="755f2a59-1449-48b8-9d0a-eab4568613cb"/>
+        <COMPID name="RepositoriesView" mc="Standard.Class" uid="4658a78e-0afc-4b1f-b004-bc02d675823d"/>
+        <COMPID name="RepositoryCategoryContentProvider" mc="Standard.Class" uid="3b498765-8843-4ac5-8127-b921c4c9d462"/>
+        <COMPID name="RepositoryCategorySorter" mc="Standard.Class" uid="2d39a8d0-c4a1-4c1b-8e39-1060c0d1826f"/>
+        <COMPID name="RepositoryLabelProvider" mc="Standard.Class" uid="86643e9d-0a36-4abd-9d94-a69ae95ca190"/>
+        <COMPID name="RepositoryLocationValueProperty" mc="Standard.Class" uid="7e4a1179-70fc-4e99-b63f-52bb41629df8"/>
+        <COMPID name="RepositoryUiUtil" mc="Standard.Class" uid="b8a6755d-d152-41db-ad5e-4dd377c463ad"/>
+        <COMPID name="ShowInMenuContribution" mc="Standard.Class" uid="39f3736f-65a8-4ec8-aa48-bf27bd495e12"/>
+        <COMPID name="UiLocationService" mc="Standard.Class" uid="15fd7d57-0937-46cf-9850-75123366a5e2"/>
+        <COMPID name="UiSecureCredentialsStore" mc="Standard.Class" uid="668bf9ae-e77c-4203-9032-c5d5824c047a"/>
+        <COMPID name="auth" mc="Standard.Package" uid="ccd0992c-e25a-40b5-bb84-cc45cd5b7438"/>
+        <COMPID name="wizards" mc="Standard.Package" uid="8ba6b63f-dcfc-4dac-b577-08f2ea18acca"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

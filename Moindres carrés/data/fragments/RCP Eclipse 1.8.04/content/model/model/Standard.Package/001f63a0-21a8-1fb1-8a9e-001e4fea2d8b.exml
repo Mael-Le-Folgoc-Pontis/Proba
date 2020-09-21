@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="databinding" version="4">
+  <OBJECT>
+    <ID name="databinding" mc="Standard.Package" uid="001f63a0-21a8-1fb1-8a9e-001e4fea2d8b"/>
+    <PID name="core" mc="Standard.Package" uid="00359468-21a6-1fb1-8a9e-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[databinding]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AggregateValidationStatus" mc="Standard.Class" uid="002063fe-21a8-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="Binding" mc="Standard.Class" uid="002b1b8c-21a8-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="BindingException" mc="Standard.Class" uid="0023e222-21a8-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="BindingProperties" mc="Standard.Class" uid="002409a0-21a8-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="DataBindingContext" mc="Standard.Class" uid="0021d702-21a8-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ListBinding" mc="Standard.Class" uid="0024cd2c-21a8-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ObservablesManager" mc="Standard.Class" uid="003e422a-21a8-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="SetBinding" mc="Standard.Class" uid="001f7f7a-21a8-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="UpdateListStrategy" mc="Standard.Class" uid="0023843a-21a8-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="UpdateSetStrategy" mc="Standard.Class" uid="006c30ae-21a8-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="UpdateValueStrategy" mc="Standard.Class" uid="0022da80-21a8-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ValidationStatusProvider" mc="Standard.Class" uid="00246d82-21a8-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="beans" mc="Standard.Package" uid="00260bce-21a8-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="conversion" mc="Standard.Package" uid="002c2b26-21a8-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="observable" mc="Standard.Package" uid="003f68f8-21a8-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="property" mc="Standard.Package" uid="002e37ae-21a8-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="util" mc="Standard.Package" uid="006f4f1e-21a8-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="validation" mc="Standard.Package" uid="006d6618-21a8-1fb1-8a9e-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

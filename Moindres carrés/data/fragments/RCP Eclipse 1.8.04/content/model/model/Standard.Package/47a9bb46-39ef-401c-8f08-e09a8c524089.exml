@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="rcp" version="4">
+  <OBJECT>
+    <ID name="rcp" mc="Standard.Package" uid="47a9bb46-39ef-401c-8f08-e09a8c524089"/>
+    <PID name="utils" mc="Standard.Package" uid="4a3c717d-586c-43a8-abdd-03a5b9f1c1de"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[rcp]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Browsers" mc="Standard.Class" uid="ab2f6846-556e-4604-930e-5d4f7d928cfe"/>
+        <COMPID name="Selections" mc="Standard.Class" uid="d1f3021e-91c9-4b06-ba6a-f7901bf09500"/>
+        <COMPID name="TimeDelimitedProgressMonitor" mc="Standard.Class" uid="f7de1b8a-d7d2-4e96-b6b1-58f62a078472"/>
+        <COMPID name="preferences" mc="Standard.Package" uid="9721c483-c2a1-4d58-9d8f-b40d6e71e236"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

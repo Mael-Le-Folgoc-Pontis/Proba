@@ -1,0 +1,57 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="impl" version="4">
+  <OBJECT>
+    <ID name="impl" mc="Standard.Package" uid="6611f67d-1a4b-11e0-8090-00137279a832"/>
+    <PID name="ecore" mc="Standard.Package" uid="5ad1ddcc-1a4b-11e0-8090-00137279a832"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[impl]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="BasicEObjectImpl" mc="Standard.Class" uid="66191d8d-1a4b-11e0-8090-00137279a832"/>
+        <COMPID name="DynamicEObjectImpl" mc="Standard.Class" uid="661458de-1a4b-11e0-8090-00137279a832"/>
+        <COMPID name="DynamicEStoreEObjectImpl" mc="Standard.Class" uid="6616bb30-1a4b-11e0-8090-00137279a832"/>
+        <COMPID name="EAnnotationImpl" mc="Standard.Class" uid="661458db-1a4b-11e0-8090-00137279a832"/>
+        <COMPID name="EAttributeImpl" mc="Standard.Class" uid="6616bb39-1a4b-11e0-8090-00137279a832"/>
+        <COMPID name="EClassImpl" mc="Standard.Class" uid="6616bb32-1a4b-11e0-8090-00137279a832"/>
+        <COMPID name="EClassifierImpl" mc="Standard.Class" uid="6611f67e-1a4b-11e0-8090-00137279a832"/>
+        <COMPID name="EDataTypeImpl" mc="Standard.Class" uid="66191d8b-1a4b-11e0-8090-00137279a832"/>
+        <COMPID name="EEnumImpl" mc="Standard.Class" uid="661458dc-1a4b-11e0-8090-00137279a832"/>
+        <COMPID name="EEnumLiteralImpl" mc="Standard.Class" uid="6611f67f-1a4b-11e0-8090-00137279a832"/>
+        <COMPID name="EFactoryImpl" mc="Standard.Class" uid="6616bb38-1a4b-11e0-8090-00137279a832"/>
+        <COMPID name="EGenericTypeImpl" mc="Standard.Class" uid="66191d8a-1a4b-11e0-8090-00137279a832"/>
+        <COMPID name="EModelElementImpl" mc="Standard.Class" uid="661458d6-1a4b-11e0-8090-00137279a832"/>
+        <COMPID name="ENamedElementImpl" mc="Standard.Class" uid="66191d8e-1a4b-11e0-8090-00137279a832"/>
+        <COMPID name="ENotificationImpl" mc="Standard.Class" uid="6616bb31-1a4b-11e0-8090-00137279a832"/>
+        <COMPID name="EObjectImpl" mc="Standard.Class" uid="6616bb36-1a4b-11e0-8090-00137279a832"/>
+        <COMPID name="EOperationImpl" mc="Standard.Class" uid="661458e1-1a4b-11e0-8090-00137279a832"/>
+        <COMPID name="EPackageImpl" mc="Standard.Class" uid="661458d9-1a4b-11e0-8090-00137279a832"/>
+        <COMPID name="EPackageRegistryImpl" mc="Standard.Class" uid="661458d7-1a4b-11e0-8090-00137279a832"/>
+        <COMPID name="EParameterImpl" mc="Standard.Class" uid="6616bb34-1a4b-11e0-8090-00137279a832"/>
+        <COMPID name="EReferenceImpl" mc="Standard.Class" uid="6616bb33-1a4b-11e0-8090-00137279a832"/>
+        <COMPID name="EStoreEObjectImpl" mc="Standard.Class" uid="66191d8f-1a4b-11e0-8090-00137279a832"/>
+        <COMPID name="EStringToStringMapEntryImpl" mc="Standard.Class" uid="661458da-1a4b-11e0-8090-00137279a832"/>
+        <COMPID name="EStructuralFeatureImpl" mc="Standard.Class" uid="661458df-1a4b-11e0-8090-00137279a832"/>
+        <COMPID name="ESuperAdapter" mc="Standard.Class" uid="66191d8c-1a4b-11e0-8090-00137279a832"/>
+        <COMPID name="ETypeParameterImpl" mc="Standard.Class" uid="66191d90-1a4b-11e0-8090-00137279a832"/>
+        <COMPID name="ETypedElementImpl" mc="Standard.Class" uid="6611f680-1a4b-11e0-8090-00137279a832"/>
+        <COMPID name="EValidatorRegistryImpl" mc="Standard.Class" uid="6616bb37-1a4b-11e0-8090-00137279a832"/>
+        <COMPID name="EcoreFactoryImpl" mc="Standard.Class" uid="6616bb35-1a4b-11e0-8090-00137279a832"/>
+        <COMPID name="EcorePackageImpl" mc="Standard.Class" uid="661458d8-1a4b-11e0-8090-00137279a832"/>
+        <COMPID name="FlatEObjectImpl" mc="Standard.Class" uid="661458dd-1a4b-11e0-8090-00137279a832"/>
+        <COMPID name="MinimalEObjectImpl" mc="Standard.Class" uid="661458e0-1a4b-11e0-8090-00137279a832"/>
+        <COMPID name="MinimalEStoreEObjectImpl" mc="Standard.Class" uid="eba560c7-6034-4433-832e-0a2da9b687d5"/>
+        <COMPID name="ValidationDelegateRegistryImpl" mc="Standard.Class" uid="6611f681-1a4b-11e0-8090-00137279a832"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

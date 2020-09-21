@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="operations" version="4">
+  <OBJECT>
+    <ID name="operations" mc="Standard.Package" uid="003b51e6-d4f2-111c-bc9b-001e4fea2d8b"/>
+    <PID name="p2" mc="Standard.Package" uid="003a9120-d4f2-111c-bc9b-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[operations]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="IProfileChangeJob" mc="Standard.Interface" uid="003cc922-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="InstallOperation" mc="Standard.Class" uid="003c8354-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="OperationFactory" mc="Standard.Class" uid="003c7170-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="ProfileChangeOperation" mc="Standard.Class" uid="003c9510-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="ProfileModificationJob" mc="Standard.Class" uid="003b6cf8-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="ProvisioningJob" mc="Standard.Class" uid="003b8f26-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="ProvisioningSession" mc="Standard.Class" uid="003b5ca4-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="RemediationOperation" mc="Standard.Class" uid="ab11a0e4-b23c-4878-8b34-a608ecd70bc3"/>
+        <COMPID name="Remedy" mc="Standard.Class" uid="2897c2d3-5070-4eec-8107-29a01213ec4b"/>
+        <COMPID name="RemedyConfig" mc="Standard.Class" uid="32db0e69-28d3-4dcf-8614-cb7c6b1d4e75"/>
+        <COMPID name="RemedyIUDetail" mc="Standard.Class" uid="e42d5db1-add0-4728-800b-1dd9d1186f7e"/>
+        <COMPID name="RepositoryTracker" mc="Standard.Class" uid="003cee98-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="SynchronizeOperation" mc="Standard.Class" uid="003cdbf6-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="UninstallOperation" mc="Standard.Class" uid="003ca69a-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="Update" mc="Standard.Class" uid="003d013a-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="UpdateOperation" mc="Standard.Class" uid="003b7dc4-d4f2-111c-bc9b-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

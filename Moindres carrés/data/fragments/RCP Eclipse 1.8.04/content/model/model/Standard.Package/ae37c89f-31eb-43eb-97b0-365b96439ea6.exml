@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="geometry" version="4">
+  <OBJECT>
+    <ID name="geometry" mc="Standard.Package" uid="ae37c89f-31eb-43eb-97b0-365b96439ea6"/>
+    <PID name="editor" mc="Standard.Package" uid="56dd978d-eeb2-4b4c-90a0-ec3ee1d6801c"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[geometry]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="DimensionPropertyEditor" mc="Standard.Class" uid="3e196cc6-6467-47d9-8a33-f5fb3e52f987"/>
+        <COMPID name="InsetsPropertyEditor" mc="Standard.Class" uid="dd3b41a2-0a43-4e5f-b577-7bd2f782378e"/>
+        <COMPID name="PointPropertyEditor" mc="Standard.Class" uid="665b841f-3c38-4930-b064-5831985b25f2"/>
+        <COMPID name="RectanglePropertyEditor" mc="Standard.Class" uid="411c63e8-8cc4-42c8-8230-cd1dbb1598fc"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

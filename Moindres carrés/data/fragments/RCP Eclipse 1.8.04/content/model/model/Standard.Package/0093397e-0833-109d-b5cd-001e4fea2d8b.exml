@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="quickassist" version="4">
+  <OBJECT>
+    <ID name="quickassist" mc="Standard.Package" uid="0093397e-0833-109d-b5cd-001e4fea2d8b"/>
+    <PID name="text" mc="Standard.Package" uid="007fca06-0833-109d-b5cd-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[quickassist]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="IQuickAssistAssistant" mc="Standard.Interface" uid="00933ff0-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="IQuickAssistAssistantExtension" mc="Standard.Interface" uid="0093475c-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="IQuickAssistInvocationContext" mc="Standard.Interface" uid="00934efa-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="IQuickAssistProcessor" mc="Standard.Interface" uid="009356d4-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="IQuickFixableAnnotation" mc="Standard.Interface" uid="00935eea-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="QuickAssistAssistant" mc="Standard.Class" uid="009365e8-0833-109d-b5cd-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

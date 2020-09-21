@@ -1,0 +1,83 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ui" version="4">
+  <OBJECT>
+    <ID name="ui" mc="Standard.Package" uid="006159f4-0bca-112e-9071-001e4fea2d8b"/>
+    <PID name="internal" mc="Standard.Package" uid="00767f28-0bc8-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[ui]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractJavaElementLabelDecorator" mc="Standard.Class" uid="006160e8-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BuildpathIndicatorLabelDecorator" mc="Standard.Class" uid="00616cfa-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CompatibilityTemplateStore" mc="Standard.Class" uid="00617376-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="EditorInputAdapterFactory" mc="Standard.Class" uid="00617a24-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IJavaHelpContextIds" mc="Standard.Interface" uid="0061800a-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IJavaStatusConstants" mc="Standard.Interface" uid="00618712-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IJavaThemeConstants" mc="Standard.Interface" uid="00618e7e-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IResourceLocator" mc="Standard.Interface" uid="00619586-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IUIConstants" mc="Standard.Interface" uid="00619cd4-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="InitializeAfterLoadJob" mc="Standard.Class" uid="0061a422-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="InterfaceIndicatorLabelDecorator" mc="Standard.Class" uid="0061b0fc-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JarEntryEditorInputFactory" mc="Standard.Class" uid="0061c678-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaElementAdapterFactory" mc="Standard.Class" uid="0061ce16-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaElementContainmentAdapter" mc="Standard.Class" uid="0061d5c8-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaElementProperties" mc="Standard.Class" uid="0061ddfc-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaHierarchyPerspectiveFactory" mc="Standard.Class" uid="0061e5e0-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaPerspectiveFactory" mc="Standard.Class" uid="0061ee50-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaPlugin" mc="Standard.Class" uid="0061f6de-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaPluginImages" mc="Standard.Class" uid="0061ff58-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaProjectAdapterFactory" mc="Standard.Class" uid="00621614-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaTaskListAdapter" mc="Standard.Class" uid="00621f38-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaUIException" mc="Standard.Class" uid="006228c0-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaUIMessages" mc="Standard.Class" uid="006231f8-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaUIPreferenceInitializer" mc="Standard.Class" uid="00623ba8-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaUIStatus" mc="Standard.Class" uid="00624562-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaWorkbenchAdapter" mc="Standard.Class" uid="00624f76-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LogicalPackageAdapterFactory" mc="Standard.Class" uid="006259c6-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MarkerAdapterFactory" mc="Standard.Class" uid="0062640c-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PersistableJavaElementFactory" mc="Standard.Class" uid="00626ea2-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ResourceAdapterFactory" mc="Standard.Class" uid="00627988-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ResourceLocator" mc="Standard.Class" uid="0062846e-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SharedImages" mc="Standard.Class" uid="00628fae-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="actions" mc="Standard.Package" uid="0063afb0-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="browsing" mc="Standard.Package" uid="00670b2e-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="callhierarchy" mc="Standard.Package" uid="00691126-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="commands" mc="Standard.Package" uid="006c9a9e-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="compare" mc="Standard.Package" uid="006df682-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="dialogs" mc="Standard.Package" uid="0070cd26-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="dnd" mc="Standard.Package" uid="007535fa-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="filters" mc="Standard.Package" uid="0076cbb8-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="fix" mc="Standard.Package" uid="00793402-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="infoviews" mc="Standard.Package" uid="007bd75c-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="jarimport" mc="Standard.Package" uid="007df1b8-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="jarpackager" mc="Standard.Package" uid="007f9ba8-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="jarpackagerfat" mc="Standard.Package" uid="0081ed7c-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="javadocexport" mc="Standard.Package" uid="00846ee4-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="javaeditor" mc="Standard.Package" uid="0086ee4e-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="model" mc="Standard.Package" uid="0096cce2-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="navigator" mc="Standard.Package" uid="00003ec6-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="packageview" mc="Standard.Package" uid="0002693a-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="preferences" mc="Standard.Package" uid="00057a1c-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="propertiesfileeditor" mc="Standard.Package" uid="0014f1e0-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="refactoring" mc="Standard.Package" uid="00180c90-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="search" mc="Standard.Package" uid="0033dd62-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="text" mc="Standard.Package" uid="00390c7e-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="typehierarchy" mc="Standard.Package" uid="00623d9c-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="util" mc="Standard.Package" uid="00656fbc-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="viewsupport" mc="Standard.Package" uid="00686d0c-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="wizards" mc="Standard.Package" uid="006cc3ac-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="workingsets" mc="Standard.Package" uid="007b8310-0bcb-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

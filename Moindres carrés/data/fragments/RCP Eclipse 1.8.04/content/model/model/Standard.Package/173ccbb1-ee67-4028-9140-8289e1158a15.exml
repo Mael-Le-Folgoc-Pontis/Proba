@@ -1,0 +1,71 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="maven" version="4">
+  <OBJECT>
+    <ID name="maven" mc="Standard.Package" uid="173ccbb1-ee67-4028-9140-8289e1158a15"/>
+    <PID name="apache" mc="Standard.Package" uid="00858518-21b0-1fb1-8a9e-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[maven]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractMavenLifecycleParticipant" mc="Standard.Class" uid="b10caecc-2ea0-443b-bfe1-c70043885ada"/>
+        <COMPID name="ArtifactFilterManager" mc="Standard.Interface" uid="4735f6d1-2f26-4fe9-8c0e-e27bbee30e7a"/>
+        <COMPID name="ArtifactFilterManagerDelegate" mc="Standard.Interface" uid="a7f7b67e-5b84-49d1-aa92-0c9eef40d9b9"/>
+        <COMPID name="BuildAbort" mc="Standard.Class" uid="ae5e6044-62d2-4f25-aa1d-b8646f0d27b0"/>
+        <COMPID name="BuildFailureException" mc="Standard.Class" uid="57e4a879-af92-4492-9e37-fe3f70dc52d0"/>
+        <COMPID name="DefaultArtifactFilterManager" mc="Standard.Class" uid="e8d7599b-b16b-4df3-8a0e-76387d049a96"/>
+        <COMPID name="DefaultMaven" mc="Standard.Class" uid="5e1c8f0b-2387-4d33-a010-8b0ea07bc719"/>
+        <COMPID name="DefaultProjectDependenciesResolver" mc="Standard.Class" uid="47a9e084-927f-4501-a985-8649f4e7eb28"/>
+        <COMPID name="DuplicateProjectException" mc="Standard.Class" uid="e031517b-c6a3-4689-8313-1d5cab705a15"/>
+        <COMPID name="InternalErrorException" mc="Standard.Class" uid="a9df7cb7-465b-4318-bd58-cee9810917f1"/>
+        <COMPID name="Maven" mc="Standard.Interface" uid="c17c6fe7-6554-40a2-b477-dd8d1f243ff4"/>
+        <COMPID name="MavenExecutionException" mc="Standard.Class" uid="50bb6a64-524a-45cc-8874-01a06684274e"/>
+        <COMPID name="MissingModuleException" mc="Standard.Class" uid="a6661bb3-f1f1-420c-ae3d-013b753e4c59"/>
+        <COMPID name="ProjectBuildFailureException" mc="Standard.Class" uid="4b11eb7f-c0db-4c54-8b61-74fbb30c1a82"/>
+        <COMPID name="ProjectCycleException" mc="Standard.Class" uid="243846ff-c2e2-4c6b-affd-6b7d9f1b6a5a"/>
+        <COMPID name="ProjectDependenciesResolver" mc="Standard.Interface" uid="1789aa51-4da3-4b5f-9ada-b940da804c54"/>
+        <COMPID name="RepositoryUtils" mc="Standard.Class" uid="bcfe4e1c-bd75-4d90-bd3c-e1663e71788a"/>
+        <COMPID name="SessionScoped" mc="Standard.Class" uid="95ed590d-d956-4b5f-a260-b82c5c5d84d6"/>
+        <COMPID name="archetype" mc="Standard.Package" uid="15754755-ea04-4072-b80d-c868ad13cd6a"/>
+        <COMPID name="artifact" mc="Standard.Package" uid="4807b9b0-1b36-4ff1-805d-58d14cc0fd37"/>
+        <COMPID name="bridge" mc="Standard.Package" uid="2d09b981-3038-4a10-b65a-747c81a7bf68"/>
+        <COMPID name="building" mc="Standard.Package" uid="0f0a4f8d-fb1b-4f16-8080-0fe67837419f"/>
+        <COMPID name="classrealm" mc="Standard.Package" uid="feb07a39-5d6d-4954-901f-8d3944971911"/>
+        <COMPID name="cli" mc="Standard.Package" uid="e913f98a-aa5a-431d-8f87-bcd045cc9736"/>
+        <COMPID name="configuration" mc="Standard.Package" uid="39eed8ab-bee1-4dc4-8368-0e4a0b83c5c4"/>
+        <COMPID name="eventspy" mc="Standard.Package" uid="845413bf-65ec-4707-bccc-64e92741791d"/>
+        <COMPID name="exception" mc="Standard.Package" uid="1317eb04-3797-4d92-b7e3-eec61c84d14c"/>
+        <COMPID name="execution" mc="Standard.Package" uid="8eb00e14-a61a-4b54-95e1-9212b03ce818"/>
+        <COMPID name="extension" mc="Standard.Package" uid="fc2428fb-0f7b-4b11-b599-d749a485c370"/>
+        <COMPID name="graph" mc="Standard.Package" uid="198895c8-eaa2-49f6-babb-1798cb66e10f"/>
+        <COMPID name="index" mc="Standard.Package" uid="c783765e-7614-4963-9c1b-b9b50c46d7b8"/>
+        <COMPID name="internal" mc="Standard.Package" uid="8a948f20-2eab-4a1b-be21-3c01828e6b19"/>
+        <COMPID name="lifecycle" mc="Standard.Package" uid="7d82266f-ff6e-427c-9f9d-d955cfa03a1b"/>
+        <COMPID name="model" mc="Standard.Package" uid="500c90ee-6ac5-42ec-b991-b53e6c90255b"/>
+        <COMPID name="monitor" mc="Standard.Package" uid="b5c28ac0-f982-49fe-ac5c-c76fb1414e78"/>
+        <COMPID name="plugin" mc="Standard.Package" uid="6251ff3a-fd77-4649-9c6a-dbef415afe20"/>
+        <COMPID name="profiles" mc="Standard.Package" uid="5b700599-8f1c-4dc1-8337-7dea2d832464"/>
+        <COMPID name="project" mc="Standard.Package" uid="abe9d0b1-82ff-4610-abaf-ca999e712a09"/>
+        <COMPID name="properties" mc="Standard.Package" uid="d4454be6-b6b5-4767-808a-c7bdb9bb03a0"/>
+        <COMPID name="reporting" mc="Standard.Package" uid="45b80b93-3a4c-4f6a-b388-25bd50b4a796"/>
+        <COMPID name="repository" mc="Standard.Package" uid="ea93fcd8-ed8a-4d1b-9595-c7d3572e057a"/>
+        <COMPID name="rtinfo" mc="Standard.Package" uid="893dfb6d-1ed5-4147-8ee7-8f8d081f4a7e"/>
+        <COMPID name="session" mc="Standard.Package" uid="c1c89832-7c04-41f4-b00a-f69ed63b1f3e"/>
+        <COMPID name="settings" mc="Standard.Package" uid="c958de08-782d-4257-bcb0-88e1b0cfcd1b"/>
+        <COMPID name="shared" mc="Standard.Package" uid="e4187734-d250-41d6-92fa-d9eda2c81c1a"/>
+        <COMPID name="toolchain" mc="Standard.Package" uid="64b0e900-33ee-4fc4-921f-da88524a4052"/>
+        <COMPID name="usability" mc="Standard.Package" uid="5925022a-3fcb-4b74-9435-aaf1ece2e80a"/>
+        <COMPID name="wagon" mc="Standard.Package" uid="23edd519-99ba-42c4-9248-5c054e1b0cb4"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,58 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="declaration" version="4">
+  <OBJECT>
+    <ID name="declaration" mc="Standard.Package" uid="006a874a-0bdd-112e-9071-001e4fea2d8b"/>
+    <PID name="mirror" mc="Standard.Package" uid="0068a290-0bdd-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[declaration]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AnnotationMirror" mc="Standard.Interface" uid="006a8d8a-0bdd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AnnotationTypeDeclaration" mc="Standard.Interface" uid="006a9456-0bdd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AnnotationTypeElementDeclaration" mc="Standard.Interface" uid="006a9b40-0bdd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AnnotationValue" mc="Standard.Interface" uid="006aa216-0bdd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ClassDeclaration" mc="Standard.Interface" uid="006aa946-0bdd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ConstructorDeclaration" mc="Standard.Interface" uid="006ab0f8-0bdd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Declaration" mc="Standard.Interface" uid="006ab8b4-0bdd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="EnumConstantDeclaration" mc="Standard.Interface" uid="006ac048-0bdd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="EnumDeclaration" mc="Standard.Interface" uid="006ac836-0bdd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ExecutableDeclaration" mc="Standard.Interface" uid="006ad06a-0bdd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FieldDeclaration" mc="Standard.Interface" uid="006ad88a-0bdd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="InterfaceDeclaration" mc="Standard.Interface" uid="006ae122-0bdd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MemberDeclaration" mc="Standard.Interface" uid="006ae9c4-0bdd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MethodDeclaration" mc="Standard.Interface" uid="006af266-0bdd-112e-9071-001e4fea2d8b"/>
+        <OBJECT>
+          <ID name="Modifier" mc="Standard.Enumeration" uid="006af900-0bdd-112e-9071-001e4fea2d8b"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[Modifier]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Extension">
+              <FOREIGNID name="JavaEnumeration" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0262-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <COMPID name="PackageDeclaration" mc="Standard.Interface" uid="006b02ba-0bdd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ParameterDeclaration" mc="Standard.Interface" uid="006b0bfc-0bdd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TypeDeclaration" mc="Standard.Interface" uid="006b1534-0bdd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TypeParameterDeclaration" mc="Standard.Interface" uid="006b201a-0bdd-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

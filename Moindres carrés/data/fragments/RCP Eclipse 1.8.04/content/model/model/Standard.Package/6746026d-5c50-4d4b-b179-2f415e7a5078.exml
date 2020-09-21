@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="layout" version="4">
+  <OBJECT>
+    <ID name="layout" mc="Standard.Package" uid="6746026d-5c50-4d4b-b179-2f415e7a5078"/>
+    <PID name="policy" mc="Standard.Package" uid="0b088c48-4ab1-4f53-96a8-845cb3c37f40"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[layout]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="absolute" mc="Standard.Package" uid="762e7805-b11b-46d1-b719-76fa480c1b05"/>
+        <COMPID name="generic" mc="Standard.Package" uid="4f891bd2-ced9-4dfa-90a8-692298a2b5c2"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

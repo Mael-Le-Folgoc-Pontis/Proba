@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="setup" version="4">
+  <OBJECT>
+    <ID name="setup" mc="Standard.Package" uid="8184cf2a-3313-44b0-abe8-86dbaefdcaca"/>
+    <PID name="internal" mc="Standard.Package" uid="1bab5348-1a0a-49b9-8551-0697ad3ac40f"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[setup]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="SetupPlugin" mc="Standard.Class" uid="c2b4cd6c-6482-468b-9fc4-6346ae1e84d5"/>
+        <COMPID name="SetupPrompter" mc="Standard.Interface" uid="f8afb02f-d6bc-4884-b24f-963b039e48e4"/>
+        <COMPID name="SetupProperties" mc="Standard.Interface" uid="2895200c-b92f-4772-9f6d-dd372ba0d266"/>
+        <COMPID name="URIVariableResolver" mc="Standard.Class" uid="583092bb-82f7-4012-b024-5a6a876a7a81"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

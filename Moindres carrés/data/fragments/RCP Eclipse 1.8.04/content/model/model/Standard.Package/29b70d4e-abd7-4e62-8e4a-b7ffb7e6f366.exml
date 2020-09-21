@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="aeri" version="4">
+  <OBJECT>
+    <ID name="aeri" mc="Standard.Package" uid="29b70d4e-abd7-4e62-8e4a-b7ffb7e6f366"/>
+    <PID name="logging" mc="Standard.Package" uid="f8c04b71-2808-440d-bc03-1efc44bfb98a"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[aeri]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ide" mc="Standard.Package" uid="1ee1f246-ee24-443d-a490-3067bcc306fa"/>
+        <COMPID name="ui" mc="Standard.Package" uid="9babd2df-422d-4781-baa2-c389c1163cf3"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

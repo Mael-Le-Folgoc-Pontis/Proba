@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="action" version="4">
+  <OBJECT>
+    <ID name="action" mc="Standard.Package" uid="a0ff36e6-2102-4028-bdb8-c8cee2f1200d"/>
+    <PID name="joran" mc="Standard.Package" uid="d268d326-4382-4c77-b2d8-cce04b60231e"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[action]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractEventEvaluatorAction" mc="Standard.Class" uid="8d5d2910-925c-44af-8a70-42210e7353e1"/>
+        <COMPID name="Action" mc="Standard.Class" uid="163c6f53-ebd8-4d8d-8332-df393361118f"/>
+        <COMPID name="ActionConst" mc="Standard.Class" uid="cbbd1684-1e2a-4177-8424-71903c339a60"/>
+        <COMPID name="ActionUtil" mc="Standard.Class" uid="ec443dc6-ee8f-4eb5-b783-dc8d0f1ca68f"/>
+        <COMPID name="AppenderAction" mc="Standard.Class" uid="ba5ddc5e-64af-4e12-af07-61dbcb7a6742"/>
+        <COMPID name="AppenderRefAction" mc="Standard.Class" uid="6a223af2-1c70-4466-80a0-4bfff8d4d58d"/>
+        <COMPID name="ContextPropertyAction" mc="Standard.Class" uid="892f44b6-3987-4ca7-afe1-35b9c74aafc4"/>
+        <COMPID name="ConversionRuleAction" mc="Standard.Class" uid="96dd3bb9-53fa-4b78-bc0f-671d97bf857b"/>
+        <COMPID name="DefinePropertyAction" mc="Standard.Class" uid="6f6b9461-df60-472c-a5e0-ebebd28e03b9"/>
+        <COMPID name="IADataForComplexProperty" mc="Standard.Class" uid="ea16b710-096b-42af-8df7-3126460a9c7b"/>
+        <COMPID name="ImplicitAction" mc="Standard.Class" uid="89789533-27c5-4b40-bc0f-0f0b0b738154"/>
+        <COMPID name="IncludeAction" mc="Standard.Class" uid="70bf1dbb-56b6-4d66-a768-9a9986fb1d33"/>
+        <COMPID name="NOPAction" mc="Standard.Class" uid="3c6e8aa1-de42-4d57-90e0-e897b7d7b77c"/>
+        <COMPID name="NestedBasicPropertyIA" mc="Standard.Class" uid="1dc3c802-f8ff-447a-b926-7ca7b9988920"/>
+        <COMPID name="NestedComplexPropertyIA" mc="Standard.Class" uid="4c70f465-5513-4fb2-8c21-b2bdcaf0324b"/>
+        <COMPID name="NewRuleAction" mc="Standard.Class" uid="5afa8278-d8a5-4edb-b58c-9f532ae99b6a"/>
+        <COMPID name="ParamAction" mc="Standard.Class" uid="ed006e81-f639-43b3-ba64-5fd0ad622e86"/>
+        <COMPID name="PropertyAction" mc="Standard.Class" uid="5ebb919d-e6b5-4239-a9f3-b79c4f236bd4"/>
+        <COMPID name="StatusListenerAction" mc="Standard.Class" uid="6841642f-d3cb-4051-8b8c-8cee20acd192"/>
+        <COMPID name="TimestampAction" mc="Standard.Class" uid="4ee02079-344f-4e5f-bdb9-0f1611a6dd00"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

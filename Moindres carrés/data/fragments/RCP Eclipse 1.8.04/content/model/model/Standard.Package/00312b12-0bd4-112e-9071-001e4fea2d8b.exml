@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="wizards" version="4">
+  <OBJECT>
+    <ID name="wizards" mc="Standard.Package" uid="00312b12-0bd4-112e-9071-001e4fea2d8b"/>
+    <PID name="ui" mc="Standard.Package" uid="001ad506-0bd4-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[wizards]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ConfigurationWizardElement" mc="Standard.Class" uid="0031313e-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ConfigureMultipleProjectsWizard" mc="Standard.Class" uid="00313742-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ConfigureProjectWizard" mc="Standard.Class" uid="00313daa-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ConfigureProjectWizardMainPage" mc="Standard.Class" uid="00315268-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ExportProjectSetLocationPage" mc="Standard.Class" uid="00315934-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ExportProjectSetMainPage" mc="Standard.Class" uid="00316c1c-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="GlobalRefreshWizardSelectionPage" mc="Standard.Class" uid="003192aa-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="GlobalSynchronizeWizard" mc="Standard.Class" uid="0031a5ec-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ImportProjectSetMainPage" mc="Standard.Class" uid="0031ad8a-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ImportProjectSetOperation" mc="Standard.Class" uid="0031b58c-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PatchInaccessibleProjectsPage" mc="Standard.Class" uid="0031bd48-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ProjectSelectionPage" mc="Standard.Class" uid="0031c590-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ProjectSetExportWizard" mc="Standard.Class" uid="0031cdec-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ProjectSetImportWizard" mc="Standard.Class" uid="0031d63e-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PsfFilenameStore" mc="Standard.Class" uid="0031df12-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PsfStore" mc="Standard.Class" uid="0031e804-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PsfUrlStore" mc="Standard.Class" uid="0031f11e-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TeamWizardPage" mc="Standard.Class" uid="0031fa7e-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WorkingSetsDialog" mc="Standard.Class" uid="00320410-0bd4-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="codeassist" version="4">
+  <OBJECT>
+    <ID name="codeassist" mc="Standard.Package" uid="007c7496-0bc8-112e-9071-001e4fea2d8b"/>
+    <PID name="internal" mc="Standard.Package" uid="00767f28-0bc8-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[codeassist]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="CompletionElementNotifier" mc="Standard.Class" uid="007c7ab8-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CompletionEngine" mc="Standard.Class" uid="007c8184-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CompletionRequestorWrapper" mc="Standard.Class" uid="007cb0fa-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CompletionUnitStructureRequestor" mc="Standard.Class" uid="007cb852-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IExtendedCompletionRequestor" mc="Standard.Interface" uid="007cbece-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ISearchRequestor" mc="Standard.Interface" uid="007cc5e0-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ISelectionRequestor" mc="Standard.Interface" uid="007ccca2-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="InternalCompletionContext" mc="Standard.Class" uid="007cd404-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="InternalCompletionProposal" mc="Standard.Class" uid="007cdb8e-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="InternalExtendedCompletionContext" mc="Standard.Class" uid="007ce30e-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MissingTypesGuesser" mc="Standard.Class" uid="007ceaf2-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RelevanceConstants" mc="Standard.Interface" uid="007d06ae-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SelectionEngine" mc="Standard.Class" uid="007d0f00-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ThrownExceptionFinder" mc="Standard.Class" uid="007d3a70-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="UnresolvedReferenceNameFinder" mc="Standard.Class" uid="007d42c2-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="complete" mc="Standard.Package" uid="007e1a44-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="impl" mc="Standard.Package" uid="0080dc20-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="select" mc="Standard.Package" uid="008228dc-0bc8-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

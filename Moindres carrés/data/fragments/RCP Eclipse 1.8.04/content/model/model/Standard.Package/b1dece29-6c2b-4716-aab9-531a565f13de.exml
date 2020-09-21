@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="util" version="4">
+  <OBJECT>
+    <ID name="util" mc="Standard.Package" uid="b1dece29-6c2b-4716-aab9-531a565f13de"/>
+    <PID name="io" mc="Standard.Package" uid="fe117d91-f772-4951-9e20-1cbc13e15941"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[util]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="BayesNetConverter" mc="Standard.Class" uid="9a00769c-c902-4f4b-8279-97755a448b04"/>
+        <COMPID name="XMLUtil" mc="Standard.Class" uid="c122bbad-2cfa-42ed-9c29-f037377b7043"/>
+        <COMPID name="XPathUtil" mc="Standard.Class" uid="7052d26a-e942-441f-a3cc-a0fb5e123524"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

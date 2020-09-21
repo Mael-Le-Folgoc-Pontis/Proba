@@ -1,0 +1,52 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="junit" version="4">
+  <OBJECT>
+    <ID name="junit" mc="Standard.Package" uid="005d5994-0bbe-112e-9071-001e4fea2d8b"/>
+    <PID name="optional" mc="Standard.Package" uid="0043083c-0bbe-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[junit]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AggregateTransformer" mc="Standard.Class" uid="005d60ce-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BaseTest" mc="Standard.Class" uid="005d7f28-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BatchTest" mc="Standard.Class" uid="005d86f8-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BriefJUnitResultFormatter" mc="Standard.Class" uid="005d8eb4-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Constants" mc="Standard.Class" uid="005d9f76-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CustomJUnit4TestAdapterCache" mc="Standard.Class" uid="ca7824bf-cd6f-4f2c-b603-e0ca6aab974f"/>
+        <COMPID name="DOMUtil" mc="Standard.Class" uid="005da7dc-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Enumerations" mc="Standard.Class" uid="005dc6d6-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FailureRecorder" mc="Standard.Class" uid="005dcfdc-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FormatterElement" mc="Standard.Class" uid="005de8aa-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IgnoredTestListener" mc="Standard.Interface" uid="9776c4f0-4ec9-400e-9e2d-bf2b7a9fe6be"/>
+        <COMPID name="IgnoredTestResult" mc="Standard.Class" uid="6835a3c7-681e-413b-a27f-b543612987fd"/>
+        <COMPID name="JUnit4TestMethodAdapter" mc="Standard.Class" uid="005e00c4-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JUnitResultFormatter" mc="Standard.Interface" uid="005e25ea-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JUnitTask" mc="Standard.Class" uid="005e2fc2-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JUnitTaskMirror" mc="Standard.Interface" uid="005e9458-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JUnitTaskMirrorImpl" mc="Standard.Class" uid="005eb4b0-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JUnitTest" mc="Standard.Class" uid="005ecd56-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JUnitTestRunner" mc="Standard.Class" uid="005ed79c-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JUnitVersionHelper" mc="Standard.Class" uid="005ee214-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="OutErrSummaryJUnitResultFormatter" mc="Standard.Class" uid="005eecb4-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PlainJUnitResultFormatter" mc="Standard.Class" uid="005ef74a-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SummaryJUnitResultFormatter" mc="Standard.Class" uid="005f0244-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TearDownOnVmCrash" mc="Standard.Class" uid="005f0d70-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TestIgnored" mc="Standard.Class" uid="6885cedb-58e8-4dc0-b85a-0ad1a2c0cb98"/>
+        <COMPID name="TestListenerWrapper" mc="Standard.Class" uid="b5c00845-2b60-4b64-92eb-61c843e76e3f"/>
+        <COMPID name="XMLConstants" mc="Standard.Interface" uid="005f14e6-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="XMLJUnitResultFormatter" mc="Standard.Class" uid="005f20b2-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="XMLResultAggregator" mc="Standard.Class" uid="005f2c6a-0bbe-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

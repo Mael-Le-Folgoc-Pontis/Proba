@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="entity" version="4">
+  <OBJECT>
+    <ID name="entity" mc="Standard.Package" uid="189f654f-5f3a-4dff-9962-d5be1b8123fa"/>
+    <PID name="client" mc="Standard.Package" uid="139da6c5-3b11-48bb-99e5-c2f3faab23d5"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[entity]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="DeflateDecompressingEntity" mc="Standard.Class" uid="dbf07a05-6be8-4a6b-ba28-529effdac1d1"/>
+        <COMPID name="DeflateInputStream" mc="Standard.Class" uid="9d2697a2-f4a9-4472-96a1-ca4ff8016083"/>
+        <COMPID name="EntityBuilder" mc="Standard.Class" uid="0d2c60cb-7ba3-46bf-b307-d56d0647c862"/>
+        <COMPID name="GzipCompressingEntity" mc="Standard.Class" uid="b688320d-1e09-4c6d-83c5-362bb5e1f431"/>
+        <COMPID name="GzipDecompressingEntity" mc="Standard.Class" uid="f21f4b5d-9b80-4fef-b32d-3d2b0ba018dd"/>
+        <COMPID name="UrlEncodedFormEntity" mc="Standard.Class" uid="b8df3df2-b52e-44ce-a254-e2a079e875a4"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

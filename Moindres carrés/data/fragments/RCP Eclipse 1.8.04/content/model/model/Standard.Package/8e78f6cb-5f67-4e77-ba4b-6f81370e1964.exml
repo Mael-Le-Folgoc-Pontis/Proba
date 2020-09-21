@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="part" version="4">
+  <OBJECT>
+    <ID name="part" mc="Standard.Package" uid="8e78f6cb-5f67-4e77-ba4b-6f81370e1964"/>
+    <PID name="gef" mc="Standard.Package" uid="06fb9e8f-91c7-48c4-95ec-fc11974fa640"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[part]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ComponentEditPart" mc="Standard.Class" uid="fdcc8214-bc45-4452-a3a9-d95512e71c0b"/>
+        <COMPID name="ContainerEditPart" mc="Standard.Class" uid="1ae6c472-e488-4842-9dba-810276329942"/>
+        <COMPID name="JScrollPaneEditPart" mc="Standard.Class" uid="f2ebe93c-2a64-4d88-b67e-6016af036a4e"/>
+        <COMPID name="JSplitPaneEditPart" mc="Standard.Class" uid="fdc2ffcd-9acf-4173-a4cf-d7b961c3515c"/>
+        <COMPID name="JTabbedPaneEditPart" mc="Standard.Class" uid="c047d625-04ed-4c36-8c1c-54b8fa0c3357"/>
+        <COMPID name="JTabbedPaneTabEditPart" mc="Standard.Class" uid="d8ec7cae-f067-4411-becb-ba9a682fb7cd"/>
+        <COMPID name="box" mc="Standard.Package" uid="31bc079d-bd92-4219-b789-1d025e7d84fc"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

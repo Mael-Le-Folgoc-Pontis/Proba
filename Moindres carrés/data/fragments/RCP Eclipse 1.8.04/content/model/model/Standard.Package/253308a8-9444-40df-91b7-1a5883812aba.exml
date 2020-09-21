@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="adapters" version="4">
+  <OBJECT>
+    <ID name="adapters" mc="Standard.Package" uid="253308a8-9444-40df-91b7-1a5883812aba"/>
+    <PID name="internal" mc="Standard.Package" uid="78d3478f-ffaa-4fc9-8123-76468f3ac6f6"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[adapters]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="CategoryAdapter" mc="Standard.Class" uid="35a876f3-6cc5-41f2-9814-f14441667a17"/>
+        <COMPID name="RedefineCategoryAdapter" mc="Standard.Class" uid="31a695a8-b117-4e51-bda5-09102422de73"/>
+        <COMPID name="XSDAdapterFactory" mc="Standard.Class" uid="b024d29f-9af1-4f5e-a793-1d042a828809"/>
+        <COMPID name="XSDAnyTypeDefinitionAdapter" mc="Standard.Class" uid="ea23667b-9e87-4f2c-82eb-3e78a6dbbe39"/>
+        <COMPID name="XSDAttributeDeclarationAdapter" mc="Standard.Class" uid="574e4a8d-2c65-49e2-ac0f-1da2d62d32bf"/>
+        <COMPID name="XSDAttributeGroupDefinitionAdapter" mc="Standard.Class" uid="3791ba72-309b-47b8-be1e-4e9e1c977ad8"/>
+        <COMPID name="XSDAttributeUseAdapter" mc="Standard.Class" uid="734cbdb4-8c31-4be3-8e86-ea7ce8784ed6"/>
+        <COMPID name="XSDBaseAdapter" mc="Standard.Class" uid="997983cf-28cf-4644-94d5-c8fcf478c39e"/>
+        <COMPID name="XSDBaseAttributeAdapter" mc="Standard.Class" uid="acb14f30-044b-4474-8fb5-c81063a36755"/>
+        <COMPID name="XSDChildUtility" mc="Standard.Class" uid="7238a9ab-178e-42db-9462-3706193a9889"/>
+        <COMPID name="XSDComplexTypeDefinitionAdapter" mc="Standard.Class" uid="c0cf5ce8-7e0a-47c8-bb16-cb388ebcc2ec"/>
+        <COMPID name="XSDElementDeclarationAdapter" mc="Standard.Class" uid="4f77af4d-066f-4282-a39c-1e8652171d96"/>
+        <COMPID name="XSDEmptyFieldAdapter" mc="Standard.Class" uid="daf117fe-6169-4c79-bfcf-4ec43f6ace4b"/>
+        <COMPID name="XSDEnumerationFacetAdapter" mc="Standard.Class" uid="058e62b1-6313-484f-80ad-92c2c0a500b8"/>
+        <COMPID name="XSDModelGroupAdapter" mc="Standard.Class" uid="b8484165-29c8-4c32-8aa2-3ee365a242ba"/>
+        <COMPID name="XSDModelGroupDefinitionAdapter" mc="Standard.Class" uid="17429270-073e-4441-964a-7cb1dd3801c2"/>
+        <COMPID name="XSDParticleAdapter" mc="Standard.Class" uid="19d72ffc-8b43-40e2-b919-e390636a6675"/>
+        <COMPID name="XSDRedefineAdapter" mc="Standard.Class" uid="52c9e529-2af1-464e-b3b3-3dd38f49282c"/>
+        <COMPID name="XSDSchemaAdapter" mc="Standard.Class" uid="c5d3fb70-037f-4d7a-84c4-9d550beae40f"/>
+        <COMPID name="XSDSchemaDirectiveAdapter" mc="Standard.Class" uid="433ceab9-3326-4009-ac34-107b1cacbcab"/>
+        <COMPID name="XSDSimpleContentAdapter" mc="Standard.Class" uid="00847e47-bb4d-4f23-9aa7-3f1f401b9425"/>
+        <COMPID name="XSDSimpleTypeDefinitionAdapter" mc="Standard.Class" uid="68d2cdf2-6210-4a73-be8b-43e4eab0029b"/>
+        <COMPID name="XSDTypeDefinitionAdapter" mc="Standard.Class" uid="d42fd856-7cfd-4826-be28-bc45397d0384"/>
+        <COMPID name="XSDVisitor" mc="Standard.Class" uid="d71ff35c-769f-4d79-a23b-ca8951c3f0cd"/>
+        <COMPID name="XSDVisitorForFields" mc="Standard.Class" uid="3eccf1ec-cfde-40e2-9195-99cc6f195eb0"/>
+        <COMPID name="XSDWildcardAdapter" mc="Standard.Class" uid="4286e0d9-3fe7-4ef0-b8b5-6d42640aa1c0"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

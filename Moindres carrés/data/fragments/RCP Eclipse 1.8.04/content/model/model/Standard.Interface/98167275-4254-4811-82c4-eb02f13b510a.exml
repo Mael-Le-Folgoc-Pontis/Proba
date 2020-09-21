@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="IRuntimeBridge" version="4">
+  <OBJECT>
+    <ID name="IRuntimeBridge" mc="Standard.Interface" uid="98167275-4254-4811-82c4-eb02f13b510a"/>
+    <PID name="runtime" mc="Standard.Package" uid="598eaf4c-c81a-4945-bb9e-616336319fc8"/>
+    <ATTRIBUTES>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">true</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[IRuntimeBridge]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="IStub" mc="Standard.Interface" uid="76192d44-61b0-44e2-8e7a-18a1a9b1509e"/>
+        <COMPID name="Stub" mc="Standard.Class" uid="945d9615-87df-452f-b6fa-41a4f74e79c7"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaInterface" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0267-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

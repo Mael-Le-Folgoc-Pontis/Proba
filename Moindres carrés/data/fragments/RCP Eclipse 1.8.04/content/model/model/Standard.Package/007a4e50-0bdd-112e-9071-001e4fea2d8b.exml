@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="http" version="4">
+  <OBJECT>
+    <ID name="http" mc="Standard.Package" uid="007a4e50-0bdd-112e-9071-001e4fea2d8b"/>
+    <PID name="servlet" mc="Standard.Package" uid="0076a73c-0bdd-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[http]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Cookie" mc="Standard.Class" uid="007a542c-0bdd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HttpServlet" mc="Standard.Class" uid="007a5a94-0bdd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HttpServletRequest" mc="Standard.Interface" uid="007a605c-0bdd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HttpServletRequestWrapper" mc="Standard.Class" uid="007a673c-0bdd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HttpServletResponse" mc="Standard.Interface" uid="007a6d86-0bdd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HttpServletResponseWrapper" mc="Standard.Class" uid="007a7484-0bdd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HttpSession" mc="Standard.Interface" uid="007a7ace-0bdd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HttpSessionActivationListener" mc="Standard.Interface" uid="007a81d6-0bdd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HttpSessionAttributeListener" mc="Standard.Interface" uid="007a891a-0bdd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HttpSessionBindingEvent" mc="Standard.Class" uid="007a9090-0bdd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HttpSessionBindingListener" mc="Standard.Interface" uid="007a97b6-0bdd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HttpSessionContext" mc="Standard.Interface" uid="007a9f54-0bdd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HttpSessionEvent" mc="Standard.Class" uid="007aa68e-0bdd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HttpSessionIdListener" mc="Standard.Interface" uid="6952c34e-b451-447c-aef3-bddf50dc296b"/>
+        <COMPID name="HttpSessionListener" mc="Standard.Interface" uid="007aae04-0bdd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HttpUpgradeHandler" mc="Standard.Interface" uid="42a9e391-ab5d-412c-a406-b83e03507cd4"/>
+        <COMPID name="HttpUtils" mc="Standard.Class" uid="007ab5a2-0bdd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Part" mc="Standard.Interface" uid="007acc40-0bdd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WebConnection" mc="Standard.Interface" uid="ce61745d-bf67-4370-aa6f-6e1404f81dc3"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

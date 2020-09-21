@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="actions" version="4">
+  <OBJECT>
+    <ID name="actions" mc="Standard.Package" uid="a1e4e076-862b-42f3-a5f9-f0e943730241"/>
+    <PID name="bugs" mc="Standard.Package" uid="4bd3891f-81bc-4f20-a2c4-906d5e4608f7"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[actions]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Messages" mc="Standard.Class" uid="a9cc47d3-7e24-4198-8e2e-1af74d8c3e8f"/>
+        <COMPID name="NewTaskFromErrorAction" mc="Standard.Class" uid="53808661-479e-4118-beab-df9256f59e75"/>
+        <COMPID name="NewTaskFromMarkerHandler" mc="Standard.Class" uid="a7865259-fe4a-4adf-af98-b2d13df604e8"/>
+        <COMPID name="ReportBugAction" mc="Standard.Class" uid="88b7ff65-724c-48b0-9569-c7e3ab8bebaf"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="concurrent" version="4">
+  <OBJECT>
+    <ID name="concurrent" mc="Standard.Package" uid="9c173855-e3b6-44f2-9dae-fce0ddea8b27"/>
+    <PID name="internal" mc="Standard.Package" uid="5ea5b133-6a31-4f3e-b28f-58c3b401e031"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[concurrent]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AsyncStoppable" mc="Standard.Interface" uid="d0c558c8-b6d0-42d8-9dcc-918f013c70c7"/>
+        <COMPID name="CompositeStoppable" mc="Standard.Class" uid="7ad891f7-c883-43c4-9707-a64140052f6d"/>
+        <COMPID name="DefaultExecutorFactory" mc="Standard.Class" uid="299c16c8-2cbc-4037-8e72-c9d8bc909cdb"/>
+        <COMPID name="ExecutorFactory" mc="Standard.Interface" uid="2ed35b72-3d1f-4999-8ec1-8b7242525c45"/>
+        <COMPID name="ServiceLifecycle" mc="Standard.Class" uid="0ffbe243-fd8a-4664-acbc-fcd6a8e6cbfc"/>
+        <COMPID name="Stoppable" mc="Standard.Interface" uid="50311034-e5a8-4667-ac06-676a4e957bc7"/>
+        <COMPID name="StoppableExecutor" mc="Standard.Interface" uid="e79646e1-72c4-41ae-b08f-c1efabeb8768"/>
+        <COMPID name="ThreadFactoryImpl" mc="Standard.Class" uid="487de94f-a704-4be4-b627-a69b57c5b7ca"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

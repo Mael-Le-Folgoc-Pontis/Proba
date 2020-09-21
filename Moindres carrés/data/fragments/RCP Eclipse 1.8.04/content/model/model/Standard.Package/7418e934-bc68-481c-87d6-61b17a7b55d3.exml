@@ -1,0 +1,60 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="core" version="4">
+  <OBJECT>
+    <ID name="core" mc="Standard.Package" uid="7418e934-bc68-481c-87d6-61b17a7b55d3"/>
+    <PID name="facet" mc="Standard.Package" uid="7a485cf7-a303-455d-8d21-4880d05a8625"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[core]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ActionConfig" mc="Standard.Class" uid="3ffc9233-b059-4211-832f-a65c2c0726d1"/>
+        <COMPID name="DefaultConfigurationPresetFactory" mc="Standard.Class" uid="61d3690a-a48d-4d3a-aa9d-9cf98f8a6244"/>
+        <COMPID name="DefaultVersionComparator" mc="Standard.Class" uid="ba3734b0-d46d-4422-820b-16689da972ff"/>
+        <COMPID name="FacetedProjectFramework" mc="Standard.Class" uid="63655c6a-9714-4e21-a90d-d2e2d3906cb5"/>
+        <COMPID name="FacetedProjectFrameworkException" mc="Standard.Class" uid="9f64719f-e3a3-4ee9-a11f-3be322a4cfbb"/>
+        <COMPID name="IActionConfig" mc="Standard.Interface" uid="2c73dbe8-ddff-4c8c-af0a-ee86bb95247f"/>
+        <COMPID name="IActionConfigFactory" mc="Standard.Interface" uid="f7b95e78-3c08-4749-bfd5-5102c92b5dbf"/>
+        <COMPID name="IActionDefinition" mc="Standard.Interface" uid="32179a9b-4d5b-4ce1-9fee-e66f067f89b6"/>
+        <COMPID name="ICategory" mc="Standard.Interface" uid="89a488cd-aa1a-4be1-a76e-2f3bc4133115"/>
+        <COMPID name="IConstraint" mc="Standard.Interface" uid="fb3e61a2-8220-4f16-94f1-0b601352aba6"/>
+        <COMPID name="IDefaultVersionProvider" mc="Standard.Interface" uid="d0318e58-6b3f-4433-b245-705c26e08cc8"/>
+        <COMPID name="IDelegate" mc="Standard.Interface" uid="d15ada2e-e606-4b6b-891a-ee6d0f3f74f8"/>
+        <COMPID name="IDynamicPreset" mc="Standard.Interface" uid="01ca999c-cc34-4866-bdf8-e5bc9aaf276e"/>
+        <COMPID name="IFacetedProject" mc="Standard.Interface" uid="c5124d0c-1537-4023-98a8-ec7508110eba"/>
+        <COMPID name="IFacetedProjectBase" mc="Standard.Interface" uid="66bcfc19-a2e2-4dfb-97bf-bc9ea77eadcb"/>
+        <COMPID name="IFacetedProjectListener" mc="Standard.Interface" uid="45c91344-5545-4d76-983d-23500f773bb3"/>
+        <COMPID name="IFacetedProjectTemplate" mc="Standard.Interface" uid="4166fb5d-bcb0-4498-aa48-2a59e7d0ca24"/>
+        <COMPID name="IFacetedProjectValidator" mc="Standard.Interface" uid="824fa2a4-700b-4e64-a404-070f9439baf8"/>
+        <COMPID name="IFacetedProjectWorkingCopy" mc="Standard.Interface" uid="d4869b40-ddc5-488b-884b-4d54bc664a2d"/>
+        <COMPID name="IGroup" mc="Standard.Interface" uid="9985b4fb-8383-4671-9750-5cda2f9281f9"/>
+        <COMPID name="IListener" mc="Standard.Interface" uid="b0105da0-4e6a-4bea-92cf-8442b584f5c4"/>
+        <COMPID name="IPreset" mc="Standard.Interface" uid="562600a5-2d18-4b9d-ad8e-cd7ba8e1b37c"/>
+        <COMPID name="IPresetFactory" mc="Standard.Interface" uid="943ef471-62c7-4ed6-8499-ee36403f40a9"/>
+        <COMPID name="IProjectFacet" mc="Standard.Interface" uid="76a430b9-4433-4de5-90e9-1907e56343ad"/>
+        <COMPID name="IProjectFacetVersion" mc="Standard.Interface" uid="99514a77-fcf3-4c12-8d98-d73ab903173f"/>
+        <COMPID name="IRuntimeChangedEvent" mc="Standard.Interface" uid="b23ffc78-2213-47ee-a139-883cd958abc6"/>
+        <COMPID name="IVersion" mc="Standard.Interface" uid="377c2727-cbde-459f-8715-9bc7395748a8"/>
+        <COMPID name="IVersionExpr" mc="Standard.Interface" uid="41251ff9-3db5-4a93-a57d-7f342a9b9891"/>
+        <COMPID name="MinimalConfigurationPresetFactory" mc="Standard.Class" uid="23bc0660-2e55-429e-82db-310fdc8542ed"/>
+        <COMPID name="PresetDefinition" mc="Standard.Class" uid="b3ebc725-7b1c-410d-8350-460200c8994d"/>
+        <COMPID name="ProjectFacetDetector" mc="Standard.Class" uid="ef0f953d-a570-4795-895e-22d5c5713caf"/>
+        <COMPID name="ProjectFacetsManager" mc="Standard.Class" uid="6f495cac-9f94-4cc5-b214-63505f375917"/>
+        <COMPID name="VersionFormatException" mc="Standard.Class" uid="4f45dd5f-e48f-4970-8766-56a52653c249"/>
+        <COMPID name="events" mc="Standard.Package" uid="49bc8f90-cb91-43a5-a854-cae4e1f788d6"/>
+        <COMPID name="internal" mc="Standard.Package" uid="38ef3df5-9e00-4c25-b0c3-6ba70e3ba1b4"/>
+        <COMPID name="runtime" mc="Standard.Package" uid="598eaf4c-c81a-4945-bb9e-616336319fc8"/>
+        <COMPID name="util" mc="Standard.Package" uid="df43e1dc-f4dc-4ec5-849b-18cfc85ded56"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

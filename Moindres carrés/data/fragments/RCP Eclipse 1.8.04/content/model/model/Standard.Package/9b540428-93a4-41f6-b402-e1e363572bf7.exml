@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="preference" version="4">
+  <OBJECT>
+    <ID name="preference" mc="Standard.Package" uid="9b540428-93a4-41f6-b402-e1e363572bf7"/>
+    <PID name="jface" mc="Standard.Package" uid="905d7773-d532-47ee-850e-4ac716f9b618"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[preference]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ComboFieldEditor" mc="Standard.Class" uid="2f8a137c-7a4e-41cf-b926-a0a84804e7da"/>
+        <COMPID name="FieldLayoutPreferencePage" mc="Standard.Class" uid="5a7c4481-b426-496f-adec-4a5c7e1d9a69"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

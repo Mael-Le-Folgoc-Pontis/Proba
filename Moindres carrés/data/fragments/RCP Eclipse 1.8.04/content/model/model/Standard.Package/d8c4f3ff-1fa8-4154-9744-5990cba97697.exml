@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="openon" version="4">
+  <OBJECT>
+    <ID name="openon" mc="Standard.Package" uid="d8c4f3ff-1fa8-4154-9744-5990cba97697"/>
+    <PID name="internal" mc="Standard.Package" uid="8de19d9c-309f-4c7f-968c-e82cba2f8859"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[openon]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractOpenOn" mc="Standard.Class" uid="40c1d03c-e94a-4034-ab76-0e4420e99c39"/>
+        <COMPID name="ExternalFileEditorInput" mc="Standard.Class" uid="5bac5234-efe3-4dbd-b618-750e9ffea47a"/>
+        <COMPID name="IOpenOn" mc="Standard.Interface" uid="20e20572-6096-486d-824c-b5493a207c22"/>
+        <COMPID name="OpenFileHyperlinkTracker" mc="Standard.Class" uid="16c3643f-acc2-45e8-90e2-5ba724e9cbe7"/>
+        <COMPID name="OpenOnAction" mc="Standard.Class" uid="4c4a8135-9751-498f-9183-6b196f73e6b2"/>
+        <COMPID name="OpenOnBuilder" mc="Standard.Class" uid="860347c9-c6a7-446b-933f-9cc442e1036d"/>
+        <COMPID name="OpenOnDefinition" mc="Standard.Class" uid="19113bcf-74c1-4781-b4a9-e48119366728"/>
+        <COMPID name="OpenOnProvider" mc="Standard.Class" uid="0b7ffe71-3059-45bb-a77f-3d8de36a653a"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

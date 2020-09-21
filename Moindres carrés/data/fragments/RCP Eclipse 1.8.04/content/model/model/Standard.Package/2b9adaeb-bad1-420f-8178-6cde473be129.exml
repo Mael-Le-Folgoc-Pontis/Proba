@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="actions" version="4">
+  <OBJECT>
+    <ID name="actions" mc="Standard.Package" uid="2b9adaeb-bad1-420f-8178-6cde473be129"/>
+    <PID name="internal" mc="Standard.Package" uid="025b47b3-801a-40ae-9f93-2fe51ae17ec2"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[actions]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AddDependencyAction" mc="Standard.Class" uid="21a0ef94-98e0-4042-8a85-e183dbb3d23f"/>
+        <COMPID name="AddPluginAction" mc="Standard.Class" uid="2d823986-ad0c-4b3f-b070-45702a57cab8"/>
+        <COMPID name="AssignWorkingSetAction" mc="Standard.Class" uid="0ab31817-68bb-4b94-9e59-8604951f566a"/>
+        <COMPID name="ChangeNatureAction" mc="Standard.Class" uid="8c28ae8f-37e9-4da1-8eb8-4000073e0b47"/>
+        <COMPID name="DisableNatureAction" mc="Standard.Class" uid="a16569d0-8c9c-48fa-b23d-4dd3be8f0b6b"/>
+        <COMPID name="EnableNatureAction" mc="Standard.Class" uid="af78121d-30ec-4a1e-9003-67076e3f9dde"/>
+        <COMPID name="MavenActionSupport" mc="Standard.Class" uid="74b6f8fe-051e-4c3a-8269-fa840d48e996"/>
+        <COMPID name="MavenConsoleRemoveAction" mc="Standard.Class" uid="571e416a-0e51-4c6a-b82b-08ccc2937c2f"/>
+        <COMPID name="MavenDebugOutputAction" mc="Standard.Class" uid="f1ab97b1-3f4b-4418-828b-1984a23967bb"/>
+        <COMPID name="MavenProjectActionSupport" mc="Standard.Class" uid="3927415b-20ce-4f55-8653-5ffa0417c79a"/>
+        <COMPID name="MavenPropertyTester" mc="Standard.Class" uid="0b51fde7-8fc0-42a1-9c58-3c19f39c018e"/>
+        <COMPID name="ModuleProjectWizardAction" mc="Standard.Class" uid="18ba8990-dc89-445a-b403-4449090da183"/>
+        <COMPID name="OpenMavenConsoleAction" mc="Standard.Class" uid="4c80ce8f-e974-4158-a6b5-ed9ec2b55baf"/>
+        <COMPID name="OpenPomAction" mc="Standard.Class" uid="67713a83-b3a4-47ad-912e-b7b035f9b8da"/>
+        <COMPID name="SelectionUtil" mc="Standard.Class" uid="534fddf8-4c0d-40c2-8d91-a3cc3d2c077e"/>
+        <COMPID name="UpdateMavenProjectAction" mc="Standard.Class" uid="53b36871-1680-4b5a-899f-c1ec72c193ba"/>
+        <COMPID name="UpdateMavenProjectCommandHandler" mc="Standard.Class" uid="eab45978-1d5a-4986-a7a8-ee6247f370af"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

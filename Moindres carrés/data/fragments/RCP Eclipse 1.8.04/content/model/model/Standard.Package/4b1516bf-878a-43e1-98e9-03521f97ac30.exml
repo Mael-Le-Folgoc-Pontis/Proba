@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="exception" version="4">
+  <OBJECT>
+    <ID name="exception" mc="Standard.Package" uid="4b1516bf-878a-43e1-98e9-03521f97ac30"/>
+    <PID name="lang" mc="Standard.Package" uid="155eaaf0-9175-4065-b6fb-2dab46a99062"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[exception]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="CloneFailedException" mc="Standard.Class" uid="95ea2ab7-63a4-4ef5-8a38-c4cf9ade176f"/>
+        <COMPID name="ExceptionUtils" mc="Standard.Class" uid="7c2c8841-4e75-41cb-b2b1-995ebeb130f7"/>
+        <COMPID name="Nestable" mc="Standard.Interface" uid="d5a8b586-0590-4467-b935-55776ca04531"/>
+        <COMPID name="NestableDelegate" mc="Standard.Class" uid="10289579-48a2-4fc8-b7fe-0951591b792d"/>
+        <COMPID name="NestableRuntimeException" mc="Standard.Class" uid="040a0383-b3a2-4197-871d-ea53d7f8c1e9"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

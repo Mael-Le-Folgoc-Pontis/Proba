@@ -1,0 +1,63 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="eclipse" version="4">
+  <OBJECT>
+    <ID name="eclipse" mc="Standard.Package" uid="0015e0b4-219f-1fb1-8a9e-001e4fea2d8b"/>
+    <PID name="org" mc="Standard.Package" uid="0006919a-219f-1fb1-8a9e-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[eclipse]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="aether" mc="Standard.Package" uid="838241ca-6249-4205-8716-7762cb313d96"/>
+        <COMPID name="ant" mc="Standard.Package" uid="000459d4-0bbf-112e-9071-001e4fea2d8b"/>
+        <COMPID name="buildship" mc="Standard.Package" uid="2f261dfb-eb69-4aa2-bd8d-228873670d03"/>
+        <COMPID name="compare" mc="Standard.Package" uid="00642f1c-d4f0-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="core" mc="Standard.Package" uid="00359468-21a6-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="debug" mc="Standard.Package" uid="000199b0-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="e4" mc="Standard.Package" uid="0080f6ce-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ecf" mc="Standard.Package" uid="0052afd0-d4f0-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="egit" mc="Standard.Package" uid="1c937802-ff3b-4e89-a503-2323481f32d9"/>
+        <COMPID name="epp" mc="Standard.Package" uid="37106d78-1ab4-4fe6-9610-d554d373e88c"/>
+        <COMPID name="equinox" mc="Standard.Package" uid="0073de8a-21a8-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="help" mc="Standard.Package" uid="004e0b06-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="internal" mc="Standard.Package" uid="00522f06-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="jdi" mc="Standard.Package" uid="002fc268-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="jdt" mc="Standard.Package" uid="003b0678-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="jem" mc="Standard.Package" uid="063fe5ac-a610-4a43-9e22-5849bec1e0b5"/>
+        <COMPID name="jetty" mc="Standard.Package" uid="00065040-0bcc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="jface" mc="Standard.Package" uid="006fc818-21a9-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="jgit" mc="Standard.Package" uid="bf3b61ef-28ee-4cf7-8afd-022df78c66c8"/>
+        <COMPID name="jsch" mc="Standard.Package" uid="007be0c6-0bce-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ltk" mc="Standard.Package" uid="008250c8-0bce-112e-9071-001e4fea2d8b"/>
+        <COMPID name="m2e" mc="Standard.Package" uid="6113f149-1b64-4fc9-a6e8-99b6eb1cb739"/>
+        <COMPID name="mylyn" mc="Standard.Package" uid="514c24cd-dfd6-4cf0-95dc-3b2cbafcc2a7"/>
+        <COMPID name="nebula" mc="Standard.Package" uid="ee6b154a-9b4e-4948-9630-5db0b2002d25"/>
+        <COMPID name="oomph" mc="Standard.Package" uid="20106332-b188-45ff-af40-2d5b786a9692"/>
+        <COMPID name="osgi" mc="Standard.Package" uid="0052e694-21af-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="pde" mc="Standard.Package" uid="001356b4-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="platform" mc="Standard.Package" uid="00528a0a-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="recommenders" mc="Standard.Package" uid="a358c5e1-e2a3-468b-a21c-b2bca96b0f24"/>
+        <COMPID name="search" mc="Standard.Package" uid="0053eabc-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="search2" mc="Standard.Package" uid="00616bba-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="sisu" mc="Standard.Package" uid="0a5c5b50-eae1-4aa8-a519-6342fb96ace3"/>
+        <COMPID name="swt" mc="Standard.Package" uid="001656ac-219f-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="team" mc="Standard.Package" uid="006ca9c6-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="text" mc="Standard.Package" uid="005b9ac8-0caa-109d-8c43-001e4fea2d8b"/>
+        <COMPID name="ui" mc="Standard.Package" uid="001f4794-21ab-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="update" mc="Standard.Package" uid="0079a856-21b0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="wb" mc="Standard.Package" uid="7da55c4c-1047-4129-b09a-e73b1ad101e4"/>
+        <COMPID name="wst" mc="Standard.Package" uid="6705de63-3826-4f1b-ab2f-fcc783bbaf9a"/>
+        <COMPID name="xsd" mc="Standard.Package" uid="49bee3fb-4490-45a2-b29a-36add430bad1"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

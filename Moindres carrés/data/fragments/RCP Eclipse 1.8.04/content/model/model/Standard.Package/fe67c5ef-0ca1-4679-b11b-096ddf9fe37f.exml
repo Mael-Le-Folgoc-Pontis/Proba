@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="authentication" version="4">
+  <OBJECT>
+    <ID name="authentication" mc="Standard.Package" uid="fe67c5ef-0ca1-4679-b11b-096ddf9fe37f"/>
+    <PID name="wagon" mc="Standard.Package" uid="23edd519-99ba-42c4-9248-5c054e1b0cb4"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[authentication]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AuthenticationException" mc="Standard.Class" uid="b532c58e-d1dd-4c01-9965-0031381a957d"/>
+        <COMPID name="AuthenticationInfo" mc="Standard.Class" uid="1f0095da-6bc6-488b-9b41-5764ecdceafb"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

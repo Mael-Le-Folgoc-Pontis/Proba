@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="nls" version="4">
+  <OBJECT>
+    <ID name="nls" mc="Standard.Package" uid="b7b4953f-5dba-40ee-86f5-8089b75d34d9"/>
+    <PID name="services" mc="Standard.Package" uid="00878552-21a2-1fb1-8a9e-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[nls]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="BaseMessageRegistry" mc="Standard.Class" uid="555a7116-8fd1-495d-83dc-296334f2091f"/>
+        <COMPID name="ILocaleChangeService" mc="Standard.Interface" uid="f710a4fa-7a81-4295-8185-73de5e54e992"/>
+        <COMPID name="IMessageFactoryService" mc="Standard.Interface" uid="b35dfcf9-1840-41ee-8ce2-14ae82907214"/>
+        <COMPID name="Message" mc="Standard.Class" uid="f0ddf35f-d7c8-4686-a0c5-71bd18c4dfc6"/>
+        <COMPID name="MessageConsumer" mc="Standard.Interface" uid="77720f2d-9f02-4b71-9308-585be97218d6"/>
+        <COMPID name="MessageFunction" mc="Standard.Interface" uid="5b0cc938-1757-45f1-a821-2fe25f849aba"/>
+        <COMPID name="MessageSupplier" mc="Standard.Interface" uid="915d286e-4865-478e-81da-b6901983eb5d"/>
+        <COMPID name="Translation" mc="Standard.Class" uid="ae1374b0-eb95-436a-9265-76be290b4af4"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="junit" version="4">
+  <OBJECT>
+    <ID name="junit" mc="Standard.Package" uid="48bb676d-b308-4ae6-a11c-733e6fe7b4d2"/>
+    <PID name="ui" mc="Standard.Package" uid="dd53799c-5d7c-4d71-aa2d-749de6e0ea22"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[junit]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="InteractionContextTestUtil" mc="Standard.Class" uid="adc9992d-62d0-4e1d-b143-1a617aa4e77e"/>
+        <COMPID name="Messages" mc="Standard.Class" uid="530df960-7a8f-4660-ae68-2f1729ef0bed"/>
+        <COMPID name="TaskContextJUnitLaunchConfiguration" mc="Standard.Class" uid="867ef88d-f47c-48c5-9cd8-f68d4759996e"/>
+        <COMPID name="TaskContextJUnitMainTab" mc="Standard.Class" uid="b97e5a50-9999-4815-ab53-647b40908fda"/>
+        <COMPID name="TaskContextJUnitTabGroup" mc="Standard.Class" uid="3c196058-7ac7-426b-a6b9-bcf66fa9dc5d"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

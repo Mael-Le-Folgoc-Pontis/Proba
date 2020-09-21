@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="dialogs" version="4">
+  <OBJECT>
+    <ID name="dialogs" mc="Standard.Package" uid="2805cb36-04b6-4ae3-ab62-2833f6ee5ca4"/>
+    <PID name="internal" mc="Standard.Package" uid="8dac5e70-eadd-4ac5-9e61-066073002452"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[dialogs]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="EditAttributeDialog" mc="Standard.Class" uid="03daa87d-f53a-4bb7-9cfc-12c094ed12aa"/>
+        <COMPID name="EditDoctypeDialog" mc="Standard.Class" uid="215d255b-3341-4e41-bbed-6925b960b9d3"/>
+        <COMPID name="EditElementDialog" mc="Standard.Class" uid="4309b700-947e-43a7-a877-24509424cf03"/>
+        <COMPID name="EditEntityHelper" mc="Standard.Class" uid="19591e13-0e9f-4154-94f4-15b78728a39d"/>
+        <COMPID name="EditNamespaceInfoDialog" mc="Standard.Class" uid="8b3e6d9f-e9da-446a-8dd6-f497e2b7c522"/>
+        <COMPID name="EditProcessingInstructionDialog" mc="Standard.Class" uid="bc9e27ac-706d-4080-8ace-7363e19b6eed"/>
+        <COMPID name="EditSchemaInfoDialog" mc="Standard.Class" uid="0d160acd-e7fc-4b7a-85e2-5073aebc6178"/>
+        <COMPID name="NamespaceInfoErrorHelper" mc="Standard.Class" uid="e492d826-5e9c-4328-8862-2028592e3e91"/>
+        <COMPID name="NamespaceInfoTable" mc="Standard.Class" uid="01ade265-994a-4ca5-8c22-6d8a90533bfe"/>
+        <COMPID name="SelectFileOrXMLCatalogIdDialog" mc="Standard.Class" uid="52296e5f-8ccd-49a4-92db-8deaa0031ec3"/>
+        <COMPID name="SelectFileOrXMLCatalogIdPanel" mc="Standard.Class" uid="be78baf2-f129-4539-88ce-1feeb35c7a36"/>
+        <COMPID name="SelectXMLCatalogIdDialog" mc="Standard.Class" uid="4dd5c446-d8fe-466d-bd43-5a747d27bb73"/>
+        <COMPID name="SelectXMLCatalogIdPanel" mc="Standard.Class" uid="2f5560b0-0817-4aa9-b7d6-5cd6159dd275"/>
+        <COMPID name="UpdateListener" mc="Standard.Interface" uid="5b791ebe-a71a-4447-b488-541b9e31a541"/>
+        <COMPID name="XMLCatalogTableViewer" mc="Standard.Class" uid="31d4e0e7-0e94-4357-ac84-cc99bc1eeb6c"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="gitrepo" version="4">
+  <OBJECT>
+    <ID name="gitrepo" mc="Standard.Package" uid="4b2d2774-80fd-4486-b0a5-e21c0f50f061"/>
+    <PID name="jgit" mc="Standard.Package" uid="bf3b61ef-28ee-4cf7-8afd-022df78c66c8"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[gitrepo]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ManifestParser" mc="Standard.Class" uid="3ff7f9e5-dcb2-4c6e-a916-d316a8138266"/>
+        <COMPID name="RepoCommand" mc="Standard.Class" uid="a4c14532-a198-417a-aa43-d910108ca4b2"/>
+        <COMPID name="RepoProject" mc="Standard.Class" uid="6df4013e-1dc4-404c-950f-1ac35f53e369"/>
+        <COMPID name="internal" mc="Standard.Package" uid="884497ca-8534-4632-9727-ea329cd551ec"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

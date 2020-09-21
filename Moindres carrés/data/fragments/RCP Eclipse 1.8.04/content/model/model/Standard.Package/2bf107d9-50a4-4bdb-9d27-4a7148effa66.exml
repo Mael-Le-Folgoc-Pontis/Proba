@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="helper" version="4">
+  <OBJECT>
+    <ID name="helper" mc="Standard.Package" uid="2bf107d9-50a4-4bdb-9d27-4a7148effa66"/>
+    <PID name="jsoup" mc="Standard.Package" uid="7860095d-1867-4806-b4ff-0938d134bb58"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[helper]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="DataUtil" mc="Standard.Class" uid="bc4242ca-04d1-4968-927d-0e500308abf0"/>
+        <COMPID name="DescendableLinkedList" mc="Standard.Class" uid="7c40ba7b-a120-4cff-bb0e-21c23ba76d78"/>
+        <COMPID name="HttpConnection" mc="Standard.Class" uid="69c0d9d9-8080-4831-b7e3-9a7984010a9b"/>
+        <COMPID name="StringUtil" mc="Standard.Class" uid="4a788094-0651-43db-a517-ed027a7748da"/>
+        <COMPID name="Validate" mc="Standard.Class" uid="1dd61614-8ceb-4005-86b7-e1c27999b0c1"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

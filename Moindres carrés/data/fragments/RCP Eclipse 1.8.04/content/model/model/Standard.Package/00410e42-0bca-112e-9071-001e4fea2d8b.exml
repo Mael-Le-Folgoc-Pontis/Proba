@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="eval" version="4">
+  <OBJECT>
+    <ID name="eval" mc="Standard.Package" uid="00410e42-0bca-112e-9071-001e4fea2d8b"/>
+    <PID name="internal" mc="Standard.Package" uid="00767f28-0bc8-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[eval]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="CodeSnippetAllocationExpression" mc="Standard.Class" uid="004114b4-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CodeSnippetClassFile" mc="Standard.Class" uid="00411ad6-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CodeSnippetCompiler" mc="Standard.Class" uid="0041215c-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CodeSnippetEnvironment" mc="Standard.Class" uid="0041280a-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CodeSnippetEvaluator" mc="Standard.Class" uid="00412ed6-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CodeSnippetFieldReference" mc="Standard.Class" uid="00413610-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CodeSnippetMessageSend" mc="Standard.Class" uid="00413d4a-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CodeSnippetParser" mc="Standard.Class" uid="00414498-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CodeSnippetQualifiedNameReference" mc="Standard.Class" uid="00414c40-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CodeSnippetReturnStatement" mc="Standard.Class" uid="00415424-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CodeSnippetScope" mc="Standard.Class" uid="00415bfe-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CodeSnippetSingleNameReference" mc="Standard.Class" uid="00416450-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CodeSnippetSkeleton" mc="Standard.Class" uid="00416cd4-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CodeSnippetSuperReference" mc="Standard.Class" uid="0041850c-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CodeSnippetThisReference" mc="Standard.Class" uid="00418df4-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CodeSnippetTypeDeclaration" mc="Standard.Class" uid="0041a01e-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="EvaluationConstants" mc="Standard.Interface" uid="0041a636-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="EvaluationContext" mc="Standard.Class" uid="0041b068-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="EvaluationResult" mc="Standard.Class" uid="0041ba18-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Evaluator" mc="Standard.Class" uid="0041c3b4-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="GlobalVariable" mc="Standard.Class" uid="0041ce18-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IRequestor" mc="Standard.Interface" uid="0041d46c-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="InstallException" mc="Standard.Class" uid="0041deee-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="VariablesEvaluator" mc="Standard.Class" uid="0041e970-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="VariablesInfo" mc="Standard.Class" uid="0041f424-0bca-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

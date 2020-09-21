@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="filter" version="4">
+  <OBJECT>
+    <ID name="filter" mc="Standard.Package" uid="a4cfc410-d838-4c24-bb52-042e84ddf2e3"/>
+    <PID name="util" mc="Standard.Package" uid="fbcb0581-8ae4-44bf-bed2-745c3f92a86a"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[filter]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AndDependencyFilter" mc="Standard.Class" uid="3481f8b3-b9d4-4835-b105-22c6cdf36c0c"/>
+        <COMPID name="DependencyFilterUtils" mc="Standard.Class" uid="17fff062-1ea1-4cc0-a4f4-44816e1ccaa0"/>
+        <COMPID name="ExclusionsDependencyFilter" mc="Standard.Class" uid="20348ee7-777d-4aac-9960-4b03a0083767"/>
+        <COMPID name="NotDependencyFilter" mc="Standard.Class" uid="69c60e6a-8b5b-478f-9a26-619719fc5202"/>
+        <COMPID name="OrDependencyFilter" mc="Standard.Class" uid="d60b49de-d3a7-42f2-a1b1-f17a6eb1e42a"/>
+        <COMPID name="PatternExclusionsDependencyFilter" mc="Standard.Class" uid="24cb2f46-851c-49d7-a7a6-72f62654a424"/>
+        <COMPID name="PatternInclusionsDependencyFilter" mc="Standard.Class" uid="249f38b0-b7f6-4ae5-ba6b-519fbe66adf1"/>
+        <COMPID name="ScopeDependencyFilter" mc="Standard.Class" uid="8ba1a088-8ec1-4b2a-9e6e-6a2456126633"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

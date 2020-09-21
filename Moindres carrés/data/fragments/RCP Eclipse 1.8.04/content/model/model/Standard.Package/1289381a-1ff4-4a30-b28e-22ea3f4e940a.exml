@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="layout" version="4">
+  <OBJECT>
+    <ID name="layout" mc="Standard.Package" uid="1289381a-1ff4-4a30-b28e-22ea3f4e940a"/>
+    <PID name="forms" mc="Standard.Package" uid="3e3feffd-ea25-43c6-9cc6-65e447bb18f2"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[layout]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="BoundedSize" mc="Standard.Class" uid="f181846c-2de9-4092-99d6-f095c2120253"/>
+        <COMPID name="CellConstraints" mc="Standard.Class" uid="aafda9b0-90be-446a-a697-40ca6d98e06b"/>
+        <COMPID name="ColumnSpec" mc="Standard.Class" uid="d8b30406-873f-4c6a-bf97-ed96331f9ea8"/>
+        <COMPID name="ConstantSize" mc="Standard.Class" uid="ef110e01-ca84-46cf-922c-03edc57c8163"/>
+        <COMPID name="FormLayout" mc="Standard.Class" uid="55760c79-4780-414b-a311-44a0e61dc013"/>
+        <COMPID name="FormSpec" mc="Standard.Class" uid="9b4e53fe-82e8-46f1-b840-b8b68b9c4c0b"/>
+        <COMPID name="FormSpecParser" mc="Standard.Class" uid="54fbc64c-e427-4e90-87dc-38597808c42f"/>
+        <COMPID name="FormSpecs" mc="Standard.Class" uid="d2b6c81c-87df-4dd6-bbfb-af4fe2ef77ab"/>
+        <COMPID name="LayoutMap" mc="Standard.Class" uid="de80658d-11fa-4e36-8e97-75e28e0b2a8e"/>
+        <COMPID name="PrototypeSize" mc="Standard.Class" uid="38e0b0fc-afce-4da4-af14-8c6d0694bc61"/>
+        <COMPID name="RowSpec" mc="Standard.Class" uid="f96f8e37-e9d9-4d06-8776-07c96185aee6"/>
+        <COMPID name="Size" mc="Standard.Interface" uid="0694dd01-870d-4bac-897d-f310b7306c86"/>
+        <COMPID name="Sizes" mc="Standard.Class" uid="6f125af3-d94b-4845-a96b-687ec989918f"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="dropins" version="4">
+  <OBJECT>
+    <ID name="dropins" mc="Standard.Package" uid="003f2b9a-d4f2-111c-bc9b-001e4fea2d8b"/>
+    <PID name="reconciler" mc="Standard.Package" uid="003e15ac-d4f2-111c-bc9b-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[dropins]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Activator" mc="Standard.Class" uid="003fb5ba-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="Application" mc="Standard.Class" uid="003f3626-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="DropinsRepositoryListener" mc="Standard.Class" uid="003f499a-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="Messages" mc="Standard.Class" uid="003fa25a-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="PlatformXmlListener" mc="Standard.Class" uid="003f6d4e-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="ProfileSynchronizer" mc="Standard.Class" uid="003f8036-d4f2-111c-bc9b-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

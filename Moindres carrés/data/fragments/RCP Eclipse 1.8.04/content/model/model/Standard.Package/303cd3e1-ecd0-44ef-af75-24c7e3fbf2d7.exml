@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="eval" version="4">
+  <OBJECT>
+    <ID name="eval" mc="Standard.Package" uid="303cd3e1-ecd0-44ef-af75-24c7e3fbf2d7"/>
+    <PID name="core" mc="Standard.Package" uid="af8d7b90-9518-4c7e-b238-618caecac626"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[eval]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AstEvaluationEngine" mc="Standard.Class" uid="9fc6dfda-b104-45d2-93ba-dfe9ad87adad"/>
+        <COMPID name="DefaultMethodInterceptor" mc="Standard.Class" uid="c19d591f-69e2-4cb1-b9cf-511c6b2e5bdf"/>
+        <COMPID name="EvaluationContext" mc="Standard.Class" uid="a1e24ca5-a8f0-4f44-bc89-6bf5ac687bd2"/>
+        <COMPID name="ExecutionFlowDescription" mc="Standard.Class" uid="b2bee96a-7099-487e-a9f0-e8b6c19e4889"/>
+        <COMPID name="ExecutionFlowUtils" mc="Standard.Class" uid="670566d4-b1da-428f-959c-1efde209e453"/>
+        <COMPID name="ExecutionFlowUtils2" mc="Standard.Class" uid="a268906c-f0b2-42a0-b2e0-70d6dd464202"/>
+        <COMPID name="ExpressionValue" mc="Standard.Class" uid="95c83d5e-5da0-4b91-a21c-437c0025d61b"/>
+        <COMPID name="IExpressionEvaluator" mc="Standard.Interface" uid="6009079e-261b-4eaf-93ae-59325e3e6c2c"/>
+        <COMPID name="InvocationEvaluatorInterceptor" mc="Standard.Class" uid="006c9e54-86c8-4926-ba08-6c6eef3eb853"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

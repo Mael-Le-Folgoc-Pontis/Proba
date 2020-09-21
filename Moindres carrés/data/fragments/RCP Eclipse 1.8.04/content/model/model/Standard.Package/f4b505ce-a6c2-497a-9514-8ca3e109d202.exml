@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="properties" version="4">
+  <OBJECT>
+    <ID name="properties" mc="Standard.Package" uid="f4b505ce-a6c2-497a-9514-8ca3e109d202"/>
+    <PID name="internal" mc="Standard.Package" uid="8dac5e70-eadd-4ac5-9e61-066073002452"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[properties]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="EnumeratedStringPropertyDescriptor" mc="Standard.Class" uid="6a06dc1b-875f-4417-a4b4-7da1602d46f8"/>
+        <COMPID name="StringComboBoxCellEditor" mc="Standard.Class" uid="9999d77b-f757-4af9-bccf-8905c9d7e8bf"/>
+        <COMPID name="XMLPropertySource" mc="Standard.Class" uid="52e72fec-c357-4e55-adc6-6658fc092fc3"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

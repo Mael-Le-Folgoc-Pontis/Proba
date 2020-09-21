@@ -1,0 +1,79 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="commands" version="4">
+  <OBJECT>
+    <ID name="commands" mc="Standard.Package" uid="fe57f900-3cd3-4dc3-84a1-dd269b4daef8"/>
+    <PID name="common" mc="Standard.Package" uid="c4780530-3edd-4852-a6df-c96b2a60b2ea"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[commands]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AddDocumentationCommand" mc="Standard.Class" uid="c474e035-bc51-4c45-aa19-e22e4979371c"/>
+        <COMPID name="AddEnumerationsCommand" mc="Standard.Class" uid="ad0e7fdc-1337-4b4d-ac57-da66dedeef48"/>
+        <COMPID name="AddExtensibilityElementCommand" mc="Standard.Class" uid="34459cd3-8889-4cc1-8231-f203e868aec5"/>
+        <COMPID name="AddExtensionAttributeCommand" mc="Standard.Class" uid="e09942c9-c414-4cf5-a2f5-6b686ec02ae3"/>
+        <COMPID name="AddExtensionCommand" mc="Standard.Class" uid="784c0bf6-746c-4813-bffd-101beba6212e"/>
+        <COMPID name="AddExtensionElementCommand" mc="Standard.Class" uid="715fee9d-1bcd-4cd2-bd8d-c8aab75dfda1"/>
+        <COMPID name="AddRedefinedComponentCommand" mc="Standard.Class" uid="c01d0383-196c-45f8-944a-041c64dcc44f"/>
+        <COMPID name="AddXSDAnyAttributeCommand" mc="Standard.Class" uid="19f59b5e-d4cf-4203-a5aa-4e94f719470b"/>
+        <COMPID name="AddXSDAnyElementCommand" mc="Standard.Class" uid="8ade6204-55c0-470a-a25f-2b3696af49b9"/>
+        <COMPID name="AddXSDAttributeDeclarationCommand" mc="Standard.Class" uid="b8f50f55-1716-49dd-bf84-c6ddc78ffbff"/>
+        <COMPID name="AddXSDAttributeGroupDefinitionCommand" mc="Standard.Class" uid="8bfc9751-ff70-47f5-982f-d00d82133908"/>
+        <COMPID name="AddXSDComplexTypeDefinitionCommand" mc="Standard.Class" uid="d4cb82c8-8f66-4185-b586-c715e112cf6e"/>
+        <COMPID name="AddXSDElementCommand" mc="Standard.Class" uid="426b2dad-9c61-4d5e-be82-9db8a4b8b4f4"/>
+        <COMPID name="AddXSDImportCommand" mc="Standard.Class" uid="85d30568-f9a7-4097-a870-57d9971f02c8"/>
+        <COMPID name="AddXSDIncludeCommand" mc="Standard.Class" uid="4d0551f4-48f6-4a7d-bfa1-296c8b835d41"/>
+        <COMPID name="AddXSDModelGroupCommand" mc="Standard.Class" uid="fbb1fbfa-6f9f-4d77-bb3b-52b364d6fef6"/>
+        <COMPID name="AddXSDModelGroupDefinitionCommand" mc="Standard.Class" uid="55cf4fae-1e02-42b4-abd7-9d3413aa95a1"/>
+        <COMPID name="AddXSDRedefineCommand" mc="Standard.Class" uid="c2526cd0-f067-44fa-b19f-3dd21cbf9ccf"/>
+        <COMPID name="AddXSDSchemaDirectiveCommand" mc="Standard.Class" uid="7a0a7693-1096-4d53-92b1-b8abeeedd563"/>
+        <COMPID name="AddXSDSimpleTypeDefinitionCommand" mc="Standard.Class" uid="428ddc46-5307-4cf3-ba91-f49ba4ad8015"/>
+        <COMPID name="BaseCommand" mc="Standard.Class" uid="9015a696-71d6-4d14-9162-b08c660e6ff5"/>
+        <COMPID name="ChangeToLocalSimpleTypeCommand" mc="Standard.Class" uid="195738c8-8302-4850-b8ec-f3ce3375e9f6"/>
+        <COMPID name="DeleteCommand" mc="Standard.Class" uid="fdfd08bd-1b45-4a12-b114-63c98991d0c2"/>
+        <COMPID name="ExtensibleAddExtensionCommand" mc="Standard.Class" uid="6a7aeddf-3d1b-41e9-9778-647dc2931c13"/>
+        <COMPID name="ExtensibleRemoveExtensionNodeCommand" mc="Standard.Class" uid="ff848386-895d-4dba-83bd-6fca55c6133f"/>
+        <COMPID name="RedefineAttributeGroupCommand" mc="Standard.Class" uid="aea486f5-3e24-4ed6-898d-3231ee41d83a"/>
+        <COMPID name="RedefineComplexTypeCommand" mc="Standard.Class" uid="1dd86a6d-d1fd-4714-a64a-d29ddca9600b"/>
+        <COMPID name="RedefineModelGroupCommand" mc="Standard.Class" uid="6d371149-8059-4b89-9943-758f6bc30976"/>
+        <COMPID name="RedefineSimpleTypeCommand" mc="Standard.Class" uid="dda5907b-354b-4433-95b0-62beda5f44c0"/>
+        <COMPID name="RemoveExtensionAttributerCommand" mc="Standard.Class" uid="f649f664-835f-4c6f-9415-be7c91cb98d4"/>
+        <COMPID name="RemoveExtensionElementCommand" mc="Standard.Class" uid="f024b8ef-a318-4fef-8803-df810ac57095"/>
+        <COMPID name="RemoveExtensionNodeCommand" mc="Standard.Class" uid="edaefbe1-4933-45d5-849b-21e43a2e2eb7"/>
+        <COMPID name="SetBaseTypeAndManagerDirectivesCommand" mc="Standard.Class" uid="da1a4e8b-7fd7-404e-a754-3d63a51b14fb"/>
+        <COMPID name="SetBaseTypeCommand" mc="Standard.Class" uid="44983c37-4b49-4aa1-b3cb-bffe20838502"/>
+        <COMPID name="SetMultiplicityCommand" mc="Standard.Class" uid="461f49a9-70df-4934-bb66-20dca2a81c69"/>
+        <COMPID name="SetTypeCommand" mc="Standard.Class" uid="b1d6b46b-9a72-410a-828b-679f3c1f3c47"/>
+        <COMPID name="SetXSDFacetValueCommand" mc="Standard.Class" uid="a9f971a9-9226-44ab-8263-3fc9744d3203"/>
+        <COMPID name="UpdateAttributeReferenceAndManagerDirectivesCommand" mc="Standard.Class" uid="e415bb80-9ad2-45a5-8d93-9bf89228c124"/>
+        <COMPID name="UpdateAttributeReferenceCommand" mc="Standard.Class" uid="290ca142-f6eb-4f33-bec5-ce7a554e9b96"/>
+        <COMPID name="UpdateAttributeValueCommand" mc="Standard.Class" uid="f935ed82-1c54-4f7d-82db-68c473027fbf"/>
+        <COMPID name="UpdateComplexTypeDerivationBy" mc="Standard.Class" uid="90a3481e-1496-4b4a-b5c4-4e9ede057232"/>
+        <COMPID name="UpdateComponentReferenceAndManageDirectivesCommand" mc="Standard.Class" uid="ee6894e7-5a5c-47a0-a93e-6e25775677d7"/>
+        <COMPID name="UpdateContentModelCommand" mc="Standard.Class" uid="aad4c1ea-a804-4ea3-8dc8-32f0ce33525e"/>
+        <COMPID name="UpdateElementReferenceAndManageDirectivesCommand" mc="Standard.Class" uid="e1c5931c-9502-4ebe-a8e1-0efcc7e9affb"/>
+        <COMPID name="UpdateElementReferenceCommand" mc="Standard.Class" uid="539bda42-f472-422b-a9ea-531f6270d3dd"/>
+        <COMPID name="UpdateMaxOccursCommand" mc="Standard.Class" uid="175fd1f2-2c4c-4516-80f6-ad25e3b5e177"/>
+        <COMPID name="UpdateMinOccursCommand" mc="Standard.Class" uid="ba916c3a-94b2-46e4-8739-865eb075335b"/>
+        <COMPID name="UpdateNameCommand" mc="Standard.Class" uid="81320848-58e6-4be8-add6-3f9d77ef7221"/>
+        <COMPID name="UpdateNamespaceInformationCommand" mc="Standard.Class" uid="c9568b1d-0e08-432b-97f8-7f14ac3094b4"/>
+        <COMPID name="UpdateNumericBoundsFacetCommand" mc="Standard.Class" uid="929f5797-f462-41de-98b5-5b216f8f806a"/>
+        <COMPID name="UpdateStringLengthFacetCommand" mc="Standard.Class" uid="c5e5c806-3cab-419f-9371-d10bf09cfd71"/>
+        <COMPID name="UpdateTextValueCommand" mc="Standard.Class" uid="3db45cd6-6aa8-401d-8194-1a0214c9cc9f"/>
+        <COMPID name="UpdateTypeReferenceAndManageDirectivesCommand" mc="Standard.Class" uid="20cb6cee-20df-451e-a829-7d0973f468da"/>
+        <COMPID name="UpdateTypeReferenceCommand" mc="Standard.Class" uid="139cd644-6bf0-4327-8824-36a77ffee891"/>
+        <COMPID name="UpdateXSDPatternFacetCommand" mc="Standard.Class" uid="8874285e-0927-49a9-9636-94f5d5a4dd8e"/>
+        <COMPID name="UpdateXSDWhiteSpaceFacetCommand" mc="Standard.Class" uid="9920c61b-8120-46a7-b6a1-39c7c5648dc4"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

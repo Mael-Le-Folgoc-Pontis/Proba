@@ -1,0 +1,58 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="core" version="4">
+  <OBJECT>
+    <ID name="core" mc="Standard.Package" uid="500b1a9c-01dc-44bb-b6a6-94e9a034ab2d"/>
+    <PID name="internal" mc="Standard.Package" uid="ec8bcd99-b63a-4040-82f9-0e70cafd5c23"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[core]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Artifact" mc="Standard.Class" uid="41760b78-75ef-4443-a076-36758f1da91f"/>
+        <COMPID name="BooleanParameterDefinition" mc="Standard.Class" uid="852ef429-6d59-4f82-babc-27ecf78473fd"/>
+        <COMPID name="Build" mc="Standard.Class" uid="ae9e8b5c-ccbe-45f5-89b2-6448ed68f489"/>
+        <COMPID name="BuildAdapterFactory" mc="Standard.Class" uid="20bd3000-9c68-4f10-b12a-57b5dbaa0142"/>
+        <COMPID name="BuildCause" mc="Standard.Class" uid="a87a2cf9-753f-4722-a729-8a4c0c1a4447"/>
+        <COMPID name="BuildElement" mc="Standard.Class" uid="a4129025-d4af-4d1f-bffa-925f203b0ef0"/>
+        <COMPID name="BuildFactory" mc="Standard.Class" uid="a5204df9-02f2-412b-90de-44d0c8c03beb"/>
+        <COMPID name="BuildModel" mc="Standard.Class" uid="1d16e068-53fa-4ab7-b54d-da23e3aefe7a"/>
+        <COMPID name="BuildPackage" mc="Standard.Class" uid="e56cc6e8-d4db-4c2e-8e90-49d2f7088f88"/>
+        <COMPID name="BuildParameterDefinition" mc="Standard.Class" uid="dd5a8e06-4d50-46e3-8544-a48c88ba221a"/>
+        <COMPID name="BuildPlan" mc="Standard.Class" uid="f4719336-d2e1-4907-85c6-d30ad4348e58"/>
+        <COMPID name="BuildReference" mc="Standard.Class" uid="8469c1a9-6808-4377-8ede-de9febe725f3"/>
+        <COMPID name="BuildServer" mc="Standard.Class" uid="2c55d908-3b7a-4030-9043-3bdbe7512a8f"/>
+        <COMPID name="BuildSwitch" mc="Standard.Class" uid="95ef2e8c-577c-4b89-bd93-7b59af8b1f8e"/>
+        <COMPID name="BuildsCorePlugin" mc="Standard.Class" uid="01c6f36a-decb-4067-ada6-a3c7bc76b21a"/>
+        <COMPID name="Change" mc="Standard.Class" uid="e8a662d0-1228-45c7-8c31-ba2521794f3f"/>
+        <COMPID name="ChangeArtifact" mc="Standard.Class" uid="caf93d43-a2fc-41ce-a284-58a7900ee669"/>
+        <COMPID name="ChangeSet" mc="Standard.Class" uid="c7677014-8ee4-4042-8ea9-4033c3a270c1"/>
+        <COMPID name="ChoiceParameterDefinition" mc="Standard.Class" uid="8d43ed4a-b482-439f-8cfc-69d64792d4a9"/>
+        <COMPID name="FileParameterDefinition" mc="Standard.Class" uid="7319dbb4-ba2f-4a07-906f-aeae54b5a224"/>
+        <COMPID name="HealthReport" mc="Standard.Class" uid="1d220afa-7c88-436c-b122-413b7fe796b7"/>
+        <COMPID name="IBuildLoader" mc="Standard.Interface" uid="68a3b20e-81df-44dd-8ad5-f86701c69c0d"/>
+        <COMPID name="IBuildModelRealm" mc="Standard.Interface" uid="9ac541e8-25e4-4c05-80be-714d6741dd28"/>
+        <COMPID name="ParameterDefinition" mc="Standard.Class" uid="d5097c4f-3093-42af-9776-e9adc59846a0"/>
+        <COMPID name="PasswordParameterDefinition" mc="Standard.Class" uid="2056455c-f86c-402a-9098-2cbf2ef65efa"/>
+        <COMPID name="PlanParameterDefinition" mc="Standard.Class" uid="15a172cf-a482-4d59-8292-c98947035e34"/>
+        <COMPID name="StringParameterDefinition" mc="Standard.Class" uid="304269fd-ec6c-4a9d-a412-0e92a0b7a63c"/>
+        <COMPID name="StringToStringMap" mc="Standard.Class" uid="ef806f5e-5527-4964-87e8-f8e5049492c7"/>
+        <COMPID name="TestCase" mc="Standard.Class" uid="a8cfaf3d-48bf-4742-81b7-babbafc51fbf"/>
+        <COMPID name="TestElement" mc="Standard.Class" uid="2e25c279-b8e3-40fc-8c02-645c79055731"/>
+        <COMPID name="TestResult" mc="Standard.Class" uid="7114081b-d6c3-4ee3-b6c1-e81c8d321b06"/>
+        <COMPID name="TestSuite" mc="Standard.Class" uid="19bd4cf0-87f7-40b5-b0e8-c4ddc1caf449"/>
+        <COMPID name="User" mc="Standard.Class" uid="415ff29d-fd98-4229-b617-b4b40eeaaa2e"/>
+        <COMPID name="operations" mc="Standard.Package" uid="8ff0519e-b275-4453-83f7-f5e965fd6de2"/>
+        <COMPID name="util" mc="Standard.Package" uid="4a46f4ef-7ca4-4849-b302-b4e7009e6d4a"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

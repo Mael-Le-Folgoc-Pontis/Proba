@@ -1,0 +1,120 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="transport" version="4">
+  <OBJECT>
+    <ID name="transport" mc="Standard.Package" uid="4d598de4-25d7-4281-a0b6-95f52ebf6f66"/>
+    <PID name="jgit" mc="Standard.Package" uid="bf3b61ef-28ee-4cf7-8afd-022df78c66c8"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[transport]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractAdvertiseRefsHook" mc="Standard.Class" uid="ca5ae82f-38d4-4607-8890-fd0b351cba09"/>
+        <COMPID name="AdvertiseRefsHook" mc="Standard.Interface" uid="d296a6f6-de79-4cc9-9b65-0fba49a58a1f"/>
+        <COMPID name="AdvertiseRefsHookChain" mc="Standard.Class" uid="54566963-932b-4dda-b375-6bcc3f8ccfe0"/>
+        <COMPID name="AmazonS3" mc="Standard.Class" uid="83561f0f-4686-4180-9ae9-91bb2d8479a8"/>
+        <COMPID name="BaseConnection" mc="Standard.Class" uid="f0275756-70da-4aea-90e7-ca9ce2f0d1f6"/>
+        <COMPID name="BasePackFetchConnection" mc="Standard.Class" uid="9ac375e7-d52c-44a5-a3d7-2dd9b0b448da"/>
+        <COMPID name="BasePackPushConnection" mc="Standard.Class" uid="defc438c-285d-4822-894b-b7947506c720"/>
+        <COMPID name="BaseReceivePack" mc="Standard.Class" uid="6e14025f-f56a-42ad-9210-14b5ff5cb674"/>
+        <COMPID name="BundleWriter" mc="Standard.Class" uid="8b9b07b5-2507-4442-a3a0-abc00f3452fe"/>
+        <COMPID name="ChainingCredentialsProvider" mc="Standard.Class" uid="e67fe2f6-53d2-46d7-9734-d9017e22c2c8"/>
+        <COMPID name="Connection" mc="Standard.Interface" uid="8242a747-a008-4b60-b249-aafc75eef851"/>
+        <COMPID name="CredentialItem" mc="Standard.Class" uid="0f974236-692a-4136-90ca-ad7d60dd289f"/>
+        <COMPID name="CredentialsProvider" mc="Standard.Class" uid="836d5b4e-cb0e-487a-8518-f609b1ff33ae"/>
+        <COMPID name="CredentialsProviderUserInfo" mc="Standard.Class" uid="1bb1ae16-6dd2-4310-86e3-75e20ce56d2c"/>
+        <COMPID name="Daemon" mc="Standard.Class" uid="25c8fe5a-a8ed-4e81-9b32-f05f82b90e8b"/>
+        <COMPID name="DaemonClient" mc="Standard.Class" uid="5b085146-277a-4f68-9f33-5294fb404820"/>
+        <COMPID name="DaemonService" mc="Standard.Class" uid="0fc2d378-b0c6-42bb-8fdd-982d8fbfc981"/>
+        <COMPID name="FetchConnection" mc="Standard.Interface" uid="b26067ce-9ad6-4546-9ef5-153e8c985ea4"/>
+        <COMPID name="FetchResult" mc="Standard.Class" uid="dd562d49-e72c-4520-baf7-6dce492565e1"/>
+        <COMPID name="GitProtocolConstants" mc="Standard.Class" uid="a691a5a1-a259-4003-96a3-0d2268852aa4"/>
+        <COMPID name="HMACSHA1NonceGenerator" mc="Standard.Class" uid="d61c1f27-e87a-472d-9843-0ce33bf0357f"/>
+        <COMPID name="HttpTransport" mc="Standard.Class" uid="73d78406-26c7-4eff-8019-e55121b9481c"/>
+        <COMPID name="InternalHttpServerGlue" mc="Standard.Class" uid="9f2f6574-2790-43fc-a4a6-6daa7af71fee"/>
+        <COMPID name="JschConfigSessionFactory" mc="Standard.Class" uid="798bd27f-4fe8-4391-885b-790c7548d675"/>
+        <COMPID name="JschSession" mc="Standard.Class" uid="9d1bf57c-8904-4bde-93f1-d569c10be8aa"/>
+        <COMPID name="NetRC" mc="Standard.Class" uid="25bc28be-5680-4005-82c9-3c47e94d387f"/>
+        <COMPID name="NetRCCredentialsProvider" mc="Standard.Class" uid="61e7c881-a3b5-4e4b-bda8-b408cb9003e4"/>
+        <COMPID name="NonceGenerator" mc="Standard.Interface" uid="b43ea2a3-90e4-42b0-8fc0-e1af4c78fa4e"/>
+        <COMPID name="OpenSshConfig" mc="Standard.Class" uid="16c8378a-3db1-47e0-82c8-bf4bf4c7dc0b"/>
+        <COMPID name="OperationResult" mc="Standard.Class" uid="6db5e563-d805-477b-9472-57e6ddedda02"/>
+        <COMPID name="PackParser" mc="Standard.Class" uid="bc605b78-19a1-4d23-92e3-7b56832774e6"/>
+        <COMPID name="PackTransport" mc="Standard.Interface" uid="a23cee31-85f3-4d7e-b197-f186b470929a"/>
+        <COMPID name="PackedObjectInfo" mc="Standard.Class" uid="d1e70568-46fe-4f85-961b-f32e5c4f06dd"/>
+        <COMPID name="PacketLineIn" mc="Standard.Class" uid="cad4c66a-b58d-4a01-9638-dbd2c7dc26b2"/>
+        <COMPID name="PacketLineOut" mc="Standard.Class" uid="cfa21bae-277f-41cb-a457-c6615da7afbc"/>
+        <COMPID name="PostReceiveHook" mc="Standard.Interface" uid="5520a9b9-436d-4984-a24c-d5369072e640"/>
+        <COMPID name="PostReceiveHookChain" mc="Standard.Class" uid="5f1b41c8-e214-401e-93ca-05b1f044ce25"/>
+        <COMPID name="PreReceiveHook" mc="Standard.Interface" uid="e6ad2858-90cf-45e7-aaa4-74b7b51a1e32"/>
+        <COMPID name="PreReceiveHookChain" mc="Standard.Class" uid="8e5bb2bd-ad89-4e5e-a29d-a32140356544"/>
+        <COMPID name="PreUploadHook" mc="Standard.Interface" uid="90bfdb91-2a26-40ea-8305-db7570f16f85"/>
+        <COMPID name="PreUploadHookChain" mc="Standard.Class" uid="a727890d-fcbc-41e1-9662-8694559df725"/>
+        <COMPID name="PushCertificate" mc="Standard.Class" uid="24f3e547-495f-4c65-9037-c5d50ee52565"/>
+        <COMPID name="PushCertificateParser" mc="Standard.Class" uid="90858e7e-650d-4dc1-885b-5ac2f9cf24c1"/>
+        <COMPID name="PushConnection" mc="Standard.Interface" uid="ea26686f-1ecd-46d1-b997-851fc0715bc6"/>
+        <COMPID name="PushResult" mc="Standard.Class" uid="89b8181f-d388-415c-a530-957370b77b27"/>
+        <COMPID name="ReceiveCommand" mc="Standard.Class" uid="c9b5a7ae-b235-47dc-b7e1-0bf8cb612c2f"/>
+        <COMPID name="ReceivePack" mc="Standard.Class" uid="6d567f2c-be0d-4270-966f-8c5e5ac9db87"/>
+        <COMPID name="RefAdvertiser" mc="Standard.Class" uid="5f46d97c-4d58-4370-8696-cc3b1565fcd8"/>
+        <COMPID name="RefFilter" mc="Standard.Interface" uid="3316615f-c01c-435d-ae9a-8c79e9336fcc"/>
+        <COMPID name="RefSpec" mc="Standard.Class" uid="8a5cb6b1-22f2-48e5-b33f-0c749eb4dba5"/>
+        <COMPID name="RemoteConfig" mc="Standard.Class" uid="7a2e17ef-f4df-4e90-bc58-15cc670f3092"/>
+        <COMPID name="RemoteRefUpdate" mc="Standard.Class" uid="413924f4-f358-4588-88e8-2d654a35b6b0"/>
+        <COMPID name="RemoteSession" mc="Standard.Interface" uid="801f21ad-fe2e-4328-86d3-d55c61d95d25"/>
+        <COMPID name="RequestNotYetReadException" mc="Standard.Class" uid="e6b9c504-a43a-4b9a-ad3b-65dd8f0dd6ce"/>
+        <COMPID name="ServiceMayNotContinueException" mc="Standard.Class" uid="868e3c8f-a3df-4dac-ae8c-df705dab55ce"/>
+        <COMPID name="SideBandOutputStream" mc="Standard.Class" uid="24d35669-bc73-4450-8ee0-f318a1056b0f"/>
+        <COMPID name="SshSessionFactory" mc="Standard.Class" uid="ad584a7c-96ec-4fd8-93da-0f405edd954a"/>
+        <COMPID name="SshTransport" mc="Standard.Class" uid="52d89bfe-1053-4b2a-b1e1-a900099fb70d"/>
+        <OBJECT>
+          <ID name="TagOpt" mc="Standard.Enumeration" uid="efa39e35-942a-4d4b-96c0-62ab0828c5ed"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[TagOpt]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Extension">
+              <FOREIGNID name="JavaEnumeration" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0262-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <COMPID name="TcpTransport" mc="Standard.Class" uid="78202ca8-10ad-4714-ae58-00fff9ff143d"/>
+        <COMPID name="TestProtocol" mc="Standard.Class" uid="b77d9a7c-bafb-4f32-8f60-de788378da3d"/>
+        <COMPID name="TrackingRefUpdate" mc="Standard.Class" uid="93c31d52-8d87-44f9-9bf5-c495741b9f58"/>
+        <COMPID name="TransferConfig" mc="Standard.Class" uid="56051e63-e022-4a22-b3d0-05be80d48089"/>
+        <COMPID name="Transport" mc="Standard.Class" uid="d604301d-9279-4687-a3b3-1dc7ecf99b4a"/>
+        <COMPID name="TransportAmazonS3" mc="Standard.Class" uid="77af0476-0d02-4039-8141-84a97ec64011"/>
+        <COMPID name="TransportBundle" mc="Standard.Interface" uid="809b038b-50f9-4679-bbfc-6c0321e46d15"/>
+        <COMPID name="TransportBundleStream" mc="Standard.Class" uid="47624089-ba6d-404d-b5a3-30828bfebd43"/>
+        <COMPID name="TransportGitSsh" mc="Standard.Class" uid="e05823be-7833-4d84-b7fc-48b03489ff5b"/>
+        <COMPID name="TransportHttp" mc="Standard.Class" uid="d0d33fe6-1505-44f8-8eef-e3d659b22c87"/>
+        <COMPID name="TransportProtocol" mc="Standard.Class" uid="8db1aca2-c96c-4efd-a624-699de06d3657"/>
+        <COMPID name="TransportSftp" mc="Standard.Class" uid="cb838283-23a8-4103-adc9-550d44a7602d"/>
+        <COMPID name="URIish" mc="Standard.Class" uid="b1df4cd0-fb7e-4bac-8738-eae46cae35d8"/>
+        <COMPID name="UploadPack" mc="Standard.Class" uid="14cca482-d9b8-4c6c-8a3c-492d82c82278"/>
+        <COMPID name="UploadPackInternalServerErrorException" mc="Standard.Class" uid="c366601d-5fcb-4075-91ab-e41219b66500"/>
+        <COMPID name="UploadPackLogger" mc="Standard.Interface" uid="83a90ca9-32d0-4073-a90b-85765fef4e7f"/>
+        <COMPID name="UploadPackLoggerChain" mc="Standard.Class" uid="164718b8-5446-44a8-a97c-b4e72315b187"/>
+        <COMPID name="UserAgent" mc="Standard.Class" uid="c3a449fb-6977-43d8-9657-03d6fc0d01e3"/>
+        <COMPID name="UsernamePasswordCredentialsProvider" mc="Standard.Class" uid="ae0c04c1-715e-4d0b-9250-24c4ad44c4fa"/>
+        <COMPID name="WalkTransport" mc="Standard.Interface" uid="e661c57f-445a-410f-9678-f3cb79e0668a"/>
+        <COMPID name="http" mc="Standard.Package" uid="1e2a19b9-d8b7-4395-946a-3f4e95d661cf"/>
+        <COMPID name="resolver" mc="Standard.Package" uid="11c0211a-076d-4997-8758-be38b46cee09"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="patch" version="4">
+  <OBJECT>
+    <ID name="patch" mc="Standard.Package" uid="003787b4-0bbf-112e-9071-001e4fea2d8b"/>
+    <PID name="internal" mc="Standard.Package" uid="002f65de-0bbf-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[patch]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="DiffViewerComparator" mc="Standard.Class" uid="00379600-0bbf-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FilePatch" mc="Standard.Class" uid="00379d94-0bbf-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HunkDiffNode" mc="Standard.Class" uid="0037a51e-0bbf-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HunkTypedElement" mc="Standard.Class" uid="0037ad20-0bbf-112e-9071-001e4fea2d8b"/>
+        <COMPID name="InputPatchPage" mc="Standard.Class" uid="0037b572-0bbf-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LineReader" mc="Standard.Class" uid="0037c4c2-0bbf-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PatchCompareEditorInput" mc="Standard.Class" uid="0037cd50-0bbf-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PatchDiffNode" mc="Standard.Class" uid="0037dce6-0bbf-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PatchErrorDialog" mc="Standard.Class" uid="0037e5ec-0bbf-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PatchFileDiffNode" mc="Standard.Class" uid="0037ef06-0bbf-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PatchFileTypedElement" mc="Standard.Class" uid="0037f870-0bbf-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PatchMessages" mc="Standard.Class" uid="0038020c-0bbf-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PatchProjectDiffNode" mc="Standard.Class" uid="00380bd0-0bbf-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PatchTargetPage" mc="Standard.Class" uid="003815d0-0bbf-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PatchWizard" mc="Standard.Class" uid="00381fee-0bbf-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PatchWizardDialog" mc="Standard.Class" uid="00382a16-0bbf-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Patcher" mc="Standard.Class" uid="003834ac-0bbf-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PreviewPatchPage2" mc="Standard.Class" uid="00384686-0bbf-112e-9071-001e4fea2d8b"/>
+        <COMPID name="UnmatchedHunkTypedElement" mc="Standard.Class" uid="00386be8-0bbf-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Utilities" mc="Standard.Class" uid="0038773c-0bbf-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WorkspaceFileDiffResult" mc="Standard.Class" uid="0038829a-0bbf-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WorkspacePatcher" mc="Standard.Class" uid="00388e7a-0bbf-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

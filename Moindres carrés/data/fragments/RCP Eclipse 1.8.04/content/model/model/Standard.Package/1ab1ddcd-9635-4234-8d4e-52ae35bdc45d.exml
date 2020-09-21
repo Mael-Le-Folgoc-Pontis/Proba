@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="models" version="4">
+  <OBJECT>
+    <ID name="models" mc="Standard.Package" uid="1ab1ddcd-9635-4234-8d4e-52ae35bdc45d"/>
+    <PID name="editor" mc="Standard.Package" uid="56dd978d-eeb2-4b4c-90a0-ec3ee1d6801c"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[models]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="combo" mc="Standard.Package" uid="0185d5d7-2b9a-4be6-9606-291b4b1b1bcf"/>
+        <COMPID name="list" mc="Standard.Package" uid="2668d3d9-0c52-48a0-b639-537eaba29c52"/>
+        <COMPID name="spinner" mc="Standard.Package" uid="f96b9db7-67c1-44da-906f-ea93257dbdf2"/>
+        <COMPID name="table" mc="Standard.Package" uid="0d2a44d8-2e85-481d-9a53-eeb9b7cd3681"/>
+        <COMPID name="tree" mc="Standard.Package" uid="7aadcd1b-0ece-4781-9351-4b8e83e13f87"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

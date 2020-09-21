@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="xmlrules" version="4">
+  <OBJECT>
+    <ID name="xmlrules" mc="Standard.Package" uid="1edbf737-3ba5-47e6-bf5c-f769b57a9054"/>
+    <PID name="digester" mc="Standard.Package" uid="6d31e989-2200-4a23-9aed-1a9f26c65a63"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[xmlrules]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="CircularIncludeException" mc="Standard.Class" uid="c7f82ece-4df8-49cd-82cb-5eafe2056289"/>
+        <COMPID name="DigesterLoader" mc="Standard.Class" uid="a8f43f77-02d4-4d32-a3a2-e80c50c40bd6"/>
+        <COMPID name="DigesterLoadingException" mc="Standard.Class" uid="3a27e787-ab9d-4a2f-b20f-183955036ec8"/>
+        <COMPID name="DigesterRuleParser" mc="Standard.Class" uid="c9d28f2c-ce67-451b-9c28-165da027ba7e"/>
+        <COMPID name="DigesterRulesSource" mc="Standard.Interface" uid="ee06bbdb-72c4-4bd9-8332-a1e3cf030343"/>
+        <COMPID name="FromXmlRuleSet" mc="Standard.Class" uid="d63889f3-3da6-4cd8-9681-ba22a0dc702b"/>
+        <COMPID name="XmlLoadException" mc="Standard.Class" uid="727012ce-1e82-427d-84bd-c0f5757cc994"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

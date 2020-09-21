@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="resolver" version="4">
+  <OBJECT>
+    <ID name="resolver" mc="Standard.Package" uid="269e334d-83c2-4e1f-ab18-40070523feb5"/>
+    <PID name="felix" mc="Standard.Package" uid="0085ef58-21b0-1fb1-8a9e-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[resolver]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="FelixResolveContext" mc="Standard.Interface" uid="870865d8-ad10-49aa-b6c5-c2c79837640b"/>
+        <COMPID name="Logger" mc="Standard.Class" uid="b0be0342-c75c-4953-bdbc-7033edba17e1"/>
+        <COMPID name="ResolverImpl" mc="Standard.Class" uid="a4d69c8d-bef2-442d-b135-13cd19d23002"/>
+        <COMPID name="ShadowList" mc="Standard.Class" uid="c6132aa0-1d18-432f-9212-0e9039b30aab"/>
+        <COMPID name="Util" mc="Standard.Class" uid="48347750-0c0b-44da-8571-8399245e2a12"/>
+        <COMPID name="WrappedCapability" mc="Standard.Class" uid="8d501499-9572-4ebd-8c82-30fefd878e70"/>
+        <COMPID name="WrappedRequirement" mc="Standard.Class" uid="85a8539c-1a0f-43a2-96c8-761b8c611454"/>
+        <COMPID name="util" mc="Standard.Package" uid="f54e2cda-748d-4754-a7ef-0fbf1f2f798c"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

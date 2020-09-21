@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="variables" version="4">
+  <OBJECT>
+    <ID name="variables" mc="Standard.Package" uid="005d01e2-0bc1-112e-9071-001e4fea2d8b"/>
+    <PID name="views" mc="Standard.Package" uid="0049cc26-0bc1-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[variables]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AvailableLogicalStructuresAction" mc="Standard.Class" uid="005d084a-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IndexedValuePartition" mc="Standard.Class" uid="005d0f66-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IndexedVariablePartition" mc="Standard.Class" uid="005d16a0-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LogicalStructureCache" mc="Standard.Class" uid="005d1dd0-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SelectLogicalStructureAction" mc="Standard.Class" uid="005d2c3a-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SelectionDragAdapter" mc="Standard.Class" uid="005d33ce-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ToggleLogicalStructureAction" mc="Standard.Class" uid="005d3bda-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ToggleShowColumnsAction" mc="Standard.Class" uid="005d444a-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="VariableViewToggleAction" mc="Standard.Class" uid="005d4c88-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="VariablesView" mc="Standard.Class" uid="005d5534-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="VariablesViewMessages" mc="Standard.Class" uid="005d776c-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="details" mc="Standard.Package" uid="005f019a-0bc1-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

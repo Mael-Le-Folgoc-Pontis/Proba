@@ -1,0 +1,52 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="formatter" version="4">
+  <OBJECT>
+    <ID name="formatter" mc="Standard.Package" uid="0010e7ee-0bcb-112e-9071-001e4fea2d8b"/>
+    <PID name="preferences" mc="Standard.Package" uid="00057a1c-0bcb-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[formatter]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AlreadyExistsDialog" mc="Standard.Class" uid="0010ef6e-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BlankLinesTabPage" mc="Standard.Class" uid="0010f608-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BracesTabPage" mc="Standard.Class" uid="0010fcac-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CodeFormatterConfigurationBlock" mc="Standard.Class" uid="00110346-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CommentsTabPage" mc="Standard.Class" uid="00110fe4-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CompilationUnitPreview" mc="Standard.Class" uid="001134c4-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ControlStatementsTabPage" mc="Standard.Class" uid="00113c08-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CreateProfileDialog" mc="Standard.Class" uid="00114342-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CustomCodeFormatterBlock" mc="Standard.Class" uid="31d5d9b4-06f5-4425-9581-daec574bf061"/>
+        <COMPID name="FormatterModifyDialog" mc="Standard.Class" uid="001152ce-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FormatterProfileManager" mc="Standard.Class" uid="00115a9e-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FormatterProfileStore" mc="Standard.Class" uid="001162d2-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FormatterTabPage" mc="Standard.Class" uid="00116b9c-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IModifyDialogTabPage" mc="Standard.Interface" uid="00117182-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IProfileVersioner" mc="Standard.Interface" uid="00117ef2-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IndentationTabPage" mc="Standard.Class" uid="001187b2-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaPreview" mc="Standard.Class" uid="001190ae-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LineWrappingTabPage" mc="Standard.Class" uid="00119f86-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ModifyDialog" mc="Standard.Class" uid="0011c2e0-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ModifyDialogTabPage" mc="Standard.Class" uid="0011cc0e-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="NewLinesTabPage" mc="Standard.Class" uid="00122744-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="OffOnTagsTabPage" mc="Standard.Class" uid="0012319e-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ProfileConfigurationBlock" mc="Standard.Class" uid="00123ba8-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ProfileManager" mc="Standard.Class" uid="001257be-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ProfileStore" mc="Standard.Class" uid="0012a110-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ProfileVersioner" mc="Standard.Class" uid="0012b8ee-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SnippetPreview" mc="Standard.Class" uid="0012c3c0-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WhiteSpaceOptions" mc="Standard.Class" uid="0012dc7a-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WhiteSpaceTabPage" mc="Standard.Class" uid="0013110e-0bcb-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

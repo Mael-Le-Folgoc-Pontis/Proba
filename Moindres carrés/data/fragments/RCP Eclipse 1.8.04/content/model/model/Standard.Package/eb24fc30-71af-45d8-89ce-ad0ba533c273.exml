@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="dialog" version="4">
+  <OBJECT>
+    <ID name="dialog" mc="Standard.Package" uid="eb24fc30-71af-45d8-89ce-ad0ba533c273"/>
+    <PID name="internal" mc="Standard.Package" uid="eb0e606b-c69e-4970-bbfc-e8920bb39595"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[dialog]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="FilterDialog" mc="Standard.Class" uid="7af4b347-9282-4cbe-9bc9-7d8e70b46402"/>
+        <COMPID name="NewFilterRule" mc="Standard.Class" uid="3c043cf1-ce32-4060-ba88-aa5ecdd49b4f"/>
+        <COMPID name="ResultsDialog" mc="Standard.Class" uid="92e62c4c-8e17-42ad-8029-5a3e07c3efcc"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

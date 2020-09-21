@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="impl" version="4">
+  <OBJECT>
+    <ID name="impl" mc="Standard.Package" uid="46924822-3d98-45ba-994e-6e244ef83f81"/>
+    <PID name="base" mc="Standard.Package" uid="0ed29409-a097-4235-9eb7-4bb607f2cd3a"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[impl]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AnnotationImpl" mc="Standard.Class" uid="73d983f4-7f64-4777-9310-79ff5deb4df5"/>
+        <COMPID name="BaseFactoryImpl" mc="Standard.Class" uid="016ac687-b166-4742-b3dd-5e67459e4087"/>
+        <COMPID name="BasePackageImpl" mc="Standard.Class" uid="27001002-519c-44fd-baa7-1de97bc78167"/>
+        <COMPID name="ModelElementImpl" mc="Standard.Class" uid="d04df21e-6fae-4ce1-882e-0fd3d275b30c"/>
+        <COMPID name="StringToStringMapEntryImpl" mc="Standard.Class" uid="6e30d7fa-4fd6-437d-bc8c-f0343004b0aa"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

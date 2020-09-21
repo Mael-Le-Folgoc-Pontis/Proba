@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="news" version="4">
+  <OBJECT>
+    <ID name="news" mc="Standard.Package" uid="fb2852d4-2ee1-4bb9-a929-e2644622c8c1"/>
+    <PID name="rcp" mc="Standard.Package" uid="2cad19b4-1136-4a73-9bad-024576229992"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[news]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractNotificationPopup" mc="Standard.Class" uid="1759529c-7783-4846-9828-423ad95cc437"/>
+        <COMPID name="CheckForProjectNewsJob" mc="Standard.Class" uid="d178b55d-0fa0-4a42-af77-2fb3dfd0c75d"/>
+        <COMPID name="NewsNotificationPopup" mc="Standard.Class" uid="6b2712dd-a9f1-41f2-bc24-ce1ac0db86e4"/>
+        <COMPID name="RssParser" mc="Standard.Class" uid="af056b1d-7ec3-446b-8856-948561e88493"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

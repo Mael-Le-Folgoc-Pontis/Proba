@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="property" version="4">
+  <OBJECT>
+    <ID name="property" mc="Standard.Package" uid="c55998f6-773f-4f5d-823c-31a9de976850"/>
+    <PID name="model" mc="Standard.Package" uid="883cd59f-2e24-40f1-a91a-50e8d4bef3b3"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[property]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="TabOrderProperty" mc="Standard.Class" uid="3607f004-088f-4a32-abad-872ee9280fec"/>
+        <COMPID name="converter" mc="Standard.Package" uid="994260e4-4118-4e4d-8476-9cc76485eaa3"/>
+        <COMPID name="editor" mc="Standard.Package" uid="56dd978d-eeb2-4b4c-90a0-ec3ee1d6801c"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

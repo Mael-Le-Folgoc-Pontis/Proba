@@ -1,0 +1,79 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="html" version="4">
+  <OBJECT>
+    <ID name="html" mc="Standard.Package" uid="00824452-0bdb-112e-9071-001e4fea2d8b"/>
+    <PID name="dom" mc="Standard.Package" uid="007d8bd8-0bdb-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[html]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="HTMLAnchorElement" mc="Standard.Interface" uid="00824b00-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HTMLAppletElement" mc="Standard.Interface" uid="008252a8-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HTMLAreaElement" mc="Standard.Interface" uid="0082599c-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HTMLBRElement" mc="Standard.Interface" uid="008260a4-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HTMLBaseElement" mc="Standard.Interface" uid="008267ac-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HTMLBaseFontElement" mc="Standard.Interface" uid="00826f2c-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HTMLBodyElement" mc="Standard.Interface" uid="008276d4-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HTMLButtonElement" mc="Standard.Interface" uid="00827ec2-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HTMLCollection" mc="Standard.Interface" uid="008286ce-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HTMLDListElement" mc="Standard.Interface" uid="00828f16-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HTMLDOMImplementation" mc="Standard.Interface" uid="04d60db5-35ca-4834-b963-d2033d59b09d"/>
+        <COMPID name="HTMLDirectoryElement" mc="Standard.Interface" uid="0082977c-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HTMLDivElement" mc="Standard.Interface" uid="00829fe2-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HTMLDocument" mc="Standard.Interface" uid="0082a8a2-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HTMLElement" mc="Standard.Interface" uid="0082b1bc-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HTMLFieldSetElement" mc="Standard.Interface" uid="0082baae-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HTMLFontElement" mc="Standard.Interface" uid="0082c40e-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HTMLFormElement" mc="Standard.Interface" uid="0082cda0-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HTMLFrameElement" mc="Standard.Interface" uid="0082d71e-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HTMLFrameSetElement" mc="Standard.Interface" uid="0082e128-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HTMLHRElement" mc="Standard.Interface" uid="0082eb3c-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HTMLHeadElement" mc="Standard.Interface" uid="0082f546-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HTMLHeadingElement" mc="Standard.Interface" uid="0082ffaa-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HTMLHtmlElement" mc="Standard.Interface" uid="00830a54-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HTMLIFrameElement" mc="Standard.Interface" uid="0083151c-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HTMLImageElement" mc="Standard.Interface" uid="008320c0-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HTMLInputElement" mc="Standard.Interface" uid="00832bec-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HTMLIsIndexElement" mc="Standard.Interface" uid="0083375e-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HTMLLIElement" mc="Standard.Interface" uid="008342a8-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HTMLLabelElement" mc="Standard.Interface" uid="00834e60-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HTMLLegendElement" mc="Standard.Interface" uid="00835a40-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HTMLLinkElement" mc="Standard.Interface" uid="0083662a-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HTMLMapElement" mc="Standard.Interface" uid="00837278-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HTMLMenuElement" mc="Standard.Interface" uid="00837ee4-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HTMLMetaElement" mc="Standard.Interface" uid="00838c9a-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HTMLModElement" mc="Standard.Interface" uid="0083992e-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HTMLOListElement" mc="Standard.Interface" uid="0083a63a-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HTMLObjectElement" mc="Standard.Interface" uid="0083b382-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HTMLOptGroupElement" mc="Standard.Interface" uid="0083c106-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HTMLOptionElement" mc="Standard.Interface" uid="0083cea8-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HTMLParagraphElement" mc="Standard.Interface" uid="0083dc7c-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HTMLParamElement" mc="Standard.Interface" uid="0083ea46-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HTMLPreElement" mc="Standard.Interface" uid="0083f874-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HTMLQuoteElement" mc="Standard.Interface" uid="008406ca-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HTMLScriptElement" mc="Standard.Interface" uid="00841548-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HTMLSelectElement" mc="Standard.Interface" uid="008423b2-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HTMLStyleElement" mc="Standard.Interface" uid="0084330c-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HTMLTableCaptionElement" mc="Standard.Interface" uid="0084422a-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HTMLTableCellElement" mc="Standard.Interface" uid="00845148-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HTMLTableColElement" mc="Standard.Interface" uid="0084612e-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HTMLTableElement" mc="Standard.Interface" uid="008470d8-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HTMLTableRowElement" mc="Standard.Interface" uid="0084805a-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HTMLTableSectionElement" mc="Standard.Interface" uid="00849068-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HTMLTextAreaElement" mc="Standard.Interface" uid="0084a094-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HTMLTitleElement" mc="Standard.Interface" uid="0084b0e8-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HTMLUListElement" mc="Standard.Interface" uid="0084c1fa-0bdb-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

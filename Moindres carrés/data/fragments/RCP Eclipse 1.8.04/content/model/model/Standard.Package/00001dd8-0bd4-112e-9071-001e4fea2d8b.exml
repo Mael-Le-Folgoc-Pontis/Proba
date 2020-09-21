@@ -1,0 +1,51 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="mappings" version="4">
+  <OBJECT>
+    <ID name="mappings" mc="Standard.Package" uid="00001dd8-0bd4-112e-9071-001e4fea2d8b"/>
+    <PID name="ui" mc="Standard.Package" uid="008e9932-0bd3-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[mappings]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractCommitAction" mc="Standard.Class" uid="00002422-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AbstractModelMergeOperation" mc="Standard.Class" uid="00002a3a-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ApplyPatchAction" mc="Standard.Class" uid="00003098-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CVSModelProviderAction" mc="Standard.Class" uid="00003732-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CVSModelSynchronizeParticipant" mc="Standard.Class" uid="00003db8-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CVSSubscriberMergeContext" mc="Standard.Class" uid="0000452e-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ChangeSetActionProvider" mc="Standard.Class" uid="00004c5e-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ChangeSetComparator" mc="Standard.Class" uid="00008110-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ChangeSetCompareAdapter" mc="Standard.Class" uid="000088e0-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ChangeSetContentProvider" mc="Standard.Class" uid="00009060-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ChangeSetLabelProvider" mc="Standard.Class" uid="00009e2a-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ChangeSetSorter" mc="Standard.Class" uid="0000a622-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CheckedInChangeSetCollector" mc="Standard.Class" uid="0000ae74-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CommitAction" mc="Standard.Class" uid="0000bc8e-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CompareSubscriberContext" mc="Standard.Class" uid="0000c558-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CreatePatchAction" mc="Standard.Class" uid="0000ce54-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MergeSubscriberContext" mc="Standard.Class" uid="0000d73c-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ModelCompareParticipant" mc="Standard.Class" uid="0000e09c-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ModelMergeOperation" mc="Standard.Class" uid="0000efa6-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ModelMergeParticipant" mc="Standard.Class" uid="0000f988-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ModelParticipantChangeSetCapability" mc="Standard.Class" uid="00010900-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ModelReplaceOperation" mc="Standard.Class" uid="00011328-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ModelSynchronizeWizard" mc="Standard.Class" uid="00011dc8-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ModelUpdateOperation" mc="Standard.Class" uid="00012822-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WorkspaceChangeSetCapability" mc="Standard.Class" uid="00013de4-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WorkspaceCommitAction" mc="Standard.Class" uid="000148d4-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WorkspaceModelParticipant" mc="Standard.Class" uid="00015428-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WorkspaceSubscriberContext" mc="Standard.Class" uid="00016544-0bd4-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

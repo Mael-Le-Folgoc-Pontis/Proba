@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="classworlds" version="4">
+  <OBJECT>
+    <ID name="classworlds" mc="Standard.Package" uid="30127551-fff1-4d66-bf79-38db4d6af12f"/>
+    <PID name="codehaus" mc="Standard.Package" uid="3f7575f8-1a58-4389-bdbc-7371f8d7e7c8"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[classworlds]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="BytesURLConnection" mc="Standard.Class" uid="e84fe442-1134-4803-ba3a-629b24f7078a"/>
+        <COMPID name="BytesURLStreamHandler" mc="Standard.Class" uid="ff2edb52-77d8-47cf-8290-942fbc42960a"/>
+        <COMPID name="ClassRealm" mc="Standard.Interface" uid="47e87340-2521-49ad-aef9-1ebd09aae6dd"/>
+        <COMPID name="ClassRealmAdapter" mc="Standard.Class" uid="65653b15-1415-457a-831a-e770f40e210b"/>
+        <COMPID name="ClassRealmReverseAdapter" mc="Standard.Class" uid="fcc56833-4a7f-462b-89a8-25e41350563d"/>
+        <COMPID name="ClassWorld" mc="Standard.Class" uid="72ca0d2a-4334-4dda-a16b-d68b2cb0602a"/>
+        <COMPID name="ClassWorldAdapter" mc="Standard.Class" uid="86beee65-9e91-4487-94f7-9e542b6b87ce"/>
+        <COMPID name="ClassWorldException" mc="Standard.Class" uid="465c9a19-7a34-4649-a641-48c6b15cf362"/>
+        <COMPID name="ClassWorldReverseAdapter" mc="Standard.Class" uid="df72c609-34c7-41d0-9a53-a628edf3528e"/>
+        <COMPID name="ConfigurationException" mc="Standard.Class" uid="bb6b2294-7402-4dbc-a3f5-1d81705f3ac3"/>
+        <COMPID name="Configurator" mc="Standard.Class" uid="c10c670e-4144-4f6d-8731-0fbbff4d59c5"/>
+        <COMPID name="ConfiguratorAdapter" mc="Standard.Class" uid="a9fc46ee-c872-4a0b-8950-6ef442d153ec"/>
+        <COMPID name="DefaultClassRealm" mc="Standard.Class" uid="e5489d9b-d305-4234-8048-ae89b7cefc84"/>
+        <COMPID name="DuplicateRealmException" mc="Standard.Class" uid="aee3df9d-2a51-4c93-af5d-c0e31e176bdb"/>
+        <COMPID name="Launcher" mc="Standard.Class" uid="83969324-8433-464f-a5c2-9f6f2a38515e"/>
+        <COMPID name="NoSuchRealmException" mc="Standard.Class" uid="a162bd0c-26fc-4803-90c4-52e0b5b1cd19"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

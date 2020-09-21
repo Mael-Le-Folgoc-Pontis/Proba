@@ -1,0 +1,64 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="synchronize" version="4">
+  <OBJECT>
+    <ID name="synchronize" mc="Standard.Package" uid="00366b40-0bd4-112e-9071-001e4fea2d8b"/>
+    <PID name="ui" mc="Standard.Package" uid="0032d048-0bd4-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[synchronize]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractSynchronizeLabelProvider" mc="Standard.Class" uid="00367194-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AbstractSynchronizeParticipant" mc="Standard.Class" uid="003677c0-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AbstractSynchronizeScope" mc="Standard.Class" uid="00367e3c-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ISynchronizeManager" mc="Standard.Interface" uid="0036844a-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ISynchronizeModelChangeListener" mc="Standard.Interface" uid="00368ad0-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ISynchronizeModelElement" mc="Standard.Interface" uid="003691f6-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ISynchronizePage" mc="Standard.Interface" uid="00369912-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ISynchronizePageConfiguration" mc="Standard.Interface" uid="0036a01a-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ISynchronizePageSite" mc="Standard.Interface" uid="0036a77c-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ISynchronizeParticipant" mc="Standard.Interface" uid="0036af1a-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ISynchronizeParticipantDescriptor" mc="Standard.Interface" uid="0036b708-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ISynchronizeParticipantListener" mc="Standard.Interface" uid="0036bece-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ISynchronizeParticipantReference" mc="Standard.Interface" uid="0036c6f8-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ISynchronizeScope" mc="Standard.Interface" uid="0036cfd6-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ISynchronizeView" mc="Standard.Interface" uid="0036d832-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ModelMergeOperation" mc="Standard.Class" uid="0036df44-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ModelOperation" mc="Standard.Class" uid="0036e638-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ModelParticipantAction" mc="Standard.Class" uid="0036ed22-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ModelParticipantMergeOperation" mc="Standard.Class" uid="0036f47a-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ModelParticipantWizard" mc="Standard.Class" uid="0036fbfa-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ModelSynchronizeParticipant" mc="Standard.Class" uid="0037037a-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ModelSynchronizeParticipantActionGroup" mc="Standard.Class" uid="00370b5e-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ParticipantPageCompareEditorInput" mc="Standard.Class" uid="00371374-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ParticipantPageDialog" mc="Standard.Class" uid="00371b8a-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ParticipantPagePane" mc="Standard.Class" uid="0037240e-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ParticipantPageSaveablePart" mc="Standard.Class" uid="00372cd8-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ParticipantSynchronizeWizard" mc="Standard.Class" uid="0037358e-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ResourceScope" mc="Standard.Class" uid="00373e9e-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SaveableCompareEditorInput" mc="Standard.Class" uid="003747ea-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SubscriberParticipant" mc="Standard.Class" uid="00375708-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SubscriberParticipantWizard" mc="Standard.Class" uid="003760cc-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SubscriberTeamStateProvider" mc="Standard.Class" uid="00376ab8-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SyncInfoCompareInput" mc="Standard.Class" uid="003774d6-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SynchronizeModelAction" mc="Standard.Class" uid="00378d4a-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SynchronizeModelOperation" mc="Standard.Class" uid="003797a4-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SynchronizePageActionGroup" mc="Standard.Class" uid="0037a24e-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TeamStateChangeEvent" mc="Standard.Class" uid="0037b2fc-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TeamStateDescription" mc="Standard.Class" uid="0037be1e-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TeamStateProvider" mc="Standard.Class" uid="0037c97c-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WorkingSetScope" mc="Standard.Class" uid="0037d4bc-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WorkspaceScope" mc="Standard.Class" uid="0037e074-0bd4-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

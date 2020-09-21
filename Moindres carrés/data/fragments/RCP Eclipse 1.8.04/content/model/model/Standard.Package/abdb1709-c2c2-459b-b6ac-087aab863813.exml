@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="editor" version="4">
+  <OBJECT>
+    <ID name="editor" mc="Standard.Package" uid="abdb1709-c2c2-459b-b6ac-087aab863813"/>
+    <PID name="ui" mc="Standard.Package" uid="dd53799c-5d7c-4d71-aa2d-749de6e0ea22"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[editor]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractEditorHyperlinkDetector" mc="Standard.Class" uid="d3c7bdf7-be35-4684-b461-2fe1ecee5f08"/>
+        <COMPID name="ActiveFoldingListener" mc="Standard.Class" uid="f2470f57-c2e2-4e2f-8032-7a312b46cabe"/>
+        <COMPID name="AutoFoldPreferenceBlock" mc="Standard.Class" uid="4a7426d2-b1c3-4b9f-99dc-819ba26b7ce4"/>
+        <COMPID name="BreakpointEditorTracker" mc="Standard.Class" uid="8ad3c839-f299-4d08-b3fb-57df427dec0f"/>
+        <COMPID name="BreakpointListener" mc="Standard.Class" uid="e5814ba8-9201-47e3-9277-d7f87bc68caa"/>
+        <COMPID name="FocusedJavaAllProposalComputer" mc="Standard.Class" uid="08e18597-76e0-4957-981b-07b76014c7fc"/>
+        <COMPID name="FocusedJavaProposalProcessor" mc="Standard.Class" uid="131bffe4-af30-4cd9-af5a-3c2341feb5f8"/>
+        <COMPID name="FocusedJavaSourceViewerConfiguration" mc="Standard.Class" uid="f242a374-b674-4c18-8064-57d5fbdbdd7c"/>
+        <COMPID name="Messages" mc="Standard.Class" uid="9e168ec4-bc0d-4a54-8861-8a2a9b1cc132"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

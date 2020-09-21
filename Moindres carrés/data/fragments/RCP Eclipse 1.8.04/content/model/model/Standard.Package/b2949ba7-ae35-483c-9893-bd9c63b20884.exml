@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="jdom" version="4">
+  <OBJECT>
+    <ID name="jdom" mc="Standard.Package" uid="b2949ba7-ae35-483c-9893-bd9c63b20884"/>
+    <PID name="model" mc="Standard.Package" uid="bf691bbf-8d11-41e9-8772-0987472e3252"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[jdom]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="JDOMAttributeIterator" mc="Standard.Class" uid="0f69d072-6d82-4ccb-88c9-1d4c58df5658"/>
+        <COMPID name="JDOMAttributePointer" mc="Standard.Class" uid="81ca2232-e57c-4f29-b9bb-4167f616fb9a"/>
+        <COMPID name="JDOMNamespaceIterator" mc="Standard.Class" uid="2c40aeda-9917-4d59-bc3a-d696cba72ed8"/>
+        <COMPID name="JDOMNamespacePointer" mc="Standard.Class" uid="ce619fbc-a0b8-40a1-87ed-4211ea173ff2"/>
+        <COMPID name="JDOMNodeIterator" mc="Standard.Class" uid="c6aacf93-acd2-4c6b-9365-9a4c27870af4"/>
+        <COMPID name="JDOMNodePointer" mc="Standard.Class" uid="02e044e4-1858-4217-8caf-beed2628c962"/>
+        <COMPID name="JDOMPointerFactory" mc="Standard.Class" uid="482789a4-3a44-4f23-ba30-c551f5775f34"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

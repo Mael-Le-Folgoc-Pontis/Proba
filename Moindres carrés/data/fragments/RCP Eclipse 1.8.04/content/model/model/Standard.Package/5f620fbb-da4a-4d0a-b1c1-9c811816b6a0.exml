@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="util" version="4">
+  <OBJECT>
+    <ID name="util" mc="Standard.Package" uid="5f620fbb-da4a-4d0a-b1c1-9c811816b6a0"/>
+    <PID name="jayes" mc="Standard.Package" uid="71a707fe-fbe6-4729-a3bf-30e5a660cafd"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[util]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AddressCalc" mc="Standard.Class" uid="9c982ad1-6e11-48e2-b232-0070d7caa902"/>
+        <COMPID name="ArrayUtils" mc="Standard.Class" uid="d3e75dcb-295f-4be8-84ab-e423f0f76e3b"/>
+        <COMPID name="BidirectionalMap" mc="Standard.Class" uid="192265d6-bcdc-41e7-938b-ea3a957a5760"/>
+        <COMPID name="UnionFind" mc="Standard.Class" uid="c0e1996c-50d7-4500-bbe5-597c62f0a894"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

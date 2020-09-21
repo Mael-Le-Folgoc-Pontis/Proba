@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="dom" version="4">
+  <OBJECT>
+    <ID name="dom" mc="Standard.Package" uid="007d56a4-0bbc-112e-9071-001e4fea2d8b"/>
+    <PID name="css" mc="Standard.Package" uid="007ccfea-0bbc-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[dom]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="CSSOMComputedStyle" mc="Standard.Class" uid="007d5fb4-0bbc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CSSOMSVGColor" mc="Standard.Class" uid="007db996-0bbc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CSSOMSVGComputedStyle" mc="Standard.Class" uid="0088d844-0bbc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CSSOMSVGPaint" mc="Standard.Class" uid="0088f202-0bbc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CSSOMSVGStyleDeclaration" mc="Standard.Class" uid="00890be8-0bbc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CSSOMSVGViewCSS" mc="Standard.Class" uid="0089266e-0bbc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CSSOMStoredStyleDeclaration" mc="Standard.Class" uid="1330fc50-f186-4235-bc96-8f0e63185227"/>
+        <COMPID name="CSSOMStyleDeclaration" mc="Standard.Class" uid="008930fa-0bbc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CSSOMValue" mc="Standard.Class" uid="008955bc-0bbc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CSSOMViewCSS" mc="Standard.Class" uid="0089e11c-0bbc-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

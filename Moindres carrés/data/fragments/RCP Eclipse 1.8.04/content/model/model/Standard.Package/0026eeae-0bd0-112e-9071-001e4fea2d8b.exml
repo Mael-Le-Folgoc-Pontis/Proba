@@ -1,0 +1,56 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="builder" version="4">
+  <OBJECT>
+    <ID name="builder" mc="Standard.Package" uid="0026eeae-0bd0-112e-9071-001e4fea2d8b"/>
+    <PID name="internal" mc="Standard.Package" uid="0024f752-0bd0-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[builder]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractIllegalMethodReference" mc="Standard.Class" uid="0026f5b6-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AbstractIllegalTypeReference" mc="Standard.Class" uid="0026fc14-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AbstractLeakProblemDetector" mc="Standard.Class" uid="0027027c-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AbstractProblemDetector" mc="Standard.Class" uid="002708da-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AbstractTypeLeakDetector" mc="Standard.Class" uid="00270f9c-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ApiAnalysisBuilder" mc="Standard.Class" uid="002716a4-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BaseApiAnalyzer" mc="Standard.Class" uid="00271d98-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BuildContext" mc="Standard.Class" uid="002733dc-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BuildStamps" mc="Standard.Class" uid="00273b7a-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BuildState" mc="Standard.Class" uid="0027430e-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BuilderMessages" mc="Standard.Class" uid="00274b10-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IllegalExtendsProblemDetector" mc="Standard.Class" uid="0027534e-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IllegalFieldReferenceDetector" mc="Standard.Class" uid="0027615e-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IllegalImplementsProblemDetector" mc="Standard.Class" uid="002769ec-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IllegalInstantiateProblemDetector" mc="Standard.Class" uid="0027727a-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IllegalMethodReferenceDetector" mc="Standard.Class" uid="00277b76-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IllegalOverrideProblemDetector" mc="Standard.Class" uid="002784a4-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IncrementalApiBuilder" mc="Standard.Class" uid="00278e68-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LeakExtendsProblemDetector" mc="Standard.Class" uid="0027a3bc-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LeakFieldProblemDetector" mc="Standard.Class" uid="0027ad80-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LeakImplementsProblemDetector" mc="Standard.Class" uid="0027b776-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LeakParameterTypeDetector" mc="Standard.Class" uid="0027c162-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LeakReturnTypeDetector" mc="Standard.Class" uid="0027cbbc-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MethodLeakDetector" mc="Standard.Class" uid="0027d63e-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ProblemDetectorBuilder" mc="Standard.Class" uid="0027e0c0-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Reference" mc="Standard.Class" uid="0027ebba-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ReferenceAnalyzer" mc="Standard.Class" uid="0027f704-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ReferenceExtractor" mc="Standard.Class" uid="0028085c-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ReferenceResolver" mc="Standard.Class" uid="002868d8-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SinceTagChecker" mc="Standard.Class" uid="002874c2-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SystemApiDetector" mc="Standard.Class" uid="002880c0-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TagValidator" mc="Standard.Class" uid="00288cbe-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TypeScope" mc="Standard.Class" uid="00289920-0bd0-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="predicates" version="4">
+  <OBJECT>
+    <ID name="predicates" mc="Standard.Package" uid="b9ca9675-9b56-4d86-926e-1ae1c1db1849"/>
+    <PID name="oomph" mc="Standard.Package" uid="20106332-b188-45ff-af40-2d5b786a9692"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[predicates]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AndPredicate" mc="Standard.Interface" uid="a1e9b03f-02e5-47a8-8a8b-4453696d03bb"/>
+        <COMPID name="BuilderPredicate" mc="Standard.Interface" uid="72c5926c-948c-4fce-830f-51a55f0bf750"/>
+        <COMPID name="CommentPredicate" mc="Standard.Interface" uid="4fcf10ee-bbb6-4246-9d54-666933d8d62e"/>
+        <COMPID name="FilePredicate" mc="Standard.Interface" uid="29717174-734e-4553-aacb-3f2a09f99000"/>
+        <COMPID name="ImportedPredicate" mc="Standard.Interface" uid="7d7431bd-193d-4726-88a6-00311af0b72c"/>
+        <COMPID name="LocationPredicate" mc="Standard.Interface" uid="0914fc3d-bcad-4dbf-b0d0-b37cf3df23e1"/>
+        <COMPID name="NamePredicate" mc="Standard.Interface" uid="fce7fb16-04f9-4a2d-a3c5-3056cbd01a06"/>
+        <COMPID name="NaturePredicate" mc="Standard.Interface" uid="5b7b3dd6-2410-4624-b9ee-91898cea2769"/>
+        <COMPID name="NotPredicate" mc="Standard.Interface" uid="7d61e58b-eaa5-4a28-8f65-87813910b5d6"/>
+        <COMPID name="OrPredicate" mc="Standard.Interface" uid="a112e605-8296-4308-aeac-0f24d9c61cdf"/>
+        <COMPID name="Predicate" mc="Standard.Interface" uid="ef323de0-52f2-4d68-8a76-0110bfa4214a"/>
+        <COMPID name="PredicatesFactory" mc="Standard.Interface" uid="9118518a-266b-4e0a-ade8-fd15d2358f1b"/>
+        <COMPID name="PredicatesPackage" mc="Standard.Interface" uid="40c8ae02-f52f-4dd7-87c9-58bbd7ec5c65"/>
+        <COMPID name="PredicatesUtil" mc="Standard.Class" uid="3b3f7024-0b01-4ad5-8005-564b28a14e75"/>
+        <COMPID name="RepositoryPredicate" mc="Standard.Interface" uid="5749c966-1c9d-402e-9562-f961963fcf1f"/>
+        <COMPID name="impl" mc="Standard.Package" uid="e1aa0150-22f4-4c05-b9b2-84cda1ebffb5"/>
+        <COMPID name="provider" mc="Standard.Package" uid="a49758ca-6fa2-4bcf-801d-3e644010dc1c"/>
+        <COMPID name="util" mc="Standard.Package" uid="d3387bde-0cd1-440f-8006-0d54311b56cc"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

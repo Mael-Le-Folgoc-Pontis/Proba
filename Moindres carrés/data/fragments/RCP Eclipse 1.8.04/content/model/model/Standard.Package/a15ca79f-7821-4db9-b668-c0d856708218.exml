@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="editor" version="4">
+  <OBJECT>
+    <ID name="editor" mc="Standard.Package" uid="a15ca79f-7821-4db9-b668-c0d856708218"/>
+    <PID name="internal" mc="Standard.Package" uid="78d3478f-ffaa-4fc9-8123-76468f3ac6f6"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[editor]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="BaseHyperlinkDetector" mc="Standard.Class" uid="d0094e7f-a209-4bd9-bfcf-6e98e6d9cade"/>
+        <COMPID name="ISelectionMapper" mc="Standard.Interface" uid="12cf875b-6709-4207-892f-baacea0d455d"/>
+        <COMPID name="InternalXSDMultiPageEditor" mc="Standard.Class" uid="f02dfc8e-d62f-4945-be9e-6d83ec5ef490"/>
+        <COMPID name="KeyboardDragImpl" mc="Standard.Class" uid="28eff39a-2fdc-44e8-8c1f-9fb1c9de59cb"/>
+        <COMPID name="Logger" mc="Standard.Class" uid="00312bf7-5f82-41b5-9278-6f9451658a3f"/>
+        <COMPID name="Messages" mc="Standard.Class" uid="5c216a26-01a3-4e52-942c-b5117b175842"/>
+        <COMPID name="SourcePageActionContributor" mc="Standard.Class" uid="53daacf0-3f17-48a1-aa04-7c74aad3071e"/>
+        <COMPID name="StructuredTextViewerConfigurationXSD" mc="Standard.Class" uid="1b4b621d-316e-42d7-9227-8eb11cfef022"/>
+        <COMPID name="XSDAttributeReferenceEditManager" mc="Standard.Class" uid="ccb864be-ae1d-4dda-968a-2508fa2eea92"/>
+        <COMPID name="XSDComplexTypeBaseTypeEditManager" mc="Standard.Class" uid="adfe0317-7ebe-4f94-8a19-47945be0b646"/>
+        <COMPID name="XSDEditorCSHelpIds" mc="Standard.Class" uid="f92b25e7-bdca-46e8-9fe3-127f6e620a29"/>
+        <COMPID name="XSDEditorConfiguration" mc="Standard.Class" uid="ac4ad895-2e1c-4bd2-81bf-531a0d2be159"/>
+        <COMPID name="XSDEditorContextIds" mc="Standard.Interface" uid="7f9280c8-41ca-4160-ad3b-189e1fc62c8c"/>
+        <COMPID name="XSDEditorExtensionProperties" mc="Standard.Class" uid="284f4062-a76b-4a97-8050-7f5838f219ce"/>
+        <COMPID name="XSDEditorPlugin" mc="Standard.Class" uid="90388c98-7066-48a8-886a-91a308d2c4d0"/>
+        <COMPID name="XSDElementReferenceEditManager" mc="Standard.Class" uid="0e10b126-c12a-4759-9f6f-fb30d1f3b11d"/>
+        <COMPID name="XSDFileEditorInput" mc="Standard.Class" uid="3890cb25-1752-4f8d-bfda-33cab41273cb"/>
+        <COMPID name="XSDHyperlink" mc="Standard.Class" uid="51ad2d9f-4336-4963-9143-5349e9ee3159"/>
+        <COMPID name="XSDHyperlinkDetector" mc="Standard.Class" uid="20fe45f3-4e0c-4538-a041-60278e9cb976"/>
+        <COMPID name="XSDHyperlinkTargetLocator" mc="Standard.Class" uid="8935938c-bf2e-4b7b-b22c-c66fb3182de0"/>
+        <COMPID name="XSDMultiPageEditorContributor" mc="Standard.Class" uid="f3088e78-85e6-4cd6-89e5-b54152327dd5"/>
+        <COMPID name="XSDSelectionMapper" mc="Standard.Class" uid="153453a9-303a-4129-8ce1-74bde2b2576a"/>
+        <COMPID name="XSDSubstitutionGroupEditManager" mc="Standard.Class" uid="3c42a111-4154-4e46-8c77-10643d16e680"/>
+        <COMPID name="XSDTabbedPropertySheetPage" mc="Standard.Class" uid="9c982725-3af4-48cf-97e9-d3d1429ddd8f"/>
+        <COMPID name="XSDTypeReferenceEditManager" mc="Standard.Class" uid="e6360830-4ec3-42c5-9d7d-ced2f44766ec"/>
+        <COMPID name="search" mc="Standard.Package" uid="e5945b40-645e-4f31-a3f1-832aff75dc06"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

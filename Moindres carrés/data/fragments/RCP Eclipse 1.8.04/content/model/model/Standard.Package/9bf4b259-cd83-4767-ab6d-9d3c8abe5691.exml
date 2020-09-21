@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="menu" version="4">
+  <OBJECT>
+    <ID name="menu" mc="Standard.Package" uid="9bf4b259-cd83-4767-ab6d-9d3c8abe5691"/>
+    <PID name="policy" mc="Standard.Package" uid="d99cca2e-ff34-4e51-8d4f-9f9197c876df"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[menu]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="MenuBarDropLayoutEditPolicy" mc="Standard.Class" uid="c58a6c8f-761c-488b-8e2a-b7028fef2fcb"/>
+        <COMPID name="MenuDropPolicyConfigurator" mc="Standard.Class" uid="3a18fa14-2670-4f74-b73c-25b5a747fa69"/>
+        <COMPID name="MenuPopupDropLayoutEditPolicy" mc="Standard.Class" uid="877bb103-a358-4765-a85e-b4f74bf63436"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="runtime" version="4">
+  <OBJECT>
+    <ID name="runtime" mc="Standard.Package" uid="598eaf4c-c81a-4945-bb9e-616336319fc8"/>
+    <PID name="core" mc="Standard.Package" uid="7418e934-bc68-481c-87d6-61b17a7b55d3"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[runtime]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="IRuntime" mc="Standard.Interface" uid="330db3aa-8e61-4a7f-965c-e859e86f91ab"/>
+        <COMPID name="IRuntimeBridge" mc="Standard.Interface" uid="98167275-4254-4811-82c4-eb02f13b510a"/>
+        <COMPID name="IRuntimeComponent" mc="Standard.Interface" uid="508ad8c1-aae3-46d0-b338-add76e97ccd3"/>
+        <COMPID name="IRuntimeComponentType" mc="Standard.Interface" uid="060b36e4-c92e-4335-a865-a73ad34b5b2c"/>
+        <COMPID name="IRuntimeComponentVersion" mc="Standard.Interface" uid="f1a29fb6-8848-4e70-b2f1-41e29aad827c"/>
+        <COMPID name="RuntimeManager" mc="Standard.Class" uid="de06af98-c382-4aee-8151-eefc976a1f7d"/>
+        <COMPID name="events" mc="Standard.Package" uid="9a493daa-ec34-4529-bc4a-208681128e59"/>
+        <COMPID name="internal" mc="Standard.Package" uid="128e451f-c264-46b4-8eed-a3d7a10bad60"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="calls" version="4">
+  <OBJECT>
+    <ID name="calls" mc="Standard.Package" uid="2b1318ee-b67d-4801-aa10-c8674876cfd9"/>
+    <PID name="recommenders" mc="Standard.Package" uid="a358c5e1-e2a3-468b-a21c-b2bca96b0f24"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[calls]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ICallModel" mc="Standard.Interface" uid="5963aa21-5226-4d99-8370-7811597650ca"/>
+        <COMPID name="ICallModelProvider" mc="Standard.Interface" uid="124e1972-08c4-414c-aa58-718134bc9e9f"/>
+        <COMPID name="JayesCallModel" mc="Standard.Class" uid="510c1f5c-905d-4546-a893-2e089e213f9d"/>
+        <COMPID name="NullCallModel" mc="Standard.Class" uid="ff6fcf6e-6bbe-41c0-98c3-dc213c4c046a"/>
+        <COMPID name="PoolingCallModelProvider" mc="Standard.Class" uid="0f9e3f0b-10f5-4d51-acd8-47f511d0bac4"/>
+        <COMPID name="SimpleCallModelProvider" mc="Standard.Class" uid="9a02efb3-35d1-496a-b0ac-9e475ef8f83f"/>
+        <COMPID name="SingleZipCallModelProvider" mc="Standard.Class" uid="279347ad-b910-4d13-9038-92855b6728fc"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

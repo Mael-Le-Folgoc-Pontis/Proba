@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="el" version="4">
+  <OBJECT>
+    <ID name="el" mc="Standard.Package" uid="0070f1a2-0bdd-112e-9071-001e4fea2d8b"/>
+    <PID name="javax" mc="Standard.Package" uid="006b93ba-2f22-1ff4-a4b3-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[el]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ArrayELResolver" mc="Standard.Class" uid="0070f8a0-0bdd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BeanELResolver" mc="Standard.Class" uid="0070fee0-0bdd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CompositeELResolver" mc="Standard.Class" uid="00712488-0bdd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ELContext" mc="Standard.Class" uid="00713a18-0bdd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ELContextEvent" mc="Standard.Class" uid="00714102-0bdd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ELContextListener" mc="Standard.Interface" uid="007146d4-0bdd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ELException" mc="Standard.Class" uid="00714e7c-0bdd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ELResolver" mc="Standard.Class" uid="007155c0-0bdd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Expression" mc="Standard.Class" uid="0071648e-0bdd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ExpressionFactory" mc="Standard.Class" uid="00716d58-0bdd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FunctionMapper" mc="Standard.Class" uid="00717d98-0bdd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ListELResolver" mc="Standard.Class" uid="00718608-0bdd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MapELResolver" mc="Standard.Class" uid="00718e78-0bdd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MethodExpression" mc="Standard.Class" uid="00719742-0bdd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MethodInfo" mc="Standard.Class" uid="0071a034-0bdd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MethodNotFoundException" mc="Standard.Class" uid="0071a958-0bdd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PropertyNotFoundException" mc="Standard.Class" uid="0071b2cc-0bdd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PropertyNotWritableException" mc="Standard.Class" uid="0071bc72-0bdd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ResourceBundleELResolver" mc="Standard.Class" uid="0071c64a-0bdd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ValueExpression" mc="Standard.Class" uid="0071d072-0bdd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ValueReference" mc="Standard.Class" uid="0071dad6-0bdd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="VariableMapper" mc="Standard.Class" uid="0071e512-0bdd-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

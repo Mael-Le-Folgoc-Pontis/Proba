@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="net" version="4">
+  <OBJECT>
+    <ID name="net" mc="Standard.Package" uid="624897ee-7a3c-4048-8531-bfd64d81e443"/>
+    <PID name="core" mc="Standard.Package" uid="dd7bf435-0d58-431f-a15b-7758a3398dd1"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[net]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AuthenticatedProxy" mc="Standard.Class" uid="29d5f43a-3476-433e-9fcc-83bc5b2a1277"/>
+        <COMPID name="NetUtil" mc="Standard.Class" uid="73483f87-ba9f-4a25-9126-cbdbfdb81d27"/>
+        <COMPID name="ProxyProvider" mc="Standard.Class" uid="aaf2df7b-7f19-46cb-a66b-d2b4045914c7"/>
+        <COMPID name="SslCertificateException" mc="Standard.Class" uid="cdc12986-2b1a-4417-b5f9-dde9162586cb"/>
+        <COMPID name="SslSupport" mc="Standard.Class" uid="a0817039-a671-4398-bd5d-e257a2747d5b"/>
+        <COMPID name="TrustAllTrustManager" mc="Standard.Class" uid="c3e83b76-3086-47cd-b05a-c94b1809a1ea"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

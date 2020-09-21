@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="internal" version="4">
+  <OBJECT>
+    <ID name="internal" mc="Standard.Package" uid="264e0cae-fa2d-41b1-aad3-1d1e1b5e4ba2"/>
+    <PID name="ui" mc="Standard.Package" uid="224c2b1a-1147-4fd3-916c-ef3ca82d94aa"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[internal]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="DownloadSourcesActionDelegate" mc="Standard.Class" uid="5b0d0df0-483d-4a31-a4b7-9dd024afd168"/>
+        <COMPID name="JavaUiElementsAdapterFactory" mc="Standard.Class" uid="0bb8a0d5-bf0a-4fa4-8eb5-85a94eb3a822"/>
+        <COMPID name="MavenClasspathContainerPage" mc="Standard.Class" uid="0183c5d9-25c4-4491-bd3a-59a1c42442ca"/>
+        <COMPID name="Messages" mc="Standard.Class" uid="dcb12d30-6e3e-4fba-92b2-a760d5f82307"/>
+        <COMPID name="actions" mc="Standard.Package" uid="78fc9219-9ed8-4c6e-acc1-a1770467b326"/>
+        <COMPID name="filter" mc="Standard.Package" uid="00c450db-c4e5-43a0-b0c9-3b7652cb1555"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

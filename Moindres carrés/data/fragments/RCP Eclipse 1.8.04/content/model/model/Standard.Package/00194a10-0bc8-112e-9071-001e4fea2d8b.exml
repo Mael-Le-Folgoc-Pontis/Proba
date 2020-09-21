@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="search" version="4">
+  <OBJECT>
+    <ID name="search" mc="Standard.Package" uid="00194a10-0bc8-112e-9071-001e4fea2d8b"/>
+    <PID name="help" mc="Standard.Package" uid="004e0b06-21a2-1fb1-8a9e-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[search]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractSearchProcessor" mc="Standard.Class" uid="00195082-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HelpIndexBuilder" mc="Standard.Class" uid="00195852-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IHelpSearchIndex" mc="Standard.Interface" uid="00197b16-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ISearchDocument" mc="Standard.Interface" uid="00198322-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ISearchEngine" mc="Standard.Interface" uid="00198b2e-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ISearchEngine2" mc="Standard.Interface" uid="0019934e-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ISearchEngineResult" mc="Standard.Interface" uid="00199b6e-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ISearchEngineResult2" mc="Standard.Interface" uid="0019a410-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ISearchEngineResultCollector" mc="Standard.Interface" uid="0019acc6-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ISearchResult" mc="Standard.Interface" uid="0019b57c-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ISearchScope" mc="Standard.Interface" uid="0019be82-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SearchParticipant" mc="Standard.Class" uid="0019c6d4-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SearchParticipantXML" mc="Standard.Class" uid="0019ceb8-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SearchProcessorInfo" mc="Standard.Class" uid="0019f762-0bc8-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

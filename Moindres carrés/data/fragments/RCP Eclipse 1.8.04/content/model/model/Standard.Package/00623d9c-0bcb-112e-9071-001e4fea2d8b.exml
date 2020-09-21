@@ -1,0 +1,52 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="typehierarchy" version="4">
+  <OBJECT>
+    <ID name="typehierarchy" mc="Standard.Package" uid="00623d9c-0bcb-112e-9071-001e4fea2d8b"/>
+    <PID name="ui" mc="Standard.Package" uid="006159f4-0bca-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[typehierarchy]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractHierarchyViewerSorter" mc="Standard.Class" uid="006243be-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="EnableMemberFilterAction" mc="Standard.Class" uid="00624a1c-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FocusOnSelectionAction" mc="Standard.Class" uid="0062508e-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FocusOnTypeAction" mc="Standard.Class" uid="006256f6-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HierarchyInformationControl" mc="Standard.Class" uid="00625dcc-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HierarchyLabelProvider" mc="Standard.Class" uid="006264de-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HierarchyViewerSorter" mc="Standard.Class" uid="00626bdc-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HistoryAction" mc="Standard.Class" uid="0062735c-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HistoryDropDownAction" mc="Standard.Class" uid="00627b04-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HistoryListAction" mc="Standard.Class" uid="00629120-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ITypeHierarchyLifeCycleListener" mc="Standard.Interface" uid="00629d3c-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MethodsContentProvider" mc="Standard.Class" uid="0062a5e8-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MethodsLabelProvider" mc="Standard.Class" uid="0062ae26-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MethodsViewer" mc="Standard.Class" uid="0062b696-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ShowInheritedMembersAction" mc="Standard.Class" uid="0062bef2-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ShowQualifiedTypeNamesAction" mc="Standard.Class" uid="0062c852-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SortByDefiningTypeAction" mc="Standard.Class" uid="0062d162-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SubTypeHierarchyViewer" mc="Standard.Class" uid="0062da5e-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SuperTypeHierarchyViewer" mc="Standard.Class" uid="0062f16a-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ToggleLinkingAction" mc="Standard.Class" uid="006308bc-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ToggleOrientationAction" mc="Standard.Class" uid="00631294-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ToggleViewAction" mc="Standard.Class" uid="00631c62-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TraditionalHierarchyViewer" mc="Standard.Class" uid="006326b2-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TypeHierarchyContentProvider" mc="Standard.Class" uid="00633e7c-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TypeHierarchyLifeCycle" mc="Standard.Class" uid="00634926-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TypeHierarchyMessages" mc="Standard.Class" uid="0063540c-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TypeHierarchyTransferDropAdapter" mc="Standard.Class" uid="00635f42-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TypeHierarchyViewPart" mc="Standard.Class" uid="00636a78-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TypeHierarchyViewer" mc="Standard.Class" uid="006375fe-0bcb-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

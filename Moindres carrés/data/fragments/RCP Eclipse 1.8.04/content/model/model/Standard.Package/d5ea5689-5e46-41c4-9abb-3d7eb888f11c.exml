@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="util" version="4">
+  <OBJECT>
+    <ID name="util" mc="Standard.Package" uid="d5ea5689-5e46-41c4-9abb-3d7eb888f11c"/>
+    <PID name="core" mc="Standard.Package" uid="469e1f7a-6e84-4213-8453-7cf4583c4f0c"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[util]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="LookAheadReader" mc="Standard.Class" uid="f6c50578-f4ff-4717-bc60-f75300cc5b1c"/>
+        <COMPID name="ReadAheadBlock" mc="Standard.Interface" uid="5a901750-421e-4a6d-8868-97e2d512da1c"/>
+        <COMPID name="ReadAheadDispatcher" mc="Standard.Class" uid="c5f03036-8c84-4d97-9933-6c4efcc42093"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

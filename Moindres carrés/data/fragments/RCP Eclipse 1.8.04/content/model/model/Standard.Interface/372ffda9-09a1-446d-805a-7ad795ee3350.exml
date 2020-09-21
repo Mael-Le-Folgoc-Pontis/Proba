@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Connection" version="4">
+  <OBJECT>
+    <ID name="Connection" mc="Standard.Interface" uid="372ffda9-09a1-446d-805a-7ad795ee3350"/>
+    <PID name="jsoup" mc="Standard.Package" uid="7860095d-1867-4806-b4ff-0938d134bb58"/>
+    <ATTRIBUTES>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">true</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Connection]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Base" mc="Standard.Interface" uid="52d88c7d-a1b8-40ea-ad1f-0418b962fc32"/>
+        <COMPID name="KeyVal" mc="Standard.Interface" uid="cc5ba1f2-9da8-4e5b-843b-c154b6b68efd"/>
+        <OBJECT>
+          <ID name="Method" mc="Standard.Enumeration" uid="1bf6f9fe-38cb-4270-b1fc-9ce8975bafcd"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[Method]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Extension">
+              <FOREIGNID name="JavaEnumeration" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0262-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <COMPID name="Request" mc="Standard.Interface" uid="081ba3b0-52b9-4594-9c0b-8f63ae1944c7"/>
+        <COMPID name="Response" mc="Standard.Interface" uid="206d2167-62f2-4d9c-8cd7-4260b5e28241"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaInterface" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0267-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

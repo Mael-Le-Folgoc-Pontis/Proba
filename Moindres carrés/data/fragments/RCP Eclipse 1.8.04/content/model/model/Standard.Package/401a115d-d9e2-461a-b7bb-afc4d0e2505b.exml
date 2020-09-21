@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="handles" version="4">
+  <OBJECT>
+    <ID name="handles" mc="Standard.Package" uid="401a115d-d9e2-461a-b7bb-afc4d0e2505b"/>
+    <PID name="graphical" mc="Standard.Package" uid="780c1a86-dd45-490f-acd7-7b64863b2346"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[handles]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Handle" mc="Standard.Class" uid="b3acf2a3-e4e6-460a-bfd3-4d45db0d9051"/>
+        <COMPID name="MoveHandle" mc="Standard.Class" uid="379baaa5-9659-4d66-b3e2-4aa476782c03"/>
+        <COMPID name="MoveHandleLocator" mc="Standard.Class" uid="5fe5151b-dfa6-43e3-9541-45ef0a965b48"/>
+        <COMPID name="ResizeHandle" mc="Standard.Class" uid="7012c55e-f30c-4661-9dce-f5651658442a"/>
+        <COMPID name="SideResizeHandle" mc="Standard.Class" uid="ea9425a3-a852-4860-8b5e-81247d11f2c4"/>
+        <COMPID name="SquareHandle" mc="Standard.Class" uid="8e36f6d9-7b80-471b-a630-0229957584e2"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

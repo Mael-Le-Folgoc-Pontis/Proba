@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="correction" version="4">
+  <OBJECT>
+    <ID name="correction" mc="Standard.Package" uid="b4cec354-889f-4be8-97dc-b15f4362a987"/>
+    <PID name="internal" mc="Standard.Package" uid="8dac5e70-eadd-4ac5-9e61-066073002452"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[correction]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="CorrectionAssistantProviderXML" mc="Standard.Class" uid="d0330811-61d4-4151-98da-4378fff1aea3"/>
+        <COMPID name="CorrectionProcessorXML" mc="Standard.Class" uid="3e629d1a-ccd4-45ad-a0e0-054e4cc57f62"/>
+        <COMPID name="InsertRequiredAttrsQuickAssistProposal" mc="Standard.Class" uid="b89fd4c5-91e5-47b4-b618-54a37a66f562"/>
+        <COMPID name="ProblemIDsXML" mc="Standard.Interface" uid="dbb9b991-344a-4308-a9e7-c85b7c995412"/>
+        <COMPID name="QuickAssistProcessorXML" mc="Standard.Class" uid="59538bff-c155-495f-8921-659d0fbbf736"/>
+        <COMPID name="QuickFixProcessorXML" mc="Standard.Class" uid="15008e39-b666-47e7-b7cc-2e4b271a7ee9"/>
+        <COMPID name="RemoveUnknownElementQuickFixProposal" mc="Standard.Class" uid="e112ddfa-2ecc-4cc6-af87-07a3b6ac7089"/>
+        <COMPID name="RenameInFileQuickAssistProposal" mc="Standard.Class" uid="ff3ad9ba-b79e-4240-9cbf-e04f5a69a9ef"/>
+        <COMPID name="SurroundWithNewElementQuickAssistProposal" mc="Standard.Class" uid="a536ffd0-46f0-4c2a-b6f7-3e64c193a653"/>
+        <COMPID name="XMLQuickAssistProcessor" mc="Standard.Class" uid="37b2b635-d3f1-4396-9446-f06ca9526b2c"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

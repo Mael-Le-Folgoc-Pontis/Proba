@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="exception" version="4">
+  <OBJECT>
+    <ID name="exception" mc="Standard.Package" uid="ec282af8-729d-400b-8417-62a2bd8cff99"/>
+    <PID name="velocity" mc="Standard.Package" uid="f64d32da-b37a-4bf8-af95-e529226e220c"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[exception]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ExtendedParseException" mc="Standard.Interface" uid="5c1c682d-fc13-447e-b75f-f13f104837ff"/>
+        <COMPID name="MethodInvocationException" mc="Standard.Class" uid="78d63339-b708-430d-b232-2e30bad4c860"/>
+        <COMPID name="ParseErrorException" mc="Standard.Class" uid="da9d9903-0af6-444f-8b93-e76b53568d82"/>
+        <COMPID name="ResourceNotFoundException" mc="Standard.Class" uid="e067be85-ac18-4d39-a380-89c3d5422650"/>
+        <COMPID name="TemplateInitException" mc="Standard.Class" uid="b8c1018d-789a-4e16-8540-9f5867edaa7d"/>
+        <COMPID name="VelocityException" mc="Standard.Class" uid="951ec911-0980-42b2-a49e-d83e517e4eee"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

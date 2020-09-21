@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="util" version="4">
+  <OBJECT>
+    <ID name="util" mc="Standard.Package" uid="acda86ad-c2f2-44f1-81d8-0e0c2d95611f"/>
+    <PID name="core" mc="Standard.Package" uid="7b7ddca1-fd25-4e5e-b303-f349cd5fa217"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[util]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="binding" mc="Standard.Package" uid="3748c6a9-d35e-470f-92db-258cbbc6ea5f"/>
+        <COMPID name="collections" mc="Standard.Package" uid="bbec431b-049d-4473-ae56-dbc078b98499"/>
+        <COMPID name="file" mc="Standard.Package" uid="b0058556-3079-4ab1-a416-af87bfb64da7"/>
+        <COMPID name="gradle" mc="Standard.Package" uid="e63c2cdc-427d-4f14-b5cf-ebac7de83e28"/>
+        <COMPID name="logging" mc="Standard.Package" uid="d276a888-c2cc-4897-90e5-9acf65968374"/>
+        <COMPID name="object" mc="Standard.Package" uid="ad9ea5bd-b3bf-47c9-b349-5fd6489b5950"/>
+        <COMPID name="predicate" mc="Standard.Package" uid="33e6d0b9-4e69-4e3b-afad-91ca86f2d74b"/>
+        <COMPID name="progress" mc="Standard.Package" uid="17717ff3-4be0-423b-80e9-fa4604b564a9"/>
+        <COMPID name="string" mc="Standard.Package" uid="4cc6f31a-e84d-4a66-a5f6-c3ffff519206"/>
+        <COMPID name="variable" mc="Standard.Package" uid="b78038d6-9816-4d66-bbae-20d09ff76ae6"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="descriptive" version="4">
+  <OBJECT>
+    <ID name="descriptive" mc="Standard.Package" uid="f658e721-f165-4bb8-ada9-a98905cd5f01"/>
+    <PID name="stat" mc="Standard.Package" uid="b8f32d4b-8f90-41c0-a072-7c4bb75ded97"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[descriptive]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractStorelessUnivariateStatistic" mc="Standard.Class" uid="0f54f312-99fc-4ccc-9d85-46e69e3023cc"/>
+        <COMPID name="AbstractUnivariateStatistic" mc="Standard.Class" uid="3ea5b6bd-b462-43bd-b0ba-a5a968a3d0a3"/>
+        <COMPID name="AggregateSummaryStatistics" mc="Standard.Class" uid="d7b28dce-40c4-4c57-9951-09f1c21a7b9f"/>
+        <COMPID name="DescriptiveStatistics" mc="Standard.Class" uid="f724a993-a670-410e-8f58-47f6eab0c985"/>
+        <COMPID name="MultivariateSummaryStatistics" mc="Standard.Class" uid="d70a3748-f52e-4239-8385-6ee454925364"/>
+        <COMPID name="StatisticalMultivariateSummary" mc="Standard.Interface" uid="a6e8175b-08a5-45d6-9c57-08b99e7b101c"/>
+        <COMPID name="StatisticalSummary" mc="Standard.Interface" uid="68e37632-759a-4fb3-9ec4-a7dd9f1732de"/>
+        <COMPID name="StatisticalSummaryValues" mc="Standard.Class" uid="9986b3c8-d486-429b-aa70-22637e63c984"/>
+        <COMPID name="StorelessUnivariateStatistic" mc="Standard.Interface" uid="880327ed-1901-4819-ad0d-a2ce831754ce"/>
+        <COMPID name="SummaryStatistics" mc="Standard.Class" uid="bf8042bd-00ea-4104-a011-ec626b6de4b4"/>
+        <COMPID name="SynchronizedDescriptiveStatistics" mc="Standard.Class" uid="a4e8c7d2-5480-4b7c-8d48-ffef9e9da8f8"/>
+        <COMPID name="SynchronizedMultivariateSummaryStatistics" mc="Standard.Class" uid="4152cb4f-6144-4cf2-ae74-0023e0dbeac2"/>
+        <COMPID name="SynchronizedSummaryStatistics" mc="Standard.Class" uid="8a5009f8-1d40-461f-a973-7c985ada665b"/>
+        <COMPID name="UnivariateStatistic" mc="Standard.Interface" uid="f25f0a70-130e-4087-b347-fde70b1aaf35"/>
+        <COMPID name="WeightedEvaluation" mc="Standard.Interface" uid="4e62165e-1dce-4a1e-8b4c-cddcad325dd6"/>
+        <COMPID name="moment" mc="Standard.Package" uid="ea6062e9-a869-462e-b054-9d64be68fa33"/>
+        <COMPID name="rank" mc="Standard.Package" uid="fb239482-fd67-473e-ba5f-531f2b4ba30b"/>
+        <COMPID name="summary" mc="Standard.Package" uid="dbe3920f-d875-4d4d-ac20-74e78445f33b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

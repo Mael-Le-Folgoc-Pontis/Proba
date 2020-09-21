@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="discovery" version="4">
+  <OBJECT>
+    <ID name="discovery" mc="Standard.Package" uid="b10e3381-91c6-4691-b015-2eabde12f75e"/>
+    <PID name="ui" mc="Standard.Package" uid="00471ad0-d4f2-111c-bc9b-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[discovery]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="DiscoveryImages" mc="Standard.Class" uid="ed2fddb0-18e0-414a-99c6-986fe12e6e4c"/>
+        <COMPID name="DiscoveryUi" mc="Standard.Class" uid="037ee94a-ff60-4a27-93dd-ff1d76ba1bef"/>
+        <COMPID name="commands" mc="Standard.Package" uid="b50a386c-dad8-4901-b789-b0ca70b36c3e"/>
+        <COMPID name="operations" mc="Standard.Package" uid="1c8bd27a-88fb-4b29-bc31-91e23c7d552d"/>
+        <COMPID name="repository" mc="Standard.Package" uid="e94675a8-7272-4897-97ca-5fa3857ce37f"/>
+        <COMPID name="util" mc="Standard.Package" uid="ae78c7dc-beb1-4af7-bf00-48b0cf748b70"/>
+        <COMPID name="wizards" mc="Standard.Package" uid="4e31e80f-7e54-4b45-849d-96c2089e9790"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

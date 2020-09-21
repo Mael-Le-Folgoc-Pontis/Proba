@@ -1,0 +1,76 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="internal" version="4">
+  <OBJECT>
+    <ID name="internal" mc="Standard.Package" uid="1ad693c0-6f4f-4036-b8b3-856fc090e359"/>
+    <PID name="ui" mc="Standard.Package" uid="93af0037-24db-4d68-8d5b-afad9ebec65f"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[internal]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="CommonUtils" mc="Standard.Class" uid="03de2592-4531-4bc0-9f5a-9000272ec9d5"/>
+        <COMPID name="CompareUtils" mc="Standard.Class" uid="07431905-eba8-4489-beb4-e8f82a915901"/>
+        <COMPID name="ConfigurationChecker" mc="Standard.Class" uid="899951c9-7e4b-4455-bddf-249fe08d8c2a"/>
+        <COMPID name="DecorationOverlayDescriptor" mc="Standard.Class" uid="2885e039-a688-4bae-b7b6-7c4856763fac"/>
+        <COMPID name="EgitUiEditorUtils" mc="Standard.Class" uid="8ff139e4-8e15-431e-9528-aa478e3a7a0a"/>
+        <COMPID name="GitLabelProvider" mc="Standard.Class" uid="0d1d31e4-d7b2-4683-b3d2-c101c26e1a80"/>
+        <COMPID name="GitLabels" mc="Standard.Class" uid="bc1cb9ac-7239-4aee-a83c-04048524d56e"/>
+        <COMPID name="RepositorySaveableFilter" mc="Standard.Class" uid="f89af638-1f3b-4e1b-bf58-a8940d21d735"/>
+        <COMPID name="ResourcePropertyTester" mc="Standard.Class" uid="90015be1-ccc0-4f3b-9f1f-55d5ae64cc5f"/>
+        <COMPID name="SWTUtils" mc="Standard.Class" uid="5269bda9-370a-4cdd-868c-805e8ab5e2bb"/>
+        <COMPID name="SecureStoreUtils" mc="Standard.Class" uid="48388801-6831-442b-8af9-da36dd82a649"/>
+        <COMPID name="UIIcons" mc="Standard.Class" uid="0b1c947d-e334-4c2b-86e4-e632cf1f32dc"/>
+        <COMPID name="UIRepositoryUtils" mc="Standard.Class" uid="dba4a33e-44ae-4288-9a2e-6c677f15ae21"/>
+        <COMPID name="UIText" mc="Standard.Class" uid="2a3e846b-b3c6-48d9-aae0-1c62f6e3e141"/>
+        <COMPID name="ValidationUtils" mc="Standard.Class" uid="3011667f-e8e5-46c8-bdab-9ffbdaa36a47"/>
+        <COMPID name="WorkbenchStyledLabelProvider" mc="Standard.Class" uid="9657443a-752c-42c6-91fe-0e72a63b5889"/>
+        <COMPID name="actions" mc="Standard.Package" uid="47ab9871-b430-40b2-8f96-ef1d18dbcaee"/>
+        <COMPID name="blame" mc="Standard.Package" uid="331ce2b7-0b8b-40bf-bee2-71a004d3a03c"/>
+        <COMPID name="branch" mc="Standard.Package" uid="76d4baea-d8cf-4a01-98b6-c6e8c3c4e794"/>
+        <COMPID name="clean" mc="Standard.Package" uid="121f222d-6027-4f65-bd4b-b3cb943abd96"/>
+        <COMPID name="clone" mc="Standard.Package" uid="83d70b94-da94-45c2-9e8d-46ee93506f3a"/>
+        <COMPID name="commands" mc="Standard.Package" uid="c60156f6-7631-4f64-9ab2-5fb870f8141b"/>
+        <COMPID name="commit" mc="Standard.Package" uid="563cd662-431e-4bfd-9802-97153174f03d"/>
+        <COMPID name="components" mc="Standard.Package" uid="5985da56-01aa-40c7-bed9-ef720c193919"/>
+        <COMPID name="credentials" mc="Standard.Package" uid="5d50217b-7509-4409-a44d-63e6175ce502"/>
+        <COMPID name="decorators" mc="Standard.Package" uid="d7cf6bc8-20f9-4905-b664-edf12bb052b0"/>
+        <COMPID name="dialogs" mc="Standard.Package" uid="b0e6f4ce-cdee-438e-8e20-0ecd0b1e015c"/>
+        <COMPID name="factories" mc="Standard.Package" uid="69f43f1e-040b-4972-beef-599a41f4ec3a"/>
+        <COMPID name="fetch" mc="Standard.Package" uid="87d3369d-f4f6-40f9-a1fd-14a43cf88e90"/>
+        <COMPID name="gerrit" mc="Standard.Package" uid="8e006291-2380-4409-b049-d8f849ec9c93"/>
+        <COMPID name="handler" mc="Standard.Package" uid="eef71a70-7ff2-4190-baef-5737095b586d"/>
+        <COMPID name="history" mc="Standard.Package" uid="c7693898-a8fd-42d3-a2b5-1733e29ed674"/>
+        <COMPID name="importing" mc="Standard.Package" uid="10983bf3-1e1f-4bea-a40d-9ab62f053bd1"/>
+        <COMPID name="merge" mc="Standard.Package" uid="872e3cbf-ea12-4d52-ab11-7cc012bfeac6"/>
+        <COMPID name="operations" mc="Standard.Package" uid="96b5851a-dcff-4ec7-a6e7-03a65ddc4754"/>
+        <COMPID name="patch" mc="Standard.Package" uid="6f758268-ce40-4a86-8520-c1a7b1a8a5c0"/>
+        <COMPID name="preferences" mc="Standard.Package" uid="478e1db0-0f8c-4c20-ac4b-1c86f4908fe3"/>
+        <COMPID name="provisional" mc="Standard.Package" uid="79b78909-6761-4f0b-920d-a579ebd9ecfb"/>
+        <COMPID name="pull" mc="Standard.Package" uid="dc11c79d-492b-421f-b431-cb3e20cb91c3"/>
+        <COMPID name="push" mc="Standard.Package" uid="8d27c3ef-676a-44c8-b49d-5df71e87189d"/>
+        <COMPID name="rebase" mc="Standard.Package" uid="23426d98-dd1b-4017-a4f3-a743a3f96955"/>
+        <COMPID name="reflog" mc="Standard.Package" uid="656521d3-dba3-48ea-b3ff-d741566be279"/>
+        <COMPID name="repository" mc="Standard.Package" uid="eae32fd0-18b5-4795-90d4-3451b0ba74c9"/>
+        <COMPID name="revision" mc="Standard.Package" uid="e8f81b24-67d1-47be-bd9f-62b412001cf1"/>
+        <COMPID name="search" mc="Standard.Package" uid="1d060813-4d25-4a0b-9ef3-d350317bc536"/>
+        <COMPID name="selection" mc="Standard.Package" uid="2d903a43-9d37-40b2-adfe-badd3a463b94"/>
+        <COMPID name="sharing" mc="Standard.Package" uid="ed7baca1-5ee4-433c-bda7-68f8acfd0fe8"/>
+        <COMPID name="staging" mc="Standard.Package" uid="c3a61edc-8920-44a5-ac44-2c3503d9ed7f"/>
+        <COMPID name="stash" mc="Standard.Package" uid="fd0221c3-0bb0-4f28-bd72-06f39234e17a"/>
+        <COMPID name="submodule" mc="Standard.Package" uid="d17fe059-dc90-402a-9963-3e8d9f8fee8d"/>
+        <COMPID name="synchronize" mc="Standard.Package" uid="2bb806bc-71a6-47e7-b961-c53fcf8da707"/>
+        <COMPID name="trace" mc="Standard.Package" uid="47e00010-a427-4849-ad09-1aeae0944d8c"/>
+        <COMPID name="variables" mc="Standard.Package" uid="8cb5f1c1-0b22-4a11-94c6-46b4e6c08bf3"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

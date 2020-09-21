@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="model" version="4">
+  <OBJECT>
+    <ID name="model" mc="Standard.Package" uid="0009d602-0bbf-112e-9071-001e4fea2d8b"/>
+    <PID name="debug" mc="Standard.Package" uid="0008ef62-0bbf-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[model]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AntDebugElement" mc="Standard.Class" uid="0009dc92-0bbf-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AntDebugTarget" mc="Standard.Class" uid="0009e41c-0bbf-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AntLineBreakpoint" mc="Standard.Class" uid="0009eb74-0bbf-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AntProperties" mc="Standard.Class" uid="0009f34e-0bbf-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AntPropertiesValue" mc="Standard.Class" uid="0009fb46-0bbf-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AntProperty" mc="Standard.Class" uid="000a038e-0bbf-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AntStackFrame" mc="Standard.Class" uid="000a0c12-0bbf-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AntThread" mc="Standard.Class" uid="000a14b4-0bbf-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AntValue" mc="Standard.Class" uid="000a1d42-0bbf-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DebugMessageIds" mc="Standard.Class" uid="000a2652-0bbf-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DebugModelMessages" mc="Standard.Class" uid="000a2f8a-0bbf-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RemoteAntDebugBuildListener" mc="Standard.Class" uid="000a38c2-0bbf-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

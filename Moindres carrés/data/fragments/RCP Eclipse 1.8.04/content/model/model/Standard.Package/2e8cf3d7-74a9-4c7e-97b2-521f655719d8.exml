@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="undo" version="4">
+  <OBJECT>
+    <ID name="undo" mc="Standard.Package" uid="2e8cf3d7-74a9-4c7e-97b2-521f655719d8"/>
+    <PID name="internal" mc="Standard.Package" uid="94ec56ce-4e15-411a-84a2-88c38d75dcef"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[undo]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="CommandCursorPosition" mc="Standard.Interface" uid="143fbd50-de92-489f-b38d-d872c08d114c"/>
+        <COMPID name="IDocumentSelectionMediator" mc="Standard.Interface" uid="c331f6aa-4891-4b64-9479-b7210ee9341c"/>
+        <COMPID name="IStructuredTextUndoManager" mc="Standard.Interface" uid="2455d45f-ec3e-4212-9f40-0f9e4d4cb2a1"/>
+        <COMPID name="StructuredTextCommand" mc="Standard.Interface" uid="866760fb-0bad-4163-b340-8912a37aba78"/>
+        <COMPID name="StructuredTextCommandImpl" mc="Standard.Class" uid="ec84d7dc-878f-48f0-b4ef-cd3c0187e856"/>
+        <COMPID name="StructuredTextCompoundCommandImpl" mc="Standard.Class" uid="1c50c006-cdf0-429d-847c-32b476757af2"/>
+        <COMPID name="StructuredTextUndoManager" mc="Standard.Class" uid="bc4afa32-dfa1-49cd-b0f0-1377baa165d8"/>
+        <COMPID name="UndoDocumentEvent" mc="Standard.Class" uid="60dda106-8f50-4f33-bd1e-43c5dde6b84e"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

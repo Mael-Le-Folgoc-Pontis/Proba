@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="nodes" version="4">
+  <OBJECT>
+    <ID name="nodes" mc="Standard.Package" uid="004b1ec0-1fce-4ee6-97c1-3857cb69b62b"/>
+    <PID name="jsoup" mc="Standard.Package" uid="7860095d-1867-4806-b4ff-0938d134bb58"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[nodes]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Attribute" mc="Standard.Class" uid="80415cde-c6f0-4d92-8828-3b79d3d5f983"/>
+        <COMPID name="Attributes" mc="Standard.Class" uid="56a354e2-deec-4f66-8b7b-c42b4e683423"/>
+        <COMPID name="Comment" mc="Standard.Class" uid="d7b9c28f-7c3d-4065-918f-7f52ada41751"/>
+        <COMPID name="DataNode" mc="Standard.Class" uid="62f3c5ab-8888-4cd1-9e0b-1ae10ff6efad"/>
+        <COMPID name="Document" mc="Standard.Class" uid="53bc3d3c-6c99-45fe-a7d4-65b12a5a8d13"/>
+        <COMPID name="DocumentType" mc="Standard.Class" uid="79a342b2-ab17-4d15-b6a8-0365ec35d7e2"/>
+        <COMPID name="Element" mc="Standard.Class" uid="28cb9d28-9f95-464d-bd4c-be6bfc11361a"/>
+        <COMPID name="Entities" mc="Standard.Class" uid="0ca28a30-4ea9-4cd1-894e-8aa6f41969d3"/>
+        <COMPID name="Node" mc="Standard.Class" uid="e758858b-a7ca-4109-8342-be97dc9c9fb3"/>
+        <COMPID name="TextNode" mc="Standard.Class" uid="e6620242-9791-4408-909c-7a3b22377584"/>
+        <COMPID name="XmlDeclaration" mc="Standard.Class" uid="40724912-749f-4d23-aacf-c33418b23418"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

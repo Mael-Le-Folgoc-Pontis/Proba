@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="state" version="4">
+  <OBJECT>
+    <ID name="state" mc="Standard.Package" uid="b14e72fc-b8bc-49ec-a629-82161860da5f"/>
+    <PID name="utils" mc="Standard.Package" uid="62abe31d-37c4-49eb-9781-3beef5e17715"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[state]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="EditorState" mc="Standard.Class" uid="fc080a9a-fb2f-4262-8001-565bb74248fe"/>
+        <COMPID name="EditorWarning" mc="Standard.Class" uid="0227af32-cbab-403c-b241-1267f8eb05f2"/>
+        <COMPID name="GlobalState" mc="Standard.Class" uid="2dc52dcf-8376-48a0-9b8b-3eee6778c44d"/>
+        <COMPID name="IDescriptionHelper" mc="Standard.Interface" uid="d7ebd008-5af7-4025-ba66-5779ce5ff6bc"/>
+        <COMPID name="ILayoutRequestValidatorHelper" mc="Standard.Interface" uid="bd673bee-cccc-4287-8b47-3f8ab552cd87"/>
+        <COMPID name="IOrderProcessor" mc="Standard.Interface" uid="d46a86a2-a56f-43e0-a324-58c5bf922abb"/>
+        <COMPID name="IOtherHelper" mc="Standard.Interface" uid="58ee9fa2-b9a9-4d7b-8721-cd3b38caa3a3"/>
+        <COMPID name="IParametersProvider" mc="Standard.Interface" uid="98b60a76-f4cf-4c58-96d5-57cad349ae30"/>
+        <COMPID name="IPasteComponentProcessor" mc="Standard.Interface" uid="dbb5a229-9cfe-4e47-ad45-9a647e3cff2c"/>
+        <COMPID name="IPasteRequestProcessor" mc="Standard.Interface" uid="bcf02e26-61eb-4369-9565-b4f9b323154e"/>
+        <COMPID name="VisitedNodes" mc="Standard.Class" uid="3853acd6-d9aa-4cd3-b764-ce8651a98df9"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="validation" version="4">
+  <OBJECT>
+    <ID name="validation" mc="Standard.Package" uid="9eb46fb7-4698-4998-b315-0967f524151a"/>
+    <PID name="core" mc="Standard.Package" uid="469e1f7a-6e84-4213-8453-7cf4583c4f0c"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[validation]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="LinkDefinitionValidationRule" mc="Standard.Class" uid="349d68f3-5952-4827-818b-adc9263a50c5"/>
+        <COMPID name="MarkdownReferenceValidationRule" mc="Standard.Class" uid="f1eadefa-c5e7-4555-93d4-3d06b2e98240"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="synchronize" version="4">
+  <OBJECT>
+    <ID name="synchronize" mc="Standard.Package" uid="0077d4cc-0bd3-112e-9071-001e4fea2d8b"/>
+    <PID name="core" mc="Standard.Package" uid="006d678a-0bd3-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[synchronize]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="FastSyncInfoFilter" mc="Standard.Class" uid="0077da9e-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ISyncInfoSetChangeEvent" mc="Standard.Interface" uid="007846e6-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ISyncInfoSetChangeListener" mc="Standard.Interface" uid="00784db2-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ISyncInfoTreeChangeEvent" mc="Standard.Interface" uid="00785492-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SyncInfo" mc="Standard.Class" uid="00785ae6-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SyncInfoFilter" mc="Standard.Class" uid="00786162-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SyncInfoSet" mc="Standard.Class" uid="00787562-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SyncInfoSetChangeEvent" mc="Standard.Class" uid="00787c42-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SyncInfoTree" mc="Standard.Class" uid="00788354-0bd3-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

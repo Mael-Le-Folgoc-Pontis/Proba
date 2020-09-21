@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="commit" version="4">
+  <OBJECT>
+    <ID name="commit" mc="Standard.Package" uid="563cd662-431e-4bfd-9802-97153174f03d"/>
+    <PID name="internal" mc="Standard.Package" uid="1ad693c0-6f4f-4036-b8b3-856fc090e359"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[commit]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="CommitEditor" mc="Standard.Class" uid="2762d2f2-3a8b-41ee-99d1-ab0a1ca2e6b5"/>
+        <COMPID name="CommitEditorInput" mc="Standard.Class" uid="1188cdf6-c3d7-4643-acae-4522b29e0710"/>
+        <COMPID name="CommitEditorInputFactory" mc="Standard.Class" uid="c0dc47b6-b7d7-4784-9f8e-5ba045e8943c"/>
+        <COMPID name="CommitEditorPage" mc="Standard.Class" uid="ed79f29d-cd7b-4590-987b-223e8f769d5e"/>
+        <COMPID name="CommitHelper" mc="Standard.Class" uid="4e27ed61-2b79-40b9-ae48-bc04c716f703"/>
+        <COMPID name="CommitJob" mc="Standard.Class" uid="61724a3a-6db6-4f8a-bcf4-c8fce3e2367e"/>
+        <COMPID name="CommitMessageHistory" mc="Standard.Class" uid="1e8e8934-5525-4b20-99f9-13f1da9ad2c6"/>
+        <COMPID name="CommitProposalProcessor" mc="Standard.Class" uid="e8fe4075-39de-4cc5-ae83-20901cbcb10d"/>
+        <COMPID name="CommitSelectionDialog" mc="Standard.Class" uid="0258bc43-f4af-4080-8f1c-50b1e4692e91"/>
+        <COMPID name="CommitUI" mc="Standard.Class" uid="1789e16c-3a47-48f7-b4e0-36ea4aad6b85"/>
+        <COMPID name="DiffEditorPage" mc="Standard.Class" uid="42162f7d-9105-4a34-8014-f636b3c52bd3"/>
+        <COMPID name="DiffStyleRangeFormatter" mc="Standard.Class" uid="ff81c084-d52d-4684-9c5c-e8e965530aea"/>
+        <COMPID name="DiffViewer" mc="Standard.Class" uid="4dad0fc0-649e-423b-8775-d136e63614d3"/>
+        <COMPID name="HeaderText" mc="Standard.Class" uid="ad6581f4-d13d-45ec-8627-bf22f1a750a2"/>
+        <COMPID name="NoteDetailsPage" mc="Standard.Class" uid="50aca20d-4210-4bbb-a3d8-3984f7567be6"/>
+        <COMPID name="NotesBlock" mc="Standard.Class" uid="08d96948-682a-48ef-be96-71826c1ddc47"/>
+        <COMPID name="NotesEditorPage" mc="Standard.Class" uid="4736ae42-dd59-4a70-b40c-a8e9131c3805"/>
+        <COMPID name="OpenCommitAction" mc="Standard.Class" uid="be3d554e-a26f-44e8-8432-f3c610eefed4"/>
+        <COMPID name="RepositoryCommit" mc="Standard.Class" uid="808e4e7c-52a9-4429-afe9-ad52842320d2"/>
+        <COMPID name="RepositoryCommitNote" mc="Standard.Class" uid="17d75194-388e-4abe-bf76-8075bb0020e7"/>
+        <COMPID name="StashEditorPage" mc="Standard.Class" uid="4dfdcb9c-118b-49db-96ec-76a363cf52c3"/>
+        <COMPID name="command" mc="Standard.Package" uid="a1ecaa2f-f41e-473d-8cdc-1afc437f254e"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

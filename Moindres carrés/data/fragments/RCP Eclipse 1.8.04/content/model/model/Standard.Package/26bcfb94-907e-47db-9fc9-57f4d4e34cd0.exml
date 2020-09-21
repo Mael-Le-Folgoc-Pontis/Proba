@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="search" version="4">
+  <OBJECT>
+    <ID name="search" mc="Standard.Package" uid="26bcfb94-907e-47db-9fc9-57f4d4e34cd0"/>
+    <PID name="internal" mc="Standard.Package" uid="78d3478f-ffaa-4fc9-8123-76468f3ac6f6"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[search]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="IXSDSearchConstants" mc="Standard.Interface" uid="9d7ea7c3-4513-4d36-8ea2-4575a5b716d8"/>
+        <COMPID name="SearchMessages" mc="Standard.Class" uid="3cc601d5-1f64-4052-be0a-3f273c2dc6f6"/>
+        <COMPID name="XSDSearchContributor" mc="Standard.Class" uid="6fd43067-e4dd-46ab-9646-605ed11d5f91"/>
+        <COMPID name="XSDSearchParticipant" mc="Standard.Class" uid="8800ef65-3a15-4510-9add-e9518719dbda"/>
+        <COMPID name="XSDSearchQuery" mc="Standard.Class" uid="a6fec2d2-8da8-46a2-9b82-239242013aa1"/>
+        <COMPID name="actions" mc="Standard.Package" uid="37a32d85-45ba-4ce2-8418-e30b75420f1c"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

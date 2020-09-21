@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="rcp" version="4">
+  <OBJECT>
+    <ID name="rcp" mc="Standard.Package" uid="4bf306e9-3f15-4b8f-a633-e343c4a7df7a"/>
+    <PID name="apidocs" mc="Standard.Package" uid="b7a2faa1-be50-479a-853a-68db1733c2d1"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[rcp]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ApidocProvider" mc="Standard.Class" uid="af80fc89-db04-49af-b2e1-33f1ab06594a"/>
+        <COMPID name="ApidocProviderDescription" mc="Standard.Class" uid="cd8305c8-73c8-4878-949f-cd1d7aeeb044"/>
+        <COMPID name="JavaSelectionSubscriber" mc="Standard.Class" uid="d8133c64-9c1d-496c-8b6c-340dfe382d97"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

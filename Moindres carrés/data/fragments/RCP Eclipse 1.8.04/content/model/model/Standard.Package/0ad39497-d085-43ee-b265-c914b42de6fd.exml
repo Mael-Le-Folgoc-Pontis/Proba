@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="util" version="4">
+  <OBJECT>
+    <ID name="util" mc="Standard.Package" uid="0ad39497-d085-43ee-b265-c914b42de6fd"/>
+    <PID name="core" mc="Standard.Package" uid="8480cc12-002c-4b6c-b37f-35703ed08fbf"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[util]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="RegistryReader" mc="Standard.Class" uid="c6691a8a-9cb1-41cd-b05e-ba13f330d0fd"/>
+        <COMPID name="UIContextDetermination" mc="Standard.Class" uid="d944b77c-245c-4a2a-b6d9-da9a98e0c8e1"/>
+        <COMPID name="UITester" mc="Standard.Interface" uid="af2a6511-03d7-4cbd-bdca-19f36a52db03"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

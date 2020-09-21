@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="core" version="4">
+  <OBJECT>
+    <ID name="core" mc="Standard.Package" uid="6033c597-8738-4967-bdc2-16f799a29057"/>
+    <PID name="snippets" mc="Standard.Package" uid="c3797e2a-fe03-4cb0-a5cd-b216489bf6a6"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[core]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ISnippetCategory" mc="Standard.Interface" uid="22fac6f0-1ee6-4f68-8f97-989c1fc3f88d"/>
+        <COMPID name="ISnippetItem" mc="Standard.Interface" uid="b652f531-7997-42cf-8604-b5f8ee18672c"/>
+        <COMPID name="ISnippetProvider" mc="Standard.Interface" uid="fa4c2dcc-f320-4843-9215-0920c6a36c16"/>
+        <COMPID name="ISnippetVariable" mc="Standard.Interface" uid="f4c050ea-499d-4036-9e15-01adaa05c743"/>
+        <COMPID name="ISnippetsEntry" mc="Standard.Interface" uid="3d377596-952d-4be9-8c05-919de627959a"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

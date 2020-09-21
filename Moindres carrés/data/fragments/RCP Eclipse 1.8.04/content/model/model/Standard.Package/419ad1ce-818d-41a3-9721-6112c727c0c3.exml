@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="process" version="4">
+  <OBJECT>
+    <ID name="process" mc="Standard.Package" uid="419ad1ce-818d-41a3-9721-6112c727c0c3"/>
+    <PID name="gradle" mc="Standard.Package" uid="b0a3a6a5-f52d-4ed0-a27b-9f7ce9859eef"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[process]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="BaseExecSpec" mc="Standard.Interface" uid="c1aaa182-e8bb-4146-86e9-1a2646ae45f1"/>
+        <COMPID name="ExecResult" mc="Standard.Interface" uid="7307b720-1eba-4d04-800e-f24f48fd2dc2"/>
+        <COMPID name="ExecSpec" mc="Standard.Interface" uid="377dcfb9-00c8-4739-8d4d-a780b04e1b20"/>
+        <COMPID name="JavaExecSpec" mc="Standard.Interface" uid="d08fc1f0-0556-4f54-ade8-492967517f20"/>
+        <COMPID name="JavaForkOptions" mc="Standard.Interface" uid="bd328ea4-8233-4aa5-aedf-eaa9fa79357d"/>
+        <COMPID name="ProcessForkOptions" mc="Standard.Interface" uid="a740fdc3-c2f3-47a1-bb80-050dcf913f46"/>
+        <COMPID name="internal" mc="Standard.Package" uid="7dfdf0a6-2a2d-4119-ab7d-40b9be914ca8"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

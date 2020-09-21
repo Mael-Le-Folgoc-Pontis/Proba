@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="multipart" version="4">
+  <OBJECT>
+    <ID name="multipart" mc="Standard.Package" uid="00164478-0bbd-112e-9071-001e4fea2d8b"/>
+    <PID name="methods" mc="Standard.Package" uid="0014fb5e-0bbd-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[multipart]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ByteArrayPartSource" mc="Standard.Class" uid="00164b44-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FilePart" mc="Standard.Class" uid="00165350-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FilePartSource" mc="Standard.Class" uid="00165bb6-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MultipartRequestEntity" mc="Standard.Class" uid="0016643a-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Part" mc="Standard.Class" uid="00166d9a-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PartBase" mc="Standard.Class" uid="001677d6-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PartSource" mc="Standard.Interface" uid="00167f10-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="StringPart" mc="Standard.Class" uid="00168924-0bbd-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

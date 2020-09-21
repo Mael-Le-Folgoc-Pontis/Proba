@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="beans" version="4">
+  <OBJECT>
+    <ID name="beans" mc="Standard.Package" uid="34dede7b-75e2-4425-998f-9828adaaf6a1"/>
+    <PID name="model" mc="Standard.Package" uid="bf691bbf-8d11-41e9-8772-0987472e3252"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[beans]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="BeanAttributeIterator" mc="Standard.Class" uid="dd8213e8-8be2-4bd5-9327-3cab5d22433d"/>
+        <COMPID name="BeanPointer" mc="Standard.Class" uid="c61416dd-180f-4c23-967d-d60a3b4842ef"/>
+        <COMPID name="BeanPointerFactory" mc="Standard.Class" uid="bac87606-a281-4922-b4df-ef3dc57cddb7"/>
+        <COMPID name="BeanPropertyPointer" mc="Standard.Class" uid="47a95ac1-a0b5-47ca-8a18-9c534ca2b70b"/>
+        <COMPID name="CollectionAttributeNodeIterator" mc="Standard.Class" uid="224ff229-44f3-4891-aa21-dcb88852cfb7"/>
+        <COMPID name="CollectionChildNodeIterator" mc="Standard.Class" uid="9fee6e17-bb5a-4ac1-aa2c-9aa98e2ee827"/>
+        <COMPID name="CollectionNodeIterator" mc="Standard.Class" uid="5a341fb6-a0de-4c72-ad13-6ccea0922048"/>
+        <COMPID name="CollectionPointer" mc="Standard.Class" uid="07369e5d-2d8c-4c2d-9fc9-711b26f142d0"/>
+        <COMPID name="CollectionPointerFactory" mc="Standard.Class" uid="a5f591af-0711-40d9-b375-26b1868e620b"/>
+        <COMPID name="LangAttributePointer" mc="Standard.Class" uid="09e1d4c0-b59d-4363-970d-2b1af247c7c7"/>
+        <COMPID name="NullElementPointer" mc="Standard.Class" uid="20d56820-111a-4119-8583-99ae099d438d"/>
+        <COMPID name="NullPointer" mc="Standard.Class" uid="33ad8e4d-6541-41b0-a08a-947c0259b6f1"/>
+        <COMPID name="NullPropertyPointer" mc="Standard.Class" uid="7771ef7f-8252-4d7a-9d07-20b51249e2ca"/>
+        <COMPID name="PropertyIterator" mc="Standard.Class" uid="ec6d40a3-6404-4f9d-80d7-cdc4c937d724"/>
+        <COMPID name="PropertyOwnerPointer" mc="Standard.Class" uid="b22a1798-5eaa-4fd4-942e-7aaa8d5d1c71"/>
+        <COMPID name="PropertyPointer" mc="Standard.Class" uid="b6ffe94e-e610-44eb-a6c7-5c09ee6976aa"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

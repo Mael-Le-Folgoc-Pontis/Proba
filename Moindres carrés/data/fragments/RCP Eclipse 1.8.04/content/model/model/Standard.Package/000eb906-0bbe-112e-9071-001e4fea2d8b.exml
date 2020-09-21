@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="function" version="4">
+  <OBJECT>
+    <ID name="function" mc="Standard.Package" uid="000eb906-0bbe-112e-9071-001e4fea2d8b"/>
+    <PID name="search" mc="Standard.Package" uid="0001a720-0bbe-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[function]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ByteFieldSource" mc="Standard.Class" uid="000ec04a-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CustomScoreProvider" mc="Standard.Class" uid="000ec770-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CustomScoreQuery" mc="Standard.Class" uid="000ecefa-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DocValues" mc="Standard.Class" uid="000ee4d0-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FieldCacheSource" mc="Standard.Class" uid="000eed0e-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FieldScoreQuery" mc="Standard.Class" uid="000ef4f2-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FloatFieldSource" mc="Standard.Class" uid="000f0c3a-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IntFieldSource" mc="Standard.Class" uid="000f14c8-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="OrdFieldSource" mc="Standard.Class" uid="000f1d38-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ReverseOrdFieldSource" mc="Standard.Class" uid="000f26c0-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ShortFieldSource" mc="Standard.Class" uid="000f2fda-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ValueSource" mc="Standard.Class" uid="000f3926-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ValueSourceQuery" mc="Standard.Class" uid="000f42a4-0bbe-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

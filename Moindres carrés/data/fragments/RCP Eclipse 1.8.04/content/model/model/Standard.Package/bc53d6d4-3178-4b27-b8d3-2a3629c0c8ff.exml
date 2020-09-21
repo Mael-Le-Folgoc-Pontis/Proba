@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="editor" version="4">
+  <OBJECT>
+    <ID name="editor" mc="Standard.Package" uid="bc53d6d4-3178-4b27-b8d3-2a3629c0c8ff"/>
+    <PID name="ui" mc="Standard.Package" uid="b4834099-f613-44f3-9fd4-358bc12a2450"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[editor]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="DialogFieldUiContentProvider" mc="Standard.Class" uid="26a18599-71a4-402c-bc22-2f9970b56f94"/>
+        <COMPID name="EmptyPageListener" mc="Standard.Class" uid="cb0addb4-f384-4e84-b5f5-aeab803f6453"/>
+        <COMPID name="ICompleteListener" mc="Standard.Interface" uid="89a61849-3eb0-4ef3-ae13-8f4309cbd4dc"/>
+        <COMPID name="IPageListener" mc="Standard.Interface" uid="cbd9820f-da44-4698-af75-bee005285c89"/>
+        <COMPID name="IUiContentProvider" mc="Standard.Interface" uid="70b71b06-8c85-494a-8742-20c335d30db4"/>
+        <COMPID name="PageListenerWrapper" mc="Standard.Class" uid="a4fe4683-0202-4ae2-b5a2-26825de5de50"/>
+        <COMPID name="UiContentProviderAdapter" mc="Standard.Class" uid="9ac50b9d-4772-4de8-b1db-966430f90571"/>
+        <COMPID name="UiContentProviderComposite" mc="Standard.Class" uid="bec4eafb-33b7-4bc0-8459-089307339294"/>
+        <COMPID name="contentproviders" mc="Standard.Package" uid="682739c8-2ef2-4a88-a630-6e7713f69a74"/>
+        <COMPID name="dialogfields" mc="Standard.Package" uid="24c1fa4a-29e8-4066-ae34-adbe2e9780f1"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

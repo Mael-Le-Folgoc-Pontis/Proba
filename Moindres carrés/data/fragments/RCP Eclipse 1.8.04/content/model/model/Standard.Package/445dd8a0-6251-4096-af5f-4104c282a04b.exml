@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="io" version="4">
+  <OBJECT>
+    <ID name="io" mc="Standard.Package" uid="445dd8a0-6251-4096-af5f-4104c282a04b"/>
+    <PID name="http" mc="Standard.Package" uid="69579971-0298-4981-9fc7-48c3562d4504"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[io]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="BufferInfo" mc="Standard.Interface" uid="4bff1f7c-a516-4ae4-a071-9620ee8405c7"/>
+        <COMPID name="EofSensor" mc="Standard.Interface" uid="f0c40fa8-718b-4fa8-97bd-d4ae23f464aa"/>
+        <COMPID name="HttpMessageParser" mc="Standard.Interface" uid="dcc96068-94bd-4533-893c-07791e01621f"/>
+        <COMPID name="HttpMessageParserFactory" mc="Standard.Interface" uid="81b758b9-6f9b-438d-9dd2-73a79461cbce"/>
+        <COMPID name="HttpMessageWriter" mc="Standard.Interface" uid="bd2fc8fc-8e42-42e1-9182-c50ee53a2f3f"/>
+        <COMPID name="HttpMessageWriterFactory" mc="Standard.Interface" uid="fa8d2b1e-32ec-454a-b59e-baefc1a01de1"/>
+        <COMPID name="HttpTransportMetrics" mc="Standard.Interface" uid="cab9d410-d3c7-4555-9dbd-5f1df00a3f62"/>
+        <COMPID name="SessionInputBuffer" mc="Standard.Interface" uid="82ef7b48-cfb0-4ee9-a2ac-98f71474acd8"/>
+        <COMPID name="SessionOutputBuffer" mc="Standard.Interface" uid="f7b083e7-e9de-4357-b872-282197e85f3d"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

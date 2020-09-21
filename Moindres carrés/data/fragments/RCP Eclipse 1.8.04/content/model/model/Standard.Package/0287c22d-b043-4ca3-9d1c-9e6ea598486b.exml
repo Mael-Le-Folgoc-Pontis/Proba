@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="color" version="4">
+  <OBJECT>
+    <ID name="color" mc="Standard.Package" uid="0287c22d-b043-4ca3-9d1c-9e6ea598486b"/>
+    <PID name="pattern" mc="Standard.Package" uid="3605a7d0-310e-4089-8253-1133b943c6de"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[color]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ANSIConstants" mc="Standard.Class" uid="92a76fac-ecb9-4c5a-89c9-971005d41831"/>
+        <COMPID name="BlackCompositeConverter" mc="Standard.Class" uid="5bb84ac5-e04e-4e1f-b2ef-6434a80e1bc7"/>
+        <COMPID name="BlueCompositeConverter" mc="Standard.Class" uid="3ad999c6-03dc-4bcd-a016-fdd807b848db"/>
+        <COMPID name="BoldBlueCompositeConverter" mc="Standard.Class" uid="b6b4ea41-f152-40df-8148-973fa315ebb3"/>
+        <COMPID name="BoldCyanCompositeConverter" mc="Standard.Class" uid="1af302f2-b7dc-46de-9ca2-d57129f4125c"/>
+        <COMPID name="BoldGreenCompositeConverter" mc="Standard.Class" uid="0796f98d-5c99-4384-b5ef-30ac2261dba8"/>
+        <COMPID name="BoldMagentaCompositeConverter" mc="Standard.Class" uid="56f53cb0-9ab7-40c3-aa72-31cebf64c3a3"/>
+        <COMPID name="BoldRedCompositeConverter" mc="Standard.Class" uid="a89295c5-6013-49be-a5d9-a40c600c1fd6"/>
+        <COMPID name="BoldWhiteCompositeConverter" mc="Standard.Class" uid="8f1e7bc0-7bde-484b-947d-eb0a71da1aee"/>
+        <COMPID name="BoldYellowCompositeConverter" mc="Standard.Class" uid="c79e0b58-8d7b-4da8-b4d2-cb01aca8ff76"/>
+        <COMPID name="CyanCompositeConverter" mc="Standard.Class" uid="0971a258-24a3-495e-a0a3-1cd1257bd243"/>
+        <COMPID name="ForegroundCompositeConverterBase" mc="Standard.Class" uid="50beeac2-79d6-4c56-b40b-4fd48f8c5225"/>
+        <COMPID name="GreenCompositeConverter" mc="Standard.Class" uid="bf40aea9-ed41-4c55-98aa-1bacc00d4c55"/>
+        <COMPID name="MagentaCompositeConverter" mc="Standard.Class" uid="02cfd5f3-80bf-4a55-9b7f-91095dac7d0b"/>
+        <COMPID name="RedCompositeConverter" mc="Standard.Class" uid="2e893588-362b-4a0e-bb19-d3d9ab0125ca"/>
+        <COMPID name="WhiteCompositeConverter" mc="Standard.Class" uid="5631ad6a-d2e9-4ec3-9730-e3e39dec31a2"/>
+        <COMPID name="YellowCompositeConverter" mc="Standard.Class" uid="79a297dd-c3e0-40b4-8098-13d8c71a5e96"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

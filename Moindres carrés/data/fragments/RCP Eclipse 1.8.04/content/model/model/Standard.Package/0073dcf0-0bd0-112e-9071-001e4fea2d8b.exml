@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ibundle" version="4">
+  <OBJECT>
+    <ID name="ibundle" mc="Standard.Package" uid="0073dcf0-0bd0-112e-9071-001e4fea2d8b"/>
+    <PID name="core" mc="Standard.Package" uid="0064dc0a-0bd0-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[ibundle]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="IBundle" mc="Standard.Interface" uid="0073e2fe-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IBundleFragment" mc="Standard.Interface" uid="0073ea1a-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IBundleFragmentModel" mc="Standard.Interface" uid="0073f0fa-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IBundleModel" mc="Standard.Interface" uid="0073f7d0-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IBundleModelFactory" mc="Standard.Interface" uid="0073ff00-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IBundlePlugin" mc="Standard.Interface" uid="00740676-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IBundlePluginBase" mc="Standard.Interface" uid="00740e46-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IBundlePluginModel" mc="Standard.Interface" uid="007415f8-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IBundlePluginModelBase" mc="Standard.Interface" uid="00741df0-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IBundlePluginModelProvider" mc="Standard.Interface" uid="00742624-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IManifestHeader" mc="Standard.Interface" uid="00742e44-0bd0-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

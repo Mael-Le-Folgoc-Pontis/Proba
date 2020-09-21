@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="registry" version="4">
+  <OBJECT>
+    <ID name="registry" mc="Standard.Package" uid="004a9bba-0bd6-112e-9071-001e4fea2d8b"/>
+    <PID name="cheatsheets" mc="Standard.Package" uid="0027b884-0bd6-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[registry]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Category" mc="Standard.Class" uid="004aa1d2-0bd6-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CheatSheetCollectionElement" mc="Standard.Class" uid="004aa830-0bd6-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CheatSheetCollectionSorter" mc="Standard.Class" uid="004aae98-0bd6-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CheatSheetElement" mc="Standard.Class" uid="004ab500-0bd6-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CheatSheetItemExtensionElement" mc="Standard.Class" uid="004abbd6-0bd6-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CheatSheetParameterValues" mc="Standard.Class" uid="004ac2de-0bd6-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CheatSheetRegistryReader" mc="Standard.Class" uid="004ac9dc-0bd6-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RegistryReader" mc="Standard.Class" uid="004ae3fe-0bd6-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Sorter" mc="Standard.Class" uid="004aeb92-0bd6-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

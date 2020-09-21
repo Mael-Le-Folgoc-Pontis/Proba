@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="normalization" version="4">
+  <OBJECT>
+    <ID name="normalization" mc="Standard.Package" uid="249b8cd0-1594-433f-a6b9-c01218a42183"/>
+    <PID name="model" mc="Standard.Package" uid="500c90ee-6ac5-42ec-b991-b53e6c90255b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[normalization]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="DefaultModelNormalizer" mc="Standard.Class" uid="00497c02-c5d6-4f8c-8612-74290445ddfe"/>
+        <COMPID name="ModelNormalizer" mc="Standard.Interface" uid="4b776dc8-5ac8-414f-868a-0a56598fb1d5"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="EMF" version="4">
+  <OBJECT>
+    <ID name="EMF" mc="Standard.Package" uid="685d8b1c-8c84-4199-a615-66adec84d62a"/>
+    <PID name="EMF" mc="Standard.Project" uid="114e09cb-0777-4ba9-8856-200ea290fad1"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[EMF]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="EMF" mc="Standard.Artifact" uid="0ab84f10-906f-4704-81a0-5433ed08c7cf"/>
+        <COMPID name="org" mc="Standard.Package" uid="763be5d7-f7c7-11df-b801-00137279a832"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

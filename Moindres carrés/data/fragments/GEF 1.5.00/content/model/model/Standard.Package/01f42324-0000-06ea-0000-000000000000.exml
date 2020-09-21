@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="requests" version="4">
+  <OBJECT>
+    <ID name="requests" mc="Standard.Package" uid="01f42324-0000-06ea-0000-000000000000"/>
+    <PID name="gef" mc="Standard.Package" uid="01f42324-0000-0594-0000-000000000000"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[requests]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AlignmentRequest" mc="Standard.Class" uid="01f42324-0000-077a-0000-000000000000"/>
+        <COMPID name="BendpointRequest" mc="Standard.Class" uid="01f42324-0000-0791-0000-000000000000"/>
+        <COMPID name="ChangeBoundsRequest" mc="Standard.Class" uid="01f42324-0000-0733-0000-000000000000"/>
+        <COMPID name="CreateConnectionRequest" mc="Standard.Class" uid="01f42324-0000-0790-0000-000000000000"/>
+        <COMPID name="CreateRequest" mc="Standard.Class" uid="01f42324-0000-072e-0000-000000000000"/>
+        <COMPID name="CreationFactory" mc="Standard.Interface" uid="01f42324-0000-077f-0000-000000000000"/>
+        <COMPID name="DirectEditRequest" mc="Standard.Class" uid="01f42324-0000-070a-0000-000000000000"/>
+        <COMPID name="DropRequest" mc="Standard.Interface" uid="34be9ac2-8b12-11de-aace-001e4fea2d8b"/>
+        <COMPID name="ForwardedRequest" mc="Standard.Class" uid="01f42324-0000-078f-0000-000000000000"/>
+        <COMPID name="GroupRequest" mc="Standard.Class" uid="01f42324-0000-06ec-0000-000000000000"/>
+        <COMPID name="LocationRequest" mc="Standard.Class" uid="01f42324-0000-0793-0000-000000000000"/>
+        <COMPID name="ReconnectRequest" mc="Standard.Class" uid="01f42324-0000-0779-0000-000000000000"/>
+        <COMPID name="SelectionRequest" mc="Standard.Class" uid="01f42324-0000-0792-0000-000000000000"/>
+        <COMPID name="SimpleFactory" mc="Standard.Class" uid="01f42324-0000-077b-0000-000000000000"/>
+        <COMPID name="TargetRequest" mc="Standard.Interface" uid="4b1c6de3-8b12-11de-aace-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

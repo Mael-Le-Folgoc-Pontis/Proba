@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="config" version="4">
+  <OBJECT>
+    <ID name="config" mc="Standard.Package" uid="007eeaa0-1a9d-4b2d-9b18-813ac902e64c"/>
+    <PID name="http" mc="Standard.Package" uid="69579971-0298-4981-9fc7-48c3562d4504"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[config]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ConnectionConfig" mc="Standard.Class" uid="6ab3aa0d-e1d0-429e-913c-54122939bea1"/>
+        <COMPID name="Lookup" mc="Standard.Interface" uid="303722dc-4b90-4205-af20-3dc1dbc80bd9"/>
+        <COMPID name="MessageConstraints" mc="Standard.Class" uid="a23fe435-04d3-4009-9887-db91074e745b"/>
+        <COMPID name="Registry" mc="Standard.Class" uid="6cd85a6d-c0c7-42b8-b67e-0be250b68ef6"/>
+        <COMPID name="RegistryBuilder" mc="Standard.Class" uid="ae528f2a-141a-465a-be53-fcc54a7c82ec"/>
+        <COMPID name="SocketConfig" mc="Standard.Class" uid="086cbaa7-f4d8-43e4-b89b-c0fc7384552b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

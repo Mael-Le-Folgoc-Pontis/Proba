@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ui" version="4">
+  <OBJECT>
+    <ID name="ui" mc="Standard.Package" uid="fef19c03-b0f2-415d-a50a-6af7860d7c17"/>
+    <PID name="laf" mc="Standard.Package" uid="1b88f26e-fa15-41a5-b9c1-f968b57b06e9"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[ui]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractCustomLookAndFeelDialog" mc="Standard.Class" uid="cb8f9472-db70-4817-8d39-251288078c9f"/>
+        <COMPID name="AddCustomLookAndFeelDialog" mc="Standard.Class" uid="519c7895-23dd-4bda-8ef6-52602cff7199"/>
+        <COMPID name="EditCustomLookAndFeelDialog" mc="Standard.Class" uid="9d01fae9-9555-4acc-9803-4a7f4af4758e"/>
+        <COMPID name="JarSelectionDialog" mc="Standard.Class" uid="bdf3b793-2c55-4c4d-abc3-b7a4e6207b2f"/>
+        <COMPID name="LafRootProcessor" mc="Standard.Class" uid="535fe51b-a5c0-4e26-a7c2-e9f01c7a23b1"/>
+        <COMPID name="LafSelectionItem" mc="Standard.Class" uid="db7c8870-012f-487c-aaa6-3aab554fe8e2"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

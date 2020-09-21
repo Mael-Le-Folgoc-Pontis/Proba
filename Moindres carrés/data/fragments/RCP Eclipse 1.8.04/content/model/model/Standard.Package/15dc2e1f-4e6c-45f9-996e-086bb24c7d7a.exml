@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="old" version="4">
+  <OBJECT>
+    <ID name="old" mc="Standard.Package" uid="15dc2e1f-4e6c-45f9-996e-086bb24c7d7a"/>
+    <PID name="archetype" mc="Standard.Package" uid="15754755-ea04-4072-b80d-c868ad13cd6a"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[old]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ArchetypeDescriptorException" mc="Standard.Class" uid="dc754083-fcd8-42b0-a2bc-662ff4fdd295"/>
+        <COMPID name="ArchetypeNotFoundException" mc="Standard.Class" uid="b2e7b1ad-f97a-49e2-84d9-c2fe38fdd885"/>
+        <COMPID name="ArchetypeTemplateProcessingException" mc="Standard.Class" uid="d0db0866-bc9f-411d-a5cc-1089499b465a"/>
+        <COMPID name="DefaultOldArchetype" mc="Standard.Class" uid="e7440f39-bef1-4216-8f4e-e0707b83742d"/>
+        <COMPID name="OldArchetype" mc="Standard.Interface" uid="52f685cd-c074-4d36-a0da-c1959e44dfa4"/>
+        <COMPID name="descriptor" mc="Standard.Package" uid="b62dc2e6-5429-4196-baec-2bb80c5b0e95"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="model" version="4">
+  <OBJECT>
+    <ID name="model" mc="Standard.Package" uid="35b5e03b-e3d4-42e3-ac66-f07ee4eb9f1b"/>
+    <PID name="archetype" mc="Standard.Package" uid="15754755-ea04-4072-b80d-c868ad13cd6a"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[model]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ArchetypeModel" mc="Standard.Class" uid="283fa6e6-223c-475b-852a-f6a9b13e0595"/>
+        <COMPID name="Resource" mc="Standard.Class" uid="67816b03-9027-4627-bf46-a4dae63c1326"/>
+        <COMPID name="Source" mc="Standard.Class" uid="0bcdf0c8-c993-46e8-9135-a86c44d0ebd4"/>
+        <COMPID name="io" mc="Standard.Package" uid="09692238-3ff2-4100-af24-b5baeffdeca8"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

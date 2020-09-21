@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="launch" version="4">
+  <OBJECT>
+    <ID name="launch" mc="Standard.Package" uid="9511f9e3-7ee7-4382-97b8-68c1ec9a895e"/>
+    <PID name="core" mc="Standard.Package" uid="7b7ddca1-fd25-4e5e-b303-f349cd5fa217"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[launch]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="BaseLaunchRequestJob" mc="Standard.Class" uid="6b8ff875-83f4-4f7d-91a3-d842759aa1c6"/>
+        <COMPID name="ExecuteLaunchRequestEvent" mc="Standard.Interface" uid="fce09eb7-1d4b-41e7-b891-796f8b13392d"/>
+        <COMPID name="GradleLaunchConfigurationManager" mc="Standard.Interface" uid="81d5be16-02c9-4ae1-8e27-53dee6bf94cd"/>
+        <COMPID name="GradleRunConfigurationAttributes" mc="Standard.Class" uid="21f3f915-4e4b-4d75-ae64-bbae3b74e171"/>
+        <COMPID name="GradleRunConfigurationDelegate" mc="Standard.Class" uid="008a8706-30fe-462e-8108-1b8be4035313"/>
+        <COMPID name="RunGradleBuildLaunchRequestJob" mc="Standard.Class" uid="9983fffd-38e5-4d58-aa63-0a4889d296cb"/>
+        <COMPID name="RunGradleTestLaunchRequestJob" mc="Standard.Class" uid="ebdd56b4-fc6d-46f0-aa90-b789215ef297"/>
+        <COMPID name="internal" mc="Standard.Package" uid="0901ce1f-38de-4aa8-8843-246006682930"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

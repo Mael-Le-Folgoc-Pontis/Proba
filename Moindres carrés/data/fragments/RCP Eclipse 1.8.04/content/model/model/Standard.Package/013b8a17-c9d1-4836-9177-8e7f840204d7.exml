@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="notifications" version="4">
+  <OBJECT>
+    <ID name="notifications" mc="Standard.Package" uid="013b8a17-c9d1-4836-9177-8e7f840204d7"/>
+    <PID name="ui" mc="Standard.Package" uid="50c3c555-c27e-463b-bea0-d6b6bb9b8481"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[notifications]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="BuildsServiceMessageControl" mc="Standard.Class" uid="49ff198e-7e22-4626-a66d-e3ee63e834cb"/>
+        <COMPID name="BuildsServiceNotification" mc="Standard.Class" uid="47b80d6d-4ed2-458c-bd15-d81c923526a8"/>
+        <COMPID name="Messages" mc="Standard.Class" uid="858c3985-5141-43af-bcc1-61b0da4b3e42"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

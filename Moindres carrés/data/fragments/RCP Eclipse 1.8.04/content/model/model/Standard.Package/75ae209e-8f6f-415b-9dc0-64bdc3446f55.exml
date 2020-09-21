@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="preventers" version="4">
+  <OBJECT>
+    <ID name="preventers" mc="Standard.Package" uid="75ae209e-8f6f-415b-9dc0-64bdc3446f55"/>
+    <PID name="util" mc="Standard.Package" uid="001f75f2-0bcc-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[preventers]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AWTLeakPreventer" mc="Standard.Class" uid="ba84aa0b-bc4f-4704-87f6-502986b05672"/>
+        <COMPID name="AbstractLeakPreventer" mc="Standard.Class" uid="58438a99-829b-4ee9-bada-afc0ca2efb28"/>
+        <COMPID name="AppContextLeakPreventer" mc="Standard.Class" uid="aa32473e-05dc-4e80-aaa1-b71b1a0e84eb"/>
+        <COMPID name="DOMLeakPreventer" mc="Standard.Class" uid="67f774e3-45e8-4198-9c36-961214480555"/>
+        <COMPID name="DriverManagerLeakPreventer" mc="Standard.Class" uid="286e1731-0819-4ea7-9019-2c1f97e6deef"/>
+        <COMPID name="GCThreadLeakPreventer" mc="Standard.Class" uid="33d709f5-bbb4-4c28-b2b1-e168862d4363"/>
+        <COMPID name="Java2DLeakPreventer" mc="Standard.Class" uid="3f65ab21-5ce7-487f-a4a9-037ab47d0fa5"/>
+        <COMPID name="LDAPLeakPreventer" mc="Standard.Class" uid="3da7eda5-7434-4619-92be-9dc45189833f"/>
+        <COMPID name="LoginConfigurationLeakPreventer" mc="Standard.Class" uid="4e3941b2-5eff-4a46-97be-794bea39d849"/>
+        <COMPID name="SecurityProviderLeakPreventer" mc="Standard.Class" uid="4bdc1f9e-6a0b-42f6-89a1-a57f3c6df1d5"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="rulers" version="4">
+  <OBJECT>
+    <ID name="rulers" mc="Standard.Package" uid="01f42324-0000-05b4-0000-000000000000"/>
+    <PID name="ui" mc="Standard.Package" uid="01f42324-0000-0596-0000-000000000000"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[rulers]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="RulerEditPart" mc="Standard.Class" uid="01f42324-0000-05b5-0000-000000000000"/>
+        <COMPID name="RulerEditPartFactory" mc="Standard.Class" uid="01f42324-0000-05b6-0000-000000000000"/>
+        <COMPID name="GuideFigure" mc="Standard.Class" uid="01f42324-0000-05b7-0000-000000000000"/>
+        <COMPID name="RulerContextMenuProvider" mc="Standard.Class" uid="01f42324-0000-05b8-0000-000000000000"/>
+        <COMPID name="RulerRootEditPart" mc="Standard.Class" uid="01f42324-0000-05b9-0000-000000000000"/>
+        <COMPID name="DragGuidePolicy" mc="Standard.Class" uid="01f42324-0000-05ba-0000-000000000000"/>
+        <COMPID name="GuideEditPart" mc="Standard.Class" uid="01f42324-0000-05bb-0000-000000000000"/>
+        <COMPID name="RulerFigure" mc="Standard.Class" uid="01f42324-0000-05bc-0000-000000000000"/>
+        <COMPID name="GuidePlaceHolder" mc="Standard.Class" uid="01f42324-0000-05bd-0000-000000000000"/>
+        <COMPID name="RulerDragTracker" mc="Standard.Class" uid="01f42324-0000-05be-0000-000000000000"/>
+        <COMPID name="RulerLayout" mc="Standard.Class" uid="01f42324-0000-05bf-0000-000000000000"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

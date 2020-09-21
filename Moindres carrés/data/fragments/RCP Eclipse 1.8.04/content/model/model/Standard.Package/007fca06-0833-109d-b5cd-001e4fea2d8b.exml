@@ -1,0 +1,170 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="text" version="4">
+  <OBJECT>
+    <ID name="text" mc="Standard.Package" uid="007fca06-0833-109d-b5cd-001e4fea2d8b"/>
+    <PID name="jface" mc="Standard.Package" uid="006fc818-21a9-1fb1-8a9e-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[text]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractDocument" mc="Standard.Class" uid="0007e4fa-0caa-109d-8c43-001e4fea2d8b"/>
+        <COMPID name="AbstractHoverInformationControlManager" mc="Standard.Class" uid="007fd190-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="AbstractInformationControl" mc="Standard.Class" uid="007fe6ee-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="AbstractInformationControlManager" mc="Standard.Class" uid="007fee5a-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="AbstractLineTracker" mc="Standard.Class" uid="003c32f0-0caa-109d-8c43-001e4fea2d8b"/>
+        <COMPID name="AbstractReusableInformationControlCreator" mc="Standard.Class" uid="0080142a-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="Assert" mc="Standard.Class" uid="003c659a-0caa-109d-8c43-001e4fea2d8b"/>
+        <COMPID name="BadLocationException" mc="Standard.Class" uid="003c86ba-0caa-109d-8c43-001e4fea2d8b"/>
+        <COMPID name="BadPartitioningException" mc="Standard.Class" uid="003c989e-0caa-109d-8c43-001e4fea2d8b"/>
+        <COMPID name="BadPositionCategoryException" mc="Standard.Class" uid="003caab4-0caa-109d-8c43-001e4fea2d8b"/>
+        <COMPID name="BlockTextSelection" mc="Standard.Class" uid="00801c0e-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="ConfigurableLineTracker" mc="Standard.Class" uid="003cbd6a-0caa-109d-8c43-001e4fea2d8b"/>
+        <COMPID name="CopyOnWriteTextStore" mc="Standard.Class" uid="003cd03e-0caa-109d-8c43-001e4fea2d8b"/>
+        <COMPID name="CursorLinePainter" mc="Standard.Class" uid="0080244c-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="DefaultAutoIndentStrategy" mc="Standard.Class" uid="00802c9e-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="DefaultIndentLineAutoEditStrategy" mc="Standard.Class" uid="00803dce-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="DefaultInformationControl" mc="Standard.Class" uid="008046d4-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="DefaultLineTracker" mc="Standard.Class" uid="003cf384-0caa-109d-8c43-001e4fea2d8b"/>
+        <COMPID name="DefaultPositionUpdater" mc="Standard.Class" uid="003d06c6-0caa-109d-8c43-001e4fea2d8b"/>
+        <COMPID name="DefaultTextDoubleClickStrategy" mc="Standard.Class" uid="00805e80-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="DefaultTextHover" mc="Standard.Class" uid="00807690-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="DefaultUndoManager" mc="Standard.Class" uid="00808040-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="Document" mc="Standard.Class" uid="003d1a26-0caa-109d-8c43-001e4fea2d8b"/>
+        <COMPID name="DocumentCommand" mc="Standard.Class" uid="0080d144-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="DocumentEvent" mc="Standard.Class" uid="003d2dae-0caa-109d-8c43-001e4fea2d8b"/>
+        <COMPID name="DocumentPartitioningChangedEvent" mc="Standard.Class" uid="003d424e-0caa-109d-8c43-001e4fea2d8b"/>
+        <COMPID name="DocumentRewriteSession" mc="Standard.Class" uid="003d56ee-0caa-109d-8c43-001e4fea2d8b"/>
+        <COMPID name="DocumentRewriteSessionEvent" mc="Standard.Class" uid="003d6ba2-0caa-109d-8c43-001e4fea2d8b"/>
+        <COMPID name="DocumentRewriteSessionType" mc="Standard.Class" uid="003d80ba-0caa-109d-8c43-001e4fea2d8b"/>
+        <COMPID name="FindReplaceDocumentAdapter" mc="Standard.Class" uid="003d9654-0caa-109d-8c43-001e4fea2d8b"/>
+        <COMPID name="FindReplaceDocumentAdapterContentProposalProvider" mc="Standard.Class" uid="0081090c-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="GapTextStore" mc="Standard.Class" uid="003dbc1a-0caa-109d-8c43-001e4fea2d8b"/>
+        <COMPID name="IAutoEditStrategy" mc="Standard.Interface" uid="00811ec4-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="IAutoIndentStrategy" mc="Standard.Interface" uid="00812630-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="IBlockTextSelection" mc="Standard.Interface" uid="00812dce-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="IDelayedInputChangeProvider" mc="Standard.Interface" uid="0081359e-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="IDocument" mc="Standard.Interface" uid="003ded5c-0caa-109d-8c43-001e4fea2d8b"/>
+        <COMPID name="IDocumentAdapter" mc="Standard.Interface" uid="00813ddc-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="IDocumentAdapterExtension" mc="Standard.Interface" uid="00814692-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="IDocumentExtension" mc="Standard.Interface" uid="00489c8e-0caa-109d-8c43-001e4fea2d8b"/>
+        <COMPID name="IDocumentExtension2" mc="Standard.Interface" uid="0048c1a0-0caa-109d-8c43-001e4fea2d8b"/>
+        <COMPID name="IDocumentExtension3" mc="Standard.Interface" uid="0048d866-0caa-109d-8c43-001e4fea2d8b"/>
+        <COMPID name="IDocumentExtension4" mc="Standard.Interface" uid="0048ef68-0caa-109d-8c43-001e4fea2d8b"/>
+        <COMPID name="IDocumentInformationMapping" mc="Standard.Interface" uid="0049071e-0caa-109d-8c43-001e4fea2d8b"/>
+        <COMPID name="IDocumentInformationMappingExtension" mc="Standard.Interface" uid="00491f24-0caa-109d-8c43-001e4fea2d8b"/>
+        <COMPID name="IDocumentInformationMappingExtension2" mc="Standard.Interface" uid="004937a2-0caa-109d-8c43-001e4fea2d8b"/>
+        <COMPID name="IDocumentListener" mc="Standard.Interface" uid="0049503e-0caa-109d-8c43-001e4fea2d8b"/>
+        <COMPID name="IDocumentPartitioner" mc="Standard.Interface" uid="00496902-0caa-109d-8c43-001e4fea2d8b"/>
+        <COMPID name="IDocumentPartitionerExtension" mc="Standard.Interface" uid="004981e4-0caa-109d-8c43-001e4fea2d8b"/>
+        <COMPID name="IDocumentPartitionerExtension2" mc="Standard.Interface" uid="00499b52-0caa-109d-8c43-001e4fea2d8b"/>
+        <COMPID name="IDocumentPartitionerExtension3" mc="Standard.Interface" uid="0049b506-0caa-109d-8c43-001e4fea2d8b"/>
+        <COMPID name="IDocumentPartitioningListener" mc="Standard.Interface" uid="0049cf14-0caa-109d-8c43-001e4fea2d8b"/>
+        <COMPID name="IDocumentPartitioningListenerExtension" mc="Standard.Interface" uid="0049e940-0caa-109d-8c43-001e4fea2d8b"/>
+        <COMPID name="IDocumentPartitioningListenerExtension2" mc="Standard.Interface" uid="004a0362-0caa-109d-8c43-001e4fea2d8b"/>
+        <COMPID name="IDocumentRewriteSessionListener" mc="Standard.Interface" uid="004a1e6a-0caa-109d-8c43-001e4fea2d8b"/>
+        <COMPID name="IEditingSupport" mc="Standard.Interface" uid="00814f0c-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="IEditingSupportRegistry" mc="Standard.Interface" uid="008157c2-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="IEventConsumer" mc="Standard.Interface" uid="008160aa-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="IFindReplaceTarget" mc="Standard.Interface" uid="008169c4-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="IFindReplaceTargetExtension" mc="Standard.Interface" uid="0081731a-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="IFindReplaceTargetExtension3" mc="Standard.Interface" uid="00817ca2-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="IInformationControl" mc="Standard.Interface" uid="00818670-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="IInformationControlCreator" mc="Standard.Interface" uid="00819066-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="IInformationControlCreatorExtension" mc="Standard.Interface" uid="00819a98-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="IInformationControlExtension" mc="Standard.Interface" uid="0081a4fc-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="IInformationControlExtension2" mc="Standard.Interface" uid="0081af92-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="IInformationControlExtension3" mc="Standard.Interface" uid="0081ba82-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="IInformationControlExtension4" mc="Standard.Interface" uid="0081c59a-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="IInformationControlExtension5" mc="Standard.Interface" uid="0081d0e4-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="IInputChangedListener" mc="Standard.Interface" uid="0081dc6a-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="ILineTracker" mc="Standard.Interface" uid="004a3954-0caa-109d-8c43-001e4fea2d8b"/>
+        <COMPID name="ILineTrackerExtension" mc="Standard.Interface" uid="004a54a2-0caa-109d-8c43-001e4fea2d8b"/>
+        <COMPID name="IMarkRegionTarget" mc="Standard.Interface" uid="0081e962-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="IMarkSelection" mc="Standard.Interface" uid="0081f556-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="IPaintPositionManager" mc="Standard.Interface" uid="0082015e-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="IPainter" mc="Standard.Interface" uid="00820dca-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="IPositionUpdater" mc="Standard.Interface" uid="004a7036-0caa-109d-8c43-001e4fea2d8b"/>
+        <COMPID name="IRegion" mc="Standard.Interface" uid="004a8bac-0caa-109d-8c43-001e4fea2d8b"/>
+        <COMPID name="IRepairableDocument" mc="Standard.Interface" uid="004aa754-0caa-109d-8c43-001e4fea2d8b"/>
+        <COMPID name="IRepairableDocumentExtension" mc="Standard.Interface" uid="004ac360-0caa-109d-8c43-001e4fea2d8b"/>
+        <COMPID name="IRewriteTarget" mc="Standard.Interface" uid="00821a4a-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="ISelectionValidator" mc="Standard.Interface" uid="00822710-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="ISlaveDocumentManager" mc="Standard.Interface" uid="004adfe4-0caa-109d-8c43-001e4fea2d8b"/>
+        <COMPID name="ISlaveDocumentManagerExtension" mc="Standard.Interface" uid="004afd3a-0caa-109d-8c43-001e4fea2d8b"/>
+        <COMPID name="ISynchronizable" mc="Standard.Interface" uid="004b19e6-0caa-109d-8c43-001e4fea2d8b"/>
+        <COMPID name="ITextDoubleClickStrategy" mc="Standard.Interface" uid="0082341c-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="ITextHover" mc="Standard.Interface" uid="0082415a-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="ITextHoverExtension" mc="Standard.Interface" uid="00824eca-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="ITextHoverExtension2" mc="Standard.Interface" uid="00825c6c-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="ITextInputListener" mc="Standard.Interface" uid="00826a40-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="ITextListener" mc="Standard.Interface" uid="0082786e-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="ITextOperationTarget" mc="Standard.Interface" uid="0082873c-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="ITextOperationTargetExtension" mc="Standard.Interface" uid="008295d8-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="ITextPresentationListener" mc="Standard.Interface" uid="0082a49c-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="ITextSelection" mc="Standard.Interface" uid="0082b43c-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="ITextStore" mc="Standard.Interface" uid="004b36ec-0caa-109d-8c43-001e4fea2d8b"/>
+        <COMPID name="ITextViewer" mc="Standard.Interface" uid="0082c38c-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="ITextViewerExtension" mc="Standard.Interface" uid="0082d304-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="ITextViewerExtension2" mc="Standard.Interface" uid="0082e2ae-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="ITextViewerExtension3" mc="Standard.Interface" uid="0082f28a-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="ITextViewerExtension4" mc="Standard.Interface" uid="00830298-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="ITextViewerExtension5" mc="Standard.Interface" uid="008312e2-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="ITextViewerExtension6" mc="Standard.Interface" uid="008323ae-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="ITextViewerExtension7" mc="Standard.Interface" uid="0083345c-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="ITextViewerExtension8" mc="Standard.Interface" uid="0083451e-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="ITypedRegion" mc="Standard.Interface" uid="004b544c-0caa-109d-8c43-001e4fea2d8b"/>
+        <COMPID name="IUndoManager" mc="Standard.Interface" uid="00836670-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="IUndoManagerExtension" mc="Standard.Interface" uid="008377dc-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="IViewportListener" mc="Standard.Interface" uid="00838984-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="IWidgetTokenKeeper" mc="Standard.Interface" uid="00839b54-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="IWidgetTokenKeeperExtension" mc="Standard.Interface" uid="0083ad42-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="IWidgetTokenOwner" mc="Standard.Interface" uid="0083bfb2-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="IWidgetTokenOwnerExtension" mc="Standard.Interface" uid="0083d222-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="JFaceTextUtil" mc="Standard.Class" uid="0083e780-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="MarginPainter" mc="Standard.Class" uid="0083f27a-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="MarkSelection" mc="Standard.Class" uid="0083fda6-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="PaintManager" mc="Standard.Class" uid="008408f0-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="Position" mc="Standard.Class" uid="004b9a1a-0caa-109d-8c43-001e4fea2d8b"/>
+        <COMPID name="PropagatingFontFieldEditor" mc="Standard.Class" uid="0084329e-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="Region" mc="Standard.Class" uid="004bb072-0caa-109d-8c43-001e4fea2d8b"/>
+        <COMPID name="RewriteSessionEditProcessor" mc="Standard.Class" uid="004bc760-0caa-109d-8c43-001e4fea2d8b"/>
+        <COMPID name="SequentialRewriteTextStore" mc="Standard.Class" uid="004bf47e-0caa-109d-8c43-001e4fea2d8b"/>
+        <COMPID name="SlaveDocumentEvent" mc="Standard.Class" uid="004c1bd4-0caa-109d-8c43-001e4fea2d8b"/>
+        <COMPID name="TabsToSpacesConverter" mc="Standard.Class" uid="00844a72-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="TextAttribute" mc="Standard.Class" uid="0084576a-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="TextEvent" mc="Standard.Class" uid="008463e0-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="TextPresentation" mc="Standard.Class" uid="00847092-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="TextSelection" mc="Standard.Class" uid="0084844c-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="TextUtilities" mc="Standard.Class" uid="004c4c08-0caa-109d-8c43-001e4fea2d8b"/>
+        <COMPID name="TextViewer" mc="Standard.Class" uid="00849158-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="TextViewerUndoManager" mc="Standard.Class" uid="0085431e-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="TypedPosition" mc="Standard.Class" uid="004c8c9a-0caa-109d-8c43-001e4fea2d8b"/>
+        <COMPID name="TypedRegion" mc="Standard.Class" uid="004ca57c-0caa-109d-8c43-001e4fea2d8b"/>
+        <COMPID name="WhitespaceCharacterPainter" mc="Standard.Class" uid="00856646-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="contentassist" mc="Standard.Package" uid="0086aa92-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="formatter" mc="Standard.Package" uid="0089aba2-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="hyperlink" mc="Standard.Package" uid="008b7cfc-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="information" mc="Standard.Package" uid="008da8a6-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="link" mc="Standard.Package" uid="008f4c92-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="presentation" mc="Standard.Package" uid="009186ec-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="projection" mc="Standard.Package" uid="0050e1c8-0caa-109d-8c43-001e4fea2d8b"/>
+        <COMPID name="quickassist" mc="Standard.Package" uid="0093397e-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="reconciler" mc="Standard.Package" uid="009518c0-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="revisions" mc="Standard.Package" uid="00972886-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="rules" mc="Standard.Package" uid="00007db4-0834-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="source" mc="Standard.Package" uid="00031542-0834-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="templates" mc="Standard.Package" uid="000ae6d2-0834-109d-b5cd-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

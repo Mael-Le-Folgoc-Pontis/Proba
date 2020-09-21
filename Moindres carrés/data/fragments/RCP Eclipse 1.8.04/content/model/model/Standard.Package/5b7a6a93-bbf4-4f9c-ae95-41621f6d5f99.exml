@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="editors" version="4">
+  <OBJECT>
+    <ID name="editors" mc="Standard.Package" uid="5b7a6a93-bbf4-4f9c-ae95-41621f6d5f99"/>
+    <PID name="binding" mc="Standard.Package" uid="c0cb221b-8eca-4f61-9bea-592971b30a17"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[editors]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="BooleanEditor" mc="Standard.Class" uid="d66550d2-c3ca-462c-ac16-63457cb83de6"/>
+        <COMPID name="SelectionButtonEditor" mc="Standard.Class" uid="ea752d70-8ad2-4586-8355-3270374c7521"/>
+        <COMPID name="SelectionButtonGroupEditor" mc="Standard.Class" uid="835abf35-5370-4974-99c3-7a7238856ea6"/>
+        <COMPID name="SpinnerEditor" mc="Standard.Class" uid="ecafe4d2-1726-4a41-bed4-c2d0b2309a1c"/>
+        <COMPID name="StringComboEditor" mc="Standard.Class" uid="23f11505-16df-44c0-8d59-000e8e5ae945"/>
+        <COMPID name="StringEditor" mc="Standard.Class" uid="695944de-781b-4908-8a35-33a55394a9c1"/>
+        <COMPID name="StringListEditor" mc="Standard.Class" uid="6ff00de7-aca6-4940-a402-4b9118abe652"/>
+        <COMPID name="controls" mc="Standard.Package" uid="795a9c44-c7fe-46ff-aeab-7c3b47220e36"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

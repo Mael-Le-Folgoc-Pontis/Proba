@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="properties" version="4">
+  <OBJECT>
+    <ID name="properties" mc="Standard.Package" uid="f08b797d-68e8-4165-81c9-40857bc0b553"/>
+    <PID name="views" mc="Standard.Package" uid="3bfe150e-e65a-4293-8589-346b12566831"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[properties]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="DTDPropertySourceAdapter" mc="Standard.Class" uid="666fbe8d-64c7-4a17-9f01-46b76ca7a527"/>
+        <COMPID name="DTDPropertySourceAdapterFactory" mc="Standard.Class" uid="be23d84d-4673-43f3-8392-b9e25db60712"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,66 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ui" version="4">
+  <OBJECT>
+    <ID name="ui" mc="Standard.Package" uid="00601454-0bc1-112e-9071-001e4fea2d8b"/>
+    <PID name="debug" mc="Standard.Package" uid="000199b0-0bc1-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[ui]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractBreakpointOrganizerDelegate" mc="Standard.Class" uid="00601b20-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AbstractDebugView" mc="Standard.Class" uid="00602264-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AbstractLaunchConfigurationTab" mc="Standard.Class" uid="00603740-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AbstractLaunchConfigurationTabGroup" mc="Standard.Class" uid="00603e84-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BreakpointTypeCategory" mc="Standard.Class" uid="00604636-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CommonTab" mc="Standard.Class" uid="00604e10-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DebugElementWorkbenchAdapter" mc="Standard.Class" uid="006063f0-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DebugPopup" mc="Standard.Class" uid="00606c06-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DebugUITools" mc="Standard.Class" uid="0060746c-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DeferredDebugElementWorkbenchAdapter" mc="Standard.Class" uid="00607d04-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="EnvironmentTab" mc="Standard.Class" uid="006085b0-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IBreakpointOrganizerDelegate" mc="Standard.Interface" uid="0060a130-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IBreakpointOrganizerDelegateExtension" mc="Standard.Interface" uid="0060a860-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IBreakpointTypeCategory" mc="Standard.Interface" uid="0060afcc-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IDebugEditorPresentation" mc="Standard.Interface" uid="0060b72e-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IDebugModelPresentation" mc="Standard.Interface" uid="0060bf1c-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IDebugModelPresentationExtension" mc="Standard.Interface" uid="0060c728-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IDebugUIConstants" mc="Standard.Interface" uid="0060cf48-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IDebugView" mc="Standard.Interface" uid="0060d7cc-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IDetailPane" mc="Standard.Interface" uid="0060e078-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IDetailPane2" mc="Standard.Interface" uid="0060e92e-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IDetailPane3" mc="Standard.Interface" uid="0060f270-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IDetailPaneFactory" mc="Standard.Interface" uid="0060fbbc-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IInstructionPointerPresentation" mc="Standard.Interface" uid="00610558-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ILaunchConfigurationDialog" mc="Standard.Interface" uid="00610eea-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ILaunchConfigurationTab" mc="Standard.Interface" uid="006118f4-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ILaunchConfigurationTab2" mc="Standard.Interface" uid="00612326-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ILaunchConfigurationTabGroup" mc="Standard.Interface" uid="00612d62-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ILaunchGroup" mc="Standard.Interface" uid="00613816-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ILaunchShortcut" mc="Standard.Interface" uid="00614310-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ILaunchShortcut2" mc="Standard.Interface" uid="00614dec-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ISourcePresentation" mc="Standard.Interface" uid="00615990-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IValueDetailListener" mc="Standard.Interface" uid="0061652a-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="InspectPopupDialog" mc="Standard.Class" uid="00616e6c-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RefreshTab" mc="Standard.Class" uid="0061959a-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="StringVariableSelectionDialog" mc="Standard.Class" uid="00619ee6-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WorkingDirectoryBlock" mc="Standard.Class" uid="0061b840-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="actions" mc="Standard.Package" uid="006263f8-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="console" mc="Standard.Package" uid="00649b78-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="contexts" mc="Standard.Package" uid="0065807e-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="memory" mc="Standard.Package" uid="00667d3a-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="sourcelookup" mc="Standard.Package" uid="0067efee-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="stringsubstitution" mc="Standard.Package" uid="9d084097-4c68-4587-8dd6-e543c8b9b93e"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

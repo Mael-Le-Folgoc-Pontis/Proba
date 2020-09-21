@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="selectionactions" version="4">
+  <OBJECT>
+    <ID name="selectionactions" mc="Standard.Package" uid="0094d202-0bca-112e-9071-001e4fea2d8b"/>
+    <PID name="javaeditor" mc="Standard.Package" uid="0086ee4e-0bca-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[selectionactions]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="GoToNextPreviousMemberAction" mc="Standard.Class" uid="0094d82e-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SelectionHistory" mc="Standard.Class" uid="0094e51c-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="StructureSelectEnclosingAction" mc="Standard.Class" uid="0094ebc0-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="StructureSelectHistoryAction" mc="Standard.Class" uid="0094f2a0-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="StructureSelectNextAction" mc="Standard.Class" uid="0094f980-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="StructureSelectPreviousAction" mc="Standard.Class" uid="0095105a-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="StructureSelectionAction" mc="Standard.Class" uid="00952540-0bca-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

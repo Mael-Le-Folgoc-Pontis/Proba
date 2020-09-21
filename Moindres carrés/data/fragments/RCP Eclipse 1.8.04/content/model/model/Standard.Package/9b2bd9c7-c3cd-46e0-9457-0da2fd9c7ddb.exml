@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="async" version="4">
+  <OBJECT>
+    <ID name="async" mc="Standard.Package" uid="9b2bd9c7-c3cd-46e0-9457-0da2fd9c7ddb"/>
+    <PID name="consumer" mc="Standard.Package" uid="224edeca-9a38-4bad-8fb0-2a229e97b70c"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[async]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AsyncConsumerActionExecutor" mc="Standard.Interface" uid="3ea73bf9-a25f-4071-9685-ba62e7e0973e"/>
+        <COMPID name="DefaultAsyncConsumerActionExecutor" mc="Standard.Class" uid="ee4e1520-673b-46cb-aaae-898f9ef8e1a4"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

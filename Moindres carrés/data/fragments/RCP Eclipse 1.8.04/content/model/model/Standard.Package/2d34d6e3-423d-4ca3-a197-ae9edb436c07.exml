@@ -1,0 +1,65 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="beanutils" version="4">
+  <OBJECT>
+    <ID name="beanutils" mc="Standard.Package" uid="2d34d6e3-423d-4ca3-a197-ae9edb436c07"/>
+    <PID name="commons" mc="Standard.Package" uid="0009d012-0bbd-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[beanutils]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="BasicDynaBean" mc="Standard.Class" uid="0d838be6-347e-4f7b-b36a-6a2a42b51629"/>
+        <COMPID name="BasicDynaClass" mc="Standard.Class" uid="5fe25ed3-06fb-48cc-9ce4-5560097bedd8"/>
+        <COMPID name="BeanAccessLanguageException" mc="Standard.Class" uid="6d4decde-15e2-4d9e-85f8-b4623aeecb17"/>
+        <COMPID name="BeanComparator" mc="Standard.Class" uid="3078257b-ca4b-4803-b5a5-fbada3dd8282"/>
+        <COMPID name="BeanMap" mc="Standard.Class" uid="fb5efd00-582f-468f-8648-b98c61eeb884"/>
+        <COMPID name="BeanPredicate" mc="Standard.Class" uid="4378c665-1bd0-4e57-a0aa-2ff0ddfa0a3a"/>
+        <COMPID name="BeanPropertyValueChangeClosure" mc="Standard.Class" uid="942dce0f-3c90-4bd5-922d-4effd07d5b31"/>
+        <COMPID name="BeanPropertyValueEqualsPredicate" mc="Standard.Class" uid="8f8bb051-83ca-421f-addb-97349670cb64"/>
+        <COMPID name="BeanToPropertyValueTransformer" mc="Standard.Class" uid="7e579289-55e4-41ae-a995-2dfded4723ff"/>
+        <COMPID name="BeanUtils" mc="Standard.Class" uid="61bb972c-8045-4642-a706-92cecec5fc17"/>
+        <COMPID name="BeanUtilsBean" mc="Standard.Class" uid="add1d59f-fcf1-4ed2-962c-0397506e8691"/>
+        <COMPID name="BeanUtilsBean2" mc="Standard.Class" uid="93367e90-a28f-4671-9689-afe8aa0a206f"/>
+        <COMPID name="ConstructorUtils" mc="Standard.Class" uid="0641d42c-0b9e-4402-881f-97cad2006b52"/>
+        <COMPID name="ContextClassLoaderLocal" mc="Standard.Class" uid="977f7f6f-97cd-4691-bbd0-57ba0d86b8d1"/>
+        <COMPID name="ConversionException" mc="Standard.Class" uid="43c2d777-eb8d-46e4-a422-e8eaaebe3833"/>
+        <COMPID name="ConvertUtils" mc="Standard.Class" uid="439f6ff0-6fab-4971-a512-3496868f2d6c"/>
+        <COMPID name="ConvertUtilsBean" mc="Standard.Class" uid="aa040de8-868f-4ad4-b95f-effb21b0440c"/>
+        <COMPID name="ConvertUtilsBean2" mc="Standard.Class" uid="10f39c82-7250-4b5d-88b2-b76ea5f7a6d0"/>
+        <COMPID name="Converter" mc="Standard.Interface" uid="b4578268-8e63-4608-8877-ee520d5e94a6"/>
+        <COMPID name="ConvertingWrapDynaBean" mc="Standard.Class" uid="e6be6721-2091-4d0b-bc92-bae845de4e62"/>
+        <COMPID name="DynaBean" mc="Standard.Interface" uid="25159c91-e17a-4716-9c46-407713d7b351"/>
+        <COMPID name="DynaBeanMapDecorator" mc="Standard.Class" uid="403884aa-5465-4ee0-8ba9-77cc79149db0"/>
+        <COMPID name="DynaClass" mc="Standard.Interface" uid="da1827b3-5492-440c-aa6d-ac9f4a26f4b9"/>
+        <COMPID name="DynaProperty" mc="Standard.Class" uid="4b7adc3f-b483-49cc-85b1-4d486ba9ad42"/>
+        <COMPID name="LazyDynaBean" mc="Standard.Class" uid="7090ad29-dcf2-4797-b84b-1bad0d05179b"/>
+        <COMPID name="LazyDynaClass" mc="Standard.Class" uid="99d46e9d-b210-4e79-a7cb-b911f5dd86c8"/>
+        <COMPID name="LazyDynaList" mc="Standard.Class" uid="0c4aa393-3871-4e79-a6af-900eeafba30a"/>
+        <COMPID name="LazyDynaMap" mc="Standard.Class" uid="7de2ba4e-6de2-4cd8-96a2-9128556cc7aa"/>
+        <COMPID name="MappedPropertyDescriptor" mc="Standard.Class" uid="6eeae0c7-0eae-44cc-86d5-bcd8427caf48"/>
+        <COMPID name="MethodUtils" mc="Standard.Class" uid="6083d13a-f1be-4379-ada3-e12959f2b268"/>
+        <COMPID name="MutableDynaClass" mc="Standard.Interface" uid="d65d3413-5530-450d-b49a-b7d5210d74ec"/>
+        <COMPID name="NestedNullException" mc="Standard.Class" uid="033f58d7-55d4-482d-85d0-7253ad86dc41"/>
+        <COMPID name="PropertyUtils" mc="Standard.Class" uid="5888eb8b-6535-4909-896a-608c8e5d646d"/>
+        <COMPID name="PropertyUtilsBean" mc="Standard.Class" uid="9aa18967-51a9-4556-8ccb-9f22040fefb3"/>
+        <COMPID name="ResultSetDynaClass" mc="Standard.Class" uid="64fa615b-f598-4330-94d5-074617afb13f"/>
+        <COMPID name="ResultSetIterator" mc="Standard.Class" uid="7373eb75-7846-4575-9314-413b59f28790"/>
+        <COMPID name="RowSetDynaClass" mc="Standard.Class" uid="4b44781b-9603-4530-8557-0d19b2e282a3"/>
+        <COMPID name="WrapDynaBean" mc="Standard.Class" uid="594a8d31-2543-44f8-87d8-1bdc1a6e90b5"/>
+        <COMPID name="WrapDynaClass" mc="Standard.Class" uid="ae0a308a-b714-422a-8bfc-c632abaae987"/>
+        <COMPID name="converters" mc="Standard.Package" uid="dc67a3e6-b806-4b70-9c77-7d9cb875fceb"/>
+        <COMPID name="expression" mc="Standard.Package" uid="2e404b60-f90a-478d-a513-188bd44abee1"/>
+        <COMPID name="locale" mc="Standard.Package" uid="497aff2a-c531-4d61-9914-fa62218fdb22"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

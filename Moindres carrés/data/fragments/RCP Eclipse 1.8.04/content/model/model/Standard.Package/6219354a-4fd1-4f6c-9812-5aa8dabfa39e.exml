@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="proxy" version="4">
+  <OBJECT>
+    <ID name="proxy" mc="Standard.Package" uid="6219354a-4fd1-4f6c-9812-5aa8dabfa39e"/>
+    <PID name="cglib" mc="Standard.Package" uid="2bf8a8fe-acc9-4c36-86d5-2828785e1d53"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[proxy]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Callback" mc="Standard.Interface" uid="e8ab8c2a-52dd-408d-b5e4-f343a72d71bd"/>
+        <COMPID name="CallbackFilter" mc="Standard.Interface" uid="e152fc41-da5c-4f47-8433-efff9bf86147"/>
+        <COMPID name="CallbackHelper" mc="Standard.Class" uid="5838f994-23e9-4ae6-ae08-83f60b63bd30"/>
+        <COMPID name="Dispatcher" mc="Standard.Interface" uid="742da71d-c54b-42ae-90bd-1c06e890cb81"/>
+        <COMPID name="Enhancer" mc="Standard.Class" uid="482ff3bd-68cc-450e-b2ca-24d00f7b0489"/>
+        <COMPID name="Factory" mc="Standard.Interface" uid="81ebad29-677e-4648-8328-ea1de6eb60ff"/>
+        <COMPID name="FixedValue" mc="Standard.Interface" uid="f919b9df-1bc0-4b11-b308-a566f2eff164"/>
+        <COMPID name="InterfaceMaker" mc="Standard.Class" uid="616b187e-7c91-46e3-8376-49d4109481ac"/>
+        <COMPID name="InvocationHandler" mc="Standard.Interface" uid="e2b19fd4-f5bf-489a-85b9-f9550b47986b"/>
+        <COMPID name="LazyLoader" mc="Standard.Interface" uid="8f5050c9-ba87-45a2-968d-c614da2e8368"/>
+        <COMPID name="MethodInterceptor" mc="Standard.Interface" uid="ca0bd09c-716d-499b-9fec-81de18cef704"/>
+        <COMPID name="MethodProxy" mc="Standard.Class" uid="91147cd7-4d07-4ff3-b9a1-358a39badf0c"/>
+        <COMPID name="Mixin" mc="Standard.Class" uid="fa14c365-5c57-4a1b-9513-626285c99af9"/>
+        <COMPID name="NoOp" mc="Standard.Interface" uid="300ce0fd-a1d1-48e5-a2d3-f9008e40bda0"/>
+        <COMPID name="Proxy" mc="Standard.Class" uid="b0db73f3-363c-4a90-8e31-9ae4bc888b02"/>
+        <COMPID name="ProxyRefDispatcher" mc="Standard.Interface" uid="6ababb3c-e1a9-4a6e-a1c9-058170f9bc20"/>
+        <COMPID name="UndeclaredThrowableException" mc="Standard.Class" uid="b0bfcb5d-fd4d-430f-82ab-2083f4e13040"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

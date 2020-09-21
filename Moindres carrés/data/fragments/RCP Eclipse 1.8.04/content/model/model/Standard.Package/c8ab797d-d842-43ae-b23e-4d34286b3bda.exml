@@ -1,0 +1,52 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="interpolation" version="4">
+  <OBJECT>
+    <ID name="interpolation" mc="Standard.Package" uid="c8ab797d-d842-43ae-b23e-4d34286b3bda"/>
+    <PID name="plexus" mc="Standard.Package" uid="c67b106c-3a65-4ab5-8e13-78f5c00efd85"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[interpolation]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractDelegatingValueSource" mc="Standard.Class" uid="936f60a4-dd4a-4620-8fc8-33955c42035f"/>
+        <COMPID name="AbstractFunctionValueSourceWrapper" mc="Standard.Class" uid="7e4ab23b-7d64-45a7-bb0a-d6d337ab7ae6"/>
+        <COMPID name="AbstractValueSource" mc="Standard.Class" uid="79fc820b-341c-4ba2-a3fe-b010401af55e"/>
+        <COMPID name="EnvarBasedValueSource" mc="Standard.Class" uid="06ca22f0-3198-413e-967f-324039315f3b"/>
+        <COMPID name="FeedbackEnabledValueSource" mc="Standard.Interface" uid="8a1170d7-a3ae-4ef3-b996-c84a52119232"/>
+        <COMPID name="InterpolationCycleException" mc="Standard.Class" uid="4dc446d1-d909-43ae-aa2a-e998c1854876"/>
+        <COMPID name="InterpolationException" mc="Standard.Class" uid="44ecb4b2-8b83-4d28-8097-e27b84b2ce3b"/>
+        <COMPID name="InterpolationPostProcessor" mc="Standard.Interface" uid="bb78d027-6eef-43cd-a858-7e38258fa3de"/>
+        <COMPID name="Interpolator" mc="Standard.Interface" uid="044ac4fb-a1d0-49bc-b747-b827dc32ab01"/>
+        <COMPID name="InterpolatorFilterReader" mc="Standard.Class" uid="43bbd59c-60ff-435b-9bcb-e84730f683d7"/>
+        <COMPID name="MapBasedValueSource" mc="Standard.Class" uid="4e1f6c1d-fdcf-46e6-a5e7-af924c20948e"/>
+        <COMPID name="ObjectBasedValueSource" mc="Standard.Class" uid="fdcb774d-ecf9-4110-a507-1af30eb68a2e"/>
+        <COMPID name="PrefixAwareRecursionInterceptor" mc="Standard.Class" uid="5ee453d4-a260-410f-bf85-a6fc32c8470b"/>
+        <COMPID name="PrefixedObjectValueSource" mc="Standard.Class" uid="b5e7b106-d1d7-45c4-903e-2fbb3541b893"/>
+        <COMPID name="PrefixedPropertiesValueSource" mc="Standard.Class" uid="d3a34b84-3279-4d7d-9b4d-82713c1ffed6"/>
+        <COMPID name="PrefixedValueSourceWrapper" mc="Standard.Class" uid="fe233c59-7a1e-4f04-b2f2-0c87bba56147"/>
+        <COMPID name="PropertiesBasedValueSource" mc="Standard.Class" uid="c46fba06-4a9c-4e35-a2c6-2509da06f5b6"/>
+        <COMPID name="QueryEnabledValueSource" mc="Standard.Interface" uid="3a8bc91e-e397-4918-b4c6-e1613c876b77"/>
+        <COMPID name="RecursionInterceptor" mc="Standard.Interface" uid="923af09c-879d-4786-b265-8872d4cc2278"/>
+        <COMPID name="RegexBasedInterpolator" mc="Standard.Class" uid="c63b77cf-4edb-4e57-9968-d22a7ca134b2"/>
+        <COMPID name="SimpleRecursionInterceptor" mc="Standard.Class" uid="6fd5a749-7d70-4798-b72a-df376cf31341"/>
+        <COMPID name="SingleResponseValueSource" mc="Standard.Class" uid="673c0031-2358-49e4-b33b-62ab68928bd0"/>
+        <COMPID name="StringSearchInterpolator" mc="Standard.Class" uid="3b33cbf2-ffe4-4da8-8843-cd8de68f9671"/>
+        <COMPID name="ValueSource" mc="Standard.Interface" uid="73431060-5484-4c4c-8f2b-5bb7bb7ff2ac"/>
+        <COMPID name="multi" mc="Standard.Package" uid="ea198785-8dad-44d8-90a8-ff2c6b77449b"/>
+        <COMPID name="object" mc="Standard.Package" uid="f2ca03da-8e0e-4f2f-9946-ba62be23c349"/>
+        <COMPID name="os" mc="Standard.Package" uid="e368fcfc-be01-4951-bace-b5f47ae1c3e3"/>
+        <COMPID name="reflection" mc="Standard.Package" uid="b3d71251-d8fd-4657-86d1-7a6ac3bb6619"/>
+        <COMPID name="util" mc="Standard.Package" uid="c121324e-99f2-472c-9f59-3fb8b1fea881"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

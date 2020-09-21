@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="eclipse" version="4">
+  <OBJECT>
+    <ID name="eclipse" mc="Standard.Package" uid="70dc8de6-55ef-4665-9882-caa3ed3a9b1a"/>
+    <PID name="environment" mc="Standard.Package" uid="bbbbc2f3-948d-49d7-aa3f-aec41f3e1411"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[eclipse]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ConsoleEclipseEnvironment" mc="Standard.Class" uid="8fb1e461-5921-4cd5-abf8-d8e5d1fe3eba"/>
+        <COMPID name="EclipseLog" mc="Standard.Class" uid="6f6fabf8-878b-4471-bb69-fb31aa4cc164"/>
+        <COMPID name="EclipseScheme" mc="Standard.Class" uid="8f20bcc4-e402-4fe2-a6b5-57b5e5d8ab08"/>
+        <COMPID name="EclipseURI" mc="Standard.Class" uid="619bc797-333c-4ae9-b47a-ed952d7103b1"/>
+        <COMPID name="FileResourceOutputStream" mc="Standard.Class" uid="4e1305d5-3356-4bf6-a45e-6396a6471308"/>
+        <COMPID name="FileResourceUtils" mc="Standard.Class" uid="0fd6101e-ffe3-4469-98cd-9f4497f96c9c"/>
+        <COMPID name="Messages" mc="Standard.Class" uid="467a9f5e-271d-4c86-ba65-415578cb2c64"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

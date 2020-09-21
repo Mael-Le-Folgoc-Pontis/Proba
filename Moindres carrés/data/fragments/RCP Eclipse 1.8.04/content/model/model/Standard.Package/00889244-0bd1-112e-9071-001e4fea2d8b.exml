@@ -1,0 +1,66 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="text" version="4">
+  <OBJECT>
+    <ID name="text" mc="Standard.Package" uid="00889244-0bd1-112e-9071-001e4fea2d8b"/>
+    <PID name="editor" mc="Standard.Package" uid="00619e46-0bd1-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[text]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractHyperlink" mc="Standard.Class" uid="00889906-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AnnotationHover" mc="Standard.Class" uid="00889f0a-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AnnotationModelFactory" mc="Standard.Class" uid="0088a540-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ArgumentRule" mc="Standard.Class" uid="0088ab9e-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BasePDEScanner" mc="Standard.Class" uid="0088c606-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BundleHyperlink" mc="Standard.Class" uid="0088ccdc-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ChangeAwareSourceViewerConfiguration" mc="Standard.Class" uid="0088d3da-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ColorManager" mc="Standard.Class" uid="0088db14-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ExternalizedStringRule" mc="Standard.Class" uid="0088e276-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IColorManager" mc="Standard.Interface" uid="0088f5d6-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IControlHoverContentProvider" mc="Standard.Interface" uid="0088fcfc-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IPDEColorConstants" mc="Standard.Interface" uid="008903b4-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaHyperlink" mc="Standard.Class" uid="00890bca-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ManifestConfiguration" mc="Standard.Class" uid="0089139a-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ManifestElementHyperlink" mc="Standard.Class" uid="008933de-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ManifestPartitionScanner" mc="Standard.Class" uid="00893c9e-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ManifestTextHover" mc="Standard.Class" uid="00894504-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MultilineDamagerRepairer" mc="Standard.Class" uid="00894db0-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PDEDefaultInformationControl" mc="Standard.Class" uid="00895684-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PDEMarkerAnnotationModel" mc="Standard.Class" uid="00895f8a-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PDEQuickAssistAssistant" mc="Standard.Class" uid="00896e6c-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PDESelectAnnotationRulerAction" mc="Standard.Class" uid="00898384-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PDESourceInfoProvider" mc="Standard.Class" uid="00898d34-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PDETextHover" mc="Standard.Class" uid="0089970c-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PDEWordFinder" mc="Standard.Class" uid="0089a102-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PackageHyperlink" mc="Standard.Class" uid="0089ab34-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PluginXMLConfiguration" mc="Standard.Class" uid="0089b598-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PluginXMLTextHover" mc="Standard.Class" uid="0089c02e-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ReconcilingStrategy" mc="Standard.Class" uid="0089cb14-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ResourceHyperlink" mc="Standard.Class" uid="0089d64a-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SchemaHyperlink" mc="Standard.Class" uid="0089e176-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SourceInformationProvider" mc="Standard.Class" uid="0089ece8-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TranslationHyperlink" mc="Standard.Class" uid="0089f878-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="XMLConfiguration" mc="Standard.Class" uid="008a043a-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="XMLDoubleClickStrategy" mc="Standard.Class" uid="008a1060-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="XMLPartitionScanner" mc="Standard.Class" uid="008a1c86-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="XMLReconcilingStrategy" mc="Standard.Class" uid="008a28de-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="XMLScanner" mc="Standard.Class" uid="008a3b3a-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="XMLStringPartitionScanner" mc="Standard.Class" uid="008a480a-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="XMLTagRule" mc="Standard.Class" uid="008a5502-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="XMLTagScanner" mc="Standard.Class" uid="008a625e-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="XMLUtil" mc="Standard.Class" uid="008a7000-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="XMLWhitespaceDetector" mc="Standard.Class" uid="008a7d98-0bd1-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="viewer" version="4">
+  <OBJECT>
+    <ID name="viewer" mc="Standard.Package" uid="95aee940-13be-4204-bad3-fd4871b79392"/>
+    <PID name="ui" mc="Standard.Package" uid="329fdeb4-ff7a-4255-a32a-1b2aca9d076a"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[viewer]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractTextSourceViewerConfiguration" mc="Standard.Class" uid="bf73505c-3f94-46ea-bade-d43b763c4610"/>
+        <COMPID name="DefaultHyperlinkDetectorDescriptorFilter" mc="Standard.Class" uid="986ab7cc-493d-407e-b4af-2f60e0f8e20a"/>
+        <COMPID name="HtmlTextPresenter" mc="Standard.Class" uid="093947f1-59d8-4de1-ab7c-837f89d9392c"/>
+        <COMPID name="HtmlViewer" mc="Standard.Class" uid="d5c34aa3-5886-42c8-84bd-97b003a8cbb3"/>
+        <COMPID name="HtmlViewerConfiguration" mc="Standard.Class" uid="2c10f9b1-2425-406f-8afd-0fbbd5410f64"/>
+        <COMPID name="MarkupTextPresenter" mc="Standard.Class" uid="f65e1624-218f-4dcd-b15c-9a8201ff13f1"/>
+        <COMPID name="MarkupViewer" mc="Standard.Class" uid="4d1016f0-f14a-48ef-86f5-1fd3392c9480"/>
+        <COMPID name="MarkupViewerConfiguration" mc="Standard.Class" uid="ad6113ea-1e03-440c-bc02-dd1b135ef950"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

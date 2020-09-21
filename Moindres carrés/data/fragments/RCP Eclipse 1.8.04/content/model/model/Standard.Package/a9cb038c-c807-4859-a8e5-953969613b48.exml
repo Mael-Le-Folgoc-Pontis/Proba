@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ui" version="4">
+  <OBJECT>
+    <ID name="ui" mc="Standard.Package" uid="a9cb038c-c807-4859-a8e5-953969613b48"/>
+    <PID name="tasks" mc="Standard.Package" uid="428358c8-952b-4505-852c-561f809060d6"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[ui]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ActiveContextExternalizationParticipant" mc="Standard.Class" uid="f62cb316-24d0-4b0c-b490-bdc6507ecefa"/>
+        <COMPID name="ActivityExternalizationParticipant" mc="Standard.Class" uid="8fc50148-7ad2-4dcb-9468-42ac180e29b9"/>
+        <COMPID name="ChangeActivityHandleOperation" mc="Standard.Class" uid="2c16fbda-238f-4783-b420-6d35a10ff886"/>
+        <COMPID name="ContextMementoMigrator" mc="Standard.Class" uid="c0e43229-8a36-4289-803d-1795560dc366"/>
+        <COMPID name="ContextStatePersistenceHandler" mc="Standard.Class" uid="166471af-4b3b-4d10-94b2-3dcf19b37427"/>
+        <COMPID name="ContextTasksAdapterFactory" mc="Standard.Class" uid="b9156e77-887b-4e38-9c1d-a632e17a9b4e"/>
+        <COMPID name="ContextTasksStartupHandler" mc="Standard.Class" uid="9dfdd35c-a7c8-4379-8f40-b21ce1e79c1d"/>
+        <COMPID name="Messages" mc="Standard.Class" uid="eddc1e1f-0de5-419c-81d5-bb1d2463bde4"/>
+        <COMPID name="TaskActivityMonitor" mc="Standard.Class" uid="d85e0766-6cdd-4836-9a31-bda793de54f1"/>
+        <COMPID name="TaskContextStore" mc="Standard.Class" uid="d7f18f5c-da37-4777-9858-80ce82ba96a7"/>
+        <COMPID name="TaskContextStoreEvent" mc="Standard.Class" uid="00433e87-ed8c-435d-b4ba-0d541f26847f"/>
+        <COMPID name="TaskContextStoreListener" mc="Standard.Class" uid="8c6663e8-12b5-43e8-a825-9fc0d8cf295c"/>
+        <COMPID name="editors" mc="Standard.Package" uid="8a0a9e7f-b2d4-41a2-8ef2-ab46005da31d"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

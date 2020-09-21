@@ -1,0 +1,70 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="command" version="4">
+  <OBJECT>
+    <ID name="command" mc="Standard.Package" uid="dc156e47-b0dc-4587-b269-576e7451cca5"/>
+    <PID name="tree" mc="Standard.Package" uid="8d24a17d-1a78-47c7-a204-9128c9e0a25b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[command]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AddCommand" mc="Standard.Class" uid="bd6cc9be-d1b2-48bb-a5d4-2c4e02cb9187"/>
+        <COMPID name="AddToIndexCommand" mc="Standard.Class" uid="36dc0e40-2144-4d5b-a075-0f75a1bd171e"/>
+        <COMPID name="ChangeCredentialsCommand" mc="Standard.Class" uid="771371e8-9286-4802-9cb5-8e46c49eadde"/>
+        <COMPID name="CheckoutCommand" mc="Standard.Class" uid="c1b5878c-9beb-4a70-9fa5-54878c4de6fd"/>
+        <COMPID name="ClearCredentialsCommand" mc="Standard.Class" uid="56a9ce55-4404-44e4-8e21-26f95a972769"/>
+        <COMPID name="CloneCommand" mc="Standard.Class" uid="627be2ab-d34e-4523-8281-f9f8a9da4864"/>
+        <COMPID name="ConfigureBranchCommand" mc="Standard.Class" uid="3b4b897b-ddae-4725-bac3-0992bc9a104d"/>
+        <COMPID name="ConfigureFetchCommand" mc="Standard.Class" uid="8d6a9c11-82f6-4947-a9aa-aafa34595742"/>
+        <COMPID name="ConfigureGerritRemoteCommand" mc="Standard.Class" uid="fddc7867-ab92-4c22-b2b4-e5722ac819e4"/>
+        <COMPID name="ConfigurePushCommand" mc="Standard.Class" uid="f07ee7fb-e974-4d92-8766-b4e404fda05b"/>
+        <COMPID name="ConfigureRemoteCommand" mc="Standard.Class" uid="38f2f4a3-7364-4c90-aa12-7c60eda21652"/>
+        <COMPID name="CopyPathCommand" mc="Standard.Class" uid="6548fda1-5f4e-47b2-b9f1-56df5e9c3354"/>
+        <COMPID name="CreateBranchCommand" mc="Standard.Class" uid="e85b2071-24e4-4caa-8ad3-15b41db28a83"/>
+        <COMPID name="CreateRepositoryCommand" mc="Standard.Class" uid="6ba79fac-273d-49d3-ac6b-836b7b25279b"/>
+        <COMPID name="DeleteBranchCommand" mc="Standard.Class" uid="ac7560eb-95af-4e40-a949-d4ce10c971bc"/>
+        <COMPID name="DeleteCommand" mc="Standard.Class" uid="44c5f5a0-f373-4418-bfe7-96e25159281c"/>
+        <COMPID name="DeleteFetchCommand" mc="Standard.Class" uid="65af0bab-f744-4ba8-ae3c-b0d7531957f6"/>
+        <COMPID name="DeleteFileCommand" mc="Standard.Class" uid="0200272c-9483-4311-88bd-757f69cacda2"/>
+        <COMPID name="DeletePushCommand" mc="Standard.Class" uid="3be6bb51-8aa1-47f2-8abc-a66905ef69e8"/>
+        <COMPID name="DeleteRepositoryConfirmDialog" mc="Standard.Class" uid="d535f8af-f4f7-4236-93b2-a2ef29e8ceb3"/>
+        <COMPID name="DeleteTagCommand" mc="Standard.Class" uid="efd3d100-a752-419d-8fed-7ad702257117"/>
+        <COMPID name="FetchCommand" mc="Standard.Class" uid="571a44e2-f18f-404a-b279-b008acfcf65f"/>
+        <COMPID name="FetchConfiguredRemoteCommand" mc="Standard.Class" uid="ebfa3b10-76fd-455b-8747-afcfdba947b4"/>
+        <COMPID name="GarbageCollectCommand" mc="Standard.Class" uid="cbedf1c9-1d20-4994-9794-881dda1949bc"/>
+        <COMPID name="ImportProjectsCommand" mc="Standard.Class" uid="86bf6c0f-d207-4804-ac78-d068502232b1"/>
+        <COMPID name="LinkWithSelectionCommand" mc="Standard.Class" uid="222e375a-8885-42cf-af4b-36c9ebb80e33"/>
+        <COMPID name="MergeCommand" mc="Standard.Class" uid="e8de6b91-b0d2-493d-8024-3a31f4a87735"/>
+        <COMPID name="OpenCommand" mc="Standard.Class" uid="621ba2c5-4170-4674-9b3f-df6eb8751b6e"/>
+        <COMPID name="OpenInEditorCommand" mc="Standard.Class" uid="9d72db2b-8ac5-4352-a5a8-6c6a485ac891"/>
+        <COMPID name="PasteCommand" mc="Standard.Class" uid="ef1767df-ce58-416d-a3da-f77dffa718a6"/>
+        <COMPID name="PushCommand" mc="Standard.Class" uid="19bb605d-10e6-468f-9066-d24a2f8942a2"/>
+        <COMPID name="PushConfiguredRemoteCommand" mc="Standard.Class" uid="7a046f82-66b3-430f-9ba2-34bfe65448d7"/>
+        <COMPID name="RefreshCommand" mc="Standard.Class" uid="4a55e86f-51b4-4b71-9532-3d07a77c3da2"/>
+        <COMPID name="RemoveCommand" mc="Standard.Class" uid="d4f1a492-dfee-4767-8804-9c368525c080"/>
+        <COMPID name="RemoveOrDeleteRepositoryCommand" mc="Standard.Class" uid="65d8ed1b-81d8-48af-ae1c-d43d315d8b13"/>
+        <COMPID name="RemoveRemoteCommand" mc="Standard.Class" uid="5ca57bb3-95db-4e4b-8739-1a4cde932a20"/>
+        <COMPID name="RenameBranchCommand" mc="Standard.Class" uid="b5691492-7097-4819-892b-ebeb7ebc13aa"/>
+        <COMPID name="ResetCommand" mc="Standard.Class" uid="4a9febb6-d65a-4977-bda2-6a4a786d928c"/>
+        <COMPID name="StashApplyCommand" mc="Standard.Class" uid="7fc1fc55-b48f-41e9-b396-644762a60e3e"/>
+        <COMPID name="StashDropCommand" mc="Standard.Class" uid="13e5ccd0-52d7-4364-a784-903958d83d4f"/>
+        <COMPID name="SubmoduleAddCommand" mc="Standard.Class" uid="3601b706-b674-4782-8666-502d77d0a595"/>
+        <COMPID name="SubmoduleCommand" mc="Standard.Class" uid="8e802470-190c-4867-bd83-b52ceefaf0fb"/>
+        <COMPID name="SubmoduleSyncCommand" mc="Standard.Class" uid="27cc98eb-8bc5-48f1-8b33-915f8f7de480"/>
+        <COMPID name="SubmoduleUpdateCommand" mc="Standard.Class" uid="6316abcf-a9e8-45c7-977a-b216da959ccf"/>
+        <COMPID name="SynchronizeCommand" mc="Standard.Class" uid="ef553343-30ee-4611-b6fd-a121090f2d60"/>
+        <COMPID name="ToggleBranchCommitCommand" mc="Standard.Class" uid="88ee3343-f7b3-4c50-8841-5212658102ac"/>
+        <COMPID name="ToggleBranchHierarchyCommand" mc="Standard.Class" uid="318b8687-4d19-45ad-9282-54c9f4c24584"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

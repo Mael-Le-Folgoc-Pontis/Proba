@@ -1,0 +1,52 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="coordinates" version="4">
+  <OBJECT>
+    <ID name="coordinates" mc="Standard.Package" uid="947efbd6-4947-41ba-9943-3e707aeb1d68"/>
+    <PID name="recommenders" mc="Standard.Package" uid="a358c5e1-e2a3-468b-a21c-b2bca96b0f24"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[coordinates]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractProjectCoordinateAdvisor" mc="Standard.Class" uid="a9cf2914-cab8-4490-a643-8f73152d84cc"/>
+        <COMPID name="Coordinates" mc="Standard.Class" uid="6ae26a64-77d6-4041-9ad3-f31b1144f3ad"/>
+        <COMPID name="DependencyInfo" mc="Standard.Class" uid="405437f6-cff3-4ab2-bc39-73d05caffb53"/>
+        <OBJECT>
+          <ID name="DependencyType" mc="Standard.Enumeration" uid="24724794-71b7-475d-88a4-6c98b3a5f8a2"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[DependencyType]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Extension">
+              <FOREIGNID name="JavaEnumeration" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0262-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <COMPID name="IDependencyListener" mc="Standard.Interface" uid="64030d4d-07e0-4367-b530-6972ac3231a6"/>
+        <COMPID name="IProjectCoordinateAdvisor" mc="Standard.Interface" uid="203bf3b0-952a-4155-a0cc-494b3c515cfc"/>
+        <COMPID name="IProjectCoordinateAdvisorService" mc="Standard.Interface" uid="712b3331-56a7-4c2c-9a09-a4727b65f06a"/>
+        <COMPID name="ProjectCoordinate" mc="Standard.Class" uid="42f40df3-6909-44d3-bdff-3c22dcc5eadf"/>
+        <COMPID name="ProjectCoordinateAdvisorService" mc="Standard.Class" uid="7f8bb02f-8f90-4e1c-8d29-b6518a16e2c3"/>
+        <COMPID name="jre" mc="Standard.Package" uid="76e23495-a855-4fdb-a4d9-9c8b446b5912"/>
+        <COMPID name="maven" mc="Standard.Package" uid="e40ca178-e410-48d1-9423-d5fb4e2b569b"/>
+        <COMPID name="osgi" mc="Standard.Package" uid="6e251cf2-c049-4af1-852e-beb30a9346cc"/>
+        <COMPID name="rcp" mc="Standard.Package" uid="f322e857-552b-4b4a-b7d7-91a4ec142dd0"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

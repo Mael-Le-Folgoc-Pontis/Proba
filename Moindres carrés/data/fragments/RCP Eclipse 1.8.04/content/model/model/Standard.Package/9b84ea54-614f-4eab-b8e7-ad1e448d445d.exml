@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="eclipse" version="4">
+  <OBJECT>
+    <ID name="eclipse" mc="Standard.Package" uid="9b84ea54-614f-4eab-b8e7-ad1e448d445d"/>
+    <PID name="model" mc="Standard.Package" uid="2577379c-539f-4f9d-84f0-2f9d2dce2e26"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[eclipse]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="EclipseLinkedResource" mc="Standard.Interface" uid="07012d7b-fddc-4b6a-aa4e-d2cfb4d9e677"/>
+        <COMPID name="EclipseProject" mc="Standard.Interface" uid="a39449b4-1135-45d0-890e-d224af0eb162"/>
+        <COMPID name="EclipseProjectDependency" mc="Standard.Interface" uid="8d661fa4-c1a3-400c-9efe-76377764cc27"/>
+        <COMPID name="EclipseSourceDirectory" mc="Standard.Interface" uid="55aa1c2e-27d5-4a52-84bc-fa1b4beeb317"/>
+        <COMPID name="HierarchicalEclipseProject" mc="Standard.Interface" uid="72392859-55dd-42c7-90a9-2d0aca91838a"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="signature" version="4">
+  <OBJECT>
+    <ID name="signature" mc="Standard.Package" uid="9ae7ef88-ce6f-45a5-949f-4bd3baf43167"/>
+    <PID name="asm" mc="Standard.Package" uid="87a165fa-96b0-4c49-9776-7b6f858688ff"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[signature]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="SignatureReader" mc="Standard.Class" uid="6cdfe1ee-6f5f-428a-a76f-2977376f7653"/>
+        <COMPID name="SignatureVisitor" mc="Standard.Interface" uid="97cb4782-205c-4c93-8ca9-5fed5bbb326f"/>
+        <COMPID name="SignatureWriter" mc="Standard.Class" uid="5801daa9-5ee0-4707-9f7d-ac91660a0082"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

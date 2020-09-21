@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="context" version="4">
+  <OBJECT>
+    <ID name="context" mc="Standard.Package" uid="d159ce5b-fc7a-4f19-8407-d868e43ab106"/>
+    <PID name="velocity" mc="Standard.Package" uid="f64d32da-b37a-4bf8-af95-e529226e220c"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[context]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractContext" mc="Standard.Class" uid="acb85c00-2d4e-4ccf-9838-3ce1dbf28f4b"/>
+        <COMPID name="Context" mc="Standard.Interface" uid="69b239d7-76dc-402d-8ff4-1a32e54a811c"/>
+        <COMPID name="InternalContextAdapter" mc="Standard.Interface" uid="185177ea-88d7-46cb-8264-47d61d113dd5"/>
+        <COMPID name="InternalContextAdapterImpl" mc="Standard.Class" uid="33fafe43-1bc4-4214-959d-1565e88ac830"/>
+        <COMPID name="InternalEventContext" mc="Standard.Interface" uid="5f352fc6-e0f5-4259-92a3-e6121244c6a0"/>
+        <COMPID name="InternalWrapperContext" mc="Standard.Interface" uid="d9c24471-9291-4fa6-b310-974c1452ef9b"/>
+        <COMPID name="VMContext" mc="Standard.Class" uid="5295a97a-9171-462c-805a-cf38c70629cf"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

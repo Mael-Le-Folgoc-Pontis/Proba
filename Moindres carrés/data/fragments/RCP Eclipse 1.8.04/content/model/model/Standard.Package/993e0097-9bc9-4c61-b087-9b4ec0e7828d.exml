@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="status" version="4">
+  <OBJECT>
+    <ID name="status" mc="Standard.Package" uid="993e0097-9bc9-4c61-b087-9b4ec0e7828d"/>
+    <PID name="core" mc="Standard.Package" uid="0101cad1-4db3-4b5d-b30b-1e1efbf9bd6c"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[status]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ErrorStatus" mc="Standard.Class" uid="7570b45e-0edd-40f4-8e53-6875f7d93740"/>
+        <COMPID name="InfoStatus" mc="Standard.Class" uid="c19ed193-d979-4029-8cde-ba7884b6710a"/>
+        <COMPID name="OnConsoleStatusListener" mc="Standard.Class" uid="9ce9f7ee-72bf-4034-8bf0-614fcfc39cbe"/>
+        <COMPID name="Status" mc="Standard.Interface" uid="ac50673c-fc73-4121-b50a-bd70aadab122"/>
+        <COMPID name="StatusBase" mc="Standard.Class" uid="85b0a712-5e71-4850-8a6d-3945ed6b098c"/>
+        <COMPID name="StatusChecker" mc="Standard.Class" uid="a0e9e24d-0a59-4845-808d-d7359c875d06"/>
+        <COMPID name="StatusListener" mc="Standard.Interface" uid="ae8afe90-d3de-4930-a89d-dcca688cd22e"/>
+        <COMPID name="StatusListenerAsList" mc="Standard.Class" uid="498c0cc3-a290-4473-b7ef-6ae6eaa440bc"/>
+        <COMPID name="StatusManager" mc="Standard.Interface" uid="ec65c469-a323-4579-b789-52b0695cafb8"/>
+        <COMPID name="StatusUtil" mc="Standard.Class" uid="8d74de83-21b4-4ae5-86fc-c45654b967ba"/>
+        <COMPID name="ViewStatusMessagesServletBase" mc="Standard.Class" uid="62d60181-d2fb-4468-b1dc-4e87a6a8796a"/>
+        <COMPID name="WarnStatus" mc="Standard.Class" uid="e8d4ceaa-1009-4ce7-bf84-8cf6421ca6eb"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

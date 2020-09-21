@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="model" version="4">
+  <OBJECT>
+    <ID name="model" mc="Standard.Package" uid="c129b504-1b6c-4130-b79d-4956a6462419"/>
+    <PID name="browse" mc="Standard.Package" uid="280de929-e791-4bc8-b4d2-f6b0bb6f2dc8"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[model]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="IHasChildren" mc="Standard.Interface" uid="b7d6f7ea-43d9-4433-acc6-690d3aab3eb5"/>
+        <COMPID name="IImageContainer" mc="Standard.Interface" uid="2f52a8e0-bc01-4e0e-b32b-e1d449d2d15f"/>
+        <COMPID name="IImageElement" mc="Standard.Interface" uid="80fd2e68-713a-4d27-a6f0-b0c06a55b47c"/>
+        <COMPID name="IImageResource" mc="Standard.Interface" uid="d81a67a2-5ee1-422b-bc1a-9d73413c3555"/>
+        <COMPID name="IImageRoot" mc="Standard.Interface" uid="3d951d3b-e702-4e71-a8b1-8c508aa5cbfe"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

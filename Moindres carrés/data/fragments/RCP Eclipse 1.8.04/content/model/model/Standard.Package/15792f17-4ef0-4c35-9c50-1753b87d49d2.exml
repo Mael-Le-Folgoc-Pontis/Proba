@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="conditional" version="4">
+  <OBJECT>
+    <ID name="conditional" mc="Standard.Package" uid="15792f17-4ef0-4c35-9c50-1753b87d49d2"/>
+    <PID name="joran" mc="Standard.Package" uid="d268d326-4382-4c77-b2d8-cce04b60231e"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[conditional]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Condition" mc="Standard.Interface" uid="cce31389-f980-4215-8075-350d7a2ac485"/>
+        <COMPID name="ElseAction" mc="Standard.Class" uid="f19e5f65-777f-457d-a889-8b420b99fa42"/>
+        <COMPID name="IfAction" mc="Standard.Class" uid="b8f6f7c8-755e-4c4d-b016-7b95e5f6f1c2"/>
+        <COMPID name="PropertyEvalScriptBuilder" mc="Standard.Class" uid="ad0cdcde-3a3c-4dcd-ada7-c4e1fb3567ad"/>
+        <COMPID name="PropertyWrapperForScripts" mc="Standard.Class" uid="6aa5dde5-d3e7-4b01-8b5a-aec1e4baaed8"/>
+        <COMPID name="ThenAction" mc="Standard.Class" uid="ae023e59-5990-49df-beaf-c5bb9fab5716"/>
+        <COMPID name="ThenOrElseActionBase" mc="Standard.Class" uid="6ff39493-347d-4432-9d0f-c0f2cc8a081a"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

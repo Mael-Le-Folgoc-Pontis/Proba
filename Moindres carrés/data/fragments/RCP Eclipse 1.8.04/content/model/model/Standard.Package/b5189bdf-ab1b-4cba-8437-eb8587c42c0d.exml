@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="actions" version="4">
+  <OBJECT>
+    <ID name="actions" mc="Standard.Package" uid="b5189bdf-ab1b-4cba-8437-eb8587c42c0d"/>
+    <PID name="contentoutline" mc="Standard.Package" uid="e99d655e-21f7-4fa8-aadc-5276abe5cfdc"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[actions]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AddAttributeAction" mc="Standard.Class" uid="74326fa8-5630-431f-bf91-1aa05830c6d3"/>
+        <COMPID name="AddAttributeListAction" mc="Standard.Class" uid="d9b1983f-0900-462c-9e06-b51f6569add1"/>
+        <COMPID name="AddCommentAction" mc="Standard.Class" uid="2abcdf27-3dd3-4e9f-94ea-741a2c318e5c"/>
+        <COMPID name="AddElementAction" mc="Standard.Class" uid="21463e25-fac0-4caa-9023-fae718650b6d"/>
+        <COMPID name="AddElementToContentModelAction" mc="Standard.Class" uid="09662550-aa3a-456b-8a1c-d544d0e230e1"/>
+        <COMPID name="AddEntityAction" mc="Standard.Class" uid="8b9422ad-1400-4b75-b7bc-e9eacff46349"/>
+        <COMPID name="AddGroupToContentModelAction" mc="Standard.Class" uid="4c2bb7eb-2901-468d-b001-893611c1af5c"/>
+        <COMPID name="AddNotationAction" mc="Standard.Class" uid="7986599e-22aa-4779-b412-25ddc108e933"/>
+        <COMPID name="AddParameterEntityReferenceAction" mc="Standard.Class" uid="bc02fb19-aadd-4223-84ad-e208ac1eeef1"/>
+        <COMPID name="BaseAction" mc="Standard.Class" uid="f414208a-e9b6-46cb-969b-e9e43bc2757c"/>
+        <COMPID name="DeleteAction" mc="Standard.Class" uid="7f6452b2-ab13-43cd-bfe6-8a5e66e54e23"/>
+        <COMPID name="ReplaceEmptyContentModelWithGroupAction" mc="Standard.Class" uid="6df7e623-fb19-4fdc-8596-db0e1198fd9f"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

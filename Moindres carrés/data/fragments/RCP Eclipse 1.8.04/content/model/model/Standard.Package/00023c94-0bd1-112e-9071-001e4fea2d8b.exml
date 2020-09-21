@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="core" version="4">
+  <OBJECT>
+    <ID name="core" mc="Standard.Package" uid="00023c94-0bd1-112e-9071-001e4fea2d8b"/>
+    <PID name="ds" mc="Standard.Package" uid="00015568-0bd1-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[core]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Activator" mc="Standard.Class" uid="000242de-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IDSComponent" mc="Standard.Interface" uid="0002495a-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IDSConstants" mc="Standard.Interface" uid="00025094-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IDSDocumentFactory" mc="Standard.Interface" uid="000257b0-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IDSImplementation" mc="Standard.Interface" uid="00025ec2-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IDSModel" mc="Standard.Interface" uid="000265ca-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IDSObject" mc="Standard.Interface" uid="00026d2c-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IDSProperties" mc="Standard.Interface" uid="000274ca-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IDSProperty" mc="Standard.Interface" uid="00027c90-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IDSProvide" mc="Standard.Interface" uid="00028456-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IDSReference" mc="Standard.Interface" uid="00028c94-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IDSService" mc="Standard.Interface" uid="000294e6-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Messages" mc="Standard.Class" uid="00029b30-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="builders" mc="Standard.Package" uid="00038e1e-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="text" mc="Standard.Package" uid="0004c1c6-0bd1-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

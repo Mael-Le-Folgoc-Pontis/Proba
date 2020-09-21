@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="nls" version="4">
+  <OBJECT>
+    <ID name="nls" mc="Standard.Package" uid="0067c2bc-0bc9-112e-9071-001e4fea2d8b"/>
+    <PID name="refactoring" mc="Standard.Package" uid="00538518-0bc9-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[nls]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AccessorClassCreator" mc="Standard.Class" uid="0067c924-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AccessorClassModifier" mc="Standard.Class" uid="0067cf50-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AccessorClassReference" mc="Standard.Class" uid="0067d5e0-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="KeyValuePair" mc="Standard.Class" uid="0067dca2-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="NLSAccessorFieldRenameParticipant" mc="Standard.Class" uid="0067e35a-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="NLSElement" mc="Standard.Class" uid="0067eaa8-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="NLSHint" mc="Standard.Class" uid="0067f1f6-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="NLSHintHelper" mc="Standard.Class" uid="0067f980-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="NLSLine" mc="Standard.Class" uid="0068013c-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="NLSMessages" mc="Standard.Class" uid="0068092a-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="NLSPropertyFileModifier" mc="Standard.Class" uid="00681122-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="NLSRefactoring" mc="Standard.Class" uid="00681974-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="NLSScanner" mc="Standard.Class" uid="00682202-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="NLSSourceModifier" mc="Standard.Class" uid="00682a7c-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="NLSSubstitution" mc="Standard.Class" uid="00683382-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="NLSUtil" mc="Standard.Class" uid="00683ca6-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PropertyFileDocumentModel" mc="Standard.Class" uid="006845f2-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SimpleLineReader" mc="Standard.Class" uid="00686b7c-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="changes" mc="Standard.Package" uid="006a5892-0bc9-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

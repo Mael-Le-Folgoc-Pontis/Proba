@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="sync" version="4">
+  <OBJECT>
+    <ID name="sync" mc="Standard.Package" uid="2be94664-f553-46aa-aa9b-826c2bf4a67f"/>
+    <PID name="core" mc="Standard.Package" uid="ca7b9d75-150f-45c7-bd8e-1dc0cce666a2"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[sync]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ISynchronizationSession" mc="Standard.Interface" uid="f393a010-3f5a-46a7-8e1d-b21318254bb4"/>
+        <COMPID name="SubmitJob" mc="Standard.Class" uid="01ec11ac-109d-4ef3-915d-5760dd302e5f"/>
+        <COMPID name="SubmitJobEvent" mc="Standard.Class" uid="95b2269a-016d-4008-8cef-8ebb66c03fc0"/>
+        <COMPID name="SubmitJobListener" mc="Standard.Class" uid="7c6cf625-e662-413e-aa03-186e37baaf4f"/>
+        <COMPID name="SynchronizationJob" mc="Standard.Class" uid="8eafc726-fa39-4383-86e8-efa753bee155"/>
+        <COMPID name="SynchronizationParticipant" mc="Standard.Class" uid="d108bf4b-48de-4714-9fe9-742ed700cba5"/>
+        <COMPID name="TaskJob" mc="Standard.Class" uid="56b4191f-6085-4c98-ab08-ea2cfaddfe95"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

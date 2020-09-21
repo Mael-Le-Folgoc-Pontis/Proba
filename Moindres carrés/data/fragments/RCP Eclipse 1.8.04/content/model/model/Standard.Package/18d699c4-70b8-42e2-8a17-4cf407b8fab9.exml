@@ -1,0 +1,57 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="document" version="4">
+  <OBJECT>
+    <ID name="document" mc="Standard.Package" uid="18d699c4-70b8-42e2-8a17-4cf407b8fab9"/>
+    <PID name="internal" mc="Standard.Package" uid="e9152071-ab45-4e26-8cf6-708827cd7d86"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[document]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AttrImpl" mc="Standard.Class" uid="d10b309b-c77f-48cd-b23c-fe509703900e"/>
+        <COMPID name="CDATASectionImpl" mc="Standard.Class" uid="8a452270-7ac1-432a-81e7-360886b00116"/>
+        <COMPID name="CMNodeUtil" mc="Standard.Class" uid="2c5d1eeb-e9d9-4221-9e6b-60597a665898"/>
+        <COMPID name="CharacterDataImpl" mc="Standard.Class" uid="c65ecb6f-7a61-4103-8aff-680ea7f2e2c6"/>
+        <COMPID name="CommentImpl" mc="Standard.Class" uid="44329eca-f998-4e3c-a603-f48650a23848"/>
+        <COMPID name="DOMModelImpl" mc="Standard.Class" uid="779591ed-0f9f-4cf9-8d1b-342ac8f9ee45"/>
+        <COMPID name="DocumentFragmentImpl" mc="Standard.Class" uid="9f076410-ac89-446f-bacb-6a1d0d612918"/>
+        <COMPID name="DocumentImpl" mc="Standard.Class" uid="03cb3455-dbac-4903-b865-607c41b19dba"/>
+        <COMPID name="DocumentTypeAdapter" mc="Standard.Interface" uid="4938c30a-dd4a-4d25-b4e9-bd1cc1d160f0"/>
+        <COMPID name="DocumentTypeAdapterImpl" mc="Standard.Class" uid="43f51ada-f6a9-4a04-9903-66828319533a"/>
+        <COMPID name="DocumentTypeImpl" mc="Standard.Class" uid="aaad4a9d-5dae-49af-8ac7-8eee686082b3"/>
+        <COMPID name="ElementImpl" mc="Standard.Class" uid="66f3e3d6-f0bb-4842-87fb-055dba9b0892"/>
+        <COMPID name="EntityImpl" mc="Standard.Class" uid="f8617aaf-9dca-4506-8130-350c26f4b73f"/>
+        <COMPID name="EntityReferenceImpl" mc="Standard.Class" uid="0c25b6c4-0489-489e-965d-c55ef76c5f48"/>
+        <COMPID name="InvalidCharacterException" mc="Standard.Class" uid="5c3bf2af-0136-4fdf-8527-7e9409dec76f"/>
+        <COMPID name="JSPTag" mc="Standard.Interface" uid="7ca12960-4ebd-44ed-9cac-9041c77c0e9d"/>
+        <COMPID name="ModelParserAdapter" mc="Standard.Interface" uid="d04fbec0-0f80-410f-bbde-68881cb3036b"/>
+        <COMPID name="NodeContainer" mc="Standard.Class" uid="0c7ec3cb-f73b-4e53-b394-00179362230f"/>
+        <COMPID name="NodeImpl" mc="Standard.Class" uid="15140a76-9a84-479c-85de-8f09b1c5587b"/>
+        <COMPID name="NodeIteratorImpl" mc="Standard.Class" uid="49ce3db1-3a78-4917-852e-39334b47c1b6"/>
+        <COMPID name="NodeListImpl" mc="Standard.Class" uid="50ca0750-ef3d-42c4-afb9-11eb0c8a3403"/>
+        <COMPID name="NotationImpl" mc="Standard.Class" uid="c076b132-830e-495c-8748-b1c2015367e6"/>
+        <COMPID name="ProcessingInstructionImpl" mc="Standard.Class" uid="35171618-ee53-4a03-8b4d-1a3082c08461"/>
+        <COMPID name="RangeImpl" mc="Standard.Class" uid="94c88155-40d1-4d25-a54f-5f673a388b6d"/>
+        <COMPID name="SourceValidator" mc="Standard.Class" uid="da1679e7-2b64-4c3f-8679-23757f9f6526"/>
+        <COMPID name="StructuredDocumentRegionChecker" mc="Standard.Class" uid="b0a5a9fd-4b03-4ad4-816d-e9fbe9efd474"/>
+        <COMPID name="StructuredDocumentRegionManagementException" mc="Standard.Class" uid="cdeeb3d2-1eee-4fa4-9f68-a1ddf91943bb"/>
+        <COMPID name="TagAdapter" mc="Standard.Interface" uid="198adc16-9815-434f-8e62-c482fe118220"/>
+        <COMPID name="TextImpl" mc="Standard.Class" uid="5a89251f-db84-40d8-a661-aeeb3d177443"/>
+        <COMPID name="XMLGeneratorImpl" mc="Standard.Class" uid="7d7812e4-0256-4789-a2f0-8d9f4f2d5628"/>
+        <COMPID name="XMLModelNotifier" mc="Standard.Interface" uid="48f4626b-d65d-4564-8cd7-ae891fb46ed0"/>
+        <COMPID name="XMLModelNotifierImpl" mc="Standard.Class" uid="fa85523b-c544-4ed3-9c99-c9396040986e"/>
+        <COMPID name="XMLModelParser" mc="Standard.Class" uid="9970ad58-7f0b-4727-97ee-8cacf8b53445"/>
+        <COMPID name="XMLModelUpdater" mc="Standard.Class" uid="71548d89-34ac-46ea-99fa-bcc042572740"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

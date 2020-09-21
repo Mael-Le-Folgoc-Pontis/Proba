@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="xpath" version="4">
+  <OBJECT>
+    <ID name="xpath" mc="Standard.Package" uid="5129dbcb-2a00-4e95-af33-0b524664d3e2"/>
+    <PID name="internal" mc="Standard.Package" uid="cdb60230-5eb7-49e0-8220-eb0a64508d91"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[xpath]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="CollectionAttributeNodeIterator" mc="Standard.Class" uid="d33ad92f-5bbe-472a-8f1e-0dc14aea27b1"/>
+        <COMPID name="CollectionChildNodeIterator" mc="Standard.Class" uid="96431b91-7a65-41df-9b17-c0324e660ef3"/>
+        <COMPID name="CollectionNodeIterator" mc="Standard.Class" uid="fc301cf1-a19c-4908-94fa-52e1ea0f5b83"/>
+        <COMPID name="CollectionPointer" mc="Standard.Class" uid="b689515d-5787-475b-8b0e-de932679d93f"/>
+        <COMPID name="EObjectAttributeIterator" mc="Standard.Class" uid="082d9d05-730f-4bfd-bf8c-a4aa2774bb6b"/>
+        <COMPID name="EObjectPointer" mc="Standard.Class" uid="3ca68e29-86cb-4b12-b4d7-7909b9726b73"/>
+        <COMPID name="EObjectPointerFactory" mc="Standard.Class" uid="db99b0df-f231-426e-912a-cec60fe11c13"/>
+        <COMPID name="EObjectPropertyPointer" mc="Standard.Class" uid="ef50996d-dee6-435a-b9e2-e7b705719c70"/>
+        <COMPID name="EStructuralFeatureIterator" mc="Standard.Class" uid="b1540dbf-ab71-403a-af31-2824303a72f1"/>
+        <COMPID name="EStructuralFeatureOwnerPointer" mc="Standard.Class" uid="d4032738-4bde-4414-a448-0573a3ad8811"/>
+        <COMPID name="EStructuralFeaturePointer" mc="Standard.Class" uid="eecf63af-4a90-4213-b81a-8e7bc5676fd0"/>
+        <COMPID name="JXPathContextFactoryImpl" mc="Standard.Class" uid="b52efc9d-4478-4a3f-a65e-11dc17c8cf2e"/>
+        <COMPID name="JXPathContextImpl" mc="Standard.Class" uid="782d1c57-9a6e-41b4-b59d-50a4b0f1bbf6"/>
+        <COMPID name="LangAttributePointer" mc="Standard.Class" uid="719292a7-5b11-46bc-9725-4be8428e6dca"/>
+        <COMPID name="NullEStructuralFeaturePointer" mc="Standard.Class" uid="8d4553ad-1c4e-4cc4-9c1c-ad7d61ca4c51"/>
+        <COMPID name="NullElementPointer" mc="Standard.Class" uid="4eff47ff-7230-4445-9307-c5e42bee4e2f"/>
+        <COMPID name="NullPointer" mc="Standard.Class" uid="66790860-bef9-455f-9217-2e90a1cb2aa8"/>
+        <COMPID name="helper" mc="Standard.Package" uid="26166b88-0834-48b2-aae2-0e57883732c9"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

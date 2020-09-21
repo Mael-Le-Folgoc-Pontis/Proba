@@ -1,0 +1,109 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="swt" version="4">
+  <OBJECT>
+    <ID name="swt" mc="Standard.Package" uid="003c09b0-21aa-1fb1-8a9e-001e4fea2d8b"/>
+    <PID name="databinding" mc="Standard.Package" uid="003ae8a0-21aa-1fb1-8a9e-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[swt]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ButtonImageProperty" mc="Standard.Class" uid="0048eee6-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ButtonSelectionProperty" mc="Standard.Class" uid="00595628-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ButtonTextProperty" mc="Standard.Class" uid="00535f7a-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="CComboEditableProperty" mc="Standard.Class" uid="0042444c-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="CComboItemsProperty" mc="Standard.Class" uid="0057c7fe-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="CComboSelectionProperty" mc="Standard.Class" uid="004f43c2-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="CComboSingleSelectionIndexProperty" mc="Standard.Class" uid="005912da-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="CComboTextProperty" mc="Standard.Class" uid="005a2256-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="CLabelImageProperty" mc="Standard.Class" uid="004ed9a0-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="CLabelTextProperty" mc="Standard.Class" uid="0050fc26-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="CTabItemTooltipTextProperty" mc="Standard.Class" uid="0057468a-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ComboItemsProperty" mc="Standard.Class" uid="003c80ac-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ComboSelectionProperty" mc="Standard.Class" uid="0046c544-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ComboSingleSelectionIndexProperty" mc="Standard.Class" uid="0050c17a-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ComboTextProperty" mc="Standard.Class" uid="004b8a52-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ControlBackgroundProperty" mc="Standard.Class" uid="004d6296-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ControlBoundsProperty" mc="Standard.Class" uid="005aac6c-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ControlEnabledProperty" mc="Standard.Class" uid="00463034-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ControlFocusedProperty" mc="Standard.Class" uid="00448694-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ControlFontProperty" mc="Standard.Class" uid="0040f286-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ControlForegroundProperty" mc="Standard.Class" uid="00472912-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ControlLocationProperty" mc="Standard.Class" uid="00517336-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ControlSizeProperty" mc="Standard.Class" uid="0052137c-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ControlStringListProperty" mc="Standard.Class" uid="0049ba2e-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ControlTooltipTextProperty" mc="Standard.Class" uid="00482510-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ControlVisibleProperty" mc="Standard.Class" uid="005a6752-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="DateTimeSelectionProperty" mc="Standard.Class" uid="004a53ee-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="GroupTextProperty" mc="Standard.Class" uid="4b1e9f68-0f0f-43db-9a36-1d4026d231d5"/>
+        <COMPID name="ItemImageProperty" mc="Standard.Class" uid="004304e0-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ItemTextProperty" mc="Standard.Class" uid="005322a8-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="LabelImageProperty" mc="Standard.Class" uid="00588da6-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="LabelTextProperty" mc="Standard.Class" uid="004cc35e-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="LinkTextProperty" mc="Standard.Class" uid="005137fe-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ListItemsProperty" mc="Standard.Class" uid="0054f9e8-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ListSelectionProperty" mc="Standard.Class" uid="00584ad0-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ListSingleSelectionIndexProperty" mc="Standard.Class" uid="003d6b34-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="MenuEnabledProperty" mc="Standard.Class" uid="004067da-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="MenuItemEnabledProperty" mc="Standard.Class" uid="003dc69c-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="MenuItemSelectionProperty" mc="Standard.Class" uid="0058cf8c-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="SWTDelayedObservableValueDecorator" mc="Standard.Class" uid="003c258a-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="SWTObservableListDecorator" mc="Standard.Class" uid="0055776a-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="SWTObservableValueDecorator" mc="Standard.Class" uid="003cdb7e-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="SWTVetoableValueDecorator" mc="Standard.Class" uid="00502260-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ScaleMaximumProperty" mc="Standard.Class" uid="003eb246-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ScaleMinimumProperty" mc="Standard.Class" uid="00436494-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ScaleSelectionProperty" mc="Standard.Class" uid="004bf208-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ScrollBarEnabledProperty" mc="Standard.Class" uid="00547cfc-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ShellTextProperty" mc="Standard.Class" uid="003ede10-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="SingleSelectionIndexProperty" mc="Standard.Class" uid="003f3a9a-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="SliderMaximumProperty" mc="Standard.Class" uid="004216f2-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="SliderMinimumProperty" mc="Standard.Class" uid="0058093a-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="SliderSelectionProperty" mc="Standard.Class" uid="00599a16-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="SpinnerMaximumProperty" mc="Standard.Class" uid="0054bb0e-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="SpinnerMinimumProperty" mc="Standard.Class" uid="0043936a-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="SpinnerSelectionProperty" mc="Standard.Class" uid="0055384a-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="StyledTextEditableProperty" mc="Standard.Class" uid="005705f8-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="StyledTextTextProperty" mc="Standard.Class" uid="00450614-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="TabItemTooltipTextProperty" mc="Standard.Class" uid="0048899c-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="TableColumnTooltipTextProperty" mc="Standard.Class" uid="004f7d74-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="TableSingleSelectionIndexProperty" mc="Standard.Class" uid="0040c626-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="TextEditableProperty" mc="Standard.Class" uid="00543f4e-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="TextMessageProperty" mc="Standard.Class" uid="004aedfe-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="TextTextProperty" mc="Standard.Class" uid="00427232-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ToolItemEnabledProperty" mc="Standard.Class" uid="004e3798-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ToolItemTooltipTextProperty" mc="Standard.Class" uid="00495494-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ToolTipMessageProperty" mc="Standard.Class" uid="00466194-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="TrayItemTooltipTextProperty" mc="Standard.Class" uid="00578708-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="TreeColumnTooltipTextProperty" mc="Standard.Class" uid="004dff44-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="WidgetBooleanValueProperty" mc="Standard.Class" uid="004184c6-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="WidgetEditableProperty" mc="Standard.Class" uid="0059de0e-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="WidgetEnabledProperty" mc="Standard.Class" uid="00442456-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="WidgetImageProperty" mc="Standard.Class" uid="004e6f88-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="WidgetImageValueProperty" mc="Standard.Class" uid="00539cba-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="WidgetIntValueProperty" mc="Standard.Class" uid="003e229a-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="WidgetItemsProperty" mc="Standard.Class" uid="0045fe66-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="WidgetListener" mc="Standard.Class" uid="004b549c-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="WidgetListenerUtil" mc="Standard.Class" uid="0047c098-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="WidgetMaximumProperty" mc="Standard.Class" uid="004cfa36-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="WidgetMessageProperty" mc="Standard.Class" uid="0040097a-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="WidgetMinimumProperty" mc="Standard.Class" uid="0056c61a-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="WidgetSelectionProperty" mc="Standard.Class" uid="0043c24a-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="WidgetSingleSelectionIndexProperty" mc="Standard.Class" uid="004fb712-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="WidgetStringValueProperty" mc="Standard.Class" uid="004c2836-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="WidgetTextProperty" mc="Standard.Class" uid="0052b476-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="WidgetTextWithEventsProperty" mc="Standard.Class" uid="00459bec-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="WidgetTooltipTextProperty" mc="Standard.Class" uid="005b57e8-21aa-1fb1-8a9e-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

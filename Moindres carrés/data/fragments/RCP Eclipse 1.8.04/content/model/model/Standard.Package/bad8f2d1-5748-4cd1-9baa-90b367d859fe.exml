@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="wizards" version="4">
+  <OBJECT>
+    <ID name="wizards" mc="Standard.Package" uid="bad8f2d1-5748-4cd1-9baa-90b367d859fe"/>
+    <PID name="swing" mc="Standard.Package" uid="9830b5a7-65f5-42f6-9ec2-f443714086a1"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[wizards]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Messages" mc="Standard.Class" uid="358cb896-a888-441b-b503-4153d7b44e67"/>
+        <COMPID name="SwingWizard" mc="Standard.Class" uid="381bdb92-dafd-4564-8e82-0c92e412e386"/>
+        <COMPID name="SwingWizardPage" mc="Standard.Class" uid="acc4f23f-d962-4866-a217-9508634d638e"/>
+        <COMPID name="applet" mc="Standard.Package" uid="293d2118-c10e-4054-9449-c1b420f16e12"/>
+        <COMPID name="application" mc="Standard.Package" uid="d233c3bd-3beb-4a26-8d43-a46be2bd4de9"/>
+        <COMPID name="dialog" mc="Standard.Package" uid="6291d7b8-e48b-489f-bb08-bbbc28120fb9"/>
+        <COMPID name="frame" mc="Standard.Package" uid="6df0918a-4ab5-4076-a67b-448d4b893bdc"/>
+        <COMPID name="panel" mc="Standard.Package" uid="3f4b05f7-4674-40a3-bc2d-caead2cef390"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

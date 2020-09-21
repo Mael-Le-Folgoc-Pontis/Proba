@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="core" version="4">
+  <OBJECT>
+    <ID name="core" mc="Standard.Package" uid="c131b4be-757a-465f-9d9d-d6d0efff6d70"/>
+    <PID name="provisional" mc="Standard.Package" uid="a524eddb-ed6c-47b1-8b76-11b13ad2a9aa"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[core]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="IMessage" mc="Standard.Interface" uid="95cd88a2-2d22-42d1-8810-e646b8684723"/>
+        <COMPID name="IMetaModelContext" mc="Standard.Interface" uid="08e7746d-af4f-4683-adf0-8261be9dc700"/>
+        <COMPID name="IProjectValidationContext" mc="Standard.Interface" uid="f9c24c67-81d5-4cb9-a564-b02d9e1869fd"/>
+        <COMPID name="IReporter" mc="Standard.Interface" uid="3ac72e04-cf1f-4760-83d5-d5aeea349d85"/>
+        <COMPID name="IValidationContext" mc="Standard.Interface" uid="37710e4d-9fc8-4250-b8e3-a17e57c857b5"/>
+        <COMPID name="IValidator" mc="Standard.Interface" uid="29d59b4a-217e-4872-a2b0-a862920a81bd"/>
+        <COMPID name="IValidatorExtender" mc="Standard.Interface" uid="8712e072-bf55-4ae5-b3be-e61144d99161"/>
+        <COMPID name="IValidatorJob" mc="Standard.Interface" uid="e50f7d96-7b24-4909-ab05-82bbd11c394b"/>
+        <COMPID name="MessageLimitException" mc="Standard.Class" uid="9f342b9a-09cc-41fb-9342-d8b7e9ac7dd3"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

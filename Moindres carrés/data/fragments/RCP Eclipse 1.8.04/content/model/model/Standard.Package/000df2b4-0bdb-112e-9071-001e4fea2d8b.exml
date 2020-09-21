@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="internal" version="4">
+  <OBJECT>
+    <ID name="internal" mc="Standard.Package" uid="000df2b4-0bdb-112e-9071-001e4fea2d8b"/>
+    <PID name="theories" mc="Standard.Package" uid="000d33ec-0bdb-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[internal]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AllMembersSupplier" mc="Standard.Class" uid="000df89a-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Assignments" mc="Standard.Class" uid="000e0c68-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BooleanSupplier" mc="Standard.Class" uid="a0c047ad-070d-4a33-b55c-19026b014bdf"/>
+        <COMPID name="EnumSupplier" mc="Standard.Class" uid="ac2a5b8e-d8a1-49c6-9475-fd56b04c605c"/>
+        <COMPID name="ParameterizedAssertionError" mc="Standard.Class" uid="000e12f8-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SpecificDataPointsSupplier" mc="Standard.Class" uid="ba7cbcd7-7b22-43ef-b7a7-a19536ae9021"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

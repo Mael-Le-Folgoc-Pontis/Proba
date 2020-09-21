@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ui" version="4">
+  <OBJECT>
+    <ID name="ui" mc="Standard.Package" uid="9c98c4e7-31cd-441c-9764-b6282da74f34"/>
+    <PID name="context" mc="Standard.Package" uid="d1429e99-f512-4036-a20d-9c58afd6635b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[ui]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractAutoFocusViewAction" mc="Standard.Class" uid="81153cf2-7d82-4128-a4be-18ac0c211109"/>
+        <COMPID name="AbstractContextUiBridge" mc="Standard.Class" uid="1e3bca71-7f75-4194-974d-bb6403774a8c"/>
+        <COMPID name="AbstractFocusViewAction" mc="Standard.Class" uid="6c35d5fa-3005-496a-aa31-843a35d1bcaa"/>
+        <COMPID name="ContextAwareEditorInput" mc="Standard.Class" uid="1012f7e0-b32f-45e0-bfe5-982d8a183418"/>
+        <COMPID name="ContextUi" mc="Standard.Class" uid="a5b7577e-7ced-4c13-811b-9e8c3729b1a1"/>
+        <COMPID name="IContextAwareEditor" mc="Standard.Interface" uid="c9045e15-5fae-43f2-9519-61f2bb86a760"/>
+        <COMPID name="IContextUiStartup" mc="Standard.Interface" uid="10b81b83-d62f-4549-b5d0-52eb5881626e"/>
+        <COMPID name="InterestFilter" mc="Standard.Class" uid="136766a0-ec68-4cc0-9d35-95d3403705e1"/>
+        <COMPID name="InterestSorter" mc="Standard.Class" uid="731697dd-90c5-4ded-b49a-9ff38069afcd"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

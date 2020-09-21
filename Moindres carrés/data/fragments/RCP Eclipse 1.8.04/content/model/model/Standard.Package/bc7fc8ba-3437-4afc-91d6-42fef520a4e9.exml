@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="string" version="4">
+  <OBJECT>
+    <ID name="string" mc="Standard.Package" uid="bc7fc8ba-3437-4afc-91d6-42fef520a4e9"/>
+    <PID name="editor" mc="Standard.Package" uid="0f7ba2fe-dc30-4ad2-b9c2-60fda75b517e"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[string]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="StringPropertyDialog" mc="Standard.Class" uid="f183e6c8-74d7-4f87-a73c-b4bd91463226"/>
+        <COMPID name="StringPropertyEditor" mc="Standard.Class" uid="5ae58850-5cab-438b-b96c-f2e0fb5ba983"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

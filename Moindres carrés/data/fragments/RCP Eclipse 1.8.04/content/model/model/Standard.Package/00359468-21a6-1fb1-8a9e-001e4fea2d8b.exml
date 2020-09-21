@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="core" version="4">
+  <OBJECT>
+    <ID name="core" mc="Standard.Package" uid="00359468-21a6-1fb1-8a9e-001e4fea2d8b"/>
+    <PID name="eclipse" mc="Standard.Package" uid="0015e0b4-219f-1fb1-8a9e-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[core]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="boot" mc="Standard.Package" uid="003d5a04-0bbf-112e-9071-001e4fea2d8b"/>
+        <COMPID name="commands" mc="Standard.Package" uid="00361d7a-21a6-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="databinding" mc="Standard.Package" uid="001f63a0-21a8-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="expressions" mc="Standard.Package" uid="0071389c-21a8-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="externaltools" mc="Standard.Package" uid="007240de-0bbf-112e-9071-001e4fea2d8b"/>
+        <COMPID name="filebuffers" mc="Standard.Package" uid="0076859a-0bbf-112e-9071-001e4fea2d8b"/>
+        <COMPID name="filesystem" mc="Standard.Package" uid="0078cd0a-0bbf-112e-9071-001e4fea2d8b"/>
+        <COMPID name="internal" mc="Standard.Package" uid="008cece0-21a6-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="launcher" mc="Standard.Package" uid="007051c0-21a8-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="net" mc="Standard.Package" uid="006d3026-0bc0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="resources" mc="Standard.Package" uid="006eea38-0bc0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="runtime" mc="Standard.Package" uid="00501158-21a6-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="variables" mc="Standard.Package" uid="0000ca58-0bc1-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

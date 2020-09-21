@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="apps" version="4">
+  <OBJECT>
+    <ID name="apps" mc="Standard.Package" uid="45011604-031f-4aa9-b50b-324a20c925c1"/>
+    <PID name="resolver" mc="Standard.Package" uid="9f9ec4d6-1973-473d-b978-eedb1b037a17"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[apps]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="XParseError" mc="Standard.Class" uid="753e3a0f-d84f-4a6e-94fc-ae2671b149ba"/>
+        <COMPID name="resolver" mc="Standard.Class" uid="8c3b4aac-3b87-4fda-9600-eeabc6e4455d"/>
+        <COMPID name="xparse" mc="Standard.Class" uid="14b085fe-cac5-4aba-8b6b-daeeb8c2ce2b"/>
+        <COMPID name="xread" mc="Standard.Class" uid="537562f7-96f3-485e-b295-902016712b46"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

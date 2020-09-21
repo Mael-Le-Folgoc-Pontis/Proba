@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="selection" version="4">
+  <OBJECT>
+    <ID name="selection" mc="Standard.Package" uid="7ae1133c-415d-44f3-ab30-5e8f1a8c6953"/>
+    <PID name="policy" mc="Standard.Package" uid="8431fa6b-c77e-459c-8773-253a6f82c308"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[selection]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="EmptySelectionEditPolicy" mc="Standard.Class" uid="836c6ef2-a2a1-4d76-a686-02755b61ca1c"/>
+        <COMPID name="LineSelectionEditPolicy" mc="Standard.Class" uid="f10fdf60-765a-44e0-b1f6-14792cef8355"/>
+        <COMPID name="MoveSelectionEditPolicy" mc="Standard.Class" uid="8b644f8a-8551-4327-816c-f8614a27e460"/>
+        <COMPID name="NonResizableSelectionEditPolicy" mc="Standard.Class" uid="861c3f5c-cc5a-40c3-a42f-4b2885f08c31"/>
+        <COMPID name="TopResizeFigure" mc="Standard.Class" uid="1152c825-6b8f-4cd3-8fc4-8ebd6e5da1a7"/>
+        <COMPID name="TopSelectionEditPolicy" mc="Standard.Class" uid="1d301319-e1ce-4e46-9c50-3b0ffc2992b3"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

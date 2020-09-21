@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="pool" version="4">
+  <OBJECT>
+    <ID name="pool" mc="Standard.Package" uid="128d5666-e80e-4844-9929-5e5dea80b723"/>
+    <PID name="commons" mc="Standard.Package" uid="0009d012-0bbd-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[pool]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="BaseKeyedObjectPool" mc="Standard.Class" uid="f30b522a-7103-4083-9d6c-16c1a337964e"/>
+        <COMPID name="BaseKeyedPoolableObjectFactory" mc="Standard.Class" uid="090d1ae3-5e1d-42f1-aecd-ab62fcb33b06"/>
+        <COMPID name="BaseObjectPool" mc="Standard.Class" uid="d0c03d62-8102-4807-b40a-91fd711010a1"/>
+        <COMPID name="BasePoolableObjectFactory" mc="Standard.Class" uid="43e838c5-aeff-4bcd-ab80-c25e2b2dab55"/>
+        <COMPID name="KeyedObjectPool" mc="Standard.Interface" uid="0556f4ae-5b9a-4eb9-bb74-18628031f9c1"/>
+        <COMPID name="KeyedObjectPoolFactory" mc="Standard.Interface" uid="4ee750f4-f8ed-4b20-8e4c-c08a04e6859f"/>
+        <COMPID name="KeyedPoolableObjectFactory" mc="Standard.Interface" uid="17631c58-242d-40d4-99c5-cd4d1a0ead36"/>
+        <COMPID name="ObjectPool" mc="Standard.Interface" uid="4893c832-3772-4e2a-9478-73c82d10477c"/>
+        <COMPID name="ObjectPoolFactory" mc="Standard.Interface" uid="14b7daf7-fd20-4998-a3f8-9af94b472bde"/>
+        <COMPID name="PoolUtils" mc="Standard.Class" uid="2eab60eb-d5fd-40bd-8359-165cfe9e8859"/>
+        <COMPID name="PoolableObjectFactory" mc="Standard.Interface" uid="c0345708-3cd0-4f33-82ac-c68c9da9b169"/>
+        <COMPID name="impl" mc="Standard.Package" uid="bc36887a-e029-4c2d-88b9-7d1729ba5bf9"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="methods" version="4">
+  <OBJECT>
+    <ID name="methods" mc="Standard.Package" uid="0014fb5e-0bbd-112e-9071-001e4fea2d8b"/>
+    <PID name="httpclient" mc="Standard.Package" uid="000db1aa-0bbd-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[methods]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ByteArrayRequestEntity" mc="Standard.Class" uid="00150284-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DeleteMethod" mc="Standard.Class" uid="00150a90-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="EntityEnclosingMethod" mc="Standard.Class" uid="001512ba-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ExpectContinueMethod" mc="Standard.Class" uid="00151b7a-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FileRequestEntity" mc="Standard.Class" uid="0015249e-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="GetMethod" mc="Standard.Class" uid="00152de0-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HeadMethod" mc="Standard.Class" uid="001537d6-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="InputStreamRequestEntity" mc="Standard.Class" uid="001542c6-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MultipartPostMethod" mc="Standard.Class" uid="00154d20-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="OptionsMethod" mc="Standard.Class" uid="00155810-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PostMethod" mc="Standard.Class" uid="0015636e-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PutMethod" mc="Standard.Class" uid="00156ee0-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RequestEntity" mc="Standard.Interface" uid="0015764c-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="StringRequestEntity" mc="Standard.Class" uid="0015825e-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TraceMethod" mc="Standard.Class" uid="00158e7a-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="multipart" mc="Standard.Package" uid="00164478-0bbd-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

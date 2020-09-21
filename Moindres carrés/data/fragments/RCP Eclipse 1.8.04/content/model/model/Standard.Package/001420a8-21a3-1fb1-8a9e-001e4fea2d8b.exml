@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="contexts" version="4">
+  <OBJECT>
+    <ID name="contexts" mc="Standard.Package" uid="001420a8-21a3-1fb1-8a9e-001e4fea2d8b"/>
+    <PID name="core" mc="Standard.Package" uid="00818332-21a2-1fb1-8a9e-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[contexts]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Active" mc="Standard.Class" uid="0015b44a-21a3-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ContextFunction" mc="Standard.Class" uid="001589f2-21a3-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ContextInjectionFactory" mc="Standard.Class" uid="0014f56e-21a3-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="EclipseContextFactory" mc="Standard.Class" uid="00143e08-21a3-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="IContextFunction" mc="Standard.Interface" uid="001498ee-21a3-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="IEclipseContext" mc="Standard.Interface" uid="001703ae-21a3-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="RunAndTrack" mc="Standard.Class" uid="00155fc2-21a3-1fb1-8a9e-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

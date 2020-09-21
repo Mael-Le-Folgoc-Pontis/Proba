@@ -1,0 +1,58 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="accessibility" version="4">
+  <OBJECT>
+    <ID name="accessibility" mc="Standard.Package" uid="0030e12a-21a2-1fb1-8a9e-001e4fea2d8b"/>
+    <PID name="swt" mc="Standard.Package" uid="001656ac-219f-1fb1-8a9e-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[accessibility]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ACC" mc="Standard.Class" uid="00347dee-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="Accessible" mc="Standard.Class" uid="00370190-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="AccessibleActionAdapter" mc="Standard.Class" uid="00381d00-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="AccessibleActionEvent" mc="Standard.Class" uid="00355f0c-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="AccessibleActionListener" mc="Standard.Interface" uid="00375ca8-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="AccessibleAdapter" mc="Standard.Class" uid="0037bb80-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="AccessibleAttributeAdapter" mc="Standard.Class" uid="00387e44-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="AccessibleAttributeEvent" mc="Standard.Class" uid="0032a596-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="AccessibleAttributeListener" mc="Standard.Interface" uid="00327c9c-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="AccessibleControlAdapter" mc="Standard.Class" uid="00320488-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="AccessibleControlEvent" mc="Standard.Class" uid="0033232c-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="AccessibleControlListener" mc="Standard.Interface" uid="0031dc2e-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="AccessibleEditableTextAdapter" mc="Standard.Class" uid="00393ca8-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="AccessibleEditableTextEvent" mc="Standard.Class" uid="0032cee0-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="AccessibleEditableTextListener" mc="Standard.Interface" uid="00399892-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="AccessibleEvent" mc="Standard.Class" uid="00322d00-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="AccessibleHyperlinkAdapter" mc="Standard.Class" uid="0030fe44-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="AccessibleHyperlinkEvent" mc="Standard.Class" uid="0032f8de-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="AccessibleHyperlinkListener" mc="Standard.Interface" uid="0034263c-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="AccessibleListener" mc="Standard.Interface" uid="00390b5c-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="AccessibleTableAdapter" mc="Standard.Class" uid="0038af68-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="AccessibleTableCellAdapter" mc="Standard.Class" uid="0036d238-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="AccessibleTableCellEvent" mc="Standard.Class" uid="003531f8-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="AccessibleTableCellListener" mc="Standard.Interface" uid="00334b0e-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="AccessibleTableEvent" mc="Standard.Class" uid="00378be2-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="AccessibleTableListener" mc="Standard.Interface" uid="0039c2ea-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="AccessibleTextAdapter" mc="Standard.Class" uid="00358cd4-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="AccessibleTextAttributeEvent" mc="Standard.Class" uid="00325564-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="AccessibleTextEvent" mc="Standard.Class" uid="0033d29a-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="AccessibleTextExtendedAdapter" mc="Standard.Class" uid="0039f47c-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="AccessibleTextExtendedListener" mc="Standard.Interface" uid="0036482c-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="AccessibleTextListener" mc="Standard.Interface" uid="0036a43e-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="AccessibleValueAdapter" mc="Standard.Class" uid="0034aa76-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="AccessibleValueEvent" mc="Standard.Class" uid="0033fe3c-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="AccessibleValueListener" mc="Standard.Interface" uid="0035043a-21a2-1fb1-8a9e-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

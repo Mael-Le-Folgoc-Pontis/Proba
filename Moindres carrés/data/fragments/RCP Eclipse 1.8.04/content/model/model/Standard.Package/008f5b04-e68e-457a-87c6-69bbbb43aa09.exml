@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="slf4j" version="4">
+  <OBJECT>
+    <ID name="slf4j" mc="Standard.Package" uid="008f5b04-e68e-457a-87c6-69bbbb43aa09"/>
+    <PID name="org" mc="Standard.Package" uid="0006919a-219f-1fb1-8a9e-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[slf4j]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ILoggerFactory" mc="Standard.Interface" uid="93c0b1cf-b9dc-4ccc-8c97-f677f8cff07b"/>
+        <COMPID name="IMarkerFactory" mc="Standard.Interface" uid="8b195a4e-f5a9-4440-8efe-88d9492553f9"/>
+        <COMPID name="Logger" mc="Standard.Interface" uid="3359fa0b-5338-44b0-ac0d-8652e50d9b93"/>
+        <COMPID name="LoggerFactory" mc="Standard.Class" uid="60b18ca4-a27a-4b5e-a29b-a28d2e3d4c39"/>
+        <COMPID name="MDC" mc="Standard.Class" uid="e1ec0d37-ae3b-4d27-baf4-380c18592200"/>
+        <COMPID name="Marker" mc="Standard.Interface" uid="f47c2e28-6571-4a72-8114-f35a35d7d9cc"/>
+        <COMPID name="MarkerFactory" mc="Standard.Class" uid="347c54f2-eeb7-4bcc-ac8b-af57a152a186"/>
+        <COMPID name="helpers" mc="Standard.Package" uid="17549615-82c1-48bd-93e1-b553ad6ab040"/>
+        <COMPID name="impl" mc="Standard.Package" uid="03723711-459b-4f92-ab16-61ee75c4dd43"/>
+        <COMPID name="spi" mc="Standard.Package" uid="95326981-06c4-4d35-9c15-b8640d831354"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

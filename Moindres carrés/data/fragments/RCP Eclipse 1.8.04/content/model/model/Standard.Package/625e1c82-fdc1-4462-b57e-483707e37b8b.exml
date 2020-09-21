@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="document" version="4">
+  <OBJECT>
+    <ID name="document" mc="Standard.Package" uid="625e1c82-fdc1-4462-b57e-483707e37b8b"/>
+    <PID name="provisional" mc="Standard.Package" uid="cd06b3bf-d930-4208-93a8-456a685a30b4"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[document]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="IEncodedDocument" mc="Standard.Interface" uid="eb0a4f59-29ad-4a1c-ae91-2278662f1a2f"/>
+        <COMPID name="IStructuredDocumentProposed" mc="Standard.Interface" uid="9c1fe6b7-4fac-4a39-bf32-8a235e0ea0a5"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

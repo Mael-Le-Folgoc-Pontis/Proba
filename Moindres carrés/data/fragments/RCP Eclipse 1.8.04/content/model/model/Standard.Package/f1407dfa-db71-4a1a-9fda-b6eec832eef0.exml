@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="comment" version="4">
+  <OBJECT>
+    <ID name="comment" mc="Standard.Package" uid="f1407dfa-db71-4a1a-9fda-b6eec832eef0"/>
+    <PID name="internal" mc="Standard.Package" uid="8de19d9c-309f-4c7f-968c-e82cba2f8859"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[comment]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="BlockCommentingStrategy" mc="Standard.Class" uid="ef74c687-c60e-48f0-98d5-7ef3c75b12e3"/>
+        <COMPID name="CommentingStrategy" mc="Standard.Class" uid="45a844dd-d16c-48e4-ad47-eb247a5015dd"/>
+        <COMPID name="CommentingStrategyRegistry" mc="Standard.Class" uid="21643ec7-ee99-4aed-a3ea-b76501c309a6"/>
+        <COMPID name="LineCommentingStrategy" mc="Standard.Class" uid="18b05f3a-a807-4eee-b9e9-d0f1288ac541"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="configuration" version="4">
+  <OBJECT>
+    <ID name="configuration" mc="Standard.Package" uid="39eed8ab-bee1-4dc4-8368-0e4a0b83c5c4"/>
+    <PID name="maven" mc="Standard.Package" uid="173ccbb1-ee67-4028-9140-8289e1158a15"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[configuration]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="BasedirBeanConfigurationPathTranslator" mc="Standard.Class" uid="f46d15c4-a52d-4ea3-b148-fff8169aa40b"/>
+        <COMPID name="BeanConfigurationException" mc="Standard.Class" uid="06ead796-36a7-4f7f-9cbb-be7bb8a2d128"/>
+        <COMPID name="BeanConfigurationPathTranslator" mc="Standard.Interface" uid="d71e9cc7-b5f5-4308-9b8d-4c9f6bc6df8a"/>
+        <COMPID name="BeanConfigurationRequest" mc="Standard.Interface" uid="3e1daaa6-dc90-45a6-a336-a75f49ea7bdb"/>
+        <COMPID name="BeanConfigurationValuePreprocessor" mc="Standard.Interface" uid="7db481aa-1024-4e96-9e72-c00e988ad99d"/>
+        <COMPID name="BeanConfigurator" mc="Standard.Interface" uid="47582cd5-dd4b-47c1-a14f-6c6e3c9b033e"/>
+        <COMPID name="DefaultBeanConfigurationRequest" mc="Standard.Class" uid="bdf98434-ce55-4418-9c7f-7eb93b5d4e41"/>
+        <COMPID name="internal" mc="Standard.Package" uid="41e32276-5aca-4f30-b5af-904cc90408ea"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

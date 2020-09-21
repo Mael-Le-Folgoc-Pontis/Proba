@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="presentation" version="4">
+  <OBJECT>
+    <ID name="presentation" mc="Standard.Package" uid="c8b77992-1347-491d-adbe-36cb1b64f109"/>
+    <PID name="workingsets" mc="Standard.Package" uid="7023455c-5cd1-4516-966c-d14c92416cd9"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[presentation]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="EarlyStartup" mc="Standard.Class" uid="effdb244-c54b-4106-9a33-bb1e03f0f9f9"/>
+        <COMPID name="WorkingSetManager" mc="Standard.Class" uid="51f1c0aa-c615-418a-97cd-c1ebc65c2e9a"/>
+        <COMPID name="WorkingSetsActionBarContributor" mc="Standard.Class" uid="db9b71de-2873-4cf6-80a5-7cb6c04a76c8"/>
+        <COMPID name="WorkingSetsEditor" mc="Standard.Class" uid="e929cad6-31e8-4414-9b62-09d936abf34b"/>
+        <COMPID name="WorkingSetsEditorPlugin" mc="Standard.Class" uid="fe9b2b09-312d-4d92-9cfb-606b592f09e4"/>
+        <COMPID name="WorkingSetsModelWizard" mc="Standard.Class" uid="cf5ab6b1-bd60-4cc5-a695-ca0024e6bc0e"/>
+        <COMPID name="WorkingSetsPreferencePage" mc="Standard.Class" uid="b7ff8293-970d-496a-a5bd-7989c70935c5"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

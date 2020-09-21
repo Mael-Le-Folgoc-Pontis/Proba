@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="genetics" version="4">
+  <OBJECT>
+    <ID name="genetics" mc="Standard.Package" uid="52fd9b15-e0ab-4bb1-bdf7-aef07f2be10e"/>
+    <PID name="math" mc="Standard.Package" uid="6f81fdc4-2ff0-400d-8d89-7999bec4c6cd"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[genetics]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractListChromosome" mc="Standard.Class" uid="0aaffd97-e445-48cf-92f8-61b9a26b91fe"/>
+        <COMPID name="BinaryChromosome" mc="Standard.Class" uid="91d68c0e-0516-45bc-be5c-6456c1c31787"/>
+        <COMPID name="BinaryMutation" mc="Standard.Class" uid="1866293b-d424-45c0-987b-c88c7d9dd00f"/>
+        <COMPID name="Chromosome" mc="Standard.Class" uid="7db0bc0e-ab79-4568-836e-5124cfc1bc88"/>
+        <COMPID name="ChromosomePair" mc="Standard.Class" uid="e98564c5-8886-4001-bfc8-ae8efa165b03"/>
+        <COMPID name="CrossoverPolicy" mc="Standard.Interface" uid="9ed774bd-5fba-4c46-ac92-92f6da990535"/>
+        <COMPID name="ElitisticListPopulation" mc="Standard.Class" uid="15eba3ab-36d0-4045-bb0f-36b6adcfd21b"/>
+        <COMPID name="Fitness" mc="Standard.Interface" uid="e01734a1-2231-433e-8ae8-de802a6ed95e"/>
+        <COMPID name="FixedGenerationCount" mc="Standard.Class" uid="137cb013-f55d-4f7c-b67b-81f947a880bd"/>
+        <COMPID name="GeneticAlgorithm" mc="Standard.Class" uid="14cda35c-da44-4940-9640-1cc49610d65e"/>
+        <COMPID name="InvalidRepresentationException" mc="Standard.Class" uid="c1c20e1a-ba44-4ee6-9481-fe6a03832268"/>
+        <COMPID name="ListPopulation" mc="Standard.Class" uid="b984b69c-3f19-4460-be7b-35b9bb62b689"/>
+        <COMPID name="MutationPolicy" mc="Standard.Interface" uid="929642dc-3386-48d4-a852-4ef1fb4d80cd"/>
+        <COMPID name="OnePointCrossover" mc="Standard.Class" uid="d3bc6863-9c79-4918-bb3b-8ee86762d7be"/>
+        <COMPID name="PermutationChromosome" mc="Standard.Interface" uid="bfc17206-d5d9-4338-a78a-cfa4806c8d9c"/>
+        <COMPID name="Population" mc="Standard.Interface" uid="d4ba122a-58f4-4659-a455-8bd68fd041dd"/>
+        <COMPID name="RandomKey" mc="Standard.Class" uid="27f8c4d7-c6b9-4714-a5a1-69f1e70be5d0"/>
+        <COMPID name="RandomKeyMutation" mc="Standard.Class" uid="fa07a8ff-5c5b-4f60-b796-914259b32653"/>
+        <COMPID name="SelectionPolicy" mc="Standard.Interface" uid="847901b7-2897-4ae7-a8e6-fc4f4ccf124d"/>
+        <COMPID name="StoppingCondition" mc="Standard.Interface" uid="d1266e49-966e-4b65-876f-2c866ed8a101"/>
+        <COMPID name="TournamentSelection" mc="Standard.Class" uid="1682b3be-5110-40de-a871-8c9ec164dfb3"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

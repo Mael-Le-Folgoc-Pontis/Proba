@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ide" version="4">
+  <OBJECT>
+    <ID name="ide" mc="Standard.Package" uid="003ab5a6-0bd5-112e-9071-001e4fea2d8b"/>
+    <PID name="ui" mc="Standard.Package" uid="001f4794-21ab-1fb1-8a9e-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[ide]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="FileStoreEditorInput" mc="Standard.Class" uid="003ac078-0bd5-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FileStoreEditorInputFactory" mc="Standard.Class" uid="003adad6-0bd5-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IContributorResourceAdapter2" mc="Standard.Interface" uid="003ae134-0bd5-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IDE" mc="Standard.Class" uid="003ae8aa-0bd5-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IDEActionFactory" mc="Standard.Class" uid="003b0a38-0bd5-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IDEEncoding" mc="Standard.Class" uid="003b1e92-0bd5-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IEditorAssociationOverride" mc="Standard.Interface" uid="003b24e6-0bd5-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IGotoMarker" mc="Standard.Interface" uid="003b2bd0-0bd5-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IIDEActionConstants" mc="Standard.Interface" uid="003b32f6-0bd5-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ResourceSaveableFilter" mc="Standard.Class" uid="fa412937-e44a-4888-b2eb-dc15a31e3735"/>
+        <COMPID name="ResourceSelectionUtil" mc="Standard.Class" uid="003b3a58-0bd5-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ResourceUtil" mc="Standard.Class" uid="003b4156-0bd5-112e-9071-001e4fea2d8b"/>
+        <COMPID name="dialogs" mc="Standard.Package" uid="003d110c-0bd5-112e-9071-001e4fea2d8b"/>
+        <COMPID name="fileSystem" mc="Standard.Package" uid="003f101a-0bd5-112e-9071-001e4fea2d8b"/>
+        <COMPID name="undo" mc="Standard.Package" uid="0040f560-0bd5-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

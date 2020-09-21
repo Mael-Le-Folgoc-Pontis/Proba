@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="actions" version="4">
+  <OBJECT>
+    <ID name="actions" mc="Standard.Package" uid="84934442-ad8b-4bf4-9089-07d1fc7cdcf6"/>
+    <PID name="header" mc="Standard.Package" uid="7317dd00-1e07-40b1-a28a-8d130a35bebb"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[actions]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="DimensionHeaderAction" mc="Standard.Class" uid="a6b7bbeb-7b00-4129-8008-d551421715eb"/>
+        <COMPID name="SetAlignmentColumnAction" mc="Standard.Class" uid="5e61de06-af0e-41ff-83bd-c522a29da9a8"/>
+        <COMPID name="SetAlignmentRowAction" mc="Standard.Class" uid="b7efcbea-e72b-42af-95e5-0228f5fcbf85"/>
+        <COMPID name="SetGrowAction" mc="Standard.Class" uid="0ebc8cf4-9513-45d3-a0e2-508ebc6ab213"/>
+        <COMPID name="SetSizeAction" mc="Standard.Class" uid="c7dbe0be-ad70-40a2-8c7e-ed7990817722"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

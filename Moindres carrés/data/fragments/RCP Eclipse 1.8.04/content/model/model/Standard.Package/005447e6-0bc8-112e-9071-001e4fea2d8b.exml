@@ -1,0 +1,150 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="dom" version="4">
+  <OBJECT>
+    <ID name="dom" mc="Standard.Package" uid="005447e6-0bc8-112e-9071-001e4fea2d8b"/>
+    <PID name="core" mc="Standard.Package" uid="004e9184-0bc8-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[dom]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AST" mc="Standard.Class" uid="00544fd4-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ASTMatcher" mc="Standard.Class" uid="00545d80-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ASTNode" mc="Standard.Class" uid="0054646a-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ASTParser" mc="Standard.Class" uid="00547860-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ASTRequestor" mc="Standard.Class" uid="00548792-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ASTVisitor" mc="Standard.Class" uid="00549750-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AbstractTypeDeclaration" mc="Standard.Class" uid="00549f8e-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AnnotatableType" mc="Standard.Class" uid="c5b94979-64e3-4b61-a3a1-384ff94b51a2"/>
+        <COMPID name="Annotation" mc="Standard.Class" uid="0054a7d6-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AnnotationTypeDeclaration" mc="Standard.Class" uid="0054b9ba-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AnnotationTypeMemberDeclaration" mc="Standard.Class" uid="0054c2ca-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AnonymousClassDeclaration" mc="Standard.Class" uid="0054cc2a-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ArrayAccess" mc="Standard.Class" uid="0054d59e-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ArrayCreation" mc="Standard.Class" uid="0054df26-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ArrayInitializer" mc="Standard.Class" uid="0054e8fe-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ArrayType" mc="Standard.Class" uid="0054f31c-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AssertStatement" mc="Standard.Class" uid="0054fd26-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Assignment" mc="Standard.Class" uid="0055079e-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Block" mc="Standard.Class" uid="0055370a-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BlockComment" mc="Standard.Class" uid="0055429a-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BodyDeclaration" mc="Standard.Class" uid="00554dda-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BooleanLiteral" mc="Standard.Class" uid="005559d8-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BreakStatement" mc="Standard.Class" uid="005565b8-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CastExpression" mc="Standard.Class" uid="005571a2-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CatchClause" mc="Standard.Class" uid="00557e04-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CharacterLiteral" mc="Standard.Class" uid="00558a98-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ChildListPropertyDescriptor" mc="Standard.Class" uid="0055970e-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ChildPropertyDescriptor" mc="Standard.Class" uid="0055a3fc-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ClassInstanceCreation" mc="Standard.Class" uid="0055b112-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Comment" mc="Standard.Class" uid="0055be1e-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CompilationUnit" mc="Standard.Class" uid="0055cba2-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ConditionalExpression" mc="Standard.Class" uid="0055f5be-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ConstructorInvocation" mc="Standard.Class" uid="005603ce-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ContinueStatement" mc="Standard.Class" uid="0056122e-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CreationReference" mc="Standard.Class" uid="4cbed08c-f27a-45eb-9061-db88864dfe65"/>
+        <COMPID name="DefaultBindingResolver" mc="Standard.Class" uid="45aa2ae3-8a1e-4997-8ff3-0d06b5466faa"/>
+        <COMPID name="Dimension" mc="Standard.Class" uid="8f6847c1-be17-4e96-a909-e7e50921e183"/>
+        <COMPID name="DoStatement" mc="Standard.Class" uid="00567084-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="EmptyStatement" mc="Standard.Class" uid="00568fb0-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="EnhancedForStatement" mc="Standard.Class" uid="00569f8c-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="EnumConstantDeclaration" mc="Standard.Class" uid="0056af68-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="EnumDeclaration" mc="Standard.Class" uid="0056bfbc-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Expression" mc="Standard.Class" uid="0056d042-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ExpressionMethodReference" mc="Standard.Class" uid="1a375d87-5c97-4a4f-b53e-74cf49893e8c"/>
+        <COMPID name="ExpressionStatement" mc="Standard.Class" uid="0056e0a0-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FieldAccess" mc="Standard.Class" uid="0056f176-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FieldDeclaration" mc="Standard.Class" uid="00570288-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FileASTRequestor" mc="Standard.Class" uid="00571386-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ForStatement" mc="Standard.Class" uid="00572510-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IAnnotationBinding" mc="Standard.Interface" uid="00572ba0-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IBinding" mc="Standard.Interface" uid="00573258-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IDocElement" mc="Standard.Interface" uid="41795ce2-ae5a-4d7e-9d38-7e9373a80c55"/>
+        <COMPID name="IExtendedModifier" mc="Standard.Interface" uid="0057407c-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IMemberValuePairBinding" mc="Standard.Interface" uid="005747d4-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IMethodBinding" mc="Standard.Interface" uid="00574f2c-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IPackageBinding" mc="Standard.Interface" uid="005756e8-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ITypeBinding" mc="Standard.Interface" uid="00575ed6-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IVariableBinding" mc="Standard.Interface" uid="005766b0-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IfStatement" mc="Standard.Class" uid="00577876-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ImportDeclaration" mc="Standard.Class" uid="00578a5a-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="InfixExpression" mc="Standard.Class" uid="00579c3e-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Initializer" mc="Standard.Class" uid="0057bcf0-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="InstanceofExpression" mc="Standard.Class" uid="0057cfe2-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IntersectionType" mc="Standard.Class" uid="75455aa8-062c-4a01-9112-cf37745be4ca"/>
+        <COMPID name="Javadoc" mc="Standard.Class" uid="0057f526-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LabeledStatement" mc="Standard.Class" uid="00580854-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LambdaExpression" mc="Standard.Class" uid="9dcc50b7-f4ad-4df0-bda8-6f067a2ef6d7"/>
+        <COMPID name="LineComment" mc="Standard.Class" uid="00581b50-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MarkerAnnotation" mc="Standard.Class" uid="00582eb0-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MemberRef" mc="Standard.Class" uid="0058429c-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MemberValuePair" mc="Standard.Class" uid="00585624-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Message" mc="Standard.Class" uid="00587ea6-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MethodDeclaration" mc="Standard.Class" uid="0058a7aa-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MethodInvocation" mc="Standard.Class" uid="0058bc86-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MethodRef" mc="Standard.Class" uid="0058d180-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MethodRefParameter" mc="Standard.Class" uid="0058e6de-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MethodReference" mc="Standard.Class" uid="91ee0015-2034-4b9b-845c-ce46366a7dba"/>
+        <COMPID name="Modifier" mc="Standard.Class" uid="0058fc78-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Name" mc="Standard.Class" uid="00592040-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="NameQualifiedType" mc="Standard.Class" uid="a677ba71-7e93-4387-bd97-605328044fec"/>
+        <COMPID name="NodeFinder" mc="Standard.Class" uid="005961f4-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="NormalAnnotation" mc="Standard.Class" uid="00599d9a-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="NullLiteral" mc="Standard.Class" uid="0059b410-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="NumberLiteral" mc="Standard.Class" uid="0059caea-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PackageDeclaration" mc="Standard.Class" uid="0059f934-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ParameterizedType" mc="Standard.Class" uid="005a10cc-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ParenthesizedExpression" mc="Standard.Class" uid="005a286e-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PostfixExpression" mc="Standard.Class" uid="005a5294-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PrefixExpression" mc="Standard.Class" uid="005a7940-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PrimitiveType" mc="Standard.Class" uid="005a9f6a-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="QualifiedName" mc="Standard.Class" uid="005ac59e-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="QualifiedType" mc="Standard.Class" uid="005adeb2-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ReturnStatement" mc="Standard.Class" uid="005b2a84-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SimpleName" mc="Standard.Class" uid="005b4410-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SimplePropertyDescriptor" mc="Standard.Class" uid="005b5db0-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SimpleType" mc="Standard.Class" uid="005b77aa-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SingleMemberAnnotation" mc="Standard.Class" uid="005b9208-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SingleVariableDeclaration" mc="Standard.Class" uid="005bac3e-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Statement" mc="Standard.Class" uid="005bc674-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="StringLiteral" mc="Standard.Class" uid="005be14a-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="StructuralPropertyDescriptor" mc="Standard.Class" uid="005bfc52-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SuperConstructorInvocation" mc="Standard.Class" uid="005c176e-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SuperFieldAccess" mc="Standard.Class" uid="005c32d0-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SuperMethodInvocation" mc="Standard.Class" uid="005c4e46-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SuperMethodReference" mc="Standard.Class" uid="cca57fef-321c-4f82-8b77-e514e18e0bf5"/>
+        <COMPID name="SwitchCase" mc="Standard.Class" uid="005c69f8-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SwitchStatement" mc="Standard.Class" uid="005c85e6-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SynchronizedStatement" mc="Standard.Class" uid="005ca1e8-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TagElement" mc="Standard.Class" uid="005cbe3a-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TextElement" mc="Standard.Class" uid="005cdac8-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ThisExpression" mc="Standard.Class" uid="005cf738-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ThrowStatement" mc="Standard.Class" uid="005d1470-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TryStatement" mc="Standard.Class" uid="005d318a-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Type" mc="Standard.Class" uid="005d4f12-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TypeDeclaration" mc="Standard.Class" uid="005d89dc-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TypeDeclarationStatement" mc="Standard.Class" uid="005da78c-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TypeLiteral" mc="Standard.Class" uid="005dc5dc-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TypeMethodReference" mc="Standard.Class" uid="b633eb02-9d2c-4148-a0e8-4d5d522c10a1"/>
+        <COMPID name="TypeParameter" mc="Standard.Class" uid="005de45e-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="UnionType" mc="Standard.Class" uid="005e0326-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="VariableDeclaration" mc="Standard.Class" uid="005e40c0-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="VariableDeclarationExpression" mc="Standard.Class" uid="005e5fc4-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="VariableDeclarationFragment" mc="Standard.Class" uid="005e7f90-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="VariableDeclarationStatement" mc="Standard.Class" uid="005e9f3e-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WhileStatement" mc="Standard.Class" uid="005ebee2-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WildcardType" mc="Standard.Class" uid="005ede9a-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="rewrite" mc="Standard.Package" uid="005fc1ca-0bc8-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

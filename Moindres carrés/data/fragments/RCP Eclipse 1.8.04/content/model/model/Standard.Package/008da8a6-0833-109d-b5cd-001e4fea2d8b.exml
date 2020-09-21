@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="information" version="4">
+  <OBJECT>
+    <ID name="information" mc="Standard.Package" uid="008da8a6-0833-109d-b5cd-001e4fea2d8b"/>
+    <PID name="text" mc="Standard.Package" uid="007fca06-0833-109d-b5cd-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[information]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="IInformationPresenter" mc="Standard.Interface" uid="008daf18-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="IInformationPresenterExtension" mc="Standard.Interface" uid="008db68e-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="IInformationProvider" mc="Standard.Interface" uid="008dbe2c-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="IInformationProviderExtension" mc="Standard.Interface" uid="008dc5f2-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="IInformationProviderExtension2" mc="Standard.Interface" uid="008dcdf4-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="InformationPresenter" mc="Standard.Class" uid="008dd4e8-0833-109d-b5cd-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

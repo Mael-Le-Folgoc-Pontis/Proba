@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="memcached" version="4">
+  <OBJECT>
+    <ID name="memcached" mc="Standard.Package" uid="675d3a4b-f1ab-4ecd-99c2-5add2990c95a"/>
+    <PID name="cache" mc="Standard.Package" uid="fbea40ba-a908-448f-a216-3b93085788d6"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[memcached]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="KeyHashingScheme" mc="Standard.Interface" uid="c411ae4f-0c6b-4531-8f86-f237faa340e3"/>
+        <COMPID name="MemcachedCacheEntry" mc="Standard.Interface" uid="3b53f6f6-b43a-4050-8d45-6105e0f8813b"/>
+        <COMPID name="MemcachedCacheEntryFactory" mc="Standard.Interface" uid="ebff9213-1022-482c-9fb0-c80ea1125cbc"/>
+        <COMPID name="MemcachedCacheEntryFactoryImpl" mc="Standard.Class" uid="1f6d50a3-7eb6-441e-be46-5118f48f4370"/>
+        <COMPID name="MemcachedCacheEntryImpl" mc="Standard.Class" uid="3be8bfcd-d169-4d30-9e13-1a9ca6a680e8"/>
+        <COMPID name="MemcachedHttpCacheStorage" mc="Standard.Class" uid="0d73e55f-feb2-48ae-a137-584cbfe40f7c"/>
+        <COMPID name="MemcachedKeyHashingException" mc="Standard.Class" uid="753768a3-4bd5-44e6-b284-175b2751a241"/>
+        <COMPID name="MemcachedSerializationException" mc="Standard.Class" uid="a3f32d53-a6fe-4790-bd59-a668752e91bd"/>
+        <COMPID name="PrefixKeyHashingScheme" mc="Standard.Class" uid="601c6520-15f8-4c48-b0d2-387526a78c94"/>
+        <COMPID name="SHA256KeyHashingScheme" mc="Standard.Class" uid="69f01ef4-298f-4ec5-b6c3-d77741c4af0a"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

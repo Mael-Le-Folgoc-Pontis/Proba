@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="logging" version="4">
+  <OBJECT>
+    <ID name="logging" mc="Standard.Package" uid="7779e1c3-b536-4053-91ef-365464d9dbff"/>
+    <PID name="cli" mc="Standard.Package" uid="e913f98a-aa5a-431d-8f87-bcd045cc9736"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[logging]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="BaseSlf4jConfiguration" mc="Standard.Class" uid="a7793d19-63ec-428a-af95-0e14fc14a1d9"/>
+        <COMPID name="Slf4jConfiguration" mc="Standard.Interface" uid="ded9b5bf-94ee-4a19-8640-4a7a683a85c5"/>
+        <COMPID name="Slf4jConfigurationFactory" mc="Standard.Class" uid="b7dbd642-597c-4266-baa3-c4effded5eac"/>
+        <COMPID name="Slf4jLogger" mc="Standard.Class" uid="08d0b693-80e8-4a4c-a510-bf7223e21494"/>
+        <COMPID name="Slf4jLoggerManager" mc="Standard.Class" uid="059d7c7a-693f-480e-bc8b-d282e21a9949"/>
+        <COMPID name="Slf4jStdoutLogger" mc="Standard.Class" uid="cd01904b-eba5-4dd1-800d-90e8d9fc8c1a"/>
+        <COMPID name="impl" mc="Standard.Package" uid="a865301c-9553-4963-8552-a97b6831a8cf"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

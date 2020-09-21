@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="console" version="4">
+  <OBJECT>
+    <ID name="console" mc="Standard.Package" uid="bda8390b-eb87-4403-aba8-5038154969a3"/>
+    <PID name="ui" mc="Standard.Package" uid="50c3c555-c27e-463b-bea0-d6b6bb9b8481"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[console]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="BuildConsole" mc="Standard.Class" uid="8762731d-393c-461e-8b08-76d10729ccbb"/>
+        <COMPID name="BuildConsoleManager" mc="Standard.Class" uid="0918a7ef-6446-4cda-9c57-6a05471fc592"/>
+        <COMPID name="BuildConsolePageParticipant" mc="Standard.Class" uid="b47e9913-9c25-4e20-8c96-cc0ffd30cc16"/>
+        <COMPID name="UrlHyperLink" mc="Standard.Class" uid="45ba86d0-2fc1-4e7f-8eae-b23cb8d74bfe"/>
+        <COMPID name="UrlPatternMatchListener" mc="Standard.Class" uid="3bacf225-8479-45ab-a6ac-b5b4ab00d059"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

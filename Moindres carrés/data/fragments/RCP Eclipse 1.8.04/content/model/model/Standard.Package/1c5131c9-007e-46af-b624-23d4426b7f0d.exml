@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="property" version="4">
+  <OBJECT>
+    <ID name="property" mc="Standard.Package" uid="1c5131c9-007e-46af-b624-23d4426b7f0d"/>
+    <PID name="structure" mc="Standard.Package" uid="b6180b8d-bb4c-47dd-8341-ebc2e6144593"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[property]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="PropertyCategoryProviderProvider" mc="Standard.Interface" uid="0d0f2ea5-8e71-4e62-9777-36ebf8cf1cfd"/>
+        <COMPID name="PropertyListProcessor" mc="Standard.Interface" uid="f44f8d4f-8193-4426-872f-922642ea99da"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

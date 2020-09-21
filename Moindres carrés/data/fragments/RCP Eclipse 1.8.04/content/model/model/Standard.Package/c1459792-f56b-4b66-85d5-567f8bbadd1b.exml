@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="check" version="4">
+  <OBJECT>
+    <ID name="check" mc="Standard.Package" uid="c1459792-f56b-4b66-85d5-567f8bbadd1b"/>
+    <PID name="xz" mc="Standard.Package" uid="d95f0043-5157-46b7-a345-0537f210e6de"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[check]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="CRC32" mc="Standard.Class" uid="29f61a15-9c16-496d-894b-c2599b66781d"/>
+        <COMPID name="CRC64" mc="Standard.Class" uid="153928ae-3259-4123-af36-c1b4d80c6e2e"/>
+        <COMPID name="Check" mc="Standard.Class" uid="4595a7d2-b78e-49ec-91f4-8e823ac791ea"/>
+        <COMPID name="None" mc="Standard.Class" uid="21eb7c07-da56-400d-8d40-37a8d2556c3a"/>
+        <COMPID name="SHA256" mc="Standard.Class" uid="9f2f0a1e-a3bf-41c0-9c80-bd88235cf57d"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

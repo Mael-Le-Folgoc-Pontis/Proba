@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="rcp" version="4">
+  <OBJECT>
+    <ID name="rcp" mc="Standard.Package" uid="dff3e996-7fa5-4859-87f7-14f050b27e7c"/>
+    <PID name="models" mc="Standard.Package" uid="4c6da2a9-e653-40d7-b1bd-128424c5a090"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[rcp]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Constants" mc="Standard.Class" uid="471846e8-04df-4f90-a65b-bd863d5ed2ce"/>
+        <COMPID name="DependencyOverviewView" mc="Standard.Class" uid="60b47118-0420-4610-bc92-830ee750e46c"/>
+        <COMPID name="Dialogs" mc="Standard.Class" uid="3876e9a6-6b0c-4748-b872-9b7c25b8ea31"/>
+        <COMPID name="DownloadModelArchiveJob" mc="Standard.Class" uid="3e0f2bad-4649-492b-94c1-ee2aa740ffe8"/>
+        <COMPID name="EclipseModelIndex" mc="Standard.Class" uid="8ba396d5-9a93-49c6-8119-618d8737e5b7"/>
+        <COMPID name="EclipseModelRepository" mc="Standard.Class" uid="d620b268-c37c-4f1b-8a9e-99f09a5d028c"/>
+        <COMPID name="ModelRepositoriesView" mc="Standard.Class" uid="01479af8-f6ef-4a23-9d38-9aebf7277641"/>
+        <COMPID name="ModelsPreferencePage" mc="Standard.Class" uid="00199eaa-01ec-4412-babc-36802aee62cf"/>
+        <COMPID name="ModelsRcpModule" mc="Standard.Class" uid="c03464ed-78f9-4220-9e84-e7eac6dbdb09"/>
+        <COMPID name="ModelsRcpPreferences" mc="Standard.Class" uid="8590b4e9-3562-40fc-b5ba-f96c32d206fa"/>
+        <COMPID name="MultipleDownloadCallback" mc="Standard.Class" uid="3b39d083-44ff-4866-8ab2-cecfd5197f02"/>
+        <COMPID name="PreferenceInitializer" mc="Standard.Class" uid="3df0747b-df7c-4755-824f-e39741037ca4"/>
+        <COMPID name="PrefetchModelArchiveJob" mc="Standard.Class" uid="01d5fe42-f0cb-43c3-ab02-02bb956e3a70"/>
+        <COMPID name="ProjectCoordinateProvider" mc="Standard.Class" uid="114c126c-3c5f-474b-bcc3-39743357fa3a"/>
+        <COMPID name="ProjectCoordinateSelectionDialog" mc="Standard.Class" uid="31376eb3-8590-4367-9d16-19e7eadc6c54"/>
+        <COMPID name="l10n" mc="Standard.Package" uid="1aa9f8ee-5cc9-41fe-948d-207a5215acda"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,73 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="menu" version="4">
+  <OBJECT>
+    <ID name="menu" mc="Standard.Package" uid="0068c3b0-21a3-1fb1-8a9e-001e4fea2d8b"/>
+    <PID name="ui" mc="Standard.Package" uid="00598846-21a3-1fb1-8a9e-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[menu]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <OBJECT>
+          <ID name="ItemType" mc="Standard.Enumeration" uid="00851128-21a3-1fb1-8a9e-001e4fea2d8b"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[ItemType]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Extension">
+              <FOREIGNID name="JavaEnumeration" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0262-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <COMPID name="MDirectMenuItem" mc="Standard.Interface" uid="008c9c22-21a3-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="MDirectToolItem" mc="Standard.Interface" uid="006ac976-21a3-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="MDynamicMenuContribution" mc="Standard.Interface" uid="0007fd1e-0bc3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MHandledItem" mc="Standard.Interface" uid="00847ba0-21a3-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="MHandledMenuItem" mc="Standard.Interface" uid="00891160-21a3-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="MHandledToolItem" mc="Standard.Interface" uid="008c645a-21a3-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="MItem" mc="Standard.Interface" uid="008a523c-21a3-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="MMenu" mc="Standard.Interface" uid="00897ccc-21a3-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="MMenuContribution" mc="Standard.Interface" uid="00694240-21a3-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="MMenuContributions" mc="Standard.Interface" uid="006a994c-21a3-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="MMenuElement" mc="Standard.Interface" uid="008a1ca4-21a3-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="MMenuFactory" mc="Standard.Interface" uid="008d75ca-21a3-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="MMenuItem" mc="Standard.Interface" uid="008d3d6c-21a3-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="MMenuSeparator" mc="Standard.Interface" uid="006a0784-21a3-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="MOpaqueMenu" mc="Standard.Interface" uid="006bf990-21a3-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="MOpaqueMenuItem" mc="Standard.Interface" uid="008a895a-21a3-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="MOpaqueMenuSeparator" mc="Standard.Interface" uid="008af11a-21a3-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="MOpaqueToolItem" mc="Standard.Interface" uid="0090a7ea-21a3-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="MPopupMenu" mc="Standard.Interface" uid="008bc554-21a3-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="MRenderedMenu" mc="Standard.Interface" uid="006b6462-21a3-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="MRenderedMenuItem" mc="Standard.Interface" uid="0090e278-21a3-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="MRenderedToolBar" mc="Standard.Interface" uid="006d98e0-21a3-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="MToolBar" mc="Standard.Interface" uid="008868c8-21a3-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="MToolBarContribution" mc="Standard.Interface" uid="008b27ca-21a3-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="MToolBarContributions" mc="Standard.Interface" uid="006a68e6-21a3-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="MToolBarElement" mc="Standard.Interface" uid="006bc7ae-21a3-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="MToolBarSeparator" mc="Standard.Interface" uid="0068e12e-21a3-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="MToolControl" mc="Standard.Interface" uid="006cf976-21a3-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="MToolItem" mc="Standard.Interface" uid="0088020c-21a3-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="MTrimContribution" mc="Standard.Interface" uid="006c5d36-21a3-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="MTrimContributions" mc="Standard.Interface" uid="0069d840-21a3-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="impl" mc="Standard.Package" uid="006f488e-21a3-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="util" mc="Standard.Package" uid="008f17b8-21a3-1fb1-8a9e-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

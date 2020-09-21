@@ -1,0 +1,54 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="preference" version="4">
+  <OBJECT>
+    <ID name="preference" mc="Standard.Package" uid="0014abd6-21aa-1fb1-8a9e-001e4fea2d8b"/>
+    <PID name="jface" mc="Standard.Package" uid="006fc818-21a9-1fb1-8a9e-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[preference]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="BooleanFieldEditor" mc="Standard.Class" uid="001e6d60-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="BooleanPropertyAction" mc="Standard.Class" uid="00168faa-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ColorFieldEditor" mc="Standard.Class" uid="001c2dca-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ColorSelector" mc="Standard.Class" uid="001aa446-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ComboFieldEditor" mc="Standard.Class" uid="001637bc-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="DirectoryFieldEditor" mc="Standard.Class" uid="001fba62-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="FieldEditor" mc="Standard.Class" uid="001d4df4-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="FieldEditorPreferencePage" mc="Standard.Class" uid="001e98c6-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="FileFieldEditor" mc="Standard.Class" uid="00186cda-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="FontFieldEditor" mc="Standard.Class" uid="0018c540-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="IPersistentPreferenceStore" mc="Standard.Interface" uid="001f29a8-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="IPreferenceNode" mc="Standard.Interface" uid="00199f06-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="IPreferencePage" mc="Standard.Interface" uid="001cbe52-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="IPreferencePageContainer" mc="Standard.Interface" uid="00184606-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="IPreferenceStore" mc="Standard.Interface" uid="0014c8d2-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="IntegerFieldEditor" mc="Standard.Class" uid="00151f1c-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="JFacePreferences" mc="Standard.Class" uid="001a1f6c-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ListEditor" mc="Standard.Class" uid="0020448c-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="PathEditor" mc="Standard.Class" uid="0020d320-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="PreferenceContentProvider" mc="Standard.Class" uid="001b03dc-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="PreferenceConverter" mc="Standard.Class" uid="001a47da-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="PreferenceDialog" mc="Standard.Class" uid="001b2d1c-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="PreferenceLabelProvider" mc="Standard.Class" uid="0020180e-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="PreferenceManager" mc="Standard.Class" uid="0020a594-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="PreferenceNode" mc="Standard.Class" uid="001e1108-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="PreferencePage" mc="Standard.Class" uid="00177910-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="PreferenceStore" mc="Standard.Class" uid="001f54dc-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="RadioGroupFieldEditor" mc="Standard.Class" uid="001720dc-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ScaleFieldEditor" mc="Standard.Class" uid="0019c5f8-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="StringButtonFieldEditor" mc="Standard.Class" uid="0015aa0e-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="StringFieldEditor" mc="Standard.Class" uid="001db438-21aa-1fb1-8a9e-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

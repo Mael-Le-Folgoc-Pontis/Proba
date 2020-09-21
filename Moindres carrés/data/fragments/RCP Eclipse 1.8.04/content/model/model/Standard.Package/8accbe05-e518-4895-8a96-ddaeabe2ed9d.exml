@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="net" version="4">
+  <OBJECT>
+    <ID name="net" mc="Standard.Package" uid="8accbe05-e518-4895-8a96-ddaeabe2ed9d"/>
+    <PID name="classic" mc="Standard.Package" uid="099ea9e4-dcb1-486e-adcd-be4022ab5d8a"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[net]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="JMSQueueAppender" mc="Standard.Class" uid="105a2fbb-0298-45c7-a791-a9eb4c650cb6"/>
+        <COMPID name="JMSQueueSink" mc="Standard.Class" uid="83731325-0f7e-4f69-8bcf-ac6a511cbb4c"/>
+        <COMPID name="JMSTopicAppender" mc="Standard.Class" uid="2646565f-a50f-422b-aa78-4a0565993022"/>
+        <COMPID name="JMSTopicSink" mc="Standard.Class" uid="f9d67d6e-bf85-4750-8451-6a91645813b7"/>
+        <COMPID name="LoggingEventPreSerializationTransformer" mc="Standard.Class" uid="5f91ff95-aeaf-454b-9c9a-81b0f8ac8a64"/>
+        <COMPID name="SMTPAppender" mc="Standard.Class" uid="25edb974-1f8a-425b-8fa8-1993fa216e77"/>
+        <COMPID name="SimpleSocketServer" mc="Standard.Class" uid="4c885377-f341-419e-9945-2160d0dfcacb"/>
+        <COMPID name="SocketAppender" mc="Standard.Class" uid="8f25abfd-f7a9-4817-8978-3336000287e2"/>
+        <COMPID name="SocketNode" mc="Standard.Class" uid="0ecabe28-104f-4736-80ed-08ddffdbb8c0"/>
+        <COMPID name="SyslogAppender" mc="Standard.Class" uid="209a64a1-6997-4cf1-8e75-ba6d6893481c"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="description" version="4">
+  <OBJECT>
+    <ID name="description" mc="Standard.Package" uid="3e035e47-468a-45c3-b444-66e299b6934d"/>
+    <PID name="variable" mc="Standard.Package" uid="e04217bd-05fa-4e2d-b0d4-2ec00497acc3"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[description]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="FieldInitializerVariableDescription" mc="Standard.Class" uid="26249e68-4e74-44c9-805e-7933a8bfa0db"/>
+        <COMPID name="FieldUniqueVariableDescription" mc="Standard.Class" uid="5e06f41d-3472-48a4-a1f2-bc513eae3f47"/>
+        <COMPID name="LazyVariableDescription" mc="Standard.Class" uid="897bc5bc-8089-4f94-8a2c-e8bc8687540a"/>
+        <COMPID name="LocalUniqueVariableDescription" mc="Standard.Class" uid="49ac8871-fc57-4c99-8d97-9250e46b731b"/>
+        <COMPID name="VariableSupportDescription" mc="Standard.Class" uid="f18b5174-b685-47e4-8ced-c7dcdc0e984d"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

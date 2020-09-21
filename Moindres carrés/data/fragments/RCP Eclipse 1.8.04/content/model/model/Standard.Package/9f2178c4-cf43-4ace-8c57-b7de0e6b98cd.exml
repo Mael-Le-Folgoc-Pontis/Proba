@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="event" version="4">
+  <OBJECT>
+    <ID name="event" mc="Standard.Package" uid="9f2178c4-cf43-4ace-8c57-b7de0e6b98cd"/>
+    <PID name="service" mc="Standard.Package" uid="2dac8d0c-dcc0-4044-aa9a-81a1bbc04d5c"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[event]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Event" mc="Standard.Class" uid="68585c7e-5555-4c12-99a8-805ad4ffc04c"/>
+        <COMPID name="EventAdmin" mc="Standard.Class" uid="b2225252-5abb-48b6-ad2b-7cc148bd1c75"/>
+        <COMPID name="EventConstants" mc="Standard.Class" uid="01b0ab4a-8994-4ab1-b4c1-775366745847"/>
+        <COMPID name="EventHandler" mc="Standard.Class" uid="f6455c31-9bdd-415b-85b7-1523080f6654"/>
+        <COMPID name="EventProperties" mc="Standard.Class" uid="1d662abe-e488-4cce-9919-2ebf679b9588"/>
+        <COMPID name="TopicPermission" mc="Standard.Class" uid="e55f6e19-e659-423f-8755-983b0d6b4373"/>
+        <COMPID name="TopicPermissionCollection" mc="Standard.Class" uid="3a7dacda-c12e-44a1-971f-6a0268a409c9"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

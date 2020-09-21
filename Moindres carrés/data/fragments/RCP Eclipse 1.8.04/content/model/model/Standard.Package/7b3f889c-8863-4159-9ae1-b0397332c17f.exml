@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="block" version="4">
+  <OBJECT>
+    <ID name="block" mc="Standard.Package" uid="7b3f889c-8863-4159-9ae1-b0397332c17f"/>
+    <PID name="statement" mc="Standard.Package" uid="4f5e4c38-3efb-4d9b-be2d-0140aad50517"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[block]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="BlockStatementGenerator" mc="Standard.Class" uid="aa144570-71a3-483f-b50c-93d204a0cd2a"/>
+        <COMPID name="BlockStatementGeneratorDescription" mc="Standard.Class" uid="7d994e88-6e60-46e5-9c51-79a317637ee6"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="swing" version="4">
+  <OBJECT>
+    <ID name="swing" mc="Standard.Package" uid="9830b5a7-65f5-42f6-9ec2-f443714086a1"/>
+    <PID name="internal" mc="Standard.Package" uid="efd1705e-9873-44b5-89c8-1d38f8c42128"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[swing]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Activator" mc="Standard.Class" uid="01705235-f140-40b7-93ef-4e2df02374cf"/>
+        <COMPID name="DescriptionProcessor" mc="Standard.Class" uid="7067d9ad-4e6e-4716-b2ec-5f539212fd7e"/>
+        <COMPID name="FormLayout" mc="Standard.Package" uid="1ce9f9da-84a1-4566-b9e8-8437f177b8cb"/>
+        <COMPID name="IExceptionConstants" mc="Standard.Interface" uid="312a45d4-64b2-4e0c-a627-850376bbf3e9"/>
+        <COMPID name="MigLayout" mc="Standard.Package" uid="9b73b0c7-6cc5-4190-80b8-f374ae6caef8"/>
+        <COMPID name="SwingToolkitDescription" mc="Standard.Class" uid="c69deb59-98be-46ca-9a2d-1720042d69e2"/>
+        <COMPID name="ToolkitProvider" mc="Standard.Class" uid="2fd2b420-01a7-4644-9a1b-20e5008e6f02"/>
+        <COMPID name="customize" mc="Standard.Package" uid="ce212424-b4c7-48ad-92ba-2754c3234ab9"/>
+        <COMPID name="databinding" mc="Standard.Package" uid="2020b410-f797-4367-8de6-59066bdc248a"/>
+        <COMPID name="gef" mc="Standard.Package" uid="06fb9e8f-91c7-48c4-95ec-fc11974fa640"/>
+        <COMPID name="gefTree" mc="Standard.Package" uid="3ad157e7-571f-4919-818f-02cb19542d03"/>
+        <COMPID name="java6" mc="Standard.Package" uid="c664da00-83cb-468b-9ec4-0b349808064e"/>
+        <COMPID name="jsr296" mc="Standard.Package" uid="c7580afc-14fa-469f-8b88-733512ef7df3"/>
+        <COMPID name="laf" mc="Standard.Package" uid="1b88f26e-fa15-41a5-b9c1-f968b57b06e9"/>
+        <COMPID name="model" mc="Standard.Package" uid="883cd59f-2e24-40f1-a91a-50e8d4bef3b3"/>
+        <COMPID name="palette" mc="Standard.Package" uid="14aafefa-3afe-40a1-987c-bd0eeaa8a163"/>
+        <COMPID name="parser" mc="Standard.Package" uid="ddb4d03b-2530-43af-807f-c801ddb4cd3f"/>
+        <COMPID name="preferences" mc="Standard.Package" uid="10ff8b24-c21c-4a8e-9e77-f3fc87811605"/>
+        <COMPID name="swingx" mc="Standard.Package" uid="e53bcfa1-15bc-47a6-81a0-51f3eadb84c0"/>
+        <COMPID name="utils" mc="Standard.Package" uid="bc00000a-99ff-4d82-accc-3fcfad1e8b44"/>
+        <COMPID name="wizards" mc="Standard.Package" uid="bad8f2d1-5748-4cd1-9baa-90b367d859fe"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

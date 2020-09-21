@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="helpers" version="4">
+  <OBJECT>
+    <ID name="helpers" mc="Standard.Package" uid="0b0974cd-a8d7-4561-b596-bdf15c23190d"/>
+    <PID name="resolver" mc="Standard.Package" uid="9f9ec4d6-1973-473d-b978-eedb1b037a17"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[helpers]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="BootstrapResolver" mc="Standard.Class" uid="c04efc09-f05c-42fc-959a-a02a88b6333c"/>
+        <COMPID name="Debug" mc="Standard.Class" uid="0e5e2668-d99d-4c6a-8a10-82e4ace875c4"/>
+        <COMPID name="FileURL" mc="Standard.Class" uid="623c370d-8762-4dd6-bbc2-008ebd4a92f4"/>
+        <COMPID name="Namespaces" mc="Standard.Class" uid="de9ced8c-14a1-4f9b-b736-d27682971f4a"/>
+        <COMPID name="PublicId" mc="Standard.Class" uid="0f955cb7-2803-485d-b3d3-1659b9f60dc1"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

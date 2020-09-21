@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="propertypage" version="4">
+  <OBJECT>
+    <ID name="propertypage" mc="Standard.Package" uid="92a08563-37c1-4abc-a0ab-3ab9cafab380"/>
+    <PID name="internal" mc="Standard.Package" uid="346be667-ef0f-470a-b25e-ba36a344b1d0"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[propertypage]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AddFolderDialog" mc="Standard.Class" uid="3c526638-aa88-4497-89e4-0dc8e3d27be5"/>
+        <COMPID name="ComponentDependencyContentProvider" mc="Standard.Class" uid="9d011942-5b9a-4310-9db5-02fc1bc89144"/>
+        <COMPID name="DependencyPageExtensionManager" mc="Standard.Class" uid="af6fc831-3b2a-4a0b-bb1a-d58e9108229e"/>
+        <COMPID name="FolderMappingWizardFragment" mc="Standard.Class" uid="2e78ceb3-c9f7-4b8c-93d0-ecaf27d535ae"/>
+        <COMPID name="IReferenceEditor" mc="Standard.Interface" uid="0cf0d998-148f-4846-ab70-3b66e2b80f31"/>
+        <COMPID name="IVirtualComponentLabelProvider" mc="Standard.Interface" uid="17484f1b-0892-4740-993a-fa253de8034a"/>
+        <COMPID name="NewReferenceRootWizardFragment" mc="Standard.Class" uid="da7ff80e-0111-4f62-a1aa-abba45b1e9b8"/>
+        <COMPID name="NewReferenceWizard" mc="Standard.Class" uid="c828a435-2f9a-4866-a4c3-aef7225ec175"/>
+        <COMPID name="ProjectReferenceWizardFragment" mc="Standard.Class" uid="34c4a067-f8e7-43c7-a093-770c61744189"/>
+        <COMPID name="ResourceMappingFilterExtensionRegistry" mc="Standard.Class" uid="856c1fda-20b0-4072-9beb-859910cc1776"/>
+        <COMPID name="verifier" mc="Standard.Package" uid="eb3d1f6a-053e-4bc0-97f9-2005d611aeb1"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

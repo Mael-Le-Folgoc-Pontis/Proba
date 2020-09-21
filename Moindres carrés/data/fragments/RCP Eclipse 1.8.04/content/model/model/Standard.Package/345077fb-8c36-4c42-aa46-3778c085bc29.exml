@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="dialect" version="4">
+  <OBJECT>
+    <ID name="dialect" mc="Standard.Package" uid="345077fb-8c36-4c42-aa46-3778c085bc29"/>
+    <PID name="db" mc="Standard.Package" uid="da8c41e6-1486-4f49-bbbf-e2d15dbcf593"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[dialect]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="DBUtil" mc="Standard.Class" uid="517daca0-bebb-46de-9715-f4bd076254b4"/>
+        <COMPID name="H2Dialect" mc="Standard.Class" uid="d57ce1da-7d94-4522-b383-cc9749ca6b5f"/>
+        <COMPID name="HSQLDBDialect" mc="Standard.Class" uid="cbe24db6-0476-4565-a402-c95d5424d826"/>
+        <COMPID name="MsSQLDialect" mc="Standard.Class" uid="7ec79fc2-afb7-4a2c-8868-22eb62e2f4b8"/>
+        <COMPID name="MySQLDialect" mc="Standard.Class" uid="37070a9c-4bb3-445b-92e6-45c9c0303ea3"/>
+        <COMPID name="OracleDialect" mc="Standard.Class" uid="6dac1740-1a6e-4c64-923c-a294b1c9aa50"/>
+        <COMPID name="PostgreSQLDialect" mc="Standard.Class" uid="21daa0f1-8681-4c4c-b925-f4069ff6b512"/>
+        <COMPID name="SQLDialect" mc="Standard.Interface" uid="e678859a-d29d-49f1-b424-e959cd491af8"/>
+        <OBJECT>
+          <ID name="SQLDialectCode" mc="Standard.Enumeration" uid="4b3d3af0-ee43-4fe0-bb4d-213007f047a4"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[SQLDialectCode]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Extension">
+              <FOREIGNID name="JavaEnumeration" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0262-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <COMPID name="SQLiteDialect" mc="Standard.Class" uid="d6447e40-388b-48b9-a0ef-ff8e6944ee0d"/>
+        <COMPID name="SybaseSqlAnywhereDialect" mc="Standard.Class" uid="9ef36ac5-e068-4f08-83de-17a1ebecf96f"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

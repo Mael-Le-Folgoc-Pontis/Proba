@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="simple" version="4">
+  <OBJECT>
+    <ID name="simple" mc="Standard.Package" uid="007d1f18-d4f2-111c-bc9b-001e4fea2d8b"/>
+    <PID name="repository" mc="Standard.Package" uid="007bc776-d4f2-111c-bc9b-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[simple]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="BlobStore" mc="Standard.Class" uid="007e3c5e-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="DownloadJob" mc="Standard.Class" uid="007d3d72-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="KeyIndex" mc="Standard.Class" uid="007d6590-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="Mapper" mc="Standard.Class" uid="007d517c-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="SimpleArtifactDescriptor" mc="Standard.Class" uid="007e5180-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="SimpleArtifactRepository" mc="Standard.Class" uid="007e66a2-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="SimpleArtifactRepositoryFactory" mc="Standard.Class" uid="007d2968-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="SimpleArtifactRepositoryIO" mc="Standard.Class" uid="007d7a08-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="UniversalUniqueIdentifier" mc="Standard.Class" uid="007e9348-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="XZedSimpleArtifactRepositoryFactory" mc="Standard.Class" uid="dff28cb4-4522-4d9b-96fc-f3e782a9f462"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

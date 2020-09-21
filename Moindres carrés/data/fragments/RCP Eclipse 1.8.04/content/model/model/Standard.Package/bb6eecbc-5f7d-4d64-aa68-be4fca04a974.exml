@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="actions" version="4">
+  <OBJECT>
+    <ID name="actions" mc="Standard.Package" uid="bb6eecbc-5f7d-4d64-aa68-be4fca04a974"/>
+    <PID name="internal" mc="Standard.Package" uid="8dac5e70-eadd-4ac5-9e61-066073002452"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[actions]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractCommentActionXMLDelegate" mc="Standard.Class" uid="7f14e7e1-9453-48ed-b20c-3f1ed235ff7d"/>
+        <COMPID name="AbstractNodeActionManager" mc="Standard.Class" uid="41619a49-49f7-4f28-9826-8f556ccfaec1"/>
+        <COMPID name="ActionContributorXML" mc="Standard.Class" uid="99fa52e3-2cc5-43e0-97e3-f13f826fdd28"/>
+        <COMPID name="AddBlockCommentActionXMLDelegate" mc="Standard.Class" uid="608a8719-6281-44d0-a990-2a731c2d5aca"/>
+        <COMPID name="BaseNodeActionManager" mc="Standard.Class" uid="2e85c3ec-9d18-4fc3-a597-f181d89cf933"/>
+        <COMPID name="CleanupActionXMLDelegate" mc="Standard.Class" uid="cddc6a25-e878-4d5d-a5e5-b1594db776e5"/>
+        <COMPID name="CleanupDialogXML" mc="Standard.Class" uid="75e8f7c4-2274-4755-b2b9-959ab396c4ea"/>
+        <COMPID name="EditAttributeAction" mc="Standard.Class" uid="0c3c6746-ba96-46e5-81ed-968864c17bdf"/>
+        <COMPID name="EditDoctypeAction" mc="Standard.Class" uid="e2cb8d9a-434f-4377-ad28-2d8ef4d99f05"/>
+        <COMPID name="EditElementAction" mc="Standard.Class" uid="919216fd-c081-4d90-a170-d676683726b5"/>
+        <COMPID name="EditProcessingInstructionAction" mc="Standard.Class" uid="bff56d1b-db2b-40dd-a8ed-d24c85aff9a9"/>
+        <COMPID name="EditSchemaInfoAction" mc="Standard.Class" uid="af49fa36-a9ec-4c97-8afd-20ed167e163c"/>
+        <COMPID name="MenuBuilder" mc="Standard.Class" uid="7c7d37be-e694-4cd7-b229-ac227a3747a6"/>
+        <COMPID name="NodeAction" mc="Standard.Class" uid="6cd4744a-b218-41c0-96b7-0e3fa5e6509a"/>
+        <COMPID name="RemoveBlockCommentActionXMLDelegate" mc="Standard.Class" uid="d6fd65b0-dc2b-42eb-96a8-22bb64f44d76"/>
+        <COMPID name="ReplacePrefixAction" mc="Standard.Class" uid="822859a6-6af2-454b-ba47-02060b48dbe4"/>
+        <COMPID name="ToggleCommentActionXMLDelegate" mc="Standard.Class" uid="397015b2-33dc-4fcd-9f0d-c96064379cbb"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

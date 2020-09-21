@@ -1,0 +1,76 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="gtk" version="4">
+  <OBJECT>
+    <ID name="gtk" mc="Standard.Package" uid="0002dbb8-21a2-1fb1-8a9e-001e4fea2d8b"/>
+    <PID name="internal" mc="Standard.Package" uid="005398b4-21a0-1fb1-8a9e-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[gtk]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="GInterfaceInfo" mc="Standard.Class" uid="000461cc-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="GObjectClass" mc="Standard.Class" uid="000e6ece-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="GTypeInfo" mc="Standard.Class" uid="0009d940-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="GTypeQuery" mc="Standard.Class" uid="000ee138-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="GdkColor" mc="Standard.Class" uid="00034ddc-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="GdkDragContext" mc="Standard.Class" uid="000d208c-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="GdkEvent" mc="Standard.Class" uid="000b0de2-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="GdkEventAny" mc="Standard.Class" uid="000b7660-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="GdkEventButton" mc="Standard.Class" uid="000d5750-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="GdkEventCrossing" mc="Standard.Class" uid="0005d408-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="GdkEventExpose" mc="Standard.Class" uid="000377da-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="GdkEventFocus" mc="Standard.Class" uid="000dfd2c-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="GdkEventKey" mc="Standard.Class" uid="000518ec-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="GdkEventMotion" mc="Standard.Class" uid="0003d75c-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="GdkEventProperty" mc="Standard.Class" uid="0007858c-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="GdkEventScroll" mc="Standard.Class" uid="000722fe-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="GdkEventVisibility" mc="Standard.Class" uid="00066288-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="GdkEventWindowState" mc="Standard.Class" uid="0008dd24-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="GdkGCValues" mc="Standard.Class" uid="000c14c6-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="GdkGeometry" mc="Standard.Class" uid="000b41ae-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="GdkImage" mc="Standard.Class" uid="0008ac28-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="GdkRGBA" mc="Standard.Class" uid="001cc0b4-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="GdkRectangle" mc="Standard.Class" uid="0007e89c-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="GdkVisual" mc="Standard.Class" uid="000ea876-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="GdkWindowAttr" mc="Standard.Class" uid="000dc546-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="GtkAdjustment" mc="Standard.Class" uid="0006f39c-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="GtkAllocation" mc="Standard.Class" uid="000ce9f0-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="GtkBorder" mc="Standard.Class" uid="000323f2-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="GtkCellRendererClass" mc="Standard.Class" uid="00057986-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="GtkColorSelectionDialog" mc="Standard.Class" uid="00094232-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="GtkFixed" mc="Standard.Class" uid="0009a678-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="GtkRequisition" mc="Standard.Class" uid="00097496-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="GtkSelectionData" mc="Standard.Class" uid="000e365c-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="GtkTargetEntry" mc="Standard.Class" uid="000f8f8e-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="GtkWidgetClass" mc="Standard.Class" uid="000f55a0-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="OS" mc="Standard.Class" uid="000ad8d6-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="PangoAttrColor" mc="Standard.Class" uid="000bac8e-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="PangoAttrInt" mc="Standard.Class" uid="000d8ea0-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="PangoAttribute" mc="Standard.Class" uid="000c4a9a-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="PangoItem" mc="Standard.Class" uid="000fca1c-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="PangoLayoutLine" mc="Standard.Class" uid="000f1a9a-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="PangoLayoutRun" mc="Standard.Class" uid="0004349a-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="PangoLogAttr" mc="Standard.Class" uid="00087b22-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="PangoRectangle" mc="Standard.Class" uid="0002f922-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="XAnyEvent" mc="Standard.Class" uid="000c8028-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="XClientMessageEvent" mc="Standard.Class" uid="00063466-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="XCrossingEvent" mc="Standard.Class" uid="000818d0-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="XEvent" mc="Standard.Class" uid="001004f0-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="XExposeEvent" mc="Standard.Class" uid="000a0b86-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="XFocusChangeEvent" mc="Standard.Class" uid="0004b974-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="XRenderPictureAttributes" mc="Standard.Class" uid="00048d82-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="XVisibilityEvent" mc="Standard.Class" uid="000a730a-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="XWindowChanges" mc="Standard.Class" uid="0005a6b8-21a2-1fb1-8a9e-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

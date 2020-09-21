@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="nonvisual" version="4">
+  <OBJECT>
+    <ID name="nonvisual" mc="Standard.Package" uid="41d6dea9-b6bf-47a4-abca-925900045227"/>
+    <PID name="part" mc="Standard.Package" uid="0667893c-4e8a-4744-ab12-8379f4d170f8"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[nonvisual]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ArrayObjectEditPart" mc="Standard.Class" uid="fceb5448-f6f7-4c8b-93c2-941f21a63b71"/>
+        <COMPID name="BeanFigure" mc="Standard.Class" uid="76481550-234e-47e4-b96f-cd827923f89b"/>
+        <COMPID name="NonVisualBeanEditPart" mc="Standard.Class" uid="1e6b1be6-a6c4-4ab5-b07a-18bf74dbc76f"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

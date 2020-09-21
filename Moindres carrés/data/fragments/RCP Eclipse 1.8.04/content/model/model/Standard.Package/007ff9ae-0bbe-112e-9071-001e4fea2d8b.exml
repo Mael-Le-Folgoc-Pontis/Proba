@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="optional" version="4">
+  <OBJECT>
+    <ID name="optional" mc="Standard.Package" uid="007ff9ae-0bbe-112e-9071-001e4fea2d8b"/>
+    <PID name="types" mc="Standard.Package" uid="007b631c-0bbe-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[optional]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractScriptComponent" mc="Standard.Class" uid="0080002a-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ScriptCondition" mc="Standard.Class" uid="0080076e-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ScriptFilter" mc="Standard.Class" uid="00800f02-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ScriptMapper" mc="Standard.Class" uid="00801696-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ScriptSelector" mc="Standard.Class" uid="00801e5c-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="depend" mc="Standard.Package" uid="0080eefe-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="image" mc="Standard.Package" uid="0081e69c-0bbe-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

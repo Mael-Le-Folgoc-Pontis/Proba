@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="AuthorizationHandler" version="4">
+  <OBJECT>
+    <ID name="AuthorizationHandler" mc="Standard.Interface" uid="4582a5de-0af2-47f6-b0ee-42d07ff50751"/>
+    <PID name="ECFURIHandlerImpl" mc="Standard.Class" uid="3cf55ed2-f91f-479c-873b-2d0e4dd61afb"/>
+    <ATTRIBUTES>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">true</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[AuthorizationHandler]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Authorization" mc="Standard.Class" uid="11b79a9d-30d8-4e02-b8fd-d010656fb2f7"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaInterface" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0267-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

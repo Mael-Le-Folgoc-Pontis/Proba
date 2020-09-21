@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="configurator" version="4">
+  <OBJECT>
+    <ID name="configurator" mc="Standard.Package" uid="f06cbf25-e60b-4df6-9fe9-e9286c6faeb1"/>
+    <PID name="component" mc="Standard.Package" uid="bead50b4-e321-489c-83c8-2415dda59007"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[configurator]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractComponentConfigurator" mc="Standard.Class" uid="a42338fd-133b-4ed1-b1dd-00c300d74d26"/>
+        <COMPID name="BasicComponentConfigurator" mc="Standard.Class" uid="83bfa0a4-fb2b-4a19-a684-fcb5c7ab27e5"/>
+        <COMPID name="ComponentConfigurationException" mc="Standard.Class" uid="f06a8dea-7e02-4806-bc6b-aa433569195c"/>
+        <COMPID name="ComponentConfigurator" mc="Standard.Interface" uid="803c42f4-910d-43de-a1c7-6aaa6deae65f"/>
+        <COMPID name="ConfigurationListener" mc="Standard.Interface" uid="f0a7c966-f90c-4551-abdb-7754a358d9bf"/>
+        <COMPID name="MapOrientedComponentConfigurator" mc="Standard.Class" uid="43dba482-e7e6-4e79-8d96-dd64c5c560a9"/>
+        <COMPID name="converters" mc="Standard.Package" uid="5a8c2bad-004b-46cf-a1bd-f2356d7b2c3b"/>
+        <COMPID name="expression" mc="Standard.Package" uid="644eee9b-4984-4a45-b5e2-78dea790e9e9"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

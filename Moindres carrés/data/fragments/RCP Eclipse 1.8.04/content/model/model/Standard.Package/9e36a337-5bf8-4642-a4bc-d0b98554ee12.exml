@@ -1,0 +1,51 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="plexus" version="4">
+  <OBJECT>
+    <ID name="plexus" mc="Standard.Package" uid="9e36a337-5bf8-4642-a4bc-d0b98554ee12"/>
+    <PID name="sisu" mc="Standard.Package" uid="0a5c5b50-eae1-4aa8-a519-6342fb96ace3"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[plexus]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ClassRealmManager" mc="Standard.Class" uid="f1f32067-300a-422b-9eda-679fc25a6abd"/>
+        <COMPID name="ComponentDescriptorBeanModule" mc="Standard.Class" uid="1c8b5414-201c-4d13-95b3-3bad9294ec92"/>
+        <COMPID name="ComponentImpl" mc="Standard.Class" uid="7e2fec7b-3fd1-46e6-b367-87cfb1b079de"/>
+        <COMPID name="CompositeBeanHelper" mc="Standard.Class" uid="8a265594-5cd7-42d1-9530-13fb073edc17"/>
+        <COMPID name="ConfigurationImpl" mc="Standard.Class" uid="b0d91480-2ce3-411f-a9e2-f5b79eaa9ff6"/>
+        <COMPID name="DefaultPlexusBeanLocator" mc="Standard.Class" uid="8348b170-c502-4eb4-ae87-0c5ad8074a59"/>
+        <COMPID name="Hints" mc="Standard.Class" uid="20cc2c40-2f1a-41b6-b1c5-19fb9b49e46c"/>
+        <COMPID name="PlexusAnnotatedBeanModule" mc="Standard.Class" uid="d6272c18-3487-40fb-8127-ef9e3bc904ec"/>
+        <COMPID name="PlexusAnnotatedMetadata" mc="Standard.Class" uid="86c53922-6aba-4574-b105-5176738cfcb1"/>
+        <COMPID name="PlexusBean" mc="Standard.Interface" uid="a0033e93-bc76-4782-9c22-94346a9478dc"/>
+        <COMPID name="PlexusBeanConverter" mc="Standard.Interface" uid="a437c8fd-75f0-4450-b16a-5f86f6ad5b0c"/>
+        <COMPID name="PlexusBeanLocator" mc="Standard.Interface" uid="ba30549c-0e75-4936-8df6-0bff2c7edfc9"/>
+        <COMPID name="PlexusBeanMetadata" mc="Standard.Interface" uid="53836949-4ab0-4efb-87d5-93f48382886f"/>
+        <COMPID name="PlexusBeanModule" mc="Standard.Interface" uid="0a820f73-0bf4-4914-abac-ad4f51c42877"/>
+        <COMPID name="PlexusBeanSource" mc="Standard.Interface" uid="4cfdc908-3f16-45ce-a5a7-197c97020e4c"/>
+        <COMPID name="PlexusBindingModule" mc="Standard.Class" uid="7059a752-7e76-4075-ac9d-a90485c8e3e6"/>
+        <COMPID name="PlexusBundlePlan" mc="Standard.Class" uid="ea29ea2b-4656-477a-82ba-444e01c5ef84"/>
+        <COMPID name="PlexusDateTypeConverter" mc="Standard.Class" uid="32c690dd-315b-44c6-b31f-f974febe5cda"/>
+        <COMPID name="PlexusLifecycleManager" mc="Standard.Class" uid="90de5a58-a4e7-443d-8879-a0abbee03ed9"/>
+        <COMPID name="PlexusSpaceModule" mc="Standard.Class" uid="fe1acefa-46ea-4baa-a26c-00e76f0fc04c"/>
+        <COMPID name="PlexusTypeBinder" mc="Standard.Class" uid="2c5cb0eb-f25e-42ce-ad7e-5aa4b97d72c3"/>
+        <COMPID name="PlexusTypeListener" mc="Standard.Interface" uid="105b9d47-7a5b-47ed-a13c-c30b4e626cdc"/>
+        <COMPID name="PlexusTypeVisitor" mc="Standard.Class" uid="ef98e76c-ac96-4617-812e-e27724b98f67"/>
+        <COMPID name="PlexusXmlBeanConverter" mc="Standard.Class" uid="0686307e-e832-4f8f-98e2-2a0bb5c1e115"/>
+        <COMPID name="PlexusXmlBeanModule" mc="Standard.Class" uid="0c45fc32-1228-42dc-a2e5-e07146d7485e"/>
+        <COMPID name="RequirementImpl" mc="Standard.Class" uid="4a8ef5fe-604f-4024-ab92-162b1969d50d"/>
+        <COMPID name="Roles" mc="Standard.Class" uid="cbee06a2-08a5-41b6-a5fe-22d8f30c8c60"/>
+        <COMPID name="Strategies" mc="Standard.Interface" uid="7345d10c-b35c-41ba-9295-f8a004988eb8"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

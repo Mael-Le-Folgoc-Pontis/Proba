@@ -1,0 +1,71 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="core" version="4">
+  <OBJECT>
+    <ID name="core" mc="Standard.Package" uid="007c49a8-0bd3-112e-9071-001e4fea2d8b"/>
+    <PID name="ccvs" mc="Standard.Package" uid="007b7a82-0bd3-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[core]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="CVSAnnotateBlock" mc="Standard.Class" uid="007c5024-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CVSCompareSubscriber" mc="Standard.Class" uid="007c5646-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CVSCoreFileModificationValidator" mc="Standard.Class" uid="007c5ca4-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CVSException" mc="Standard.Class" uid="007c637a-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CVSMergeSubscriber" mc="Standard.Class" uid="007c6a0a-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CVSMergeSyncInfo" mc="Standard.Class" uid="007c7716-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CVSMessages" mc="Standard.Class" uid="007c7e00-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CVSProjectSetCapability" mc="Standard.Class" uid="007c8562-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CVSProviderPlugin" mc="Standard.Class" uid="007c9aca-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CVSRepositoryLocationMatcher" mc="Standard.Class" uid="007ca2a4-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CVSResourceRuleFactory" mc="Standard.Class" uid="007caaa6-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CVSRevisionNumberCompareCriteria" mc="Standard.Class" uid="007cb2da-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CVSStatus" mc="Standard.Class" uid="007cbb0e-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CVSSyncInfo" mc="Standard.Class" uid="007cc39c-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CVSSyncTreeSubscriber" mc="Standard.Class" uid="007ccc5c-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CVSTag" mc="Standard.Class" uid="007cdaee-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CVSTeamProvider" mc="Standard.Class" uid="007ce41c-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CVSTeamProviderType" mc="Standard.Class" uid="007ced4a-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CVSWorkspaceSubscriber" mc="Standard.Class" uid="007d0500-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="EditorsInfo" mc="Standard.Class" uid="007d0ee2-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ICVSDecoratorEnablementListener" mc="Standard.Interface" uid="007d14be-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ICVSFile" mc="Standard.Interface" uid="007d1b8a-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ICVSFileModificationValidator" mc="Standard.Interface" uid="007d226a-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ICVSFolder" mc="Standard.Interface" uid="007d2940-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ICVSListener" mc="Standard.Interface" uid="007d307a-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ICVSRemoteFile" mc="Standard.Interface" uid="007d37f0-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ICVSRemoteFolder" mc="Standard.Interface" uid="007d3f8e-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ICVSRemoteResource" mc="Standard.Interface" uid="007d4722-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ICVSRepositoryLocation" mc="Standard.Interface" uid="007d4f1a-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ICVSResource" mc="Standard.Interface" uid="007d574e-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ICVSResourceVisitor" mc="Standard.Interface" uid="007d5f78-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ICVSRunnable" mc="Standard.Interface" uid="007d6806-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ICVSStorage" mc="Standard.Interface" uid="007d70bc-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IConnectionMethod" mc="Standard.Interface" uid="007d7972-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ILogEntry" mc="Standard.Interface" uid="007d828c-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IResourceStateChangeListener" mc="Standard.Interface" uid="007d8c14-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IServerConnection" mc="Standard.Interface" uid="007d959c-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IUserAuthenticator" mc="Standard.Interface" uid="007d9f42-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IUserInfo" mc="Standard.Interface" uid="007da92e-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Policy" mc="Standard.Class" uid="007db392-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="client" mc="Standard.Package" uid="007e9366-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="connection" mc="Standard.Package" uid="0083fd9c-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="filehistory" mc="Standard.Package" uid="00853734-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="filesystem" mc="Standard.Package" uid="00865632-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="mapping" mc="Standard.Package" uid="00878cfa-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="resources" mc="Standard.Package" uid="0088cd36-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="syncinfo" mc="Standard.Package" uid="008aa82c-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="util" mc="Standard.Package" uid="008c2a58-0bd3-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

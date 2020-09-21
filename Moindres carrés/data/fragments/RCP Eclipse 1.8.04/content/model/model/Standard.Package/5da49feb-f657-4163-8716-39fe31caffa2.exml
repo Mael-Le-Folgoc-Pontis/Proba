@@ -1,0 +1,69 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="spdy" version="4">
+  <OBJECT>
+    <ID name="spdy" mc="Standard.Package" uid="5da49feb-f657-4163-8716-39fe31caffa2"/>
+    <PID name="internal" mc="Standard.Package" uid="c06e71f3-4720-4368-b503-adc3524dc62e"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[spdy]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <OBJECT>
+          <ID name="ErrorCode" mc="Standard.Enumeration" uid="245d7c50-a079-4084-a08b-f21061d8f257"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[ErrorCode]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Extension">
+              <FOREIGNID name="JavaEnumeration" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0262-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <COMPID name="FrameReader" mc="Standard.Interface" uid="33529a89-8e5a-49e3-85ba-95bc711bb1b1"/>
+        <COMPID name="FrameWriter" mc="Standard.Interface" uid="d35aebbb-4989-4c24-804c-b899a5587fc1"/>
+        <COMPID name="Header" mc="Standard.Class" uid="d3f4daf9-aa0b-46ec-9d77-4aba392d10ad"/>
+        <OBJECT>
+          <ID name="HeadersMode" mc="Standard.Enumeration" uid="a69daf9c-4f23-4ba9-b4ad-ef3417dd9c9f"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[HeadersMode]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Extension">
+              <FOREIGNID name="JavaEnumeration" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0262-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <COMPID name="Http2" mc="Standard.Class" uid="2a0e836d-5fa0-41f6-a320-0a5d4dbc96a5"/>
+        <COMPID name="IncomingStreamHandler" mc="Standard.Interface" uid="a27d139d-9b23-4f42-87b5-ba282df529d6"/>
+        <COMPID name="Ping" mc="Standard.Class" uid="8e52ff95-0aba-4321-9cb4-dfb495afd7e3"/>
+        <COMPID name="PushObserver" mc="Standard.Interface" uid="528c8898-d636-44e2-b83f-45a8c7b63836"/>
+        <COMPID name="Settings" mc="Standard.Class" uid="2110afbf-898b-4090-8515-3837ed613700"/>
+        <COMPID name="Spdy3" mc="Standard.Class" uid="9dddcf7b-c278-4b6c-b821-0c93fc19c6b5"/>
+        <COMPID name="SpdyConnection" mc="Standard.Class" uid="1cf5cdb8-8c62-431e-a0bd-0a27cb33f917"/>
+        <COMPID name="SpdyStream" mc="Standard.Class" uid="31583457-2a5d-4ec1-9b5e-c7d8c3a6d357"/>
+        <COMPID name="Variant" mc="Standard.Interface" uid="f1a083eb-e1d4-4113-885b-e7c103922269"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

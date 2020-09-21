@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="project" version="4">
+  <OBJECT>
+    <ID name="project" mc="Standard.Package" uid="6ca538d4-f07f-4e6a-b958-6d8f5176ad82"/>
+    <PID name="internal" mc="Standard.Package" uid="5a6dc0a8-cf6b-4224-a3a9-4a2fca584793"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[project]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ArtifactKeyAdapterFactory" mc="Standard.Class" uid="8555c453-86e9-401c-992d-5700620d0c0e"/>
+        <COMPID name="DependencyResolutionContext" mc="Standard.Class" uid="82202c88-6bb1-4f60-a422-ef6212f53b16"/>
+        <COMPID name="EclipseExtensionRealmCache" mc="Standard.Class" uid="ebed6af9-2e9d-4191-9b99-583cd7b6acea"/>
+        <COMPID name="EclipseMavenMetadataCache" mc="Standard.Class" uid="17d5060e-301f-43bf-a658-3bb10f494066"/>
+        <COMPID name="EclipsePluginArtifactsCache" mc="Standard.Class" uid="d3423af3-2c88-48ef-8315-b7606f587998"/>
+        <COMPID name="EclipsePluginRealmCache" mc="Standard.Class" uid="1632310e-caac-4fc0-91ce-38ee35177c6b"/>
+        <COMPID name="EclipseProjectRealmCache" mc="Standard.Class" uid="7e63902c-83f7-40d7-9e8f-f417406df8cc"/>
+        <COMPID name="IManagedCache" mc="Standard.Interface" uid="e279958e-cf83-4b34-92e5-a4b8668d2736"/>
+        <COMPID name="LifecycleMappingConfiguration" mc="Standard.Class" uid="0df17b19-9674-45c0-a90a-b7a5fe7e1ade"/>
+        <COMPID name="MavenProjectImportResult" mc="Standard.Class" uid="3025a00d-b7de-4149-a9a8-4e8878704aba"/>
+        <COMPID name="ProjectConfigurationManager" mc="Standard.Class" uid="dfafa91f-ff15-4af8-88c0-429c975feeb6"/>
+        <COMPID name="ResolverConfigurationIO" mc="Standard.Class" uid="ef66faee-423a-433a-95c5-4c35c9390b4a"/>
+        <COMPID name="WorkspaceStateWriter" mc="Standard.Class" uid="02c6c082-bbbd-48ba-9552-7d74cce61e4e"/>
+        <COMPID name="conversion" mc="Standard.Package" uid="2927bba2-3627-46b2-b185-fdfb2572f915"/>
+        <COMPID name="registry" mc="Standard.Package" uid="7b507e15-3b9a-4d3c-8389-b72535961247"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

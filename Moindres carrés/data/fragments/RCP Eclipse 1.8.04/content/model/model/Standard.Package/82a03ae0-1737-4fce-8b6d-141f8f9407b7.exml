@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="framework" version="4">
+  <OBJECT>
+    <ID name="framework" mc="Standard.Package" uid="82a03ae0-1737-4fce-8b6d-141f8f9407b7"/>
+    <PID name="internal" mc="Standard.Package" uid="0080c2c6-21af-1fb1-8a9e-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[framework]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AliasMapper" mc="Standard.Class" uid="6639326c-081b-4c77-9218-1ae70d0fd3ec"/>
+        <COMPID name="BundleContextImpl" mc="Standard.Class" uid="641e6441-3bdd-4bc4-b189-f95d155fc801"/>
+        <COMPID name="ContextFinder" mc="Standard.Class" uid="6f78d7c7-9abb-4017-8ce9-3f2ccc29d5af"/>
+        <COMPID name="DTOBuilder" mc="Standard.Class" uid="a47a8304-785e-4e99-aadb-e62bf4c5b18c"/>
+        <COMPID name="EquinoxBundle" mc="Standard.Class" uid="dd14e199-494a-45e4-907f-918690cbf385"/>
+        <COMPID name="EquinoxConfiguration" mc="Standard.Class" uid="21e11205-1307-4a3d-9974-2dc0fb897386"/>
+        <COMPID name="EquinoxContainer" mc="Standard.Class" uid="a4100a30-c037-459f-a4f3-1a6cf8e6977c"/>
+        <COMPID name="EquinoxContainerAdaptor" mc="Standard.Class" uid="03c74a35-d7a1-4189-9725-9b765ca978c6"/>
+        <COMPID name="EquinoxEventPublisher" mc="Standard.Class" uid="6da7a316-b72c-43a8-b5a2-0dd4cac1057b"/>
+        <COMPID name="FilterImpl" mc="Standard.Class" uid="04bd63a2-a032-44e6-af69-66fd67e6523b"/>
+        <COMPID name="StorageSaver" mc="Standard.Class" uid="b0b0c693-94d9-4562-9271-0fca3002c080"/>
+        <COMPID name="SystemBundleActivator" mc="Standard.Class" uid="2bed8c1e-fcf2-4832-86ba-d7e11e84e37c"/>
+        <COMPID name="UniversalUniqueIdentifier" mc="Standard.Class" uid="bbfb7c49-b532-4e21-a338-40a602ffe8d4"/>
+        <COMPID name="legacy" mc="Standard.Package" uid="71bbd590-fd8e-4627-a164-cc9955b0a000"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

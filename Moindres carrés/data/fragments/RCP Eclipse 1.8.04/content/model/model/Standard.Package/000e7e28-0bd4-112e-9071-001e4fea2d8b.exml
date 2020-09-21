@@ -1,0 +1,55 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="wizards" version="4">
+  <OBJECT>
+    <ID name="wizards" mc="Standard.Package" uid="000e7e28-0bd4-112e-9071-001e4fea2d8b"/>
+    <PID name="ui" mc="Standard.Package" uid="008e9932-0bd3-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[wizards]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AddWizard" mc="Standard.Class" uid="000e8472-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AlternativeLocationWizard" mc="Standard.Class" uid="000e8b7a-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CVSScmUrlImportWizardPage" mc="Standard.Class" uid="000e976e-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CVSWizardPage" mc="Standard.Class" uid="000ea3b2-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CheckoutAsLocationSelectionPage" mc="Standard.Class" uid="000eaa2e-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CheckoutAsMainPage" mc="Standard.Class" uid="000eb118-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CheckoutAsProjectSelectionPage" mc="Standard.Class" uid="000eb834-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CheckoutAsWizard" mc="Standard.Class" uid="000ebf5a-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CheckoutWizard" mc="Standard.Class" uid="000eccc0-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CommitWizard" mc="Standard.Class" uid="000ed44a-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CommitWizardCommitPage" mc="Standard.Class" uid="000ee9f8-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CommitWizardFileTypePage" mc="Standard.Class" uid="000ef7cc-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CommitWizardParticipant" mc="Standard.Class" uid="000f0032-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ConfigurationWizardAutoconnectPage" mc="Standard.Class" uid="000f1c66-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ConfigurationWizardMainPage" mc="Standard.Class" uid="000f25c6-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="GenerateDiffFileWizard" mc="Standard.Class" uid="000f2eb8-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ICVSWizard" mc="Standard.Interface" uid="000f58e8-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ImportWizard" mc="Standard.Class" uid="000f6266-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MergeWizard" mc="Standard.Class" uid="000f6bc6-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MergeWizardPage" mc="Standard.Class" uid="000f754e-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ModeWizard" mc="Standard.Class" uid="000f7ed6-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ModeWizardSelectionPage" mc="Standard.Class" uid="000f9664-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ModuleSelectionPage" mc="Standard.Class" uid="00108308-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="NewLocationWizard" mc="Standard.Class" uid="00108d6c-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RepositorySelectionPage" mc="Standard.Class" uid="0010982a-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ResizableWizard" mc="Standard.Class" uid="0010a87e-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RestoreFromRepositoryFileSelectionPage" mc="Standard.Class" uid="0010b38c-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RestoreFromRepositoryWizard" mc="Standard.Class" uid="0010c444-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SharingWizard" mc="Standard.Class" uid="0010cfa2-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SharingWizardPageActionGroup" mc="Standard.Class" uid="0010db00-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SharingWizardSyncPage" mc="Standard.Class" uid="0010e6d6-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="UpdateWizard" mc="Standard.Class" uid="0010f2de-0bd4-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

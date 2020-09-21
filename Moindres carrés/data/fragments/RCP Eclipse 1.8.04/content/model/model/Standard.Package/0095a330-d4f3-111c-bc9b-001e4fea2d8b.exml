@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="garbagecollector" version="4">
+  <OBJECT>
+    <ID name="garbagecollector" mc="Standard.Package" uid="0095a330-d4f3-111c-bc9b-001e4fea2d8b"/>
+    <PID name="p2" mc="Standard.Package" uid="00381d32-d4f2-111c-bc9b-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[garbagecollector]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Application" mc="Standard.Class" uid="0095bf28-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="CoreGarbageCollector" mc="Standard.Class" uid="0095adf8-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="GCActivator" mc="Standard.Class" uid="00963188-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="GarbageCollector" mc="Standard.Class" uid="0095d044-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="GarbageCollectorComponent" mc="Standard.Class" uid="00961f2c-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="MarkSet" mc="Standard.Class" uid="0095e912-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="MarkSetProvider" mc="Standard.Class" uid="0095fac4-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="Messages" mc="Standard.Class" uid="00960cd0-d4f3-111c-bc9b-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

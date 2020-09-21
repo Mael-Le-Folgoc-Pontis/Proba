@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="tasks" version="4">
+  <OBJECT>
+    <ID name="tasks" mc="Standard.Package" uid="006ad25e-d4f2-111c-bc9b-001e4fea2d8b"/>
+    <PID name="tools" mc="Standard.Package" uid="00634df4-d4f2-111c-bc9b-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[tasks]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractRepositoryTask" mc="Standard.Class" uid="006c32d4-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="AntMirrorLog" mc="Standard.Class" uid="006cd694-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="ArtifactDescription" mc="Standard.Class" uid="006bb098-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="ComparatorDescription" mc="Standard.Class" uid="006b8672-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="CompositeRepositoryTask" mc="Standard.Class" uid="006c5e94-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="CreateCompositeArtifactRepositoryTask" mc="Standard.Class" uid="006dea02-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="DestinationRepository" mc="Standard.Class" uid="006d1974-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="ElementList" mc="Standard.Class" uid="006b2dbc-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="IUDescription" mc="Standard.Class" uid="006caae8-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="MirrorArtifactsTask" mc="Standard.Class" uid="006dbb72-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="MirrorMetadataTask" mc="Standard.Class" uid="006d5eb6-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="MirrorTask" mc="Standard.Class" uid="006c087c-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="ProcessRepoTask" mc="Standard.Class" uid="006e18f6-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="RemoveIUTask" mc="Standard.Class" uid="006ade7a-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="Repo2RunnableTask" mc="Standard.Class" uid="006b58d2-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="RepositoryFileSet" mc="Standard.Class" uid="006d8cd8-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="RepositoryList" mc="Standard.Class" uid="006cece2-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="SlicingOption" mc="Standard.Class" uid="006c7e56-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="TaskHelper" mc="Standard.Class" uid="006d47be-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="ValidateTask" mc="Standard.Class" uid="006bdcb2-d4f2-111c-bc9b-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

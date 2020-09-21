@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="impl" version="4">
+  <OBJECT>
+    <ID name="impl" mc="Standard.Package" uid="410f3562-1a4b-11e0-8090-00137279a832"/>
+    <PID name="notify" mc="Standard.Package" uid="410f3561-1a4b-11e0-8090-00137279a832"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[impl]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AdapterFactoryImpl" mc="Standard.Class" uid="41309658-1a4b-11e0-8090-00137279a832"/>
+        <COMPID name="AdapterImpl" mc="Standard.Class" uid="410f3563-1a4b-11e0-8090-00137279a832"/>
+        <COMPID name="BasicNotifierImpl" mc="Standard.Class" uid="41296f45-1a4b-11e0-8090-00137279a832"/>
+        <COMPID name="DelegatingNotifyingListImpl" mc="Standard.Class" uid="414ad03c-1a4b-11e0-8090-00137279a832"/>
+        <COMPID name="NotificationChainImpl" mc="Standard.Class" uid="41355b0e-1a4b-11e0-8090-00137279a832"/>
+        <COMPID name="NotificationImpl" mc="Standard.Class" uid="4137bd62-1a4b-11e0-8090-00137279a832"/>
+        <COMPID name="NotifierImpl" mc="Standard.Class" uid="4132f8c4-1a4b-11e0-8090-00137279a832"/>
+        <COMPID name="NotifyingListImpl" mc="Standard.Class" uid="411197c5-1a4b-11e0-8090-00137279a832"/>
+        <COMPID name="SingletonAdapterImpl" mc="Standard.Class" uid="4132f8b5-1a4b-11e0-8090-00137279a832"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

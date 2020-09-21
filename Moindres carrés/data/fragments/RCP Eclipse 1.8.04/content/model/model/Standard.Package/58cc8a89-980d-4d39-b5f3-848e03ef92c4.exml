@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ui" version="4">
+  <OBJECT>
+    <ID name="ui" mc="Standard.Package" uid="58cc8a89-980d-4d39-b5f3-848e03ef92c4"/>
+    <PID name="index" mc="Standard.Package" uid="05c8fb8c-b909-40ca-809c-95dfe8f7c09a"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[ui]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractIndexReference" mc="Standard.Class" uid="1b2bbab2-bd61-4c2f-91e4-a6e7bb4a95af"/>
+        <COMPID name="ContentProposalProvider" mc="Standard.Class" uid="0084f774-6d9f-48a0-8381-5fc00810f143"/>
+        <COMPID name="IndexReference" mc="Standard.Class" uid="02561de7-12d9-40d3-b2d2-bffb106450e0"/>
+        <COMPID name="IndexSearchHandler" mc="Standard.Class" uid="cf1b2fca-9301-4500-bae4-ba82823f7417"/>
+        <COMPID name="IndexedSubstringPatternFilter" mc="Standard.Class" uid="9cda6f52-caef-4f32-83c5-4cead5f7b0ab"/>
+        <COMPID name="TasksIndexUi" mc="Standard.Class" uid="789eeaed-3e61-4df4-942f-839bfa35a3df"/>
+        <COMPID name="commands" mc="Standard.Package" uid="8e298ca5-4409-4a9e-a19f-985c2adfb376"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="tasks" version="4">
+  <OBJECT>
+    <ID name="tasks" mc="Standard.Package" uid="fc407529-5289-4dc6-96b2-0fc824ec2c94"/>
+    <PID name="internal" mc="Standard.Package" uid="e9152071-ab45-4e26-8cf6-708827cd7d86"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[tasks]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="XMLFileTaskScanner" mc="Standard.Class" uid="b3d01944-c9d7-4275-ad0a-077a5d5e25f2"/>
+        <COMPID name="XMLStreamingFileTaskScanner" mc="Standard.Class" uid="c6bcf926-422a-4cea-b692-850a855b5cf9"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

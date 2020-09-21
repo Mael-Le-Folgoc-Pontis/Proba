@@ -1,0 +1,64 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="errors" version="4">
+  <OBJECT>
+    <ID name="errors" mc="Standard.Package" uid="e4dd0ce1-0a0d-40c3-b21f-84b943a5ef19"/>
+    <PID name="jgit" mc="Standard.Package" uid="bf3b61ef-28ee-4cf7-8afd-022df78c66c8"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[errors]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AmbiguousObjectException" mc="Standard.Class" uid="17f15a50-379b-4922-acf8-c20566bde97c"/>
+        <COMPID name="CheckoutConflictException" mc="Standard.Class" uid="8010af83-f84d-4e0f-bd0a-908dec46e75e"/>
+        <COMPID name="CompoundException" mc="Standard.Class" uid="7524e937-61cf-4c17-8b2a-cc20b4c4bdfe"/>
+        <COMPID name="ConfigInvalidException" mc="Standard.Class" uid="324f0588-4bc8-415d-a057-65f4be826dec"/>
+        <COMPID name="CorruptObjectException" mc="Standard.Class" uid="f9fa34e4-1c45-4a85-bb9e-1e7ba4c5be20"/>
+        <COMPID name="DiffInterruptedException" mc="Standard.Class" uid="a60944b4-22a8-45d7-8c37-792bbd840f0e"/>
+        <COMPID name="EntryExistsException" mc="Standard.Class" uid="7f3c4728-1d89-4afd-88c9-2af8ce402eb9"/>
+        <COMPID name="IllegalTodoFileModification" mc="Standard.Class" uid="79c1e567-3e3d-4d82-a100-8c8535b6ce28"/>
+        <COMPID name="IncorrectObjectTypeException" mc="Standard.Class" uid="6d53b30a-0edb-4ad4-a1a3-1fcf1b982b8d"/>
+        <COMPID name="IndexWriteException" mc="Standard.Class" uid="de553367-80af-46cd-894c-e1ae30f3dd0b"/>
+        <COMPID name="InvalidObjectIdException" mc="Standard.Class" uid="5dc35e63-28f1-454f-8a2c-22c77f50daeb"/>
+        <COMPID name="InvalidPatternException" mc="Standard.Class" uid="5b3a272c-b676-4e21-a3a3-b1f86cfa45cd"/>
+        <COMPID name="LargeObjectException" mc="Standard.Class" uid="d898f2b4-a93a-4ce7-bb0b-c4b4e0092ae3"/>
+        <COMPID name="LockFailedException" mc="Standard.Class" uid="5917626e-f043-4fb4-bd0b-3345ea9e381a"/>
+        <COMPID name="MissingBundlePrerequisiteException" mc="Standard.Class" uid="44f43ffc-feb5-4a0b-a750-28e40fdca6fb"/>
+        <COMPID name="MissingObjectException" mc="Standard.Class" uid="496d4364-2856-44d3-b347-42ffc181e194"/>
+        <COMPID name="NoClosingBracketException" mc="Standard.Class" uid="cd98938d-971f-4549-98bb-ab59e5ea889d"/>
+        <COMPID name="NoMergeBaseException" mc="Standard.Class" uid="482c9ca8-127c-45d6-8827-e61df7a91527"/>
+        <COMPID name="NoRemoteRepositoryException" mc="Standard.Class" uid="0219d853-c1de-46da-94ac-36865090654f"/>
+        <COMPID name="NoWorkTreeException" mc="Standard.Class" uid="d14f3bff-5e1d-4690-a8cf-226d68db3478"/>
+        <COMPID name="NotSupportedException" mc="Standard.Class" uid="e1172482-1780-407c-bc85-38c06ff90f1b"/>
+        <COMPID name="ObjectWritingException" mc="Standard.Class" uid="83100867-4ef9-45aa-869f-140c1c8a9a6a"/>
+        <COMPID name="PackInvalidException" mc="Standard.Class" uid="e4aa17dc-7b71-4091-972e-9353c4659482"/>
+        <COMPID name="PackMismatchException" mc="Standard.Class" uid="f47f8250-e1fb-4cc8-8169-64bc411e9e7f"/>
+        <COMPID name="PackProtocolException" mc="Standard.Class" uid="28d128cf-faa9-4886-bc7a-b8daec50e5df"/>
+        <COMPID name="RemoteRepositoryException" mc="Standard.Class" uid="cc6ee5d5-07fa-42ad-9675-173792d02720"/>
+        <COMPID name="RepositoryNotFoundException" mc="Standard.Class" uid="9227deb0-04ef-425a-bbf1-4e5f33dc7f9b"/>
+        <COMPID name="RevWalkException" mc="Standard.Class" uid="39958386-5e52-4fa2-8918-8552043a9ad0"/>
+        <COMPID name="RevisionSyntaxException" mc="Standard.Class" uid="895b5078-b426-4424-8af0-f0d0651ad4c5"/>
+        <COMPID name="StopWalkException" mc="Standard.Class" uid="49862362-92f6-4f52-b636-86d90238307e"/>
+        <COMPID name="StoredObjectRepresentationNotAvailableException" mc="Standard.Class" uid="dd55c9a6-e1ac-454d-b243-5b93cb624327"/>
+        <COMPID name="SymlinksNotSupportedException" mc="Standard.Class" uid="1bb41128-8e78-4844-8d2c-64b3ac01eb04"/>
+        <COMPID name="TooLargeObjectInPackException" mc="Standard.Class" uid="76f2ab7b-d7a4-400f-999c-557d0b859f90"/>
+        <COMPID name="TooLargePackException" mc="Standard.Class" uid="ef0a2dfa-fc59-4933-94a2-2bc6a82c823e"/>
+        <COMPID name="TranslationBundleException" mc="Standard.Class" uid="a0aca00b-31ee-499e-85f3-55596d675746"/>
+        <COMPID name="TranslationBundleLoadingException" mc="Standard.Class" uid="99bd89cd-6921-42df-ad0a-79dd37e660a9"/>
+        <COMPID name="TranslationStringMissingException" mc="Standard.Class" uid="01bdb649-3458-4301-8996-26fa52570de9"/>
+        <COMPID name="TransportException" mc="Standard.Class" uid="6dff8fe0-bac1-4564-8cbe-6348790045ac"/>
+        <COMPID name="UnmergedPathException" mc="Standard.Class" uid="467cb17e-0f1b-44b5-9a5a-c4fdab19fc15"/>
+        <COMPID name="UnpackException" mc="Standard.Class" uid="0ad93254-3c9d-4d39-bc0b-43346ed62aa2"/>
+        <COMPID name="UnsupportedCredentialItem" mc="Standard.Class" uid="3569ac1a-1b9c-4796-9611-5cb76d161dbb"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

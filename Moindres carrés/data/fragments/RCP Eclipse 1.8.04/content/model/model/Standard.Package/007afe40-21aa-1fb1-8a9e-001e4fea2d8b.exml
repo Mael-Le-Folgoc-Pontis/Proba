@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="viewers" version="4">
+  <OBJECT>
+    <ID name="viewers" mc="Standard.Package" uid="007afe40-21aa-1fb1-8a9e-001e4fea2d8b"/>
+    <PID name="databinding" mc="Standard.Package" uid="00770894-21aa-1fb1-8a9e-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[viewers]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="CellEditorProperties" mc="Standard.Class" uid="007f3e38-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="IViewerListProperty" mc="Standard.Interface" uid="007eecd0-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="IViewerObservable" mc="Standard.Interface" uid="007d143c-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="IViewerObservableList" mc="Standard.Interface" uid="007c6a32-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="IViewerObservableSet" mc="Standard.Interface" uid="007f14bc-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="IViewerObservableValue" mc="Standard.Interface" uid="007e25f2-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="IViewerSetProperty" mc="Standard.Interface" uid="007cc3ec-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="IViewerUpdater" mc="Standard.Interface" uid="007fbf84-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="IViewerValueProperty" mc="Standard.Interface" uid="00816280-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ListeningLabelProvider" mc="Standard.Class" uid="0080a3f4-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ObservableListContentProvider" mc="Standard.Class" uid="007e4f0a-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ObservableListTreeContentProvider" mc="Standard.Class" uid="007d3c64-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ObservableMapCellLabelProvider" mc="Standard.Class" uid="007c43a4-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ObservableMapLabelProvider" mc="Standard.Class" uid="007baa20-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ObservableSetContentProvider" mc="Standard.Class" uid="007bd14e-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ObservableSetTreeContentProvider" mc="Standard.Class" uid="007b1a4c-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ObservableValueEditingSupport" mc="Standard.Class" uid="0080d0b8-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="TreeStructureAdvisor" mc="Standard.Class" uid="007f687c-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ViewerListProperty" mc="Standard.Class" uid="007dcbfc-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ViewerProperties" mc="Standard.Class" uid="007cec46-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ViewerSetProperty" mc="Standard.Class" uid="008017d6-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ViewerSupport" mc="Standard.Class" uid="007ec3e0-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ViewerValueProperty" mc="Standard.Class" uid="008042d8-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ViewersObservables" mc="Standard.Class" uid="007fecc0-21aa-1fb1-8a9e-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

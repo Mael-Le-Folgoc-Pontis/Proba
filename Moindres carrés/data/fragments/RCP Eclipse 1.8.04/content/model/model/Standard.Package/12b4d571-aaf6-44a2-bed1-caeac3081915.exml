@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="util" version="4">
+  <OBJECT>
+    <ID name="util" mc="Standard.Package" uid="12b4d571-aaf6-44a2-bed1-caeac3081915"/>
+    <PID name="dom4j" mc="Standard.Package" uid="eff6051a-f8fa-491f-aac6-6e4ed7ac354f"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[util]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AttributeHelper" mc="Standard.Class" uid="21052c25-ce60-4c50-9bf7-1c95985b5144"/>
+        <COMPID name="IndexedDocumentFactory" mc="Standard.Class" uid="7c2fdfea-b5db-4297-948b-05bec3bc3ed9"/>
+        <COMPID name="IndexedElement" mc="Standard.Class" uid="f937860b-44b9-4c52-9a92-ceb2e3ab51c1"/>
+        <COMPID name="NodeComparator" mc="Standard.Class" uid="2f9c0805-98b5-4c43-9abd-77335380ef14"/>
+        <COMPID name="NonLazyDocumentFactory" mc="Standard.Class" uid="e631c0e5-60b3-4ba2-92e7-a4c8dcc934b1"/>
+        <COMPID name="NonLazyElement" mc="Standard.Class" uid="604859eb-47c6-476b-861d-078a86178bdd"/>
+        <COMPID name="PerThreadSingleton" mc="Standard.Class" uid="54baf919-567e-440e-9a5e-e5a9458e5257"/>
+        <COMPID name="ProxyDocumentFactory" mc="Standard.Class" uid="85fb4c50-a776-42c5-9ad4-742399402b05"/>
+        <COMPID name="SimpleSingleton" mc="Standard.Class" uid="2b7da565-dc26-46de-a0b0-3cd7048c8f88"/>
+        <COMPID name="SingletonStrategy" mc="Standard.Interface" uid="8c1c700e-1411-4ba5-92ea-2b0f4f02c2f1"/>
+        <COMPID name="UserDataAttribute" mc="Standard.Class" uid="61b71b07-9ade-446c-abfc-bb89ba04b43c"/>
+        <COMPID name="UserDataDocumentFactory" mc="Standard.Class" uid="483963d2-5efa-48d8-b95f-db885d0d7734"/>
+        <COMPID name="UserDataElement" mc="Standard.Class" uid="5c95fe15-b845-4fe3-bf0d-ef52c4e59761"/>
+        <COMPID name="XMLErrorHandler" mc="Standard.Class" uid="16260de3-9f92-4d29-a5f8-b4fc20d3d4a5"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

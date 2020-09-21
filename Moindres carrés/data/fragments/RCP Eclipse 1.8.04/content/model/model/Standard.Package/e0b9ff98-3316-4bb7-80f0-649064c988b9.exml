@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="plugin" version="4">
+  <OBJECT>
+    <ID name="plugin" mc="Standard.Package" uid="e0b9ff98-3316-4bb7-80f0-649064c988b9"/>
+    <PID name="internal" mc="Standard.Package" uid="695fdf82-c8a9-405f-9941-a22ea10b33b0"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[plugin]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="WTPCommonMessages" mc="Standard.Class" uid="efb27ccc-b7bf-40a9-b937-408819499b4f"/>
+        <COMPID name="WTPCommonPlugin" mc="Standard.Class" uid="680d81ff-76f0-455c-865a-bc3933a4ff85"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="accessor" version="4">
+  <OBJECT>
+    <ID name="accessor" mc="Standard.Package" uid="a13d5115-2f19-490c-82c3-ba5c15661b11"/>
+    <PID name="property" mc="Standard.Package" uid="57d4b3c1-3f69-43fa-a6b2-42cf73f8f4fa"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[accessor]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AccessorUtils" mc="Standard.Class" uid="9223caf0-0041-4861-bacd-054699ead6e4"/>
+        <COMPID name="AssignmentsSequence" mc="Standard.Class" uid="62647437-31a7-40c3-a6dd-65fafec1ccdc"/>
+        <COMPID name="ConstructorAccessor" mc="Standard.Class" uid="8ad97306-b27a-4f11-9040-1caa2c9dc847"/>
+        <COMPID name="ExpressionAccessor" mc="Standard.Class" uid="78b1d7f9-978a-4b9f-a535-fbb113d30264"/>
+        <COMPID name="FactoryAccessor" mc="Standard.Class" uid="96c5b948-5f06-44af-8a13-c9e4389eb78a"/>
+        <COMPID name="FieldAccessor" mc="Standard.Class" uid="64645018-6bef-470c-87f7-c3d5f8f39dc1"/>
+        <COMPID name="IAccessibleExpressionAccessor" mc="Standard.Interface" uid="64aa19bd-1ee8-4783-a47c-ba076f2b6db6"/>
+        <COMPID name="IExposableExpressionAccessor" mc="Standard.Interface" uid="4a4ee928-f8ca-4ecc-ad6e-5930a63d0ec2"/>
+        <COMPID name="InvocationChildAssociationAccessor" mc="Standard.Class" uid="e874b54c-63d7-4f6c-8c9b-c69df2d4419a"/>
+        <COMPID name="MethodInvocationAccessor" mc="Standard.Class" uid="6d2e2831-adf2-4f43-9918-75ab8c874248"/>
+        <COMPID name="MethodInvocationArgumentAccessor" mc="Standard.Class" uid="69452640-13b2-43db-89cb-4d0feb1f9af1"/>
+        <COMPID name="SetterAccessor" mc="Standard.Class" uid="27dbe7ba-06f0-4f41-8d92-2a2418fdf769"/>
+        <COMPID name="SuperConstructorAccessor" mc="Standard.Class" uid="37c09d72-5dac-4e39-82ae-0bc46068c7c5"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

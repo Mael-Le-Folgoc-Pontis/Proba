@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="merge" version="4">
+  <OBJECT>
+    <ID name="merge" mc="Standard.Package" uid="ffef56c7-b589-47ab-8c51-0fe583c17d88"/>
+    <PID name="jgit" mc="Standard.Package" uid="bf3b61ef-28ee-4cf7-8afd-022df78c66c8"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[merge]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="MergeAlgorithm" mc="Standard.Class" uid="317dc4ad-a1d9-47cd-ac9f-746f052b142c"/>
+        <COMPID name="MergeChunk" mc="Standard.Class" uid="73038f4c-6794-46ce-ab11-341cfb9ca7bd"/>
+        <COMPID name="MergeConfig" mc="Standard.Class" uid="70a68f87-0ab3-4937-bf60-a0ff73e79b73"/>
+        <COMPID name="MergeFormatter" mc="Standard.Class" uid="6d9766fb-b946-439e-9cde-a71674e70286"/>
+        <COMPID name="MergeMessageFormatter" mc="Standard.Class" uid="26ac4b44-fa02-478f-9ca0-54a545b3cccc"/>
+        <COMPID name="MergeResult" mc="Standard.Class" uid="7168d955-8d0e-46b0-9f4b-c5161b895ae3"/>
+        <COMPID name="MergeStrategy" mc="Standard.Class" uid="70059ca7-df32-41b6-8f6c-b18adde67c49"/>
+        <COMPID name="Merger" mc="Standard.Class" uid="0813f2a4-072d-468b-952a-3b3f0cf0acc4"/>
+        <COMPID name="RecursiveMerger" mc="Standard.Class" uid="ad69f95f-8236-4ff5-b510-bb268bfee177"/>
+        <COMPID name="ResolveMerger" mc="Standard.Class" uid="ffa2d30d-519f-4746-9a70-0b4ccf3082d9"/>
+        <COMPID name="SquashMessageFormatter" mc="Standard.Class" uid="191afd37-9130-4802-9188-9920501d59a2"/>
+        <COMPID name="StrategyOneSided" mc="Standard.Class" uid="568cb4dc-b006-4878-ab20-5fd9fb201186"/>
+        <COMPID name="StrategyRecursive" mc="Standard.Class" uid="e3f93464-7b21-4820-b199-68299b6bbd94"/>
+        <COMPID name="StrategyResolve" mc="Standard.Class" uid="2a6340c7-ebe3-4624-a6f7-51543ae8076f"/>
+        <COMPID name="StrategySimpleTwoWayInCore" mc="Standard.Class" uid="4fa5f1ff-5f33-461e-85e8-63ce6b74f0c0"/>
+        <COMPID name="ThreeWayMergeStrategy" mc="Standard.Class" uid="e7c4e20e-2cbb-4ee5-91e3-a8058b79ea64"/>
+        <COMPID name="ThreeWayMerger" mc="Standard.Class" uid="f9ea48bf-88ad-4853-a205-6f26549c3035"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

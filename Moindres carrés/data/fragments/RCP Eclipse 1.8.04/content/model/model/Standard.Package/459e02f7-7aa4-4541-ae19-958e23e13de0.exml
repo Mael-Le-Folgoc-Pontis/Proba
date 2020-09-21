@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="model" version="4">
+  <OBJECT>
+    <ID name="model" mc="Standard.Package" uid="459e02f7-7aa4-4541-ae19-958e23e13de0"/>
+    <PID name="snipmatch" mc="Standard.Package" uid="b65247aa-99a3-4f34-bb31-66558903f323"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[model]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="DefaultSnippetRepositoryConfigurationProvider" mc="Standard.Interface" uid="c7fd70d4-3539-4504-95db-b3f46a174dbf"/>
+        <COMPID name="SnipmatchModelFactory" mc="Standard.Interface" uid="7b508887-ef4a-4358-829a-6947502f68ca"/>
+        <COMPID name="SnipmatchModelPackage" mc="Standard.Interface" uid="7f227c95-fed2-4c85-baea-e4c710f95722"/>
+        <COMPID name="SnippetRepositoryConfiguration" mc="Standard.Interface" uid="f8d0f5a8-fb87-47aa-ac4f-e5e950ff3905"/>
+        <COMPID name="impl" mc="Standard.Package" uid="ffb13880-440a-4dec-9257-5195759ae5fe"/>
+        <COMPID name="util" mc="Standard.Package" uid="344f283d-8695-4b6d-939a-d12c80fc476f"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,57 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="proposals" version="4">
+  <OBJECT>
+    <ID name="proposals" mc="Standard.Package" uid="0042d498-0bcb-112e-9071-001e4fea2d8b"/>
+    <PID name="correction" mc="Standard.Package" uid="003dfd7e-0bcb-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[proposals]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractMethodCorrectionProposal" mc="Standard.Class" uid="0042db32-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AddArgumentCorrectionProposal" mc="Standard.Class" uid="0042e17c-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AddImportCorrectionProposal" mc="Standard.Class" uid="0042e7b2-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AddTypeParameterProposal" mc="Standard.Class" uid="0042ee4c-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AssignToVariableAssistProposal" mc="Standard.Class" uid="0042f522-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CastCorrectionProposal" mc="Standard.Class" uid="0042fbee-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ChangeMethodSignatureProposal" mc="Standard.Class" uid="0043031e-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ConstructorFromSuperclassProposal" mc="Standard.Class" uid="00436232-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CorrectMainTypeNameProposal" mc="Standard.Class" uid="004369da-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CorrectPackageDeclarationProposal" mc="Standard.Class" uid="004371aa-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="EditAnnotator" mc="Standard.Class" uid="004379c0-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ExtractToNullCheckedLocalProposal" mc="Standard.Class" uid="33a1ccbe-579f-4c93-9da6-a00ce17eb5b2"/>
+        <COMPID name="FixCorrectionProposal" mc="Standard.Class" uid="004381b8-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="GenerateForLoopAssistProposal" mc="Standard.Class" uid="de633ac8-fb5d-459f-bfd8-0729e0afd42a"/>
+        <COMPID name="ImplementInterfaceProposal" mc="Standard.Class" uid="00438a28-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LinkedCorrectionProposal" mc="Standard.Class" uid="00439298-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LinkedNamesAssistProposal" mc="Standard.Class" uid="00439b62-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MarkerResolutionProposal" mc="Standard.Class" uid="0043b520-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MissingAnnotationAttributesProposal" mc="Standard.Class" uid="0043be58-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MissingReturnTypeCorrectionProposal" mc="Standard.Class" uid="0043c79a-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MissingReturnTypeInLambdaCorrectionProposal" mc="Standard.Class" uid="778f8fab-cace-4fc3-95ab-b9e05e250884"/>
+        <COMPID name="ModifierChangeCorrectionProposal" mc="Standard.Class" uid="0043d136-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="NewAnnotationMemberProposal" mc="Standard.Class" uid="0043db0e-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="NewCUUsingWizardProposal" mc="Standard.Class" uid="0043e4e6-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="NewDefiningMethodProposal" mc="Standard.Class" uid="0043ef18-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="NewMethodCorrectionProposal" mc="Standard.Class" uid="0043f99a-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="NewVariableCorrectionProposal" mc="Standard.Class" uid="004403fe-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RefactoringCorrectionProposal" mc="Standard.Class" uid="00440eda-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RemoveDeclarationCorrectionProposal" mc="Standard.Class" uid="00441a24-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RenameNodeCorrectionProposal" mc="Standard.Class" uid="004434be-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RenameRefactoringProposal" mc="Standard.Class" uid="00444076-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ReplaceCorrectionProposal" mc="Standard.Class" uid="00444c38-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TaskMarkerProposal" mc="Standard.Class" uid="004457d2-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TypeChangeCorrectionProposal" mc="Standard.Class" uid="004463d0-0bcb-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,57 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="dialogs" version="4">
+  <OBJECT>
+    <ID name="dialogs" mc="Standard.Package" uid="0021bb5a-21aa-1fb1-8a9e-001e4fea2d8b"/>
+    <PID name="jface" mc="Standard.Package" uid="006fc818-21a9-1fb1-8a9e-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[dialogs]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractSelectionDialog" mc="Standard.Class" uid="ffc26dd1-2cd0-458b-9bd4-d43ab4dfa797"/>
+        <COMPID name="AnimatorFactory" mc="Standard.Class" uid="0028dfac-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ControlAnimator" mc="Standard.Class" uid="002a9248-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ControlEnableState" mc="Standard.Class" uid="0021d770-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="Dialog" mc="Standard.Class" uid="00244564-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="DialogMessageArea" mc="Standard.Class" uid="002cf646-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="DialogPage" mc="Standard.Class" uid="002beeea-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="DialogSettings" mc="Standard.Class" uid="002c4e62-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="DialogTray" mc="Standard.Class" uid="002b5f48-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ErrorDialog" mc="Standard.Class" uid="002907fc-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ErrorSupportProvider" mc="Standard.Class" uid="002a41bc-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="IDialogBlockedHandler" mc="Standard.Interface" uid="0028b766-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="IDialogConstants" mc="Standard.Interface" uid="00255648-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="IDialogLabelKeys" mc="Standard.Interface" uid="0028910a-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="IDialogPage" mc="Standard.Interface" uid="0027dfc6-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="IDialogSettings" mc="Standard.Interface" uid="002d7c56-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="IInputValidator" mc="Standard.Interface" uid="0025f904-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="IMessageProvider" mc="Standard.Interface" uid="0024d9d4-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="IPageChangeProvider" mc="Standard.Interface" uid="002a68d6-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="IPageChangedListener" mc="Standard.Interface" uid="002aba52-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="IPageChangingListener" mc="Standard.Interface" uid="0025adaa-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="IconAndMessageDialog" mc="Standard.Class" uid="0024ff2c-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ImageAndMessageArea" mc="Standard.Class" uid="002b8a22-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="InputDialog" mc="Standard.Class" uid="00283908-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="MessageDialog" mc="Standard.Class" uid="00261e98-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="MessageDialogWithToggle" mc="Standard.Class" uid="00264508-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="PageChangedEvent" mc="Standard.Class" uid="0025d366-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="PageChangingEvent" mc="Standard.Class" uid="002d5474-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="PopupDialog" mc="Standard.Class" uid="002218fc-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ProgressIndicator" mc="Standard.Class" uid="002a184a-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ProgressMonitorDialog" mc="Standard.Class" uid="00296526-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="StatusDialog" mc="Standard.Class" uid="00272f9a-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="TitleAreaDialog" mc="Standard.Class" uid="00269d96-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="TrayDialog" mc="Standard.Class" uid="002ae3e2-21aa-1fb1-8a9e-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

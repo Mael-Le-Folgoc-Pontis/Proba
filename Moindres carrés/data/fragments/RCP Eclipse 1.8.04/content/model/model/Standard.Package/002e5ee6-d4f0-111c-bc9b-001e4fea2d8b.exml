@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="specs" version="4">
+  <OBJECT>
+    <ID name="specs" mc="Standard.Package" uid="002e5ee6-d4f0-111c-bc9b-001e4fea2d8b"/>
+    <PID name="sat4j" mc="Standard.Package" uid="001eadc0-d4f0-111c-bc9b-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[specs]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ContradictionException" mc="Standard.Class" uid="002e8308-d4f0-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="IConstr" mc="Standard.Interface" uid="0076c1a4-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IGroupSolver" mc="Standard.Interface" uid="490c0ef0-4208-4f7a-a997-5d2c22dfcc28"/>
+        <COMPID name="ILogAble" mc="Standard.Interface" uid="3f83fcc1-5cd2-473d-85f5-7a1680984b69"/>
+        <COMPID name="IOptimizationProblem" mc="Standard.Interface" uid="0076ca46-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IProblem" mc="Standard.Interface" uid="0076d130-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ISolver" mc="Standard.Interface" uid="0076d7fc-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ISolverService" mc="Standard.Interface" uid="19c86e8a-68d4-4b5d-89f1-594d4f12d942"/>
+        <COMPID name="IVec" mc="Standard.Interface" uid="0076df4a-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IVecInt" mc="Standard.Interface" uid="0076e72e-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IteratorInt" mc="Standard.Interface" uid="0076eea4-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Lbool" mc="Standard.Class" uid="0076f55c-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RandomAccessModel" mc="Standard.Interface" uid="5d50dcf7-33ad-43a4-ba5f-ab430e4483a0"/>
+        <COMPID name="SearchListener" mc="Standard.Interface" uid="0076fcf0-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TimeoutException" mc="Standard.Class" uid="0077038a-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="UnitClauseProvider" mc="Standard.Interface" uid="b6290c5e-273e-4411-85d5-ec39fdca5e09"/>
+        <COMPID name="UnitPropagationListener" mc="Standard.Interface" uid="8fdd65f3-b991-4e7e-a787-d22e8ef0b01a"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,122 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="mozilla" version="4">
+  <OBJECT>
+    <ID name="mozilla" mc="Standard.Package" uid="00732ba2-21a1-1fb1-8a9e-001e4fea2d8b"/>
+    <PID name="internal" mc="Standard.Package" uid="005398b4-21a0-1fb1-8a9e-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[mozilla]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Execute" mc="Standard.Class" uid="029ebac9-1c2a-46d9-a463-22e5c449bbc9"/>
+        <COMPID name="IIDStore" mc="Standard.Class" uid="672eafc6-443d-41d0-ba69-8196cdaa1f05"/>
+        <COMPID name="MozillaVersion" mc="Standard.Class" uid="708b5e86-869c-41ba-82e5-d49365784521"/>
+        <COMPID name="XPCOM" mc="Standard.Class" uid="0076fffc-21a1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="XPCOMObject" mc="Standard.Class" uid="008d3470-21a1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="init" mc="Standard.Package" uid="00867842-21a1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="nsDynamicFunctionLoad" mc="Standard.Class" uid="0093b2fa-21a1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="nsEmbedString" mc="Standard.Class" uid="00928178-21a1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="nsIAppShell" mc="Standard.Class" uid="0074cd22-21a1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="nsIAuthInformation" mc="Standard.Class" uid="007ecd04-21a1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="nsIBaseWindow" mc="Standard.Class" uid="0079883a-21a1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="nsICancelable" mc="Standard.Class" uid="008ed898-21a1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="nsICategoryManager" mc="Standard.Class" uid="00944b7a-21a1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="nsICertOverrideService" mc="Standard.Class" uid="0081178a-21a1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="nsICertificateDialogs" mc="Standard.Class" uid="0084ad8c-21a1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="nsIChannel" mc="Standard.Class" uid="0093feb8-21a1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="nsIClassInfo" mc="Standard.Class" uid="007c4c1e-21a1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="nsIComponentManager" mc="Standard.Class" uid="007be94a-21a1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="nsIComponentRegistrar" mc="Standard.Class" uid="008a6178-21a1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="nsICookie" mc="Standard.Class" uid="00772e32-21a1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="nsICookieManager" mc="Standard.Class" uid="0075e360-21a1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="nsICookieService" mc="Standard.Class" uid="00887aac-21a1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="nsICookieService_1_9" mc="Standard.Class" uid="00769fb2-21a1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="nsID" mc="Standard.Class" uid="00910ff0-21a1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="nsIDOMDocument" mc="Standard.Class" uid="008a21d6-21a1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="nsIDOMEvent" mc="Standard.Class" uid="008be7b4-21a1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="nsIDOMEventTarget" mc="Standard.Class" uid="0084716e-21a1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="nsIDOMKeyEvent" mc="Standard.Class" uid="0077f5b0-21a1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="nsIDOMMouseEvent" mc="Standard.Class" uid="008dbb70-21a1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="nsIDOMNode" mc="Standard.Class" uid="0088f5ae-21a1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="nsIDOMSerializer" mc="Standard.Class" uid="0083fb1c-21a1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="nsIDOMSerializer_1_7" mc="Standard.Class" uid="00966d1a-21a1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="nsIDOMUIEvent" mc="Standard.Class" uid="008971c8-21a1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="nsIDOMWindow" mc="Standard.Class" uid="0094e5f8-21a1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="nsIDOMWindowCollection" mc="Standard.Class" uid="008e4b08-21a1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="nsIDataType" mc="Standard.Class" uid="00931b6a-21a1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="nsIDocShell" mc="Standard.Class" uid="008cf172-21a1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="nsIDownload" mc="Standard.Class" uid="008d7796-21a1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="nsIDownload_1_8" mc="Standard.Class" uid="008aa138-21a1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="nsIEmbeddingSiteWindow" mc="Standard.Class" uid="00785bc2-21a1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="nsIFile" mc="Standard.Class" uid="00830dc4-21a1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="nsIFilePicker" mc="Standard.Class" uid="0078c13e-21a1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="nsIFilePickerShownCallback" mc="Standard.Class" uid="b5cfa772-08ae-4aa3-9c76-3b2fdce7dbd5"/>
+        <COMPID name="nsIFocusManager" mc="Standard.Class" uid="0075602a-21a1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="nsIHelperAppLauncher" mc="Standard.Class" uid="009497f6-21a1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="nsIHelperAppLauncher_1_8" mc="Standard.Class" uid="007d4772-21a1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="nsIHelperAppLauncher_1_9" mc="Standard.Class" uid="007ce246-21a1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="nsIHelperAppLauncher_8" mc="Standard.Class" uid="008f1e02-21a1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="nsIHttpChannel" mc="Standard.Class" uid="0087ce0e-21a1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="nsIHttpHeaderVisitor" mc="Standard.Class" uid="0073492a-21a1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="nsIIOService" mc="Standard.Class" uid="0081f682-21a1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="nsIInputStream" mc="Standard.Class" uid="007a4ec8-21a1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="nsIInterfaceInfo" mc="Standard.Class" uid="90a6d080-c9e6-44bd-b31d-8e0beee65dd6"/>
+        <COMPID name="nsIInterfaceInfoManager" mc="Standard.Class" uid="c25a4a6d-ca73-4562-bdc3-d9b2b3a90df6"/>
+        <COMPID name="nsIInterfaceRequestor" mc="Standard.Class" uid="00908094-21a1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="nsIJSContextStack" mc="Standard.Class" uid="008791f0-21a1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="nsILocalFile" mc="Standard.Class" uid="00822f44-21a1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="nsIMIMEInputStream" mc="Standard.Class" uid="008c6bf8-21a1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="nsIMemory" mc="Standard.Class" uid="0091edee-21a1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="nsIObserverService" mc="Standard.Class" uid="00818670-21a1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="nsIPrefBranch" mc="Standard.Class" uid="00958256-21a1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="nsIPrefLocalizedString" mc="Standard.Class" uid="00893366-21a1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="nsIPrefService" mc="Standard.Class" uid="00923790-21a1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="nsIPrincipal" mc="Standard.Class" uid="00807672-21a1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="nsIProgressDialog" mc="Standard.Class" uid="008f64ca-21a1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="nsIProgressDialog_1_8" mc="Standard.Class" uid="0095d012-21a1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="nsIPrompt" mc="Standard.Class" uid="008dff40-21a1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="nsIPromptService" mc="Standard.Class" uid="009038f0-21a1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="nsIProperties" mc="Standard.Class" uid="0080406c-21a1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="nsIRequest" mc="Standard.Class" uid="008b6244-21a1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="nsISSLStatus" mc="Standard.Class" uid="0079ead2-21a1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="nsIScriptContext" mc="Standard.Class" uid="31b86667-0c3b-4018-b890-66bb86c549be"/>
+        <COMPID name="nsIScriptGlobalObject" mc="Standard.Class" uid="cb6d0317-60a6-4f07-9b65-b13a5659c0c3"/>
+        <COMPID name="nsIScriptSecurityManager" mc="Standard.Class" uid="0088b832-21a1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="nsISeekableStream" mc="Standard.Class" uid="0080e058-21a1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="nsISerializable" mc="Standard.Class" uid="008ba358-21a1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="nsIServiceManager" mc="Standard.Class" uid="008435b4-21a1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="nsISimpleEnumerator" mc="Standard.Class" uid="00936746-21a1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="nsISupports" mc="Standard.Class" uid="007cb046-21a1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="nsITransfer" mc="Standard.Class" uid="007f3690-21a1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="nsIURI" mc="Standard.Class" uid="007f6b74-21a1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="nsIUploadChannel" mc="Standard.Class" uid="00834776-21a1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="nsIVariant" mc="Standard.Class" uid="008e92d4-21a1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="nsIWebBrowser" mc="Standard.Class" uid="007e6648-21a1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="nsIWebBrowserChrome" mc="Standard.Class" uid="008ae10c-21a1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="nsIWebBrowserFocus" mc="Standard.Class" uid="007fd596-21a1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="nsIWebBrowserSetup" mc="Standard.Class" uid="008c2990-21a1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="nsIWebBrowserStream" mc="Standard.Class" uid="008fab10-21a1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="nsIWebNavigation" mc="Standard.Class" uid="007e99a6-21a1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="nsIWebNavigationInfo" mc="Standard.Class" uid="0089e2d4-21a1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="nsIWebProgress" mc="Standard.Class" uid="007f021a-21a1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="nsIWebProgressListener" mc="Standard.Class" uid="0083816e-21a1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="nsIWebProgressListener2" mc="Standard.Class" uid="007b228a-21a1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="nsIWindowWatcher" mc="Standard.Class" uid="0092cde0-21a1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="nsIWritableVariant" mc="Standard.Class" uid="0090c824-21a1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="nsIX509Cert" mc="Standard.Class" uid="007fa044-21a1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="nsIX509CertValidity" mc="Standard.Class" uid="00742eda-21a1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="nsIXPCSecurityManager" mc="Standard.Class" uid="007ab6a6-21a1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="nsIXPConnect" mc="Standard.Class" uid="00764170-21a1-1fb1-8a9e-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="compatibility" version="4">
+  <OBJECT>
+    <ID name="compatibility" mc="Standard.Package" uid="27ce2933-702d-46c7-be0e-7f5feaa60c3e"/>
+    <PID name="discovery" mc="Standard.Package" uid="8a106bbb-14f7-44d3-9f65-f0ce0d485d0f"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[compatibility]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Activator" mc="Standard.Class" uid="0eb68bd1-1b69-480b-a629-a3bd17f42280"/>
+        <COMPID name="BundleDiscoverySource" mc="Standard.Class" uid="6129a761-44b9-41aa-a591-5f3bc3dafb5d"/>
+        <COMPID name="BundleDiscoveryStrategy" mc="Standard.Class" uid="078f41bb-c89a-4b93-918a-e01f9ab779aa"/>
+        <COMPID name="ConnectorDiscoveryExtensionReader" mc="Standard.Class" uid="80b88574-c091-440c-ba98-bf961c8ca035"/>
+        <COMPID name="Directory" mc="Standard.Class" uid="ed236b4b-edd1-47ed-adff-7b28d00713a9"/>
+        <COMPID name="DirectoryParser" mc="Standard.Class" uid="937a192f-fb99-4507-bde7-f96cc78a6f7c"/>
+        <COMPID name="JarDiscoverySource" mc="Standard.Class" uid="449cf6c1-b914-4ab0-ad36-98853a337b5f"/>
+        <COMPID name="Messages" mc="Standard.Class" uid="ba94ac97-c70f-4de5-983f-8f7ae4d64e4b"/>
+        <COMPID name="RemoteBundleDiscoveryStrategy" mc="Standard.Class" uid="ce10a5d7-ae3c-401c-b894-1d9f9787aed0"/>
+        <COMPID name="SiteVerifier" mc="Standard.Class" uid="b9dbb927-6005-4668-9489-a5434ebd5197"/>
+        <COMPID name="util" mc="Standard.Package" uid="fc4be7b6-b290-4f9c-b2db-fe14a5c8c84a"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

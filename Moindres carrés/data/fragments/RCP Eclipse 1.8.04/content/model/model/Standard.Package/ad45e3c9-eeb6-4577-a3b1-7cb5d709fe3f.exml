@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="policy" version="4">
+  <OBJECT>
+    <ID name="policy" mc="Standard.Package" uid="ad45e3c9-eeb6-4577-a3b1-7cb5d709fe3f"/>
+    <PID name="gefTree" mc="Standard.Package" uid="6e08750d-15bf-45b2-a367-ca6dedfe6fce"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[policy]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ObjectLayoutEditPolicy" mc="Standard.Class" uid="0501adbf-df7d-462a-b86c-d264938eb340"/>
+        <COMPID name="SingleObjectLayoutEditPolicy" mc="Standard.Class" uid="ede12a92-2bd0-450f-9800-8ad6f6f82f5e"/>
+        <COMPID name="layout" mc="Standard.Package" uid="02acbcfd-492f-478f-a060-5d4f9895059a"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="preferences" version="4">
+  <OBJECT>
+    <ID name="preferences" mc="Standard.Package" uid="fcb76761-fab5-4229-bde3-ec530d9bf63a"/>
+    <PID name="internal" mc="Standard.Package" uid="5a6dc0a8-cf6b-4224-a3a9-4a2fca584793"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[preferences]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="MavenConfigurationImpl" mc="Standard.Class" uid="806b835b-7bf7-48ae-9a2c-3b40a03674b7"/>
+        <COMPID name="MavenPreferenceConstants" mc="Standard.Interface" uid="bbe66754-0283-4d29-9946-1f23358b0e8d"/>
+        <COMPID name="MavenPreferenceInitializer" mc="Standard.Class" uid="2019f0fc-4a32-4646-95f5-1819004f9832"/>
+        <OBJECT>
+          <ID name="ProblemSeverity" mc="Standard.Enumeration" uid="136a2bb5-9dc8-40f0-ad4b-07d845275cd5"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[ProblemSeverity]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Extension">
+              <FOREIGNID name="JavaEnumeration" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0262-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

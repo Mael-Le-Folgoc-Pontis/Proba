@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="impl" version="4">
+  <OBJECT>
+    <ID name="impl" mc="Standard.Package" uid="a7322a55-dd9a-4c33-a609-692ca1bd1e2a"/>
+    <PID name="preferences" mc="Standard.Package" uid="e025a1b4-8db6-4ca1-b554-5b8e871d5cad"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[impl]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="PreferenceItemImpl" mc="Standard.Class" uid="10f02507-bcd4-43f2-b0b6-310a7e4fff5e"/>
+        <COMPID name="PreferenceNodeImpl" mc="Standard.Class" uid="3d2ba9fa-9fcb-4945-a4de-7078f136374b"/>
+        <COMPID name="PreferencesFactoryImpl" mc="Standard.Class" uid="82eeeecd-a539-4e0b-b115-f535f7cecade"/>
+        <COMPID name="PreferencesPackageImpl" mc="Standard.Class" uid="2581c780-eab3-41c3-bb8a-ecd01009adc6"/>
+        <COMPID name="PreferencesURIHandlerImpl" mc="Standard.Class" uid="46bb99a9-91b6-4f28-8f58-20a82d3551c8"/>
+        <COMPID name="PropertyImpl" mc="Standard.Class" uid="9f2d4005-92e5-41f1-a9dd-43fa7723baa2"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

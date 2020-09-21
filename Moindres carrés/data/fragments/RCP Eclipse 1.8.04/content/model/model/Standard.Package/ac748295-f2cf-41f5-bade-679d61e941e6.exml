@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="events" version="4">
+  <OBJECT>
+    <ID name="events" mc="Standard.Package" uid="ac748295-f2cf-41f5-bade-679d61e941e6"/>
+    <PID name="jgit" mc="Standard.Package" uid="bf3b61ef-28ee-4cf7-8afd-022df78c66c8"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[events]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ConfigChangedEvent" mc="Standard.Class" uid="9e9ce882-ea99-474c-b1be-c7312072b2a9"/>
+        <COMPID name="ConfigChangedListener" mc="Standard.Interface" uid="75e36bea-aa8d-44ff-bf46-12c2157ba97d"/>
+        <COMPID name="IndexChangedEvent" mc="Standard.Class" uid="831de30a-c2de-4983-aae1-eb152df10ac6"/>
+        <COMPID name="IndexChangedListener" mc="Standard.Interface" uid="88de8159-2250-49ce-b1b4-55e67cd96934"/>
+        <COMPID name="ListenerHandle" mc="Standard.Class" uid="6d414145-2f7c-4cec-9b31-b74adec23bc2"/>
+        <COMPID name="ListenerList" mc="Standard.Class" uid="36c02b5c-a96c-4663-b6cb-d4c5a8f7193a"/>
+        <COMPID name="RefsChangedEvent" mc="Standard.Class" uid="4ae2c1a8-7dc8-4809-ac33-993da01fee3a"/>
+        <COMPID name="RefsChangedListener" mc="Standard.Interface" uid="fb7d971a-5720-4982-a3ec-2e87061b2ec4"/>
+        <COMPID name="RepositoryEvent" mc="Standard.Class" uid="75ef84bd-927d-4025-853d-8b5e36b0552b"/>
+        <COMPID name="RepositoryListener" mc="Standard.Interface" uid="9dc17d47-14b2-42bd-92d4-196ef6c56695"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

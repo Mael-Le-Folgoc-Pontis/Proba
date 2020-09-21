@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ui" version="4">
+  <OBJECT>
+    <ID name="ui" mc="Standard.Package" uid="9babd2df-422d-4781-baa2-c389c1163cf3"/>
+    <PID name="aeri" mc="Standard.Package" uid="29b70d4e-abd7-4e62-8e4a-b7ffb7e6f366"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[ui]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ConfigurationDialog" mc="Standard.Class" uid="1cac7619-4c2a-4489-b7c2-63a8cc7f482d"/>
+        <COMPID name="Constants" mc="Standard.Class" uid="8c03b836-8698-45c0-9161-806507e0d5ee"/>
+        <COMPID name="Events" mc="Standard.Class" uid="b1629253-f45f-4d89-9735-a6a1f6b95e0d"/>
+        <COMPID name="ExpiringReportHistory" mc="Standard.Class" uid="464802c7-4aec-4dca-947d-71dc4a7b6caa"/>
+        <COMPID name="INotificationService" mc="Standard.Interface" uid="a2a157d5-b65c-4c2d-b969-704f3b172a47"/>
+        <COMPID name="PreferencePage" mc="Standard.Class" uid="205519c3-93c6-430e-b9bb-4b80cc25dcd6"/>
+        <COMPID name="ReportDialog" mc="Standard.Class" uid="a41bfc6d-c4b0-45a3-b857-3f2e02f9c20a"/>
+        <COMPID name="ReportingController" mc="Standard.Class" uid="2cc5ee8c-a8a8-4a0b-b17b-53f6215600f1"/>
+        <COMPID name="UploadHandler" mc="Standard.Class" uid="1d26fdc6-86e2-4adf-adab-8f5d3165467a"/>
+        <COMPID name="UploadJob" mc="Standard.Class" uid="458024f6-d911-4d29-b3f2-7b15e3b19545"/>
+        <COMPID name="l10n" mc="Standard.Package" uid="5f997399-aa6b-4713-9948-2d345d8d87de"/>
+        <COMPID name="log" mc="Standard.Package" uid="56411fb7-fc83-403f-913f-d1672d857108"/>
+        <COMPID name="model" mc="Standard.Package" uid="73c19c3d-deb0-4fdd-86d3-f0205f2c6507"/>
+        <COMPID name="notifications" mc="Standard.Package" uid="13913573-de21-4941-a077-25bb74d578a0"/>
+        <COMPID name="utils" mc="Standard.Package" uid="7cefacf5-22c9-4e41-b626-b8a43ebf5126"/>
+        <COMPID name="v2" mc="Standard.Package" uid="cdfb9718-67ab-4cb6-ab6f-c95f9a8f5e43"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

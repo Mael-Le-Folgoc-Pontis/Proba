@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="encoder" version="4">
+  <OBJECT>
+    <ID name="encoder" mc="Standard.Package" uid="579dc280-2461-403b-abdb-9bbd324f3a71"/>
+    <PID name="core" mc="Standard.Package" uid="0101cad1-4db3-4b5d-b30b-1e1efbf9bd6c"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[encoder]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ByteArrayUtil" mc="Standard.Class" uid="5a820981-21a2-47d1-9ebf-b27a18003198"/>
+        <COMPID name="EchoEncoder" mc="Standard.Class" uid="88e49b0f-d91d-45a0-a08a-3c4b404ce73c"/>
+        <COMPID name="Encoder" mc="Standard.Interface" uid="dccb2e19-3d15-4ed4-92de-b2a364c26b18"/>
+        <COMPID name="EncoderBase" mc="Standard.Class" uid="f2ad9898-659a-4e36-a4d0-8089b47f73f1"/>
+        <COMPID name="EventObjectInputStream" mc="Standard.Class" uid="3c23351b-f77c-4881-9e27-4d6fe1423fb5"/>
+        <COMPID name="LayoutWrappingEncoder" mc="Standard.Class" uid="eaed4ee6-1d86-4398-b954-da9c550103ef"/>
+        <COMPID name="NonClosableInputStream" mc="Standard.Class" uid="ee182ccc-e360-444a-926f-acc21d893ca3"/>
+        <COMPID name="ObjectStreamEncoder" mc="Standard.Class" uid="08312df1-521d-4bf4-bfb0-3fa01e8a1e0c"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

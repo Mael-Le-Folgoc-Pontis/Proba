@@ -1,0 +1,152 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="collect" version="4">
+  <OBJECT>
+    <ID name="collect" mc="Standard.Package" uid="149f72c6-a011-4453-9b58-f6f1bb539e9f"/>
+    <PID name="common" mc="Standard.Package" uid="a53057d4-becb-49c8-a124-0d91b5f0d087"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[collect]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractIterator" mc="Standard.Class" uid="f272ca97-3170-4351-a17d-c883c2fbde0e"/>
+        <COMPID name="AbstractLinkedIterator" mc="Standard.Class" uid="256c2f4b-8afb-4c85-8c58-6dacfdd104d9"/>
+        <COMPID name="AbstractSequentialIterator" mc="Standard.Class" uid="3e083966-032b-4641-b6b9-272df6019a7e"/>
+        <COMPID name="ArrayListMultimap" mc="Standard.Class" uid="ffa4c5bc-463c-4e12-9002-be52b0fedb5f"/>
+        <COMPID name="ArrayTable" mc="Standard.Class" uid="99d31c3c-8942-49d4-8570-4c8f05a9e1a2"/>
+        <COMPID name="AsynchronousComputationException" mc="Standard.Class" uid="09ed6e6e-7b2f-437f-b97e-c271ab91d2e8"/>
+        <COMPID name="BiMap" mc="Standard.Interface" uid="ff926ce4-d3d3-46a6-b43a-8c960775c40b"/>
+        <COMPID name="BinaryTreeTraverser" mc="Standard.Class" uid="f54913da-7101-4689-b488-8f347e7e8bc3"/>
+        <OBJECT>
+          <ID name="BoundType" mc="Standard.Enumeration" uid="78e8be22-bc8c-4560-824e-23843d434b17"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[BoundType]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Extension">
+              <FOREIGNID name="JavaEnumeration" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0262-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <COMPID name="ClassToInstanceMap" mc="Standard.Interface" uid="f5555249-3e49-4fce-863f-249cc00e909c"/>
+        <COMPID name="Collections2" mc="Standard.Class" uid="d2835d1d-9cd0-4c63-be2b-44c7e136d5fd"/>
+        <COMPID name="ComparisonChain" mc="Standard.Class" uid="a4d27282-5975-41c7-90fe-48cf386cf75d"/>
+        <COMPID name="ComputationException" mc="Standard.Class" uid="d7429593-cb13-4428-b0c8-a798b28a1569"/>
+        <COMPID name="ConcurrentHashMultiset" mc="Standard.Class" uid="7718e024-5886-4675-9032-d088495e3c21"/>
+        <COMPID name="ContiguousSet" mc="Standard.Class" uid="2830acfe-e84a-44d3-8a5f-12db8591e26b"/>
+        <COMPID name="DiscreteDomain" mc="Standard.Class" uid="2514464e-d89e-40d5-b5cf-5cc0349266a6"/>
+        <COMPID name="DiscreteDomains" mc="Standard.Class" uid="0efb663a-7e0c-4c61-b302-919224c13e63"/>
+        <COMPID name="EmptyImmutableList" mc="Standard.Class" uid="c45e05cb-2efb-4fc7-9077-f832b73d7459"/>
+        <COMPID name="EmptyImmutableMultiset" mc="Standard.Class" uid="0c88de5f-4793-48a5-8292-fe8b8fd0452f"/>
+        <COMPID name="EnumBiMap" mc="Standard.Class" uid="8aee1a06-e04a-4c42-a30c-99a6f55eec52"/>
+        <COMPID name="EnumHashBiMap" mc="Standard.Class" uid="a3655dd3-0645-4c37-a37b-d1cd29197eb9"/>
+        <COMPID name="EnumMultiset" mc="Standard.Class" uid="38eb39ec-b9ed-4c66-b96d-110c31e56602"/>
+        <COMPID name="EvictingQueue" mc="Standard.Class" uid="85c7d739-661a-45ab-a32b-631b8e014347"/>
+        <COMPID name="FluentIterable" mc="Standard.Class" uid="3fb10768-37de-4d33-a206-8ece77dba469"/>
+        <COMPID name="ForwardingBlockingDeque" mc="Standard.Class" uid="1cc5da8c-4731-4d35-9ffe-89c2275021f2"/>
+        <COMPID name="ForwardingCollection" mc="Standard.Class" uid="518d1005-4408-4110-afe1-608fd0bc3fbe"/>
+        <COMPID name="ForwardingConcurrentMap" mc="Standard.Class" uid="83399111-07d6-4a98-a62a-65ebfe5a565f"/>
+        <COMPID name="ForwardingDeque" mc="Standard.Class" uid="a88db3f2-34b3-4cda-9bfd-5d44647395c7"/>
+        <COMPID name="ForwardingIterator" mc="Standard.Class" uid="bb11c10a-245a-4a82-9a77-eaee91fb4840"/>
+        <COMPID name="ForwardingList" mc="Standard.Class" uid="7729f5f3-4144-41cb-a87e-e2c24800a2a9"/>
+        <COMPID name="ForwardingListIterator" mc="Standard.Class" uid="4c05c0f7-ec8f-4828-997d-2a788f457f6e"/>
+        <COMPID name="ForwardingListMultimap" mc="Standard.Class" uid="67246426-606e-4fb5-aad4-1a42735c1b50"/>
+        <COMPID name="ForwardingMap" mc="Standard.Class" uid="858c20d1-f6d1-400f-b704-22598547cf52"/>
+        <COMPID name="ForwardingMapEntry" mc="Standard.Class" uid="97814171-9ada-4c73-80f8-7bda7aa0a287"/>
+        <COMPID name="ForwardingMultimap" mc="Standard.Class" uid="36e5fa51-252d-4332-b34d-27245f165a57"/>
+        <COMPID name="ForwardingMultiset" mc="Standard.Class" uid="46023809-38f7-49d9-bdb6-7aab984c6ee3"/>
+        <COMPID name="ForwardingNavigableMap" mc="Standard.Class" uid="5d019e41-37c5-49b7-be8a-2d891d314249"/>
+        <COMPID name="ForwardingNavigableSet" mc="Standard.Class" uid="117b3492-529a-4fd6-8620-996c999cd682"/>
+        <COMPID name="ForwardingObject" mc="Standard.Class" uid="e8df8c68-4eb6-48af-bf24-238eb62de43d"/>
+        <COMPID name="ForwardingQueue" mc="Standard.Class" uid="69ab4c02-ae88-4f46-bfcb-fc46d8f5d118"/>
+        <COMPID name="ForwardingSet" mc="Standard.Class" uid="a4b1a9ce-a56f-45ca-99c4-187f3ab478ab"/>
+        <COMPID name="ForwardingSetMultimap" mc="Standard.Class" uid="79b8c7a0-2af1-4fa7-958f-a4f5a7e12c11"/>
+        <COMPID name="ForwardingSortedMap" mc="Standard.Class" uid="f6188cf8-376c-4dc9-a3e4-d0c3ec28948c"/>
+        <COMPID name="ForwardingSortedMultiset" mc="Standard.Class" uid="4231cfe1-e99e-478e-a980-84001b094107"/>
+        <COMPID name="ForwardingSortedSet" mc="Standard.Class" uid="9ca0740f-e26b-466f-af48-2dfca6a0b72f"/>
+        <COMPID name="ForwardingSortedSetMultimap" mc="Standard.Class" uid="5d99eab7-ba6c-45f9-b678-b918c6bea22b"/>
+        <COMPID name="ForwardingTable" mc="Standard.Class" uid="7ab5cc9a-f0f0-4342-ad54-5405b0c4a123"/>
+        <COMPID name="HashBasedTable" mc="Standard.Class" uid="e0ea3cae-c78e-418e-873e-dcc7d5a38514"/>
+        <COMPID name="HashBiMap" mc="Standard.Class" uid="4f4d6a84-ea85-47d2-ad24-2343945c2488"/>
+        <COMPID name="HashMultimap" mc="Standard.Class" uid="d3b41ef1-de33-444d-a5a6-14d052244b0d"/>
+        <COMPID name="HashMultiset" mc="Standard.Class" uid="b95fc83d-d351-4ef2-a3a2-94cb7c319798"/>
+        <COMPID name="ImmutableBiMap" mc="Standard.Class" uid="ddc4d5c4-7d52-4110-ba43-09f2d95411f1"/>
+        <COMPID name="ImmutableClassToInstanceMap" mc="Standard.Class" uid="499b2972-ea60-481d-85d5-5e7162da2285"/>
+        <COMPID name="ImmutableCollection" mc="Standard.Class" uid="a7b2bb23-ef4f-4fbd-a402-040173aee131"/>
+        <COMPID name="ImmutableList" mc="Standard.Class" uid="dacc4ae8-d9a9-42f6-afd6-d7ef1b87f6a3"/>
+        <COMPID name="ImmutableListMultimap" mc="Standard.Class" uid="0d0ea79f-3a2b-4f80-94b9-4bbe52002aab"/>
+        <COMPID name="ImmutableMap" mc="Standard.Class" uid="17534581-c4bf-44e3-acbd-c2a8b529e18a"/>
+        <COMPID name="ImmutableMultimap" mc="Standard.Class" uid="1b8ba425-561a-4698-bcfd-f6073db22d27"/>
+        <COMPID name="ImmutableMultiset" mc="Standard.Class" uid="d7228e09-d1a7-4254-a1c4-eb7f70169062"/>
+        <COMPID name="ImmutableRangeMap" mc="Standard.Class" uid="b6d6e67b-a71f-440a-9c40-8e7ac64ffd77"/>
+        <COMPID name="ImmutableRangeSet" mc="Standard.Class" uid="e0bcf39a-2f56-46b6-8ad8-f96135726b80"/>
+        <COMPID name="ImmutableSet" mc="Standard.Class" uid="1fa8fddd-cba0-468c-a2e1-c3db83f13c01"/>
+        <COMPID name="ImmutableSetMultimap" mc="Standard.Class" uid="6dd03969-d313-4453-b2ca-118d7635a62c"/>
+        <COMPID name="ImmutableSortedMap" mc="Standard.Class" uid="af9c31db-b6b4-4015-a9ad-59cac5e91c7a"/>
+        <COMPID name="ImmutableSortedMultiset" mc="Standard.Class" uid="e39c4fdb-829b-441b-9d3b-9c1c768d2d41"/>
+        <COMPID name="ImmutableSortedSet" mc="Standard.Class" uid="573664bc-e79c-4e27-93e6-22fc76a51ed7"/>
+        <COMPID name="ImmutableTable" mc="Standard.Class" uid="90fa568f-6d39-4954-ac39-8ec13e0c18aa"/>
+        <COMPID name="Interner" mc="Standard.Interface" uid="d7a2cded-ed39-454f-b1b7-ea919792eb55"/>
+        <COMPID name="Interners" mc="Standard.Class" uid="a36c3cd6-1dc6-4826-9534-382234944271"/>
+        <COMPID name="Iterables" mc="Standard.Class" uid="ce076190-85ca-4e31-b4e9-b24686283531"/>
+        <COMPID name="Iterators" mc="Standard.Class" uid="a15f8a93-16e5-4750-8c37-09ada63d991f"/>
+        <COMPID name="LinkedHashMultimap" mc="Standard.Class" uid="d2a8e1d7-2b42-402a-aa93-01910373e8a0"/>
+        <COMPID name="LinkedHashMultiset" mc="Standard.Class" uid="bb866bad-cc7f-4cde-a44b-d02b01725526"/>
+        <COMPID name="LinkedListMultimap" mc="Standard.Class" uid="fa9c96dc-a3b3-41cf-8578-42df7bb4f5c9"/>
+        <COMPID name="ListMultimap" mc="Standard.Interface" uid="63dc8c46-bc54-4b9d-aedc-35ab10cfa7a3"/>
+        <COMPID name="Lists" mc="Standard.Class" uid="e5f60cda-c9ee-4e0a-8c0a-bda01d16c6e4"/>
+        <COMPID name="MapConstraint" mc="Standard.Interface" uid="0040a04b-fdb8-4641-9723-a724046c8568"/>
+        <COMPID name="MapConstraints" mc="Standard.Class" uid="ad7f8b00-8a18-4ec8-befd-7ceca75d03f0"/>
+        <COMPID name="MapDifference" mc="Standard.Interface" uid="60bac9bd-b328-4416-ae97-50c3de664cf4"/>
+        <COMPID name="MapMaker" mc="Standard.Class" uid="a9362180-a66f-4f74-8ddd-d44bf860acb0"/>
+        <COMPID name="Maps" mc="Standard.Class" uid="28fe8d50-2e70-411c-9935-b2bc2766beb1"/>
+        <COMPID name="MinMaxPriorityQueue" mc="Standard.Class" uid="46c3df90-0b5a-4299-becd-8875f074bbf1"/>
+        <COMPID name="Multimap" mc="Standard.Interface" uid="1d01d3db-6183-48fc-898b-6608c9876275"/>
+        <COMPID name="MultimapBuilder" mc="Standard.Class" uid="0ce7b495-0982-4373-af60-3dfabb9989af"/>
+        <COMPID name="Multimaps" mc="Standard.Class" uid="3853048c-2208-4349-b085-f8d5d47b75f1"/>
+        <COMPID name="Multiset" mc="Standard.Interface" uid="eb7f3ace-0108-4d38-bacf-62dce6f70038"/>
+        <COMPID name="Multisets" mc="Standard.Class" uid="28d681f3-fc97-441d-b7d6-cc33a3ccae94"/>
+        <COMPID name="MutableClassToInstanceMap" mc="Standard.Class" uid="a4e6ca53-450d-4896-b236-87b7e9f33bdf"/>
+        <COMPID name="ObjectArrays" mc="Standard.Class" uid="1b455140-f0b4-46d3-82e2-3464126e4752"/>
+        <COMPID name="Ordering" mc="Standard.Class" uid="cc82ac28-7351-4bc7-9b91-0bbf6f750673"/>
+        <COMPID name="PeekingIterator" mc="Standard.Interface" uid="f2c4524a-1103-48e6-a0b5-bdb4f05ff642"/>
+        <COMPID name="Queues" mc="Standard.Class" uid="2e453a14-6180-48bb-8da3-deef39c2480f"/>
+        <COMPID name="Range" mc="Standard.Class" uid="ec297e19-5852-4741-9764-b7c8c9637909"/>
+        <COMPID name="RangeMap" mc="Standard.Interface" uid="ecf70b81-5185-4fb1-8e53-1468fc0ee84a"/>
+        <COMPID name="RangeSet" mc="Standard.Interface" uid="b46eef60-697d-49aa-a889-fad47e79f744"/>
+        <COMPID name="Ranges" mc="Standard.Class" uid="d0ef6214-aeb7-4a4f-b2ee-41760fa2b7d0"/>
+        <COMPID name="RowSortedTable" mc="Standard.Interface" uid="8b193654-0e69-484f-a5a2-ed2ca63bed25"/>
+        <COMPID name="SetMultimap" mc="Standard.Interface" uid="dd948493-3a99-4674-99b6-4314b6237639"/>
+        <COMPID name="Sets" mc="Standard.Class" uid="6a0a7405-b323-4c46-86fc-cf4f5f016dd7"/>
+        <COMPID name="SortedMapDifference" mc="Standard.Interface" uid="b8a1dc5e-6f1a-4f28-8696-89b5f9d70246"/>
+        <COMPID name="SortedMultiset" mc="Standard.Interface" uid="902e03c5-d145-4c26-aa5d-383c4fd21fd3"/>
+        <COMPID name="SortedSetMultimap" mc="Standard.Interface" uid="4b66fbd7-4392-49ac-92e0-89aee884eb9e"/>
+        <COMPID name="Table" mc="Standard.Interface" uid="f026c120-4253-4f4e-bb4c-b54e3c18ed08"/>
+        <COMPID name="Tables" mc="Standard.Class" uid="427da1ca-f96a-4339-93d3-5825392cacae"/>
+        <COMPID name="TransformedImmutableSet" mc="Standard.Class" uid="37dd2dda-5d91-4f74-90ee-e01e9aa64205"/>
+        <COMPID name="TreeBasedTable" mc="Standard.Class" uid="87c6cd20-ec5a-40ff-8f38-d277cbd890e9"/>
+        <COMPID name="TreeMultimap" mc="Standard.Class" uid="43fe144d-fc65-469d-91a7-1eaaf658cc2f"/>
+        <COMPID name="TreeMultiset" mc="Standard.Class" uid="d8c00d39-9ed5-4946-a16f-ffdfc548aac2"/>
+        <COMPID name="TreeRangeMap" mc="Standard.Class" uid="af0a9e71-bd44-4eea-b7c8-cf7e3628fb20"/>
+        <COMPID name="TreeRangeSet" mc="Standard.Class" uid="dda35076-c7df-4959-8f27-396c53c15c50"/>
+        <COMPID name="TreeTraverser" mc="Standard.Class" uid="a1a2c10a-e91b-4909-939b-fe877cbf70c8"/>
+        <COMPID name="UnmodifiableIterator" mc="Standard.Class" uid="5beda55b-4db2-4db8-90ee-4882796dd068"/>
+        <COMPID name="UnmodifiableListIterator" mc="Standard.Class" uid="9df163c5-2984-40dd-9ba6-5678baad3136"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

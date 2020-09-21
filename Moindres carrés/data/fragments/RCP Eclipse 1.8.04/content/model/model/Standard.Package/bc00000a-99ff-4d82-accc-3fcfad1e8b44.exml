@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="utils" version="4">
+  <OBJECT>
+    <ID name="utils" mc="Standard.Package" uid="bc00000a-99ff-4d82-accc-3fcfad1e8b44"/>
+    <PID name="swing" mc="Standard.Package" uid="9830b5a7-65f5-42f6-9ec2-f443714086a1"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[utils]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="SwingImageUtils" mc="Standard.Class" uid="1e7917a2-f98c-43e5-9d5d-dca563ef2c02"/>
+        <COMPID name="SwingScreenshotMaker" mc="Standard.Class" uid="63adc002-e353-4fbd-bf47-bb5e6ab79a54"/>
+        <COMPID name="SwingUtils" mc="Standard.Class" uid="bb9a4523-e16b-4e40-8b99-cf7fc3b0ecd7"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

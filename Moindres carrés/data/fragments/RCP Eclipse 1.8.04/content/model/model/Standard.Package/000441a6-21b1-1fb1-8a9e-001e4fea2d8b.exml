@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="service" version="4">
+  <OBJECT>
+    <ID name="service" mc="Standard.Package" uid="000441a6-21b1-1fb1-8a9e-001e4fea2d8b"/>
+    <PID name="osgi" mc="Standard.Package" uid="0003d130-21b1-1fb1-8a9e-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[service]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="application" mc="Standard.Package" uid="001a1878-21b1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="cm" mc="Standard.Package" uid="000dd02c-21b1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="component" mc="Standard.Package" uid="001d4214-21b1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="condpermadmin" mc="Standard.Package" uid="00144c40-21b1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="device" mc="Standard.Package" uid="0006464a-21b1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="event" mc="Standard.Package" uid="001161ce-21b1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="framework" mc="Standard.Package" uid="0034fa58-21b1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="http" mc="Standard.Package" uid="00184c14-21b1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="io" mc="Standard.Package" uid="0032fbe0-21b1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="log" mc="Standard.Package" uid="0008820c-21b1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="metatype" mc="Standard.Package" uid="002881f6-21b1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="packageadmin" mc="Standard.Package" uid="0004ba5a-21b1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="permissionadmin" mc="Standard.Package" uid="00398a50-21b1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="prefs" mc="Standard.Package" uid="0037c116-21b1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="provisioning" mc="Standard.Package" uid="000a1cf2-21b1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="resolver" mc="Standard.Package" uid="c1dddaaf-c876-4bc0-b5de-f66e86ae95e3"/>
+        <COMPID name="startlevel" mc="Standard.Package" uid="001712ae-21b1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="upnp" mc="Standard.Package" uid="002b5ff2-21b1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="url" mc="Standard.Package" uid="002daef6-21b1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="useradmin" mc="Standard.Package" uid="002f9eb4-21b1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="wireadmin" mc="Standard.Package" uid="000af032-21b1-1fb1-8a9e-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

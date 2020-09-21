@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="output" version="4">
+  <OBJECT>
+    <ID name="output" mc="Standard.Package" uid="d382a908-4160-48ac-9054-f5698f6d7dc4"/>
+    <PID name="io" mc="Standard.Package" uid="6edf485c-8862-44f7-978e-11507387b8a2"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[output]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ByteArrayOutputStream" mc="Standard.Class" uid="3305d61d-15b2-45fa-b873-afcd52ca4053"/>
+        <COMPID name="NullOutputStream" mc="Standard.Class" uid="300907e1-8908-402a-ae8f-f40fde2cd3db"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,97 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="util" version="4">
+  <OBJECT>
+    <ID name="util" mc="Standard.Package" uid="008e2b50-0bbe-112e-9071-001e4fea2d8b"/>
+    <PID name="ant" mc="Standard.Package" uid="001ff900-0bbe-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[util]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Base64Converter" mc="Standard.Class" uid="008e3460-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ChainedMapper" mc="Standard.Class" uid="008e3bcc-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ClasspathUtils" mc="Standard.Class" uid="008e436a-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CollectionUtils" mc="Standard.Class" uid="008e5ba2-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CompositeMapper" mc="Standard.Class" uid="008e81b8-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ConcatFileInputStream" mc="Standard.Class" uid="008e8a00-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ConcatResourceInputStream" mc="Standard.Class" uid="008e9266-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ContainerMapper" mc="Standard.Class" uid="008e9acc-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DOMElementWriter" mc="Standard.Class" uid="008ea3aa-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DOMUtils" mc="Standard.Class" uid="008ebbce-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DateUtils" mc="Standard.Class" uid="008ec54c-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DeweyDecimal" mc="Standard.Class" uid="008ecec0-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FileNameMapper" mc="Standard.Interface" uid="008ed5e6-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FileTokenizer" mc="Standard.Class" uid="008ee108-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FileUtils" mc="Standard.Class" uid="008eeaae-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FirstMatchMapper" mc="Standard.Class" uid="008ef486-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FlatFileNameMapper" mc="Standard.Class" uid="008efe86-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="GlobPatternMapper" mc="Standard.Class" uid="008f08c2-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IdentityMapper" mc="Standard.Class" uid="008f1330-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IdentityStack" mc="Standard.Class" uid="008f1dd0-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JAXPUtils" mc="Standard.Class" uid="008f28a2-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaEnvUtils" mc="Standard.Class" uid="008f3392-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="KeepAliveInputStream" mc="Standard.Class" uid="008f3ebe-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="KeepAliveOutputStream" mc="Standard.Class" uid="008f4a26-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LayoutPreservingProperties" mc="Standard.Class" uid="008f5700-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LazyFileOutputStream" mc="Standard.Class" uid="008f9a26-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LazyHashtable" mc="Standard.Class" uid="008fa64c-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LeadPipeInputStream" mc="Standard.Class" uid="008fb2c2-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LineOrientedOutputStream" mc="Standard.Class" uid="008fbf24-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LineOrientedOutputStreamRedirector" mc="Standard.Class" uid="008fcbe0-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LineTokenizer" mc="Standard.Class" uid="008fd8ec-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LinkedHashtable" mc="Standard.Class" uid="008fe5e4-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LoaderUtils" mc="Standard.Class" uid="008ff386-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MergingMapper" mc="Standard.Class" uid="0090011e-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="OutputStreamFunneler" mc="Standard.Class" uid="00900ee8-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PackageNameMapper" mc="Standard.Class" uid="009023ec-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ProcessUtil" mc="Standard.Class" uid="6b61168a-7a0f-4e78-851d-117737cfa6b8"/>
+        <COMPID name="PropertyOutputStream" mc="Standard.Class" uid="00903206-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ProxySetup" mc="Standard.Class" uid="0090405c-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ReaderInputStream" mc="Standard.Class" uid="00904ef8-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ReflectUtil" mc="Standard.Class" uid="00905d94-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ReflectWrapper" mc="Standard.Class" uid="00906c8a-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RegexpPatternMapper" mc="Standard.Class" uid="00907bb2-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ResourceUtils" mc="Standard.Class" uid="00908b34-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RetryHandler" mc="Standard.Class" uid="0090a25e-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Retryable" mc="Standard.Interface" uid="0090aa1a-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ScriptFixBSFPath" mc="Standard.Class" uid="0090ba3c-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ScriptRunner" mc="Standard.Class" uid="0090ca68-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ScriptRunnerBase" mc="Standard.Class" uid="0090da76-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ScriptRunnerCreator" mc="Standard.Class" uid="0090eaca-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ScriptRunnerHelper" mc="Standard.Class" uid="0090fb78-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SourceFileScanner" mc="Standard.Class" uid="00910c08-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SplitClassLoader" mc="Standard.Class" uid="00911ce8-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="StringTokenizer" mc="Standard.Class" uid="00912e9a-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="StringUtils" mc="Standard.Class" uid="00913fd4-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SymbolicLinkUtils" mc="Standard.Class" uid="00915172-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TaskLogger" mc="Standard.Class" uid="0091636a-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TeeOutputStream" mc="Standard.Class" uid="00917576-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TimeoutObserver" mc="Standard.Interface" uid="00917d32-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Tokenizer" mc="Standard.Interface" uid="00918566-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="UUEncoder" mc="Standard.Class" uid="009197c2-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="UnPackageNameMapper" mc="Standard.Class" uid="0091aa3c-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="UnicodeUtil" mc="Standard.Class" uid="0091bcc0-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="VectorSet" mc="Standard.Class" uid="0091cfb2-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Watchdog" mc="Standard.Class" uid="0091e2cc-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WeakishReference" mc="Standard.Class" uid="0091f60e-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WorkerAnt" mc="Standard.Class" uid="009218be-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="XMLFragment" mc="Standard.Class" uid="00922c8c-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="XmlConstants" mc="Standard.Class" uid="00924794-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="depend" mc="Standard.Package" uid="009315e8-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="facade" mc="Standard.Package" uid="0094e24c-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="java15" mc="Standard.Package" uid="0095ccb6-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="optional" mc="Standard.Package" uid="0096bb26-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="regexp" mc="Standard.Package" uid="0097c822-0bbe-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

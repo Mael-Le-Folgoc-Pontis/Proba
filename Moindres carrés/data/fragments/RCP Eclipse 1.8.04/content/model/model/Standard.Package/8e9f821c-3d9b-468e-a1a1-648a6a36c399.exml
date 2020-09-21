@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="entry" version="4">
+  <OBJECT>
+    <ID name="entry" mc="Standard.Package" uid="8e9f821c-3d9b-468e-a1a1-648a6a36c399"/>
+    <PID name="model" mc="Standard.Package" uid="5d40785b-d8db-4107-bbf5-a43235986521"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[entry]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ChooseComponentEntryInfo" mc="Standard.Class" uid="899e1372-dc76-4b13-859e-0e4f0f783702"/>
+        <COMPID name="ComponentEntryInfo" mc="Standard.Class" uid="39c7a03e-bf8f-4e6d-820a-63b38fbc77a5"/>
+        <COMPID name="MarqueeSelectionToolEntryInfo" mc="Standard.Class" uid="9940daf2-c681-4a35-9e54-f58708b1521e"/>
+        <COMPID name="SelectionToolEntryInfo" mc="Standard.Class" uid="aa7ef699-c572-4a86-af12-bbafdb7259a9"/>
+        <COMPID name="TabOrderToolEntryInfo" mc="Standard.Class" uid="12e51317-7166-42ac-a15c-0f1130579561"/>
+        <COMPID name="ToolEntryInfo" mc="Standard.Class" uid="ac848417-036b-4249-aefa-dcadb8a78bb3"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

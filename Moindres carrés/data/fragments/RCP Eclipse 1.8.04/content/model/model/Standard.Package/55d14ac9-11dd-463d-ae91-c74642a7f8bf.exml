@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="embedder" version="4">
+  <OBJECT>
+    <ID name="embedder" mc="Standard.Package" uid="55d14ac9-11dd-463d-ae91-c74642a7f8bf"/>
+    <PID name="internal" mc="Standard.Package" uid="5a6dc0a8-cf6b-4224-a3a9-4a2fca584793"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[embedder]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractRunnable" mc="Standard.Class" uid="16e1f48d-f588-4143-857a-9000de9faa03"/>
+        <COMPID name="ArtifactTransferListenerAdapter" mc="Standard.Class" uid="9f9a0054-fe8c-4b65-9e61-1742f1119270"/>
+        <COMPID name="ContextRepositorySystemSession" mc="Standard.Interface" uid="b3d0c588-d76d-4b88-8198-e33a1bf8813c"/>
+        <COMPID name="ContextRepositorySystemSessionImpl" mc="Standard.Class" uid="2850ab6a-8685-4ac7-81cc-d11972805fc0"/>
+        <COMPID name="DefaultMavenComponentContributor" mc="Standard.Class" uid="87db737e-ca55-4294-99f0-d8b00ba658e5"/>
+        <COMPID name="EclipseBuildContext" mc="Standard.Class" uid="a31ed90f-6a26-4f4d-8c7a-25d67cd02b6f"/>
+        <COMPID name="EclipseClassRealmManagerDelegate" mc="Standard.Class" uid="98bdb80d-5a3d-437d-a5d5-cf99f20bf7dc"/>
+        <COMPID name="EclipseLoggerManager" mc="Standard.Class" uid="7d6c055d-2b3e-4035-99fc-9881af3d284c"/>
+        <COMPID name="EclipseRepositoryListener" mc="Standard.Class" uid="0147e643-d282-46e4-aa44-ccdee4803ce2"/>
+        <COMPID name="IMavenComponentContributor" mc="Standard.Interface" uid="467dd5eb-f1e5-40f5-b55e-64a093b49e8e"/>
+        <COMPID name="MavenExecutionContext" mc="Standard.Class" uid="df0f27c7-420b-4c82-b793-2b87b9b25cbd"/>
+        <COMPID name="MavenImpl" mc="Standard.Class" uid="1c72a7f8-d7c6-44b9-a307-f44e2afe5da0"/>
+        <COMPID name="MavenProjectMutableState" mc="Standard.Class" uid="d9116ac8-7dda-4655-9ef0-9ec0056806b0"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

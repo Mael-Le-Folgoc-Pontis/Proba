@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="contentassist" version="4">
+  <OBJECT>
+    <ID name="contentassist" mc="Standard.Package" uid="0086aa92-0833-109d-b5cd-001e4fea2d8b"/>
+    <PID name="text" mc="Standard.Package" uid="007fca06-0833-109d-b5cd-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[contentassist]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="CompletionProposal" mc="Standard.Class" uid="0086e57a-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="ContentAssistEvent" mc="Standard.Class" uid="008719e6-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="ContentAssistant" mc="Standard.Class" uid="008729e0-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="ContextInformation" mc="Standard.Class" uid="00874f60-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="ContextInformationValidator" mc="Standard.Class" uid="00876fcc-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="ICompletionListener" mc="Standard.Interface" uid="00877fbc-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="ICompletionListenerExtension" mc="Standard.Interface" uid="0087871e-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="ICompletionListenerExtension2" mc="Standard.Interface" uid="00878ea8-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="ICompletionProposal" mc="Standard.Interface" uid="0087966e-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="ICompletionProposalExtension" mc="Standard.Interface" uid="00879e70-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="ICompletionProposalExtension2" mc="Standard.Interface" uid="0087a69a-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="ICompletionProposalExtension3" mc="Standard.Interface" uid="0087af14-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="ICompletionProposalExtension4" mc="Standard.Interface" uid="0087b7ca-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="ICompletionProposalExtension5" mc="Standard.Interface" uid="0087c0b2-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="ICompletionProposalExtension6" mc="Standard.Interface" uid="0087c9cc-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="ICompletionProposalSorter" mc="Standard.Interface" uid="0087d322-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="IContentAssistProcessor" mc="Standard.Interface" uid="0087e678-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="IContentAssistant" mc="Standard.Interface" uid="0087f082-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="IContentAssistantExtension" mc="Standard.Interface" uid="0087fab4-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="IContentAssistantExtension2" mc="Standard.Interface" uid="008805e0-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="IContentAssistantExtension3" mc="Standard.Interface" uid="00881094-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="IContentAssistantExtension4" mc="Standard.Interface" uid="00881b70-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="IContextInformation" mc="Standard.Interface" uid="0088267e-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="IContextInformationExtension" mc="Standard.Interface" uid="008831b4-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="IContextInformationPresenter" mc="Standard.Interface" uid="00883d30-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="IContextInformationValidator" mc="Standard.Interface" uid="008848de-0833-109d-b5cd-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

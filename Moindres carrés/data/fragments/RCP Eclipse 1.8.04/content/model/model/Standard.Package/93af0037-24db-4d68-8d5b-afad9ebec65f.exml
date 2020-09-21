@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ui" version="4">
+  <OBJECT>
+    <ID name="ui" mc="Standard.Package" uid="93af0037-24db-4d68-8d5b-afad9ebec65f"/>
+    <PID name="egit" mc="Standard.Package" uid="1c937802-ff3b-4e89-a503-2323481f32d9"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[ui]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Activator" mc="Standard.Class" uid="82acf643-9322-4a48-8973-9f3c64dc26e1"/>
+        <COMPID name="GitRepositoriesPerspectiveFactory" mc="Standard.Class" uid="1e64072a-4379-4965-af49-fbe56ce7e983"/>
+        <COMPID name="IBranchNameProvider" mc="Standard.Interface" uid="6f28a2e5-28ed-4e91-9b1c-703f7e80e537"/>
+        <COMPID name="ICommitMessageProvider" mc="Standard.Interface" uid="bfbd43ec-bb99-4bcb-8b94-81252b0c5ad0"/>
+        <COMPID name="JobFamilies" mc="Standard.Class" uid="24bdc792-b32f-4fd2-8564-026f5d4177ba"/>
+        <COMPID name="PluginPreferenceInitializer" mc="Standard.Class" uid="1f791a0b-433e-435b-8756-ae05b010b9fc"/>
+        <COMPID name="UIPreferences" mc="Standard.Class" uid="aac6146a-771a-4017-bc25-2170e3b0c67e"/>
+        <COMPID name="UIUtils" mc="Standard.Class" uid="3aff4fb4-c0ac-4aff-8d9f-99692a9e6947"/>
+        <COMPID name="internal" mc="Standard.Package" uid="1ad693c0-6f4f-4036-b8b3-856fc090e359"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

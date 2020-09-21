@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="rcp" version="4">
+  <OBJECT>
+    <ID name="rcp" mc="Standard.Package" uid="2b84f1f1-2111-499e-aae9-52a3fcb5bfc5"/>
+    <PID name="utils" mc="Standard.Package" uid="8b49a983-1aba-4c5b-94aa-82c5c04a4e25"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[rcp]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="BrowserDialog" mc="Standard.Class" uid="535e60ae-c8e2-4c9b-829c-04c822b48083"/>
+        <COMPID name="l10n" mc="Standard.Package" uid="f24ba736-e948-4537-a6f8-58d41da2329a"/>
+        <COMPID name="preferences" mc="Standard.Package" uid="d20fb228-fd6d-43c8-b93b-e1cf5dace85e"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

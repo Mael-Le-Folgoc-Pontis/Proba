@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="googlecode" version="4">
+  <OBJECT>
+    <ID name="googlecode" mc="Standard.Package" uid="e62acba3-5e2e-4b6b-a308-81cf1f87ee99"/>
+    <PID name="com" mc="Standard.Package" uid="00586768-21b1-1fb1-8a9e-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[googlecode]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="javaewah" mc="Standard.Package" uid="e57c6778-7756-4ce3-bbfc-6eee11c4ff8b"/>
+        <COMPID name="javaewah32" mc="Standard.Package" uid="f2ec851b-c7a6-4ed0-9c88-9b8638c3b81e"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

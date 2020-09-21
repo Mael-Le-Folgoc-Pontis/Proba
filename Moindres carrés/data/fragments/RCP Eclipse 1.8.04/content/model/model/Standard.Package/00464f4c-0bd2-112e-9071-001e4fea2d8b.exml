@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="target" version="4">
+  <OBJECT>
+    <ID name="target" mc="Standard.Package" uid="00464f4c-0bd2-112e-9071-001e4fea2d8b"/>
+    <PID name="wizards" mc="Standard.Package" uid="002fdd2a-0bd2-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[target]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="EditTargetDefinitionWizard" mc="Standard.Class" uid="00465528-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="EditTargetNode" mc="Standard.Class" uid="00465b9a-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MoveTargetDefinitionPage" mc="Standard.Class" uid="004661f8-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MoveTargetDefinitionWizard" mc="Standard.Class" uid="00466856-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="NewTargetDefinitionWizard" mc="Standard.Class" uid="00466f18-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="NewTargetDefinitionWizard2" mc="Standard.Class" uid="0046760c-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TargetCreationPage" mc="Standard.Class" uid="00467d00-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TargetDefinitionContentPage" mc="Standard.Class" uid="00468480-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TargetDefinitionPage" mc="Standard.Class" uid="004691be-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TargetDefinitionWizardPage" mc="Standard.Class" uid="00469984-0bd2-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

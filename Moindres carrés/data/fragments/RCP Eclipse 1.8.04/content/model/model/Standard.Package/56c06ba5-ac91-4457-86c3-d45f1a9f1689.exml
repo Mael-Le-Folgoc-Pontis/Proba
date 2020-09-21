@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="modelqueryimpl" version="4">
+  <OBJECT>
+    <ID name="modelqueryimpl" mc="Standard.Package" uid="56c06ba5-ac91-4457-86c3-d45f1a9f1689"/>
+    <PID name="internal" mc="Standard.Package" uid="eefa5c50-242c-4c17-9e93-4e9dac1eb82b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[modelqueryimpl]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="InferredGrammarFactory" mc="Standard.Class" uid="770a536c-0ff9-4bc3-9205-aa8e54e806bd"/>
+        <COMPID name="ModelQueryExtensionDescriptor" mc="Standard.Class" uid="6772cde4-e600-4646-a6c0-c78d95db92c8"/>
+        <COMPID name="ModelQueryExtensionManagerImpl" mc="Standard.Class" uid="aa124bdd-1b63-442a-98da-2b351e93048c"/>
+        <COMPID name="ModelQueryExtensionRegistry" mc="Standard.Class" uid="a4d32e52-ada9-4921-b019-260736c5b318"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

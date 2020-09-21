@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="core" version="4">
+  <OBJECT>
+    <ID name="core" mc="Standard.Package" uid="2c36a00b-1498-4a80-8374-a25abfda49ba"/>
+    <PID name="monitor" mc="Standard.Package" uid="26e3b710-e8ad-439a-ae99-ab93bf832220"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[core]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractMonitorLog" mc="Standard.Class" uid="85480516-cc71-4e4a-b44b-73094b1f7ba5"/>
+        <COMPID name="IInteractionEventListener" mc="Standard.Interface" uid="606ac2eb-11f6-4fa1-954c-34a30ba48d56"/>
+        <COMPID name="InteractionEvent" mc="Standard.Class" uid="77b82a11-6426-4d9e-acdd-8e266f903cbc"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

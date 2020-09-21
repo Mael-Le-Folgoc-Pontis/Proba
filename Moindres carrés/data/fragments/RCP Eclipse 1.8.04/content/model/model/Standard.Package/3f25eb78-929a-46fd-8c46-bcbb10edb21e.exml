@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="viewer" version="4">
+  <OBJECT>
+    <ID name="viewer" mc="Standard.Package" uid="3f25eb78-929a-46fd-8c46-bcbb10edb21e"/>
+    <PID name="ui" mc="Standard.Package" uid="86beccc5-4e4c-4257-9ac1-ff84d80c4ce5"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[viewer]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AnnotationHyperlinkDetector" mc="Standard.Class" uid="85206183-e198-46ab-b8f5-cd5d2383729b"/>
+        <COMPID name="CssStyleManager" mc="Standard.Class" uid="ffd82288-10d9-444d-9402-66171ea33d7a"/>
+        <COMPID name="FontState" mc="Standard.Class" uid="5ed3b599-02df-4a6b-909a-4df7c032df97"/>
+        <COMPID name="HtmlTextPresentationParser" mc="Standard.Class" uid="f61a8995-f64f-4428-a70a-70d59d00308c"/>
+        <COMPID name="ImageManager" mc="Standard.Class" uid="9bdf4de4-599f-42e8-b836-b06117e04e8a"/>
+        <COMPID name="TextHover" mc="Standard.Class" uid="97f2c3d9-2f18-431a-934c-6e7071150209"/>
+        <COMPID name="annotation" mc="Standard.Package" uid="03e18e93-b261-4096-becd-fa3e13cfd9b4"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="models" version="4">
+  <OBJECT>
+    <ID name="models" mc="Standard.Package" uid="6bcd9e38-adc3-4301-b17d-44910af82579"/>
+    <PID name="dtd" mc="Standard.Package" uid="f63f9c21-2776-4266-8d6d-fb9d4f3de938"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[models]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="CMAny" mc="Standard.Class" uid="f01df760-21eb-46ee-a3a5-584a338a94ec"/>
+        <COMPID name="CMBinOp" mc="Standard.Class" uid="06193566-ed69-4b07-90bd-300eb9a53224"/>
+        <COMPID name="CMLeaf" mc="Standard.Class" uid="e828cba5-f08c-4e34-b1d5-aaebe87ef7c5"/>
+        <COMPID name="CMNode" mc="Standard.Class" uid="ee474edc-ae03-4b8a-822d-e81d23458932"/>
+        <COMPID name="CMStateSet" mc="Standard.Class" uid="8c619b75-7d17-4354-88bf-2ed0578cbacb"/>
+        <COMPID name="CMUniOp" mc="Standard.Class" uid="3c45f988-07c7-4d24-8937-8b9d6c027eb2"/>
+        <COMPID name="ContentModelValidator" mc="Standard.Interface" uid="c023cb9f-56d9-4428-824b-15362ef72f4f"/>
+        <COMPID name="DFAContentModel" mc="Standard.Class" uid="4f754601-5af5-41d9-84db-76a9f76da86f"/>
+        <COMPID name="MixedContentModel" mc="Standard.Class" uid="96ebf311-5f79-4c34-9035-01b63ab6afb2"/>
+        <COMPID name="SimpleContentModel" mc="Standard.Class" uid="b1279fff-ab2f-4510-89be-d820137b8c26"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

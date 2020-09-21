@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="encoding" version="4">
+  <OBJECT>
+    <ID name="encoding" mc="Standard.Package" uid="39c7c0c3-4ee8-4805-b0b3-dfe74a544d1b"/>
+    <PID name="internal" mc="Standard.Package" uid="e9152071-ab45-4e26-8cf6-708827cd7d86"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[encoding]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="XMLDocumentCharsetDetector" mc="Standard.Class" uid="b907a167-43d6-4134-894c-8fba0187b03a"/>
+        <COMPID name="XMLDocumentLoader" mc="Standard.Class" uid="aadb8831-2cf3-44cb-ab25-6433f1351061"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

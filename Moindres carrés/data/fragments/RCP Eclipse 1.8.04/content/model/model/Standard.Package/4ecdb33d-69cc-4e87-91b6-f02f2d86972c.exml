@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="rename" version="4">
+  <OBJECT>
+    <ID name="rename" mc="Standard.Package" uid="4ecdb33d-69cc-4e87-91b6-f02f2d86972c"/>
+    <PID name="refactor" mc="Standard.Package" uid="8bd05fc4-c97a-4b07-80e1-57b17b9675cc"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[rename]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ComponentRenameArguments" mc="Standard.Class" uid="e7d60931-3f2c-4d52-895a-148a4f3fd841"/>
+        <COMPID name="RenameComponentProcessor" mc="Standard.Class" uid="78f12f30-d575-4cf5-ba8d-c8ede558be49"/>
+        <COMPID name="RenameResourceProcessor" mc="Standard.Class" uid="9ebd06c6-eae5-4939-92ff-43ecab96eb02"/>
+        <COMPID name="RenameTargetNamespaceProcessor" mc="Standard.Class" uid="51834a73-dfbc-445c-914e-cc50b14664b1"/>
+        <COMPID name="ResourceRenameChange" mc="Standard.Class" uid="4ebad808-b44d-4f0c-9d3e-0dd2bdb02ede"/>
+        <COMPID name="ResourceRenameParticipant" mc="Standard.Class" uid="3d0bba01-e6a2-4c28-bd2d-522e73b99dc6"/>
+        <COMPID name="SortingSearchRequestor" mc="Standard.Class" uid="1b1e06b3-36f2-4e03-9879-e17cfb6fc542"/>
+        <COMPID name="XMLComponentRenameParticipant" mc="Standard.Class" uid="9f6b9455-6fb3-4efa-acea-07bce07b6f01"/>
+        <COMPID name="XSDComponentRenameParticipant" mc="Standard.Class" uid="593095e7-cd1c-4fd1-9fba-cc2be85241d1"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

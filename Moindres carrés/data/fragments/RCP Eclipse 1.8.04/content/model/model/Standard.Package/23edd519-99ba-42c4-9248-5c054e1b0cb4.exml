@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="wagon" version="4">
+  <OBJECT>
+    <ID name="wagon" mc="Standard.Package" uid="23edd519-99ba-42c4-9248-5c054e1b0cb4"/>
+    <PID name="maven" mc="Standard.Package" uid="173ccbb1-ee67-4028-9140-8289e1158a15"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[wagon]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractWagon" mc="Standard.Class" uid="27b8e23b-5e4f-49ea-a89c-5422fa513b34"/>
+        <COMPID name="CommandExecutionException" mc="Standard.Class" uid="f7662851-58bf-4264-9bae-481fcaeaf8bf"/>
+        <COMPID name="CommandExecutor" mc="Standard.Interface" uid="a0749b21-2976-4b7e-92b2-30d029547c5b"/>
+        <COMPID name="ConnectionException" mc="Standard.Class" uid="16524e76-a128-4e71-a2cb-46a468c29025"/>
+        <COMPID name="InputData" mc="Standard.Class" uid="55c1868b-90f6-499f-8f16-13e179397f67"/>
+        <COMPID name="LazyFileOutputStream" mc="Standard.Class" uid="349ef619-ca4d-4db9-a521-b62810f8e318"/>
+        <COMPID name="OutputData" mc="Standard.Class" uid="9a55dc62-8d04-4051-a5c3-93f37bc1a2ca"/>
+        <COMPID name="PathUtils" mc="Standard.Class" uid="9b8522dc-9977-49ce-89aa-c0300f30e4f9"/>
+        <COMPID name="PermissionModeUtils" mc="Standard.Class" uid="695a3bc2-2c3d-49eb-b39b-30710e27ec4e"/>
+        <COMPID name="ResourceDoesNotExistException" mc="Standard.Class" uid="87e09856-a134-4777-9031-995ac8d5f97c"/>
+        <COMPID name="StreamWagon" mc="Standard.Class" uid="200705f8-a6bb-40ed-aaa6-34fcba33c45a"/>
+        <COMPID name="StreamingWagon" mc="Standard.Interface" uid="7d34ea9e-3c09-4962-8a15-f64cde8aed2d"/>
+        <COMPID name="Streams" mc="Standard.Class" uid="4857a6f4-28f3-453d-b545-e8a42606c487"/>
+        <COMPID name="TransferFailedException" mc="Standard.Class" uid="0b2d9455-ce7c-4286-a077-ca73ff05031b"/>
+        <COMPID name="UnsupportedProtocolException" mc="Standard.Class" uid="1ed3e8b2-6ea9-43a7-99ec-0fa2f39a3ae3"/>
+        <COMPID name="Wagon" mc="Standard.Interface" uid="0b487b02-1aea-4ae7-96ce-56d9d4221f28"/>
+        <COMPID name="WagonConstants" mc="Standard.Class" uid="5b468737-b3e6-4b35-a1d7-223f54073f63"/>
+        <COMPID name="WagonException" mc="Standard.Class" uid="5730be3a-d9d3-44d8-8d00-ae1acc6f5565"/>
+        <COMPID name="WagonUtils" mc="Standard.Class" uid="7991d67a-5686-4cbc-a1d0-67f1160a1198"/>
+        <COMPID name="authentication" mc="Standard.Package" uid="fe67c5ef-0ca1-4679-b11b-096ddf9fe37f"/>
+        <COMPID name="authorization" mc="Standard.Package" uid="4958db23-5d85-4145-85f5-00c5e1ccc730"/>
+        <COMPID name="events" mc="Standard.Package" uid="c2cc85fc-c23d-41af-a89e-8ce51feb8cf7"/>
+        <COMPID name="observers" mc="Standard.Package" uid="bbad933b-4d45-4a1f-8dea-bf80f4e9f6a0"/>
+        <COMPID name="providers" mc="Standard.Package" uid="722e6ddb-60ee-49a2-86f1-fc1c16449135"/>
+        <COMPID name="proxy" mc="Standard.Package" uid="7b80bf38-5915-4860-928f-a5069615864d"/>
+        <COMPID name="repository" mc="Standard.Package" uid="362da176-8ac6-4429-ad87-bfe273841346"/>
+        <COMPID name="resource" mc="Standard.Package" uid="d4353c14-4fb7-48a2-be77-844053c757ba"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

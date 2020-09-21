@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ui" version="4">
+  <OBJECT>
+    <ID name="ui" mc="Standard.Package" uid="ac7f68d3-7d24-4f92-b4c9-18914a8ec2a4"/>
+    <PID name="monitor" mc="Standard.Package" uid="23781631-7ea0-434a-9168-3f2da40e7486"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[ui]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ActionExecutionMonitor" mc="Standard.Class" uid="b94fdcde-19bf-4a3c-8b00-00d961338fd1"/>
+        <COMPID name="ActivityChangeMonitor" mc="Standard.Class" uid="2854d1dd-5490-4ab2-bf07-a423e61cac22"/>
+        <COMPID name="ActivityContextManager" mc="Standard.Class" uid="7ee22abd-0bf8-49da-adb8-5a5bda9b890e"/>
+        <COMPID name="CheckActivityJob" mc="Standard.Class" uid="7caa5f7b-e4fc-4703-9ca9-1522cd99cfce"/>
+        <COMPID name="IActivityManagerCallback" mc="Standard.Interface" uid="a318860a-08e6-4d21-b6cb-62c1f98cdb6a"/>
+        <COMPID name="IMonitoredWindow" mc="Standard.Interface" uid="42470e1e-b265-4bce-9d1b-b2b4dd522795"/>
+        <COMPID name="KeybindingCommandMonitor" mc="Standard.Class" uid="2c57ffb3-6a6d-4b78-a90b-1a7161059963"/>
+        <COMPID name="MenuCommandMonitor" mc="Standard.Class" uid="52c7e0e4-0063-43ea-96bf-80c0c4b11434"/>
+        <COMPID name="Messages" mc="Standard.Class" uid="9200f91c-e217-4795-a44a-cbb86f557db2"/>
+        <COMPID name="MonitorUiPlugin" mc="Standard.Class" uid="80481ed7-867e-47b5-9e14-b1b0d20b878e"/>
+        <COMPID name="PerspectiveChangeMonitor" mc="Standard.Class" uid="6d054f65-c0b9-40ae-b907-d18ffc87b7cd"/>
+        <COMPID name="PreferenceChangeMonitor" mc="Standard.Class" uid="cd92c804-c388-4fbf-8117-e0970206695f"/>
+        <COMPID name="WindowChangeMonitor" mc="Standard.Class" uid="007f2f1c-f627-4ccf-a9f2-83df4089a6c7"/>
+        <COMPID name="WorkbenchUserActivityMonitor" mc="Standard.Class" uid="e30583df-7f36-4346-9b4e-97db5f5896dc"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

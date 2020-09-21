@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="core" version="4">
+  <OBJECT>
+    <ID name="core" mc="Standard.Package" uid="007212ee-0bdb-112e-9071-001e4fea2d8b"/>
+    <PID name="pb" mc="Standard.Package" uid="005dcd70-d4f0-111c-bc9b-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[core]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="IPBCDCLSolver" mc="Standard.Interface" uid="7f18d442-8306-4be4-979c-a4975f4ffc35"/>
+        <COMPID name="ObjectiveReducerPBSolverDecorator" mc="Standard.Class" uid="860bd194-92b8-4d21-80fa-15f614336eaf"/>
+        <COMPID name="PBDataStructureFactory" mc="Standard.Interface" uid="00721924-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PBSolver" mc="Standard.Class" uid="00721f3c-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PBSolverCP" mc="Standard.Class" uid="00722572-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PBSolverCautious" mc="Standard.Class" uid="00722bda-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PBSolverClause" mc="Standard.Class" uid="0072322e-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PBSolverResCP" mc="Standard.Class" uid="00724002-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PBSolverResolution" mc="Standard.Class" uid="0072473c-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PBSolverStats" mc="Standard.Class" uid="00724ea8-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PBSolverWithImpliedClause" mc="Standard.Class" uid="0072566e-0bdb-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

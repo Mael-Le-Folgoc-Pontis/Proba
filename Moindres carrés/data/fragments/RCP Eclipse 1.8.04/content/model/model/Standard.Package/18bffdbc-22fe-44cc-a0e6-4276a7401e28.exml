@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="facets" version="4">
+  <OBJECT>
+    <ID name="facets" mc="Standard.Package" uid="18bffdbc-22fe-44cc-a0e6-4276a7401e28"/>
+    <PID name="internal" mc="Standard.Package" uid="1e9d7d55-d709-4972-942a-541221f09e3f"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[facets]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="FacetMappingUtil" mc="Standard.Class" uid="0cefb588-949d-4244-977c-80c57084e43e"/>
+        <COMPID name="FacetUtil" mc="Standard.Class" uid="2e9e0de8-1894-498c-8b71-2c1fbbeb5e7a"/>
+        <COMPID name="RuntimeBridge" mc="Standard.Class" uid="59bc4269-80c1-4a0d-985c-05234e99ece1"/>
+        <COMPID name="RuntimeComponentProviderWrapper" mc="Standard.Class" uid="2bd246ae-18e5-46fc-acfb-ad42f34630da"/>
+        <COMPID name="RuntimeFacetComponentProviderDelegate" mc="Standard.Class" uid="601aef7c-b94d-4c41-b652-53a49ad7389c"/>
+        <COMPID name="RuntimeFacetMapping" mc="Standard.Class" uid="cc34a85c-5bde-4509-8cab-b62188b0dc9e"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

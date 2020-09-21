@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="util" version="4">
+  <OBJECT>
+    <ID name="util" mc="Standard.Package" uid="db964716-3d62-4961-bcb1-db48ac5dfe3d"/>
+    <PID name="common" mc="Standard.Package" uid="7b9033ce-19f5-4123-be8f-466108329124"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[util]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="FileCharsetDetector" mc="Standard.Class" uid="5e3bd2cb-cd2a-4dae-bec4-557ac4598aa2"/>
+        <COMPID name="Format" mc="Standard.Class" uid="3e0097e2-78b2-4965-8f30-298981a30ee8"/>
+        <COMPID name="ListScanner" mc="Standard.Class" uid="29a2dc16-16d3-437c-ae29-27e82a57bea8"/>
+        <COMPID name="PathUtils" mc="Standard.Class" uid="19d4a6df-38b0-4325-8862-a4cd15c41a82"/>
+        <COMPID name="XMLOutputter" mc="Standard.Class" uid="489d05cc-68a6-449f-b21a-9ec5d2306829"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

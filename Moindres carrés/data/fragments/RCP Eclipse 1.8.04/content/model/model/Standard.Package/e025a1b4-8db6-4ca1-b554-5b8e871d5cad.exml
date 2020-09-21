@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="preferences" version="4">
+  <OBJECT>
+    <ID name="preferences" mc="Standard.Package" uid="e025a1b4-8db6-4ca1-b554-5b8e871d5cad"/>
+    <PID name="oomph" mc="Standard.Package" uid="20106332-b188-45ff-af40-2d5b786a9692"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[preferences]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="PreferenceItem" mc="Standard.Interface" uid="c26a8b54-6803-477a-afe6-d378b971fea4"/>
+        <COMPID name="PreferenceNode" mc="Standard.Interface" uid="7cc2f829-09d5-44fb-804f-8e060521cef8"/>
+        <COMPID name="PreferencesFactory" mc="Standard.Interface" uid="ad9ad2af-2f50-47fc-87f8-525761ca190e"/>
+        <COMPID name="PreferencesPackage" mc="Standard.Interface" uid="085b3e53-ab4c-4659-8707-763200fa807d"/>
+        <COMPID name="Property" mc="Standard.Interface" uid="84fc06ec-9057-4767-94ca-5550310578d6"/>
+        <COMPID name="impl" mc="Standard.Package" uid="a7322a55-dd9a-4c33-a609-692ca1bd1e2a"/>
+        <COMPID name="util" mc="Standard.Package" uid="95023a87-4654-4dae-b3a4-bd9ee655454a"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

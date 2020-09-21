@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ui" version="4">
+  <OBJECT>
+    <ID name="ui" mc="Standard.Package" uid="eaa082a5-a86e-490c-9bec-5268de4072d3"/>
+    <PID name="jreinfo" mc="Standard.Package" uid="79e8abf4-4b28-4229-b5b6-f1e163782194"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[ui]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="JREComposite" mc="Standard.Class" uid="de3a5d5b-5ab9-48ee-ae9b-9bdf6f72c7ed"/>
+        <COMPID name="JREController" mc="Standard.Class" uid="d2ee5d96-28ba-4458-b044-b40c5e86aabe"/>
+        <COMPID name="JREDialog" mc="Standard.Class" uid="07a90daa-0696-410b-a7e4-23ecde235dd3"/>
+        <COMPID name="JREInfoUIPlugin" mc="Standard.Class" uid="627ae90a-bdd1-4654-886b-a1985f33c95c"/>
+        <COMPID name="JREPreferencePage" mc="Standard.Class" uid="f5cade66-9e1d-4b7d-a999-da8062d2761b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

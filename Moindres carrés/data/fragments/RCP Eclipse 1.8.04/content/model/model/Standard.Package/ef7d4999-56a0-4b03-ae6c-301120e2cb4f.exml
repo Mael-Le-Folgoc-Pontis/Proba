@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="editpolicies" version="4">
+  <OBJECT>
+    <ID name="editpolicies" mc="Standard.Package" uid="ef7d4999-56a0-4b03-ae6c-301120e2cb4f"/>
+    <PID name="design" mc="Standard.Package" uid="38dfb95f-5d9d-436e-9059-8449adf555cc"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[editpolicies]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ADTDirectEditPolicy" mc="Standard.Class" uid="c416175d-6bb0-41b0-8680-6111e229cd0b"/>
+        <COMPID name="ADTSelectionFeedbackEditPolicy" mc="Standard.Class" uid="a7f364e8-b03c-46df-9e1c-c143e818df3e"/>
+        <COMPID name="DirectEditPolicyDelegate" mc="Standard.Interface" uid="ae3e8e26-1a22-4588-9d71-eddf5a057011"/>
+        <COMPID name="IADTUpdateCommand" mc="Standard.Interface" uid="5e4f377b-0aca-470f-9892-5dad301a4a28"/>
+        <COMPID name="KeyBoardAccessibilityEditPolicy" mc="Standard.Class" uid="62c22dba-455a-4e1b-b988-4ef437d3ce8c"/>
+        <COMPID name="SimpleDirectEditPolicy" mc="Standard.Class" uid="587b00d8-f730-42dd-b508-8c3c3ad5d9be"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

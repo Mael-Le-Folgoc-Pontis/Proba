@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="runtime" version="4">
+  <OBJECT>
+    <ID name="runtime" mc="Standard.Package" uid="b49e96ae-43ea-4b59-bab5-7fead6df26ae"/>
+    <PID name="velocity" mc="Standard.Package" uid="f64d32da-b37a-4bf8-af95-e529226e220c"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[runtime]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ParserPool" mc="Standard.Interface" uid="0ecb6467-7d2b-4e16-98a0-f07097ae81ca"/>
+        <COMPID name="ParserPoolImpl" mc="Standard.Class" uid="34f47c5c-5651-457b-a48c-6cff1713b78d"/>
+        <COMPID name="Runtime" mc="Standard.Class" uid="063578dc-7365-4085-8568-e0a1d16d779e"/>
+        <COMPID name="RuntimeConstants" mc="Standard.Interface" uid="6f762116-782f-4667-8fc9-0ff6de4b0817"/>
+        <COMPID name="RuntimeInstance" mc="Standard.Class" uid="1143ac83-faab-48d0-bcd6-9aa749cc4644"/>
+        <COMPID name="RuntimeLogger" mc="Standard.Interface" uid="1aa1b5b4-ade8-4321-9c6b-c41e0573dfe8"/>
+        <COMPID name="RuntimeServices" mc="Standard.Interface" uid="1d7c0671-0707-448d-a000-bd0b7d833335"/>
+        <COMPID name="RuntimeSingleton" mc="Standard.Class" uid="2c7594bd-4934-4cfd-ba66-743b86f50f16"/>
+        <COMPID name="VelocimacroFactory" mc="Standard.Class" uid="0436fbc1-4089-4055-82ea-94810da78b89"/>
+        <COMPID name="VelocimacroManager" mc="Standard.Class" uid="be08d280-9f49-41a4-b8ed-521a91ceb05f"/>
+        <COMPID name="directive" mc="Standard.Package" uid="cbe28474-de98-4197-bbc0-9f826d809214"/>
+        <COMPID name="log" mc="Standard.Package" uid="e64a04fe-5bd3-47cc-863c-b14c9239166c"/>
+        <COMPID name="parser" mc="Standard.Package" uid="4290afbf-f62d-4b24-9ff7-9cab789e98c0"/>
+        <COMPID name="resource" mc="Standard.Package" uid="2c0b88a1-bdad-4d81-8dd4-39350a56b006"/>
+        <COMPID name="visitor" mc="Standard.Package" uid="0ab0fc7d-dc8e-4363-9833-e6dfcc88ea7f"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

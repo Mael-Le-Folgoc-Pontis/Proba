@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="actions" version="4">
+  <OBJECT>
+    <ID name="actions" mc="Standard.Package" uid="d49f5de0-3a69-4407-b974-ddb859c498d2"/>
+    <PID name="gbl" mc="Standard.Package" uid="16523eb1-582f-4ccf-8a60-8d4239151171"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[actions]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="SelectionActionsSupport" mc="Standard.Class" uid="179e96b1-a455-40b5-83d0-1faafe494143"/>
+        <COMPID name="SetAlignmentHorizontalAction" mc="Standard.Class" uid="a4c23e0e-6049-43f6-aa33-0ce9602ef65b"/>
+        <COMPID name="SetAlignmentVerticalAction" mc="Standard.Class" uid="0d1f7a7a-73c6-4191-9bdc-1e357a161957"/>
+        <COMPID name="SetGrowAction" mc="Standard.Class" uid="388a56cc-ba10-4f78-a280-2800d1e35a53"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="resolver" version="4">
+  <OBJECT>
+    <ID name="resolver" mc="Standard.Package" uid="11c0211a-076d-4997-8758-be38b46cee09"/>
+    <PID name="transport" mc="Standard.Package" uid="4d598de4-25d7-4281-a0b6-95f52ebf6f66"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[resolver]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="FileResolver" mc="Standard.Class" uid="75e0dae2-774e-422e-b67b-2bea2aef9eea"/>
+        <COMPID name="ReceivePackFactory" mc="Standard.Interface" uid="0573fd59-0ad6-4fa4-8b8c-7493cd6aa48f"/>
+        <COMPID name="RepositoryResolver" mc="Standard.Interface" uid="588664db-6d9b-4501-9a59-496f5c912b85"/>
+        <COMPID name="ServiceNotAuthorizedException" mc="Standard.Class" uid="3858bdef-edb9-4627-b330-c1f1c5b32ffe"/>
+        <COMPID name="ServiceNotEnabledException" mc="Standard.Class" uid="19f5d5f6-53e4-458a-9d81-0ec67cde1fa0"/>
+        <COMPID name="UploadPackFactory" mc="Standard.Interface" uid="85ed8c77-9dcf-43b3-968a-abc196c53cfa"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

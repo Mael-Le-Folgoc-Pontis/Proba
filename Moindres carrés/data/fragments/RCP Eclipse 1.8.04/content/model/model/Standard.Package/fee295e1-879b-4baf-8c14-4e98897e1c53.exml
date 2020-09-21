@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="viewer" version="4">
+  <OBJECT>
+    <ID name="viewer" mc="Standard.Package" uid="fee295e1-879b-4baf-8c14-4e98897e1c53"/>
+    <PID name="lf5" mc="Standard.Package" uid="43f7e13b-da76-4673-b215-29925520dbb9"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[viewer]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="FilteredLogTableModel" mc="Standard.Class" uid="6f79946b-525b-43d7-9ec5-3d1eb81fbc6f"/>
+        <COMPID name="LF5SwingUtils" mc="Standard.Class" uid="8a74eb99-d32c-4771-9fd0-58a0cf04a703"/>
+        <COMPID name="LogBrokerMonitor" mc="Standard.Class" uid="21210e26-24b5-41e2-b5e6-9bed82bf540e"/>
+        <COMPID name="LogFactor5Dialog" mc="Standard.Class" uid="c2e64617-4aa2-4870-b3e1-282532371125"/>
+        <COMPID name="LogFactor5ErrorDialog" mc="Standard.Class" uid="b117b2a1-eb25-4df2-be3a-4d8b16686707"/>
+        <COMPID name="LogFactor5InputDialog" mc="Standard.Class" uid="85bc3503-8c1d-4f98-bdc3-a7ec9a13c7ce"/>
+        <COMPID name="LogFactor5LoadingDialog" mc="Standard.Class" uid="c6f400ba-fd06-4c56-bd1c-d2c8055aecf6"/>
+        <COMPID name="LogTable" mc="Standard.Class" uid="d1293162-f299-468f-9383-d1c815cc23cc"/>
+        <COMPID name="LogTableColumn" mc="Standard.Class" uid="f8b646e6-2f91-40f7-bcdc-2ec4ae1751a5"/>
+        <COMPID name="LogTableColumnFormatException" mc="Standard.Class" uid="6d2e1f32-03f6-42e1-93ac-d7f5bac5733c"/>
+        <COMPID name="LogTableModel" mc="Standard.Class" uid="ccad6a9c-37fd-47e9-aee8-b0867fd3b5a2"/>
+        <COMPID name="LogTableRowRenderer" mc="Standard.Class" uid="07de2e4b-7e9f-46c7-a639-f5eed78d9a31"/>
+        <COMPID name="TrackingAdjustmentListener" mc="Standard.Class" uid="63928da8-a869-4755-a8eb-153dd883938c"/>
+        <COMPID name="categoryexplorer" mc="Standard.Package" uid="b6141a07-7406-4f2a-ae37-43e219fcd2d9"/>
+        <COMPID name="configure" mc="Standard.Package" uid="9227dd50-f9de-4837-a35f-a8abb1e101f3"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

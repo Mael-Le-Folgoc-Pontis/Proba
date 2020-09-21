@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="jgoodies" version="4">
+  <OBJECT>
+    <ID name="jgoodies" mc="Standard.Package" uid="e5439600-25d1-48a6-81fa-95e88b65fd54"/>
+    <PID name="com" mc="Standard.Package" uid="00586768-21b1-1fb1-8a9e-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[jgoodies]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="common" mc="Standard.Package" uid="050af403-d060-44b3-9040-ae05350b9b98"/>
+        <COMPID name="forms" mc="Standard.Package" uid="3e3feffd-ea25-43c6-9cc6-65e447bb18f2"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="internal" version="4">
+  <OBJECT>
+    <ID name="internal" mc="Standard.Package" uid="661de248-1a4b-11e0-8090-00137279a832"/>
+    <PID name="type" mc="Standard.Package" uid="661de240-1a4b-11e0-8090-00137279a832"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[internal]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="DataValue" mc="Standard.Class" uid="6622a702-1a4b-11e0-8090-00137279a832"/>
+        <COMPID name="QName" mc="Standard.Class" uid="6740c12b-1a4b-11e0-8090-00137279a832"/>
+        <COMPID name="RegEx" mc="Standard.Class" uid="6648ccac-1a4b-11e0-8090-00137279a832"/>
+        <COMPID name="XMLCalendar" mc="Standard.Class" uid="661de249-1a4b-11e0-8090-00137279a832"/>
+        <COMPID name="XMLDuration" mc="Standard.Class" uid="661de24a-1a4b-11e0-8090-00137279a832"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

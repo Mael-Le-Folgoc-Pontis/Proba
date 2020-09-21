@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="dialogs" version="4">
+  <OBJECT>
+    <ID name="dialogs" mc="Standard.Package" uid="c3254607-1558-4df8-a91d-1be4df4c3f35"/>
+    <PID name="internal" mc="Standard.Package" uid="b7e47c75-9c5c-440b-9268-34d255b7ac0e"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[dialogs]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="SaveDirtyFilesDialog" mc="Standard.Class" uid="cf587cfc-2a4d-4af1-9175-db3232aaa6c5"/>
+        <COMPID name="SelectSingleFileDialog" mc="Standard.Class" uid="f1bd6deb-99ca-4d29-b2b0-41e6b33fa732"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

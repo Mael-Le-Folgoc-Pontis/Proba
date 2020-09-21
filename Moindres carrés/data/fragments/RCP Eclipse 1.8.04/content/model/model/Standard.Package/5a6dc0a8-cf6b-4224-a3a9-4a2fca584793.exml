@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="internal" version="4">
+  <OBJECT>
+    <ID name="internal" mc="Standard.Package" uid="5a6dc0a8-cf6b-4224-a3a9-4a2fca584793"/>
+    <PID name="core" mc="Standard.Package" uid="6e037763-a76f-45d1-ac43-495d2dc55998"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[internal]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Bundles" mc="Standard.Class" uid="9f0c8a72-68cd-41d9-8366-90df03849c01"/>
+        <COMPID name="ExtensionReader" mc="Standard.Class" uid="183942cc-d70f-4144-b3fe-4b377704df5e"/>
+        <COMPID name="IMavenConstants" mc="Standard.Interface" uid="c2867ced-6f37-48b5-8314-ae0eb46dacbc"/>
+        <COMPID name="M2EUtils" mc="Standard.Class" uid="155674ca-0dd2-45c5-95e5-1df63ed42645"/>
+        <COMPID name="MavenPluginActivator" mc="Standard.Class" uid="be3673f8-13f5-49a6-9ead-4500210d8e1e"/>
+        <COMPID name="Messages" mc="Standard.Class" uid="63a0df64-d198-4edf-8305-6d5320b0daf1"/>
+        <COMPID name="NoSuchComponentException" mc="Standard.Class" uid="8b5cec3e-4e3b-4492-9cd1-da9f7eaecf3e"/>
+        <COMPID name="URLConnectionCaches" mc="Standard.Class" uid="11f2f81c-d094-4788-80c2-6f48a1c8de62"/>
+        <COMPID name="archetype" mc="Standard.Package" uid="e3d5aa6d-c9dd-4cc7-9f13-01cb09295bcc"/>
+        <COMPID name="builder" mc="Standard.Package" uid="86a78ba8-774d-4867-b055-1a0663873828"/>
+        <COMPID name="content" mc="Standard.Package" uid="f29f08bd-049b-4b1c-9577-d62350dc6839"/>
+        <COMPID name="embedder" mc="Standard.Package" uid="55d14ac9-11dd-463d-ae91-c74642a7f8bf"/>
+        <COMPID name="equinox" mc="Standard.Package" uid="a30cd60c-99e2-4876-a0c7-23f903cab3ba"/>
+        <COMPID name="index" mc="Standard.Package" uid="99d8421d-d009-4b93-9f07-c4218cbcef19"/>
+        <COMPID name="jobs" mc="Standard.Package" uid="4a098490-6276-466e-8735-d1ae40ef5f61"/>
+        <COMPID name="launch" mc="Standard.Package" uid="9d91c076-0d30-4532-af9b-78688111ba6a"/>
+        <COMPID name="lifecyclemapping" mc="Standard.Package" uid="7f921060-7bb3-49fd-a7d6-0cdd557ba35c"/>
+        <COMPID name="markers" mc="Standard.Package" uid="9574cfed-27b9-4b71-9253-1811285f0a00"/>
+        <COMPID name="preferences" mc="Standard.Package" uid="fcb76761-fab5-4229-bde3-ec530d9bf63a"/>
+        <COMPID name="project" mc="Standard.Package" uid="6ca538d4-f07f-4e6a-b958-6d8f5176ad82"/>
+        <COMPID name="repository" mc="Standard.Package" uid="1c9cfbaf-9652-468c-bbad-8edb33739780"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

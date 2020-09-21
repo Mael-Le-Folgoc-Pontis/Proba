@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="wb" version="4">
+  <OBJECT>
+    <ID name="wb" mc="Standard.Package" uid="7da55c4c-1047-4129-b09a-e73b1ad101e4"/>
+    <PID name="eclipse" mc="Standard.Package" uid="0015e0b4-219f-1fb1-8a9e-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[wb]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="core" mc="Standard.Package" uid="af8d7b90-9518-4c7e-b238-618caecac626"/>
+        <COMPID name="draw2d" mc="Standard.Package" uid="57a129f5-2b72-46b3-8f6b-82b9fc5c7a3d"/>
+        <COMPID name="gef" mc="Standard.Package" uid="8dd5b8c6-aa84-49ec-aaac-d072b061dfcd"/>
+        <COMPID name="internal" mc="Standard.Package" uid="efd1705e-9873-44b5-89c8-1d38f8c42128"/>
+        <COMPID name="os" mc="Standard.Package" uid="f89b599b-e6fd-4cac-bc3b-bb2040bb202b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="collection" version="4">
+  <OBJECT>
+    <ID name="collection" mc="Standard.Package" uid="14c3abb6-7f5a-443e-9c87-b70c37309b8a"/>
+    <PID name="collections" mc="Standard.Package" uid="a284a2b1-efc0-4907-b43d-a516c9a55292"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[collection]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractCollectionDecorator" mc="Standard.Class" uid="a45d84bd-7985-4563-97d5-a706dd299b04"/>
+        <COMPID name="AbstractSerializableCollectionDecorator" mc="Standard.Class" uid="da639d66-a216-4a33-849b-9f75b8d885a7"/>
+        <COMPID name="CompositeCollection" mc="Standard.Class" uid="5588b378-dad1-4e0b-bea4-b39984bfcb37"/>
+        <COMPID name="PredicatedCollection" mc="Standard.Class" uid="b90894fb-d921-410e-8101-48964c8fad4f"/>
+        <COMPID name="SynchronizedCollection" mc="Standard.Class" uid="5539842f-9fa8-47c7-a422-9074c16c7fb2"/>
+        <COMPID name="TransformedCollection" mc="Standard.Class" uid="eb10d867-d3a6-4f1a-89e3-9a5630093358"/>
+        <COMPID name="TypedCollection" mc="Standard.Class" uid="f90d25d3-3450-404d-8b94-e7208f6f5c5a"/>
+        <COMPID name="UnmodifiableBoundedCollection" mc="Standard.Class" uid="ac1bb968-3fd8-4679-a69c-e126f6eead2f"/>
+        <COMPID name="UnmodifiableCollection" mc="Standard.Class" uid="0c3e1c4c-4b99-4d58-bfd7-c3134a08429a"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

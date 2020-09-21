@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="security" version="4">
+  <OBJECT>
+    <ID name="security" mc="Standard.Package" uid="006f8ff6-0bdd-112e-9071-001e4fea2d8b"/>
+    <PID name="annotation" mc="Standard.Package" uid="006ec29c-0bdd-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[security]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="DeclareRoles" mc="Standard.Class" uid="23f5a9af-19bd-48a1-b533-67b4c8a38375"/>
+        <COMPID name="DenyAll" mc="Standard.Class" uid="b11dff8b-3724-4a90-a8ff-83a56adbac8c"/>
+        <COMPID name="PermitAll" mc="Standard.Class" uid="a6d5dc60-2eb3-4f1d-a9a3-55cabf40a22f"/>
+        <COMPID name="RolesAllowed" mc="Standard.Class" uid="016cda03-3272-4642-bbc7-bf26c00d26b7"/>
+        <COMPID name="RunAs" mc="Standard.Class" uid="aea6b332-bb75-4022-8d1f-95683e140e69"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

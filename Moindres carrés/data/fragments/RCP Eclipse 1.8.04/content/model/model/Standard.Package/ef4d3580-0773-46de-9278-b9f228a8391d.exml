@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="list" version="4">
+  <OBJECT>
+    <ID name="list" mc="Standard.Package" uid="ef4d3580-0773-46de-9278-b9f228a8391d"/>
+    <PID name="collections" mc="Standard.Package" uid="a284a2b1-efc0-4907-b43d-a516c9a55292"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[list]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractLinkedList" mc="Standard.Class" uid="8903bd2f-4bee-45e5-b9b8-f631fa9c9999"/>
+        <COMPID name="AbstractListDecorator" mc="Standard.Class" uid="39174149-c910-4931-a44c-85f97c62106e"/>
+        <COMPID name="AbstractSerializableListDecorator" mc="Standard.Class" uid="ddad43fd-ecf0-46a0-92bc-0f5a4edfa52a"/>
+        <COMPID name="CursorableLinkedList" mc="Standard.Class" uid="3a335f7b-f80b-49a2-b18d-791f143602ed"/>
+        <COMPID name="FixedSizeList" mc="Standard.Class" uid="38018592-e7de-4009-8b9f-33c5b681359e"/>
+        <COMPID name="GrowthList" mc="Standard.Class" uid="0b3f6890-b7c0-45f8-904e-3a47166553bf"/>
+        <COMPID name="LazyList" mc="Standard.Class" uid="2bc1d5fe-4212-4034-b2d5-098549cd4fcf"/>
+        <COMPID name="NodeCachingLinkedList" mc="Standard.Class" uid="0e685544-19cb-480c-a962-a15c5726a5f5"/>
+        <COMPID name="PredicatedList" mc="Standard.Class" uid="6b231b38-6f81-45b4-9525-9123be0eec62"/>
+        <COMPID name="SetUniqueList" mc="Standard.Class" uid="fd5bfcdc-c949-4cfe-99c0-0b928143b7e6"/>
+        <COMPID name="SynchronizedList" mc="Standard.Class" uid="4cae7c5e-5397-49d3-b98e-8cb47629d946"/>
+        <COMPID name="TransformedList" mc="Standard.Class" uid="0d7d5dbd-0dda-41c7-884b-8b4865073efd"/>
+        <COMPID name="TreeList" mc="Standard.Class" uid="d2ceb3b4-1ac6-4a92-bc6b-ee308112197f"/>
+        <COMPID name="TypedList" mc="Standard.Class" uid="97a20770-125d-476a-82b2-1db355db2ac1"/>
+        <COMPID name="UnmodifiableList" mc="Standard.Class" uid="88c71af5-365c-4612-a07d-2f33a46156ea"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

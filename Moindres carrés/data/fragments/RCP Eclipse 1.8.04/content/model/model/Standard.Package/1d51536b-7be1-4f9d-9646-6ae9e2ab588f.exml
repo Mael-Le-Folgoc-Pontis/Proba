@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="polynomials" version="4">
+  <OBJECT>
+    <ID name="polynomials" mc="Standard.Package" uid="1d51536b-7be1-4f9d-9646-6ae9e2ab588f"/>
+    <PID name="analysis" mc="Standard.Package" uid="14c0f173-9fa0-4bb9-8197-fd221acb7020"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[polynomials]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="PolynomialFunction" mc="Standard.Class" uid="3941aefe-69ed-4e2e-9b21-eeb1dab8cbb6"/>
+        <COMPID name="PolynomialFunctionLagrangeForm" mc="Standard.Class" uid="56541b0a-db2f-4914-9967-351f8083b488"/>
+        <COMPID name="PolynomialFunctionNewtonForm" mc="Standard.Class" uid="f1e5f5bd-bed7-466c-b9e2-0b14db02a886"/>
+        <COMPID name="PolynomialSplineFunction" mc="Standard.Class" uid="dc79eb68-25fe-4fa6-8bfd-6a74e3ef6649"/>
+        <COMPID name="PolynomialsUtils" mc="Standard.Class" uid="8ec7ee90-f032-4e19-bc5e-d4a3b9b3f855"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

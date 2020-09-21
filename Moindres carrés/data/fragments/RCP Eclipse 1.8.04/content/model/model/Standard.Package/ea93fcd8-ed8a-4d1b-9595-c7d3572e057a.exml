@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="repository" version="4">
+  <OBJECT>
+    <ID name="repository" mc="Standard.Package" uid="ea93fcd8-ed8a-4d1b-9595-c7d3572e057a"/>
+    <PID name="maven" mc="Standard.Package" uid="173ccbb1-ee67-4028-9140-8289e1158a15"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[repository]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ArtifactDoesNotExistException" mc="Standard.Class" uid="85ac29ff-05fe-47e4-ba0b-a8c52cfbdc8a"/>
+        <COMPID name="ArtifactTransferEvent" mc="Standard.Class" uid="eb716ff6-49c1-4b2a-95ff-2e3bc4881a94"/>
+        <COMPID name="ArtifactTransferFailedException" mc="Standard.Class" uid="a3348bf0-0bd7-46b2-82cd-8ee566615325"/>
+        <COMPID name="ArtifactTransferListener" mc="Standard.Interface" uid="2d609c72-6ae0-4f05-b3e4-dc5f62f44077"/>
+        <COMPID name="ArtifactTransferResource" mc="Standard.Interface" uid="f6cddc58-5078-4d15-8222-da4e521bb5ed"/>
+        <COMPID name="DefaultMirrorSelector" mc="Standard.Class" uid="40997c9c-bdc5-4da2-be36-f6089ab6be5e"/>
+        <COMPID name="DelegatingLocalArtifactRepository" mc="Standard.Class" uid="467398ef-4749-4182-9165-ba2a263686ed"/>
+        <COMPID name="LocalArtifactRepository" mc="Standard.Class" uid="f98a8b5e-e955-4159-85cf-e6d10d491dbd"/>
+        <COMPID name="LocalRepositoryNotAccessibleException" mc="Standard.Class" uid="1087a25d-e862-4447-8b47-7fbd28c18a6e"/>
+        <COMPID name="MavenArtifactMetadata" mc="Standard.Class" uid="d5d7906a-e37c-4a9a-b605-7715f5265bcd"/>
+        <COMPID name="MetadataGraph" mc="Standard.Class" uid="046c52cf-dd26-461b-8a38-8697c0f30f07"/>
+        <COMPID name="MetadataGraphNode" mc="Standard.Class" uid="b7022854-fd35-472b-b1fb-6384722e090d"/>
+        <COMPID name="MetadataResolutionRequest" mc="Standard.Class" uid="81b4edac-9e86-48cb-ae18-d445224787c4"/>
+        <COMPID name="MetadataResolutionResult" mc="Standard.Class" uid="747577cc-aea8-428c-b27a-e5a940b5d0ad"/>
+        <COMPID name="MirrorSelector" mc="Standard.Interface" uid="9757b580-5f56-4cb9-8086-7e2301c2395d"/>
+        <COMPID name="Proxy" mc="Standard.Class" uid="20d44bf6-93c8-4559-8592-3aea11efaf4f"/>
+        <COMPID name="RepositorySystem" mc="Standard.Interface" uid="fa12ce71-340b-4845-a1d2-16bf91c33faf"/>
+        <COMPID name="UserLocalArtifactRepository" mc="Standard.Class" uid="0ed06492-99b4-4477-9586-b491142fda88"/>
+        <COMPID name="VersionNotFoundException" mc="Standard.Class" uid="45706dab-82a6-4b2c-a016-bdfdd29d4cd2"/>
+        <COMPID name="internal" mc="Standard.Package" uid="dd1e478b-6db7-41a4-91de-6544537d3e4a"/>
+        <COMPID name="legacy" mc="Standard.Package" uid="641cf95e-b7af-4d0e-a8f2-338e8845f561"/>
+        <COMPID name="metadata" mc="Standard.Package" uid="61da6f8e-144e-4e94-b9d2-9e398ec5ced0"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

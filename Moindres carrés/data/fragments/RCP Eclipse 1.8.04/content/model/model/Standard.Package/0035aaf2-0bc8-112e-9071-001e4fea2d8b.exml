@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="event" version="4">
+  <OBJECT>
+    <ID name="event" mc="Standard.Package" uid="0035aaf2-0bc8-112e-9071-001e4fea2d8b"/>
+    <PID name="internal" mc="Standard.Package" uid="00313260-0bc8-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[event]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AccessWatchpointEventImpl" mc="Standard.Class" uid="0035b132-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BreakpointEventImpl" mc="Standard.Class" uid="0035b7fe-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ClassPrepareEventImpl" mc="Standard.Class" uid="0035bee8-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ClassUnloadEventImpl" mc="Standard.Class" uid="0035c5c8-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="EventImpl" mc="Standard.Class" uid="0035cd16-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="EventIteratorImpl" mc="Standard.Class" uid="0035d496-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="EventMessages" mc="Standard.Class" uid="0035dc16-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="EventQueueImpl" mc="Standard.Class" uid="0035e3fa-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="EventSetImpl" mc="Standard.Class" uid="0035ec10-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ExceptionEventImpl" mc="Standard.Class" uid="0035f426-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LocatableEventImpl" mc="Standard.Class" uid="0035fca0-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MethodEntryEventImpl" mc="Standard.Class" uid="00360556-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MethodExitEventImpl" mc="Standard.Class" uid="00360e02-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ModificationWatchpointEventImpl" mc="Standard.Class" uid="00361712-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MonitorContendedEnterEventImpl" mc="Standard.Class" uid="00362072-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MonitorContendedEnteredEventImpl" mc="Standard.Class" uid="003629be-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MonitorWaitEventImpl" mc="Standard.Class" uid="003633d2-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MonitorWaitedEventImpl" mc="Standard.Class" uid="00363dd2-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="StepEventImpl" mc="Standard.Class" uid="003647be-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ThreadDeathEventImpl" mc="Standard.Class" uid="00365218-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ThreadStartEventImpl" mc="Standard.Class" uid="00365c9a-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="VMDeathEventImpl" mc="Standard.Class" uid="00366744-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="VMDisconnectEventImpl" mc="Standard.Class" uid="00367234-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="VMStartEventImpl" mc="Standard.Class" uid="00367d56-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WatchpointEventImpl" mc="Standard.Class" uid="00368864-0bc8-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

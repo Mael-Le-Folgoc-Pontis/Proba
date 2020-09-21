@@ -1,0 +1,81 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="dom" version="4">
+  <OBJECT>
+    <ID name="dom" mc="Standard.Package" uid="67262718-c0c0-4ed8-a488-723ae330b209"/>
+    <PID name="html" mc="Standard.Package" uid="800e2890-fa0d-4e24-92dd-07e715d80647"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[dom]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="HTMLAnchorElementImpl" mc="Standard.Class" uid="73698f89-9291-4f7b-92e9-ef366b1a38a6"/>
+        <COMPID name="HTMLAppletElementImpl" mc="Standard.Class" uid="ca3203de-9e9b-4207-973c-1caf86fa3805"/>
+        <COMPID name="HTMLAreaElementImpl" mc="Standard.Class" uid="0211b75b-833a-443b-9f88-960059b532a2"/>
+        <COMPID name="HTMLBRElementImpl" mc="Standard.Class" uid="1893f512-cbaa-4fee-97eb-130f17e43444"/>
+        <COMPID name="HTMLBaseElementImpl" mc="Standard.Class" uid="d50f6214-7e0f-49b4-87f3-a8363b67a82c"/>
+        <COMPID name="HTMLBaseFontElementImpl" mc="Standard.Class" uid="242557b7-9e04-4820-9fe9-64a982c2a8b0"/>
+        <COMPID name="HTMLBodyElementImpl" mc="Standard.Class" uid="affa2172-8049-40b5-9ef1-680f1ab896e7"/>
+        <COMPID name="HTMLBuilder" mc="Standard.Class" uid="dfe51ce3-187b-418e-975f-393c64d68d4d"/>
+        <COMPID name="HTMLButtonElementImpl" mc="Standard.Class" uid="1522ff11-f3fa-4b38-9dd5-ea995cdec17d"/>
+        <COMPID name="HTMLDListElementImpl" mc="Standard.Class" uid="83aee01e-92b8-4ec4-83f3-4f06a2ac3c9a"/>
+        <COMPID name="HTMLDOMImplementationImpl" mc="Standard.Class" uid="9416be2e-a625-42f8-869f-28d3f71a6908"/>
+        <COMPID name="HTMLDirectoryElementImpl" mc="Standard.Class" uid="da69f64d-25f2-403b-9b55-5fbe0eb1c06c"/>
+        <COMPID name="HTMLDivElementImpl" mc="Standard.Class" uid="007f4584-3187-4f88-9e95-5255d96bc442"/>
+        <COMPID name="HTMLDocumentImpl" mc="Standard.Class" uid="1ea9c8e9-68db-44ea-bc16-82eca841d369"/>
+        <COMPID name="HTMLElementImpl" mc="Standard.Class" uid="2d3df648-9137-46e1-ac09-65d503e73b56"/>
+        <COMPID name="HTMLFieldSetElementImpl" mc="Standard.Class" uid="11a5916f-ba3b-422e-8f98-2070dd5fd51b"/>
+        <COMPID name="HTMLFontElementImpl" mc="Standard.Class" uid="404212cc-4ead-400e-a256-1d476fb0a6d6"/>
+        <COMPID name="HTMLFormControl" mc="Standard.Interface" uid="dea49491-8aa1-44d1-8850-065f8f312183"/>
+        <COMPID name="HTMLFormElementImpl" mc="Standard.Class" uid="b77b0b1f-b0ce-49d3-b474-6bff480ce65d"/>
+        <COMPID name="HTMLFrameElementImpl" mc="Standard.Class" uid="f6535124-8203-41f1-89cd-7bdbba2b714d"/>
+        <COMPID name="HTMLFrameSetElementImpl" mc="Standard.Class" uid="610f9093-f25e-4af1-a713-648d493cbd80"/>
+        <COMPID name="HTMLHRElementImpl" mc="Standard.Class" uid="823f839a-73b8-4a5e-99ab-ff3d5e0781ad"/>
+        <COMPID name="HTMLHeadElementImpl" mc="Standard.Class" uid="2384cf55-87b4-42d4-9f12-0c9ddbfab4ad"/>
+        <COMPID name="HTMLHeadingElementImpl" mc="Standard.Class" uid="cdcd41c5-1aee-476f-bb07-f3829630af06"/>
+        <COMPID name="HTMLHtmlElementImpl" mc="Standard.Class" uid="ce85f668-c7ce-4f82-b6ce-0ba95e792526"/>
+        <COMPID name="HTMLIFrameElementImpl" mc="Standard.Class" uid="df9574cd-586c-4829-b730-080b8c40f5fd"/>
+        <COMPID name="HTMLImageElementImpl" mc="Standard.Class" uid="ff013782-8243-4a2a-84df-6ddbbe6ad233"/>
+        <COMPID name="HTMLInputElementImpl" mc="Standard.Class" uid="d7c1149a-c103-412d-a719-90880e529b80"/>
+        <COMPID name="HTMLIsIndexElementImpl" mc="Standard.Class" uid="f6b86ec3-4cef-48d2-b0f9-b26011e4f0c7"/>
+        <COMPID name="HTMLLIElementImpl" mc="Standard.Class" uid="5ec44536-a77a-4a69-a813-d48ad5c43b48"/>
+        <COMPID name="HTMLLabelElementImpl" mc="Standard.Class" uid="b5a8ffcd-82e9-4b2f-931e-7309b29f9954"/>
+        <COMPID name="HTMLLegendElementImpl" mc="Standard.Class" uid="a163ca2e-209d-4195-b5f8-ceff01dfd1e7"/>
+        <COMPID name="HTMLLinkElementImpl" mc="Standard.Class" uid="e985ccd7-67de-49de-9a7a-3f565dec4326"/>
+        <COMPID name="HTMLMapElementImpl" mc="Standard.Class" uid="d64a0d17-0f3d-4c5f-b5ff-1decbc348954"/>
+        <COMPID name="HTMLMenuElementImpl" mc="Standard.Class" uid="500637de-acab-4065-a7f1-ad217e8310b1"/>
+        <COMPID name="HTMLMetaElementImpl" mc="Standard.Class" uid="55f46a2d-45ad-4ff6-a57b-8a380ea681c6"/>
+        <COMPID name="HTMLModElementImpl" mc="Standard.Class" uid="1fbc059a-edb8-4464-a447-546f6605e085"/>
+        <COMPID name="HTMLOListElementImpl" mc="Standard.Class" uid="3bee1577-aecf-4880-bfb7-c8c01ebabfc5"/>
+        <COMPID name="HTMLObjectElementImpl" mc="Standard.Class" uid="79446d71-92af-4a97-a1f1-bb3311b2ad0d"/>
+        <COMPID name="HTMLOptGroupElementImpl" mc="Standard.Class" uid="fd2e6b7c-c5c5-48c7-a318-60a74892d2ed"/>
+        <COMPID name="HTMLOptionElementImpl" mc="Standard.Class" uid="b87bf48d-f046-4609-8c42-39f97e5cb10b"/>
+        <COMPID name="HTMLParagraphElementImpl" mc="Standard.Class" uid="fbdfad82-cffa-4376-b840-ed1e9f85f800"/>
+        <COMPID name="HTMLParamElementImpl" mc="Standard.Class" uid="68784509-23d1-4e8f-b307-1df20645ecd8"/>
+        <COMPID name="HTMLPreElementImpl" mc="Standard.Class" uid="c59d902e-ef63-4363-85fe-01eb43f1f935"/>
+        <COMPID name="HTMLQuoteElementImpl" mc="Standard.Class" uid="cc597464-c671-4b36-b439-579bb9d60681"/>
+        <COMPID name="HTMLScriptElementImpl" mc="Standard.Class" uid="981032cc-e2e4-480b-becc-1485d4aeb509"/>
+        <COMPID name="HTMLSelectElementImpl" mc="Standard.Class" uid="49fdb273-3758-4570-9107-de6ae0607fc3"/>
+        <COMPID name="HTMLStyleElementImpl" mc="Standard.Class" uid="5474d1a0-56c0-42fe-b654-707ce8b80d18"/>
+        <COMPID name="HTMLTableCaptionElementImpl" mc="Standard.Class" uid="dd98056b-e824-48d7-ab39-8af9656f2ab3"/>
+        <COMPID name="HTMLTableCellElementImpl" mc="Standard.Class" uid="781b1613-f463-4f8e-b0cc-8d920945ef7e"/>
+        <COMPID name="HTMLTableColElementImpl" mc="Standard.Class" uid="0407bf0a-516e-400e-94af-c37b92ee2cc6"/>
+        <COMPID name="HTMLTableElementImpl" mc="Standard.Class" uid="331ed9e4-7c87-4afa-86de-bf638d6eab0f"/>
+        <COMPID name="HTMLTableRowElementImpl" mc="Standard.Class" uid="e60c1c13-1786-461a-a65e-28081c3bf368"/>
+        <COMPID name="HTMLTableSectionElementImpl" mc="Standard.Class" uid="70315b3b-3877-4969-97e2-e90865739760"/>
+        <COMPID name="HTMLTextAreaElementImpl" mc="Standard.Class" uid="f21af93a-b8ae-464d-9a17-9a4cac0a1413"/>
+        <COMPID name="HTMLTitleElementImpl" mc="Standard.Class" uid="b0357498-0a12-43bc-bc59-e2147c6513d2"/>
+        <COMPID name="HTMLUListElementImpl" mc="Standard.Class" uid="c08ccd15-c9ef-46c8-9a61-641e2daf9210"/>
+        <COMPID name="NameNodeListImpl" mc="Standard.Class" uid="080a599e-193e-4fb2-bfa7-43a975994677"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

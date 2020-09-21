@@ -1,0 +1,56 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="reorg" version="4">
+  <OBJECT>
+    <ID name="reorg" mc="Standard.Package" uid="00724c5a-0bc9-112e-9071-001e4fea2d8b"/>
+    <PID name="refactoring" mc="Standard.Package" uid="00538518-0bc9-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[reorg]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ASTNodeDeleteUtil" mc="Standard.Class" uid="007252e0-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CopyModifications" mc="Standard.Class" uid="00725fec-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CreateCopyOfCompilationUnitChange" mc="Standard.Class" uid="0072665e-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CreateTargetExecutionLog" mc="Standard.Class" uid="00726d48-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DeleteModifications" mc="Standard.Class" uid="00727b80-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IConfirmQuery" mc="Standard.Interface" uid="007281c0-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ICreateTargetQueries" mc="Standard.Interface" uid="00728922-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ICreateTargetQuery" mc="Standard.Interface" uid="00729016-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="INewNameQueries" mc="Standard.Interface" uid="007296f6-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="INewNameQuery" mc="Standard.Interface" uid="00729e4e-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IPackageFragmentRootManipulationQuery" mc="Standard.Interface" uid="0072a650-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IReorgDestination" mc="Standard.Interface" uid="0072add0-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IReorgDestinationValidator" mc="Standard.Interface" uid="0072b5aa-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IReorgPolicy" mc="Standard.Interface" uid="0072bdb6-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IReorgQueries" mc="Standard.Interface" uid="0072d2c4-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaCopyProcessor" mc="Standard.Class" uid="0072daa8-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaDeleteProcessor" mc="Standard.Class" uid="0072e228-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaElementTransfer" mc="Standard.Class" uid="0072ea0c-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaMoveProcessor" mc="Standard.Class" uid="0072f236-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LoggedCreateTargetChange" mc="Standard.Class" uid="0072fa56-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LoggedCreateTargetQueries" mc="Standard.Class" uid="007302da-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LoggedNewNameQueries" mc="Standard.Class" uid="00731158-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MonitoringCreateTargetQueries" mc="Standard.Class" uid="0073204e-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MonitoringNewNameQueries" mc="Standard.Class" uid="00732954-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MoveCuUpdateCreator" mc="Standard.Class" uid="00733296-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MoveModifications" mc="Standard.Class" uid="0073592e-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="NullReorgQueries" mc="Standard.Class" uid="00736306-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ParentChecker" mc="Standard.Class" uid="007384ee-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RefactoringModifications" mc="Standard.Class" uid="007399b6-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ReorgDestinationFactory" mc="Standard.Class" uid="0073a488-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ReorgPolicyFactory" mc="Standard.Class" uid="0073d9b2-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ReorgUtils" mc="Standard.Class" uid="00750f76-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SourceReferenceUtil" mc="Standard.Class" uid="00751b1a-0bc9-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

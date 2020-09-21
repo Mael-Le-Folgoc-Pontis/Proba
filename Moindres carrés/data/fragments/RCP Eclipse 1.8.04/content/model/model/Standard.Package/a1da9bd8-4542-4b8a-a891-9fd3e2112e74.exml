@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="questionnaire" version="4">
+  <OBJECT>
+    <ID name="questionnaire" mc="Standard.Package" uid="a1da9bd8-4542-4b8a-a891-9fd3e2112e74"/>
+    <PID name="ui" mc="Standard.Package" uid="286ee4ec-8847-49bc-9700-b5f17f245214"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[questionnaire]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AnimatedCanvas" mc="Standard.Class" uid="222f0582-a937-4fea-908b-2647de1265d7"/>
+        <COMPID name="AnimatedShell" mc="Standard.Class" uid="12274ebe-d85c-4fae-8332-ca1824c2731c"/>
+        <COMPID name="ExitShell" mc="Standard.Class" uid="ed2061ee-ef3b-4631-99ab-4562424c3707"/>
+        <COMPID name="GearAnimator" mc="Standard.Class" uid="bcdd3dac-b727-48e8-bc60-8ce4392a3646"/>
+        <COMPID name="GearShell" mc="Standard.Class" uid="b062a6b6-c60b-4ba2-acbb-45328a8576b4"/>
+        <COMPID name="QuestionnaireImpl" mc="Standard.Class" uid="6339bfac-bc60-4d63-bcc6-3f41611f06c4"/>
+        <COMPID name="QuestionnairePlugin" mc="Standard.Class" uid="398572e4-cca9-4654-a279-010bea6a1201"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

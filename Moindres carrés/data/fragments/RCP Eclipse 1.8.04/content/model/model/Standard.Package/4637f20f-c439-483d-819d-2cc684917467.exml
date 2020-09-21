@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="filemanager" version="4">
+  <OBJECT>
+    <ID name="filemanager" mc="Standard.Package" uid="4637f20f-c439-483d-819d-2cc684917467"/>
+    <PID name="takari" mc="Standard.Package" uid="63322f84-74b5-4e93-9d0b-1dbb94235c0d"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[filemanager]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="FileManager" mc="Standard.Interface" uid="d48e7b47-34e8-4bf1-9294-14f9d584b3e9"/>
+        <COMPID name="Lock" mc="Standard.Interface" uid="7ac4cf54-e879-458b-8bd5-878f4bc50447"/>
+        <COMPID name="internal" mc="Standard.Package" uid="dbbe27d5-319f-452b-b13a-0f7c9339b39d"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

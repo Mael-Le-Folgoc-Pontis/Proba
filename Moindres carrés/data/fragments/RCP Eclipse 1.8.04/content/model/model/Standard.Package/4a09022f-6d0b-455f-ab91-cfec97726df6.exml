@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="lib" version="4">
+  <OBJECT>
+    <ID name="lib" mc="Standard.Package" uid="4a09022f-6d0b-455f-ab91-cfec97726df6"/>
+    <PID name="extractor" mc="Standard.Package" uid="691a6fe3-61e9-4daa-832f-9ebad0c0c10d"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[lib]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="BINDescriptor" mc="Standard.Class" uid="5599fc07-6cff-4ee6-ac55-1674bb92b562"/>
+        <COMPID name="BINExtractor" mc="Standard.Class" uid="524aad1f-cf15-482c-9095-5044160e858d"/>
+        <COMPID name="BINMarker" mc="Standard.Class" uid="5b01c4af-a1f5-4d6d-9819-f9da7725bdd0"/>
+        <COMPID name="IO" mc="Standard.Class" uid="9f8fedb9-e5cf-4464-b619-162a4c17b698"/>
+        <COMPID name="JREData" mc="Standard.Class" uid="df7d56b3-4502-44b8-bbb9-56f451ba6e4e"/>
+        <COMPID name="JREValidator" mc="Standard.Class" uid="204c66aa-7112-4354-9edd-ae163eae2f7f"/>
+        <COMPID name="PropertiesUpdater" mc="Standard.Class" uid="36bfd752-0ec5-4a4b-b82c-b5cdd51e7005"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

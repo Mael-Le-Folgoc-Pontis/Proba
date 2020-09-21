@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="editparts" version="4">
+  <OBJECT>
+    <ID name="editparts" mc="Standard.Package" uid="01f42324-0000-05c6-0000-000000000000"/>
+    <PID name="gef" mc="Standard.Package" uid="01f42324-0000-0594-0000-000000000000"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[editparts]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractConnectionEditPart" mc="Standard.Class" uid="01f42324-0000-05c8-0000-000000000000"/>
+        <COMPID name="AbstractEditPart" mc="Standard.Class" uid="01f42324-0000-05cd-0000-000000000000"/>
+        <COMPID name="AbstractGraphicalEditPart" mc="Standard.Class" uid="01f42324-0000-05d7-0000-000000000000"/>
+        <COMPID name="AbstractTreeEditPart" mc="Standard.Class" uid="01f42324-0000-05cf-0000-000000000000"/>
+        <COMPID name="FreeformGraphicalRootEditPart" mc="Standard.Class" uid="01f42324-0000-05ce-0000-000000000000"/>
+        <COMPID name="GraphicalRootEditPart" mc="Standard.Class" uid="01f42324-0000-05c9-0000-000000000000"/>
+        <COMPID name="GridLayer" mc="Standard.Class" uid="01f42324-0000-05da-0000-000000000000"/>
+        <COMPID name="GuideLayer" mc="Standard.Class" uid="01f42324-0000-05c7-0000-000000000000"/>
+        <COMPID name="IScrollableEditPart" mc="Standard.Interface" uid="0058427e-f997-1088-84ae-001e4fea2d8b"/>
+        <COMPID name="LayerManager" mc="Standard.Interface" uid="307d384e-8b12-11de-aace-001e4fea2d8b"/>
+        <COMPID name="RootTreeEditPart" mc="Standard.Class" uid="01f42324-0000-05d1-0000-000000000000"/>
+        <COMPID name="ScalableFreeformRootEditPart" mc="Standard.Class" uid="01f42324-0000-05d6-0000-000000000000"/>
+        <COMPID name="ScalableRootEditPart" mc="Standard.Class" uid="01f42324-0000-05ca-0000-000000000000"/>
+        <COMPID name="SimpleRootEditPart" mc="Standard.Class" uid="01f42324-0000-05d0-0000-000000000000"/>
+        <COMPID name="ViewportAutoexposeHelper" mc="Standard.Class" uid="01f42324-0000-05d8-0000-000000000000"/>
+        <COMPID name="ViewportExposeHelper" mc="Standard.Class" uid="01f42324-0000-05cb-0000-000000000000"/>
+        <COMPID name="ViewportMouseWheelHelper" mc="Standard.Class" uid="01f42324-0000-05dc-0000-000000000000"/>
+        <COMPID name="ZoomListener" mc="Standard.Interface" uid="01f42324-0000-05d2-0000-000000000000"/>
+        <COMPID name="ZoomManager" mc="Standard.Class" uid="01f42324-0000-05db-0000-000000000000"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

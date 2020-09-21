@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="indexing" version="4">
+  <OBJECT>
+    <ID name="indexing" mc="Standard.Package" uid="0031b4a6-0bc9-112e-9071-001e4fea2d8b"/>
+    <PID name="search" mc="Standard.Package" uid="002fcf2e-0bc9-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[indexing]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractIndexer" mc="Standard.Class" uid="0031bb4a-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BinaryIndexer" mc="Standard.Class" uid="0031d008-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DefaultJavaIndexer" mc="Standard.Class" uid="0031d706-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IIndexConstants" mc="Standard.Interface" uid="0031dd5a-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IndexAllProject" mc="Standard.Class" uid="0031e516-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IndexBinaryFolder" mc="Standard.Class" uid="0031ecaa-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IndexManager" mc="Standard.Class" uid="0031f48e-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IndexRequest" mc="Standard.Class" uid="0031fca4-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IndexingParser" mc="Standard.Class" uid="003204b0-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ReadWriteMonitor" mc="Standard.Class" uid="00320d2a-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SaveIndex" mc="Standard.Class" uid="003227a6-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SourceIndexer" mc="Standard.Class" uid="00323110-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SourceIndexerRequestor" mc="Standard.Class" uid="00323a48-0bc9-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

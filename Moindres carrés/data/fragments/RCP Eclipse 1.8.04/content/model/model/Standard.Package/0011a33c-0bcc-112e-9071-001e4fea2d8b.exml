@@ -1,0 +1,91 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="server" version="4">
+  <OBJECT>
+    <ID name="server" mc="Standard.Package" uid="0011a33c-0bcc-112e-9071-001e4fea2d8b"/>
+    <PID name="jetty" mc="Standard.Package" uid="00065040-0bcc-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[server]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractConnectionFactory" mc="Standard.Class" uid="3d2bf8fc-3a37-4968-be1f-8b187ebd7638"/>
+        <COMPID name="AbstractConnector" mc="Standard.Class" uid="0011a97c-0bcc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AbstractHttpConnection" mc="Standard.Class" uid="0011b5e8-0bcc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AbstractNCSARequestLog" mc="Standard.Class" uid="7ba8dfce-8e2d-40be-b67a-e5c47f3be42f"/>
+        <COMPID name="AbstractNetworkConnector" mc="Standard.Class" uid="0af8fcf7-524c-4b02-9532-cb45fa9cf374"/>
+        <COMPID name="AsyncContextEvent" mc="Standard.Class" uid="8ff63e83-c853-478a-8446-834dd0b931e9"/>
+        <COMPID name="AsyncContextState" mc="Standard.Class" uid="7ec1f59a-1a8c-41ca-b3d9-7760f5134626"/>
+        <COMPID name="AsyncContinuation" mc="Standard.Class" uid="0011ce7a-0bcc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AsyncHttpConnection" mc="Standard.Class" uid="0011e0d6-0bcc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AsyncNCSARequestLog" mc="Standard.Class" uid="fe164675-6023-40c7-a038-79e18627a472"/>
+        <COMPID name="Authentication" mc="Standard.Interface" uid="0011e6c6-0bcc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BlockingHttpConnection" mc="Standard.Class" uid="00121e70-0bcc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ByteBufferQueuedHttpInput" mc="Standard.Class" uid="56ceba3d-8ea7-4617-8f59-9c7f9e9372c8"/>
+        <COMPID name="ClassLoaderDump" mc="Standard.Class" uid="95e2e8af-a91e-4fcb-8c40-d1790ca02036"/>
+        <COMPID name="ConnectionFactory" mc="Standard.Interface" uid="c51db1c9-13eb-458e-8693-69bd33efe889"/>
+        <COMPID name="Connector" mc="Standard.Interface" uid="001224c4-0bcc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ConnectorStatistics" mc="Standard.Class" uid="5856e473-7359-49a5-b821-796bfd470b83"/>
+        <COMPID name="CookieCutter" mc="Standard.Class" uid="00122c26-0bcc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Dispatcher" mc="Standard.Class" uid="00123360-0bcc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="EncodingHttpWriter" mc="Standard.Class" uid="085ea9c4-7cc7-4dd4-87f8-eeca754dd863"/>
+        <COMPID name="ForwardedRequestCustomizer" mc="Standard.Class" uid="f444c620-02c5-48d0-96e7-f990e4fd067b"/>
+        <COMPID name="Handler" mc="Standard.Interface" uid="00124594-0bcc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HandlerContainer" mc="Standard.Interface" uid="00124ca6-0bcc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HomeBaseWarning" mc="Standard.Class" uid="5c1a82c5-b238-4ddd-bd13-7aec9269ece7"/>
+        <COMPID name="HostHeaderCustomizer" mc="Standard.Class" uid="a701de02-18a7-4996-a74f-0dba6195d9af"/>
+        <COMPID name="HttpChannel" mc="Standard.Class" uid="a6dd80b0-ccc4-4786-9841-08f475c7a5d5"/>
+        <COMPID name="HttpChannelState" mc="Standard.Class" uid="e30ad991-ef99-41a8-bcfd-d33b5525e2b2"/>
+        <COMPID name="HttpConfiguration" mc="Standard.Class" uid="5dd4be88-58d0-4531-9a8c-6dc078e30c34"/>
+        <COMPID name="HttpConnection" mc="Standard.Class" uid="12048760-b4f9-450b-9003-5e0d33128436"/>
+        <COMPID name="HttpConnectionFactory" mc="Standard.Class" uid="b13a54cd-7119-41fa-9516-bffa0705485d"/>
+        <COMPID name="HttpInput" mc="Standard.Class" uid="0012546c-0bcc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HttpInputOverHTTP" mc="Standard.Class" uid="bf5fcd7d-397d-4f95-a0f3-c3d842efdb23"/>
+        <COMPID name="HttpOutput" mc="Standard.Class" uid="00125bba-0bcc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HttpTransport" mc="Standard.Interface" uid="593a4725-794f-4b9c-94b8-c0d24dcef379"/>
+        <COMPID name="HttpWriter" mc="Standard.Class" uid="0012638a-0bcc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="InclusiveByteRange" mc="Standard.Class" uid="00126ba0-0bcc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Iso88591HttpWriter" mc="Standard.Class" uid="986b292c-e8a0-4fa0-bd71-6c000c02ce3f"/>
+        <COMPID name="LocalConnector" mc="Standard.Class" uid="00127398-0bcc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LowResourceMonitor" mc="Standard.Class" uid="7da8b801-2fda-4d1a-9696-9b49e2dc6ebf"/>
+        <COMPID name="NCSARequestLog" mc="Standard.Class" uid="001281c6-0bcc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="NegotiatingServerConnection" mc="Standard.Class" uid="a18c2132-d506-466a-8b7e-96d270e90224"/>
+        <COMPID name="NegotiatingServerConnectionFactory" mc="Standard.Class" uid="da904ac3-76f6-4778-87c6-03ee026336ac"/>
+        <COMPID name="NetworkConnector" mc="Standard.Interface" uid="e365879d-f6f3-467d-bbd3-0fc43830a24e"/>
+        <COMPID name="NetworkTrafficServerConnector" mc="Standard.Class" uid="a245f1c4-756b-48e7-af88-c1c3b238774b"/>
+        <COMPID name="QueuedHttpInput" mc="Standard.Class" uid="3b625a17-a8ba-4c88-8805-e66d9d1adf9d"/>
+        <COMPID name="QuietServletException" mc="Standard.Class" uid="57dec94b-d2a1-4acc-88b4-20264fbcb4f8"/>
+        <COMPID name="Request" mc="Standard.Class" uid="00128a40-0bcc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RequestLog" mc="Standard.Interface" uid="00129116-0bcc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ResourceCache" mc="Standard.Class" uid="00129a94-0bcc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Response" mc="Standard.Class" uid="0012a926-0bcc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SecureRequestCustomizer" mc="Standard.Class" uid="acd84a2e-63d9-4257-8b8c-bb50f7c54057"/>
+        <COMPID name="Server" mc="Standard.Class" uid="0012bfce-0bcc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ServerConnector" mc="Standard.Class" uid="68c61a8e-2d56-45f0-89b7-b40fe0cf6c02"/>
+        <COMPID name="ServletRequestHttpWrapper" mc="Standard.Class" uid="0012cfe6-0bcc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ServletResponseHttpWrapper" mc="Standard.Class" uid="0012d982-0bcc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SessionIdManager" mc="Standard.Interface" uid="0012e058-0bcc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SessionManager" mc="Standard.Interface" uid="0012e7f6-0bcc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ShutdownMonitor" mc="Standard.Class" uid="e81430d3-5db4-40a0-8a51-781a834f0bd2"/>
+        <COMPID name="Slf4jRequestLog" mc="Standard.Class" uid="1efa4149-9e4d-4b57-9056-2e2d500dfe9d"/>
+        <COMPID name="SslConnectionFactory" mc="Standard.Class" uid="07a7295d-3c40-4a1c-af75-898f9f54f05c"/>
+        <COMPID name="UserIdentity" mc="Standard.Interface" uid="0012efbc-0bcc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Utf8HttpWriter" mc="Standard.Class" uid="0fc3c9dc-705f-4b72-890a-360f693ebddc"/>
+        <COMPID name="bio" mc="Standard.Package" uid="0013beec-0bcc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="handler" mc="Standard.Package" uid="001492e0-0bcc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="jmx" mc="Standard.Package" uid="00171650-0bcc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="nio" mc="Standard.Package" uid="0017f41c-0bcc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="session" mc="Standard.Package" uid="001905e6-0bcc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ssl" mc="Standard.Package" uid="001b3e06-0bcc-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

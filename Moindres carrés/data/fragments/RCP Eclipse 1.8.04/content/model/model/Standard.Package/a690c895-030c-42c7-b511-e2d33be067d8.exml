@@ -1,0 +1,58 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="iterators" version="4">
+  <OBJECT>
+    <ID name="iterators" mc="Standard.Package" uid="a690c895-030c-42c7-b511-e2d33be067d8"/>
+    <PID name="collections" mc="Standard.Package" uid="a284a2b1-efc0-4907-b43d-a516c9a55292"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[iterators]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractIteratorDecorator" mc="Standard.Class" uid="9f139dec-1adc-4b39-834f-ab56b039cb29"/>
+        <COMPID name="AbstractListIteratorDecorator" mc="Standard.Class" uid="21875761-e987-435c-b189-944b5a00df4a"/>
+        <COMPID name="AbstractMapIteratorDecorator" mc="Standard.Class" uid="18d8590c-06c3-4cf1-82f3-8ac87a4dbaae"/>
+        <COMPID name="AbstractOrderedMapIteratorDecorator" mc="Standard.Class" uid="a5a320f5-2ebf-4e61-a1e3-6e9c9ce4b767"/>
+        <COMPID name="ArrayIterator" mc="Standard.Class" uid="eafc6fa5-65da-48a9-a5c1-13e98d38c38b"/>
+        <COMPID name="ArrayListIterator" mc="Standard.Class" uid="819f6eb2-6c3c-4808-97a5-0a1008b57fc4"/>
+        <COMPID name="CollatingIterator" mc="Standard.Class" uid="5d289013-8b95-41ad-bca1-080186204f4b"/>
+        <COMPID name="EmptyIterator" mc="Standard.Class" uid="47534561-a150-4624-add5-062d6a8f408b"/>
+        <COMPID name="EmptyListIterator" mc="Standard.Class" uid="a3cc67ca-5d6e-4dc8-9aa1-d532ff69d574"/>
+        <COMPID name="EmptyMapIterator" mc="Standard.Class" uid="c8359b69-8ad0-49b7-9abb-b232fd58eddf"/>
+        <COMPID name="EmptyOrderedIterator" mc="Standard.Class" uid="2923b51b-2337-45a1-81ba-01efe240b1a4"/>
+        <COMPID name="EmptyOrderedMapIterator" mc="Standard.Class" uid="1907173b-f156-4a25-956d-baeabdb17ccc"/>
+        <COMPID name="EntrySetMapIterator" mc="Standard.Class" uid="e4b470b6-3e77-48d2-bf7a-fd2bf5aac9d8"/>
+        <COMPID name="EnumerationIterator" mc="Standard.Class" uid="2e792c2e-3f56-47d1-bed8-4b2c0e6dea2d"/>
+        <COMPID name="FilterIterator" mc="Standard.Class" uid="869b054f-143c-470b-8950-a1e12fba35b3"/>
+        <COMPID name="FilterListIterator" mc="Standard.Class" uid="2ce8a4c4-3326-4aba-b54f-e5d23634bdf5"/>
+        <COMPID name="IteratorChain" mc="Standard.Class" uid="f3411a92-bb1c-425b-94b1-7908f815ac6b"/>
+        <COMPID name="IteratorEnumeration" mc="Standard.Class" uid="c19345fd-b60b-4f09-8388-8403f58e1a38"/>
+        <COMPID name="ListIteratorWrapper" mc="Standard.Class" uid="b34aeaa4-6f05-4a36-a816-994ead606ea9"/>
+        <COMPID name="LoopingIterator" mc="Standard.Class" uid="2bc6d304-aa27-4852-8c3e-f75ac3aad72b"/>
+        <COMPID name="LoopingListIterator" mc="Standard.Class" uid="3bb606fb-98aa-4d65-817f-895146502db4"/>
+        <COMPID name="ObjectArrayIterator" mc="Standard.Class" uid="523cf9dc-8cd2-44c9-8e37-852e233b7352"/>
+        <COMPID name="ObjectArrayListIterator" mc="Standard.Class" uid="c78503f5-5e7c-4944-9701-7f37e64d5c1d"/>
+        <COMPID name="ObjectGraphIterator" mc="Standard.Class" uid="edea3b4b-66c1-4f09-b022-834e90fab85f"/>
+        <COMPID name="ProxyIterator" mc="Standard.Class" uid="7724b35c-dafe-4196-bc1a-773ae7e201f6"/>
+        <COMPID name="ProxyListIterator" mc="Standard.Class" uid="6f323f33-6bcb-47d7-a716-d91a29e1cd44"/>
+        <COMPID name="ReverseListIterator" mc="Standard.Class" uid="b61a0857-eefa-4e1c-b485-2ddc76ce1947"/>
+        <COMPID name="SingletonIterator" mc="Standard.Class" uid="bfb49fc7-388e-4a10-b0c1-e4e94e7aa07c"/>
+        <COMPID name="SingletonListIterator" mc="Standard.Class" uid="c6b009c3-ad2b-405f-9a29-8b5f5f9baf96"/>
+        <COMPID name="TransformIterator" mc="Standard.Class" uid="4b129ff3-1c0a-4657-94f7-8528e13fc482"/>
+        <COMPID name="UniqueFilterIterator" mc="Standard.Class" uid="62be0f39-3ddf-4961-916b-3bb265a98698"/>
+        <COMPID name="UnmodifiableIterator" mc="Standard.Class" uid="ca7f98f5-a686-4dc3-963a-7b0626814b77"/>
+        <COMPID name="UnmodifiableListIterator" mc="Standard.Class" uid="b7046098-76f6-455c-bd13-378b72c5f3e4"/>
+        <COMPID name="UnmodifiableMapIterator" mc="Standard.Class" uid="709b1488-ec06-4673-b060-a0249613790f"/>
+        <COMPID name="UnmodifiableOrderedMapIterator" mc="Standard.Class" uid="1ea070da-6fc5-4692-ba0e-74a88022dc85"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

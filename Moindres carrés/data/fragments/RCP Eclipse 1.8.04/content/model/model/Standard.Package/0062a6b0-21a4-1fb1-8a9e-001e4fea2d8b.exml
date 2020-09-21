@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="modeling" version="4">
+  <OBJECT>
+    <ID name="modeling" mc="Standard.Package" uid="0062a6b0-21a4-1fb1-8a9e-001e4fea2d8b"/>
+    <PID name="workbench" mc="Standard.Package" uid="0022a092-21a4-1fb1-8a9e-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[modeling]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="EModelService" mc="Standard.Interface" uid="0065c08e-21a4-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="EObjModelHandler" mc="Standard.Class" uid="0064e8da-21a4-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="EPartService" mc="Standard.Interface" uid="0067a6c4-21a4-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="EPlaceholderResolver" mc="Standard.Interface" uid="00667cfe-21a4-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ESelectionService" mc="Standard.Interface" uid="006433ae-21a4-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ElementMatcher" mc="Standard.Class" uid="2e9d7550-9b2d-4db5-804f-f0b63c963d88"/>
+        <COMPID name="IDelta" mc="Standard.Interface" uid="0062eeea-21a4-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="IModelReconcilingService" mc="Standard.Interface" uid="006744f4-21a4-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="IPartListener" mc="Standard.Interface" uid="0064bc66-21a4-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ISaveHandler" mc="Standard.Interface" uid="00661d18-21a4-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ISelectionListener" mc="Standard.Interface" uid="0062c474-21a4-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="IWindowCloseHandler" mc="Standard.Interface" uid="00634ca0-21a4-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ModelDelta" mc="Standard.Class" uid="00645e7e-21a4-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ModelHandlerBase" mc="Standard.Class" uid="0065ee6a-21a4-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ModelReconciler" mc="Standard.Class" uid="006376e4-21a4-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ModelService" mc="Standard.Class" uid="0063a1a0-21a4-1fb1-8a9e-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="reflection" version="4">
+  <OBJECT>
+    <ID name="reflection" mc="Standard.Package" uid="b3d71251-d8fd-4657-86d1-7a6ac3bb6619"/>
+    <PID name="interpolation" mc="Standard.Package" uid="c8ab797d-d842-43ae-b23e-4d34286b3bda"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[reflection]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ClassMap" mc="Standard.Class" uid="16104d50-d797-45f2-a105-1ee5e9cec66d"/>
+        <COMPID name="MethodMap" mc="Standard.Class" uid="fa6fea46-9e4e-4440-872b-a7283ce9ad59"/>
+        <COMPID name="ReflectionValueExtractor" mc="Standard.Class" uid="f4a8c04b-976f-4e55-95ca-393d470a9d2f"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

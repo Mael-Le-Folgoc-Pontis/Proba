@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="index" version="4">
+  <OBJECT>
+    <ID name="index" mc="Standard.Package" uid="99d8421d-d009-4b93-9f07-c4218cbcef19"/>
+    <PID name="internal" mc="Standard.Package" uid="5a6dc0a8-cf6b-4224-a3a9-4a2fca584793"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[index]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="IIndex" mc="Standard.Interface" uid="784307de-47ce-4fab-9e2a-82430c2b55df"/>
+        <COMPID name="IMutableIndex" mc="Standard.Interface" uid="bb05224c-a499-4032-835b-f0ec28df5bf6"/>
+        <COMPID name="IndexListener" mc="Standard.Interface" uid="8ff8dcbd-523e-4f6e-9231-1b918643619f"/>
+        <COMPID name="IndexManager" mc="Standard.Interface" uid="b4a7ac43-f353-4f88-92f1-a2fe8c5aca2e"/>
+        <COMPID name="IndexedArtifact" mc="Standard.Class" uid="342b7d39-dd9e-40a4-94d1-3e9835672749"/>
+        <COMPID name="IndexedArtifactFile" mc="Standard.Class" uid="c32991ee-0ffe-4076-8b85-eb3466f5f973"/>
+        <COMPID name="MatchTyped" mc="Standard.Interface" uid="995dda9f-1136-4607-ae45-a7f7611aeaf6"/>
+        <COMPID name="MatchTypedStringSearchExpression" mc="Standard.Class" uid="d060ea22-59c3-4d81-81bd-c0162ea5cf8c"/>
+        <COMPID name="SearchExpression" mc="Standard.Interface" uid="720a4df6-84a9-4641-b986-d9d9766a36cf"/>
+        <COMPID name="SourcedSearchExpression" mc="Standard.Class" uid="21690d0f-96a7-4c9e-bb3a-eb1797f1d5c0"/>
+        <COMPID name="StringSearchExpression" mc="Standard.Class" uid="2c79b371-d0c2-41eb-a925-e61e00212927"/>
+        <COMPID name="UserInputSearchExpression" mc="Standard.Class" uid="cb02da85-61e8-4b18-a3c4-d8338ef1b751"/>
+        <COMPID name="filter" mc="Standard.Package" uid="689971ce-baed-4171-9011-036ae1e6322b"/>
+        <COMPID name="nexus" mc="Standard.Package" uid="0a2f5a45-8f21-49df-9150-92ebe8a9b270"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

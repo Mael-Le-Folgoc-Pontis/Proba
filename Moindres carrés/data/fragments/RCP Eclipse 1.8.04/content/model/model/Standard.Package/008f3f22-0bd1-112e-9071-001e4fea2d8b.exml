@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="launcher" version="4">
+  <OBJECT>
+    <ID name="launcher" mc="Standard.Package" uid="008f3f22-0bd1-112e-9071-001e4fea2d8b"/>
+    <PID name="ui" mc="Standard.Package" uid="00559196-0bd1-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[launcher]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractPluginBlock" mc="Standard.Class" uid="008f4558-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ApplicationSelectionDialog" mc="Standard.Class" uid="008f6a92-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BaseBlock" mc="Standard.Class" uid="008f70dc-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BlockAdapter" mc="Standard.Class" uid="008f7cda-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ConfigurationAreaBlock" mc="Standard.Class" uid="008f8388-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ConfigurationTemplateBlock" mc="Standard.Class" uid="008f8a72-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FeatureBlock" mc="Standard.Class" uid="008f915c-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="GenericExceptionStatusHandler" mc="Standard.Class" uid="008fdf22-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JREBlock" mc="Standard.Class" uid="008fe6e8-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JUnitProgramBlock" mc="Standard.Class" uid="008ff4a8-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LaunchAction" mc="Standard.Class" uid="008ffcbe-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LaunchTerminationStatusHandler" mc="Standard.Class" uid="00900510-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LauncherUtilsStatusHandler" mc="Standard.Class" uid="00900d58-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="OSGiBundleBlock" mc="Standard.Class" uid="009015fa-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="OSGiFrameworkBlock" mc="Standard.Class" uid="00901ece-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PDELogFileProvider" mc="Standard.Class" uid="00902d74-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PluginBlock" mc="Standard.Class" uid="009036c0-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PluginStatusDialog" mc="Standard.Class" uid="00904016-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PluginValidationStatusHandler" mc="Standard.Class" uid="00904f8e-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ProgramBlock" mc="Standard.Class" uid="00905984-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RunWorkbenchAction" mc="Standard.Class" uid="0090694c-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SoftwareInstallBlock" mc="Standard.Class" uid="00907374-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TracingBlock" mc="Standard.Class" uid="00907dec-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TracingPropertySource" mc="Standard.Class" uid="00908ee0-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WorkspaceDataBlock" mc="Standard.Class" uid="0090abc8-0bd1-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

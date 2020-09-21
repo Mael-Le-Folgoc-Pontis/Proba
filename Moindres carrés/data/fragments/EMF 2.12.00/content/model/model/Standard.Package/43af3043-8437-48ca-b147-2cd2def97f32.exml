@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="celleditor" version="4">
+  <OBJECT>
+    <ID name="celleditor" mc="Standard.Package" uid="43af3043-8437-48ca-b147-2cd2def97f32"/>
+    <PID name="ui" mc="Standard.Package" uid="06c47a93-a0b3-4177-a89d-b009fe3c91d3"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[celleditor]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AdapterFactoryTableTreeEditor" mc="Standard.Class" uid="25679888-77a0-4d84-a193-ef709dead387"/>
+        <COMPID name="AdapterFactoryTreeEditor" mc="Standard.Class" uid="c37b3889-0603-420e-9f8d-098365fb0cc5"/>
+        <COMPID name="FeatureEditorDialog" mc="Standard.Class" uid="fbfe59f6-bd7c-402a-b0a4-29db5c871ef1"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

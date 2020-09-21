@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="editpolicies" version="4">
+  <OBJECT>
+    <ID name="editpolicies" mc="Standard.Package" uid="c7d940c4-b530-4a94-a067-38a9b3e001bf"/>
+    <PID name="design" mc="Standard.Package" uid="2181992f-1097-4979-91ad-7eacd01f1124"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[editpolicies]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="DragAndDropEditPolicy" mc="Standard.Class" uid="ea6767f9-6a58-4ee0-b4fa-bad942f41795"/>
+        <COMPID name="GraphNodeDragTracker" mc="Standard.Class" uid="83a42d0c-1a82-48b3-91b7-4eafc3e5e710"/>
+        <COMPID name="SelectionHandlesEditPolicyImpl" mc="Standard.Class" uid="3dc62188-efec-4207-b546-6e9f46e09800"/>
+        <COMPID name="TopLevelComponentLabelCellEditorLocator" mc="Standard.Class" uid="6370bbd2-e118-4091-b26c-cab3d32ef136"/>
+        <COMPID name="TopLevelNameDirectEditManager" mc="Standard.Class" uid="c914bf10-fa31-4a0c-a06c-4431be2ea659"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

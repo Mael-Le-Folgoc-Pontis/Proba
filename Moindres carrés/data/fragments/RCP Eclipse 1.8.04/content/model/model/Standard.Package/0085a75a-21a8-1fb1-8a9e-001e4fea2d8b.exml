@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="internal" version="4">
+  <OBJECT>
+    <ID name="internal" mc="Standard.Package" uid="0085a75a-21a8-1fb1-8a9e-001e4fea2d8b"/>
+    <PID name="bidi" mc="Standard.Package" uid="0080ef1c-21a8-1fb1-8a9e-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[internal]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="StructuredTextActivator" mc="Standard.Class" uid="c96a9ef3-4756-4df5-9192-6c99322cd1f6"/>
+        <COMPID name="StructuredTextDelims" mc="Standard.Class" uid="e41ab503-d85d-42d0-93b7-bebea01abbf5"/>
+        <COMPID name="StructuredTextDelimsEsc" mc="Standard.Class" uid="7da39dc0-107b-4d67-93ec-e664c6ef7a28"/>
+        <COMPID name="StructuredTextImpl" mc="Standard.Class" uid="1e60d4cb-a192-4b0a-b944-e68bbedafc8f"/>
+        <COMPID name="StructuredTextSingle" mc="Standard.Class" uid="21cb0611-9982-4ee4-8ea3-390bb9fada1b"/>
+        <COMPID name="StructuredTextStringRecord" mc="Standard.Class" uid="b0d4825f-cda1-4bcf-b7ae-cecc514d03d2"/>
+        <COMPID name="StructuredTextTypesCollector" mc="Standard.Class" uid="609c6b23-859a-4e69-9b1a-f147628ad781"/>
+        <COMPID name="consumable" mc="Standard.Package" uid="00872ddc-21a8-1fb1-8a9e-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

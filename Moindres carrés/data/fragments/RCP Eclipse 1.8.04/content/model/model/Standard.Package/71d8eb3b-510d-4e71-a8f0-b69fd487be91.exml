@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="factory" version="4">
+  <OBJECT>
+    <ID name="factory" mc="Standard.Package" uid="71d8eb3b-510d-4e71-a8f0-b69fd487be91"/>
+    <PID name="contentmodel" mc="Standard.Package" uid="99e81de9-29fc-4f3f-8334-df89b4862d79"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[factory]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="CMDocumentFactory" mc="Standard.Interface" uid="c0b26359-5d8f-40f5-a8ea-269b3dbd6502"/>
+        <COMPID name="CMDocumentFactoryDescriptor" mc="Standard.Class" uid="22b291be-6067-4783-9ee4-58eda08eb42b"/>
+        <COMPID name="CMDocumentFactoryRegistry" mc="Standard.Class" uid="25b63727-d555-40ca-84a2-eb33e6346476"/>
+        <COMPID name="CMDocumentFactoryRegistryReader" mc="Standard.Class" uid="2c2166e2-0b44-4189-ae34-c02091fb0220"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

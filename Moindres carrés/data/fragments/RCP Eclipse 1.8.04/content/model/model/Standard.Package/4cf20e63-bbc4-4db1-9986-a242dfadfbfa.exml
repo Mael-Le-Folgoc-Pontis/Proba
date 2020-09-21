@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="internal" version="4">
+  <OBJECT>
+    <ID name="internal" mc="Standard.Package" uid="4cf20e63-bbc4-4db1-9986-a242dfadfbfa"/>
+    <PID name="core" mc="Standard.Package" uid="5e95d30f-294d-414e-bbc0-a559ceff63bc"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[internal]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="CompareCoreUtils" mc="Standard.Class" uid="301c35e3-ba5a-4216-907d-4a1f3c16fd4e"/>
+        <COMPID name="CoreText" mc="Standard.Class" uid="3737bfe3-1ebe-4885-b965-75914b5fc71c"/>
+        <COMPID name="FileChecker" mc="Standard.Class" uid="fb9a04f1-1a07-459d-80cc-59937ccd16c5"/>
+        <COMPID name="GitRepositoryProviderType" mc="Standard.Class" uid="adadf2cb-5446-4988-a1f9-e7e146553687"/>
+        <COMPID name="GitURI" mc="Standard.Class" uid="dbd7834e-b64b-40b1-a1b7-17dc5dacddac"/>
+        <COMPID name="ProjectReferenceImporter" mc="Standard.Class" uid="34b79ba9-253e-4e40-89b6-281b3b6ad82f"/>
+        <COMPID name="Utils" mc="Standard.Class" uid="20a66e01-5afa-448d-ba2c-d5ee02483059"/>
+        <COMPID name="gerrit" mc="Standard.Package" uid="f50bf5f2-e323-4ee6-9095-e356924870e1"/>
+        <COMPID name="indexdiff" mc="Standard.Package" uid="c470e9dd-9c31-41a0-aeaf-0a0b9150ff27"/>
+        <COMPID name="job" mc="Standard.Package" uid="73df2bd2-89b3-43c9-a986-2c1ca321a47c"/>
+        <COMPID name="merge" mc="Standard.Package" uid="dd57acbb-c30b-48c3-a93a-03045a491500"/>
+        <COMPID name="rebase" mc="Standard.Package" uid="8e3da112-aae6-45f8-a7a7-29c9fc12daef"/>
+        <COMPID name="storage" mc="Standard.Package" uid="2f8e0119-0dd8-405f-8f5c-c2f27632debd"/>
+        <COMPID name="trace" mc="Standard.Package" uid="79f94da8-593a-46c7-927b-310a7206735b"/>
+        <COMPID name="util" mc="Standard.Package" uid="06a91acb-51e9-4bdf-a90d-ad63c6f41cd0"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

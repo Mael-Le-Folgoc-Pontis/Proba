@@ -1,0 +1,73 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="types" version="4">
+  <OBJECT>
+    <ID name="types" mc="Standard.Package" uid="007b631c-0bbe-112e-9071-001e4fea2d8b"/>
+    <PID name="ant" mc="Standard.Package" uid="001ff900-0bbe-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[types]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractFileSet" mc="Standard.Class" uid="007b6a9c-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AbstractFileSetTest" mc="Standard.Class" uid="007b71e0-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AntFilterReader" mc="Standard.Class" uid="007b7974-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ArchiveFileSet" mc="Standard.Class" uid="007b814e-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ArchiveScanner" mc="Standard.Class" uid="007b891e-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Assertions" mc="Standard.Class" uid="007b9166-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Commandline" mc="Standard.Class" uid="007bc9c4-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CommandlineJava" mc="Standard.Class" uid="007be8fa-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Comparison" mc="Standard.Class" uid="007c00ba-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DTDLocation" mc="Standard.Class" uid="007c09ca-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DataType" mc="Standard.Class" uid="007c1320-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Description" mc="Standard.Class" uid="007c1ca8-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DirSet" mc="Standard.Class" uid="007c264e-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="EnumeratedAttribute" mc="Standard.Class" uid="007c2ff4-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Environment" mc="Standard.Class" uid="007c3a08-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FileList" mc="Standard.Class" uid="007c52f4-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FileSet" mc="Standard.Class" uid="007c6c94-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FilterChain" mc="Standard.Class" uid="007c7752-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FilterSet" mc="Standard.Class" uid="007c8238-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FilterSetCollection" mc="Standard.Class" uid="007cbad2-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FlexInteger" mc="Standard.Class" uid="007cc5f4-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LogLevel" mc="Standard.Class" uid="007cd134-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Mapper" mc="Standard.Class" uid="007cdcd8-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Parameter" mc="Standard.Class" uid="007cf736-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Parameterizable" mc="Standard.Interface" uid="007cfe34-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Path" mc="Standard.Class" uid="007d0adc-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PatternSet" mc="Standard.Class" uid="007d1dd8-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Permissions" mc="Standard.Class" uid="007d4010-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PropertySet" mc="Standard.Class" uid="007d6266-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Quantifier" mc="Standard.Class" uid="007d8cbe-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RedirectorElement" mc="Standard.Class" uid="007da87a-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Reference" mc="Standard.Class" uid="007db586-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RegularExpression" mc="Standard.Class" uid="007dc2c4-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Resource" mc="Standard.Class" uid="007dd034-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ResourceCollection" mc="Standard.Interface" uid="007dd76e-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ResourceFactory" mc="Standard.Interface" uid="007ddf16-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ResourceLocation" mc="Standard.Class" uid="007deccc-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Substitution" mc="Standard.Class" uid="007dfa96-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TarFileSet" mc="Standard.Class" uid="007e087e-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TarScanner" mc="Standard.Class" uid="007e16a2-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TimeComparison" mc="Standard.Class" uid="007e24ee-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="XMLCatalog" mc="Standard.Class" uid="007e3376-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ZipFileSet" mc="Standard.Class" uid="007e5798-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ZipScanner" mc="Standard.Class" uid="007e66a2-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="mappers" mc="Standard.Package" uid="007f2524-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="optional" mc="Standard.Package" uid="007ff9ae-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="resolver" mc="Standard.Package" uid="00831724-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="resources" mc="Standard.Package" uid="0083fd7e-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="selectors" mc="Standard.Package" uid="0089936a-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="spi" mc="Standard.Package" uid="008d66d4-0bbe-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

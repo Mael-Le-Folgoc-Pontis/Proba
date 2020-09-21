@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="pull" version="4">
+  <OBJECT>
+    <ID name="pull" mc="Standard.Package" uid="eec6f8b5-5068-437c-a774-e3b2ed9baf60"/>
+    <PID name="xml" mc="Standard.Package" uid="1b3de756-e4e2-42fb-b668-e3bfea7fffa7"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[pull]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="EntityReplacementMap" mc="Standard.Class" uid="4260d83c-6fb8-4f0d-aa40-b86fd3e84114"/>
+        <COMPID name="MXParser" mc="Standard.Class" uid="3d384885-44b9-4c2e-b9c8-4ba20436121a"/>
+        <COMPID name="MXSerializer" mc="Standard.Class" uid="a270d477-768d-40fd-978c-b056bc2f6e87"/>
+        <COMPID name="XmlPullParser" mc="Standard.Interface" uid="b315430b-3c39-43ae-aecb-adcb50a36fc9"/>
+        <COMPID name="XmlPullParserException" mc="Standard.Class" uid="e92b8946-8b39-4bcd-b827-399577e1935a"/>
+        <COMPID name="XmlSerializer" mc="Standard.Interface" uid="775126d1-81d3-45fa-be84-4422e4fa1ccb"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

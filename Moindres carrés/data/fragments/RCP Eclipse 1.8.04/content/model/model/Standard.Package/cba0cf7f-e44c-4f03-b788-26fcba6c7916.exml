@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="context" version="4">
+  <OBJECT>
+    <ID name="context" mc="Standard.Package" uid="cba0cf7f-e44c-4f03-b788-26fcba6c7916"/>
+    <PID name="enterprise" mc="Standard.Package" uid="f42b9082-9144-4828-8def-96c918ee15fc"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[context]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ApplicationScoped" mc="Standard.Class" uid="f07fdc91-91d2-48da-8dd5-107d832db52d"/>
+        <COMPID name="BusyConversationException" mc="Standard.Class" uid="e9aff976-b413-4c45-985b-35eaacc26342"/>
+        <COMPID name="ContextException" mc="Standard.Class" uid="16752111-b93d-40cc-b66f-4cd65d468d8a"/>
+        <COMPID name="ContextNotActiveException" mc="Standard.Class" uid="3651789c-2fca-40b0-ac34-7ef9e02dbe06"/>
+        <COMPID name="Conversation" mc="Standard.Interface" uid="2b2d74f0-3960-47b4-9a06-977d8cf54c38"/>
+        <COMPID name="ConversationScoped" mc="Standard.Class" uid="e6fb6138-889e-4c38-989a-4c59e667fbeb"/>
+        <COMPID name="Dependent" mc="Standard.Class" uid="f141bc64-a1fc-4d91-bba3-2dcb68a8bc3f"/>
+        <COMPID name="NonexistentConversationException" mc="Standard.Class" uid="aaac3e53-2981-4dc0-a3ab-2c9ba7f570da"/>
+        <COMPID name="NormalScope" mc="Standard.Class" uid="8dd23d4d-5fb9-4d78-bdbb-45a9767f40d7"/>
+        <COMPID name="RequestScoped" mc="Standard.Class" uid="d6c11e87-6843-470a-b90a-62ee3b083ce3"/>
+        <COMPID name="SessionScoped" mc="Standard.Class" uid="9d9ee2a1-b57d-471c-a3c1-aa7663fbc278"/>
+        <COMPID name="spi" mc="Standard.Package" uid="fa3e6b6c-8418-45b3-8db6-1c877962785e"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

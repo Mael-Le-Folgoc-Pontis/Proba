@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="effects" version="4">
+  <OBJECT>
+    <ID name="effects" mc="Standard.Package" uid="8ce6e9bf-f70c-4976-a8b3-7a74720c5d96"/>
+    <PID name="animation" mc="Standard.Package" uid="8d7a2be8-5b20-4e57-90c7-dde2f0766765"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[effects]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractEffect" mc="Standard.Class" uid="0d0790a1-0f7b-4bb6-82f9-59bdbc1e9292"/>
+        <COMPID name="Grow" mc="Standard.Class" uid="82cc4934-33fd-404f-9a57-6ecb53b8ee94"/>
+        <COMPID name="IEffect" mc="Standard.Interface" uid="b8ce40bd-66c7-4fbc-b4f1-3aaa258f9320"/>
+        <COMPID name="MoveControl" mc="Standard.Class" uid="3c569bf8-e9a4-4715-b698-bc8269705e54"/>
+        <COMPID name="MoveScrollBar" mc="Standard.Class" uid="2852c70f-fa28-4f05-8f7a-e8bb73088dc1"/>
+        <COMPID name="Resize" mc="Standard.Class" uid="19a84634-3ceb-4a38-a841-036056b50d03"/>
+        <COMPID name="SetAlpha" mc="Standard.Class" uid="06eb979e-1866-48ab-84f8-6de1a8561996"/>
+        <COMPID name="SetBounds" mc="Standard.Class" uid="a0572c58-f40e-4481-b32d-f8c4ffc73711"/>
+        <COMPID name="Shake" mc="Standard.Class" uid="69ac60b6-cb5d-4f11-90c3-bab441e7c6f2"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

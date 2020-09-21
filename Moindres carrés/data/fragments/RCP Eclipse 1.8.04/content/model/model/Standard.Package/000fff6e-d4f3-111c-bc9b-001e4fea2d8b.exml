@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="publisher" version="4">
+  <OBJECT>
+    <ID name="publisher" mc="Standard.Package" uid="000fff6e-d4f3-111c-bc9b-001e4fea2d8b"/>
+    <PID name="p2" mc="Standard.Package" uid="003a9120-d4f2-111c-bc9b-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[publisher]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractAdvice" mc="Standard.Class" uid="008cb3f6-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="AbstractPublisherAction" mc="Standard.Class" uid="008c60ea-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="AbstractPublisherApplication" mc="Standard.Class" uid="008cd6ba-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="AdviceFileAdvice" mc="Standard.Class" uid="008cc526-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="AdviceFileParser" mc="Standard.Class" uid="008c817e-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="IPublisherAction" mc="Standard.Interface" uid="008ca2f8-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="IPublisherAdvice" mc="Standard.Interface" uid="00899cfc-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="IPublisherInfo" mc="Standard.Interface" uid="008cf8d4-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="IPublisherResult" mc="Standard.Interface" uid="008c7116-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="Publisher" mc="Standard.Class" uid="008c4952-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="PublisherInfo" mc="Standard.Class" uid="008c9268-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="PublisherResult" mc="Standard.Class" uid="008ce81c-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="actions" mc="Standard.Package" uid="008ad72a-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="eclipse" mc="Standard.Package" uid="0010e528-d4f3-111c-bc9b-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

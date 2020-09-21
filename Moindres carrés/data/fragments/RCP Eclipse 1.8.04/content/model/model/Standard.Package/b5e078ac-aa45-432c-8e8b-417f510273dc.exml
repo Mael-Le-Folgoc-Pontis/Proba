@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="project" version="4">
+  <OBJECT>
+    <ID name="project" mc="Standard.Package" uid="b5e078ac-aa45-432c-8e8b-417f510273dc"/>
+    <PID name="core" mc="Standard.Package" uid="6e037763-a76f-45d1-ac43-495d2dc55998"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[project]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractProjectScanner" mc="Standard.Class" uid="47412005-70ec-423a-a84a-d1f4bead5fa7"/>
+        <COMPID name="IMavenProjectChangedListener" mc="Standard.Interface" uid="8802254a-feda-45ed-a655-89d483de1cc9"/>
+        <COMPID name="IMavenProjectFacade" mc="Standard.Interface" uid="37c280dd-1f7d-41af-a4f5-99ff9d559500"/>
+        <COMPID name="IMavenProjectImportResult" mc="Standard.Interface" uid="63f81af9-e7c6-4352-9d8d-acd508ee28d0"/>
+        <COMPID name="IMavenProjectRegistry" mc="Standard.Interface" uid="db7901b1-2c72-487c-b01f-2ffa5437e970"/>
+        <COMPID name="IProjectConfigurationManager" mc="Standard.Interface" uid="ceb59f90-035f-4708-9c9e-383c63abc65f"/>
+        <COMPID name="LocalProjectScanner" mc="Standard.Class" uid="6b82e6e1-9ae1-48e5-a27a-38620c64f780"/>
+        <COMPID name="MavenProjectChangedEvent" mc="Standard.Class" uid="1f1d50a0-95ad-4072-bfde-d63cf493016f"/>
+        <COMPID name="MavenProjectInfo" mc="Standard.Class" uid="0f26a330-cb43-4d31-9afa-e6911c5c2962"/>
+        <COMPID name="MavenProjectUtils" mc="Standard.Class" uid="db458c84-41eb-46a8-83bd-7c487674ed59"/>
+        <COMPID name="MavenUpdateRequest" mc="Standard.Class" uid="4c6fdf57-bd1e-40a8-9224-3dedbd109749"/>
+        <COMPID name="ProjectImportConfiguration" mc="Standard.Class" uid="621d9f3e-08b3-4f81-91c1-73fd358645e2"/>
+        <COMPID name="ResolverConfiguration" mc="Standard.Class" uid="e1035170-ece5-4fb5-8156-b553f2b2ecbd"/>
+        <COMPID name="configurator" mc="Standard.Package" uid="dae50bfc-8715-44c9-9f67-51258adfa936"/>
+        <COMPID name="conversion" mc="Standard.Package" uid="cd973f44-7bb6-4ba0-bf8c-74e0d038bcc6"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

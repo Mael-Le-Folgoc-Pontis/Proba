@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="commands" version="4">
+  <OBJECT>
+    <ID name="commands" mc="Standard.Package" uid="65863c4b-84dd-45e3-9b5b-11b9a9fcd0e4"/>
+    <PID name="ui" mc="Standard.Package" uid="329fdeb4-ff7a-4255-a32a-1b2aca9d076a"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[commands]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractMarkupResourceHandler" mc="Standard.Class" uid="f837d25f-a723-43c3-ba12-63c28e811d72"/>
+        <COMPID name="ConvertMarkupToDocbook" mc="Standard.Class" uid="eb7a1f55-f4e1-40a6-831c-1c9d69be62d2"/>
+        <COMPID name="ConvertMarkupToEclipseHelp" mc="Standard.Class" uid="cd26dc3a-6e7f-44b7-8497-b359bd7addf4"/>
+        <COMPID name="ConvertMarkupToHtml" mc="Standard.Class" uid="4f03bb89-8ce1-4158-af9c-8d2528ec6159"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

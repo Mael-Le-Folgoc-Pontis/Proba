@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="filter" version="4">
+  <OBJECT>
+    <ID name="filter" mc="Standard.Package" uid="86d343df-e666-430d-89a2-48407e3f1cf4"/>
+    <PID name="resolver" mc="Standard.Package" uid="9ddc95ad-61b0-461a-a7d7-dda231265e72"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[filter]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AndArtifactFilter" mc="Standard.Class" uid="1abdb018-f116-4073-9e84-4f615c6e6af5"/>
+        <COMPID name="ArtifactFilter" mc="Standard.Interface" uid="a818513a-4910-42bd-bfe3-3ab381ebf8f6"/>
+        <COMPID name="CumulativeScopeArtifactFilter" mc="Standard.Class" uid="9a64771d-9439-47f9-9330-2231667ac745"/>
+        <COMPID name="ExcludesArtifactFilter" mc="Standard.Class" uid="3bdf8fa8-b341-42d7-9704-a894358b11ff"/>
+        <COMPID name="ExclusionSetFilter" mc="Standard.Class" uid="505ed72d-0b82-4d46-a05f-2e62a503641b"/>
+        <COMPID name="IncludesArtifactFilter" mc="Standard.Class" uid="868281be-51ad-46d6-b369-53862b1a7864"/>
+        <COMPID name="InversionArtifactFilter" mc="Standard.Class" uid="48977570-75cc-4bcd-9fd4-ebae5725f1c7"/>
+        <COMPID name="OrArtifactFilter" mc="Standard.Class" uid="2d74d10f-2c85-444b-b763-dbbc48117770"/>
+        <COMPID name="ScopeArtifactFilter" mc="Standard.Class" uid="58942b40-eb83-46c3-a9e0-7f6913e88b82"/>
+        <COMPID name="TypeArtifactFilter" mc="Standard.Class" uid="a89456c1-75cb-44ef-9e05-72aa21d5daf6"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

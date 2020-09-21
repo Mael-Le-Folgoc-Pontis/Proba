@@ -1,0 +1,62 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="internal" version="4">
+  <OBJECT>
+    <ID name="internal" mc="Standard.Package" uid="fed72978-bb15-4d8f-baa5-a833797392d0"/>
+    <PID name="core" mc="Standard.Package" uid="7ec636e2-d426-4379-abcb-2ae033e98122"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[internal]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Attribute" mc="Standard.Class" uid="7cd5e091-6d5f-4e77-b178-d58e895b1dbe"/>
+        <COMPID name="AttributeEnumList" mc="Standard.Class" uid="8ac38637-98bd-4ad4-8537-d863d5e091dc"/>
+        <COMPID name="AttributeList" mc="Standard.Class" uid="ccad07e8-dfcf-47a9-b3b9-457b2120eb96"/>
+        <COMPID name="CMBasicNode" mc="Standard.Class" uid="79f0b39e-1a03-430b-a14b-09e6cbfb93fa"/>
+        <COMPID name="CMGroupNode" mc="Standard.Class" uid="33774335-b7ee-4c22-a5b6-2fe744c012bb"/>
+        <COMPID name="CMNode" mc="Standard.Class" uid="cd1de2b8-9003-4ee2-acc6-62d5702bb449"/>
+        <COMPID name="CMRepeatableNode" mc="Standard.Class" uid="5f010cfe-96e4-4c6c-95a1-a06a3b62d5af"/>
+        <COMPID name="Comment" mc="Standard.Class" uid="6e0965ac-a448-4a42-aa94-546dc8d52ad2"/>
+        <COMPID name="DTDCoreMessages" mc="Standard.Class" uid="821a1220-8b16-4950-bfbc-70d6c1ebea52"/>
+        <COMPID name="DTDCorePlugin" mc="Standard.Class" uid="faaa5159-d41f-4171-baa7-fc1e47febe44"/>
+        <COMPID name="DTDFile" mc="Standard.Class" uid="75b08121-02a9-47a9-bb1a-d82358c037cb"/>
+        <COMPID name="DTDNode" mc="Standard.Class" uid="acb12099-aac3-4586-86dd-2dc35112f338"/>
+        <COMPID name="DTDResource" mc="Standard.Interface" uid="83ee59a2-cc24-495c-ad34-147ae69ffe24"/>
+        <COMPID name="Element" mc="Standard.Class" uid="a21bd56b-9855-4ef3-a750-6f33699deb19"/>
+        <COMPID name="Entity" mc="Standard.Class" uid="996bf3a2-9b8e-46aa-b290-bef609ed538a"/>
+        <COMPID name="ExternalNode" mc="Standard.Class" uid="ff5621c4-adb2-4eb2-9c49-869843731ad3"/>
+        <COMPID name="Logger" mc="Standard.Class" uid="ad2303f8-bdfa-4373-81e2-71e865fdb97c"/>
+        <COMPID name="NamedTopLevelNode" mc="Standard.Class" uid="a8d32046-5816-46f0-a020-bb0d59d49010"/>
+        <COMPID name="NodeList" mc="Standard.Class" uid="368b026d-26e8-40cc-9454-d036090dc75e"/>
+        <COMPID name="Notation" mc="Standard.Class" uid="2c692aa8-0177-4a27-90ab-a6fb643f73d6"/>
+        <COMPID name="ParameterEntityReference" mc="Standard.Class" uid="f6ba0402-d23d-498a-8045-9573ff232b3a"/>
+        <COMPID name="TopLevelNode" mc="Standard.Class" uid="9cf0f177-eab9-4d47-8b98-f02b32804e81"/>
+        <COMPID name="Unrecognized" mc="Standard.Class" uid="6174df16-f7db-4781-9532-6120e0730c57"/>
+        <COMPID name="content" mc="Standard.Package" uid="28d9b52a-77d1-46d3-9555-f42ac8b020e6"/>
+        <COMPID name="contentmodel" mc="Standard.Package" uid="18db30f5-6f50-44d7-8824-6d966043c6c0"/>
+        <COMPID name="document" mc="Standard.Package" uid="0c998baf-f96e-452c-ba74-060872cb70b4"/>
+        <COMPID name="emf" mc="Standard.Package" uid="35e1561d-30f3-46e9-b458-23319ee00cf9"/>
+        <COMPID name="encoding" mc="Standard.Package" uid="641a7b4c-936a-4913-b5a5-e6884fa4e0c9"/>
+        <COMPID name="event" mc="Standard.Package" uid="39e06143-442a-4f43-bac1-1b6642ac823c"/>
+        <COMPID name="modelhandler" mc="Standard.Package" uid="7c49cf95-4b5c-46e4-a49e-a0cbf17d5c02"/>
+        <COMPID name="parser" mc="Standard.Package" uid="0a45f223-e4f1-4ebf-b10f-e97f19322bb9"/>
+        <COMPID name="preferences" mc="Standard.Package" uid="be374cf1-974c-496f-a863-e7bcf8b09e95"/>
+        <COMPID name="provisional" mc="Standard.Package" uid="e191260e-ea15-4a01-bc4b-56f79cc17ab3"/>
+        <COMPID name="saxparser" mc="Standard.Package" uid="5e479bc0-c1c3-480c-887b-137670e89bdc"/>
+        <COMPID name="tasks" mc="Standard.Package" uid="35386b25-d35b-418a-bac3-3a22c8754112"/>
+        <COMPID name="text" mc="Standard.Package" uid="fcd2419d-6622-4fd1-8808-733acd0f9976"/>
+        <COMPID name="tokenizer" mc="Standard.Package" uid="fbf22537-7cb0-4cb9-963a-366b034ac2b5"/>
+        <COMPID name="util" mc="Standard.Package" uid="fc976d92-aa21-4f81-8fd9-2ef40f1286dc"/>
+        <COMPID name="validation" mc="Standard.Package" uid="69e13114-cbe6-4344-9410-0e1fe8666058"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

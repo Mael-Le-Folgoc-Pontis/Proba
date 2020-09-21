@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="parser" version="4">
+  <OBJECT>
+    <ID name="parser" mc="Standard.Package" uid="0eb9323a-131b-4eb3-8c81-a571ab84ceea"/>
+    <PID name="digester" mc="Standard.Package" uid="6d31e989-2200-4a23-9aed-1a9f26c65a63"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[parser]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="GenericParser" mc="Standard.Class" uid="28fcc1cc-677c-4b7d-803a-12d8915ab760"/>
+        <COMPID name="XercesParser" mc="Standard.Class" uid="53cad7c6-b221-47a6-83f2-1558f8f1e390"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

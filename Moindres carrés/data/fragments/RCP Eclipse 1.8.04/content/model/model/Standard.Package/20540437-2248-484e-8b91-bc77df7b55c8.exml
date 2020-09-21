@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="xpointer" version="4">
+  <OBJECT>
+    <ID name="xpointer" mc="Standard.Package" uid="20540437-2248-484e-8b91-bc77df7b55c8"/>
+    <PID name="xerces" mc="Standard.Package" uid="80c42980-a493-459a-9c50-b9ae0d56f35b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[xpointer]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="XPointerHandler" mc="Standard.Class" uid="77555202-22a2-4b71-a331-872bcb109eb3"/>
+        <COMPID name="XPointerPart" mc="Standard.Interface" uid="1c926a87-9cac-4d6d-a9e5-16ce30d461b4"/>
+        <COMPID name="XPointerProcessor" mc="Standard.Interface" uid="c89dcc2d-b89e-42ec-acdf-37ed3dc39c9a"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

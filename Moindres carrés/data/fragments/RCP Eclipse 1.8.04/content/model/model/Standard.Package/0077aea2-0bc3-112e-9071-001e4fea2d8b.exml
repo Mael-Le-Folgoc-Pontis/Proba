@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="util" version="4">
+  <OBJECT>
+    <ID name="util" mc="Standard.Package" uid="0077aea2-0bc3-112e-9071-001e4fea2d8b"/>
+    <PID name="filetransfer" mc="Standard.Package" uid="0076d9a0-d4f0-111c-bc9b-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[util]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="JREProxyHelper" mc="Standard.Class" uid="0077b51e-0bc3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PollingInputStream" mc="Standard.Class" uid="0077bc44-0bc3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ProxySetupHelper" mc="Standard.Class" uid="0077c34c-0bc3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TimeoutInputStream" mc="Standard.Class" uid="0077cad6-0bc3-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

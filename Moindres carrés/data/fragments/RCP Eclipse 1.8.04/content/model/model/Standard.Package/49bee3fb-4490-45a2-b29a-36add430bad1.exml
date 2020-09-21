@@ -1,0 +1,427 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="xsd" version="4">
+  <OBJECT>
+    <ID name="xsd" mc="Standard.Package" uid="49bee3fb-4490-45a2-b29a-36add430bad1"/>
+    <PID name="eclipse" mc="Standard.Package" uid="0015e0b4-219f-1fb1-8a9e-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[xsd]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="XSDAnnotation" mc="Standard.Interface" uid="9be0d9ca-be84-48e4-ae4d-4863ff3a06e9"/>
+        <COMPID name="XSDAttributeDeclaration" mc="Standard.Interface" uid="8d6357e9-3f8e-4fbb-9b70-8d116aeb6e37"/>
+        <COMPID name="XSDAttributeGroupContent" mc="Standard.Interface" uid="57f55122-2fb7-4f26-abc1-ae3ec08ab9ea"/>
+        <COMPID name="XSDAttributeGroupDefinition" mc="Standard.Interface" uid="3abe3b59-3642-4547-b299-af2010093369"/>
+        <COMPID name="XSDAttributeUse" mc="Standard.Interface" uid="42a25cb6-ae75-4289-932f-120b1a266602"/>
+        <OBJECT>
+          <ID name="XSDAttributeUseCategory" mc="Standard.Enumeration" uid="b7b5caaa-1e76-4379-b8e3-1245f5a3a9ba"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[XSDAttributeUseCategory]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Extension">
+              <FOREIGNID name="JavaEnumeration" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0262-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <COMPID name="XSDBoundedFacet" mc="Standard.Interface" uid="572ea02b-d2b5-421b-a2bf-bb5e8e81a0a1"/>
+        <OBJECT>
+          <ID name="XSDCardinality" mc="Standard.Enumeration" uid="bf03240f-3224-4b5f-b94f-68c0d53aac32"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[XSDCardinality]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Extension">
+              <FOREIGNID name="JavaEnumeration" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0262-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <COMPID name="XSDCardinalityFacet" mc="Standard.Interface" uid="a52b0d27-96c5-4dd0-a392-bba5cf667035"/>
+        <OBJECT>
+          <ID name="XSDComplexFinal" mc="Standard.Enumeration" uid="9c776bc4-d2f6-46c6-93cf-80274a1ec6b5"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[XSDComplexFinal]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Extension">
+              <FOREIGNID name="JavaEnumeration" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0262-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <COMPID name="XSDComplexTypeContent" mc="Standard.Interface" uid="7e888fe7-2224-499a-b5b4-444b686606e9"/>
+        <COMPID name="XSDComplexTypeDefinition" mc="Standard.Interface" uid="918c168d-84b0-4a74-bc20-f27b138a8030"/>
+        <COMPID name="XSDComponent" mc="Standard.Interface" uid="7f1b5690-eca4-4e81-938d-c3aea2272c14"/>
+        <OBJECT>
+          <ID name="XSDCompositor" mc="Standard.Enumeration" uid="68a95560-8363-4d8c-b609-a64ea10a481c"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[XSDCompositor]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Extension">
+              <FOREIGNID name="JavaEnumeration" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0262-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <COMPID name="XSDConcreteComponent" mc="Standard.Interface" uid="cfb42182-9105-4cf5-a019-8f170ebf3bd6"/>
+        <COMPID name="XSDConstrainingFacet" mc="Standard.Interface" uid="4b735e9e-4271-40a3-9a27-09ed05485753"/>
+        <OBJECT>
+          <ID name="XSDConstraint" mc="Standard.Enumeration" uid="a10cf071-b087-44f2-92db-c8edf1b3e019"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[XSDConstraint]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Extension">
+              <FOREIGNID name="JavaEnumeration" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0262-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="XSDContentTypeCategory" mc="Standard.Enumeration" uid="6d0ac963-5e4b-4111-84cf-35bc89f65dde"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[XSDContentTypeCategory]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Extension">
+              <FOREIGNID name="JavaEnumeration" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0262-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="XSDDerivationMethod" mc="Standard.Enumeration" uid="1abcff51-1b5b-4281-abff-eeb396d89541"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[XSDDerivationMethod]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Extension">
+              <FOREIGNID name="JavaEnumeration" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0262-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <COMPID name="XSDDiagnostic" mc="Standard.Interface" uid="1c6c8cdb-7e80-45ff-a11a-44c157a09d07"/>
+        <OBJECT>
+          <ID name="XSDDiagnosticSeverity" mc="Standard.Enumeration" uid="ed771367-6af0-44fb-8e85-58bb037ce867"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[XSDDiagnosticSeverity]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Extension">
+              <FOREIGNID name="JavaEnumeration" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0262-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="XSDDisallowedSubstitutions" mc="Standard.Enumeration" uid="15f3d276-6d8f-4f87-b7e7-cab4ec230d41"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[XSDDisallowedSubstitutions]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Extension">
+              <FOREIGNID name="JavaEnumeration" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0262-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <COMPID name="XSDElementDeclaration" mc="Standard.Interface" uid="d1b74f9f-99f6-4199-994b-f0c23d2265db"/>
+        <COMPID name="XSDEnumerationFacet" mc="Standard.Interface" uid="6113379d-3a28-4bd9-9a32-757e9fb2e523"/>
+        <COMPID name="XSDFacet" mc="Standard.Interface" uid="7afc5297-5d6b-4f3f-9cdc-ccae0f7bcb4f"/>
+        <COMPID name="XSDFactory" mc="Standard.Interface" uid="9f5c89ec-6263-4f6f-b5ff-3aaf0f6c6e1a"/>
+        <COMPID name="XSDFeature" mc="Standard.Interface" uid="1e86fc51-07a7-4a8a-90e9-22293c89d4de"/>
+        <COMPID name="XSDFixedFacet" mc="Standard.Interface" uid="0a918172-cf0c-4057-a86a-8ba441707352"/>
+        <OBJECT>
+          <ID name="XSDForm" mc="Standard.Enumeration" uid="e81b74ea-f166-4f58-82e2-74c4494335c3"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[XSDForm]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Extension">
+              <FOREIGNID name="JavaEnumeration" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0262-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <COMPID name="XSDFractionDigitsFacet" mc="Standard.Interface" uid="04a73ce4-158a-42a5-b722-bcdcb579e1dd"/>
+        <COMPID name="XSDFundamentalFacet" mc="Standard.Interface" uid="3d8e3369-8269-45fc-ba03-1ab3309f893d"/>
+        <OBJECT>
+          <ID name="XSDIdentityConstraintCategory" mc="Standard.Enumeration" uid="4d9de776-7f22-44e8-b782-0cbc7c0ce3c7"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[XSDIdentityConstraintCategory]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Extension">
+              <FOREIGNID name="JavaEnumeration" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0262-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <COMPID name="XSDIdentityConstraintDefinition" mc="Standard.Interface" uid="86d29dba-6519-4d2a-8c7a-79bf4b22d9fc"/>
+        <COMPID name="XSDImport" mc="Standard.Interface" uid="4374c232-45b4-42ab-8b35-92a0862d8732"/>
+        <COMPID name="XSDInclude" mc="Standard.Interface" uid="549d459d-e2b4-4851-b32e-539f812d11fd"/>
+        <COMPID name="XSDLengthFacet" mc="Standard.Interface" uid="50cf49f3-7bd3-4e07-a666-2d5237d9f715"/>
+        <COMPID name="XSDMaxExclusiveFacet" mc="Standard.Interface" uid="4d0a8605-a196-4c9b-918a-7ad4a4ec068e"/>
+        <COMPID name="XSDMaxFacet" mc="Standard.Interface" uid="8d09f223-361c-4382-a345-a2d830eeb846"/>
+        <COMPID name="XSDMaxInclusiveFacet" mc="Standard.Interface" uid="e6fb94df-e92e-4e3f-a975-42ba048f2827"/>
+        <COMPID name="XSDMaxLengthFacet" mc="Standard.Interface" uid="f313f157-d6bf-4192-9fc5-2080af13e48d"/>
+        <COMPID name="XSDMinExclusiveFacet" mc="Standard.Interface" uid="e011f268-7e4e-41ab-82ac-46f593e6a3cf"/>
+        <COMPID name="XSDMinFacet" mc="Standard.Interface" uid="5a60cedb-a546-462a-9eb5-60efc15af9b5"/>
+        <COMPID name="XSDMinInclusiveFacet" mc="Standard.Interface" uid="370f8ed7-c1af-4667-85b3-0c56fa3227c2"/>
+        <COMPID name="XSDMinLengthFacet" mc="Standard.Interface" uid="fd7c3844-e77b-486a-b0e6-6c7ab0ee2392"/>
+        <COMPID name="XSDModelGroup" mc="Standard.Interface" uid="56e4f2d2-3864-4c0c-b81e-ffc2b696c556"/>
+        <COMPID name="XSDModelGroupDefinition" mc="Standard.Interface" uid="6f779c28-2638-4e20-889a-ad9a3f5dd08e"/>
+        <COMPID name="XSDNamedComponent" mc="Standard.Interface" uid="6af59b3d-33d6-4247-adae-5e399c6f7868"/>
+        <OBJECT>
+          <ID name="XSDNamespaceConstraintCategory" mc="Standard.Enumeration" uid="74c9067e-e891-4f08-a596-9ef1140b167b"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[XSDNamespaceConstraintCategory]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Extension">
+              <FOREIGNID name="JavaEnumeration" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0262-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <COMPID name="XSDNotationDeclaration" mc="Standard.Interface" uid="6e753d14-8dd5-4559-b2b8-17a73448d914"/>
+        <COMPID name="XSDNumericFacet" mc="Standard.Interface" uid="478161c4-4c7b-4bc3-9ec9-9bc3162ec549"/>
+        <OBJECT>
+          <ID name="XSDOrdered" mc="Standard.Enumeration" uid="a512b2c4-6fbc-4c6b-8dd2-dcf10328a7c8"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[XSDOrdered]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Extension">
+              <FOREIGNID name="JavaEnumeration" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0262-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <COMPID name="XSDOrderedFacet" mc="Standard.Interface" uid="0e3525b8-b8dc-4e5f-8aad-e207b84974aa"/>
+        <COMPID name="XSDPackage" mc="Standard.Interface" uid="82735035-e090-4f54-b8ab-108b9e9306b1"/>
+        <COMPID name="XSDParticle" mc="Standard.Interface" uid="f0a11941-355d-4e1c-9761-bb9198c96936"/>
+        <COMPID name="XSDParticleContent" mc="Standard.Interface" uid="fe41e743-eff8-47b2-bd54-bc4a35653f16"/>
+        <COMPID name="XSDPatternFacet" mc="Standard.Interface" uid="2c0b0e78-fb01-4b1e-bda3-74436d5265d5"/>
+        <COMPID name="XSDPlugin" mc="Standard.Class" uid="44b3f38e-e3bb-4b52-bb51-11323cb09093"/>
+        <OBJECT>
+          <ID name="XSDProcessContents" mc="Standard.Enumeration" uid="3e18d716-fb60-49cb-a780-ba2aa568729a"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[XSDProcessContents]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Extension">
+              <FOREIGNID name="JavaEnumeration" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0262-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="XSDProhibitedSubstitutions" mc="Standard.Enumeration" uid="7a79179b-a102-4ce0-a1b6-b4165c2a4749"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[XSDProhibitedSubstitutions]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Extension">
+              <FOREIGNID name="JavaEnumeration" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0262-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <COMPID name="XSDRedefinableComponent" mc="Standard.Interface" uid="314090d6-6074-4546-a9dd-cf603c52254f"/>
+        <COMPID name="XSDRedefine" mc="Standard.Interface" uid="2f3db1de-a752-4cdf-9081-d32ca35dae9d"/>
+        <COMPID name="XSDRedefineContent" mc="Standard.Interface" uid="17d5bbec-d44a-4ebb-90d1-431da877a5e9"/>
+        <COMPID name="XSDRepeatableFacet" mc="Standard.Interface" uid="12ab0e04-12eb-43b9-adb2-3e46672eb1b2"/>
+        <COMPID name="XSDSchema" mc="Standard.Interface" uid="39c46349-fab5-4e70-b0fa-d89965f0c5e6"/>
+        <COMPID name="XSDSchemaCompositor" mc="Standard.Interface" uid="cfa62bf5-b6f5-4bec-b516-871dc0320e95"/>
+        <COMPID name="XSDSchemaContent" mc="Standard.Interface" uid="46d3e0b2-483e-4525-a326-a940c3c3fe05"/>
+        <COMPID name="XSDSchemaDirective" mc="Standard.Interface" uid="c261ed83-4dcf-4038-8b49-d00598e3998e"/>
+        <COMPID name="XSDScope" mc="Standard.Interface" uid="2afacfbf-31db-477f-a135-881f0df964e0"/>
+        <OBJECT>
+          <ID name="XSDSimpleFinal" mc="Standard.Enumeration" uid="8f17e327-89c1-4d66-8512-2d3470ee83de"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[XSDSimpleFinal]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Extension">
+              <FOREIGNID name="JavaEnumeration" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0262-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <COMPID name="XSDSimpleTypeDefinition" mc="Standard.Interface" uid="28a9e97e-1c9d-483d-bbf2-867b97d3b4f8"/>
+        <OBJECT>
+          <ID name="XSDSubstitutionGroupExclusions" mc="Standard.Enumeration" uid="2a3c7c78-68d9-4627-8907-f3fac9c0cc03"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[XSDSubstitutionGroupExclusions]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Extension">
+              <FOREIGNID name="JavaEnumeration" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0262-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <COMPID name="XSDTerm" mc="Standard.Interface" uid="26c13eba-8418-4c8d-98d0-46a2429802bf"/>
+        <COMPID name="XSDTotalDigitsFacet" mc="Standard.Interface" uid="7b0c45d8-65cc-4ba7-93c2-a7b7f0b6c3f2"/>
+        <COMPID name="XSDTypeDefinition" mc="Standard.Interface" uid="3a7e44ef-7852-479d-9f1f-281677836292"/>
+        <OBJECT>
+          <ID name="XSDVariety" mc="Standard.Enumeration" uid="ac718066-4f83-4f20-9cce-2e09a79e9252"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[XSDVariety]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Extension">
+              <FOREIGNID name="JavaEnumeration" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0262-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="XSDWhiteSpace" mc="Standard.Enumeration" uid="f3aa4408-0b17-456d-80ba-6637c3656b71"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[XSDWhiteSpace]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Extension">
+              <FOREIGNID name="JavaEnumeration" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0262-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <COMPID name="XSDWhiteSpaceFacet" mc="Standard.Interface" uid="61cc2f9e-21dc-4bbd-acfc-0f81e10e8a11"/>
+        <COMPID name="XSDWildcard" mc="Standard.Interface" uid="bc4cf14d-aa9c-4862-a95e-420b53c81690"/>
+        <COMPID name="XSDXPathDefinition" mc="Standard.Interface" uid="6a9d9120-a934-4e15-add8-1cac58f78cdf"/>
+        <OBJECT>
+          <ID name="XSDXPathVariety" mc="Standard.Enumeration" uid="c0be8f68-3a9d-4286-af33-5baf0248ea0b"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[XSDXPathVariety]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Extension">
+              <FOREIGNID name="JavaEnumeration" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0262-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <COMPID name="ecore" mc="Standard.Package" uid="e9555a5e-fc05-4991-90af-b030b7ae9bc4"/>
+        <COMPID name="impl" mc="Standard.Package" uid="3cd8661b-0cc5-4119-876f-47b343da2975"/>
+        <COMPID name="provider" mc="Standard.Package" uid="54de3991-aea0-4a17-b41f-f324f99ef806"/>
+        <COMPID name="util" mc="Standard.Package" uid="f02c2dbf-63f0-43b1-a7f0-0ddd88d3ecfa"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

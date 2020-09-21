@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="templates" version="4">
+  <OBJECT>
+    <ID name="templates" mc="Standard.Package" uid="00514352-0bd2-112e-9071-001e4fea2d8b"/>
+    <PID name="ui" mc="Standard.Package" uid="004d8352-0bd2-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[templates]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractChoiceOption" mc="Standard.Class" uid="00514956-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AbstractNewPluginTemplateWizard" mc="Standard.Class" uid="00514f78-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AbstractTemplateSection" mc="Standard.Class" uid="005155f4-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BaseOptionTemplateSection" mc="Standard.Class" uid="00515ca2-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BlankField" mc="Standard.Class" uid="0051636e-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BooleanOption" mc="Standard.Class" uid="00516a8a-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ChoiceOption" mc="Standard.Class" uid="005171c4-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ComboChoiceOption" mc="Standard.Class" uid="00517908-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ITemplateSection" mc="Standard.Interface" uid="00517f0c-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IVariableProvider" mc="Standard.Interface" uid="005185ce-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="NewPluginProjectFromTemplateWizard" mc="Standard.Class" uid="00518dc6-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="NewPluginTemplateWizard" mc="Standard.Class" uid="005195c8-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="OptionTemplateSection" mc="Standard.Class" uid="00519df2-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="OptionTemplateWizardPage" mc="Standard.Class" uid="0051b8a0-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PluginReference" mc="Standard.Class" uid="0051c124-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RadioChoiceOption" mc="Standard.Class" uid="0051c9d0-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="StringOption" mc="Standard.Class" uid="0051d2b8-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TemplateField" mc="Standard.Class" uid="0051dbc8-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TemplateOption" mc="Standard.Class" uid="0051e500-0bd2-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="base" version="4">
+  <OBJECT>
+    <ID name="base" mc="Standard.Package" uid="0ed29409-a097-4235-9eb7-4bb607f2cd3a"/>
+    <PID name="oomph" mc="Standard.Package" uid="20106332-b188-45ff-af40-2d5b786a9692"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[base]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Annotation" mc="Standard.Interface" uid="1acd320c-63eb-4948-9227-19a3b7ef83d2"/>
+        <COMPID name="BaseAnnotationConstants" mc="Standard.Class" uid="11c878ad-379d-4f07-9a2e-874c1d70052c"/>
+        <COMPID name="BaseFactory" mc="Standard.Interface" uid="859e96ad-c713-4e51-b529-86431612c904"/>
+        <COMPID name="BasePackage" mc="Standard.Interface" uid="e69f13dd-a04b-422d-a915-0240eda8db14"/>
+        <COMPID name="ModelElement" mc="Standard.Interface" uid="c892e57d-990b-4d0d-b3f7-a0e6d131eae6"/>
+        <COMPID name="impl" mc="Standard.Package" uid="46924822-3d98-45ba-994e-6e244ef83f81"/>
+        <COMPID name="provider" mc="Standard.Package" uid="b2481f1f-7370-4896-a948-d4fc5ccd7d8f"/>
+        <COMPID name="util" mc="Standard.Package" uid="97cdd982-a958-4376-95ea-7506cd12d6d5"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

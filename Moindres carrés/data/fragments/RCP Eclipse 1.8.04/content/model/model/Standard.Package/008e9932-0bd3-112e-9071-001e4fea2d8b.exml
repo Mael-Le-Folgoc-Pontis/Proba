@@ -1,0 +1,100 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ui" version="4">
+  <OBJECT>
+    <ID name="ui" mc="Standard.Package" uid="008e9932-0bd3-112e-9071-001e4fea2d8b"/>
+    <PID name="ccvs" mc="Standard.Package" uid="007b7a82-0bd3-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[ui]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AdaptableHierarchicalResourceList" mc="Standard.Class" uid="008e9fc2-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AdaptableResourceList" mc="Standard.Class" uid="008ea60c-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AddToVersionControlDialog" mc="Standard.Class" uid="008eac2e-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AlternateUserValidationDialog" mc="Standard.Class" uid="008eb2f0-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AnnotatePreferencePage" mc="Standard.Class" uid="008eb9bc-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CVSCompareEditorInput" mc="Standard.Class" uid="008ec0b0-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CVSDecoration" mc="Standard.Class" uid="008ec7e0-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CVSDecoratorConfiguration" mc="Standard.Class" uid="008edcd0-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CVSDecoratorPreferencesPage" mc="Standard.Class" uid="008ee464-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CVSFieldEditorPreferencePage" mc="Standard.Class" uid="008f382e-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CVSFilePropertiesPage" mc="Standard.Class" uid="008f4030-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CVSFolderPropertiesPage" mc="Standard.Class" uid="008f486e-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CVSHistoryFilter" mc="Standard.Class" uid="008f5156-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CVSHistoryFilterAction" mc="Standard.Class" uid="008f59b2-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CVSHistoryFilterDialog" mc="Standard.Class" uid="008f6268-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CVSHistoryPage" mc="Standard.Class" uid="008f6b50-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CVSHistoryPageSource" mc="Standard.Class" uid="008f9ab2-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CVSHistorySearchFilter" mc="Standard.Class" uid="008fa412-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CVSHistoryTableProvider" mc="Standard.Class" uid="008fadb8-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CVSLightweightDecorator" mc="Standard.Class" uid="008ffbb0-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CVSPerspective" mc="Standard.Class" uid="009005ba-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CVSPreferencesPage" mc="Standard.Class" uid="00900fec-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CVSProjectPropertiesPage" mc="Standard.Class" uid="00906672-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CVSProjectSetSerializer" mc="Standard.Class" uid="009076bc-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CVSPropertiesPage" mc="Standard.Class" uid="0090818e-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CVSResourceDropAdapter" mc="Standard.Class" uid="00908cb0-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CVSResourceTransfer" mc="Standard.Class" uid="009097dc-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CVSTeamStateDescription" mc="Standard.Class" uid="0090a330-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CVSTeamStateProvider" mc="Standard.Class" uid="0090ae70-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CVSUIMessages" mc="Standard.Class" uid="0090ba28-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CVSUIPlugin" mc="Standard.Class" uid="0090c61c-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CommentTemplateEditDialog" mc="Standard.Class" uid="0090d9c2-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CommentTemplatesPreferencePage" mc="Standard.Class" uid="0090e642-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CommitCommentArea" mc="Standard.Class" uid="0090f2c2-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ComparePreferencePage" mc="Standard.Class" uid="0091136a-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ConfigureRepositoryLocationsDialog" mc="Standard.Class" uid="00912044-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ConfigureRepositoryLocationsTable" mc="Standard.Class" uid="009133ea-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DateTagDialog" mc="Standard.Class" uid="00916a9a-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="EditorsDialog" mc="Standard.Class" uid="00918444-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="EditorsView" mc="Standard.Class" uid="009191e6-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ExtMethodPreferencePage" mc="Standard.Class" uid="0091aba4-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FileModificationValidator" mc="Standard.Class" uid="0091b9c8-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HistoryTableProvider" mc="Standard.Class" uid="0091c882-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ICVSUIConstants" mc="Standard.Interface" uid="0091da48-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IEditorInputTester" mc="Standard.Class" uid="0091e92a-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IHelpContextIds" mc="Standard.Interface" uid="0091ef92-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IRepositoryListener" mc="Standard.Interface" uid="0091f67c-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IgnoreResourcesDialog" mc="Standard.Class" uid="00920572-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="KeyboardInteractiveDialog" mc="Standard.Class" uid="009214cc-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ListSelectionArea" mc="Standard.Class" uid="009223f4-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Policy" mc="Standard.Class" uid="00923376-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ReleaseCommentDialog" mc="Standard.Class" uid="00924334-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RemoteAnnotationStorage" mc="Standard.Class" uid="00925324-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RemoteRevisionQuickDiffProvider" mc="Standard.Class" uid="00926378-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ResizableWizardDialog" mc="Standard.Class" uid="009273d6-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ResourceEditionNode" mc="Standard.Class" uid="00928452-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ResourcePropertiesPage" mc="Standard.Class" uid="009294d8-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SelectionPropertyTester" mc="Standard.Class" uid="0092a59a-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SimpleContentProvider" mc="Standard.Class" uid="0092b6ac-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TableViewerAction" mc="Standard.Class" uid="0092c7d2-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TextViewerAction" mc="Standard.Class" uid="0092d952-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="UpdateMergePreferencePage" mc="Standard.Class" uid="0092eafa-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="UserValidationDialog" mc="Standard.Class" uid="0092fd60-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="VersionCollator" mc="Standard.Class" uid="00930f8a-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WatchEditPreferencePage" mc="Standard.Class" uid="009321f0-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WorkbenchUserAuthenticator" mc="Standard.Class" uid="0093342e-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WorkingSetSelectionArea" mc="Standard.Class" uid="0093470c-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="XMLWriter" mc="Standard.Class" uid="009359fe-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="actions" mc="Standard.Package" uid="00945444-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="console" mc="Standard.Package" uid="00976f1c-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="mappings" mc="Standard.Package" uid="00001dd8-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="model" mc="Standard.Package" uid="00028a3c-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="operations" mc="Standard.Package" uid="00044692-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="repo" mc="Standard.Package" uid="00076a16-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="subscriber" mc="Standard.Package" uid="00099ba6-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="tags" mc="Standard.Package" uid="000c76fa-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="wizards" mc="Standard.Package" uid="000e7e28-0bd4-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

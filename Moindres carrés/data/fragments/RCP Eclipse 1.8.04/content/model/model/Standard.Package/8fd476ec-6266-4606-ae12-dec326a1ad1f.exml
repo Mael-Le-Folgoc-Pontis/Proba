@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="activation" version="4">
+  <OBJECT>
+    <ID name="activation" mc="Standard.Package" uid="8fd476ec-6266-4606-ae12-dec326a1ad1f"/>
+    <PID name="profile" mc="Standard.Package" uid="0759cc96-b32a-4944-8119-779bb0ece52f"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[activation]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="FileProfileActivator" mc="Standard.Class" uid="5eaeb58d-606c-4b13-94c9-2dd58eff5a94"/>
+        <COMPID name="JdkVersionProfileActivator" mc="Standard.Class" uid="c56afefd-4de4-476c-a34b-60bd998d1fb9"/>
+        <COMPID name="OperatingSystemProfileActivator" mc="Standard.Class" uid="aa2c3ed8-c4b6-4e9b-804b-86538d438bdf"/>
+        <COMPID name="ProfileActivator" mc="Standard.Interface" uid="69501e14-0923-4f31-bf19-2692c013f360"/>
+        <COMPID name="PropertyProfileActivator" mc="Standard.Class" uid="4716ed91-d379-486c-8501-0d6f32d142f6"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

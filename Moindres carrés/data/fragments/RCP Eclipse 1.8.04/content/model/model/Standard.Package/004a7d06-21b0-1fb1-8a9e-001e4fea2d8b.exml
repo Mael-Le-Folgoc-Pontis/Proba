@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="protocol" version="4">
+  <OBJECT>
+    <ID name="protocol" mc="Standard.Package" uid="004a7d06-21b0-1fb1-8a9e-001e4fea2d8b"/>
+    <PID name="internal" mc="Standard.Package" uid="004934be-21b0-1fb1-8a9e-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[protocol]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ContentHandlerFactory" mc="Standard.Class" uid="004d1700-21b0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ContentHandlerProxy" mc="Standard.Class" uid="004db232-21b0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="MultiplexingContentHandler" mc="Standard.Class" uid="005059a6-21b0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="MultiplexingFactory" mc="Standard.Class" uid="005485d0-21b0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="MultiplexingURLStreamHandler" mc="Standard.Class" uid="005186aa-21b0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="NullURLStreamHandlerService" mc="Standard.Class" uid="0053f4c6-21b0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ProtocolActivator" mc="Standard.Interface" uid="00553282-21b0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="StreamHandlerFactory" mc="Standard.Class" uid="0050832c-21b0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="URLStreamHandlerFactoryProxyFor15" mc="Standard.Class" uid="005126c4-21b0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="URLStreamHandlerProxy" mc="Standard.Class" uid="004c811e-21b0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="URLStreamHandlerSetter" mc="Standard.Class" uid="0055913c-21b0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="bundleentry" mc="Standard.Package" uid="00534792-21b0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="bundleresource" mc="Standard.Package" uid="004bd642-21b0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="reference" mc="Standard.Package" uid="004fb4d8-21b0-1fb1-8a9e-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

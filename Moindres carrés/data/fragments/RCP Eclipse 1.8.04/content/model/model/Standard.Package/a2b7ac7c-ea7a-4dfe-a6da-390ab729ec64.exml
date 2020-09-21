@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="parser" version="4">
+  <OBJECT>
+    <ID name="parser" mc="Standard.Package" uid="a2b7ac7c-ea7a-4dfe-a6da-390ab729ec64"/>
+    <PID name="xni" mc="Standard.Package" uid="cbac430a-e3d7-4b40-98ac-b7e82e5a7255"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[parser]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="XMLComponent" mc="Standard.Interface" uid="3a840b27-ebed-4490-8ba4-6b53b0bf7e3b"/>
+        <COMPID name="XMLComponentManager" mc="Standard.Interface" uid="0cd86891-bf95-4cd0-9fe5-416608abcfdc"/>
+        <COMPID name="XMLConfigurationException" mc="Standard.Class" uid="e8b84698-d02f-4522-b4e7-21206e0004b1"/>
+        <COMPID name="XMLDTDContentModelFilter" mc="Standard.Interface" uid="58c89b13-ff28-452b-a3be-1719c470cde2"/>
+        <COMPID name="XMLDTDContentModelSource" mc="Standard.Interface" uid="7142d713-4731-4cd1-84c9-63a9ac517cee"/>
+        <COMPID name="XMLDTDFilter" mc="Standard.Interface" uid="7760d81a-8c35-4ec9-a1fa-c2ac370a87e2"/>
+        <COMPID name="XMLDTDScanner" mc="Standard.Interface" uid="635e5ba1-9cef-4acb-8445-b3e501cd1cc8"/>
+        <COMPID name="XMLDTDSource" mc="Standard.Interface" uid="ca6c085b-008f-46e4-9f95-3c17cb1a59a8"/>
+        <COMPID name="XMLDocumentFilter" mc="Standard.Interface" uid="dbc3ffb9-2763-43f7-a0d8-04444daf2d99"/>
+        <COMPID name="XMLDocumentScanner" mc="Standard.Interface" uid="bba3f591-1036-46e4-ba85-54cf118b3a88"/>
+        <COMPID name="XMLDocumentSource" mc="Standard.Interface" uid="b479b705-3ba0-470e-bd4d-f44107349e02"/>
+        <COMPID name="XMLEntityResolver" mc="Standard.Interface" uid="a6061092-4849-4ada-b71c-688d8fbf6d72"/>
+        <COMPID name="XMLErrorHandler" mc="Standard.Interface" uid="c18bd9a0-37b5-4c65-876a-965110ca3f1b"/>
+        <COMPID name="XMLInputSource" mc="Standard.Class" uid="5311c303-841f-4a0d-af84-0a52c56f0d64"/>
+        <COMPID name="XMLParseException" mc="Standard.Class" uid="b958d1da-416b-4100-baa1-01892788c303"/>
+        <COMPID name="XMLParserConfiguration" mc="Standard.Interface" uid="c92dd4cd-7424-4b1a-afa8-f37092c25b00"/>
+        <COMPID name="XMLPullParserConfiguration" mc="Standard.Interface" uid="ee0b3cbe-8aed-4102-83e0-db887191deda"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

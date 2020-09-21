@@ -1,0 +1,87 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ant" version="4">
+  <OBJECT>
+    <ID name="ant" mc="Standard.Package" uid="001ff900-0bbe-112e-9071-001e4fea2d8b"/>
+    <PID name="tools" mc="Standard.Package" uid="001f9fbe-0bbe-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[ant]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AntClassLoader" mc="Standard.Class" uid="00200102-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AntTypeDefinition" mc="Standard.Class" uid="00200f94-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ArgumentProcessor" mc="Standard.Interface" uid="4fc2b15b-3863-4cf6-9170-dc3d53835ba2"/>
+        <COMPID name="ArgumentProcessorRegistry" mc="Standard.Class" uid="05579c75-dc21-41ae-a8ab-30a94293d46d"/>
+        <COMPID name="BuildEvent" mc="Standard.Class" uid="00201746-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BuildException" mc="Standard.Class" uid="00201f20-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BuildFileTest" mc="Standard.Class" uid="00202704-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BuildListener" mc="Standard.Interface" uid="0020452c-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BuildLogger" mc="Standard.Interface" uid="00204c8e-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ComponentHelper" mc="Standard.Class" uid="002054fe-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DefaultDefinitions" mc="Standard.Class" uid="6386568e-a720-4a53-a6fd-5a883161655a"/>
+        <COMPID name="DefaultLogger" mc="Standard.Class" uid="00206c3c-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DemuxInputStream" mc="Standard.Class" uid="002074fc-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DemuxOutputStream" mc="Standard.Class" uid="00207de4-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Diagnostics" mc="Standard.Class" uid="002095a4-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DirectoryScanner" mc="Standard.Class" uid="00209f18-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DynamicAttribute" mc="Standard.Interface" uid="0020a724-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DynamicAttributeNS" mc="Standard.Interface" uid="0020af3a-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DynamicConfigurator" mc="Standard.Interface" uid="0020b782-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DynamicConfiguratorNS" mc="Standard.Interface" uid="0020bfc0-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DynamicElement" mc="Standard.Interface" uid="0020c86c-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DynamicElementNS" mc="Standard.Interface" uid="0020d154-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DynamicObjectAttribute" mc="Standard.Interface" uid="4275af2e-9df4-42db-b54f-4cfc47484b5f"/>
+        <COMPID name="Evaluable" mc="Standard.Interface" uid="de9a3d6a-ad0c-47fb-8aec-cf569241d537"/>
+        <COMPID name="Executor" mc="Standard.Interface" uid="0020da82-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ExitException" mc="Standard.Class" uid="0020e43c-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ExitStatusException" mc="Standard.Class" uid="0020ee1e-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ExtensionPoint" mc="Standard.Class" uid="0020f7f6-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FileScanner" mc="Standard.Interface" uid="00210138-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IntrospectionHelper" mc="Standard.Class" uid="00210b9c-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Location" mc="Standard.Class" uid="0021750a-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MagicNames" mc="Standard.Class" uid="00217fc8-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Main" mc="Standard.Class" uid="00218aa4-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="NoBannerLogger" mc="Standard.Class" uid="002195bc-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PathTokenizer" mc="Standard.Class" uid="0021a0ca-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Project" mc="Standard.Class" uid="0021ac64-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ProjectComponent" mc="Standard.Class" uid="0021c6d6-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ProjectHelper" mc="Standard.Class" uid="0021d2de-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ProjectHelperRepository" mc="Standard.Class" uid="0021ee0e-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PropertyHelper" mc="Standard.Class" uid="00220970-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RuntimeConfigurable" mc="Standard.Class" uid="00222d2e-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SubBuildListener" mc="Standard.Interface" uid="00223666-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Target" mc="Standard.Class" uid="0022432c-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Task" mc="Standard.Class" uid="00225178-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TaskAdapter" mc="Standard.Class" uid="00225e84-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TaskConfigurationChecker" mc="Standard.Class" uid="00226bf4-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TaskContainer" mc="Standard.Interface" uid="002275a4-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TypeAdapter" mc="Standard.Interface" uid="00227f7c-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="UnknownElement" mc="Standard.Class" uid="00228d46-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="UnsupportedAttributeException" mc="Standard.Class" uid="00229b1a-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="UnsupportedElementException" mc="Standard.Class" uid="0022a8e4-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="XmlLogger" mc="Standard.Class" uid="0022b762-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="attribute" mc="Standard.Package" uid="12b2d343-cd2f-4b50-81f7-445a9adc2c63"/>
+        <COMPID name="dispatch" mc="Standard.Package" uid="002330d4-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="filters" mc="Standard.Package" uid="0023b806-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="helper" mc="Standard.Package" uid="00270ca4-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="input" mc="Standard.Package" uid="0028981c-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="launch" mc="Standard.Package" uid="00295658-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="listener" mc="Standard.Package" uid="002a036e-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="loader" mc="Standard.Package" uid="002aeb9e-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="property" mc="Standard.Package" uid="002b99d6-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="taskdefs" mc="Standard.Package" uid="002c7e78-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="types" mc="Standard.Package" uid="007b631c-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="util" mc="Standard.Package" uid="008e2b50-0bbe-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

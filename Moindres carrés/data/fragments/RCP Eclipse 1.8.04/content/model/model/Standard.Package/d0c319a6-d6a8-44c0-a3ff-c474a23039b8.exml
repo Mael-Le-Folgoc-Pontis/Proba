@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="building" version="4">
+  <OBJECT>
+    <ID name="building" mc="Standard.Package" uid="d0c319a6-d6a8-44c0-a3ff-c474a23039b8"/>
+    <PID name="toolchain" mc="Standard.Package" uid="64b0e900-33ee-4fc4-921f-da88524a4052"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[building]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="DefaultToolchainsBuilder" mc="Standard.Class" uid="f0f67445-aeb4-4e25-86ff-7cdd80bd95f5"/>
+        <COMPID name="DefaultToolchainsBuildingRequest" mc="Standard.Class" uid="7d51b77f-8580-4553-81ca-4f1b7e7fe21e"/>
+        <COMPID name="DefaultToolchainsBuildingResult" mc="Standard.Class" uid="7d01986a-c6b9-4525-afe2-da74c739a19f"/>
+        <COMPID name="ToolchainsBuilder" mc="Standard.Interface" uid="fb985483-9c18-4ce6-b452-66c8c972303d"/>
+        <COMPID name="ToolchainsBuildingException" mc="Standard.Class" uid="fb1b5db0-a56a-4e14-826e-253ffa73ade6"/>
+        <COMPID name="ToolchainsBuildingRequest" mc="Standard.Interface" uid="e820382f-46ff-4624-a34b-a397428b542d"/>
+        <COMPID name="ToolchainsBuildingResult" mc="Standard.Interface" uid="8db28178-0ae9-4cfb-a936-c24e4b0aee76"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

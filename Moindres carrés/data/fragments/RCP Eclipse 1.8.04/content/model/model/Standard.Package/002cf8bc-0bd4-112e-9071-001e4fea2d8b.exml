@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="actions" version="4">
+  <OBJECT>
+    <ID name="actions" mc="Standard.Package" uid="002cf8bc-0bd4-112e-9071-001e4fea2d8b"/>
+    <PID name="synchronize" mc="Standard.Package" uid="00274ad4-0bd4-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[actions]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ChangeSetActionGroup" mc="Standard.Class" uid="002cff24-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DefaultSynchronizePageActions" mc="Standard.Class" uid="002d3944-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DirectionFilterActionGroup" mc="Standard.Class" uid="002d3fac-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ExpandAllAction" mc="Standard.Class" uid="002d4c68-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="GlobalRefreshAction" mc="Standard.Class" uid="002d533e-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="NavigateAction" mc="Standard.Class" uid="002d609a-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="OpenFileInSystemEditorAction" mc="Standard.Class" uid="002d67ca-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="OpenInCompareAction" mc="Standard.Class" uid="002d6f68-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="OpenWithActionGroup" mc="Standard.Class" uid="002d776a-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PasteAction" mc="Standard.Class" uid="002d7f30-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PinParticipantAction" mc="Standard.Class" uid="002d8764-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RefactorActionGroup" mc="Standard.Class" uid="002d8fe8-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RefreshActionContribution" mc="Standard.Class" uid="002d984e-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RemoveFromViewAction" mc="Standard.Class" uid="002da122-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RemoveSynchronizeParticipantAction" mc="Standard.Class" uid="002daa96-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RestoreRemovedItemsAction" mc="Standard.Class" uid="002db3e2-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ShowSynchronizeParticipantAction" mc="Standard.Class" uid="002dbda6-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="StatusLineCLabelContribution" mc="Standard.Class" uid="002dd516-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="StatusLineContributionGroup" mc="Standard.Class" uid="002ddef8-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SubscriberActionContribution" mc="Standard.Class" uid="002de90c-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SyncInfoSetStatusLineContributionGroup" mc="Standard.Class" uid="002df352-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SyncViewerShowPreferencesAction" mc="Standard.Class" uid="002dfd8e-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SynchronizeAndRefreshAction" mc="Standard.Class" uid="002e0838-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SynchronizePageDropDownAction" mc="Standard.Class" uid="002e131e-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ToggleLinkingAction" mc="Standard.Class" uid="002e1df0-0bd4-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="net" version="4">
+  <OBJECT>
+    <ID name="net" mc="Standard.Package" uid="a4c5368f-2f7f-4cdd-a901-f02f90eecf52"/>
+    <PID name="log4j" mc="Standard.Package" uid="ed6a544b-48f0-4c81-b6a9-45e027c242cd"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[net]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="JMSAppender" mc="Standard.Class" uid="9af90c96-5be8-4127-84d7-bfb298da6336"/>
+        <COMPID name="JMSSink" mc="Standard.Class" uid="ab83c712-397a-4d7b-8db2-494707871aba"/>
+        <COMPID name="SMTPAppender" mc="Standard.Class" uid="e01669db-d1ea-4f69-9548-9a2644190991"/>
+        <COMPID name="SimpleSocketServer" mc="Standard.Class" uid="a53922a3-160c-4062-8680-1639f998677e"/>
+        <COMPID name="SocketAppender" mc="Standard.Class" uid="2125306b-4cec-4cb4-8040-38c2a9abd46d"/>
+        <COMPID name="SocketHubAppender" mc="Standard.Class" uid="4c20007f-3c3b-4270-947e-7b7dcbebbbde"/>
+        <COMPID name="SocketNode" mc="Standard.Class" uid="8df420a9-0344-49ca-9b05-96246a16c5f7"/>
+        <COMPID name="SocketServer" mc="Standard.Class" uid="1c997bcc-7737-4609-9bb4-7788385043f0"/>
+        <COMPID name="SyslogAppender" mc="Standard.Class" uid="5731d2cb-6b9d-49d7-9050-ca0b355a9271"/>
+        <COMPID name="TelnetAppender" mc="Standard.Class" uid="1776618a-d091-4358-8f68-356d93c15d0c"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

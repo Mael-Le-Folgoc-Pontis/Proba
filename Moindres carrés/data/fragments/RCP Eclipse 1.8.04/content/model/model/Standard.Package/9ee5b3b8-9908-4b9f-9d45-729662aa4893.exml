@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="net" version="4">
+  <OBJECT>
+    <ID name="net" mc="Standard.Package" uid="9ee5b3b8-9908-4b9f-9d45-729662aa4893"/>
+    <PID name="common" mc="Standard.Package" uid="a53057d4-becb-49c8-a124-0d91b5f0d087"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[net]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="HostAndPort" mc="Standard.Class" uid="5b89165f-96c0-48d2-b84d-37f3e7bc11a6"/>
+        <COMPID name="HostSpecifier" mc="Standard.Class" uid="00d3ba32-20b9-4be0-8f45-471d09bc4b94"/>
+        <COMPID name="HttpHeaders" mc="Standard.Class" uid="638928bf-7e4d-45c4-8c0d-db9078d45c37"/>
+        <COMPID name="InetAddresses" mc="Standard.Class" uid="2c1a169f-4f33-47f0-9218-30293539f0c8"/>
+        <COMPID name="InternetDomainName" mc="Standard.Class" uid="3f537c50-b68f-4bfd-98df-a22b5a2ecb56"/>
+        <COMPID name="MediaType" mc="Standard.Class" uid="12a52739-8557-46f5-a68d-944d48164c42"/>
+        <COMPID name="PercentEscaper" mc="Standard.Class" uid="dbf6de17-f5ce-47bf-86eb-b69bf50f798e"/>
+        <COMPID name="UrlEscapers" mc="Standard.Class" uid="89e4c782-8ad8-4048-8f8f-1803c71bd4ad"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

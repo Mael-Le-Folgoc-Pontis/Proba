@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="providers" version="4">
+  <OBJECT>
+    <ID name="providers" mc="Standard.Package" uid="25ad2811-9eb8-41db-8aaa-c3dda17741c8"/>
+    <PID name="binding" mc="Standard.Package" uid="c0cb221b-8eca-4f61-9bea-592971b30a17"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[providers]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractPreferenceProvider" mc="Standard.Class" uid="19e13913-0820-4ffc-8536-523def30d0b1"/>
+        <COMPID name="BooleanArrayPreferenceProvider" mc="Standard.Class" uid="c7672ae7-2aba-4705-9cae-9530e380799b"/>
+        <COMPID name="BooleanPreferenceProvider" mc="Standard.Class" uid="7908262f-fdbf-4c3f-ad4f-b730a521af61"/>
+        <COMPID name="IntegerPreferenceProvider" mc="Standard.Class" uid="0817e059-cf48-49a5-a5cc-bb336b08462b"/>
+        <COMPID name="StringPreferenceProvider" mc="Standard.Class" uid="eee0aad7-5087-473f-be02-79109c28f6bd"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

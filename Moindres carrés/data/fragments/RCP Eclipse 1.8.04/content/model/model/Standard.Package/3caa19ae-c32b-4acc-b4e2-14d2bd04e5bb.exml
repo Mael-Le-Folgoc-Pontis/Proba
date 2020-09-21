@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="xmlrpc" version="4">
+  <OBJECT>
+    <ID name="xmlrpc" mc="Standard.Package" uid="3caa19ae-c32b-4acc-b4e2-14d2bd04e5bb"/>
+    <PID name="apache" mc="Standard.Package" uid="00858518-21b0-1fb1-8a9e-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[xmlrpc]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="XmlRpcConfig" mc="Standard.Interface" uid="6e1a3ade-047e-40f9-ae6b-efbeb29fb32a"/>
+        <COMPID name="XmlRpcConfigImpl" mc="Standard.Class" uid="2d9fb1d7-7427-4d7d-b437-301ca02e4d63"/>
+        <COMPID name="XmlRpcException" mc="Standard.Class" uid="051c23d1-2277-4530-a211-07dfd9dbbd12"/>
+        <COMPID name="XmlRpcHandler" mc="Standard.Interface" uid="32946747-797b-4e73-8e3c-21be5b229641"/>
+        <COMPID name="XmlRpcRequest" mc="Standard.Interface" uid="bee9e587-c8fe-4782-8238-0c893defa488"/>
+        <COMPID name="XmlRpcRequestConfig" mc="Standard.Interface" uid="e0cb9315-ffb1-4daf-8844-c8a9973915a8"/>
+        <COMPID name="client" mc="Standard.Package" uid="87d53348-da39-467e-9d4e-06b1fed19a43"/>
+        <COMPID name="common" mc="Standard.Package" uid="41146bef-f3c0-446f-9951-bc7bcc35edea"/>
+        <COMPID name="jaxb" mc="Standard.Package" uid="3c4ce498-8f56-4878-81f3-4b4c559efa08"/>
+        <COMPID name="metadata" mc="Standard.Package" uid="44e355ee-c481-412d-b663-9d8422b30e21"/>
+        <COMPID name="parser" mc="Standard.Package" uid="0865b630-14af-46f1-a927-1bd3ecd01fdb"/>
+        <COMPID name="serializer" mc="Standard.Package" uid="63bc617b-6d11-478f-ad40-e5d4643d1bad"/>
+        <COMPID name="server" mc="Standard.Package" uid="fdb7870b-49c3-4aa6-80a3-c12a9e87de92"/>
+        <COMPID name="util" mc="Standard.Package" uid="2852dc77-be33-4e7e-9f52-fe7fa856e06e"/>
+        <COMPID name="webserver" mc="Standard.Package" uid="c8d72c73-c151-4ede-a89d-7978f128ff11"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="varia" version="4">
+  <OBJECT>
+    <ID name="varia" mc="Standard.Package" uid="2e3ec73c-22cc-4ddc-b707-341fdc41b92e"/>
+    <PID name="log4j" mc="Standard.Package" uid="ed6a544b-48f0-4c81-b6a9-45e027c242cd"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[varia]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="DenyAllFilter" mc="Standard.Class" uid="786c1fd8-cf3a-480b-8519-7e0c3c3c8de2"/>
+        <COMPID name="ExternallyRolledFileAppender" mc="Standard.Class" uid="e559be20-63f3-4328-a0ef-9d239512fa65"/>
+        <COMPID name="FallbackErrorHandler" mc="Standard.Class" uid="c651d630-6b40-49cd-aab4-eee33e729048"/>
+        <COMPID name="LevelMatchFilter" mc="Standard.Class" uid="6c34a00b-4add-45df-9a9a-7350af084cde"/>
+        <COMPID name="LevelRangeFilter" mc="Standard.Class" uid="bb63dabd-f049-4daa-bb09-930c14cd1c65"/>
+        <COMPID name="NullAppender" mc="Standard.Class" uid="45a632da-b7aa-4e07-9020-6b3711d49a0b"/>
+        <COMPID name="ReloadingPropertyConfigurator" mc="Standard.Class" uid="5ef3a986-7eed-4096-92aa-80761a44531c"/>
+        <COMPID name="Roller" mc="Standard.Class" uid="64bb7dfc-72b1-479a-8d9b-d0ec90b56dff"/>
+        <COMPID name="StringMatchFilter" mc="Standard.Class" uid="dbf2ac76-3918-45c2-9ac2-17aa73743505"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

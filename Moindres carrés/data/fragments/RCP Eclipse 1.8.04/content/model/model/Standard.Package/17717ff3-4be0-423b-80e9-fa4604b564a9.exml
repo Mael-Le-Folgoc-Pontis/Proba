@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="progress" version="4">
+  <OBJECT>
+    <ID name="progress" mc="Standard.Package" uid="17717ff3-4be0-423b-80e9-fa4604b564a9"/>
+    <PID name="util" mc="Standard.Package" uid="acda86ad-c2f2-44f1-81d8-0e0c2d95611f"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[progress]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AsyncHandler" mc="Standard.Interface" uid="4a6b374c-67fe-43d9-a4fb-3c698aac0b6c"/>
+        <COMPID name="DelegatingProgressListener" mc="Standard.Class" uid="c6f7ffe4-9529-4b41-9d18-abae4a8c7207"/>
+        <COMPID name="ToolingApiCommand" mc="Standard.Interface" uid="7cd74e5a-b8df-4d09-b453-8174e1dd7505"/>
+        <COMPID name="ToolingApiInvoker" mc="Standard.Class" uid="d6a551af-2b1f-4b41-af65-519049d9566f"/>
+        <COMPID name="ToolingApiJob" mc="Standard.Class" uid="2cb43995-c885-46a2-86b7-7566b4735397"/>
+        <COMPID name="ToolingApiWorkspaceJob" mc="Standard.Class" uid="73d547b4-bc44-4c75-bfca-51fadd9b237d"/>
+        <COMPID name="UniqueJobRule" mc="Standard.Class" uid="e4f936ac-d27f-479f-8a4c-b7e1744716ee"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

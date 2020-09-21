@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="locator" version="4">
+  <OBJECT>
+    <ID name="locator" mc="Standard.Package" uid="c7496d32-d8b7-4dfd-94cf-9831eb05b7ea"/>
+    <PID name="index" mc="Standard.Package" uid="c783765e-7614-4963-9c1b-b9b50c46d7b8"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[locator]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ArtifactLocator" mc="Standard.Class" uid="352c59ce-5b54-4a41-8869-3c7ce1d55046"/>
+        <COMPID name="GavHelpedLocator" mc="Standard.Interface" uid="b0bf6435-209b-4cc3-a3f5-4bb4b3c8cd38"/>
+        <COMPID name="JavadocLocator" mc="Standard.Class" uid="b6bb0e3b-c9a1-47ab-a619-801ff92c8e66"/>
+        <COMPID name="Locator" mc="Standard.Interface" uid="75827f7c-4def-4a8a-880f-808b6fe99173"/>
+        <COMPID name="Md5Locator" mc="Standard.Class" uid="5820e7ca-098c-482f-ac1c-7e6a32c7c687"/>
+        <COMPID name="MetadataLocator" mc="Standard.Class" uid="e96533f8-dc0f-43a3-8d46-c62c8aa9b0ac"/>
+        <COMPID name="PomLocator" mc="Standard.Class" uid="dcddf123-97d6-4df0-b197-c8c6b3259f0a"/>
+        <COMPID name="Sha1Locator" mc="Standard.Class" uid="650db78f-f787-42bf-89f0-b2063d9ec27c"/>
+        <COMPID name="SignatureLocator" mc="Standard.Class" uid="796e0846-3ab7-42d2-89b0-49621c220ca8"/>
+        <COMPID name="SourcesLocator" mc="Standard.Class" uid="87d05c77-157f-44f6-b731-d6e43ec567d9"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

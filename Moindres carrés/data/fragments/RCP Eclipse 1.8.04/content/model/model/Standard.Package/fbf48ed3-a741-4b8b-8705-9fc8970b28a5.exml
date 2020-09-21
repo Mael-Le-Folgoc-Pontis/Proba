@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="util" version="4">
+  <OBJECT>
+    <ID name="util" mc="Standard.Package" uid="fbf48ed3-a741-4b8b-8705-9fc8970b28a5"/>
+    <PID name="forms" mc="Standard.Package" uid="3e3feffd-ea25-43c6-9cc6-65e447bb18f2"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[util]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractUnitConverter" mc="Standard.Class" uid="11a282ce-f08d-4e2d-8c69-7819e21bacdf"/>
+        <COMPID name="DefaultUnitConverter" mc="Standard.Class" uid="b601ac4b-b591-4e90-a396-3ff2e4297941"/>
+        <COMPID name="FormUtils" mc="Standard.Class" uid="4ce13e63-c0f8-4117-9407-9c93458f16d9"/>
+        <COMPID name="LayoutStyle" mc="Standard.Class" uid="4ac2664e-dc81-4360-8d45-50910dc0341c"/>
+        <COMPID name="MacLayoutStyle" mc="Standard.Class" uid="a6932a50-2875-492e-b29f-94ec6c0a29c3"/>
+        <COMPID name="UnitConverter" mc="Standard.Interface" uid="ccf897df-543f-435d-8991-c1fd7bc3393d"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

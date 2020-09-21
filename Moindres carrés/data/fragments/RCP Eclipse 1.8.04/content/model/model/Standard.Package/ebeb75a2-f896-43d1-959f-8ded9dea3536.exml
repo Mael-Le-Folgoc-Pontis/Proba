@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="phrase" version="4">
+  <OBJECT>
+    <ID name="phrase" mc="Standard.Package" uid="ebeb75a2-f896-43d1-959f-8ded9dea3536"/>
+    <PID name="markup" mc="Standard.Package" uid="99805526-e7fe-4104-a587-d8289d40d43f"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[phrase]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="HtmlCommentPhraseModifier" mc="Standard.Class" uid="0e62f22e-8e89-4dcd-9956-9d5b03463b8c"/>
+        <COMPID name="HtmlEndTagPhraseModifier" mc="Standard.Class" uid="cd31d306-39d2-4b8c-b958-97631e8bf26f"/>
+        <COMPID name="HtmlStartTagPhraseModifier" mc="Standard.Class" uid="4aaffca2-89d4-403e-97a2-49ccff54b372"/>
+        <COMPID name="LimitedHtmlEndTagPhraseModifier" mc="Standard.Class" uid="01edac69-d523-4ddc-a1b7-2e75f19c07e2"/>
+        <COMPID name="LimitedHtmlStartTagPhraseModifier" mc="Standard.Class" uid="a6349d5a-b038-442e-87d5-892febe72aa7"/>
+        <COMPID name="LiteralPhraseModifierProcessor" mc="Standard.Class" uid="57c9fa27-011f-4d33-a616-09846114b1aa"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

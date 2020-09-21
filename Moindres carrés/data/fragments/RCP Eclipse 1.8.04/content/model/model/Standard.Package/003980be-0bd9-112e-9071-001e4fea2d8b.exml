@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="equivalence" version="4">
+  <OBJECT>
+    <ID name="equivalence" mc="Standard.Package" uid="003980be-0bd9-112e-9071-001e4fea2d8b"/>
+    <PID name="compare" mc="Standard.Package" uid="00361c94-0bd9-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[equivalence]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="DJBHashFunction" mc="Standard.Class" uid="003986e0-0bd9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DocEquivalenceComparator" mc="Standard.Class" uid="00398d66-0bd9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DocumentEquivalenceClass" mc="Standard.Class" uid="003993c4-0bd9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Hash" mc="Standard.Class" uid="00399a22-0bd9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IHashFunction" mc="Standard.Interface" uid="0039a06c-0bd9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IntHash" mc="Standard.Class" uid="0039a81e-0bd9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SystemHashFunction" mc="Standard.Class" uid="0039aeea-0bd9-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

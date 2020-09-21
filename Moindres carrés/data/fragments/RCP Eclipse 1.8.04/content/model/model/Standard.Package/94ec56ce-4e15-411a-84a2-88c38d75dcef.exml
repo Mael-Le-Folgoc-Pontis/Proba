@@ -1,0 +1,54 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="internal" version="4">
+  <OBJECT>
+    <ID name="internal" mc="Standard.Package" uid="94ec56ce-4e15-411a-84a2-88c38d75dcef"/>
+    <PID name="core" mc="Standard.Package" uid="93f6314b-68fe-42b8-ac1d-8fa0c224c7f2"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[internal]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="FileBufferModelManager" mc="Standard.Class" uid="56b03a19-4389-4a19-bc4f-8bc91aeb0be7"/>
+        <COMPID name="IExecutionDelegate" mc="Standard.Interface" uid="fd02e6dc-15d0-43ff-9199-8bce38c63137"/>
+        <COMPID name="ILockable" mc="Standard.Interface" uid="082c3266-0169-41eb-bc51-60e08804568b"/>
+        <COMPID name="JSPAwareAdapterFactory" mc="Standard.Interface" uid="9267a830-6ebd-4256-8c19-f4576bbe588a"/>
+        <COMPID name="Logger" mc="Standard.Class" uid="65ee2d75-3a30-4432-a681-00f43398e81b"/>
+        <COMPID name="ModelManagerPluginRegistryReader" mc="Standard.Class" uid="c7cd8ce9-2005-402e-8640-cfb547e33179"/>
+        <COMPID name="NoCancelProgressMonitor" mc="Standard.Class" uid="a0fdb64d-b23a-4955-8ce9-6d33151253f1"/>
+        <COMPID name="NotImplementedException" mc="Standard.Class" uid="b66d788d-a51a-4729-8f23-6adbc8017f76"/>
+        <COMPID name="NullMemento" mc="Standard.Class" uid="9de4fda9-acff-427f-83fb-36839eb8c791"/>
+        <COMPID name="PropagatingAdapter" mc="Standard.Interface" uid="c7da8ea2-45d1-4bde-b8dc-f35c50841449"/>
+        <COMPID name="PropagatingAdapterFactory" mc="Standard.Interface" uid="c2a74a4c-6abd-4bae-ae33-72c92744381e"/>
+        <COMPID name="SSECoreMessages" mc="Standard.Class" uid="79447a60-51d6-4c38-8a35-4238fcb78b2c"/>
+        <COMPID name="SSECorePlugin" mc="Standard.Class" uid="db2d02a2-7658-4a8e-9d16-ff52afbab352"/>
+        <COMPID name="cleanup" mc="Standard.Package" uid="1f57f8f1-27b5-4643-8ea6-7b401f62b2e3"/>
+        <COMPID name="document" mc="Standard.Package" uid="0d03f6d8-33de-4ee1-8e8b-dbf83157d255"/>
+        <COMPID name="encoding" mc="Standard.Package" uid="0a0befb3-c8c4-4d12-aae3-dacef4e8b62c"/>
+        <COMPID name="exceptions" mc="Standard.Package" uid="fcca5d2d-223b-495c-962c-20eb2bd90d7a"/>
+        <COMPID name="filebuffers" mc="Standard.Package" uid="7e11ccd3-7b5d-44ba-8bf8-6853d53176d8"/>
+        <COMPID name="format" mc="Standard.Package" uid="7bf1a9b9-ab38-4696-9bf7-0cf8b59aeff7"/>
+        <COMPID name="ltk" mc="Standard.Package" uid="d4e958e0-83ab-4ce7-8ac6-5229ef049b56"/>
+        <COMPID name="model" mc="Standard.Package" uid="cbf90048-07f4-4564-9a28-e7929d93556c"/>
+        <COMPID name="modelhandler" mc="Standard.Package" uid="dedddf7f-6971-4367-a66d-354680bcdcb4"/>
+        <COMPID name="parser" mc="Standard.Package" uid="d476d30f-7ca4-4045-a603-cfb1ca861a43"/>
+        <COMPID name="preferences" mc="Standard.Package" uid="e0846a6b-5aaa-476e-8826-5e5be87ae6dd"/>
+        <COMPID name="propertytester" mc="Standard.Package" uid="bd4f0dc9-3c43-437b-8d7b-d355ccf17302"/>
+        <COMPID name="provisional" mc="Standard.Package" uid="cd06b3bf-d930-4208-93a8-456a685a30b4"/>
+        <COMPID name="tasks" mc="Standard.Package" uid="0e0aa007-a5a1-4ac9-9df1-4ad126d7fe42"/>
+        <COMPID name="text" mc="Standard.Package" uid="25ee5c64-bc96-4097-8156-23b69cda4c2b"/>
+        <COMPID name="undo" mc="Standard.Package" uid="2e8cf3d7-74a9-4c7e-97b2-521f655719d8"/>
+        <COMPID name="util" mc="Standard.Package" uid="87e836c6-1d49-476e-be9c-4d2273e6ce55"/>
+        <COMPID name="validate" mc="Standard.Package" uid="5cbb80fb-2124-417d-9cdc-396cc50e88ce"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

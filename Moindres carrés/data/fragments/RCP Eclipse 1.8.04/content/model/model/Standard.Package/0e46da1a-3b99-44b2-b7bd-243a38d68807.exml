@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="actions" version="4">
+  <OBJECT>
+    <ID name="actions" mc="Standard.Package" uid="0e46da1a-3b99-44b2-b7bd-243a38d68807"/>
+    <PID name="rcp" mc="Standard.Package" uid="6cf1842e-9d1d-4968-841a-c0392e448e85"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[actions]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="TriggerModelDownloadForDependencyInfosAction" mc="Standard.Class" uid="ca834f93-f2b8-4e73-ae35-afc8cbfd582b"/>
+        <COMPID name="TriggerModelDownloadForModelCoordinatesAction" mc="Standard.Class" uid="96e04ff6-9377-4606-bc06-d64234355fca"/>
+        <COMPID name="TriggerModelDownloadForProjectCoordinatesAction" mc="Standard.Class" uid="2d6f0012-b61a-41b5-9135-c434d13fb75f"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

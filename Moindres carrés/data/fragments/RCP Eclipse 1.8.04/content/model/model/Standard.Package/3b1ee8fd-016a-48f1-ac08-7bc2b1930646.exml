@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="actions" version="4">
+  <OBJECT>
+    <ID name="actions" mc="Standard.Package" uid="3b1ee8fd-016a-48f1-ac08-7bc2b1930646"/>
+    <PID name="ui" mc="Standard.Package" uid="286ee4ec-8847-49bc-9700-b5f17f245214"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[actions]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractContainerAction" mc="Standard.Class" uid="a9964d3e-d9d7-42a4-8353-45511de65342"/>
+        <COMPID name="PreferenceRecorderAction" mc="Standard.Class" uid="1b11d212-6bcd-427c-b274-01c289b7b444"/>
+        <COMPID name="ToggleDisabledAction" mc="Standard.Class" uid="8c64456e-40ea-4de3-b911-75ee68aa65bc"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,63 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="revwalk" version="4">
+  <OBJECT>
+    <ID name="revwalk" mc="Standard.Package" uid="8ac576c7-eccd-4203-ac07-d389add603d7"/>
+    <PID name="jgit" mc="Standard.Package" uid="bf3b61ef-28ee-4cf7-8afd-022df78c66c8"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[revwalk]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AsyncRevObjectQueue" mc="Standard.Interface" uid="87a083c1-cec4-4f80-97b1-8fc13592c627"/>
+        <COMPID name="DateRevQueue" mc="Standard.Class" uid="f01ff8bd-fd75-49e8-8d7b-f84eef2ae725"/>
+        <COMPID name="DepthWalk" mc="Standard.Interface" uid="e698c26b-2d25-4a87-849d-048ba809392c"/>
+        <COMPID name="FIFORevQueue" mc="Standard.Class" uid="0de8b73c-d152-475c-9f63-9b9a83aa67ec"/>
+        <COMPID name="FollowFilter" mc="Standard.Class" uid="747525cf-b068-41dd-8048-470c7a3c7f41"/>
+        <COMPID name="FooterKey" mc="Standard.Class" uid="10b6ecc0-0616-4845-851d-f861168bcff1"/>
+        <COMPID name="FooterLine" mc="Standard.Class" uid="4a9750ea-1f02-471e-be9b-897190dec0ce"/>
+        <COMPID name="LIFORevQueue" mc="Standard.Class" uid="684eb127-8f41-4b9b-9e04-119ded9d8b52"/>
+        <COMPID name="ObjectWalk" mc="Standard.Class" uid="31b73aba-c52b-4678-be1f-585b72b8a51a"/>
+        <COMPID name="RenameCallback" mc="Standard.Class" uid="963fd70c-556f-4b46-81a6-81c377110973"/>
+        <COMPID name="RevBlob" mc="Standard.Class" uid="bd169cdb-e8bc-47b4-9a3c-6ca11d7af702"/>
+        <COMPID name="RevCommit" mc="Standard.Class" uid="e566d780-0e39-4e34-8ad7-658e70e0ebb3"/>
+        <COMPID name="RevCommitList" mc="Standard.Class" uid="ef6ea93f-9876-439a-9ac4-af919185ba90"/>
+        <COMPID name="RevFlag" mc="Standard.Class" uid="96dac8d2-349d-4a17-b95f-0307ee0bcf63"/>
+        <COMPID name="RevFlagSet" mc="Standard.Class" uid="bc676bd7-3aa3-4302-b746-c8ccae754a33"/>
+        <COMPID name="RevObject" mc="Standard.Class" uid="3c1346a2-29e4-4ab8-a587-654cc63c99ac"/>
+        <COMPID name="RevObjectList" mc="Standard.Class" uid="ba4465d4-cac1-4595-8241-44cbbfcdf3cd"/>
+        <OBJECT>
+          <ID name="RevSort" mc="Standard.Enumeration" uid="814f4b33-b970-4afa-9a06-bf46d8034153"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[RevSort]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Extension">
+              <FOREIGNID name="JavaEnumeration" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0262-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <COMPID name="RevTag" mc="Standard.Class" uid="335fefdf-8c0b-4869-8740-676ba137d026"/>
+        <COMPID name="RevTree" mc="Standard.Class" uid="a2d304a6-9efc-4555-960a-f5b5cc87d97a"/>
+        <COMPID name="RevWalk" mc="Standard.Class" uid="0a863f04-4e0e-426f-89f3-9b9be7476fd3"/>
+        <COMPID name="RevWalkUtils" mc="Standard.Class" uid="701eb773-8862-420e-a21e-be57d14147ef"/>
+        <COMPID name="TreeRevFilter" mc="Standard.Class" uid="3216f12c-d126-45b4-9ee4-80a18f1d446f"/>
+        <COMPID name="filter" mc="Standard.Package" uid="d1f0f465-f862-4ffa-82ca-256d262a5c32"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

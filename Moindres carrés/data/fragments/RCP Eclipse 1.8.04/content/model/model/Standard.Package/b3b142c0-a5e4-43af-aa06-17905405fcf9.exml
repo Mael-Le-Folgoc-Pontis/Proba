@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="matching" version="4">
+  <OBJECT>
+    <ID name="matching" mc="Standard.Package" uid="b3b142c0-a5e4-43af-aa06-17905405fcf9"/>
+    <PID name="search" mc="Standard.Package" uid="6235c7ef-c807-4d7c-8f08-42b01780ebd2"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[matching]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="PatternMatcher" mc="Standard.Class" uid="ba5ea95d-7ef8-4347-bb03-8ae70488e43d"/>
+        <COMPID name="SAXSearchElement" mc="Standard.Class" uid="222eb399-c124-479a-82e1-57e1f221b84e"/>
+        <COMPID name="XMLSearchPatternMatcher" mc="Standard.Class" uid="dd4a494a-13d0-4629-a9e7-74a06b1cbdb9"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

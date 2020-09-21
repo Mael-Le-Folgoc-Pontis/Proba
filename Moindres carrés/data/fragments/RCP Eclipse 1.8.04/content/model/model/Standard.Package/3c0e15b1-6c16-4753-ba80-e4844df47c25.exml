@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="widgets" version="4">
+  <OBJECT>
+    <ID name="widgets" mc="Standard.Package" uid="3c0e15b1-6c16-4753-ba80-e4844df47c25"/>
+    <PID name="internal" mc="Standard.Package" uid="78d3478f-ffaa-4fc9-8123-76468f3ac6f6"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[widgets]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="EnumerationsDialog" mc="Standard.Class" uid="f1bbee27-81c7-4605-b4aa-5d7f8a1704b1"/>
+        <COMPID name="TypeSection" mc="Standard.Class" uid="cd589cb4-29f1-4ea8-983f-e9c56191a8ae"/>
+        <COMPID name="XSDEditSchemaInfoDialog" mc="Standard.Class" uid="8606b89b-eac5-432c-95ba-e091fc574e76"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

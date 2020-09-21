@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="command" version="4">
+  <OBJECT>
+    <ID name="command" mc="Standard.Package" uid="0487ba93-3efc-4cbb-97d0-a40395ef32fc"/>
+    <PID name="laf" mc="Standard.Package" uid="1b88f26e-fa15-41a5-b9c1-f968b57b06e9"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[command]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AddCategoryCommand" mc="Standard.Class" uid="faefd9e3-595d-40e8-9678-2880e3d552ba"/>
+        <COMPID name="AddCommand" mc="Standard.Class" uid="7e01d08f-0169-4882-8fbd-55b395b3d742"/>
+        <COMPID name="Command" mc="Standard.Class" uid="ede6c28e-a7a0-400e-bf10-830d2c06a295"/>
+        <COMPID name="EditCommand" mc="Standard.Class" uid="ab38835e-d262-4dce-a3af-98fb6fed6464"/>
+        <COMPID name="EditNameCommand" mc="Standard.Class" uid="c70e02c9-9286-4afb-b824-dc157fe70ac2"/>
+        <COMPID name="LookAndFeelCommand" mc="Standard.Class" uid="3e49dce4-3449-4e0c-a7a5-2a2dfca61b43"/>
+        <COMPID name="MoveCategoryCommand" mc="Standard.Class" uid="24a46c25-1c67-4ac3-9e6f-dd2f3f4d9a08"/>
+        <COMPID name="MoveCommand" mc="Standard.Class" uid="c0e43431-1b52-47ba-9e67-d6ecfc775349"/>
+        <COMPID name="RemoveCategoryCommand" mc="Standard.Class" uid="3b6546c7-68be-4b84-a9b8-cb740be55e7d"/>
+        <COMPID name="RemoveCommand" mc="Standard.Class" uid="4643e3f3-da46-4923-8af2-9eca534f665e"/>
+        <COMPID name="RenameCategoryCommand" mc="Standard.Class" uid="c7beadfd-6235-4eeb-9a51-4333eca0f65d"/>
+        <COMPID name="SetVisibleCommand" mc="Standard.Class" uid="8dd0295f-f45a-4186-9a6d-6ba2b17c5673"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

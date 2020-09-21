@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="jcraft" version="4">
+  <OBJECT>
+    <ID name="jcraft" mc="Standard.Package" uid="0058e79c-0bdd-112e-9071-001e4fea2d8b"/>
+    <PID name="jsch" mc="Standard.Package" uid="00544084-0bdd-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[jcraft]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Compression" mc="Standard.Class" uid="0058ed6e-0bdd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HMACMD5" mc="Standard.Class" uid="0058fa34-0bdd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HMACMD596" mc="Standard.Class" uid="005900d8-0bdd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HMACSHA1" mc="Standard.Class" uid="005907ae-0bdd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HMACSHA196" mc="Standard.Class" uid="00590eca-0bdd-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

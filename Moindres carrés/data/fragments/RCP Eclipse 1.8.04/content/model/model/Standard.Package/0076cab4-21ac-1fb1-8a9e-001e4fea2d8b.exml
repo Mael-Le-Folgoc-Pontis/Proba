@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="model" version="4">
+  <OBJECT>
+    <ID name="model" mc="Standard.Package" uid="0076cab4-21ac-1fb1-8a9e-001e4fea2d8b"/>
+    <PID name="keys" mc="Standard.Package" uid="00732878-21ac-1fb1-8a9e-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[model]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="BindingElement" mc="Standard.Class" uid="00775358-21ac-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="BindingModel" mc="Standard.Class" uid="0079a180-21ac-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="CommonModel" mc="Standard.Class" uid="007920a2-21ac-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ConflictModel" mc="Standard.Class" uid="007976d8-21ac-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ContextElement" mc="Standard.Class" uid="00794adc-21ac-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ContextModel" mc="Standard.Class" uid="007868b0-21ac-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="KeyController" mc="Standard.Class" uid="0076e6fc-21ac-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ModelElement" mc="Standard.Class" uid="00783f84-21ac-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="SchemeElement" mc="Standard.Class" uid="0078f6cc-21ac-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="SchemeModel" mc="Standard.Class" uid="0077e386-21ac-1fb1-8a9e-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

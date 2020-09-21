@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="assistant" version="4">
+  <OBJECT>
+    <ID name="assistant" mc="Standard.Package" uid="e7185c9a-3c18-404f-85dc-41f3bea6f6a7"/>
+    <PID name="actions" mc="Standard.Package" uid="77d72961-d4c0-41f1-93c7-e0a692c1862f"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[assistant]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractAssistantPage" mc="Standard.Class" uid="6b2c59c1-9283-4be9-82ee-55da241b936c"/>
+        <COMPID name="ILayoutAssistantPage" mc="Standard.Interface" uid="8771f950-4a63-4429-bb20-624070219f7b"/>
+        <COMPID name="LayoutAssistantListener" mc="Standard.Class" uid="829f9e2b-d3a6-4a5b-9c4a-c78b2ab01166"/>
+        <COMPID name="LayoutAssistantSupport" mc="Standard.Class" uid="f2546526-e54c-4dab-91e7-b7820f54d35b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="impl" version="4">
+  <OBJECT>
+    <ID name="impl" mc="Standard.Package" uid="001b315e-0bbd-112e-9071-001e4fea2d8b"/>
+    <PID name="logging" mc="Standard.Package" uid="001a85ce-0bbd-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[impl]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AvalonLogger" mc="Standard.Class" uid="001b385c-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Jdk13LumberjackLogger" mc="Standard.Class" uid="8f4022df-8932-4797-88ce-8ea581e648b3"/>
+        <COMPID name="Jdk14Logger" mc="Standard.Class" uid="001b402c-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Log4JLogger" mc="Standard.Class" uid="001b5148-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LogFactoryImpl" mc="Standard.Class" uid="001b63d6-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LogKitLogger" mc="Standard.Class" uid="001b6da4-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="NoOpLog" mc="Standard.Class" uid="001b77a4-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ServletContextCleaner" mc="Standard.Class" uid="5942c1d2-5293-4f8a-a181-54256daf542f"/>
+        <COMPID name="SimpleLog" mc="Standard.Class" uid="001b82ee-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WeakHashtable" mc="Standard.Class" uid="39dbca0b-48cb-4484-9143-4dc886ad3f11"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

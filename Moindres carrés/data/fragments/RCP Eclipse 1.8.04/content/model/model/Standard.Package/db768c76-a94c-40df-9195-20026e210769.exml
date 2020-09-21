@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="lifecycle" version="4">
+  <OBJECT>
+    <ID name="lifecycle" mc="Standard.Package" uid="db768c76-a94c-40df-9195-20026e210769"/>
+    <PID name="internal" mc="Standard.Package" uid="b805183b-8077-4c69-b81f-6d62d7f8ce7f"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[lifecycle]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="LifecycleMappingDialog" mc="Standard.Class" uid="3dedebcb-5e75-4e32-a959-dc810a887c75"/>
+        <COMPID name="LifecycleMappingProposal" mc="Standard.Class" uid="e6458c74-7b2d-4715-a47d-d21e897af9f9"/>
+        <COMPID name="WorkspaceLifecycleMappingProposal" mc="Standard.Class" uid="e1f150ca-92a1-45b5-9d4a-5a0ff860bd0c"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

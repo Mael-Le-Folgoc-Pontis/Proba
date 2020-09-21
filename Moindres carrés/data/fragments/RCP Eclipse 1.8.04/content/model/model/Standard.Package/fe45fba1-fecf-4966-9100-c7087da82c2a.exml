@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="property" version="4">
+  <OBJECT>
+    <ID name="property" mc="Standard.Package" uid="fe45fba1-fecf-4966-9100-c7087da82c2a"/>
+    <PID name="ui" mc="Standard.Package" uid="b4834099-f613-44f3-9fd4-358bc12a2450"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[property]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractBindingProperty" mc="Standard.Class" uid="6f071448-ec29-4481-b8ef-e02c44c6fec9"/>
+        <COMPID name="AbstractBindingsProperty" mc="Standard.Class" uid="9b44cd3e-2bd2-4ea0-ab19-1c77e2ec3997"/>
+        <COMPID name="AbstractJavaInfoPropertiesManager" mc="Standard.Class" uid="091911bb-a900-479e-9a6a-9356b2e88a89"/>
+        <COMPID name="AbstractObserveProperty" mc="Standard.Class" uid="9aaca32a-17fe-49ca-b4c5-dad6c8810c3f"/>
+        <COMPID name="AbstractProperty" mc="Standard.Class" uid="ba523c6c-e968-43e9-b046-527943a02104"/>
+        <COMPID name="BindingAction" mc="Standard.Class" uid="9b40d772-7334-4562-a118-e15f9b6cb37a"/>
+        <COMPID name="BindingPropertyEditor" mc="Standard.Class" uid="7df6ef22-dff2-41a0-97eb-dbf90514e5f4"/>
+        <COMPID name="BindingsPropertyEditor" mc="Standard.Class" uid="1c959ffe-0456-4152-a644-aa2d2edb8744"/>
+        <COMPID name="Context" mc="Standard.Class" uid="f165808d-9ff6-4193-aaee-baabec979cf6"/>
+        <COMPID name="ObserveAction" mc="Standard.Class" uid="01398f8a-a89c-494a-85bd-8867937e2779"/>
+        <COMPID name="ObservePropertyEditor" mc="Standard.Class" uid="34753287-be8a-45b9-b7a6-07bb90887ebb"/>
+        <COMPID name="SingleObserveBindingAction" mc="Standard.Class" uid="f5b84e89-6b62-49ed-8138-595d623c41ad"/>
+        <COMPID name="SingleObserveBindingProperty" mc="Standard.Class" uid="60bea6e0-2648-4667-9997-3923382bb8f8"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

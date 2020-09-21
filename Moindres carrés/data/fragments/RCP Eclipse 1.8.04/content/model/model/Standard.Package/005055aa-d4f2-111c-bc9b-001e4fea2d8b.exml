@@ -1,0 +1,73 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="dialogs" version="4">
+  <OBJECT>
+    <ID name="dialogs" mc="Standard.Package" uid="005055aa-d4f2-111c-bc9b-001e4fea2d8b"/>
+    <PID name="ui" mc="Standard.Package" uid="00471ad0-d4f2-111c-bc9b-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[dialogs]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AddRepositoryDialog" mc="Standard.Class" uid="00515fd6-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="ApplyProfileChangesDialog" mc="Standard.Class" uid="0054911a-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="AvailableIUGroup" mc="Standard.Class" uid="0054ad08-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="AvailableIUPatternFilter" mc="Standard.Class" uid="00513664-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="AvailableIUsPage" mc="Standard.Class" uid="00508624-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="ComboAutoCompleteField" mc="Standard.Class" uid="0053ff0c-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="ContainerCheckedTreeViewer" mc="Standard.Class" uid="005121c4-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="CopyHandler" mc="Standard.Class" uid="00509916-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="CopyPopup" mc="Standard.Class" uid="0052afc6-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="CopyUtils" mc="Standard.Class" uid="0052c826-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="DelayedFilterCheckboxTree" mc="Standard.Class" uid="0051e24e-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="ILayoutConstants" mc="Standard.Interface" uid="0052f3e6-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="IPreFilterJobProvider" mc="Standard.Interface" uid="0050f974-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="IRepositoryManipulationHook" mc="Standard.Interface" uid="0050bed2-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="IRepositorySelectionListener" mc="Standard.Interface" uid="0053b196-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="IResolutionErrorReportingPage" mc="Standard.Interface" uid="0053517e-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="ISelectableIUsPage" mc="Standard.Interface" uid="00519bcc-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="IUCopyrightPropertyPage" mc="Standard.Class" uid="00536ace-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="IUDetailsGroup" mc="Standard.Class" uid="00543eb8-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="IUGeneralInfoPropertyPage" mc="Standard.Class" uid="0054592a-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="IULicensePropertyPage" mc="Standard.Class" uid="00530c50-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="IUPropertyPage" mc="Standard.Class" uid="00539ddc-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="IViewMenuProvider" mc="Standard.Interface" uid="005172dc-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="InstallWizard" mc="Standard.Class" uid="0051f86a-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="InstallWizardPage" mc="Standard.Class" uid="00514adc-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="InstalledIUGroup" mc="Standard.Class" uid="0054c90a-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="PreselectedIUInstallWizard" mc="Standard.Class" uid="00523b9a-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="ProvisioningOperationWizard" mc="Standard.Class" uid="00510d60-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="ProvisioningWizardDialog" mc="Standard.Class" uid="005324ba-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="RemediationGroup" mc="Standard.Class" uid="22339ec3-ddac-40d1-bc64-2d08bd63d33c"/>
+        <COMPID name="RemediationPage" mc="Standard.Class" uid="4c456b86-796e-4449-b9c2-7e5ddfbb5cfb"/>
+        <COMPID name="RepositoryManipulatorDropTarget" mc="Standard.Class" uid="0053cb2c-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="RepositoryNameAndLocationDialog" mc="Standard.Class" uid="0053e51c-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="RepositorySelectionGroup" mc="Standard.Class" uid="005187c2-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="ResolutionResultsWizardPage" mc="Standard.Class" uid="0050d250-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="ResolutionStatusPage" mc="Standard.Class" uid="0050731e-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="SelectableIUsPage" mc="Standard.Class" uid="00533d92-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="SizeComputingWizardPage" mc="Standard.Class" uid="00520e5e-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="StructuredIUGroup" mc="Standard.Class" uid="0051c6a6-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="TextURLDropAdapter" mc="Standard.Class" uid="0052e068-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="TrustCertificateDialog" mc="Standard.Class" uid="00538450-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="URLDropAdapter" mc="Standard.Class" uid="005224c0-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="UninstallWizard" mc="Standard.Class" uid="0051b152-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="UninstallWizardPage" mc="Standard.Class" uid="0050ac76-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="UpdateSingleIUPage" mc="Standard.Class" uid="005297f2-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="UpdateSingleIUWizard" mc="Standard.Class" uid="0052524c-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="UpdateWizard" mc="Standard.Class" uid="005474fa-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="UpdateWizardPage" mc="Standard.Class" uid="0052694e-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="UserValidationDialog" mc="Standard.Class" uid="005280aa-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="WizardWithLicenses" mc="Standard.Class" uid="0050e650-d4f2-111c-bc9b-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

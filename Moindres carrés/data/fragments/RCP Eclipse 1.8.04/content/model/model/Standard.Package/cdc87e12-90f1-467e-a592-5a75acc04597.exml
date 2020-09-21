@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="factory" version="4">
+  <OBJECT>
+    <ID name="factory" mc="Standard.Package" uid="cdc87e12-90f1-467e-a592-5a75acc04597"/>
+    <PID name="creation" mc="Standard.Package" uid="01875c24-efb1-44d0-86be-1e96a4f367ae"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[factory]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractExplicitFactoryCreationSupport" mc="Standard.Class" uid="1f102d1b-84b6-48fc-8da2-e947b7020344"/>
+        <COMPID name="AbstractFactoryCreationSupport" mc="Standard.Class" uid="2a1d6e57-807e-42ad-ba1b-35418f292ca0"/>
+        <COMPID name="ImplicitFactoryCreationSupport" mc="Standard.Class" uid="f1d2f319-629c-43f9-b746-b628dff7929a"/>
+        <COMPID name="InstanceFactoryContainerInfo" mc="Standard.Class" uid="4155826f-21c6-42ca-839f-d73f8e0b9e53"/>
+        <COMPID name="InstanceFactoryCreationSupport" mc="Standard.Class" uid="d6d98f39-b20a-497f-8902-f10a912b07c3"/>
+        <COMPID name="InstanceFactoryInfo" mc="Standard.Class" uid="c86d3b05-010d-430b-95cb-920741675c69"/>
+        <COMPID name="InstanceFactoryRootProcessor" mc="Standard.Class" uid="96f75218-e769-4edf-8b3a-117f9d934e11"/>
+        <COMPID name="StaticFactoryCreationSupport" mc="Standard.Class" uid="3901a733-b90f-4f8f-9038-94073d187e8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

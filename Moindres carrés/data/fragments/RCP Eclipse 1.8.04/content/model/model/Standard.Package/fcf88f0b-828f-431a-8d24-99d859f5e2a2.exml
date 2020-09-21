@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="parser" version="4">
+  <OBJECT>
+    <ID name="parser" mc="Standard.Package" uid="fcf88f0b-828f-431a-8d24-99d859f5e2a2"/>
+    <PID name="core" mc="Standard.Package" uid="b2a6444b-135c-463b-ab40-643a4d6cc915"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[parser]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Attributes" mc="Standard.Class" uid="bc3f2804-e1b1-479e-9b48-463b223d654d"/>
+        <COMPID name="DocumentBuilder" mc="Standard.Class" uid="d437ff30-b0e6-4125-835f-9ee9fdcc9bc1"/>
+        <COMPID name="HeadingAttributes" mc="Standard.Class" uid="7a89c762-e93d-401a-b724-cd874738f68d"/>
+        <COMPID name="HtmlParser" mc="Standard.Class" uid="c90885af-f2c8-4edc-8e9f-2195ceb27b8c"/>
+        <COMPID name="IdGenerator" mc="Standard.Class" uid="b04a5169-a80d-4191-864b-2f17e5cd8a16"/>
+        <COMPID name="ImageAttributes" mc="Standard.Class" uid="cc85c5ff-b260-4b69-9003-1158c591367e"/>
+        <COMPID name="LinkAttributes" mc="Standard.Class" uid="5938e60d-cf39-4c5f-8f40-4a88921f33fa"/>
+        <COMPID name="ListAttributes" mc="Standard.Class" uid="f3de9bee-06da-4a22-9a97-f6ab0999c142"/>
+        <COMPID name="Locator" mc="Standard.Interface" uid="10950c90-aad6-4a5d-8eb6-d998bfaa9028"/>
+        <COMPID name="MarkupParser" mc="Standard.Class" uid="75772996-e3a2-429e-8ca6-bf70a94d81b2"/>
+        <COMPID name="QuoteAttributes" mc="Standard.Class" uid="cb8a9c53-07fa-46fe-9dbd-d1f1acd0cf42"/>
+        <COMPID name="TableAttributes" mc="Standard.Class" uid="18ebccd9-c915-4845-9d85-81be32b9605b"/>
+        <COMPID name="TableCellAttributes" mc="Standard.Class" uid="70a4a97f-496c-4d8a-a199-ee66397bebb3"/>
+        <COMPID name="TableRowAttributes" mc="Standard.Class" uid="30143073-0a99-4a44-8929-8320fb720fac"/>
+        <COMPID name="builder" mc="Standard.Package" uid="3327a68e-9c75-4965-9bd1-178eab1e8223"/>
+        <COMPID name="markup" mc="Standard.Package" uid="99805526-e7fe-4104-a587-d8289d40d43f"/>
+        <COMPID name="outline" mc="Standard.Package" uid="8a170010-1e63-404e-a723-7aea672c735e"/>
+        <COMPID name="util" mc="Standard.Package" uid="488f15c8-0bc4-467c-aef4-08455a390ecd"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

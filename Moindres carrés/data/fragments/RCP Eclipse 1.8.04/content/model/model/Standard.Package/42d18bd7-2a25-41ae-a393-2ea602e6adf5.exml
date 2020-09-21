@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="internal" version="4">
+  <OBJECT>
+    <ID name="internal" mc="Standard.Package" uid="42d18bd7-2a25-41ae-a393-2ea602e6adf5"/>
+    <PID name="events" mc="Standard.Package" uid="49bc8f90-cb91-43a5-a854-cae4e1f788d6"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[internal]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="DelayedClassLoadingListener" mc="Standard.Class" uid="7b9419ec-08d9-41e5-ad89-276cc0f87ab2"/>
+        <COMPID name="EventsExtensionPoint" mc="Standard.Class" uid="02fba65a-8f6f-4884-bd2a-80c0a80f5666"/>
+        <COMPID name="FacetedProjectEvent" mc="Standard.Class" uid="aa2cce56-ede6-4481-a9c8-823228f611d5"/>
+        <COMPID name="FacetedProjectFrameworkEvent" mc="Standard.Class" uid="97adda9d-9558-4189-a2fc-ca2b0f28de13"/>
+        <COMPID name="FixedFacetsChangedEvent" mc="Standard.Class" uid="0a15c3c5-2b5b-42e8-ae3f-8325d52f2d8e"/>
+        <COMPID name="FrameworkListenerRegistry" mc="Standard.Class" uid="dee58de2-0341-4e06-a358-4265b4fdc12e"/>
+        <COMPID name="LegacyEventHandlerAdapter" mc="Standard.Class" uid="bd554a06-ba67-4731-9cd2-c04bd6d3bcdb"/>
+        <COMPID name="LegacyListenerAdapter" mc="Standard.Class" uid="a7cddb86-aac2-40b1-84fd-62337d168e95"/>
+        <COMPID name="PrimaryRuntimeChangedEvent" mc="Standard.Class" uid="9c52d200-9b21-4274-be7f-7bac6a311324"/>
+        <COMPID name="ProjectFacetActionEvent" mc="Standard.Class" uid="d879fcc1-000d-433c-9db5-3fec2e82041d"/>
+        <COMPID name="ProjectFacetsChangedEvent" mc="Standard.Class" uid="de697f68-64b8-4ba4-a50c-acca583317d4"/>
+        <COMPID name="ProjectListenerRegistry" mc="Standard.Class" uid="8928b9d1-7c36-4527-972d-97ab71a2b4df"/>
+        <COMPID name="ProjectModifiedEvent" mc="Standard.Class" uid="70949fe6-97e4-4e84-aa0a-375a6f86abcc"/>
+        <COMPID name="TargetedRuntimesChangedEvent" mc="Standard.Class" uid="435e0425-b0e1-4278-9393-219d19223030"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

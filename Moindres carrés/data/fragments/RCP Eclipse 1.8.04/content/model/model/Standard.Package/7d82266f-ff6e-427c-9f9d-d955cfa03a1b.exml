@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="lifecycle" version="4">
+  <OBJECT>
+    <ID name="lifecycle" mc="Standard.Package" uid="7d82266f-ff6e-427c-9f9d-d955cfa03a1b"/>
+    <PID name="maven" mc="Standard.Package" uid="173ccbb1-ee67-4028-9140-8289e1158a15"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[lifecycle]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="DefaultLifecycleExecutor" mc="Standard.Class" uid="c204e646-6fe6-4e71-97eb-4bb7ac3c5011"/>
+        <COMPID name="DefaultLifecycles" mc="Standard.Class" uid="d8ccff7f-af11-4d39-afc1-d5973f44371c"/>
+        <COMPID name="LifeCyclePluginAnalyzer" mc="Standard.Interface" uid="81a760dd-a81a-46cc-8be6-d32b30d7ebfa"/>
+        <COMPID name="Lifecycle" mc="Standard.Class" uid="d5513509-bb79-47ec-9c75-316e281e2f00"/>
+        <COMPID name="LifecycleExecutionException" mc="Standard.Class" uid="ce28c9e0-b6c7-4abf-9ab9-3a7a292beb22"/>
+        <COMPID name="LifecycleExecutor" mc="Standard.Interface" uid="4cd2b0a2-bdb2-4ddd-bc1f-f0f13eb561ac"/>
+        <COMPID name="LifecycleMappingDelegate" mc="Standard.Interface" uid="6172c64b-ec86-423b-9bbd-6b9d2e2856b7"/>
+        <COMPID name="LifecycleNotFoundException" mc="Standard.Class" uid="cc44b5d0-a604-4b19-8b73-d499251f1e18"/>
+        <COMPID name="LifecyclePhaseNotFoundException" mc="Standard.Class" uid="f907a1c2-aa64-4fdb-8e1a-e1f00c6aebe9"/>
+        <COMPID name="MavenExecutionPlan" mc="Standard.Class" uid="7ab3bddc-2c07-43df-bc05-df976da9fa7e"/>
+        <COMPID name="MissingProjectException" mc="Standard.Class" uid="56e8a8e6-50a7-45a1-8ce8-aedc35d24561"/>
+        <COMPID name="MojoExecutionConfigurator" mc="Standard.Interface" uid="25fece4c-ef66-4ea3-bbb3-001ad8988564"/>
+        <COMPID name="NoGoalSpecifiedException" mc="Standard.Class" uid="faa95b27-6925-413c-bb1f-64c34b321bbc"/>
+        <COMPID name="internal" mc="Standard.Package" uid="048be453-06ee-48a4-b22d-90742ce026cb"/>
+        <COMPID name="mapping" mc="Standard.Package" uid="86eaae80-4e44-48ce-b3d1-1b21fa83b6b2"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

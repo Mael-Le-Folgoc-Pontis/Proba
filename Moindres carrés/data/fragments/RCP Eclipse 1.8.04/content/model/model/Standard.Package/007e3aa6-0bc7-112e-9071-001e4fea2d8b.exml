@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="util" version="4">
+  <OBJECT>
+    <ID name="util" mc="Standard.Package" uid="007e3aa6-0bc7-112e-9071-001e4fea2d8b"/>
+    <PID name="base" mc="Standard.Package" uid="0079b5a8-0bc7-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[util]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="CriteriaUtilities" mc="Standard.Class" uid="007e4122-0bc7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HelpProperties" mc="Standard.Class" uid="007e47d0-0bc7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IErrorUtil" mc="Standard.Interface" uid="007e4e1a-0bc7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IndexUtils" mc="Standard.Class" uid="007e5536-0bc7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LinkUtil" mc="Standard.Class" uid="007e5c2a-0bc7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ProxyUtil" mc="Standard.Class" uid="15272518-2f99-435d-a00b-2c6d361c0780"/>
+        <COMPID name="TString" mc="Standard.Class" uid="007e635a-0bc7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TestConnectionUtility" mc="Standard.Class" uid="007e6b84-0bc7-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

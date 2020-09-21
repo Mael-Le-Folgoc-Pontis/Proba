@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="core" version="4">
+  <OBJECT>
+    <ID name="core" mc="Standard.Package" uid="000979a0-0bdb-112e-9071-001e4fea2d8b"/>
+    <PID name="hamcrest" mc="Standard.Package" uid="000900f6-0bdb-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[core]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AllOf" mc="Standard.Class" uid="00097f5e-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AnyOf" mc="Standard.Class" uid="0009859e-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CombinableMatcher" mc="Standard.Class" uid="b7a8eb81-2627-4a2f-9d91-5c4d80c45300"/>
+        <COMPID name="DescribedAs" mc="Standard.Class" uid="00098bca-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Every" mc="Standard.Class" uid="f674b2ef-3e09-4d05-ac0e-a4b0aa69cc50"/>
+        <COMPID name="Is" mc="Standard.Class" uid="00099264-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IsAnything" mc="Standard.Class" uid="00099926-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IsCollectionContaining" mc="Standard.Class" uid="c30b8aa9-f6da-45da-bbff-33392d3d4ac2"/>
+        <COMPID name="IsEqual" mc="Standard.Class" uid="00099fe8-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IsInstanceOf" mc="Standard.Class" uid="0009a768-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IsNot" mc="Standard.Class" uid="0009aede-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IsNull" mc="Standard.Class" uid="0009b640-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IsSame" mc="Standard.Class" uid="0009be4c-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="StringContains" mc="Standard.Class" uid="d86c8ded-3473-4bee-9441-a087a2a876e1"/>
+        <COMPID name="StringEndsWith" mc="Standard.Class" uid="53fb75a2-af8b-4e7f-85ee-28a88662f408"/>
+        <COMPID name="StringStartsWith" mc="Standard.Class" uid="2166d585-19d2-44e4-ac5b-4eab127f00bd"/>
+        <COMPID name="SubstringMatcher" mc="Standard.Class" uid="c9a73f35-546a-48ea-88cf-7cb703e34e8f"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

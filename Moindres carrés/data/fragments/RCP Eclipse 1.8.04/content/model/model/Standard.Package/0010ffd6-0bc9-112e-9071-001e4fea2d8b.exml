@@ -1,0 +1,188 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="core" version="4">
+  <OBJECT>
+    <ID name="core" mc="Standard.Package" uid="0010ffd6-0bc9-112e-9071-001e4fea2d8b"/>
+    <PID name="internal" mc="Standard.Package" uid="00767f28-0bc8-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[core]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ASTHolderCUInfo" mc="Standard.Class" uid="00110904-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AnnotatableInfo" mc="Standard.Class" uid="00110fc6-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Annotation" mc="Standard.Class" uid="00111660-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AnnotationInfo" mc="Standard.Class" uid="00111d72-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BasicCompilationUnit" mc="Standard.Class" uid="001124b6-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BatchInitializationMonitor" mc="Standard.Class" uid="00112bf0-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BatchOperation" mc="Standard.Class" uid="001133a2-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BecomeWorkingCopyOperation" mc="Standard.Class" uid="00113b90-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BinaryLambdaExpression" mc="Standard.Class" uid="cf67326b-2257-4a7f-80f4-24033a1ac055"/>
+        <COMPID name="BinaryLambdaMethod" mc="Standard.Class" uid="e418d95d-a4ef-47a3-b9f4-8adc8791688e"/>
+        <COMPID name="BinaryMember" mc="Standard.Class" uid="00114ba8-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BinaryType" mc="Standard.Class" uid="00115ca6-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BinaryTypeConverter" mc="Standard.Class" uid="0011658e-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Buffer" mc="Standard.Class" uid="00116e6c-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BufferCache" mc="Standard.Class" uid="001177a4-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BufferFactoryWrapper" mc="Standard.Class" uid="0011812c-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BufferManager" mc="Standard.Class" uid="00118a96-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CancelableNameEnvironment" mc="Standard.Class" uid="001195cc-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CancelableProblemFactory" mc="Standard.Class" uid="00119fea-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ChangeClasspathOperation" mc="Standard.Class" uid="0011a9ea-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ClassFile" mc="Standard.Class" uid="0011b4b2-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ClassFileWorkingCopy" mc="Standard.Class" uid="0011c9e8-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ClasspathAccessRule" mc="Standard.Class" uid="0011d4e2-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ClasspathAttribute" mc="Standard.Class" uid="0011e018-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ClasspathChange" mc="Standard.Class" uid="0011eb4e-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ClasspathEntry" mc="Standard.Class" uid="0011f6f2-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ClasspathValidation" mc="Standard.Class" uid="00121fec-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CommitWorkingCopyOperation" mc="Standard.Class" uid="00122bf4-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CompilationUnit" mc="Standard.Class" uid="0012386a-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CompilationUnitElementInfo" mc="Standard.Class" uid="001244cc-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CompilationUnitProblemFinder" mc="Standard.Class" uid="00125156-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CompilationUnitStructureRequestor" mc="Standard.Class" uid="00125dcc-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CopyElementsOperation" mc="Standard.Class" uid="00126b0a-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CopyPackageFragmentRootOperation" mc="Standard.Class" uid="00127848-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CopyResourceElementsOperation" mc="Standard.Class" uid="00128572-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CreateCompilationUnitOperation" mc="Standard.Class" uid="00129300-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CreateElementInCUOperation" mc="Standard.Class" uid="0012a0ca-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CreateFieldOperation" mc="Standard.Class" uid="0012ae76-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CreateImportOperation" mc="Standard.Class" uid="0012bc86-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CreateInitializerOperation" mc="Standard.Class" uid="0012cadc-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CreateMethodOperation" mc="Standard.Class" uid="0012d9b4-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CreatePackageDeclarationOperation" mc="Standard.Class" uid="0012e878-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CreatePackageFragmentOperation" mc="Standard.Class" uid="0012f764-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CreateTypeHierarchyOperation" mc="Standard.Class" uid="00130664-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CreateTypeMemberOperation" mc="Standard.Class" uid="001315a0-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CreateTypeOperation" mc="Standard.Class" uid="00132540-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DefaultWorkingCopyOwner" mc="Standard.Class" uid="001334cc-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DeleteElementsOperation" mc="Standard.Class" uid="001344c6-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DeletePackageFragmentRootOperation" mc="Standard.Class" uid="001354e8-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DeleteResourceElementsOperation" mc="Standard.Class" uid="001364f6-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DeltaProcessingState" mc="Standard.Class" uid="00137626-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DeltaProcessor" mc="Standard.Class" uid="00138738-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DiscardWorkingCopyOperation" mc="Standard.Class" uid="0013b492-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DocumentAdapter" mc="Standard.Class" uid="0013c61c-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ElementCache" mc="Standard.Class" uid="0013d7ba-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ExternalAnnotationTracker" mc="Standard.Class" uid="611e03dc-5f20-4ceb-a037-a3b79b6db923"/>
+        <COMPID name="ExternalFolderChange" mc="Standard.Class" uid="0013e912-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ExternalFoldersManager" mc="Standard.Class" uid="0013faba-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ExternalJavaProject" mc="Standard.Class" uid="00141374-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ExternalPackageFragmentRoot" mc="Standard.Class" uid="0014259e-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IJavaElementRequestor" mc="Standard.Interface" uid="00142bfc-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="INameEnvironmentWithProgress" mc="Standard.Interface" uid="001432aa-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="INamingRequestor" mc="Standard.Interface" uid="001439a8-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IPathRequestor" mc="Standard.Interface" uid="001440d8-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ImportContainer" mc="Standard.Class" uid="00145334-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ImportContainerInfo" mc="Standard.Class" uid="001465ea-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ImportDeclaration" mc="Standard.Class" uid="001478b4-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ImportDeclarationElementInfo" mc="Standard.Class" uid="00148b9c-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Initializer" mc="Standard.Class" uid="00149e8e-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="InitializerElementInfo" mc="Standard.Class" uid="0014b284-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="InitializerWithChildrenInfo" mc="Standard.Class" uid="0014c602-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="InternalNamingConventions" mc="Standard.Class" uid="0014d994-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JarEntryDirectory" mc="Standard.Class" uid="0014ed80-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JarEntryFile" mc="Standard.Class" uid="0015019e-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JarEntryResource" mc="Standard.Class" uid="001515b2-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JarPackageFragmentRoot" mc="Standard.Class" uid="00155464-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaCorePreferenceInitializer" mc="Standard.Class" uid="00157ebc-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaCorePreferenceModifyListener" mc="Standard.Class" uid="00159438-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaElement" mc="Standard.Class" uid="0015a9fa-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaElementDelta" mc="Standard.Class" uid="0015c020-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaElementDeltaBuilder" mc="Standard.Class" uid="0015d65a-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaElementInfo" mc="Standard.Class" uid="0015fb30-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaElementRequestor" mc="Standard.Class" uid="001611ce-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaModel" mc="Standard.Class" uid="001628c6-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaModelCache" mc="Standard.Class" uid="00163f96-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaModelInfo" mc="Standard.Class" uid="001656ac-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaModelManager" mc="Standard.Class" uid="00166d90-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaModelOperation" mc="Standard.Class" uid="0016eca2-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaModelStatus" mc="Standard.Class" uid="00170b56-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaProject" mc="Standard.Class" uid="001723b6-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavadocConstants" mc="Standard.Interface" uid="00176d4e-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavadocContents" mc="Standard.Class" uid="001785ae-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LRUCacheEnumerator" mc="Standard.Class" uid="00179e22-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LambdaExpression" mc="Standard.Class" uid="f6256940-b6fe-4fe9-a02c-ef52a84b3b9e"/>
+        <COMPID name="LambdaFactory" mc="Standard.Class" uid="be7b560a-0118-4399-9b7e-a50fa7c9bdeb"/>
+        <COMPID name="LambdaMethod" mc="Standard.Class" uid="6dd29065-b5a0-453b-8d41-a1b77482e49d"/>
+        <COMPID name="LocalVariable" mc="Standard.Class" uid="0017c4ce-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Member" mc="Standard.Class" uid="0017dda6-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MemberValuePair" mc="Standard.Class" uid="00181028-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ModelUpdater" mc="Standard.Class" uid="001829aa-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MoveElementsOperation" mc="Standard.Class" uid="0018434a-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MovePackageFragmentRootOperation" mc="Standard.Class" uid="00185d58-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MoveResourceElementsOperation" mc="Standard.Class" uid="00187752-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MultiOperation" mc="Standard.Class" uid="0018917e-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="NameLookup" mc="Standard.Class" uid="0018abdc-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="NamedMember" mc="Standard.Class" uid="0018d54e-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="NonJavaResource" mc="Standard.Class" uid="0018f092-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="NullBuffer" mc="Standard.Class" uid="00190bea-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Openable" mc="Standard.Class" uid="00192710-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="OpenableElementInfo" mc="Standard.Class" uid="00194290-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="OverflowingLRUCache" mc="Standard.Class" uid="00195eba-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PackageDeclaration" mc="Standard.Class" uid="00197a76-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PackageFragment" mc="Standard.Class" uid="00199664-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PackageFragmentRoot" mc="Standard.Class" uid="0019cf44-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ProjectReferenceChange" mc="Standard.Class" uid="001a0932-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ReconcileWorkingCopyOperation" mc="Standard.Class" uid="001a26a6-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Region" mc="Standard.Class" uid="001a43ca-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RenameElementsOperation" mc="Standard.Class" uid="001a6120-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RenameResourceElementsOperation" mc="Standard.Class" uid="001a7f02-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ResolvedBinaryField" mc="Standard.Class" uid="001a9cbc-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ResolvedBinaryMethod" mc="Standard.Class" uid="001abb3e-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ResolvedBinaryType" mc="Standard.Class" uid="001ad9d4-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ResolvedLambdaExpression" mc="Standard.Class" uid="0b65de89-5cbd-4841-8db1-4a91c69801e7"/>
+        <COMPID name="ResolvedSourceField" mc="Standard.Class" uid="001af7f2-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ResolvedSourceMethod" mc="Standard.Class" uid="001b169c-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ResolvedSourceType" mc="Standard.Class" uid="001b3578-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SearchableEnvironment" mc="Standard.Class" uid="001b54cc-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SelectionRequestor" mc="Standard.Class" uid="001b9428-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SetClasspathOperation" mc="Standard.Class" uid="001bb3cc-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SetContainerOperation" mc="Standard.Class" uid="001bd384-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SetVariablesOperation" mc="Standard.Class" uid="001bf3fa-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SimpleDelta" mc="Standard.Class" uid="001c14ca-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SortElementsOperation" mc="Standard.Class" uid="001c5610-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SourceAnnotationMethodInfo" mc="Standard.Class" uid="001c76fe-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SourceConstructorInfo" mc="Standard.Class" uid="001c985a-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SourceConstructorWithChildrenInfo" mc="Standard.Class" uid="001cb9ca-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SourceField" mc="Standard.Class" uid="001cdf5e-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SourceFieldElementInfo" mc="Standard.Class" uid="001d00ec-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SourceFieldWithChildrenInfo" mc="Standard.Class" uid="001d22c0-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SourceMapper" mc="Standard.Class" uid="001d44c6-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SourceMethod" mc="Standard.Class" uid="001d775c-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SourceMethodElementInfo" mc="Standard.Class" uid="001d996c-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SourceMethodInfo" mc="Standard.Class" uid="001dbbfe-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SourceMethodWithChildrenInfo" mc="Standard.Class" uid="001ddf4e-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SourceRefElement" mc="Standard.Class" uid="001e0258-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SourceType" mc="Standard.Class" uid="001e48da-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SourceTypeElementInfo" mc="Standard.Class" uid="001e6d06-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TypeParameter" mc="Standard.Class" uid="001e90ce-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TypeParameterElementInfo" mc="Standard.Class" uid="001eb4c8-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TypeVector" mc="Standard.Class" uid="001ed91c-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="UserLibrary" mc="Standard.Class" uid="001efd8e-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="UserLibraryClasspathContainer" mc="Standard.Class" uid="001f21d8-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="UserLibraryClasspathContainerInitializer" mc="Standard.Class" uid="001f4668-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="UserLibraryManager" mc="Standard.Class" uid="001f6b3e-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="VerboseElementCache" mc="Standard.Class" uid="001f9028-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="builder" mc="Standard.Package" uid="0020b494-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="dom" mc="Standard.Package" uid="00229a20-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="eval" mc="Standard.Package" uid="0026271c-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="hierarchy" mc="Standard.Package" uid="002750ba-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="index" mc="Standard.Package" uid="0028c364-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="jdom" mc="Standard.Package" uid="002a2e7a-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="manipulation" mc="Standard.Package" uid="002bd41e-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="refactoring" mc="Standard.Package" uid="002d2f76-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="search" mc="Standard.Package" uid="002fcf2e-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="util" mc="Standard.Package" uid="0038a8ce-0bc9-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

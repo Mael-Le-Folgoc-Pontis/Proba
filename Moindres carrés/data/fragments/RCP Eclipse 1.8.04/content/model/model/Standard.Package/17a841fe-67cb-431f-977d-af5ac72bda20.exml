@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="java" version="4">
+  <OBJECT>
+    <ID name="java" mc="Standard.Package" uid="17a841fe-67cb-431f-977d-af5ac72bda20"/>
+    <PID name="toolchain" mc="Standard.Package" uid="64b0e900-33ee-4fc4-921f-da88524a4052"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[java]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="DefaultJavaToolChain" mc="Standard.Class" uid="21ecdaf9-7eb3-4789-b3e1-cf2c5fda73c3"/>
+        <COMPID name="JavaToolchain" mc="Standard.Interface" uid="cca0e06d-b1e0-40d4-9d8d-2546afa0e062"/>
+        <COMPID name="JavaToolchainFactory" mc="Standard.Class" uid="fb5bdb21-68ff-4c16-a379-1447094df73d"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

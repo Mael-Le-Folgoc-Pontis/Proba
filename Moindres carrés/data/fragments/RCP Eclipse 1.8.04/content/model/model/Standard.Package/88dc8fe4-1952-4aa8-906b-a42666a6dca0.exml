@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="search" version="4">
+  <OBJECT>
+    <ID name="search" mc="Standard.Package" uid="88dc8fe4-1952-4aa8-906b-a42666a6dca0"/>
+    <PID name="internal" mc="Standard.Package" uid="8de19d9c-309f-4c7f-968c-e82cba2f8859"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[search]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="BasicSearchLabelProvider" mc="Standard.Class" uid="fd5d472a-2b0b-4335-bd8a-adfaa30569f6"/>
+        <COMPID name="BasicSearchMatchElement" mc="Standard.Class" uid="f42a03e0-87ba-47bc-bdb8-52ad48133cad"/>
+        <COMPID name="BasicSearchQuery" mc="Standard.Class" uid="2ad57ffb-c8ad-43b2-95ac-f8dd2deb5e3d"/>
+        <COMPID name="FindOccurrencesActionDelegate" mc="Standard.Class" uid="7e738b6f-4ae3-48fb-b9d5-bfecd415bfd1"/>
+        <COMPID name="FindOccurrencesProcessor" mc="Standard.Class" uid="c4bb81bc-99d6-4a96-99d8-ac81fdaaba56"/>
+        <COMPID name="OccurrencesContentProvider" mc="Standard.Class" uid="02aca831-ea23-4a0c-86d0-f346b0e9f7b5"/>
+        <COMPID name="OccurrencesSearchQuery" mc="Standard.Class" uid="96419166-7793-4f21-a0c4-e998378edbbf"/>
+        <COMPID name="OccurrencesSearchResult" mc="Standard.Class" uid="1de9729b-cc83-4b65-a260-1a07e63b15fb"/>
+        <COMPID name="OccurrencesSearchViewPage" mc="Standard.Class" uid="abdc3732-5874-4821-8d7e-d23e68136cfe"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

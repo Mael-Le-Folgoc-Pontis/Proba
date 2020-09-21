@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="indexdiff" version="4">
+  <OBJECT>
+    <ID name="indexdiff" mc="Standard.Package" uid="c470e9dd-9c31-41a0-aeaf-0a0b9150ff27"/>
+    <PID name="internal" mc="Standard.Package" uid="4cf20e63-bbc4-4db1-9986-a242dfadfbfa"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[indexdiff]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="GitResourceDeltaVisitor" mc="Standard.Class" uid="0c9b863b-85d3-41d4-b535-d89cb045bea8"/>
+        <COMPID name="IndexDiffCache" mc="Standard.Class" uid="ce8a1d6a-02ec-499f-9fdf-b7ef6cf3ab1c"/>
+        <COMPID name="IndexDiffCacheEntry" mc="Standard.Class" uid="e8f555ed-e754-4a67-b8dd-6b43544815f4"/>
+        <COMPID name="IndexDiffChangedListener" mc="Standard.Interface" uid="655ce36f-9ce3-49d7-8327-8fddcf85f967"/>
+        <COMPID name="IndexDiffData" mc="Standard.Class" uid="d3d4f239-aaf0-4c98-b7ce-589b9298ff37"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

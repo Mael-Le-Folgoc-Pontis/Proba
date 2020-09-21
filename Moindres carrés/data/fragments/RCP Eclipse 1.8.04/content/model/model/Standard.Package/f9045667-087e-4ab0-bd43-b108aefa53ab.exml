@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="decorator" version="4">
+  <OBJECT>
+    <ID name="decorator" mc="Standard.Package" uid="f9045667-087e-4ab0-bd43-b108aefa53ab"/>
+    <PID name="javax" mc="Standard.Package" uid="006b93ba-2f22-1ff4-a4b3-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[decorator]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Decorator" mc="Standard.Class" uid="c9f2394d-2245-4988-b7a8-dad8fb68876a"/>
+        <COMPID name="Delegate" mc="Standard.Class" uid="88ba82d6-fbf2-42c3-aa71-317e5dd80dbb"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

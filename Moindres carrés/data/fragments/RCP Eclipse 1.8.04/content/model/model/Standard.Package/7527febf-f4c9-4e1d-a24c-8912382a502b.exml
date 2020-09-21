@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="event" version="4">
+  <OBJECT>
+    <ID name="event" mc="Standard.Package" uid="7527febf-f4c9-4e1d-a24c-8912382a502b"/>
+    <PID name="joran" mc="Standard.Package" uid="d268d326-4382-4c77-b2d8-cce04b60231e"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[event]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="BodyEvent" mc="Standard.Class" uid="7035c630-d675-4ed3-a490-23e938f3e574"/>
+        <COMPID name="EndEvent" mc="Standard.Class" uid="7ad80fbc-425f-4163-9c20-5592b364d1d2"/>
+        <COMPID name="InPlayListener" mc="Standard.Interface" uid="b7d514a8-3d6a-4547-9410-8ce6d460b587"/>
+        <COMPID name="SaxEvent" mc="Standard.Class" uid="14708bca-9661-469a-bb50-9bef777f10c0"/>
+        <COMPID name="SaxEventRecorder" mc="Standard.Class" uid="7c53fbe9-5c6f-43a0-a693-a15cba271236"/>
+        <COMPID name="StartEvent" mc="Standard.Class" uid="a408cbf8-8a19-435e-a120-c4f05e0b4537"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

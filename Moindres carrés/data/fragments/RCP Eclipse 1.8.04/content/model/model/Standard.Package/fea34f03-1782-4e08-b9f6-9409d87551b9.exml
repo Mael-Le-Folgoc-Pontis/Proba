@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="emf2xml" version="4">
+  <OBJECT>
+    <ID name="emf2xml" mc="Standard.Package" uid="fea34f03-1782-4e08-b9f6-9409d87551b9"/>
+    <PID name="internal" mc="Standard.Package" uid="e9152071-ab45-4e26-8cf6-708827cd7d86"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[emf2xml]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="EMF2DOMSSEAdapter" mc="Standard.Class" uid="395c3bf1-59f8-4739-88de-799941d4aeb8"/>
+        <COMPID name="EMF2DOMSSERenderer" mc="Standard.Class" uid="b2f69852-1cfa-4865-93e4-3997cf5f9f9c"/>
+        <COMPID name="EMF2DOMSSERendererFactory" mc="Standard.Class" uid="4c0c1e9c-6ecc-49ac-b449-65b7fc706830"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

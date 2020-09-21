@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="details" version="4">
+  <OBJECT>
+    <ID name="details" mc="Standard.Package" uid="004e831a-0bd1-112e-9071-001e4fea2d8b"/>
+    <PID name="toc" mc="Standard.Package" uid="004b2828-0bd1-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[details]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="HelpEditorFilter" mc="Standard.Class" uid="004e893c-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TocAbstractDetails" mc="Standard.Class" uid="004e8f54-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TocAnchorDetails" mc="Standard.Class" uid="004e9602-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TocDetails" mc="Standard.Class" uid="004e9d1e-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TocDetailsMessages" mc="Standard.Class" uid="004ea3c2-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TocLinkDetails" mc="Standard.Class" uid="004eaad4-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TocTopicDetails" mc="Standard.Class" uid="004eb218-0bd1-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

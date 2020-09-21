@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="auth" version="4">
+  <OBJECT>
+    <ID name="auth" mc="Standard.Package" uid="445b3aaa-fd0d-4f24-89b4-ccdede6b6bef"/>
+    <PID name="core" mc="Standard.Package" uid="93f25e11-3053-4dc1-8a29-fde00a4aa3ce"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[auth]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AuthenticationCredentials" mc="Standard.Class" uid="004c5fea-82f5-4c1c-a069-6bb7ddceecec"/>
+        <COMPID name="AuthenticationException" mc="Standard.Class" uid="0f570f44-54ea-4b1b-8900-caa2f05b9b12"/>
+        <COMPID name="AuthenticationRequest" mc="Standard.Class" uid="a3061832-fdcb-4546-a4ca-db5bb6ae08f6"/>
+        <COMPID name="AuthenticationType" mc="Standard.Class" uid="038e61ed-7bd7-4db9-b10f-1d204b24f4b9"/>
+        <COMPID name="CertificateCredentials" mc="Standard.Class" uid="fcc7a848-3bb7-4b18-96f5-59bed908dfea"/>
+        <COMPID name="CredentialsStores" mc="Standard.Class" uid="5cd195c9-dc74-40d0-93f2-64ac528ec00f"/>
+        <COMPID name="ICredentialsStore" mc="Standard.Interface" uid="6b835c95-61c2-4010-85d6-a71c35fd77d6"/>
+        <COMPID name="OpenIdAuthenticationRequest" mc="Standard.Class" uid="d70a1e25-55eb-4829-897a-34bc736e33fb"/>
+        <COMPID name="OpenIdCredentials" mc="Standard.Class" uid="c48c41a5-676b-4aed-a435-5f4588ced3d3"/>
+        <COMPID name="UnavailableException" mc="Standard.Class" uid="c439252f-5ddd-4273-9fdd-169147cfdc45"/>
+        <COMPID name="UserAuthenticationRequest" mc="Standard.Class" uid="cdbf647e-62e1-4e64-9ca0-0a42e50708b1"/>
+        <COMPID name="UserCredentials" mc="Standard.Class" uid="b92016c6-0bc8-4064-a4ab-c2f106526b6f"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

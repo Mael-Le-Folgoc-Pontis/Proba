@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="internal" version="4">
+  <OBJECT>
+    <ID name="internal" mc="Standard.Package" uid="00538bbc-21a2-1fb1-8a9e-001e4fea2d8b"/>
+    <PID name="help" mc="Standard.Package" uid="004e0b06-21a2-1fb1-8a9e-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[internal]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Anchor" mc="Standard.Class" uid="006b98ba-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="CachedEntityResolver" mc="Standard.Class" uid="0054a48e-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="CommandLink" mc="Standard.Class" uid="006b3da2-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="HelpData" mc="Standard.Class" uid="00798268-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="HelpPlugin" mc="Standard.Class" uid="0057b584-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="Include" mc="Standard.Class" uid="0078ba36-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="Topic" mc="Standard.Class" uid="005890e4-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="UAElement" mc="Standard.Class" uid="007a0896-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="UAElementFactory" mc="Standard.Class" uid="006bf44a-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="base" mc="Standard.Package" uid="0079b5a8-0bc7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="browser" mc="Standard.Package" uid="007f5990-0bc7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="context" mc="Standard.Package" uid="006896ec-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="criteria" mc="Standard.Package" uid="0059f75e-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="dynamic" mc="Standard.Package" uid="006d32f6-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="entityresolver" mc="Standard.Package" uid="00542518-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="extension" mc="Standard.Package" uid="00559f06-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="index" mc="Standard.Package" uid="00734ede-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="protocols" mc="Standard.Package" uid="008edbea-0bc7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="search" mc="Standard.Package" uid="008feb16-0bc7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="server" mc="Standard.Package" uid="0093f56c-0bc7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="standalone" mc="Standard.Package" uid="0095232e-0bc7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="toc" mc="Standard.Package" uid="0060e2d0-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="util" mc="Standard.Package" uid="007b9878-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="validation" mc="Standard.Package" uid="000422d4-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="webapp" mc="Standard.Package" uid="000577e2-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="workingset" mc="Standard.Package" uid="00171cc2-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="xhtml" mc="Standard.Package" uid="00188eea-0bc8-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

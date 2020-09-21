@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="text" version="4">
+  <OBJECT>
+    <ID name="text" mc="Standard.Package" uid="00082aaa-0bd5-112e-9071-001e4fea2d8b"/>
+    <PID name="editors" mc="Standard.Package" uid="00066850-0bd5-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[text]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="DefaultEncodingSupport" mc="Standard.Class" uid="000830f4-0bd5-112e-9071-001e4fea2d8b"/>
+        <COMPID name="EditorsUI" mc="Standard.Class" uid="00085714-0bd5-112e-9071-001e4fea2d8b"/>
+        <COMPID name="EncodingActionGroup" mc="Standard.Class" uid="00085dc2-0bd5-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FileBufferOperationAction" mc="Standard.Class" uid="0008807c-0bd5-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FileBufferOperationHandler" mc="Standard.Class" uid="000887a2-0bd5-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FileDocumentProvider" mc="Standard.Class" uid="00088ef0-0bd5-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ForwardingDocumentProvider" mc="Standard.Class" uid="0008a8a4-0bd5-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IEncodingActionsConstants" mc="Standard.Interface" uid="0008aeb2-0bd5-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IEncodingActionsDefinitionIds" mc="Standard.Interface" uid="0008b5a6-0bd5-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IEncodingActionsHelpContextIds" mc="Standard.Interface" uid="0008bc90-0bd5-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IEncodingSupport" mc="Standard.Interface" uid="0008c3a2-0bd5-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IFoldingCommandIds" mc="Standard.Interface" uid="0008caaa-0bd5-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ILocationProvider" mc="Standard.Interface" uid="0008d216-0bd5-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ILocationProviderExtension" mc="Standard.Interface" uid="0008d9dc-0bd5-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IStorageDocumentProvider" mc="Standard.Interface" uid="0008e17a-0bd5-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ITextEditorHelpContextIds" mc="Standard.Interface" uid="0008e972-0bd5-112e-9071-001e4fea2d8b"/>
+        <COMPID name="StorageDocumentProvider" mc="Standard.Class" uid="0008f174-0bd5-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TextEditor" mc="Standard.Class" uid="0008ff02-0bd5-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TextEditorActionContributor" mc="Standard.Class" uid="00090722-0bd5-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TextEditorPreferenceConstants" mc="Standard.Class" uid="000917f8-0bd5-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TextEditorPreferencePage" mc="Standard.Class" uid="000920a4-0bd5-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TextFileDocumentProvider" mc="Standard.Class" uid="00092950-0bd5-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TextSourceViewerConfiguration" mc="Standard.Class" uid="00097130-0bd5-112e-9071-001e4fea2d8b"/>
+        <COMPID name="templates" mc="Standard.Package" uid="000b43a2-0bd5-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

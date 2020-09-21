@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="view" version="4">
+  <OBJECT>
+    <ID name="view" mc="Standard.Package" uid="d900a768-780c-4ab9-9f30-44a4fb82743c"/>
+    <PID name="ui" mc="Standard.Package" uid="8a616c90-a464-4f12-bfb2-e23113935d76"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[view]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="BasePage" mc="Standard.Class" uid="6f60cc7d-7ffc-4c60-81fb-7f4950c2bb92"/>
+        <COMPID name="CollapseTreeNodesAction" mc="Standard.Class" uid="f6b579d7-5576-47b9-bdc8-6577e9234b3f"/>
+        <COMPID name="CommandBackedAction" mc="Standard.Class" uid="24574491-01ca-42a6-8c5e-8095792d1980"/>
+        <COMPID name="ExpandTreeNodesAction" mc="Standard.Class" uid="9b485f3d-6031-4f26-b9ba-02f8d1523a59"/>
+        <COMPID name="MessagePage" mc="Standard.Class" uid="a6721010-b63a-4d5a-bc75-0cd98d5becd7"/>
+        <COMPID name="MultiPageView" mc="Standard.Class" uid="41ba4945-c58c-403f-801e-ff39ac76c993"/>
+        <COMPID name="ObservableItem" mc="Standard.Class" uid="6608996c-af4a-4169-9a6f-858868ec9853"/>
+        <COMPID name="ObservableMapCellWithIconLabelProvider" mc="Standard.Class" uid="02466c95-acfc-4cc1-baf3-4ba14c46de47"/>
+        <COMPID name="Page" mc="Standard.Interface" uid="a44862ac-a3cc-449e-a6c8-ccdcb3376fe1"/>
+        <COMPID name="PageSite" mc="Standard.Interface" uid="f9b0d1cf-9764-4226-9844-0805621fa790"/>
+        <COMPID name="RemoveAllPagesAction" mc="Standard.Class" uid="846ff6ea-1cb9-4195-959d-7893b4abadd0"/>
+        <COMPID name="RemovePageAction" mc="Standard.Class" uid="f95e3371-85d9-4d64-9a67-255c07cece25"/>
+        <COMPID name="ShowFilterAction" mc="Standard.Class" uid="3c1fdf31-a929-4d7f-abcc-131abbd2e201"/>
+        <COMPID name="SwitchToIndexPageAction" mc="Standard.Class" uid="21bad383-824e-492f-bfa9-63f3d44efdbf"/>
+        <COMPID name="SwitchToNextPageAction" mc="Standard.Class" uid="d22132b3-8f78-4639-bd0b-cdd9c1ca4451"/>
+        <COMPID name="TreeViewerState" mc="Standard.Interface" uid="ab019d60-e9bf-4ce7-9426-a4982b6adbb3"/>
+        <COMPID name="execution" mc="Standard.Package" uid="2ad7f907-e446-4bec-8d02-6cee9b5dae9f"/>
+        <COMPID name="task" mc="Standard.Package" uid="5ba9cb9b-5420-4536-8db4-0b5ac1f9b3af"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

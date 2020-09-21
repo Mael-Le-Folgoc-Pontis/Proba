@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="tsccm" version="4">
+  <OBJECT>
+    <ID name="tsccm" mc="Standard.Package" uid="53d78d8f-af90-4a68-8b15-74137cdbfeef"/>
+    <PID name="conn" mc="Standard.Package" uid="cff75fb3-3267-4daa-8038-2d7aa588a193"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[tsccm]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractConnPool" mc="Standard.Class" uid="e831df20-e120-40ff-93c7-0ba6aba90dd1"/>
+        <COMPID name="BasicPoolEntry" mc="Standard.Class" uid="a69020ff-9473-4d35-a730-50ae62ffca05"/>
+        <COMPID name="BasicPoolEntryRef" mc="Standard.Class" uid="f8e14696-ba6e-462b-a01d-f7a960c1e0d3"/>
+        <COMPID name="BasicPooledConnAdapter" mc="Standard.Class" uid="e53cd391-8307-4d45-adf8-ef294c84a991"/>
+        <COMPID name="ConnPoolByRoute" mc="Standard.Class" uid="36060466-161f-43c8-9f67-e69a30a09485"/>
+        <COMPID name="PoolEntryRequest" mc="Standard.Interface" uid="a61adc73-0966-4ca3-94a6-1cf0182e58ed"/>
+        <COMPID name="RefQueueHandler" mc="Standard.Interface" uid="184763c7-2cf3-4eba-bb52-e869f67239f9"/>
+        <COMPID name="RefQueueWorker" mc="Standard.Class" uid="78635eda-6025-4d89-901d-21f8425d8496"/>
+        <COMPID name="RouteSpecificPool" mc="Standard.Class" uid="08ba8920-dc13-4305-be72-90105775ded1"/>
+        <COMPID name="ThreadSafeClientConnManager" mc="Standard.Class" uid="cecda295-220b-4940-af6d-58582d8df590"/>
+        <COMPID name="WaitingThread" mc="Standard.Class" uid="a011c7fa-bbfb-4e1c-828a-e43bf81bcbcc"/>
+        <COMPID name="WaitingThreadAborter" mc="Standard.Class" uid="59a76d0b-af79-4fef-8884-a6fbf67afb7b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

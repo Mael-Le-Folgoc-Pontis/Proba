@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="definition" version="4">
+  <OBJECT>
+    <ID name="definition" mc="Standard.Package" uid="344b7c2b-f9d4-469f-9525-8845bd5afb2c"/>
+    <PID name="dom" mc="Standard.Package" uid="004fb65e-21a5-1fb1-8a9e-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[definition]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ColorDefinitionElement" mc="Standard.Class" uid="dea78470-09c2-41ff-aaab-9417f26d52cf"/>
+        <COMPID name="FontDefinitionElement" mc="Standard.Class" uid="6554d00e-292c-41a7-b7b4-e4f810061236"/>
+        <COMPID name="ThemeDefinitionElement" mc="Standard.Class" uid="aa1455b8-cf0f-4d0a-b785-d288d4e97c0a"/>
+        <COMPID name="ThemeElementDefinitionProvider" mc="Standard.Class" uid="eb6d1db1-15cc-4e33-b6e6-40548a0871fd"/>
+        <COMPID name="ThemesExtensionElement" mc="Standard.Class" uid="dc2d3ee2-ac4d-426d-8cd1-2ce0ce6772f6"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,101 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="editors" version="4">
+  <OBJECT>
+    <ID name="editors" mc="Standard.Package" uid="0efcb9e9-2986-44f6-9dec-f4606bc0a1b8"/>
+    <PID name="ui" mc="Standard.Package" uid="7eba2e16-5ff6-4bba-a3ee-0dc916b7c679"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[editors]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractHyperlinkTextPresentationManager" mc="Standard.Class" uid="58aa5a0b-84f2-45d1-b9bf-ec2cb339138c"/>
+        <COMPID name="AbstractLocalEditorPart" mc="Standard.Class" uid="99403932-23a0-451f-95fb-9e25e506dbeb"/>
+        <COMPID name="AbstractReplyToCommentAction" mc="Standard.Class" uid="b607ea52-d6bb-4232-bfba-b5f06bca2bd1"/>
+        <COMPID name="AbstractTaskEditorAttributeSection" mc="Standard.Class" uid="d4bb129a-1ff7-4a0e-968a-f665fc0a4c2e"/>
+        <COMPID name="AbstractTaskEditorSection" mc="Standard.Class" uid="33323cb8-f05d-43a5-b08e-59f9d5ffd5ae"/>
+        <COMPID name="AttachmentSizeFormatter" mc="Standard.Class" uid="d5705282-5a93-4aef-8ae4-297601463c80"/>
+        <COMPID name="AttachmentTableLabelProvider" mc="Standard.Class" uid="27df5951-4619-4533-bd79-e215d097b5e1"/>
+        <COMPID name="AttributePart" mc="Standard.Class" uid="8b3f0ca4-413d-4909-9348-a452c38548e7"/>
+        <COMPID name="BooleanAttributeEditor" mc="Standard.Class" uid="770ad7e7-8d46-4552-825f-2d8d47cc991b"/>
+        <COMPID name="BrowserPreviewViewer" mc="Standard.Class" uid="4104382b-fb85-4792-8097-57afa6e169a5"/>
+        <COMPID name="CheckboxMultiSelectAttributeEditor" mc="Standard.Class" uid="e96fb3e8-eada-4483-80b4-e5cdff38ca62"/>
+        <COMPID name="CommentEditor" mc="Standard.Class" uid="1614bcd9-745e-4e88-9ec3-e06e1541fd8c"/>
+        <COMPID name="CommentGroupStrategy" mc="Standard.Class" uid="32e4fd31-ccdf-4302-aad0-645999ef1809"/>
+        <COMPID name="DateAttributeEditor" mc="Standard.Class" uid="7e17f543-357e-4bc2-b260-87be4dc5ca38"/>
+        <COMPID name="DoubleAttributeEditor" mc="Standard.Class" uid="3830a74c-a330-44ae-8f05-6d61205658d0"/>
+        <COMPID name="EditorBusyIndicator" mc="Standard.Class" uid="946caaea-ffb5-49b0-83c6-97f28e172c6b"/>
+        <COMPID name="EditorUtil" mc="Standard.Class" uid="a6aba079-67a1-4d41-9b1f-43470bdc18b6"/>
+        <COMPID name="FocusTracker" mc="Standard.Class" uid="95431f91-5298-4dd2-baf7-2a24a22c985a"/>
+        <COMPID name="HighlightingHyperlinkTextPresentationManager" mc="Standard.Class" uid="a21a965c-635e-4679-8642-a59a58dc73a2"/>
+        <COMPID name="IBusyEditor" mc="Standard.Interface" uid="1eead37f-791d-4224-a280-4edc5de17994"/>
+        <COMPID name="IntegerAttributeEditor" mc="Standard.Class" uid="f079a962-443f-40b7-bab0-2702c3d3ee88"/>
+        <COMPID name="LabelsAttributeEditor" mc="Standard.Class" uid="e96fdcbd-d9c4-4ed7-8f2b-6331f057b395"/>
+        <COMPID name="LastCommentedAttributeEditor" mc="Standard.Class" uid="922ce4fa-80ff-4287-be2c-39eef0115745"/>
+        <COMPID name="LocalTaskEditorContributionDescriptor" mc="Standard.Class" uid="003e10d7-a64a-42af-9378-24c46b466283"/>
+        <COMPID name="LongAttributeEditor" mc="Standard.Class" uid="58b4e556-569b-4800-8b9c-a5acf4adf1bb"/>
+        <COMPID name="LongTextAttributeEditor" mc="Standard.Class" uid="32fdfbbc-2b0f-42d4-ae14-5bcb36d33282"/>
+        <COMPID name="Messages" mc="Standard.Class" uid="ba10ef0b-1567-44b6-86c3-05d4455650ac"/>
+        <COMPID name="MultiSelectionAttributeEditor" mc="Standard.Class" uid="c10d76fe-3dca-4a31-b616-65a4c7b000ee"/>
+        <COMPID name="MultipleTaskHyperlinkDetector" mc="Standard.Class" uid="d8e5c6ff-d3fb-42a9-b33c-fef2975d0a45"/>
+        <COMPID name="PersonAttributeEditor" mc="Standard.Class" uid="1899d9b0-a2a0-4cf9-b1a4-5910c0b17abc"/>
+        <COMPID name="PlanningPageFactory" mc="Standard.Class" uid="d03e5095-ea41-4d36-9449-791f9806499c"/>
+        <COMPID name="PlanningPart" mc="Standard.Class" uid="2de255ed-8d48-44d5-84f9-b0338a575281"/>
+        <COMPID name="PriorityAttributeEditor" mc="Standard.Class" uid="c1958f3e-5f1b-4d18-b4e3-d08d3473b704"/>
+        <COMPID name="PriorityEditor" mc="Standard.Class" uid="f1129bca-3824-4bd2-b93a-f0a006534693"/>
+        <COMPID name="RepositoryCompletionProcessor" mc="Standard.Class" uid="d706163a-cc3c-4ec9-8915-79e4c6c38480"/>
+        <COMPID name="RepositoryTextViewerConfiguration" mc="Standard.Class" uid="afde2175-47d3-42a5-836a-3ae4f8499dbe"/>
+        <COMPID name="RichTextAttributeEditor" mc="Standard.Class" uid="a4d18690-9071-4d82-9db4-e15d500d95c7"/>
+        <COMPID name="RichTextEditor" mc="Standard.Class" uid="8d3fc8a1-fdf3-4915-899f-1c87291fb3ad"/>
+        <COMPID name="SingleSelectionAttributeEditor" mc="Standard.Class" uid="f3d6e06f-85ec-4500-8c28-94d5927f7c57"/>
+        <COMPID name="SummaryPart" mc="Standard.Class" uid="cd6750d4-d055-4330-92ff-27aaaab63b96"/>
+        <COMPID name="TaskAttachmentDropListener" mc="Standard.Class" uid="0315dfeb-9326-4ee8-8e97-f125451b3715"/>
+        <COMPID name="TaskAttachmentEditorInput" mc="Standard.Class" uid="ae3fbdb3-1f0c-4541-aab7-0dd245136607"/>
+        <COMPID name="TaskAttachmentStorage" mc="Standard.Class" uid="56d555a4-bc5f-4eea-893b-b3c8047e54de"/>
+        <COMPID name="TaskEditorActionContributor" mc="Standard.Class" uid="4c5bfcb6-7e4c-4688-828f-35bcf8909e31"/>
+        <COMPID name="TaskEditorActionPart" mc="Standard.Class" uid="ad1d9407-5639-489e-8aee-f4237f102e91"/>
+        <COMPID name="TaskEditorAttachmentPart" mc="Standard.Class" uid="bc8c8261-98f4-4226-a7dc-97cf74a11459"/>
+        <COMPID name="TaskEditorAttributePart" mc="Standard.Class" uid="6da74e9d-d9df-40bc-9318-e873fc0caa6e"/>
+        <COMPID name="TaskEditorCommentPart" mc="Standard.Class" uid="3aaa4c0b-a05c-4879-aa16-d29167aa37e8"/>
+        <COMPID name="TaskEditorContributionExtensionReader" mc="Standard.Class" uid="7794211b-4c60-4629-9ef7-ea8a3a043bd8"/>
+        <COMPID name="TaskEditorDescriptionPart" mc="Standard.Class" uid="5783be86-557b-490e-b433-b3dbf8057484"/>
+        <COMPID name="TaskEditorExtensionPartDescriptor" mc="Standard.Class" uid="4dbe978c-6fa3-407c-b0ec-e3c9faacccf7"/>
+        <COMPID name="TaskEditorExtensionReader" mc="Standard.Class" uid="ebb36098-88d5-4d55-8c84-0287e6311bc4"/>
+        <COMPID name="TaskEditorExtensionSettingsContribution" mc="Standard.Class" uid="542ff5ba-c7fe-4b67-80ca-c7f23e1fd5b7"/>
+        <COMPID name="TaskEditorExtensions" mc="Standard.Class" uid="a95b56c8-86bb-477e-8490-427d8b38c110"/>
+        <COMPID name="TaskEditorFindSupport" mc="Standard.Class" uid="6fe59765-262d-4fc5-862d-f3ec36bafff2"/>
+        <COMPID name="TaskEditorInputFactory" mc="Standard.Class" uid="0632a7ed-cc36-4986-9980-276f9b11fa16"/>
+        <COMPID name="TaskEditorNewCommentPart" mc="Standard.Class" uid="146361ba-44ac-4619-9022-f3e4cd86e0df"/>
+        <COMPID name="TaskEditorOutlineContentProvider" mc="Standard.Class" uid="ca2cc25f-1491-4f1d-af36-f49d70b52dd2"/>
+        <COMPID name="TaskEditorOutlineModel" mc="Standard.Class" uid="52f4f23f-2a5f-44df-8e1f-7c8edd58ad15"/>
+        <COMPID name="TaskEditorOutlineNode" mc="Standard.Class" uid="c9b417c8-6f49-45d6-9ddd-6178bc9e4803"/>
+        <COMPID name="TaskEditorOutlineNodeLabelProvider" mc="Standard.Class" uid="a33a4923-f579-4ca1-83d8-890ace7553e3"/>
+        <COMPID name="TaskEditorOutlinePage" mc="Standard.Class" uid="4f1e0504-d33e-47dd-ad74-4e2580156f84"/>
+        <COMPID name="TaskEditorPeoplePart" mc="Standard.Class" uid="49828a2f-ce1e-47b0-bb67-d3bd10fc4c0f"/>
+        <COMPID name="TaskEditorPlanningPart" mc="Standard.Class" uid="1dca7ef0-b134-44a9-b366-c76eaec193ca"/>
+        <COMPID name="TaskEditorRichTextPart" mc="Standard.Class" uid="c76165d4-239e-4d10-b9c2-ac848d30655a"/>
+        <COMPID name="TaskEditorSummaryPart" mc="Standard.Class" uid="1d389259-f5e1-40d7-bc77-b6bd0cdaebd9"/>
+        <COMPID name="TaskHyperlinkDetector" mc="Standard.Class" uid="2400f774-d7cb-44b6-bbde-35585a20df34"/>
+        <COMPID name="TaskHyperlinkTextPresentationManager" mc="Standard.Class" uid="10d1289e-c411-4542-8cc9-2af664b3bac4"/>
+        <COMPID name="TaskListChangeAdapter" mc="Standard.Class" uid="c1218441-4826-4c5b-b0ad-7b164a1ee412"/>
+        <COMPID name="TaskMigrator" mc="Standard.Class" uid="bdffd834-7375-40b4-9e7d-efd38d9488b0"/>
+        <COMPID name="TaskPlanningEditor" mc="Standard.Class" uid="cf5331ab-68d2-4128-90d9-1a29ab673f2f"/>
+        <COMPID name="TaskRelationHyperlinkDetector" mc="Standard.Class" uid="8d51b55b-0068-49a2-ae1c-ce1776e06975"/>
+        <COMPID name="TaskUrlHyperlink" mc="Standard.Class" uid="24d961dc-ceb3-4d84-84c9-24b8f0834376"/>
+        <COMPID name="TaskUrlHyperlinkDetector" mc="Standard.Class" uid="8755fff1-cd85-4c1e-805a-f98901ee5018"/>
+        <COMPID name="TextAttributeEditor" mc="Standard.Class" uid="dfba3d45-bf1e-432c-be33-35dfaa7e7d6f"/>
+        <COMPID name="ToolBarButtonContribution" mc="Standard.Class" uid="8aabd44d-5e5b-4666-a65f-2ee3421af74b"/>
+        <COMPID name="UserAttributeEditor" mc="Standard.Class" uid="a68389cd-a8a0-4d1c-bdf4-a9e53c2fcd25"/>
+        <COMPID name="outline" mc="Standard.Package" uid="2bb293cb-53c7-4697-a831-0d42210d5f15"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

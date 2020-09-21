@@ -1,0 +1,52 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="bundle" version="4">
+  <OBJECT>
+    <ID name="bundle" mc="Standard.Package" uid="0090e250-0bd0-112e-9071-001e4fea2d8b"/>
+    <PID name="text" mc="Standard.Package" uid="008caf14-0bd0-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[bundle]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="BasePackageHeader" mc="Standard.Class" uid="0090eb42-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Bundle" mc="Standard.Class" uid="0090f1e6-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BundleActivationPolicyHeader" mc="Standard.Class" uid="0090f84e-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BundleActivatorHeader" mc="Standard.Class" uid="0090feac-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BundleClasspathHeader" mc="Standard.Class" uid="009105aa-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BundleLocalizationHeader" mc="Standard.Class" uid="00910cb2-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BundleModel" mc="Standard.Class" uid="009113d8-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BundleModelFactory" mc="Standard.Class" uid="00911b30-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BundleNameHeader" mc="Standard.Class" uid="009122c4-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BundleSymbolicNameHeader" mc="Standard.Class" uid="009135a2-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BundleTextChangeListener" mc="Standard.Class" uid="00914254-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BundleVendorHeader" mc="Standard.Class" uid="00914f4c-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BundleVersionHeader" mc="Standard.Class" uid="00915c4e-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CompositeManifestHeader" mc="Standard.Class" uid="009169dc-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ExecutionEnvironment" mc="Standard.Class" uid="009177ec-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ExportPackageHeader" mc="Standard.Class" uid="009185ca-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ExportPackageObject" mc="Standard.Class" uid="0091947a-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FragmentHostHeader" mc="Standard.Class" uid="0091a35c-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ImportPackageHeader" mc="Standard.Class" uid="0091b284-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ImportPackageObject" mc="Standard.Class" uid="0091c2f6-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LazyStartHeader" mc="Standard.Class" uid="0091d2fa-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ManifestHeader" mc="Standard.Class" uid="0091e2e0-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PDEManifestElement" mc="Standard.Class" uid="0091f35c-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PackageFriend" mc="Standard.Class" uid="0092041e-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PackageObject" mc="Standard.Class" uid="009214fe-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RequireBundleHeader" mc="Standard.Class" uid="00922674-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RequireBundleObject" mc="Standard.Class" uid="009238a8-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RequiredExecutionEnvironmentHeader" mc="Standard.Class" uid="00924a5a-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SingleManifestHeader" mc="Standard.Class" uid="00925d4c-0bd0-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

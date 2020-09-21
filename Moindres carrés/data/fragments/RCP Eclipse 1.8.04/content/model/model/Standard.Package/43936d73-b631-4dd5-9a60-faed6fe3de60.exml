@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ui" version="4">
+  <OBJECT>
+    <ID name="ui" mc="Standard.Package" uid="43936d73-b631-4dd5-9a60-faed6fe3de60"/>
+    <PID name="oomph" mc="Standard.Package" uid="20106332-b188-45ff-af40-2d5b786a9692"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[ui]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ActivityAdapter" mc="Standard.Class" uid="56a67d3c-ceaf-4a43-b486-56f74d0d3c5f"/>
+        <COMPID name="BackgroundProgressPart" mc="Standard.Class" uid="124cbe13-e8ba-498d-a33f-815e473f7a57"/>
+        <COMPID name="ButtonAnimator" mc="Standard.Class" uid="b2ceedfc-cd1b-44eb-94ad-fd3a76b9d7c0"/>
+        <COMPID name="ButtonBar" mc="Standard.Class" uid="0ba9f3d3-0042-4b4c-9e6f-6904f0a0e679"/>
+        <COMPID name="DelegatingLabelDecorator" mc="Standard.Class" uid="23180e3a-1ffe-412d-9e42-cfd057125b85"/>
+        <COMPID name="ErrorDialog" mc="Standard.Class" uid="f1b73bf1-8dbc-4c05-887f-71315033f2c1"/>
+        <COMPID name="FirstChildLayout" mc="Standard.Class" uid="34b51b68-5afb-4d55-ac9a-c3330f16a837"/>
+        <COMPID name="HelpSupport" mc="Standard.Class" uid="4ee56345-46a4-42a5-a4ca-07286594edbf"/>
+        <COMPID name="InactivityDetector" mc="Standard.Class" uid="a4bf0024-3522-491e-a45c-a28ea30b9017"/>
+        <COMPID name="LabelDecorator" mc="Standard.Class" uid="d6cb8e5a-bcbf-4e5b-a121-407f95eea7e2"/>
+        <COMPID name="MouseHandler" mc="Standard.Class" uid="2c3a224c-46b8-4518-86c5-b93249417a70"/>
+        <COMPID name="OomphDialog" mc="Standard.Class" uid="7e72c29d-7035-45d8-8795-9b7e348a574e"/>
+        <COMPID name="OomphUIPlugin" mc="Standard.Class" uid="65964561-f5be-47c2-a1dc-1bfada39fdc7"/>
+        <COMPID name="OomphWizardDialog" mc="Standard.Class" uid="73f99728-89b1-4ca6-aad9-2a3a2ac73d4c"/>
+        <COMPID name="PersistentButton" mc="Standard.Class" uid="f5e46110-bbb3-40ab-a5f7-c67961247437"/>
+        <COMPID name="PropertiesViewer" mc="Standard.Class" uid="c92a8f71-c126-48c9-90d6-fe95c1f8b26f"/>
+        <COMPID name="SearchField" mc="Standard.Class" uid="f3890e39-a73b-4108-8cbb-96a2ee969f1b"/>
+        <COMPID name="SecondaryToolItem" mc="Standard.Class" uid="550f574a-bd1f-4ff1-baf7-4bd5db439585"/>
+        <COMPID name="SpriteAnimator" mc="Standard.Class" uid="facb78bb-6cd3-4eb6-9a26-0bf058a2150a"/>
+        <COMPID name="StackComposite" mc="Standard.Class" uid="c61d6c7f-0455-4043-bbf9-36d6c6b0a847"/>
+        <COMPID name="ToggleCommandHandler" mc="Standard.Class" uid="da2a7f6e-2e8b-429e-af50-0cb8cdf05514"/>
+        <COMPID name="ToolButton" mc="Standard.Class" uid="f042b18f-8120-4d9e-92d4-311e7652ac65"/>
+        <COMPID name="UICallback" mc="Standard.Class" uid="aa2d7f9a-d8f8-473a-83a0-c3b0791bb9b3"/>
+        <COMPID name="UIUtil" mc="Standard.Class" uid="e26a1823-7926-40c2-bf38-627051bb476a"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="wizards" version="4">
+  <OBJECT>
+    <ID name="wizards" mc="Standard.Package" uid="e11c15eb-e935-45e4-a2e8-7018ba48acad"/>
+    <PID name="ui" mc="Standard.Package" uid="0868fb1c-65f1-4184-91bc-1516233358fd"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[wizards]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ConnectorDiscoveryWizard" mc="Standard.Class" uid="3aa783c7-e040-442c-b074-4b57f7de4609"/>
+        <COMPID name="ConnectorDiscoveryWizardMainPage" mc="Standard.Class" uid="579a4254-c094-416f-83f2-355268b5dd0b"/>
+        <COMPID name="DiscoveryViewer" mc="Standard.Class" uid="03c09f8c-a209-4381-a185-20dfd88d78c1"/>
+        <COMPID name="Messages" mc="Standard.Class" uid="ec7f3a68-c4a9-436c-b053-db33adf5150f"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

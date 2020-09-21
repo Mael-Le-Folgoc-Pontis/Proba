@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="misc" version="4">
+  <OBJECT>
+    <ID name="misc" mc="Standard.Package" uid="000d1a10-21af-1fb1-8a9e-001e4fea2d8b"/>
+    <PID name="internal" mc="Standard.Package" uid="0015be4a-21ac-1fb1-8a9e-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[misc]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ExternalEditor" mc="Standard.Class" uid="000ee854-21af-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ExternalProgramImageDescriptor" mc="Standard.Class" uid="000f7044-21af-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="Policy" mc="Standard.Class" uid="000f4790-21af-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ProgramImageDescriptor" mc="Standard.Class" uid="000d3694-21af-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="StatusUtil" mc="Standard.Class" uid="000e8ca6-21af-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="StringMatcher" mc="Standard.Class" uid="000d8ef0-21af-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="TestPartListener" mc="Standard.Class" uid="000e00c4-21af-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="UIListenerLogging" mc="Standard.Class" uid="000fca6c-21af-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="UIStats" mc="Standard.Class" uid="00102dae-21af-1fb1-8a9e-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

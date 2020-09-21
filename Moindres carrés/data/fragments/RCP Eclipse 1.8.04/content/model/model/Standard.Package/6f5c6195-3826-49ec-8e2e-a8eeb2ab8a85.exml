@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="wizards" version="4">
+  <OBJECT>
+    <ID name="wizards" mc="Standard.Package" uid="6f5c6195-3826-49ec-8e2e-a8eeb2ab8a85"/>
+    <PID name="ui" mc="Standard.Package" uid="7eba2e16-5ff6-4bba-a3ee-0dc916b7c679"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[wizards]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AttachmentPreviewPage" mc="Standard.Class" uid="898fa911-21a3-4a48-9cf7-afc64fe34102"/>
+        <COMPID name="AttachmentSourcePage" mc="Standard.Class" uid="72aec930-b69a-40ed-9e87-09ba093b0a23"/>
+        <COMPID name="EditRepositoryWizard" mc="Standard.Class" uid="647c25db-278b-480e-ad52-22b1459b94e7"/>
+        <COMPID name="LocalRepositorySettingsPage" mc="Standard.Class" uid="b21b3b2b-8e40-4a67-ad20-f559d04bfc86"/>
+        <COMPID name="Messages" mc="Standard.Class" uid="b11e6629-1874-4158-94e7-1a21d0e34af4"/>
+        <COMPID name="MultiRepositoryAwareWizard" mc="Standard.Class" uid="f8b30d51-d5f3-4f11-9106-947902e29edc"/>
+        <COMPID name="NewAttachmentWizardDialog" mc="Standard.Class" uid="97c5a264-d390-4776-ba0a-e4e4d6b7b77c"/>
+        <COMPID name="NewLocalCategoryWizard" mc="Standard.Class" uid="2c6d0734-738b-4a26-a0e3-dc7be9431d8a"/>
+        <COMPID name="NewLocalTaskWizard" mc="Standard.Class" uid="f6693f9c-2272-4fb6-9fe4-29fb7ebbac56"/>
+        <COMPID name="NewQueryWizard" mc="Standard.Class" uid="89ea0d6a-d6fb-45ac-a7e5-c2387664d7c2"/>
+        <COMPID name="NewRepositoryWizard" mc="Standard.Class" uid="a8d05577-b744-4976-9a34-990a188f006d"/>
+        <COMPID name="NewTaskPage" mc="Standard.Class" uid="69d486dc-00de-4522-9ce4-14069584ab81"/>
+        <COMPID name="NewTaskWizardInternal" mc="Standard.Class" uid="7d8ff5f4-5e9e-4cd3-93ea-c6b430a4b264"/>
+        <COMPID name="NewWebTaskPage" mc="Standard.Class" uid="32d1f793-a02f-4a84-806a-d54a15582c73"/>
+        <COMPID name="QueryWizardDialog" mc="Standard.Class" uid="72eff846-3d95-4ade-89fd-b782e624114a"/>
+        <COMPID name="SelectRepositoryConnectorPage" mc="Standard.Class" uid="296b2dbc-009d-441a-9eb4-8be5a469cedc"/>
+        <COMPID name="SelectRepositoryPage" mc="Standard.Class" uid="82a9fff4-db9c-4ac7-85de-88b21c58e0db"/>
+        <COMPID name="TaskAttachmentWizard" mc="Standard.Class" uid="d63d2379-2e09-4e3e-ae00-ae1d56cef4e8"/>
+        <COMPID name="TaskDataExportWizard" mc="Standard.Class" uid="5438116c-416d-4a2e-b751-a43006d316fb"/>
+        <COMPID name="TaskDataExportWizardPage" mc="Standard.Class" uid="a473eb0b-da3f-4248-82c0-58c16c3e79dc"/>
+        <COMPID name="TaskDataImportWizard" mc="Standard.Class" uid="1d799b7f-a001-4d4d-9afb-432e8fa512fc"/>
+        <COMPID name="TaskDataImportWizardPage" mc="Standard.Class" uid="1c4205af-1107-4ea1-8583-d9a4b837cc19"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

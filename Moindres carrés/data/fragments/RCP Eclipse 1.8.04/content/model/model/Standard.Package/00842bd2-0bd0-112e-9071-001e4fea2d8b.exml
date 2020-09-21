@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="schema" version="4">
+  <OBJECT>
+    <ID name="schema" mc="Standard.Package" uid="00842bd2-0bd0-112e-9071-001e4fea2d8b"/>
+    <PID name="core" mc="Standard.Package" uid="0064dc0a-0bd0-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[schema]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="BaseSchemaHandler" mc="Standard.Class" uid="008431f4-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ChoiceRestriction" mc="Standard.Class" uid="00843834-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DocumentSection" mc="Standard.Class" uid="00843e60-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="EditableSchema" mc="Standard.Class" uid="008444e6-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IncludedSchemaDescriptor" mc="Standard.Class" uid="00844b9e-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RepeatableSchemaObject" mc="Standard.Class" uid="008452c4-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Schema" mc="Standard.Class" uid="00845a08-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SchemaAnnotationHandler" mc="Standard.Class" uid="0084616a-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SchemaAttribute" mc="Standard.Class" uid="008468c2-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SchemaAttributeHandler" mc="Standard.Class" uid="008470a6-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SchemaComplexType" mc="Standard.Class" uid="008478a8-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SchemaCompositor" mc="Standard.Class" uid="008480aa-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SchemaDescriptor" mc="Standard.Class" uid="0084891a-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SchemaElement" mc="Standard.Class" uid="008491b2-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SchemaElementHandler" mc="Standard.Class" uid="00849a36-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SchemaElementReference" mc="Standard.Class" uid="0084a33c-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SchemaEnumeration" mc="Standard.Class" uid="0084ac6a-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SchemaInclude" mc="Standard.Class" uid="0084b5a2-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SchemaObject" mc="Standard.Class" uid="0084bf3e-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SchemaRegistry" mc="Standard.Class" uid="0084c902-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SchemaRootElement" mc="Standard.Class" uid="0084d2c6-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SchemaSimpleType" mc="Standard.Class" uid="0084dd02-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SchemaType" mc="Standard.Class" uid="0084e766-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="StorageSchemaDescriptor" mc="Standard.Class" uid="0084f238-0bd0-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

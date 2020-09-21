@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="filesystem" version="4">
+  <OBJECT>
+    <ID name="filesystem" mc="Standard.Package" uid="00865632-0bd3-112e-9071-001e4fea2d8b"/>
+    <PID name="core" mc="Standard.Package" uid="007c49a8-0bd3-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[filesystem]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="CVSFileStore" mc="Standard.Class" uid="00865cea-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CVSFileSystem" mc="Standard.Class" uid="0086633e-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CVSFileTree" mc="Standard.Class" uid="008669a6-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CVSURI" mc="Standard.Class" uid="00866ffa-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RemoteLogger" mc="Standard.Class" uid="008684e0-0bd3-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

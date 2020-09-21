@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="datamodel" version="4">
+  <OBJECT>
+    <ID name="datamodel" mc="Standard.Package" uid="54d1545e-460a-4d23-9a94-61eeffee1f55"/>
+    <PID name="componentcore" mc="Standard.Package" uid="1a02e15c-c25f-4c61-8f32-748fb8317aa3"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[datamodel]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="FacetDataModelConfigAdapter" mc="Standard.Class" uid="1bd30ced-aacd-4a60-b0b9-5dcaa12a3e95"/>
+        <COMPID name="FacetDataModelProvider" mc="Standard.Class" uid="f3477ad0-1271-47ee-af47-e854883659c1"/>
+        <COMPID name="FacetInstallDataModelProvider" mc="Standard.Class" uid="5134e5df-19a5-4601-8dd6-bad0afd041f2"/>
+        <COMPID name="FacetProjectCreationDataModelProvider" mc="Standard.Class" uid="48100588-6259-4fd6-a119-8a0fc286caa9"/>
+        <COMPID name="ProjectMigratorDataModelProvider" mc="Standard.Class" uid="5f9cfe68-153b-49a3-88a6-12acb79b258e"/>
+        <COMPID name="properties" mc="Standard.Package" uid="b3c536cc-10c3-44e3-9ef9-7b9303f98348"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

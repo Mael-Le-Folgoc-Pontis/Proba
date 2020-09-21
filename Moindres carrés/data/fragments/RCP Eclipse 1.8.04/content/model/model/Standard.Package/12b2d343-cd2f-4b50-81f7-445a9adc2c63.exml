@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="attribute" version="4">
+  <OBJECT>
+    <ID name="attribute" mc="Standard.Package" uid="12b2d343-cd2f-4b50-81f7-445a9adc2c63"/>
+    <PID name="ant" mc="Standard.Package" uid="001ff900-0bbe-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[attribute]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AttributeNamespace" mc="Standard.Class" uid="b973309b-1e29-4c74-b231-cdc9cbe7c41d"/>
+        <COMPID name="BaseIfAttribute" mc="Standard.Class" uid="4d25a917-ae72-41e2-bf33-22342313e188"/>
+        <COMPID name="EnableAttribute" mc="Standard.Interface" uid="42740922-0831-4bc1-a182-3b2251c655ee"/>
+        <COMPID name="IfBlankAttribute" mc="Standard.Class" uid="6db392ee-3a75-4925-931e-664097920ccf"/>
+        <COMPID name="IfSetAttribute" mc="Standard.Class" uid="d5fc8cd5-5479-4f00-b1da-929cfc4b1b5f"/>
+        <COMPID name="IfTrueAttribute" mc="Standard.Class" uid="db90dd0c-31aa-441e-9b73-4a45ccbee211"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

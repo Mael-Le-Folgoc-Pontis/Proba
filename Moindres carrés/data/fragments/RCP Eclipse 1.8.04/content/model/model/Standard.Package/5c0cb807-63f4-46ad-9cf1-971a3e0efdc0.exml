@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="layout" version="4">
+  <OBJECT>
+    <ID name="layout" mc="Standard.Package" uid="5c0cb807-63f4-46ad-9cf1-971a3e0efdc0"/>
+    <PID name="model" mc="Standard.Package" uid="883cd59f-2e24-40f1-a91a-50e8d4bef3b3"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[layout]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="BorderLayoutAssistantPage" mc="Standard.Class" uid="a5c2adbd-0cbe-4c3b-88b3-0af74ad2d8ed"/>
+        <COMPID name="BorderLayoutInfo" mc="Standard.Class" uid="c19edd13-e5b1-41a9-b9a2-094ab79203b0"/>
+        <COMPID name="BoxLayoutInfo" mc="Standard.Class" uid="10fb7533-b2e8-4956-9b85-2d646e46a4f9"/>
+        <COMPID name="BoxSupport" mc="Standard.Class" uid="74c15779-3bdd-41fd-a386-81a69f8b50c3"/>
+        <COMPID name="CardLayoutAssistantPage" mc="Standard.Class" uid="f541e03e-dde9-4379-a0dd-c9f17b26855e"/>
+        <COMPID name="CardLayoutInfo" mc="Standard.Class" uid="a2a65190-5170-4c30-98d8-c0c8afe1ffde"/>
+        <COMPID name="FlowLayoutAssistantPage" mc="Standard.Class" uid="6b2e06d1-0be0-4084-9642-7dce3af0997f"/>
+        <COMPID name="FlowLayoutInfo" mc="Standard.Class" uid="56fd0f33-92bd-40f0-88f8-ea72495510d8"/>
+        <COMPID name="GenericFlowLayoutInfo" mc="Standard.Class" uid="73d26684-f6ca-49f2-87df-d1bf717d7915"/>
+        <COMPID name="GenericFlowLayoutSurroundSupport" mc="Standard.Class" uid="0a029dc7-82ee-4455-baff-c3ffe441f5a1"/>
+        <COMPID name="GridLayoutAssistantPage" mc="Standard.Class" uid="8492af3e-10ff-4b94-a78b-c8c69b3279fc"/>
+        <COMPID name="GridLayoutConverter" mc="Standard.Class" uid="b13e5e24-f3c2-4a31-b6e0-14cca04edb8b"/>
+        <COMPID name="GridLayoutInfo" mc="Standard.Class" uid="eca827b0-79cf-46f5-a4f6-0073c50bdcc5"/>
+        <COMPID name="ImplicitLayoutCreationSupport" mc="Standard.Class" uid="1bbb70a8-5a65-4b88-a4d4-06f5068e7a97"/>
+        <COMPID name="ImplicitLayoutVariableSupport" mc="Standard.Class" uid="1bc39596-5a94-4dd1-b010-64ba766e985a"/>
+        <COMPID name="LayoutAssistantSupport" mc="Standard.Class" uid="821655ae-b101-4054-bec1-20492f82e027"/>
+        <COMPID name="LayoutClipboardCommand" mc="Standard.Class" uid="ea99397d-c7a2-41c6-a662-360e0d8ebd47"/>
+        <COMPID name="LayoutInfo" mc="Standard.Class" uid="893b8b16-1c75-4d88-8f31-ddd5051f6566"/>
+        <COMPID name="LayoutJavaInfoParticipator" mc="Standard.Class" uid="0cf44fe7-b14e-4816-bad0-848068e93b02"/>
+        <COMPID name="LayoutNameSupport" mc="Standard.Class" uid="4a72b506-4430-484e-9c1c-f6abd7d85578"/>
+        <COMPID name="LayoutPresentation" mc="Standard.Class" uid="d10acfaf-f450-4b4a-bda1-d78ca765fe95"/>
+        <COMPID name="absolute" mc="Standard.Package" uid="7bb69b6d-6947-4538-be75-76158994ff45"/>
+        <COMPID name="gbl" mc="Standard.Package" uid="16523eb1-582f-4ccf-8a60-8d4239151171"/>
+        <COMPID name="spring" mc="Standard.Package" uid="71cf7e0d-8ab1-4a55-a9e8-5d61fe20a497"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

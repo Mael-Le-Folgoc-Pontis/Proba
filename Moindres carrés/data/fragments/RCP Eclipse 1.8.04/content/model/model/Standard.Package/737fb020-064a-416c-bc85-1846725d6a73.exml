@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="eval" version="4">
+  <OBJECT>
+    <ID name="eval" mc="Standard.Package" uid="737fb020-064a-416c-bc85-1846725d6a73"/>
+    <PID name="core" mc="Standard.Package" uid="bf3fc5d5-549c-4481-8650-25d40d3540f4"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[eval]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ExecutionFlowProvider" mc="Standard.Class" uid="0393f4fc-1043-4c69-a11e-f5df4508145e"/>
+        <COMPID name="evaluators" mc="Standard.Package" uid="b7ec7d94-b213-4c21-9031-8d6eab90f20e"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

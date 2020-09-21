@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="screenshots" version="4">
+  <OBJECT>
+    <ID name="screenshots" mc="Standard.Package" uid="423d58bd-d209-46c5-864e-17744d2911ef"/>
+    <PID name="ui" mc="Standard.Package" uid="a62d3c41-1d85-48e3-910a-94148eb13ef5"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[screenshots]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Messages" mc="Standard.Class" uid="c4b4b94f-4c4f-491d-9c2d-243e121725e7"/>
+        <COMPID name="ScreenshotImages" mc="Standard.Class" uid="6efa9676-d4c6-40b6-b2a2-98d83eb74ce1"/>
+        <COMPID name="SelectToolAction" mc="Standard.Class" uid="1fbd31ed-726b-4130-9211-e5f384ff9fd9"/>
+        <COMPID name="SwtUtil" mc="Standard.Class" uid="89bc0e02-a8a5-4822-88d6-65f59bda9bdf"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

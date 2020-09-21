@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="lifecyclemapping" version="4">
+  <OBJECT>
+    <ID name="lifecyclemapping" mc="Standard.Package" uid="7f921060-7bb3-49fd-a7d6-0cdd557ba35c"/>
+    <PID name="internal" mc="Standard.Package" uid="5a6dc0a8-cf6b-4224-a3a9-4a2fca584793"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[lifecyclemapping]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ActionMessageProblemInfo" mc="Standard.Class" uid="3119c787-2933-4669-950b-d17094a27a57"/>
+        <COMPID name="DefaultLifecycleMapping" mc="Standard.Class" uid="20414c77-d85e-4269-861c-79c98deba0e7"/>
+        <COMPID name="DuplicateMappingException" mc="Standard.Class" uid="ee82beac-9483-4692-a4c0-f2b26f14f0d2"/>
+        <COMPID name="InvalidLifecycleMapping" mc="Standard.Class" uid="ae340c99-dcba-4315-8492-08a918afcf34"/>
+        <COMPID name="LifecycleMappingConfigurationException" mc="Standard.Class" uid="d3819b78-47a5-4bbd-aa4a-991b954ac3f8"/>
+        <COMPID name="LifecycleMappingFactory" mc="Standard.Class" uid="3eb7b66c-af14-4a78-8d05-ed9da6c2f82c"/>
+        <COMPID name="LifecycleMappingResult" mc="Standard.Class" uid="c59d8794-60c0-4865-b0cb-dfafe0a81094"/>
+        <COMPID name="MappingMetadataSource" mc="Standard.Interface" uid="4144362b-9e87-46ed-bb3e-93fae45a4d6f"/>
+        <COMPID name="MissingConfiguratorProblemInfo" mc="Standard.Class" uid="d3ab0710-4ea0-4d65-b770-6e6da5b9f725"/>
+        <COMPID name="MissingLifecycleExtensionPoint" mc="Standard.Class" uid="8c4772e1-2af0-46e5-ac83-9272a8c54380"/>
+        <COMPID name="MojoExecutionProblemInfo" mc="Standard.Class" uid="ef5b3184-9080-41f3-8b13-9f6d8c89ebb3"/>
+        <COMPID name="NotCoveredMojoExecution" mc="Standard.Class" uid="f84537fd-3fc3-4a8b-b4a0-7d743f5b92fb"/>
+        <COMPID name="ProjectConfigurationElementSorter" mc="Standard.Class" uid="ca2de81d-1306-405e-afb7-b3d36bd27910"/>
+        <COMPID name="SimpleMappingMetadataSource" mc="Standard.Class" uid="5fcbf92b-7910-49df-b934-081eee490d7a"/>
+        <COMPID name="discovery" mc="Standard.Package" uid="9e1cc234-4b88-46d8-8abf-7bf72efa150a"/>
+        <COMPID name="model" mc="Standard.Package" uid="93ea2cad-0fc9-4523-8b6e-a6eb9995c87b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

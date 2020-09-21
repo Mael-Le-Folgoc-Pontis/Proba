@@ -1,0 +1,51 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="variable" version="4">
+  <OBJECT>
+    <ID name="variable" mc="Standard.Package" uid="e04217bd-05fa-4e2d-b0d4-2ec00497acc3"/>
+    <PID name="model" mc="Standard.Package" uid="3a547062-d7aa-4b35-8f7f-e2706ee85e55"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[variable]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractImplicitVariableSupport" mc="Standard.Class" uid="89b2a1ad-4078-436e-bedc-48834e53a504"/>
+        <COMPID name="AbstractNamedVariableSupport" mc="Standard.Class" uid="3b861284-d1ba-4da4-aa24-d9b8f88d305f"/>
+        <COMPID name="AbstractNoNameVariableSupport" mc="Standard.Class" uid="86ec8fb4-d7d3-44a7-a26c-daf8bd11e0dc"/>
+        <COMPID name="AbstractSimpleVariableSupport" mc="Standard.Class" uid="ac7a91a4-fb10-417a-bb41-af4f0e6e8fe5"/>
+        <COMPID name="EmptyInvocationVariableSupport" mc="Standard.Class" uid="2e763923-7304-4be6-9ed3-2e025511217a"/>
+        <COMPID name="EmptyPureVariableSupport" mc="Standard.Class" uid="62fab426-46f2-4149-be16-dcbce13bb373"/>
+        <COMPID name="EmptyVariableSupport" mc="Standard.Class" uid="7e859265-fe81-4dfe-b8f5-0eee9e117d82"/>
+        <COMPID name="ExposedFieldVariableSupport" mc="Standard.Class" uid="fdb37a21-9f42-4b19-8d3c-8a9408814f33"/>
+        <COMPID name="ExposedPropertyVariableSupport" mc="Standard.Class" uid="136c34c5-8b19-4f32-ab41-5b2bf118d5f4"/>
+        <COMPID name="FieldInitializerVariableSupport" mc="Standard.Class" uid="f469a484-6d3d-4ed2-8fa9-dde619c1c32f"/>
+        <COMPID name="FieldReuseVariableSupport" mc="Standard.Class" uid="12354610-2f6f-4943-90e0-a35d227b3949"/>
+        <COMPID name="FieldUniqueVariableSupport" mc="Standard.Class" uid="0e9a5170-3071-4d82-a824-fe8ea4914920"/>
+        <COMPID name="FieldVariableSupport" mc="Standard.Class" uid="ed941309-922d-497c-a9ec-dc5bed315090"/>
+        <COMPID name="LazyVariableSupport" mc="Standard.Class" uid="8b00d23c-02cd-4ff4-acd1-f33703297b8c"/>
+        <COMPID name="LazyVariableSupportUtils" mc="Standard.Class" uid="be0c95c1-fbbd-4dd7-8fd6-046563817322"/>
+        <COMPID name="LocalReuseVariableSupport" mc="Standard.Class" uid="d1c1f69b-ae4f-4103-87d7-44612337e076"/>
+        <COMPID name="LocalUniqueVariableSupport" mc="Standard.Class" uid="b9716d8e-b509-40f9-b97f-f3cd51633ccf"/>
+        <COMPID name="LocalVariableSupport" mc="Standard.Class" uid="cc6aab77-a82a-46d0-9d71-3ab539c7e77e"/>
+        <COMPID name="MethodParameterVariableSupport" mc="Standard.Class" uid="2a91929e-e9ba-4b06-84a9-9007edd525a7"/>
+        <COMPID name="NamesManager" mc="Standard.Class" uid="34b69364-5208-4b59-8a15-5654ac3a7034"/>
+        <COMPID name="SyncParentChildVariableNameSupport" mc="Standard.Class" uid="696bd9a8-87d3-436c-ab59-efc957ac341d"/>
+        <COMPID name="ThisVariableSupport" mc="Standard.Class" uid="6e663d50-3db0-40e7-89ca-fc904ac7516b"/>
+        <COMPID name="VariableProperty" mc="Standard.Class" uid="33fe233f-ca22-4d18-ba7f-1f24baa38578"/>
+        <COMPID name="VariableSupport" mc="Standard.Class" uid="7094275a-d638-48a4-ae41-5daac9c91287"/>
+        <COMPID name="VariableUtils" mc="Standard.Class" uid="ba8c4cf3-11be-4280-a00e-3bdfb55a8217"/>
+        <COMPID name="VoidInvocationVariableSupport" mc="Standard.Class" uid="64f2c2eb-5e2a-4add-8862-e2acf846eb78"/>
+        <COMPID name="WrapperMethodControlVariableSupport" mc="Standard.Class" uid="ae67dc20-4e85-423d-9f3e-b3dad5803e02"/>
+        <COMPID name="description" mc="Standard.Package" uid="3e035e47-468a-45c3-b444-66e299b6934d"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

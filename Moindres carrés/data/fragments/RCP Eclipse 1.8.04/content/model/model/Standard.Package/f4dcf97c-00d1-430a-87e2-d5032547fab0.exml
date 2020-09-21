@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="layout" version="4">
+  <OBJECT>
+    <ID name="layout" mc="Standard.Package" uid="f4dcf97c-00d1-430a-87e2-d5032547fab0"/>
+    <PID name="model" mc="Standard.Package" uid="3a547062-d7aa-4b35-8f7f-e2706ee85e55"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[layout]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="GeneralLayoutData" mc="Standard.Class" uid="aa21d443-58ed-43f4-b210-4d380c6705f4"/>
+        <COMPID name="GeneralLayoutDataRemover" mc="Standard.Class" uid="6272d784-103e-444e-a4cd-d7c64527291b"/>
+        <COMPID name="LayoutDataNameSupport" mc="Standard.Class" uid="a6fecb37-4cbc-4c3d-89b8-cc2c0484a260"/>
+        <COMPID name="LayoutNameSupport" mc="Standard.Class" uid="4aed78b0-9e50-4a6b-a4c3-d84b44a11fc9"/>
+        <COMPID name="absolute" mc="Standard.Package" uid="c4e5ea3f-ca10-41c5-9357-e7abedd8da19"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

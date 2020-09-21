@@ -1,0 +1,55 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="product" version="4">
+  <OBJECT>
+    <ID name="product" mc="Standard.Package" uid="007d86b0-0bd1-112e-9071-001e4fea2d8b"/>
+    <PID name="editor" mc="Standard.Package" uid="00619e46-0bd1-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[product]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AboutSection" mc="Standard.Class" uid="007d8cfa-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ArgumentsSection" mc="Standard.Class" uid="007d9312-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BrandingPage" mc="Standard.Class" uid="007d993e-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ConfigurationPage" mc="Standard.Class" uid="007d9fc4-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ConfigurationSection" mc="Standard.Class" uid="007da65e-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DependenciesPage" mc="Standard.Class" uid="007dad2a-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FeatureSection" mc="Standard.Class" uid="007db428-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="GeneralInfoSection" mc="Standard.Class" uid="007dc6fc-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IntroSection" mc="Standard.Class" uid="007dce68-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JRESection" mc="Standard.Class" uid="007dd606-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LauncherSection" mc="Standard.Class" uid="007de380-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LaunchingPage" mc="Standard.Class" uid="007df136-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LicenseSection" mc="Standard.Class" uid="007df96a-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LicensingPage" mc="Standard.Class" uid="007e01da-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="OverviewPage" mc="Standard.Class" uid="007e0a72-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PluginConfigurationSection" mc="Standard.Class" uid="007e1346-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PluginSection" mc="Standard.Class" uid="007e27f0-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ProductEditor" mc="Standard.Class" uid="007e43a2-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ProductEditorContributor" mc="Standard.Class" uid="007e4d16-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ProductExportAction" mc="Standard.Class" uid="007e56c6-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ProductInfoSection" mc="Standard.Class" uid="007e60d0-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ProductInputContext" mc="Standard.Class" uid="007e7084-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ProductInputContextManager" mc="Standard.Class" uid="007e7aac-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ProductLauncherFormPageHelper" mc="Standard.Class" uid="007e851a-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ProductOutlinePage" mc="Standard.Class" uid="007e8fba-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ProductValidateAction" mc="Standard.Class" uid="007e9a82-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PropertiesSection" mc="Standard.Class" uid="007ea59a-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SplashConfigurationSection" mc="Standard.Class" uid="007ec91c-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SplashLocationSection" mc="Standard.Class" uid="007ed4c0-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SplashPage" mc="Standard.Class" uid="007ee064-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="VersionDialog" mc="Standard.Class" uid="007eec44-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WindowImagesSection" mc="Standard.Class" uid="007ef856-0bd1-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

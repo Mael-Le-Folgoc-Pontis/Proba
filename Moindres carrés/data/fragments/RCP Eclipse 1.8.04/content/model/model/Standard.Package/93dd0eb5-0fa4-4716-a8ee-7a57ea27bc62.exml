@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="scroll" version="4">
+  <OBJECT>
+    <ID name="scroll" mc="Standard.Package" uid="93dd0eb5-0fa4-4716-a8ee-7a57ea27bc62"/>
+    <PID name="draw2d" mc="Standard.Package" uid="7f34d8e2-bd95-45a2-8bb4-e2db9347a620"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[scroll]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="HorizontalScrollModel" mc="Standard.Class" uid="431f8ec4-8083-4442-aff5-590ab7a4a109"/>
+        <COMPID name="ScrollModel" mc="Standard.Class" uid="eefd1baa-6d5b-4675-a076-cea868d9a60a"/>
+        <COMPID name="VerticalScrollModel" mc="Standard.Class" uid="25c6d481-1434-4e88-beaa-c642def5093d"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

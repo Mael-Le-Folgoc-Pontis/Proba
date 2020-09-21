@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="type" version="4">
+  <OBJECT>
+    <ID name="type" mc="Standard.Package" uid="661de240-1a4b-11e0-8090-00137279a832"/>
+    <PID name="xml" mc="Standard.Package" uid="661de23f-1a4b-11e0-8090-00137279a832"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[type]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AnyType" mc="Standard.Interface" uid="5f58aaae-9b63-11e1-8baf-001ec947ccaf"/>
+        <COMPID name="InvalidDatatypeValueException" mc="Standard.Class" uid="67432386-1a4b-11e0-8090-00137279a832"/>
+        <COMPID name="ProcessingInstruction" mc="Standard.Interface" uid="5f564850-9b63-11e1-8baf-001ec947ccaf"/>
+        <COMPID name="SimpleAnyType" mc="Standard.Interface" uid="5f58aaac-9b63-11e1-8baf-001ec947ccaf"/>
+        <COMPID name="XMLTypeDocumentRoot" mc="Standard.Interface" uid="5f56484f-9b63-11e1-8baf-001ec947ccaf"/>
+        <COMPID name="XMLTypeFactory" mc="Standard.Interface" uid="5f58aaad-9b63-11e1-8baf-001ec947ccaf"/>
+        <COMPID name="XMLTypePackage" mc="Standard.Interface" uid="5f58aaaa-9b63-11e1-8baf-001ec947ccaf"/>
+        <COMPID name="impl" mc="Standard.Package" uid="661de241-1a4b-11e0-8090-00137279a832"/>
+        <COMPID name="internal" mc="Standard.Package" uid="661de248-1a4b-11e0-8090-00137279a832"/>
+        <COMPID name="util" mc="Standard.Package" uid="674585d9-1a4b-11e0-8090-00137279a832"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

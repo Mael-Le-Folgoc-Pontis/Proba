@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="properties" version="4">
+  <OBJECT>
+    <ID name="properties" mc="Standard.Package" uid="eb8d2662-09e1-4ac3-bd7b-58a549802a57"/>
+    <PID name="internal" mc="Standard.Package" uid="8de19d9c-309f-4c7f-968c-e82cba2f8859"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[properties]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AdapterPropertySheetEntryLabelProvider" mc="Standard.Class" uid="72316d79-e53f-4a6b-ae52-5f7dfcab0406"/>
+        <COMPID name="ConfigurablePropertySheetPage" mc="Standard.Class" uid="163ff631-e4c0-4631-a95d-a662a23f4cc5"/>
+        <COMPID name="CustomPropertyDescriptor" mc="Standard.Class" uid="4a49104f-c9d1-4018-9b5f-494aa24841b6"/>
+        <COMPID name="RemoveAction" mc="Standard.Class" uid="0d6dabf9-8c15-4566-a44f-e0cd4e35b155"/>
+        <COMPID name="ShowPropertiesAction" mc="Standard.Class" uid="7b37d677-1932-4330-a4a8-612f7947201c"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

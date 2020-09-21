@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="model" version="4">
+  <OBJECT>
+    <ID name="model" mc="Standard.Package" uid="c286e5a9-2d7d-405c-9bdd-cd4596b38110"/>
+    <PID name="core" mc="Standard.Package" uid="af8d7b90-9518-4c7e-b238-618caecac626"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[model]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractComponentInfo" mc="Standard.Class" uid="631bfe32-3919-4e3a-bb9c-d9287d5451c8"/>
+        <COMPID name="HasSourcePosition" mc="Standard.Interface" uid="b02bbdb2-9397-4acc-a63b-0209eaa8ddcc"/>
+        <COMPID name="IAbstractComponentInfo" mc="Standard.Interface" uid="fedefdf6-94ca-4e42-8632-57ae98773aa1"/>
+        <COMPID name="IJavaInfoInitializationParticipator" mc="Standard.Interface" uid="b8dacdfa-51cc-4352-92cd-8af7f6cde439"/>
+        <COMPID name="IObjectInfo" mc="Standard.Interface" uid="941a4770-ee53-4b90-bcf2-7864c3eee320"/>
+        <COMPID name="IRootProcessor" mc="Standard.Interface" uid="ebd1be48-570e-4bef-9a26-1ca3421870b8"/>
+        <COMPID name="ITopBoundsSupport" mc="Standard.Interface" uid="5449def2-71ec-49e7-93aa-c9804e4088d3"/>
+        <COMPID name="IWrapper" mc="Standard.Interface" uid="96715a4d-52f6-47da-a2ae-3998ec529988"/>
+        <COMPID name="IWrapperInfo" mc="Standard.Interface" uid="a692b794-0c9c-4cb0-ba7a-6bbacb625dad"/>
+        <COMPID name="JavaInfo" mc="Standard.Class" uid="d21b4137-71f7-480e-993a-ac1363a198cb"/>
+        <COMPID name="ObjectInfo" mc="Standard.Class" uid="9bd7a4bd-5fef-4f70-a54c-bf6ae2a66039"/>
+        <COMPID name="ObjectInfoUtils" mc="Standard.Class" uid="ff23dc8e-9358-46c0-8586-ea3a16ca0757"/>
+        <COMPID name="WrapperByMethod" mc="Standard.Class" uid="90d09bd9-1a02-4d3b-acb6-141b8079d983"/>
+        <COMPID name="WrapperMethodInfo" mc="Standard.Class" uid="66d5b76a-d6d2-4b1a-9767-03f98eecbc37"/>
+        <COMPID name="association" mc="Standard.Package" uid="0d4c9256-167d-422b-b041-0c1eb807325c"/>
+        <COMPID name="broadcast" mc="Standard.Package" uid="512923b8-9a9f-4960-b366-dc2f6d5e2904"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

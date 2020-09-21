@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="conversion" version="4">
+  <OBJECT>
+    <ID name="conversion" mc="Standard.Package" uid="cd973f44-7bb6-4ba0-bf8c-74e0d038bcc6"/>
+    <PID name="project" mc="Standard.Package" uid="b5e078ac-aa45-432c-8e8b-417f510273dc"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[conversion]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractProjectConversionEnabler" mc="Standard.Class" uid="9535f746-1f02-47b9-bc88-e16c25ffdc14"/>
+        <COMPID name="AbstractProjectConversionParticipant" mc="Standard.Class" uid="03244a93-e04a-4641-8a7d-f1f24b5f2e18"/>
+        <COMPID name="IProjectConversionEnabler" mc="Standard.Interface" uid="421a8f0e-e737-4125-813e-5881a7f3b226"/>
+        <COMPID name="IProjectConversionManager" mc="Standard.Interface" uid="d57b9259-c455-40a8-9c1c-beeaa74a4853"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

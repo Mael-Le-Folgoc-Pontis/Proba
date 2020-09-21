@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="gradle" version="4">
+  <OBJECT>
+    <ID name="gradle" mc="Standard.Package" uid="40274b94-b07a-44d7-8384-890a49fb4e1e"/>
+    <PID name="core" mc="Standard.Package" uid="7b7ddca1-fd25-4e5e-b303-f349cd5fa217"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[gradle]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Limitations" mc="Standard.Class" uid="3b8a0e6e-aaf5-460e-b432-2778b6e252ac"/>
+        <COMPID name="LoadEclipseGradleBuildJob" mc="Standard.Class" uid="ad363744-7304-4a8e-b958-a16644bb67dc"/>
+        <COMPID name="LoadEclipseGradleBuildsJob" mc="Standard.Class" uid="03bf3d02-21a2-42b4-b188-5bcf4688bb69"/>
+        <COMPID name="Specs" mc="Standard.Class" uid="dbe40c11-bc90-4703-8bb7-0db57016ed60"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

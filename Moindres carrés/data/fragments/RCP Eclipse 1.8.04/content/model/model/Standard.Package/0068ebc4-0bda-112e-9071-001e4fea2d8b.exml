@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="datamodel" version="4">
+  <OBJECT>
+    <ID name="datamodel" mc="Standard.Package" uid="0068ebc4-0bda-112e-9071-001e4fea2d8b"/>
+    <PID name="internal" mc="Standard.Package" uid="0066b52a-0bda-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[datamodel]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractTracingNode" mc="Standard.Class" uid="0068f1fa-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ModifiedDebugOptions" mc="Standard.Class" uid="0068f826-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TracingCollections" mc="Standard.Class" uid="0068fe98-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TracingComponent" mc="Standard.Class" uid="0069053c-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TracingComponentDebugOption" mc="Standard.Class" uid="00690bd6-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TracingNode" mc="Standard.Interface" uid="006911f8-0bda-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

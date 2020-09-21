@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="action" version="4">
+  <OBJECT>
+    <ID name="action" mc="Standard.Package" uid="04e5ff44-46ec-4b2d-8302-4098557756f5"/>
+    <PID name="ui" mc="Standard.Package" uid="06c47a93-a0b3-4177-a89d-b009fe3c91d3"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[action]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="CommandAction" mc="Standard.Class" uid="c7043618-3923-40ab-8cb8-507ab8076f15"/>
+        <COMPID name="CommandActionHandler" mc="Standard.Class" uid="b2fa3802-f080-4499-b4d3-71d4c26dd5ef"/>
+        <COMPID name="ControlAction" mc="Standard.Class" uid="6c2327e3-1f84-4d2d-acbb-a068fa8467ca"/>
+        <COMPID name="CopyAction" mc="Standard.Class" uid="c99e0934-094b-43d4-869b-ec30fe37796e"/>
+        <COMPID name="CreateChildAction" mc="Standard.Class" uid="9fd4b350-cb3d-46b2-877d-b74d207a9c28"/>
+        <COMPID name="CreateSiblingAction" mc="Standard.Class" uid="033dc28a-948b-4bf1-841b-a4514e68c8ee"/>
+        <COMPID name="CutAction" mc="Standard.Class" uid="10adbdf6-f2f6-4d65-8cb6-268bb5568b11"/>
+        <COMPID name="DelegatingCommandAction" mc="Standard.Class" uid="56eede00-38a4-4807-ab9c-338cdcb6b08f"/>
+        <COMPID name="DeleteAction" mc="Standard.Class" uid="84199cc9-487d-47f1-b74a-5d500cb11daa"/>
+        <COMPID name="EditingDomainActionBarContributor" mc="Standard.Class" uid="fa915846-2166-4ad4-bbb4-f885362a0424"/>
+        <COMPID name="LoadResourceAction" mc="Standard.Class" uid="c9a42f36-285b-428f-a6d1-12aeba1eedc0"/>
+        <COMPID name="PasteAction" mc="Standard.Class" uid="3590a3a8-f9e1-4f5e-9d86-9b951a67e9ef"/>
+        <COMPID name="RedoAction" mc="Standard.Class" uid="76d84a4c-fdcf-4839-ae43-9cd896d4cb7e"/>
+        <COMPID name="StaticSelectionCommandAction" mc="Standard.Class" uid="61b5bf1d-bddb-4a4c-9602-9f0226fa4a12"/>
+        <COMPID name="UndoAction" mc="Standard.Class" uid="3e0fe2a9-a754-4fb6-8ead-c56873347140"/>
+        <COMPID name="ValidateAction" mc="Standard.Class" uid="bfb27759-2c31-47f4-9775-1de24da187fe"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

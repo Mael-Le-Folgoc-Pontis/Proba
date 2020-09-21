@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="local" version="4">
+  <OBJECT>
+    <ID name="local" mc="Standard.Package" uid="00254626-0bc0-112e-9071-001e4fea2d8b"/>
+    <PID name="filesystem" mc="Standard.Package" uid="0023d7fa-0bc0-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[local]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Convert" mc="Standard.Class" uid="00254cb6-0bc0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="InfiniteProgress" mc="Standard.Class" uid="0025542c-0bc0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LocalFile" mc="Standard.Class" uid="00255b8e-0bc0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LocalFileHandler" mc="Standard.Class" uid="0025637c-0bc0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LocalFileNativesManager" mc="Standard.Class" uid="00257380-0bc0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LocalFileSystem" mc="Standard.Class" uid="00257be6-0bc0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="NativeHandler" mc="Standard.Class" uid="0025847e-0bc0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="unix" mc="Standard.Package" uid="0026c76c-0bc0-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="profiles" version="4">
+  <OBJECT>
+    <ID name="profiles" mc="Standard.Package" uid="5b700599-8f1c-4dc1-8337-7dea2d832464"/>
+    <PID name="maven" mc="Standard.Package" uid="173ccbb1-ee67-4028-9140-8289e1158a15"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[profiles]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Activation" mc="Standard.Class" uid="82f45865-7ea3-4997-9539-e935ba3c5fe8"/>
+        <COMPID name="ActivationFile" mc="Standard.Class" uid="a83bbf0f-c4be-4eff-a66d-9ed97a43ed1e"/>
+        <COMPID name="ActivationOS" mc="Standard.Class" uid="3ec08e76-3c07-487e-a8ae-361b5a32fe62"/>
+        <COMPID name="ActivationProperty" mc="Standard.Class" uid="527abc2a-57ce-4cec-a330-b2c8c5184515"/>
+        <COMPID name="DefaultMavenProfilesBuilder" mc="Standard.Class" uid="f4ca2c09-2185-46d3-a460-76f739f4a2bb"/>
+        <COMPID name="DefaultProfileManager" mc="Standard.Class" uid="8e2c6488-0c84-4544-9f86-5507228a8b57"/>
+        <COMPID name="MavenProfilesBuilder" mc="Standard.Interface" uid="aa3544bd-d03a-48c5-b527-04076eb214f2"/>
+        <COMPID name="Profile" mc="Standard.Class" uid="56061d8c-2b85-4a54-b18a-655526bbde46"/>
+        <COMPID name="ProfileManager" mc="Standard.Interface" uid="8f4b5c27-d4ac-43d7-84d1-eaa9ac2e1f4c"/>
+        <COMPID name="ProfilesConversionUtils" mc="Standard.Class" uid="4c5cd32d-bdec-452c-bbf6-79c4e4a381a3"/>
+        <COMPID name="ProfilesRoot" mc="Standard.Class" uid="1d4ac979-d150-45a2-b09f-d7cf975be33e"/>
+        <COMPID name="Repository" mc="Standard.Class" uid="7a69c52c-2feb-4eb5-b67a-3e4ac1164863"/>
+        <COMPID name="RepositoryBase" mc="Standard.Class" uid="fcaa99ec-cc82-4dd0-8a92-5761e6518fae"/>
+        <COMPID name="RepositoryPolicy" mc="Standard.Class" uid="6609cde1-deba-4a17-978f-afbeb78486c4"/>
+        <COMPID name="activation" mc="Standard.Package" uid="0c275928-e0c7-4649-b89c-85150f456c69"/>
+        <COMPID name="io" mc="Standard.Package" uid="ac9af908-f509-4331-b55d-76f143a01ba1"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="details" version="4">
+  <OBJECT>
+    <ID name="details" mc="Standard.Package" uid="004216f2-0bd1-112e-9071-001e4fea2d8b"/>
+    <PID name="comp" mc="Standard.Package" uid="003f0da4-0bd1-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[details]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="CompCSConclusionTextListener" mc="Standard.Class" uid="00421d14-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CompCSDetails" mc="Standard.Class" uid="00422318-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CompCSEnclosingTextDetails" mc="Standard.Class" uid="00422976-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CompCSIntroductionTextListener" mc="Standard.Class" uid="00423010-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CompCSTaskDetails" mc="Standard.Class" uid="00423696-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CompCSTaskGroupDetails" mc="Standard.Class" uid="00423d8a-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DetailsMessages" mc="Standard.Class" uid="004244b0-0bd1-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="fitting" version="4">
+  <OBJECT>
+    <ID name="fitting" mc="Standard.Package" uid="619a43c3-6576-4aac-bf90-c2cb12991230"/>
+    <PID name="optimization" mc="Standard.Package" uid="31d2dd10-056c-4382-80ff-e712c577bb24"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[fitting]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="CurveFitter" mc="Standard.Class" uid="075256e5-3bf7-40c4-93ad-ee7c416aad0f"/>
+        <COMPID name="HarmonicCoefficientsGuesser" mc="Standard.Class" uid="2b5b5c9e-2338-4079-a4a4-3424425ea4fb"/>
+        <COMPID name="HarmonicFitter" mc="Standard.Class" uid="5e5846fb-b6c0-4274-8ec0-f0955905f3f5"/>
+        <COMPID name="HarmonicFunction" mc="Standard.Class" uid="23f8df91-5b5d-4c9a-8af6-14491d0aac3f"/>
+        <COMPID name="ParametricRealFunction" mc="Standard.Interface" uid="64167999-7a38-4298-b3b1-995614baafbe"/>
+        <COMPID name="PolynomialFitter" mc="Standard.Class" uid="863be42f-09d3-41e6-b03f-b7fa9f5e22ab"/>
+        <COMPID name="WeightedObservedPoint" mc="Standard.Class" uid="69a2938d-5ed8-4d6b-9fc7-dc035fb0fe19"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

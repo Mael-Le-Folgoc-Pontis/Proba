@@ -1,0 +1,71 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="registry" version="4">
+  <OBJECT>
+    <ID name="registry" mc="Standard.Package" uid="00822102-21a7-1fb1-8a9e-001e4fea2d8b"/>
+    <PID name="internal" mc="Standard.Package" uid="008cece0-21a6-1fb1-8a9e-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[registry]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="BaseExtensionHandle" mc="Standard.Class" uid="00890eea-21a7-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="BaseExtensionPointHandle" mc="Standard.Class" uid="008a59a8-21a7-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="BufferedRandomInputStream" mc="Standard.Class" uid="008cf190-21a7-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="BundleHelper" mc="Standard.Class" uid="8589c1d2-3caf-4841-af0b-107bc07be954"/>
+        <COMPID name="CombinedEventDelta" mc="Standard.Class" uid="008b1fb4-21a7-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ConfigurationElement" mc="Standard.Class" uid="0084201a-21a7-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ConfigurationElementHandle" mc="Standard.Class" uid="00850c96-21a7-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ConfigurationElementMulti" mc="Standard.Class" uid="00877968-21a7-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="Contribution" mc="Standard.Class" uid="008824c6-21a7-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="DirectMap" mc="Standard.Class" uid="00899cca-21a7-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="Extension" mc="Standard.Class" uid="008e5814-21a7-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ExtensionDelta" mc="Standard.Class" uid="0087d0de-21a7-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ExtensionHandle" mc="Standard.Class" uid="0082f0f0-21a7-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ExtensionMulti" mc="Standard.Class" uid="008d8c54-21a7-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ExtensionPoint" mc="Standard.Class" uid="008d57a2-21a7-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ExtensionPointHandle" mc="Standard.Class" uid="00823dae-21a7-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ExtensionPointMulti" mc="Standard.Class" uid="0083c4ee-21a7-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ExtensionRegistry" mc="Standard.Class" uid="008ec04c-21a7-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ExtensionsParser" mc="Standard.Class" uid="0082977c-21a7-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="Handle" mc="Standard.Class" uid="0085bfba-21a7-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="HashtableOfStringAndInt" mc="Standard.Class" uid="008bb2b2-21a7-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="IObjectManager" mc="Standard.Interface" uid="00874d8a-21a7-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="IRegistryConstants" mc="Standard.Interface" uid="0087f82a-21a7-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="KeyedElement" mc="Standard.Interface" uid="008bdae4-21a7-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="KeyedHashSet" mc="Standard.Class" uid="008593f0-21a7-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="OffsetTable" mc="Standard.Class" uid="00834b40-21a7-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ReadWriteMonitor" mc="Standard.Class" uid="008373ae-21a7-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ReferenceMap" mc="Standard.Class" uid="008c0bd6-21a7-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="RegistryChangeEvent" mc="Standard.Class" uid="0089fb2a-21a7-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="RegistryCompatibilityHelper" mc="Standard.Class" uid="b83dfa45-9e41-49f7-aac5-e6239a7fbddd"/>
+        <COMPID name="RegistryDelta" mc="Standard.Class" uid="0087a514-21a7-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="RegistryIndexChildren" mc="Standard.Class" uid="0088831c-21a7-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="RegistryIndexElement" mc="Standard.Class" uid="00893d20-21a7-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="RegistryMessages" mc="Standard.Class" uid="008a89c8-21a7-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="RegistryObject" mc="Standard.Class" uid="0088b080-21a7-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="RegistryObjectFactory" mc="Standard.Class" uid="008b50ba-21a7-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="RegistryObjectFactoryMulti" mc="Standard.Class" uid="008d248a-21a7-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="RegistryObjectManager" mc="Standard.Class" uid="008e8c44-21a7-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="RegistryProperties" mc="Standard.Class" uid="009480ae-21a7-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="RegistryProviderFactory" mc="Standard.Class" uid="008a2a82-21a7-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="RegistrySupport" mc="Standard.Class" uid="00839bfe-21a7-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="RegistryTimestamp" mc="Standard.Class" uid="008568c6-21a7-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="TableReader" mc="Standard.Class" uid="008df1da-21a7-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="TableWriter" mc="Standard.Class" uid="008b8152-21a7-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="TemporaryObjectManager" mc="Standard.Class" uid="0089cb96-21a7-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ThirdLevelConfigurationElementHandle" mc="Standard.Class" uid="0084b00c-21a7-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="osgi" mc="Standard.Package" uid="00908b34-21a7-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="spi" mc="Standard.Package" uid="0086e2aa-21a7-1fb1-8a9e-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

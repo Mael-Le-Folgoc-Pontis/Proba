@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="tasks" version="4">
+  <OBJECT>
+    <ID name="tasks" mc="Standard.Package" uid="dbbda19b-2b5b-4b94-a043-3f5068771aaa"/>
+    <PID name="mylyn" mc="Standard.Package" uid="514c24cd-dfd6-4cf0-95dc-3b2cbafcc2a7"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[tasks]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="bugs" mc="Standard.Package" uid="aea481b7-5967-43b5-8447-2289f0d6ce36"/>
+        <COMPID name="core" mc="Standard.Package" uid="ca7b9d75-150f-45c7-bd8e-1dc0cce666a2"/>
+        <COMPID name="ui" mc="Standard.Package" uid="d60ba454-ca37-481d-af17-68708f704e3c"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

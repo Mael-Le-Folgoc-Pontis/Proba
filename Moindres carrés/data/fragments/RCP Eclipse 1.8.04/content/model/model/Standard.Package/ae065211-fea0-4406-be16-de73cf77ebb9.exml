@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="rcp" version="4">
+  <OBJECT>
+    <ID name="rcp" mc="Standard.Package" uid="ae065211-fea0-4406-be16-de73cf77ebb9"/>
+    <PID name="apidocs" mc="Standard.Package" uid="9d77d753-9d45-4089-973a-b4fa6e9906c8"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[rcp]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ApidocsPreferences" mc="Standard.Class" uid="61b80a2b-10c3-409e-b2f5-8b2180fc4199"/>
+        <COMPID name="ApidocsRcpModule" mc="Standard.Class" uid="da283edc-4837-4e26-a5ed-ef007c6ccd0e"/>
+        <COMPID name="ApidocsRcpPlugin" mc="Standard.Class" uid="c9e4b14e-3dba-4bd9-bb82-4012369526e7"/>
+        <COMPID name="ApidocsView" mc="Standard.Class" uid="303b13c3-143e-4b93-b980-111b22b0c011"/>
+        <COMPID name="ApidocsViewUtils" mc="Standard.Class" uid="200b41a3-5fe3-4e7f-915a-7a9e0eaafac3"/>
+        <COMPID name="DnDProviderTransfer" mc="Standard.Class" uid="58d82e93-b2da-4db2-86d4-959e52105d79"/>
+        <COMPID name="JavadocProvider" mc="Standard.Class" uid="b5f133e2-ae30-477e-83a8-f025af03db00"/>
+        <COMPID name="OverridesProvider" mc="Standard.Class" uid="82e57cf7-7238-4705-9873-fdd6ae3f18df"/>
+        <COMPID name="ProviderArea" mc="Standard.Class" uid="d88c9c0e-eb88-4abd-bdfe-3077b50e1c58"/>
+        <COMPID name="SelfCallsProvider" mc="Standard.Class" uid="10431f05-49d0-4729-8dca-ced8dcb9b7cf"/>
+        <COMPID name="SourceCodeArea" mc="Standard.Class" uid="a58e8efd-cc15-4bc6-aae3-4ce169b635ff"/>
+        <COMPID name="StaticHooksProvider" mc="Standard.Class" uid="d398b0ea-43e2-4ce7-ae56-59f93fd0e895"/>
+        <COMPID name="SubscriptionManager" mc="Standard.Class" uid="3fe04d64-c1c0-4edc-90b7-36614b2a6f1b"/>
+        <COMPID name="l10n" mc="Standard.Package" uid="738e59fa-9407-4d68-888a-a29842ea1fae"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

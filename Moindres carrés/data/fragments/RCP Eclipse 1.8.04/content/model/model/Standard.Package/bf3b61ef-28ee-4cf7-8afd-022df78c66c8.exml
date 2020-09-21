@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="jgit" version="4">
+  <OBJECT>
+    <ID name="jgit" mc="Standard.Package" uid="bf3b61ef-28ee-4cf7-8afd-022df78c66c8"/>
+    <PID name="eclipse" mc="Standard.Package" uid="0015e0b4-219f-1fb1-8a9e-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[jgit]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="api" mc="Standard.Package" uid="8164d73d-3f4e-4972-84ef-ec908f6e9cca"/>
+        <COMPID name="archive" mc="Standard.Package" uid="156a617d-320b-4850-898d-f31d203921c7"/>
+        <COMPID name="attributes" mc="Standard.Package" uid="f735ec09-cc60-4bf3-9817-64a15e97c8a3"/>
+        <COMPID name="blame" mc="Standard.Package" uid="a6f500f8-c714-4cbb-bcf3-3de5f54b4d7f"/>
+        <COMPID name="diff" mc="Standard.Package" uid="c58c1a22-830f-4a87-ad0c-6a0f2552d161"/>
+        <COMPID name="dircache" mc="Standard.Package" uid="7a4267f0-4efb-409d-8a2f-089e6dd0f5e8"/>
+        <COMPID name="errors" mc="Standard.Package" uid="e4dd0ce1-0a0d-40c3-b21f-84b943a5ef19"/>
+        <COMPID name="events" mc="Standard.Package" uid="ac748295-f2cf-41f5-bade-679d61e941e6"/>
+        <COMPID name="fnmatch" mc="Standard.Package" uid="f561d74a-acbd-464d-8c93-7330760dc33d"/>
+        <COMPID name="gitrepo" mc="Standard.Package" uid="4b2d2774-80fd-4486-b0a5-e21c0f50f061"/>
+        <COMPID name="hooks" mc="Standard.Package" uid="a2175e14-d3d2-4968-87ed-cd6464f7d183"/>
+        <COMPID name="ignore" mc="Standard.Package" uid="824e5cde-6b37-419a-add9-2654177e09cb"/>
+        <COMPID name="internal" mc="Standard.Package" uid="bdc1d260-0814-44c1-84ac-02121491a025"/>
+        <COMPID name="lib" mc="Standard.Package" uid="4fe9e900-76fa-45d7-9c43-d404f1c662f5"/>
+        <COMPID name="merge" mc="Standard.Package" uid="ffef56c7-b589-47ab-8c51-0fe583c17d88"/>
+        <COMPID name="nls" mc="Standard.Package" uid="19720e80-70b0-4606-a3c8-0a9ed9e94b02"/>
+        <COMPID name="notes" mc="Standard.Package" uid="f331a91f-a83d-4daa-9370-a3d9661d493d"/>
+        <COMPID name="patch" mc="Standard.Package" uid="affe0e52-3704-4c72-a297-ed022f0c4851"/>
+        <COMPID name="revplot" mc="Standard.Package" uid="65f46ad7-349d-42a2-b6bf-a1015e7511cf"/>
+        <COMPID name="revwalk" mc="Standard.Package" uid="8ac576c7-eccd-4203-ac07-d389add603d7"/>
+        <COMPID name="storage" mc="Standard.Package" uid="9ecdd90d-cfcb-4c09-b5cc-620c1def60d7"/>
+        <COMPID name="submodule" mc="Standard.Package" uid="89e4cdbd-2cef-4ecc-80d7-c771d04c4bd3"/>
+        <COMPID name="transport" mc="Standard.Package" uid="4d598de4-25d7-4281-a0b6-95f52ebf6f66"/>
+        <COMPID name="treewalk" mc="Standard.Package" uid="ae1510c5-7319-4d12-a340-20f73218b71c"/>
+        <COMPID name="util" mc="Standard.Package" uid="15632b2e-aa30-4ac1-8aac-8c12a6e438d9"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

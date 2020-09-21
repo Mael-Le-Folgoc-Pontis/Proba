@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="util" version="4">
+  <OBJECT>
+    <ID name="util" mc="Standard.Package" uid="797838cd-1a4b-11e0-8090-00137279a832"/>
+    <PID name="ecore2xml" mc="Standard.Package" uid="797838cb-1a4b-11e0-8090-00137279a832"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[util]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Ecore2XMLAdapterFactory" mc="Standard.Class" uid="797838d3-1a4b-11e0-8090-00137279a832"/>
+        <COMPID name="Ecore2XMLExtendedMetaData" mc="Standard.Class" uid="797838cf-1a4b-11e0-8090-00137279a832"/>
+        <COMPID name="Ecore2XMLResource" mc="Standard.Interface" uid="99ac8918-9b63-11e1-8baf-001ec947ccaf"/>
+        <COMPID name="Ecore2XMLResourceFactoryImpl" mc="Standard.Class" uid="797838d0-1a4b-11e0-8090-00137279a832"/>
+        <COMPID name="Ecore2XMLResourceImpl" mc="Standard.Class" uid="797838d2-1a4b-11e0-8090-00137279a832"/>
+        <COMPID name="Ecore2XMLSwitch" mc="Standard.Class" uid="797838ce-1a4b-11e0-8090-00137279a832"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

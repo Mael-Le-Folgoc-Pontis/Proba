@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ui" version="4">
+  <OBJECT>
+    <ID name="ui" mc="Standard.Package" uid="00593a80-d4f2-111c-bc9b-001e4fea2d8b"/>
+    <PID name="p2" mc="Standard.Package" uid="003a9120-d4f2-111c-bc9b-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[ui]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AcceptLicensesWizardPage" mc="Standard.Class" uid="005944da-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="ICopyable" mc="Standard.Interface" uid="00596bea-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="InstalledSoftwarePage" mc="Standard.Class" uid="005a042e-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="LicenseManager" mc="Standard.Class" uid="0059ad94-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="LoadMetadataRepositoryJob" mc="Standard.Class" uid="0059d0a8-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="Policy" mc="Standard.Class" uid="00599caa-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="ProvisioningUI" mc="Standard.Class" uid="0059bf14-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="RepositoryManipulationPage" mc="Standard.Class" uid="00597cb6-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="RevertProfilePage" mc="Standard.Class" uid="0059e23c-d4f2-111c-bc9b-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

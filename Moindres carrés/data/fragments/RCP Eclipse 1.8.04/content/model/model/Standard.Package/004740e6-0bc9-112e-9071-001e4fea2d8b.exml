@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="dom" version="4">
+  <OBJECT>
+    <ID name="dom" mc="Standard.Package" uid="004740e6-0bc9-112e-9071-001e4fea2d8b"/>
+    <PID name="corext" mc="Standard.Package" uid="003dd6d2-0bc9-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[dom]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ASTBatchParser" mc="Standard.Class" uid="00474a64-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ASTFlattener" mc="Standard.Class" uid="004757e8-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ASTNodeFactory" mc="Standard.Class" uid="00475e82-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ASTNodes" mc="Standard.Class" uid="0047778c-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Bindings" mc="Standard.Class" uid="00478c22-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BodyDeclarationRewrite" mc="Standard.Class" uid="00479348-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CodeScopeBuilder" mc="Standard.Class" uid="00479a96-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DimensionRewrite" mc="Standard.Class" uid="bf5cd089-82ce-48d4-b245-eadcc33a6173"/>
+        <COMPID name="GenericVisitor" mc="Standard.Class" uid="0047af86-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HierarchicalASTVisitor" mc="Standard.Class" uid="0047b742-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JdtASTMatcher" mc="Standard.Class" uid="0047bf26-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LinkedNodeFinder" mc="Standard.Class" uid="0047c700-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LocalVariableIndex" mc="Standard.Class" uid="0047eb0e-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ModifierRewrite" mc="Standard.Class" uid="0047f39c-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="NecessaryParenthesesChecker" mc="Standard.Class" uid="0047fc34-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="NodeFinder" mc="Standard.Class" uid="0048051c-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ReplaceRewrite" mc="Standard.Class" uid="00480e40-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ScopeAnalyzer" mc="Standard.Class" uid="00481750-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Selection" mc="Standard.Class" uid="0048513e-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SelectionAnalyzer" mc="Standard.Class" uid="00485aee-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="StatementRewrite" mc="Standard.Class" uid="004864a8-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TokenScanner" mc="Standard.Class" uid="00486ebc-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TypeBindingVisitor" mc="Standard.Interface" uid="004874ca-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TypeRules" mc="Standard.Class" uid="00487f56-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="VariableDeclarationRewrite" mc="Standard.Class" uid="00488a6e-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="fragments" mc="Standard.Package" uid="004a1ece-0bc9-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

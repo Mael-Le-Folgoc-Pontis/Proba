@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="mapping" version="4">
+  <OBJECT>
+    <ID name="mapping" mc="Standard.Package" uid="0015bada-0bd4-112e-9071-001e4fea2d8b"/>
+    <PID name="core" mc="Standard.Package" uid="0011c27c-0bd4-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[mapping]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractResourceMappingScope" mc="Standard.Class" uid="0015c0e8-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CompoundResourceTraversal" mc="Standard.Class" uid="0015c6ec-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DiffChangeEvent" mc="Standard.Class" uid="0015cd4a-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="GroupProgressMonitor" mc="Standard.Class" uid="0015d3d0-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IStreamMergerDelegate" mc="Standard.Interface" uid="0015da10-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LocalResourceVariant" mc="Standard.Class" uid="0015f61c-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ModelProviderResourceMapping" mc="Standard.Class" uid="0015fd56-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PathTree" mc="Standard.Class" uid="001604b8-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ResourceMappingInputScope" mc="Standard.Class" uid="001611e2-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ResourceMappingScope" mc="Standard.Class" uid="0016199e-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ResourceVariantFileRevision" mc="Standard.Class" uid="001621dc-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ScopeChangeEvent" mc="Standard.Class" uid="001629ca-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ScopeManagerEventHandler" mc="Standard.Class" uid="00163230-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SyncInfoToDiffConverter" mc="Standard.Class" uid="00164072-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TextStorageMerger" mc="Standard.Class" uid="001656d4-0bd4-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="display" version="4">
+  <OBJECT>
+    <ID name="display" mc="Standard.Package" uid="4a7b8b38-76fe-4d71-a1ae-684fd5ccfce8"/>
+    <PID name="common" mc="Standard.Package" uid="050af403-d060-44b3-9040-ae05350b9b98"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[display]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Displayable" mc="Standard.Interface" uid="5c77513d-eddf-4741-b0ea-1781e41b877e"/>
+        <COMPID name="ListDisplayable" mc="Standard.Interface" uid="3d2002c1-2f8c-4cbe-af56-9c11fff60be9"/>
+        <COMPID name="TableDisplayable" mc="Standard.Interface" uid="f447c10b-c2bc-4582-a73c-d556bd6e2a2d"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

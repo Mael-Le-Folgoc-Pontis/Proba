@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="annotation" version="4">
+  <OBJECT>
+    <ID name="annotation" mc="Standard.Package" uid="faed2ee1-7e96-4db3-850f-f8907800df97"/>
+    <PID name="contentmodel" mc="Standard.Package" uid="99e81de9-29fc-4f3f-8334-df89b4862d79"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[annotation]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Annotation" mc="Standard.Class" uid="56da501b-75c1-4215-8912-0cc940e82f4c"/>
+        <COMPID name="AnnotationMap" mc="Standard.Class" uid="38861eed-ea73-466d-b019-685742a6532e"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

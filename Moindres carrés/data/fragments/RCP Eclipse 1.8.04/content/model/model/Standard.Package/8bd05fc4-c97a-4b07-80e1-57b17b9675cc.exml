@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="refactor" version="4">
+  <OBJECT>
+    <ID name="refactor" mc="Standard.Package" uid="8bd05fc4-c97a-4b07-80e1-57b17b9675cc"/>
+    <PID name="internal" mc="Standard.Package" uid="78d3478f-ffaa-4fc9-8123-76468f3ac6f6"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[refactor]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Checks" mc="Standard.Class" uid="5a67c1a3-eed3-41ee-b11a-76af682cdff9"/>
+        <COMPID name="INameUpdating" mc="Standard.Interface" uid="b0d1ca5e-951e-4d12-a973-c835bbeaba85"/>
+        <COMPID name="IReferenceUpdating" mc="Standard.Interface" uid="2389840d-c08f-4b33-b706-bffb4f714fe1"/>
+        <COMPID name="IXSDRefactorConstants" mc="Standard.Interface" uid="f14620be-fbb0-4989-924a-84edf2f5e98b"/>
+        <COMPID name="MakeAnonymousTypsGlobalEnablementTester" mc="Standard.Class" uid="9a0d0849-d1b4-4073-8ede-61de68efd0b2"/>
+        <COMPID name="MakeLocalElementGlobalEnablementTester" mc="Standard.Class" uid="710f2e67-57bd-4210-84ea-3ae4a0f7c019"/>
+        <COMPID name="PerformUnsavedRefactoringOperation" mc="Standard.Class" uid="9662a88f-a39f-43d8-af3e-a38a0ed92684"/>
+        <COMPID name="RefactorEnablementTester" mc="Standard.Class" uid="58ffd981-e7fd-4358-9c2c-07780490831c"/>
+        <COMPID name="RefactoringComponent" mc="Standard.Interface" uid="9c8d0c5d-7fca-4c7f-9792-1dacee28ff2b"/>
+        <COMPID name="RefactoringMessages" mc="Standard.Class" uid="b82f7fab-b3a3-4467-9d94-a3f082b9f416"/>
+        <COMPID name="RenameEnablementTester" mc="Standard.Class" uid="77fdb9b0-0273-46eb-9d47-0874ecde99a4"/>
+        <COMPID name="TextChangeManager" mc="Standard.Class" uid="4c76b947-e8ed-4faf-be14-59d313a99b4e"/>
+        <COMPID name="XMLRefactoringComponent" mc="Standard.Class" uid="a9cec4c9-b15f-431c-b8fa-273e58a29d78"/>
+        <COMPID name="actions" mc="Standard.Package" uid="2e77613d-8d88-4747-9084-5287f79a15b1"/>
+        <COMPID name="handlers" mc="Standard.Package" uid="64bb0d6f-064a-4fd6-b804-f307d6fb02a5"/>
+        <COMPID name="rename" mc="Standard.Package" uid="4ecdb33d-69cc-4e87-91b6-f02f2d86972c"/>
+        <COMPID name="structure" mc="Standard.Package" uid="7a4fcb52-8c32-43aa-8442-02a725e5315a"/>
+        <COMPID name="util" mc="Standard.Package" uid="59b00335-d45f-43b1-9c12-22106b06e4a8"/>
+        <COMPID name="wizard" mc="Standard.Package" uid="1a0a5ec4-8b38-439c-a386-e6cd8973953d"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

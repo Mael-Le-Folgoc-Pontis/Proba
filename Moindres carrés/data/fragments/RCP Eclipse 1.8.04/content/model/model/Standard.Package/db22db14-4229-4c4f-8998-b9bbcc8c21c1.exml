@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="sift" version="4">
+  <OBJECT>
+    <ID name="sift" mc="Standard.Package" uid="db22db14-4229-4c4f-8998-b9bbcc8c21c1"/>
+    <PID name="core" mc="Standard.Package" uid="0101cad1-4db3-4b5d-b30b-1e1efbf9bd6c"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[sift]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AppenderFactoryBase" mc="Standard.Class" uid="343b2c5a-dba2-47cd-a4d4-2c45379aafea"/>
+        <COMPID name="AppenderTracker" mc="Standard.Interface" uid="f8cb1e1b-4ddb-48e6-9023-b01852927c36"/>
+        <COMPID name="AppenderTrackerImpl" mc="Standard.Class" uid="3521c3cc-eb6f-48ae-b070-785ab33e1f62"/>
+        <COMPID name="DefaultDiscriminator" mc="Standard.Class" uid="718fe8f2-c665-4f06-928b-57b652933478"/>
+        <COMPID name="Discriminator" mc="Standard.Interface" uid="9a6787bd-bc15-4b16-a3b5-20c09a8148f3"/>
+        <COMPID name="SiftingAppenderBase" mc="Standard.Class" uid="a414f3e5-d598-420d-aae6-01730465c35e"/>
+        <COMPID name="SiftingJoranConfiguratorBase" mc="Standard.Class" uid="7664e5fc-69b7-4a6d-9c5a-013fae005287"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

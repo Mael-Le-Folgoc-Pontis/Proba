@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="modelhandler" version="4">
+  <OBJECT>
+    <ID name="modelhandler" mc="Standard.Package" uid="62e291b4-b183-4272-9990-8833dc2708df"/>
+    <PID name="ltk" mc="Standard.Package" uid="d4e958e0-83ab-4ce7-8ac6-5229ef049b56"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[modelhandler]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractModelHandler" mc="Standard.Class" uid="183c6b39-5db4-4d58-b73b-d76e41a5620b"/>
+        <COMPID name="EmbeddedTypeHandler" mc="Standard.Interface" uid="8403e044-d6b3-4f91-9b1a-801cf12b023e"/>
+        <COMPID name="IDocumentTypeHandler" mc="Standard.Interface" uid="7e215356-230d-46bc-85ce-fde677779eb3"/>
+        <COMPID name="IModelHandler" mc="Standard.Interface" uid="cc0e9328-68b0-47e8-ae15-f1c3b2cc4aef"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

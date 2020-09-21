@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="wizards" version="4">
+  <OBJECT>
+    <ID name="wizards" mc="Standard.Package" uid="4e31e80f-7e54-4b45-849d-96c2089e9790"/>
+    <PID name="discovery" mc="Standard.Package" uid="b10e3381-91c6-4691-b015-2eabde12f75e"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[wizards]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractDiscoveryItem" mc="Standard.Class" uid="69d40943-5a97-4ff0-9432-306d705d4d19"/>
+        <COMPID name="CatalogConfiguration" mc="Standard.Class" uid="7261e81e-f2e7-4e5b-95c5-1866425e6246"/>
+        <COMPID name="CatalogFilter" mc="Standard.Class" uid="b65a25a2-c660-40d0-9080-cb9d2ad39c44"/>
+        <COMPID name="CatalogPage" mc="Standard.Class" uid="df7fab4e-987b-46c0-b44f-d1a050b8b507"/>
+        <COMPID name="CatalogViewer" mc="Standard.Class" uid="e7e88948-8813-48ba-9c81-35ae8807e053"/>
+        <COMPID name="CategoryItem" mc="Standard.Class" uid="642148bc-20a1-4a74-8847-1290e62e4871"/>
+        <COMPID name="DiscoveryItem" mc="Standard.Class" uid="439aed50-e1e2-4dc6-a1f8-9811c3dff153"/>
+        <COMPID name="DiscoveryResources" mc="Standard.Class" uid="82e95196-fddb-43f5-b707-77c359c91bd3"/>
+        <COMPID name="DiscoveryWizard" mc="Standard.Class" uid="ccd2dc46-5eba-43eb-b1ab-c658360de483"/>
+        <COMPID name="Messages" mc="Standard.Class" uid="cd35de37-9778-4cd5-b3ae-f55d8a922854"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

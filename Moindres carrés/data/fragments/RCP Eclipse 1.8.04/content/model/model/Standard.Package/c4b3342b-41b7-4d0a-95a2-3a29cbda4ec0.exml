@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="regression" version="4">
+  <OBJECT>
+    <ID name="regression" mc="Standard.Package" uid="c4b3342b-41b7-4d0a-95a2-3a29cbda4ec0"/>
+    <PID name="stat" mc="Standard.Package" uid="b8f32d4b-8f90-41c0-a072-7c4bb75ded97"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[regression]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractMultipleLinearRegression" mc="Standard.Class" uid="05378c6c-2ea9-436c-90b2-6188f095d836"/>
+        <COMPID name="GLSMultipleLinearRegression" mc="Standard.Class" uid="570f2ba0-11e8-4765-885e-c5c030c48d9b"/>
+        <COMPID name="MultipleLinearRegression" mc="Standard.Interface" uid="dbcee28a-f3f4-4368-b1b5-2cd43937b279"/>
+        <COMPID name="OLSMultipleLinearRegression" mc="Standard.Class" uid="597fb7a2-5dc5-440f-a8b0-26a75dea8c04"/>
+        <COMPID name="SimpleRegression" mc="Standard.Class" uid="aada819d-d8fa-4816-baf3-7a7affa2a89b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

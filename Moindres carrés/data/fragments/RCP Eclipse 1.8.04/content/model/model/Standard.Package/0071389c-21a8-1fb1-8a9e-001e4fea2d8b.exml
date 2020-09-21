@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="expressions" version="4">
+  <OBJECT>
+    <ID name="expressions" mc="Standard.Package" uid="0071389c-21a8-1fb1-8a9e-001e4fea2d8b"/>
+    <PID name="core" mc="Standard.Package" uid="00359468-21a6-1fb1-8a9e-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[expressions]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ElementHandler" mc="Standard.Class" uid="00735172-21a8-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="EvaluationContext" mc="Standard.Class" uid="0071ea8a-21a8-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="EvaluationResult" mc="Standard.Class" uid="0071552a-21a8-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="Expression" mc="Standard.Class" uid="0072dd64-21a8-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ExpressionConverter" mc="Standard.Class" uid="00725c18-21a8-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ExpressionInfo" mc="Standard.Class" uid="0071c4b0-21a8-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ExpressionTagNames" mc="Standard.Class" uid="00723602-21a8-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ICountable" mc="Standard.Interface" uid="00717b18-21a8-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="IEvaluationContext" mc="Standard.Interface" uid="0071a016-21a8-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="IIterable" mc="Standard.Interface" uid="00730384-21a8-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="IPropertyTester" mc="Standard.Interface" uid="00721046-21a8-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="IVariableResolver" mc="Standard.Interface" uid="00732986-21a8-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="PropertyTester" mc="Standard.Class" uid="00728292-21a8-1fb1-8a9e-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

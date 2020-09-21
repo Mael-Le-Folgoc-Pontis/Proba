@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="section" version="4">
+  <OBJECT>
+    <ID name="section" mc="Standard.Package" uid="5aafe9a7-9793-4be3-b2d1-e8d9675d9322"/>
+    <PID name="properties" mc="Standard.Package" uid="e38303cf-31af-4c16-9e55-a8a5825703b5"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[section]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractSection" mc="Standard.Class" uid="c9dbf901-34e1-43f9-a1df-bd26f80c372b"/>
+        <COMPID name="AttributeDefaultSection" mc="Standard.Class" uid="af1e185a-8337-4281-8894-f9b8b3cf5b75"/>
+        <COMPID name="CommentSection" mc="Standard.Class" uid="1cffa26e-97d3-4e74-a013-e3f20c27e64c"/>
+        <COMPID name="ContentModelGroupSection" mc="Standard.Class" uid="1aac386d-af94-4915-bbb4-1cd96580f855"/>
+        <COMPID name="ContentModelNameFilter" mc="Standard.Class" uid="431edeea-1188-4e5e-b3af-92606fa290bd"/>
+        <COMPID name="ContentModelNameSection" mc="Standard.Class" uid="6356af50-ff27-49e1-b64d-763dc5fe6954"/>
+        <COMPID name="ContentModelTypeFilter" mc="Standard.Class" uid="f5c945b8-4bee-4ebd-926b-103dae406d6e"/>
+        <COMPID name="ContentModelTypeSection" mc="Standard.Class" uid="c873acfd-70ef-4a87-8693-e3fcea697adc"/>
+        <COMPID name="DTDSectionLabelProvider" mc="Standard.Class" uid="965d673f-dd02-4ece-8540-576256c0aab1"/>
+        <COMPID name="DTDTypeMapper" mc="Standard.Class" uid="0df562b7-2244-4103-ab1e-d0acde91ef6a"/>
+        <COMPID name="DocumentSection" mc="Standard.Class" uid="f4fe6435-698f-4e48-9973-7b1a21e6aed2"/>
+        <COMPID name="EmptySection" mc="Standard.Class" uid="c613ac24-1885-4fb8-bf19-abc8ba6dc5be"/>
+        <COMPID name="EntityTypeSection" mc="Standard.Class" uid="9c02c843-e3bb-4413-bdf8-d073a562434b"/>
+        <COMPID name="EntityValueSection" mc="Standard.Class" uid="0b53272f-1355-41b1-9d52-1bad0e00084c"/>
+        <COMPID name="NameSection" mc="Standard.Class" uid="3fbcf6a2-cc20-402c-ae78-e1b7e0f7992e"/>
+        <COMPID name="NewEntitySection" mc="Standard.Class" uid="cd8318cc-fb43-45e9-a395-3abaec55e0b1"/>
+        <COMPID name="NotationSection" mc="Standard.Class" uid="0e042ce1-70e2-4514-b677-90cc07c95463"/>
+        <COMPID name="OccurrenceFilter" mc="Standard.Class" uid="8ac82f14-9bc0-4182-9145-e87f8b1564a6"/>
+        <COMPID name="OccurrenceSection" mc="Standard.Class" uid="2f287a55-b36a-493c-8eec-0f9743233208"/>
+        <COMPID name="TypeSection" mc="Standard.Class" uid="06aa8224-9cb6-4d23-afd3-4f5ea1468490"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

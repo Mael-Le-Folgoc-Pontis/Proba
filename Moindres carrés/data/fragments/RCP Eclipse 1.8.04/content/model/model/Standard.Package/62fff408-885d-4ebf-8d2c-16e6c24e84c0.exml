@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="jdt" version="4">
+  <OBJECT>
+    <ID name="jdt" mc="Standard.Package" uid="62fff408-885d-4ebf-8d2c-16e6c24e84c0"/>
+    <PID name="m2e" mc="Standard.Package" uid="6113f149-1b64-4fc9-a6e8-99b6eb1cb739"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[jdt]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractClassifierClasspathProvider" mc="Standard.Class" uid="4b03adbb-e810-4308-af5e-3eb1cd64c93d"/>
+        <COMPID name="AbstractJavaProjectConfigurator" mc="Standard.Class" uid="c6350a98-749a-48de-af99-02f12163dc04"/>
+        <COMPID name="AbstractSourcesGenerationProjectConfigurator" mc="Standard.Class" uid="09a2c48f-5b5d-481d-9190-e882b0296732"/>
+        <COMPID name="IClassifierClasspathProvider" mc="Standard.Interface" uid="a6dd7e58-3603-488f-986c-75956b7284e8"/>
+        <COMPID name="IClasspathDescriptor" mc="Standard.Interface" uid="bbf878c2-7714-4702-b926-48ce2663c72a"/>
+        <COMPID name="IClasspathEntryDescriptor" mc="Standard.Interface" uid="a25703da-4c0f-4e07-90d3-92a6d7959242"/>
+        <COMPID name="IClasspathManager" mc="Standard.Interface" uid="aacc58ba-345b-4dc4-9428-b8abad911d6a"/>
+        <COMPID name="IClasspathManagerDelegate" mc="Standard.Interface" uid="81752df4-7251-46de-ad3c-2f3319fd199c"/>
+        <COMPID name="IJavaProjectConfigurator" mc="Standard.Interface" uid="008d1b92-320a-4347-974a-08e1b8f1f93a"/>
+        <COMPID name="IMavenClassifierManager" mc="Standard.Interface" uid="a97b466c-1cd0-4278-83eb-0e09d348c001"/>
+        <COMPID name="MavenJdtPlugin" mc="Standard.Class" uid="56aa6ed2-c147-48aa-b437-5e8e02b22a0a"/>
+        <COMPID name="internal" mc="Standard.Package" uid="62326a8e-a5a6-4ab0-97d2-be9ff7d03cf6"/>
+        <COMPID name="ui" mc="Standard.Package" uid="224c2b1a-1147-4fd3-916c-ef3ca82d94aa"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,83 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="impl" version="4">
+  <OBJECT>
+    <ID name="impl" mc="Standard.Package" uid="3cd8661b-0cc5-4119-876f-47b343da2975"/>
+    <PID name="xsd" mc="Standard.Package" uid="49bee3fb-4490-45a2-b29a-36add430bad1"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[impl]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="XSDAnnotationImpl" mc="Standard.Class" uid="56ddb2ff-dff3-4e13-9b16-6d1a97f45e89"/>
+        <COMPID name="XSDAttributeDeclarationImpl" mc="Standard.Class" uid="7238d483-356b-4334-8f94-faeca0302b1a"/>
+        <COMPID name="XSDAttributeGroupContentImpl" mc="Standard.Class" uid="f997be60-52b1-497a-a144-d1eca2f6b976"/>
+        <COMPID name="XSDAttributeGroupDefinitionImpl" mc="Standard.Class" uid="57d64e34-98ee-4523-9edd-50fbaad4b85f"/>
+        <COMPID name="XSDAttributeUseImpl" mc="Standard.Class" uid="83a1ca64-aa35-4aab-b14f-aa217ddc61fb"/>
+        <COMPID name="XSDBoundedFacetImpl" mc="Standard.Class" uid="75303f34-c35b-470a-8e06-9e9ca1e6ddc7"/>
+        <COMPID name="XSDCardinalityFacetImpl" mc="Standard.Class" uid="51f8137e-3170-4a84-b242-ff76ce553860"/>
+        <COMPID name="XSDComplexTypeContentImpl" mc="Standard.Class" uid="e2c9b897-2023-43ef-87eb-93f2a4ff6b02"/>
+        <COMPID name="XSDComplexTypeDefinitionImpl" mc="Standard.Class" uid="ccae6d2d-2cfe-41ff-a300-0cf9420d7540"/>
+        <COMPID name="XSDComponentImpl" mc="Standard.Class" uid="42d71e6b-75ee-4c1a-bb2b-a3b9ffa73d50"/>
+        <COMPID name="XSDConcreteComponentImpl" mc="Standard.Class" uid="8e607b4b-6c72-4f11-8d91-319f9f74ebd7"/>
+        <COMPID name="XSDConstrainingFacetImpl" mc="Standard.Class" uid="8de4f9f1-1a42-4758-9409-0cd548167210"/>
+        <COMPID name="XSDDiagnosticImpl" mc="Standard.Class" uid="1673fa9a-301d-4381-80bc-fc50d06fcd4b"/>
+        <COMPID name="XSDElementDeclarationImpl" mc="Standard.Class" uid="4f9df1b3-47e5-4af1-81e1-65fcb8ab7b07"/>
+        <COMPID name="XSDEnumerationFacetImpl" mc="Standard.Class" uid="8b3e3196-b3cd-42b5-b710-cbe55d50c71a"/>
+        <COMPID name="XSDFacetImpl" mc="Standard.Class" uid="b9a65684-ea18-4a11-bcce-dd6b629aee55"/>
+        <COMPID name="XSDFactoryImpl" mc="Standard.Class" uid="1e186c6c-c411-490d-9d09-a4e78ee7ea78"/>
+        <COMPID name="XSDFeatureImpl" mc="Standard.Class" uid="a5323b7c-8d88-40ff-8f63-8381fcf3d4bc"/>
+        <COMPID name="XSDFixedFacetImpl" mc="Standard.Class" uid="b6791875-556b-4dff-9f3d-268913bcf924"/>
+        <COMPID name="XSDFractionDigitsFacetImpl" mc="Standard.Class" uid="3d75be32-8762-47b2-bcff-ecfdf48aac2c"/>
+        <COMPID name="XSDFundamentalFacetImpl" mc="Standard.Class" uid="db498ead-b171-4c8b-847b-9f4806838a85"/>
+        <COMPID name="XSDIdentityConstraintDefinitionImpl" mc="Standard.Class" uid="9f3e0726-b4d3-46b4-bcec-11d6f44aa64b"/>
+        <COMPID name="XSDImportImpl" mc="Standard.Class" uid="60ce9700-4268-4761-88f0-b1645b3c0810"/>
+        <COMPID name="XSDIncludeImpl" mc="Standard.Class" uid="84743bab-5256-42f6-b737-308100868fd4"/>
+        <COMPID name="XSDLengthFacetImpl" mc="Standard.Class" uid="b7a4e28c-5c20-47f1-a2bb-393a75b579db"/>
+        <COMPID name="XSDMaxExclusiveFacetImpl" mc="Standard.Class" uid="9b3a5ea8-aa5e-40c2-8cc9-6fe0955df392"/>
+        <COMPID name="XSDMaxFacetImpl" mc="Standard.Class" uid="1eff642b-ac16-4326-a49f-f110c653bb25"/>
+        <COMPID name="XSDMaxInclusiveFacetImpl" mc="Standard.Class" uid="7049c938-726c-43a6-8242-a0dbf28002e3"/>
+        <COMPID name="XSDMaxLengthFacetImpl" mc="Standard.Class" uid="5cd46cde-1f6e-44a0-bbec-33dd0008a47c"/>
+        <COMPID name="XSDMinExclusiveFacetImpl" mc="Standard.Class" uid="cd1b843f-804c-4a94-bb92-1174cf934298"/>
+        <COMPID name="XSDMinFacetImpl" mc="Standard.Class" uid="7f3f6e71-6da8-4a7c-80ee-617038f2d217"/>
+        <COMPID name="XSDMinInclusiveFacetImpl" mc="Standard.Class" uid="b740ddcd-7a9d-4976-a8cc-a64247220ad4"/>
+        <COMPID name="XSDMinLengthFacetImpl" mc="Standard.Class" uid="b95f13c4-95dd-45b8-b321-9fda5e38c4bc"/>
+        <COMPID name="XSDModelGroupDefinitionImpl" mc="Standard.Class" uid="4e42f18c-f00a-40a4-bd29-d7a16f8e13af"/>
+        <COMPID name="XSDModelGroupImpl" mc="Standard.Class" uid="b08ec848-2abe-483c-ad14-f64c6d70cb7b"/>
+        <COMPID name="XSDNamedComponentImpl" mc="Standard.Class" uid="a2742fd9-f01b-4cf7-b51c-974bc0352197"/>
+        <COMPID name="XSDNotationDeclarationImpl" mc="Standard.Class" uid="2107ae44-6531-4f35-958e-e0c89f2fa86c"/>
+        <COMPID name="XSDNumericFacetImpl" mc="Standard.Class" uid="32fad171-92a0-4bd9-bd1f-f53ec2e6f043"/>
+        <COMPID name="XSDOrderedFacetImpl" mc="Standard.Class" uid="5c40882c-5375-441e-9058-66c249dc4dde"/>
+        <COMPID name="XSDPackageImpl" mc="Standard.Class" uid="97078f27-4fe8-478c-8e65-bbbf7f048586"/>
+        <COMPID name="XSDParticleContentImpl" mc="Standard.Class" uid="fa575002-e644-4db1-83e3-cf32650a6060"/>
+        <COMPID name="XSDParticleImpl" mc="Standard.Class" uid="33375101-f076-4f98-b4ee-4704d2eda65f"/>
+        <COMPID name="XSDPatternFacetImpl" mc="Standard.Class" uid="d7311772-b864-4dff-864f-bb5b5a3728ee"/>
+        <COMPID name="XSDRedefinableComponentImpl" mc="Standard.Class" uid="b664d81f-8176-418a-b85d-5c2526ae5296"/>
+        <COMPID name="XSDRedefineContentImpl" mc="Standard.Class" uid="40ea7d63-bbe5-4f37-ab30-cd92309cdeb9"/>
+        <COMPID name="XSDRedefineImpl" mc="Standard.Class" uid="7b332cc9-6a46-41c1-b6bb-c0ce1233b58a"/>
+        <COMPID name="XSDRepeatableFacetImpl" mc="Standard.Class" uid="d46cb974-5f27-48d2-bd33-3117e0118071"/>
+        <COMPID name="XSDSchemaCompositorImpl" mc="Standard.Class" uid="a8f88822-2fb5-4811-8655-e6cbb4a73bdb"/>
+        <COMPID name="XSDSchemaContentImpl" mc="Standard.Class" uid="7149c6f6-7935-4d5e-b512-b97d7248e0f0"/>
+        <COMPID name="XSDSchemaDirectiveImpl" mc="Standard.Class" uid="3418527b-6b95-45e3-8c7a-a8cf7ccd24af"/>
+        <COMPID name="XSDSchemaImpl" mc="Standard.Class" uid="ac1c23a7-1f63-4ee9-9ce9-6a357653de87"/>
+        <COMPID name="XSDScopeImpl" mc="Standard.Class" uid="17ef8d74-ace2-46c4-8180-d93bbd020ee4"/>
+        <COMPID name="XSDSimpleTypeDefinitionImpl" mc="Standard.Class" uid="8a79aa82-8259-4ae0-b970-57e9ed7bbb29"/>
+        <COMPID name="XSDTermImpl" mc="Standard.Class" uid="ad2aeb8d-c0e4-4776-afcd-76dd58843fef"/>
+        <COMPID name="XSDTotalDigitsFacetImpl" mc="Standard.Class" uid="56f88740-ba27-44a6-9b93-257c025070e5"/>
+        <COMPID name="XSDTypeDefinitionImpl" mc="Standard.Class" uid="2994029e-79c5-44c5-b809-09baf9e53fa9"/>
+        <COMPID name="XSDWhiteSpaceFacetImpl" mc="Standard.Class" uid="b8e97510-9c24-43bf-8e90-c59688363b2c"/>
+        <COMPID name="XSDWildcardImpl" mc="Standard.Class" uid="9874cb7e-7a10-4887-9030-a3fceaa1829b"/>
+        <COMPID name="XSDXPathDefinitionImpl" mc="Standard.Class" uid="50aa0b39-19a7-4ca1-9634-a2e5d469ae60"/>
+        <COMPID name="type" mc="Standard.Package" uid="a266f6cb-bda3-47d2-b4fc-983f617f17f6"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

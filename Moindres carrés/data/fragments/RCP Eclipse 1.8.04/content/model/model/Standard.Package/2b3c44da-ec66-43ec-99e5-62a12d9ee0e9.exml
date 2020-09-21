@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="gef" version="4">
+  <OBJECT>
+    <ID name="gef" mc="Standard.Package" uid="2b3c44da-ec66-43ec-99e5-62a12d9ee0e9"/>
+    <PID name="core" mc="Standard.Package" uid="af8d7b90-9518-4c7e-b238-618caecac626"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[gef]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="IEditPartConfigurator" mc="Standard.Interface" uid="a0a497df-afd4-41aa-a623-450ab3c310a5"/>
+        <COMPID name="MatchingEditPartFactory" mc="Standard.Class" uid="d01e9dc9-78a6-46e5-9dc2-0c4347dc7bb2"/>
+        <COMPID name="command" mc="Standard.Package" uid="dadf76c3-b06e-403c-90d9-560736c8cd43"/>
+        <COMPID name="figure" mc="Standard.Package" uid="988499d1-8012-4f34-bdc5-fe4421de1dec"/>
+        <COMPID name="header" mc="Standard.Package" uid="cc05d9bd-6401-41a7-a2f6-02ef982c1c2e"/>
+        <COMPID name="part" mc="Standard.Package" uid="9098ca2c-e99c-44b3-bd2f-987185f79597"/>
+        <COMPID name="policy" mc="Standard.Package" uid="8431fa6b-c77e-459c-8773-253a6f82c308"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

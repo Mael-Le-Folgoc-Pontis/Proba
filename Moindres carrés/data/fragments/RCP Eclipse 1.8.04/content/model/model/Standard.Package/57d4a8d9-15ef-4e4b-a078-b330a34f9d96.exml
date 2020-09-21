@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="shell" version="4">
+  <OBJECT>
+    <ID name="shell" mc="Standard.Package" uid="57d4a8d9-15ef-4e4b-a078-b330a34f9d96"/>
+    <PID name="cli" mc="Standard.Package" uid="51828b4d-f5e3-403a-b3df-58aee60ea7fb"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[shell]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="BourneShell" mc="Standard.Class" uid="8588c8b8-4c31-417c-a925-1aa2fdf61546"/>
+        <COMPID name="CmdShell" mc="Standard.Class" uid="6b40b8e9-b79c-49fe-9c75-164762ba45c7"/>
+        <COMPID name="CommandShell" mc="Standard.Class" uid="73f8b2eb-0662-4430-9c6a-65aebe5a67ec"/>
+        <COMPID name="Shell" mc="Standard.Class" uid="8e796e6c-4a40-49a7-a154-6761cd5a9f6e"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

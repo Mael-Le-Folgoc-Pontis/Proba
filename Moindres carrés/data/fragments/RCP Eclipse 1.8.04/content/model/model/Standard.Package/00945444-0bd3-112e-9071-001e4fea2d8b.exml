@@ -1,0 +1,70 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="actions" version="4">
+  <OBJECT>
+    <ID name="actions" mc="Standard.Package" uid="00945444-0bd3-112e-9071-001e4fea2d8b"/>
+    <PID name="ui" mc="Standard.Package" uid="008e9932-0bd3-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[actions]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AddAction" mc="Standard.Class" uid="00945b56-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BranchAction" mc="Standard.Class" uid="009461b4-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CVSAction" mc="Standard.Class" uid="009467e0-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CVSActionSelectionProperties" mc="Standard.Class" uid="00946e70-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CheckoutAction" mc="Standard.Class" uid="00947532-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CheckoutAsAction" mc="Standard.Class" uid="00947bea-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CheckoutWizardAction" mc="Standard.Class" uid="00948338-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CommitAction" mc="Standard.Class" uid="00948aa4-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CompareRemoteResourcesAction" mc="Standard.Class" uid="009497c4-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CompareRemoteWithTagAction" mc="Standard.Class" uid="00949f8a-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CompareWithRemoteAction" mc="Standard.Class" uid="0094a750-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CompareWithRevisionAction" mc="Standard.Class" uid="0094afc0-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CompareWithTagAction" mc="Standard.Class" uid="0094b826-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ConfigureTagsFromRepoViewOnFolder" mc="Standard.Class" uid="0094c082-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="EditAction" mc="Standard.Class" uid="0094c94c-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="EditorsAction" mc="Standard.Class" uid="0094d31a-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FetchAllMembersAction" mc="Standard.Class" uid="0094dc20-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="GenerateDiffFileAction" mc="Standard.Class" uid="0094e580-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IgnoreAction" mc="Standard.Class" uid="0094ef26-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MergeAction" mc="Standard.Class" uid="0094fe76-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MoveRemoteTagAction" mc="Standard.Class" uid="0095086c-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="NewRepositoryAction" mc="Standard.Class" uid="0095126c-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="OpenLogEntryAction" mc="Standard.Class" uid="00951cda-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="OpenRemoteFileAction" mc="Standard.Class" uid="0095277a-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="OutgoingChangesDialog" mc="Standard.Class" uid="0095321a-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ReplaceWithLatestRevisionAction" mc="Standard.Class" uid="00953d32-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ReplaceWithRemoteAction" mc="Standard.Class" uid="0095485e-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ReplaceWithRevisionAction" mc="Standard.Class" uid="0095539e-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ReplaceWithSelectableTagAction" mc="Standard.Class" uid="00955f38-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ReplaceWithTagAction" mc="Standard.Class" uid="00956b86-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RestoreFromRepositoryAction" mc="Standard.Class" uid="00957770-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SetKeywordSubstitutionAction" mc="Standard.Class" uid="00958954-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ShowAnnotationAction" mc="Standard.Class" uid="009595ac-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ShowCVSPerspectiveAction" mc="Standard.Class" uid="0095a254-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ShowEditorsAction" mc="Standard.Class" uid="0095af24-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ShowHistoryAction" mc="Standard.Class" uid="0095bbf4-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ShowResourceInHistoryAction" mc="Standard.Class" uid="0095c932-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SyncAction" mc="Standard.Class" uid="0095d684-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TagAction" mc="Standard.Class" uid="0095e3d6-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TagInRepositoryAction" mc="Standard.Class" uid="0095f196-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TagLocalAction" mc="Standard.Class" uid="0095ff88-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="UneditAction" mc="Standard.Class" uid="00960e06-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="UnmanageAction" mc="Standard.Class" uid="00961c98-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="UpdateAction" mc="Standard.Class" uid="009639bc-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="UpdateSilentAction" mc="Standard.Class" uid="00964894-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WorkspaceAction" mc="Standard.Class" uid="00965794-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WorkspaceTraversalAction" mc="Standard.Class" uid="00966d9c-0bd3-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="safety" version="4">
+  <OBJECT>
+    <ID name="safety" mc="Standard.Package" uid="4a3c527b-fa1a-4bb6-ad54-9a64a9fa8d3e"/>
+    <PID name="jsoup" mc="Standard.Package" uid="7860095d-1867-4806-b4ff-0938d134bb58"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[safety]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Cleaner" mc="Standard.Class" uid="a9ef00d7-bb83-426c-871e-b071d4a5eb67"/>
+        <COMPID name="Whitelist" mc="Standard.Class" uid="3aad97eb-75b1-4508-a79b-f2e4cf4f0967"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

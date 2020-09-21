@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="dialogfields" version="4">
+  <OBJECT>
+    <ID name="dialogfields" mc="Standard.Package" uid="0078dab6-0bcb-112e-9071-001e4fea2d8b"/>
+    <PID name="wizards" mc="Standard.Package" uid="006cc3ac-0bcb-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[dialogfields]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="CheckedListDialogField" mc="Standard.Class" uid="0078e0c4-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ComboDialogField" mc="Standard.Class" uid="0078e722-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DialogField" mc="Standard.Class" uid="0078ed94-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IDialogFieldListener" mc="Standard.Interface" uid="0078f38e-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IListAdapter" mc="Standard.Interface" uid="0078fa50-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IStringButtonAdapter" mc="Standard.Interface" uid="007900fe-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ITreeListAdapter" mc="Standard.Interface" uid="00790806-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LayoutUtil" mc="Standard.Class" uid="00790f18-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ListDialogField" mc="Standard.Class" uid="007915a8-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SelectionButtonDialogField" mc="Standard.Class" uid="007930ce-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SelectionButtonDialogFieldGroup" mc="Standard.Class" uid="00793812-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Separator" mc="Standard.Class" uid="00793f42-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="StringButtonDialogField" mc="Standard.Class" uid="007946ea-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="StringButtonStatusDialogField" mc="Standard.Class" uid="00794ec4-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="StringDialogField" mc="Standard.Class" uid="007956e4-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TextBoxDialogField" mc="Standard.Class" uid="00795f22-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TreeListDialogField" mc="Standard.Class" uid="0079676a-0bcb-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

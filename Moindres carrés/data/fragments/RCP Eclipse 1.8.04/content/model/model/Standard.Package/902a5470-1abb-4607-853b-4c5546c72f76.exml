@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="dom" version="4">
+  <OBJECT>
+    <ID name="dom" mc="Standard.Package" uid="902a5470-1abb-4607-853b-4c5546c72f76"/>
+    <PID name="css" mc="Standard.Package" uid="9944a7ea-e537-414c-9502-35235ce7b3ff"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[dom]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="FormElement" mc="Standard.Class" uid="b139af3e-2cb8-4145-8c0c-4b106d1cb4f8"/>
+        <COMPID name="FormsElementProvider" mc="Standard.Class" uid="d5e97bdc-89a4-441e-9c77-b3b27e0d8961"/>
+        <COMPID name="SectionElement" mc="Standard.Class" uid="ab08c3bc-ec26-424d-a9af-37ced5cf96e6"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="nls" version="4">
+  <OBJECT>
+    <ID name="nls" mc="Standard.Package" uid="00920392-0bd1-112e-9071-001e4fea2d8b"/>
+    <PID name="ui" mc="Standard.Package" uid="00559196-0bd1-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[nls]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AvailableFilter" mc="Standard.Class" uid="009209be-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ExternalizeStringsLabelProvider" mc="Standard.Class" uid="00920ff4-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ExternalizeStringsOperation" mc="Standard.Class" uid="00921616-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ExternalizeStringsProcessor" mc="Standard.Class" uid="00921c9c-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ExternalizeStringsWizard" mc="Standard.Class" uid="0092234a-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ExternalizeStringsWizardPage" mc="Standard.Class" uid="00922a02-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="GetNonExternalizedStringsAction" mc="Standard.Class" uid="00923ccc-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="GetNonExternalizedStringsOperation" mc="Standard.Class" uid="0092441a-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="InternationalizationWizardPage" mc="Standard.Class" uid="00924b86-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="InternationalizeAction" mc="Standard.Class" uid="00925342-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="InternationalizeModelTable" mc="Standard.Class" uid="00925b08-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="InternationalizeOperation" mc="Standard.Class" uid="009263d2-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="InternationalizeWizard" mc="Standard.Class" uid="00926bfc-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="InternationalizeWizardLocalePage" mc="Standard.Class" uid="00927476-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="InternationalizeWizardOpenOperation" mc="Standard.Class" uid="009282d6-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="InternationalizeWizardPluginPage" mc="Standard.Class" uid="00928bdc-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ModelChange" mc="Standard.Class" uid="0092a0cc-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ModelChangeElement" mc="Standard.Class" uid="0092aa22-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ModelChangeFile" mc="Standard.Class" uid="0092b3aa-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ModelChangeLabelProvider" mc="Standard.Class" uid="0092bd46-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ModelChangeTable" mc="Standard.Class" uid="0092c76e-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="NLSFragmentGenerator" mc="Standard.Class" uid="0092d18c-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="StringHelper" mc="Standard.Class" uid="0093080a-0bd1-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

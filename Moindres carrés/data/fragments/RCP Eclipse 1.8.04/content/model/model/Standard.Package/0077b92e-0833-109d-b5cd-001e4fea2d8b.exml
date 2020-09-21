@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="html" version="4">
+  <OBJECT>
+    <ID name="html" mc="Standard.Package" uid="0077b92e-0833-109d-b5cd-001e4fea2d8b"/>
+    <PID name="text" mc="Standard.Package" uid="00724908-0833-109d-b5cd-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[html]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="BrowserInformationControl" mc="Standard.Class" uid="0077bff0-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="BrowserInformationControlInput" mc="Standard.Class" uid="0077c72a-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="BrowserInput" mc="Standard.Class" uid="0077ce96-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="HTML2TextReader" mc="Standard.Class" uid="0077d63e-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="HTMLPrinter" mc="Standard.Class" uid="0077e624-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="HTMLTextPresenter" mc="Standard.Class" uid="0077ee58-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="SingleCharReader" mc="Standard.Class" uid="0077f6d2-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="SubstitutionTextReader" mc="Standard.Class" uid="0077ff7e-0833-109d-b5cd-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

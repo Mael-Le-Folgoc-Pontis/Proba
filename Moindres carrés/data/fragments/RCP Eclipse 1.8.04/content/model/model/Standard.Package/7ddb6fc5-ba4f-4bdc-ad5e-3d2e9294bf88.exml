@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="impl" version="4">
+  <OBJECT>
+    <ID name="impl" mc="Standard.Package" uid="7ddb6fc5-ba4f-4bdc-ad5e-3d2e9294bf88"/>
+    <PID name="integration" mc="Standard.Package" uid="7848227d-55a7-4f1d-81dd-d66573afdd2e"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[impl]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="BaseVariableResolverFactory" mc="Standard.Class" uid="8418f736-844f-4fb0-be2e-d4292d33d516"/>
+        <COMPID name="CachedMapVariableResolver" mc="Standard.Class" uid="bf9f51a8-4547-46c3-a8f7-a5c02e8f79b3"/>
+        <COMPID name="CachedMapVariableResolverFactory" mc="Standard.Class" uid="251fb720-a737-4307-ba89-43cdf24d2352"/>
+        <COMPID name="ClassImportResolver" mc="Standard.Class" uid="8aa869b6-1f20-4b85-8e6b-6670a5d49919"/>
+        <COMPID name="ClassImportResolverFactory" mc="Standard.Class" uid="c0161a07-53fe-43f4-bfb2-526328a42427"/>
+        <COMPID name="DefaultLocalVariableResolverFactory" mc="Standard.Class" uid="0c280888-d503-45da-ba58-0ccb2c8ea14e"/>
+        <COMPID name="FunctionVariableResolverFactory" mc="Standard.Class" uid="438a3b98-1737-4c0b-8400-01808ec70f48"/>
+        <COMPID name="ImmutableDefaultFactory" mc="Standard.Class" uid="568f5640-4136-436d-9519-35b280804b24"/>
+        <COMPID name="IndexVariableResolver" mc="Standard.Class" uid="76188bfc-1af3-4171-a7ee-70077ca95415"/>
+        <COMPID name="IndexedVariableResolverFactory" mc="Standard.Class" uid="14012e48-8852-4960-bfcd-ed6501f35e9b"/>
+        <COMPID name="ItemResolverFactory" mc="Standard.Class" uid="5ec48315-74d6-4552-9163-5e8ef89ecfc9"/>
+        <COMPID name="LocalVariableResolverFactory" mc="Standard.Interface" uid="9c190969-aa1e-4b8c-b65b-e05879c3df1f"/>
+        <COMPID name="MapVariableResolver" mc="Standard.Class" uid="bb061050-4fc0-4c46-8271-23fd183ae776"/>
+        <COMPID name="MapVariableResolverFactory" mc="Standard.Class" uid="04539b79-ca56-4f76-b506-36f90839fa0e"/>
+        <COMPID name="SimpleSTValueResolver" mc="Standard.Class" uid="546bd277-83d1-4154-909d-c3776426bca4"/>
+        <COMPID name="SimpleValueResolver" mc="Standard.Class" uid="8cf39644-f066-451a-a4c1-8e34fb60e927"/>
+        <COMPID name="SimpleVariableResolverFactory" mc="Standard.Class" uid="9629fe68-b884-4dc9-820f-cb1f9d9e8e8e"/>
+        <COMPID name="StaticMethodImportResolver" mc="Standard.Class" uid="e5aee85f-a549-48d2-bf92-5c09c17eb6ff"/>
+        <COMPID name="StaticMethodImportResolverFactory" mc="Standard.Class" uid="fa7d3066-e8ae-4fdb-9f33-8e50642819ef"/>
+        <COMPID name="TypeInjectionResolverFactory" mc="Standard.Interface" uid="52b84046-0dbc-42e4-a30a-d0d4634fd338"/>
+        <COMPID name="TypeInjectionResolverFactoryImpl" mc="Standard.Class" uid="09140ab0-fb0a-4b99-b93c-f922b6110142"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

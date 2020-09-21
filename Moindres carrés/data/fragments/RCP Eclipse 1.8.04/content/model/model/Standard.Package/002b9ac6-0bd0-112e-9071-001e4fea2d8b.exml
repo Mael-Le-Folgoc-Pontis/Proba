@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="model" version="4">
+  <OBJECT>
+    <ID name="model" mc="Standard.Package" uid="002b9ac6-0bd0-112e-9071-001e4fea2d8b"/>
+    <PID name="internal" mc="Standard.Package" uid="0024f752-0bd0-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[model]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractApiTypeContainer" mc="Standard.Class" uid="002ba138-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AbstractApiTypeRoot" mc="Standard.Class" uid="002ba764-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ApiBaseline" mc="Standard.Class" uid="002bad90-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ApiElement" mc="Standard.Class" uid="002bb42a-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ApiField" mc="Standard.Class" uid="002bbae2-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ApiMember" mc="Standard.Class" uid="002bc1a4-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ApiMethod" mc="Standard.Class" uid="002bc8d4-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ApiModelCache" mc="Standard.Class" uid="002bcff0-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ApiModelFactory" mc="Standard.Class" uid="002bee54-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ApiType" mc="Standard.Class" uid="002c0be6-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ArchiveApiTypeContainer" mc="Standard.Class" uid="002c13fc-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BundleComponent" mc="Standard.Class" uid="002c29dc-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Component" mc="Standard.Class" uid="002c3256-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CompositeApiTypeContainer" mc="Standard.Class" uid="002c3abc-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DirectoryApiTypeContainer" mc="Standard.Class" uid="002c43ae-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Messages" mc="Standard.Class" uid="002c5a06-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MethodKey" mc="Standard.Class" uid="002c635c-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ProjectComponent" mc="Standard.Class" uid="002c6ce4-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ProjectTypeContainer" mc="Standard.Class" uid="002c7766-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ResourceApiTypeRoot" mc="Standard.Class" uid="002c8706-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="StubApiComponent" mc="Standard.Class" uid="002c9124-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="StubArchiveApiTypeContainer" mc="Standard.Class" uid="002c9b38-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SystemLibraryApiComponent" mc="Standard.Class" uid="002cb352-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TypeStructureBuilder" mc="Standard.Class" uid="002cbe10-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WorkspaceBaseline" mc="Standard.Class" uid="002cf2a4-0bd0-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

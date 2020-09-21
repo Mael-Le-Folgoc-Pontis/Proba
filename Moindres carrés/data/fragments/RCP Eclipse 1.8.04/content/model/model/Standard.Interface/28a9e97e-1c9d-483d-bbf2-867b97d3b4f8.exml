@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="XSDSimpleTypeDefinition" version="4">
+  <OBJECT>
+    <ID name="XSDSimpleTypeDefinition" mc="Standard.Interface" uid="28a9e97e-1c9d-483d-bbf2-867b97d3b4f8"/>
+    <PID name="xsd" mc="Standard.Package" uid="49bee3fb-4490-45a2-b29a-36add430bad1"/>
+    <ATTRIBUTES>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">true</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[XSDSimpleTypeDefinition]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Assessment" mc="Standard.Interface" uid="4cc6a787-4993-40d8-b637-8c5c97614a50"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaInterface" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0267-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

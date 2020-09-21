@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="wizards" version="4">
+  <OBJECT>
+    <ID name="wizards" mc="Standard.Package" uid="a05fc8ad-0713-43a7-b98e-486f3f3d18de"/>
+    <PID name="internal" mc="Standard.Package" uid="8dac5e70-eadd-4ac5-9e61-066073002452"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[wizards]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ExampleProjectCreationOperation" mc="Standard.Class" uid="0e2ed83a-554c-4a48-8472-ab79d11464cd"/>
+        <COMPID name="ExampleProjectCreationWizard" mc="Standard.Class" uid="0e0b03f1-4ffe-49f0-9b13-6987b4b09388"/>
+        <COMPID name="ExampleProjectCreationWizardPage" mc="Standard.Class" uid="f0a31dfc-fdb6-40a5-ae3f-1d1072c07e6a"/>
+        <COMPID name="ExportXMLCatalogWizard" mc="Standard.Class" uid="ddb1d61c-cfc3-4aaa-b92e-0a8c27b11a4a"/>
+        <COMPID name="ImportXMLCatalogPage" mc="Standard.Class" uid="df433f69-dba3-4fe6-9a9c-d45b8175599c"/>
+        <COMPID name="ImportXMLCatalogWizard" mc="Standard.Class" uid="1a68bbd2-11ed-490d-9be1-937489b6591f"/>
+        <COMPID name="NamespaceInfoContentBuilder" mc="Standard.Class" uid="c220c8dd-b418-40e4-9320-1218d548a496"/>
+        <COMPID name="NewModelWizard" mc="Standard.Class" uid="b0c0fa50-4462-4e45-a42e-e861db156d1a"/>
+        <COMPID name="NewXMLGenerator" mc="Standard.Class" uid="8273b21e-41b3-4cec-8ddb-67ff93d168b0"/>
+        <COMPID name="NewXMLHandler" mc="Standard.Class" uid="ec5974ab-9e3a-466d-8538-bcbeec8685fe"/>
+        <COMPID name="NewXMLTemplatesWizardPage" mc="Standard.Class" uid="f9eac625-3dbd-4f23-895c-ebf59a7492d2"/>
+        <COMPID name="NewXMLWizard" mc="Standard.Class" uid="21c09ef3-3c0c-47f6-8c9d-29093a1ce231"/>
+        <COMPID name="XMLImportActionDelegate" mc="Standard.Class" uid="e6a079d7-5181-4184-bf86-d263fe8a6aff"/>
+        <COMPID name="XMLSchemaValidationChecker" mc="Standard.Class" uid="9628c938-827f-4980-bcb1-347653b9abe1"/>
+        <COMPID name="XMLWizard" mc="Standard.Class" uid="cb26cbfb-8a2f-4460-9efc-19bf90dff974"/>
+        <COMPID name="XMLWizardsMessages" mc="Standard.Class" uid="c7fd95f7-db90-40c7-a0f1-ef403457c8bb"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

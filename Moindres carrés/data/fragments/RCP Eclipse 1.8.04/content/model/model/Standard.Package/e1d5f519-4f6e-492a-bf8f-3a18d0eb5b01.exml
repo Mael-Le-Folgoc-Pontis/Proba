@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="cipher" version="4">
+  <OBJECT>
+    <ID name="cipher" mc="Standard.Package" uid="e1d5f519-4f6e-492a-bf8f-3a18d0eb5b01"/>
+    <PID name="components" mc="Standard.Package" uid="e0eecba1-ec9a-4e42-af75-ebe318fca630"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[cipher]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Base64" mc="Standard.Class" uid="4ffb8ab4-44e7-47c4-a652-7db79bcf3858"/>
+        <COMPID name="DefaultPlexusCipher" mc="Standard.Class" uid="6bcf90bc-c485-4251-a4d3-13a09d2a48fd"/>
+        <COMPID name="PBECipher" mc="Standard.Class" uid="27262e68-75ef-4aa3-a429-51235510d771"/>
+        <COMPID name="PlexusCipher" mc="Standard.Interface" uid="2d81aa59-acc0-4c94-8700-e86d047f219a"/>
+        <COMPID name="PlexusCipherException" mc="Standard.Class" uid="e113f42a-646d-4c82-8f6a-a9286aa97438"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

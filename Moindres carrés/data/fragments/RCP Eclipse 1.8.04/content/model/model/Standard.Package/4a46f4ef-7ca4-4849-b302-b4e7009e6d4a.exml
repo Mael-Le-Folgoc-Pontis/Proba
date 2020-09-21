@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="util" version="4">
+  <OBJECT>
+    <ID name="util" mc="Standard.Package" uid="4a46f4ef-7ca4-4849-b302-b4e7009e6d4a"/>
+    <PID name="core" mc="Standard.Package" uid="500b1a9c-01dc-44bb-b6a6-94e9a034ab2d"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[util]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="BuildModelManager" mc="Standard.Class" uid="3620c861-565f-47d1-9f4f-ddf62228fa09"/>
+        <COMPID name="BuildRunnable" mc="Standard.Class" uid="183847a6-3294-4b89-8a86-f049c8c31a9b"/>
+        <COMPID name="BuildRunnableWithResult" mc="Standard.Class" uid="f0706561-cc4a-40fb-ab67-1e009c620abd"/>
+        <COMPID name="BuildRunner" mc="Standard.Class" uid="1b6242da-2a87-4445-b119-622c5a4c805b"/>
+        <COMPID name="BuildScheduler" mc="Standard.Class" uid="144026bb-1666-44fd-8d41-44b63845c0f4"/>
+        <COMPID name="BuildsConstants" mc="Standard.Class" uid="f8f48263-8cdb-4744-8430-73d3f8e945b3"/>
+        <COMPID name="JUnitResultGenerator" mc="Standard.Class" uid="948d86ae-9102-429d-9d3d-db580a2a2c68"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

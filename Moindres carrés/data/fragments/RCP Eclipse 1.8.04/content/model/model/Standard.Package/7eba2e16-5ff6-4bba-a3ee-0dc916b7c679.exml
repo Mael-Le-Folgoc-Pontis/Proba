@@ -1,0 +1,94 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ui" version="4">
+  <OBJECT>
+    <ID name="ui" mc="Standard.Package" uid="7eba2e16-5ff6-4bba-a3ee-0dc916b7c679"/>
+    <PID name="tasks" mc="Standard.Package" uid="119e7c00-c9ac-4bfe-8321-ed9570f2ad8e"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[ui]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractTaskListFilter" mc="Standard.Class" uid="be2b0f80-d9fd-42f1-bac7-eef50bf36151"/>
+        <COMPID name="AttachmentFileStorage" mc="Standard.Class" uid="012952a4-5aa8-46ca-931e-b1099996b1da"/>
+        <COMPID name="BrandManager" mc="Standard.Class" uid="22f3dec8-ea4c-472b-9d9c-932cc1147652"/>
+        <COMPID name="CategorizedPresentation" mc="Standard.Class" uid="cec8884b-d33f-4733-a5e1-6c497ac34361"/>
+        <COMPID name="ComboSelectionDialog" mc="Standard.Class" uid="74403e05-88bc-43d7-8211-30082cd3b9b8"/>
+        <COMPID name="ConnectorBrand" mc="Standard.Class" uid="bf6fe8e9-51f8-4f50-9444-f629a05616a1"/>
+        <COMPID name="DialogErrorReporter" mc="Standard.Class" uid="2a27918d-a81f-4f64-addf-c5aeeb326017"/>
+        <COMPID name="IBrandManager" mc="Standard.Interface" uid="16c3966b-6482-457d-a622-82f010c93748"/>
+        <COMPID name="IDynamicSubMenuContributor" mc="Standard.Interface" uid="549a5c83-f1f0-4adb-8906-5a67a430e850"/>
+        <COMPID name="ITaskAttachmentViewer" mc="Standard.Interface" uid="b6ffaeb1-03d2-4fc5-aedf-e7b6172396ae"/>
+        <COMPID name="ITaskCommandIds" mc="Standard.Interface" uid="c5450d56-98c5-431e-9d3d-5a5e89150f89"/>
+        <COMPID name="ITaskListNotificationProvider" mc="Standard.Interface" uid="2c3e6e3e-a3cd-4f9a-9e1c-87d2353c59e4"/>
+        <COMPID name="ITasksUiPreferenceConstants" mc="Standard.Interface" uid="6b3583c0-381b-4bbc-867d-4b56d1068322"/>
+        <COMPID name="LocalRepositoryConnectorUi" mc="Standard.Class" uid="fd13a725-88d7-444d-80d7-8ec94eb59bd1"/>
+        <COMPID name="LocalRepositoryMigrator" mc="Standard.Class" uid="5d326ce4-2ce2-4058-8ba4-e8abb11045a1"/>
+        <COMPID name="Messages" mc="Standard.Class" uid="cc994b82-2c18-4a66-bcdc-15dcf390b813"/>
+        <COMPID name="MoveToCategoryMenuContributor" mc="Standard.Class" uid="fc4b7884-3072-444e-abea-3068643a009e"/>
+        <COMPID name="MyTasksFilter" mc="Standard.Class" uid="5a23fe9e-49d1-4174-a5b3-71482f0a95f2"/>
+        <COMPID name="OpenRepositoryTaskJob" mc="Standard.Class" uid="6206a63d-c1ab-412f-975c-7d7d1f860c55"/>
+        <COMPID name="OptionsProposalProvider" mc="Standard.Class" uid="b83f03dd-5767-4712-bb99-00b403a93f59"/>
+        <COMPID name="PersonContentProposal" mc="Standard.Class" uid="571d73b8-a4ba-47de-9178-c3cdfebcb718"/>
+        <COMPID name="PersonProposalLabelProvider" mc="Standard.Class" uid="f1b66b2b-2e85-4182-8dd8-547ec2715f5d"/>
+        <COMPID name="PersonProposalProvider" mc="Standard.Class" uid="f4e9c129-ce7f-4fce-abe1-3580f441024d"/>
+        <COMPID name="PlanningPerspectiveFactory" mc="Standard.Class" uid="364795ab-e84a-4d62-aa0f-50b27c3f5696"/>
+        <COMPID name="RefactorRepositoryUrlOperation" mc="Standard.Class" uid="2e4c0375-a36e-4ff6-b5e8-d37ed74c64bb"/>
+        <COMPID name="ScheduleDatePicker" mc="Standard.Class" uid="29d6e6c5-5dcc-4074-b5d0-2c27e79d4c31"/>
+        <COMPID name="ScheduleTaskMenuContributor" mc="Standard.Class" uid="8b93ca6d-24ad-44ae-9b93-18ffe42da1f0"/>
+        <COMPID name="ScheduledPresentation" mc="Standard.Class" uid="0d1a4425-8e40-4042-a26e-169502cdbd2d"/>
+        <COMPID name="TaskArchiveFilter" mc="Standard.Class" uid="4555006e-aa64-44a9-9ddd-5c56974259d8"/>
+        <COMPID name="TaskAttachmentAdapterFactory" mc="Standard.Class" uid="4ada2738-e3e8-491a-aa99-c37445374a82"/>
+        <COMPID name="TaskAttachmentBrowserViewer" mc="Standard.Class" uid="beee86ac-a006-4917-8ee9-7a2ad1f7e18d"/>
+        <COMPID name="TaskAttachmentEditorViewer" mc="Standard.Class" uid="088a5163-2ab7-4a92-b592-6a184f059cc4"/>
+        <COMPID name="TaskAttachmentViewerManager" mc="Standard.Class" uid="8ec0b627-fd05-4b7d-a36d-e129d7181c18"/>
+        <COMPID name="TaskCompletionFilter" mc="Standard.Class" uid="ebe854b5-a015-478e-8993-c9837cfc1ba7"/>
+        <COMPID name="TaskEditorBloatMonitor" mc="Standard.Class" uid="c85463a4-dc16-45b2-91f3-5866d60f6498"/>
+        <COMPID name="TaskHistoryDropDown" mc="Standard.Class" uid="e37f3328-f99f-4c00-abaa-e3dd283fbe75"/>
+        <COMPID name="TaskHistoryHandler" mc="Standard.Class" uid="944e836a-2cad-48d2-a927-3522f4227e6e"/>
+        <COMPID name="TaskJobFactory" mc="Standard.Class" uid="b7d47f87-da6f-4c85-ab5b-15de71f00883"/>
+        <COMPID name="TaskLabelDecorator" mc="Standard.Class" uid="912c1093-5ecf-4676-a6fc-6f232ec9bcf7"/>
+        <COMPID name="TaskListBackupManager" mc="Standard.Class" uid="70ea8349-6ce5-4431-b3a7-fed2b41d3f38"/>
+        <COMPID name="TaskListModifyOperation" mc="Standard.Class" uid="1cfb148d-f57a-4906-819f-15e68e588efb"/>
+        <COMPID name="TaskListNotificationManager" mc="Standard.Class" uid="92b6d3b1-2e05-413f-bb8d-82db608b821c"/>
+        <COMPID name="TaskListSynchronizationScheduler" mc="Standard.Class" uid="324b324e-cabc-45de-a748-9cda70712728"/>
+        <COMPID name="TaskPriorityFilter" mc="Standard.Class" uid="ea7f67a9-9381-4208-8266-51be73d4dd56"/>
+        <COMPID name="TaskRepositoryAdapterFactory" mc="Standard.Class" uid="2e2970c4-f8a0-4023-8de5-63bf4c128504"/>
+        <COMPID name="TaskRepositoryComparator" mc="Standard.Class" uid="62e639fd-6001-4824-983c-60e42c02584f"/>
+        <COMPID name="TaskRepositoryLocationUi" mc="Standard.Class" uid="0d0474c8-a337-49da-aa55-dbbbc7806dd1"/>
+        <COMPID name="TaskRepositoryUtil" mc="Standard.Class" uid="3ae4d936-d02f-4b1d-ae6e-cdf0dc31763c"/>
+        <COMPID name="TaskScalingHyperlink" mc="Standard.Class" uid="6a5b0b7a-b816-46f1-87c0-3de5b031c936"/>
+        <COMPID name="TaskSearchPage" mc="Standard.Class" uid="45a515c6-c5ba-41b7-9152-ea014fc580ad"/>
+        <COMPID name="TaskTrimWidget" mc="Standard.Class" uid="8854570e-9d10-4523-afc5-9eb77a897a4e"/>
+        <COMPID name="TaskUrlHandler" mc="Standard.Class" uid="692d16c4-e472-473a-94ba-5a5f8ca774f5"/>
+        <COMPID name="TaskWorkingSetFilter" mc="Standard.Class" uid="cb81b6dd-a8c3-4c58-9ce0-ed2669b265c6"/>
+        <COMPID name="TasksAdapterFactory" mc="Standard.Class" uid="af61e23f-9d3e-4291-998b-6aa860132a1c"/>
+        <COMPID name="TasksReminderDialog" mc="Standard.Class" uid="98e9e773-b16f-40c3-86c0-45db19a1b862"/>
+        <COMPID name="TasksUiFactory" mc="Standard.Class" uid="8c7faf99-337c-42ee-ba9b-b9b1c0ac210d"/>
+        <COMPID name="TasksUiPlugin" mc="Standard.Class" uid="45cc1011-97eb-4a20-b9ab-2d40bd05e6ba"/>
+        <COMPID name="actions" mc="Standard.Package" uid="102c4690-7d74-4229-9a5c-a21c998bc4ab"/>
+        <COMPID name="commands" mc="Standard.Package" uid="206b24e9-10ba-4e86-80d7-ef4ee15cad28"/>
+        <COMPID name="compare" mc="Standard.Package" uid="bee93df6-60cf-4e7a-8d44-c99f62be47fe"/>
+        <COMPID name="context" mc="Standard.Package" uid="756b42c5-81b6-4741-b268-d0af098a9176"/>
+        <COMPID name="dialogs" mc="Standard.Package" uid="9336e16e-1d43-4f87-936e-cc8eba4c2ab5"/>
+        <COMPID name="editors" mc="Standard.Package" uid="0efcb9e9-2986-44f6-9dec-f4606bc0a1b8"/>
+        <COMPID name="notifications" mc="Standard.Package" uid="1a9ebc9c-c840-4016-973a-915952da6e1e"/>
+        <COMPID name="preferences" mc="Standard.Package" uid="2801dfa1-d0f8-4078-bc1f-99c30612e6af"/>
+        <COMPID name="properties" mc="Standard.Package" uid="554e4a96-3b68-4e6e-a24a-fee0c48e9fcf"/>
+        <COMPID name="search" mc="Standard.Package" uid="f48b520e-3d1a-485f-85f1-0b832cad4d6b"/>
+        <COMPID name="util" mc="Standard.Package" uid="703094fb-2f1f-4aa0-84dd-0b88055e9823"/>
+        <COMPID name="views" mc="Standard.Package" uid="b903df2e-9844-4d7a-bc49-4d232283416c"/>
+        <COMPID name="wizards" mc="Standard.Package" uid="6f5c6195-3826-49ec-8e2e-a8eeb2ab8a85"/>
+        <COMPID name="workingsets" mc="Standard.Package" uid="12cb3877-25eb-492a-8be6-fb94dfe2aa80"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

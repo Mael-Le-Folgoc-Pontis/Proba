@@ -1,0 +1,76 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="resource" version="4">
+  <OBJECT>
+    <ID name="resource" mc="Standard.Package" uid="825f9394-06ca-4086-83d7-1f63eb8f1b89"/>
+    <PID name="emf" mc="Standard.Package" uid="77f7cff0-f1e9-42ce-b28d-ea45403f1f8c"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[resource]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractRendererImpl" mc="Standard.Class" uid="e0773fcb-d2ce-4293-9427-25e20f02b8a6"/>
+        <COMPID name="AttributeTranslatorFilter" mc="Standard.Class" uid="04054c8b-ddac-4847-bc18-10bba9bccdba"/>
+        <COMPID name="CacheEventNode" mc="Standard.Class" uid="47afefe7-8077-418b-ba05-790b2f44ea9f"/>
+        <COMPID name="CacheEventPool" mc="Standard.Class" uid="d9972590-0fda-4a34-a1a1-a2a861913e7a"/>
+        <COMPID name="CacheEventStack" mc="Standard.Class" uid="4821258a-7fee-4032-a053-067bbe1c38e7"/>
+        <COMPID name="CompatibilityPackageMappingRegistry" mc="Standard.Class" uid="e40ff7b4-55f8-470e-8758-9afece72a87f"/>
+        <COMPID name="CompatibilityResourceFactory" mc="Standard.Class" uid="26ba6c97-2338-49ff-859d-559fc257bb00"/>
+        <COMPID name="CompatibilitySAXXMIHandler" mc="Standard.Class" uid="6e969910-0dc4-4162-ab47-bd3fea45dbde"/>
+        <COMPID name="CompatibilityURIConverter" mc="Standard.Interface" uid="32d2463f-8129-4efc-a8e1-239a74bfcfba"/>
+        <COMPID name="CompatibilityXMILoadImpl" mc="Standard.Class" uid="7d37cda8-bdd9-4b28-9b17-867fca774f2c"/>
+        <COMPID name="CompatibilityXMIResource" mc="Standard.Interface" uid="e6cb5faf-7784-4125-a7b6-0abaf5fe6111"/>
+        <COMPID name="CompatibilityXMIResourceImpl" mc="Standard.Class" uid="5dfdbe16-db45-4505-8b71-2355d211a5fc"/>
+        <COMPID name="CompatibilityXMISaveImpl" mc="Standard.Class" uid="c5dcce56-6e9c-4d25-b4b1-4b443cf212f9"/>
+        <COMPID name="ConstantAttributeTranslator" mc="Standard.Class" uid="4e3aae75-851c-42fc-90aa-fea4fb87a6a2"/>
+        <COMPID name="DefaultTranslatorFactory" mc="Standard.Class" uid="e4cd02b5-11bc-4f90-a310-cdd68529db26"/>
+        <COMPID name="DependencyTranslator" mc="Standard.Class" uid="2440577a-a260-44ec-aa3c-68619ba6053a"/>
+        <COMPID name="EMF2DOMAdapter" mc="Standard.Interface" uid="03d952dc-9308-4484-8ff3-c6261066ed2a"/>
+        <COMPID name="EMF2DOMAdapterImpl" mc="Standard.Class" uid="8a65e24a-d02a-4a2f-82e5-9faca684bf0d"/>
+        <COMPID name="EMF2DOMRenderer" mc="Standard.Class" uid="ab35e9df-f555-4902-b66b-4b24ff60604a"/>
+        <COMPID name="EMF2DOMRendererFactory" mc="Standard.Class" uid="927bfd90-4de5-4454-9151-b3335f6c3b00"/>
+        <COMPID name="EMF2DOMRendererFactoryDefaultHandler" mc="Standard.Class" uid="acfa96fe-7327-4b64-bcc2-91142c497611"/>
+        <COMPID name="EMF2SAXDocumentHandler" mc="Standard.Class" uid="11c10457-75ad-4255-80f7-16b5c0c1a8f7"/>
+        <COMPID name="EMF2SAXRenderer" mc="Standard.Class" uid="56a23c2d-7d05-4889-811b-11a2aaced8b4"/>
+        <COMPID name="EMF2SAXRendererFactory" mc="Standard.Class" uid="abae6ff0-7a81-469b-a4e8-75323b35ea98"/>
+        <COMPID name="EMF2SAXWriter" mc="Standard.Class" uid="0c19b432-2c42-48ef-959a-31a913f11a6b"/>
+        <COMPID name="FileNameResourceFactoryRegistry" mc="Standard.Class" uid="81fc053e-8dbc-4b8c-8843-c2383562b29b"/>
+        <COMPID name="GenericTranslator" mc="Standard.Class" uid="929845e0-b5f8-4614-81e2-683403c6e39e"/>
+        <COMPID name="IDTranslator" mc="Standard.Class" uid="d9ee3050-d2b1-40b2-ad1e-18f6f6514a53"/>
+        <COMPID name="IRootObjectResource" mc="Standard.Interface" uid="d673bf91-5869-4b82-b2d9-c71bf903ec71"/>
+        <COMPID name="LinkUpdaterTarget" mc="Standard.Class" uid="f0755307-8be7-4937-abd3-cc7164f9ac64"/>
+        <COMPID name="MappedXMIHelper" mc="Standard.Class" uid="43320370-4fe2-490b-8538-f8c4aadcca31"/>
+        <COMPID name="MultiObjectTranslator" mc="Standard.Class" uid="ec7dcc30-1ba4-4cf2-ba71-020b17379283"/>
+        <COMPID name="NamespaceTranslator" mc="Standard.Class" uid="bcb89ba5-a343-4f1b-a031-db447c5581c3"/>
+        <COMPID name="ObjectTranslatorFilter" mc="Standard.Class" uid="a381c062-c052-484c-b50d-979160e50466"/>
+        <COMPID name="ReadAheadHelper" mc="Standard.Class" uid="17e54b00-4bcf-48a5-9b11-93cfc4e4a3e0"/>
+        <COMPID name="ReferencedResource" mc="Standard.Interface" uid="5dc58316-10a3-4cc9-bafb-f04bb450e072"/>
+        <COMPID name="ReferencedXMIFactoryImpl" mc="Standard.Class" uid="fb53b887-3eae-4bfd-b6c6-49dfba654d4f"/>
+        <COMPID name="ReferencedXMIResourceImpl" mc="Standard.Class" uid="f12dab81-950c-4e98-97d6-f7bcdebdfdd2"/>
+        <COMPID name="Renderer" mc="Standard.Interface" uid="4335cce9-73d7-4c42-8fd3-a89edc7f0f21"/>
+        <COMPID name="RendererFactory" mc="Standard.Class" uid="ad6fc861-6a73-4f9a-9efc-765353d2180d"/>
+        <COMPID name="RendererFactoryDefaultHandler" mc="Standard.Interface" uid="0773f5f3-3992-45bf-bf51-20ee8a947557"/>
+        <COMPID name="ResourceFactoryDescriptor" mc="Standard.Class" uid="604f0086-d6a3-41ae-b0ab-37123ec2b411"/>
+        <COMPID name="RootTranslator" mc="Standard.Class" uid="16bdd543-f460-4539-b367-ddabc21c4402"/>
+        <COMPID name="SourceLinkTranslator" mc="Standard.Class" uid="642bb506-fa99-44b2-a14f-f4aa8e44154e"/>
+        <COMPID name="Translator" mc="Standard.Class" uid="de8754d3-c343-4b8c-8cda-5c825c930a64"/>
+        <COMPID name="TranslatorFilter" mc="Standard.Class" uid="db3d626b-94ba-4372-9b95-4ad53e3aef07"/>
+        <COMPID name="TranslatorPath" mc="Standard.Class" uid="ba0cc100-7dc8-41ad-bdbb-a0ff77af98a0"/>
+        <COMPID name="TranslatorResource" mc="Standard.Interface" uid="78f14fcc-16de-4847-a3e2-ccb5f302103b"/>
+        <COMPID name="TranslatorResourceFactory" mc="Standard.Class" uid="d4ffe1f0-193f-4a4c-9442-692cfbea86ef"/>
+        <COMPID name="TranslatorResourceImpl" mc="Standard.Class" uid="997a8eb9-94ad-4fe9-a503-3db9f39f04c4"/>
+        <COMPID name="UnsupportedFeature" mc="Standard.Class" uid="120075b2-d8ee-4028-9637-38ac6fc1385e"/>
+        <COMPID name="VariableTranslatorFactory" mc="Standard.Interface" uid="38dabec5-5a82-4b33-982e-d22ffdd43430"/>
+        <COMPID name="XMLEncoderDecoder" mc="Standard.Class" uid="6911a189-5957-4612-83a2-8e836a053d0e"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

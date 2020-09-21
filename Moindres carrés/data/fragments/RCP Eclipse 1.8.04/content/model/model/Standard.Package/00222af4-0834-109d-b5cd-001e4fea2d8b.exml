@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="widgets" version="4">
+  <OBJECT>
+    <ID name="widgets" mc="Standard.Package" uid="00222af4-0834-109d-b5cd-001e4fea2d8b"/>
+    <PID name="forms" mc="Standard.Package" uid="001eb004-0834-109d-b5cd-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[widgets]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AggregateHyperlinkSegment" mc="Standard.Class" uid="002231de-0834-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="BreakSegment" mc="Standard.Class" uid="00223918-0834-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="BulletParagraph" mc="Standard.Class" uid="00224070-0834-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="BusyIndicator" mc="Standard.Class" uid="0022480e-0834-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="ColumnLayoutUtils" mc="Standard.Class" uid="00224fde-0834-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="ControlSegment" mc="Standard.Class" uid="002257ea-0834-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="FormFonts" mc="Standard.Class" uid="00226032-0834-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="FormHeading" mc="Standard.Class" uid="00226f82-0834-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="FormImages" mc="Standard.Class" uid="0022953e-0834-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="FormTextModel" mc="Standard.Class" uid="0022b4b0-0834-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="FormUtil" mc="Standard.Class" uid="0022c4a0-0834-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="FormsResources" mc="Standard.Class" uid="0022cdf6-0834-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="IFocusSelectable" mc="Standard.Interface" uid="0022d4cc-0834-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="IHyperlinkSegment" mc="Standard.Interface" uid="0022dc2e-0834-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="ImageHyperlinkSegment" mc="Standard.Class" uid="0022e5fc-0834-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="ImageSegment" mc="Standard.Class" uid="0022efc0-0834-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="Locator" mc="Standard.Class" uid="0022f9b6-0834-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="ObjectSegment" mc="Standard.Class" uid="002303fc-0834-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="Paragraph" mc="Standard.Class" uid="00230e6a-0834-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="ParagraphSegment" mc="Standard.Class" uid="0023190a-0834-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="ResourceManagerManger" mc="Standard.Class" uid="002323e6-0834-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="SWTUtil" mc="Standard.Class" uid="00232ef4-0834-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="SelectionData" mc="Standard.Class" uid="00233bba-0834-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="TextHyperlinkSegment" mc="Standard.Class" uid="00234768-0834-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="TextSegment" mc="Standard.Class" uid="00235320-0834-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="TitleRegion" mc="Standard.Class" uid="002384e4-0834-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="WrappedPageBook" mc="Standard.Class" uid="0023a672-0834-109d-b5cd-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

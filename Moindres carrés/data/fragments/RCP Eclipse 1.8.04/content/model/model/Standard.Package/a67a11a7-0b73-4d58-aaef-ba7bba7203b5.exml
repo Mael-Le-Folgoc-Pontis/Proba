@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="mpc" version="4">
+  <OBJECT>
+    <ID name="mpc" mc="Standard.Package" uid="a67a11a7-0b73-4d58-aaef-ba7bba7203b5"/>
+    <PID name="epp" mc="Standard.Package" uid="37106d78-1ab4-4fe6-9610-d554d373e88c"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[mpc]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="core" mc="Standard.Package" uid="7c938720-b6e7-4703-a6a9-63227f4a06ff"/>
+        <COMPID name="ui" mc="Standard.Package" uid="d7fd8b74-055b-425a-b054-cdec448d399d"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

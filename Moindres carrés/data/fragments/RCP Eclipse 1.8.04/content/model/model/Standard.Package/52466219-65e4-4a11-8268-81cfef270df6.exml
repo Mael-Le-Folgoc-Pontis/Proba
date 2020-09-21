@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="turbo" version="4">
+  <OBJECT>
+    <ID name="turbo" mc="Standard.Package" uid="52466219-65e4-4a11-8268-81cfef270df6"/>
+    <PID name="classic" mc="Standard.Package" uid="099ea9e4-dcb1-486e-adcd-be4022ab5d8a"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[turbo]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="DuplicateMessageFilter" mc="Standard.Class" uid="521b88ab-6cec-4299-b2e9-5b67e94edc18"/>
+        <COMPID name="DynamicThresholdFilter" mc="Standard.Class" uid="7e39cbf5-02d3-4096-934c-5a0160b4b2e5"/>
+        <COMPID name="MDCFilter" mc="Standard.Class" uid="da942005-9b3e-41a7-ab39-0ea3d6925fef"/>
+        <COMPID name="MDCValueLevelPair" mc="Standard.Class" uid="d9fee193-82ad-4dd2-942a-0b6ce9ebad69"/>
+        <COMPID name="MarkerFilter" mc="Standard.Class" uid="8f8bdcc0-3906-4a14-b4d6-a0517c7e7316"/>
+        <COMPID name="MatchingFilter" mc="Standard.Class" uid="c274f6a5-4e77-4220-9663-ec05d52e6c6a"/>
+        <COMPID name="ReconfigureOnChangeFilter" mc="Standard.Class" uid="da30d6ab-2e45-42c2-a8d3-196edb92b836"/>
+        <COMPID name="TurboFilter" mc="Standard.Class" uid="edfb4c50-60ae-4540-b3fd-d12e1c01f6aa"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

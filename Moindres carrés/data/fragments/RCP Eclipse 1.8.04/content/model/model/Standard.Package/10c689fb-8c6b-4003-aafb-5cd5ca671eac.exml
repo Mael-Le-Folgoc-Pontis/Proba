@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="protocol" version="4">
+  <OBJECT>
+    <ID name="protocol" mc="Standard.Package" uid="10c689fb-8c6b-4003-aafb-5cd5ca671eac"/>
+    <PID name="client" mc="Standard.Package" uid="139da6c5-3b11-48bb-99e5-c2f3faab23d5"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[protocol]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ClientContext" mc="Standard.Interface" uid="adf3c53c-df37-44a9-8892-f024d37279e6"/>
+        <COMPID name="ClientContextConfigurer" mc="Standard.Class" uid="90a6c182-b1d6-4da5-9e1a-3c47dcc6ed8a"/>
+        <COMPID name="HttpClientContext" mc="Standard.Class" uid="590ab238-1f9d-4698-9e40-2bd868a1ebe9"/>
+        <COMPID name="RequestAcceptEncoding" mc="Standard.Class" uid="feeae2d9-804e-44c0-96be-3121f2b11712"/>
+        <COMPID name="RequestAddCookies" mc="Standard.Class" uid="398de2a7-2f21-4a66-8783-ed7d33f8eeaa"/>
+        <COMPID name="RequestAuthCache" mc="Standard.Class" uid="1f9976de-17f1-4fb8-a355-c229d0641b67"/>
+        <COMPID name="RequestClientConnControl" mc="Standard.Class" uid="23e48e5d-0ff0-4851-874d-af427417fefa"/>
+        <COMPID name="RequestDefaultHeaders" mc="Standard.Class" uid="84e9277e-5c17-4a39-969a-55f5ff77a6d8"/>
+        <COMPID name="RequestExpectContinue" mc="Standard.Class" uid="8e877952-3e47-4ae3-be36-55e2e8baa7fb"/>
+        <COMPID name="RequestProxyAuthentication" mc="Standard.Class" uid="f3857ff3-98f7-40b3-b6f5-bc1c76ec452a"/>
+        <COMPID name="RequestTargetAuthentication" mc="Standard.Class" uid="bb9eb948-cc4e-4b00-a7eb-af02756c2d51"/>
+        <COMPID name="ResponseAuthCache" mc="Standard.Class" uid="b2d8bfbb-5ca6-4b4d-bffd-7cfe62b83c5b"/>
+        <COMPID name="ResponseContentEncoding" mc="Standard.Class" uid="b806b0ee-8252-4457-97bc-79406d9d92b8"/>
+        <COMPID name="ResponseProcessCookies" mc="Standard.Class" uid="fe3b72a0-d6ac-494d-a403-e907b8213b63"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

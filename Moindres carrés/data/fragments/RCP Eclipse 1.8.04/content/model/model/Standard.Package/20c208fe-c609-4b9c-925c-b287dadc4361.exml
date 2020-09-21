@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="compatibility" version="4">
+  <OBJECT>
+    <ID name="compatibility" mc="Standard.Package" uid="20c208fe-c609-4b9c-925c-b287dadc4361"/>
+    <PID name="ui" mc="Standard.Package" uid="f8433a9d-ff07-4cb7-a21f-5ff5b27ffe5a"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[compatibility]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="CommonColors" mc="Standard.Class" uid="4546fbb5-b6d1-4b32-a433-098f02cf0f59"/>
+        <COMPID name="CommonFonts" mc="Standard.Class" uid="cbd31b13-5dc3-4c1b-b34a-5307e985d1aa"/>
+        <COMPID name="CommonThemes" mc="Standard.Class" uid="df31de19-3e29-477e-9bbf-bb0d2920e5b6"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

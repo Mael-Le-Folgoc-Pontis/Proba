@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="internal" version="4">
+  <OBJECT>
+    <ID name="internal" mc="Standard.Package" uid="8460e223-6fa1-49f0-90cf-ea1eba004c24"/>
+    <PID name="discovery" mc="Standard.Package" uid="2e3114c3-cfb9-47f4-a8b5-0f8a5352a71e"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[internal]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Activator" mc="Standard.Class" uid="739bccc3-3b77-44c3-90a4-ce4b75c0e381"/>
+        <COMPID name="ExtensionInstallableUnitQuery" mc="Standard.Class" uid="e92d0a06-a982-46da-b621-11e3f058fc59"/>
+        <COMPID name="ExtensionUtility" mc="Standard.Class" uid="858fe279-0cbd-4c06-b8b7-ac1e44f46ae2"/>
+        <COMPID name="IMemento" mc="Standard.Interface" uid="226fb4a4-dacf-4828-9d5e-ff90a8cd355c"/>
+        <COMPID name="ImageResource" mc="Standard.Class" uid="9c04e236-1180-42f9-9b4f-81013745b58d"/>
+        <COMPID name="Messages" mc="Standard.Class" uid="52967ad7-a3ee-4ef8-9beb-9358828d529c"/>
+        <COMPID name="PatternInstallableUnitQuery" mc="Standard.Class" uid="95c5a320-6619-4100-bfb3-acc4a1ee98c6"/>
+        <COMPID name="ProgressUtil" mc="Standard.Class" uid="a6d618b7-bab4-475e-b2b9-2dd8ced7d0bd"/>
+        <COMPID name="Trace" mc="Standard.Class" uid="7c1417d9-8ddb-4b27-8cc5-5e14fbc9587b"/>
+        <COMPID name="XMLMemento" mc="Standard.Class" uid="28b5d75d-dfe6-4d96-90da-77a18867d2ab"/>
+        <COMPID name="model" mc="Standard.Package" uid="c45a95d6-b87d-436c-8f76-702c6e4c41a4"/>
+        <COMPID name="wizard" mc="Standard.Package" uid="85645e2a-72f1-4c06-81ad-1676f322ffc4"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

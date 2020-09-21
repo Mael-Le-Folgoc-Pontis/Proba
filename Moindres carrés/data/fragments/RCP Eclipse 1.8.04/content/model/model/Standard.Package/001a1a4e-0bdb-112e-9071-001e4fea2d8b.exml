@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="tree" version="4">
+  <OBJECT>
+    <ID name="tree" mc="Standard.Package" uid="001a1a4e-0bdb-112e-9071-001e4fea2d8b"/>
+    <PID name="asm" mc="Standard.Package" uid="0017d306-0bdb-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[tree]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractInsnNode" mc="Standard.Class" uid="001a20b6-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AnnotationNode" mc="Standard.Class" uid="001a2728-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ClassNode" mc="Standard.Class" uid="001a2d90-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FieldInsnNode" mc="Standard.Class" uid="001a3420-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FieldNode" mc="Standard.Class" uid="001a3ab0-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FrameNode" mc="Standard.Class" uid="001a41b8-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IincInsnNode" mc="Standard.Class" uid="001a48de-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="InnerClassNode" mc="Standard.Class" uid="001a5004-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="InsnList" mc="Standard.Class" uid="001a57a2-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="InsnNode" mc="Standard.Class" uid="001a5f72-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IntInsnNode" mc="Standard.Class" uid="001a6738-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JumpInsnNode" mc="Standard.Class" uid="001a6f9e-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LabelNode" mc="Standard.Class" uid="001a77fa-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LdcInsnNode" mc="Standard.Class" uid="001a8088-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LineNumberNode" mc="Standard.Class" uid="001a8948-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LocalVariableNode" mc="Standard.Class" uid="001a932a-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LookupSwitchInsnNode" mc="Standard.Class" uid="001a9c1c-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MemberNode" mc="Standard.Class" uid="001aa57c-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MethodInsnNode" mc="Standard.Class" uid="001aaf0e-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MethodNode" mc="Standard.Class" uid="001ab896-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MultiANewArrayInsnNode" mc="Standard.Class" uid="001ac304-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TableSwitchInsnNode" mc="Standard.Class" uid="001acd2c-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TryCatchBlockNode" mc="Standard.Class" uid="001ad74a-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TypeInsnNode" mc="Standard.Class" uid="001ae1e0-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="VarInsnNode" mc="Standard.Class" uid="001aecb2-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="analysis" mc="Standard.Package" uid="001b5602-0bdb-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

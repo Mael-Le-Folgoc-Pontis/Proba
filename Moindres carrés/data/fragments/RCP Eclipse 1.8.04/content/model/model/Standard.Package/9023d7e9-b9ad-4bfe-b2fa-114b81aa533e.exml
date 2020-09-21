@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="http" version="4">
+  <OBJECT>
+    <ID name="http" mc="Standard.Package" uid="9023d7e9-b9ad-4bfe-b2fa-114b81aa533e"/>
+    <PID name="internal" mc="Standard.Package" uid="c06e71f3-4720-4368-b503-adc3524dc62e"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[http]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AuthenticatorAdapter" mc="Standard.Class" uid="353dbbe8-cc7f-4677-b16d-301f2a75aef0"/>
+        <COMPID name="CacheRequest" mc="Standard.Interface" uid="790683d7-5af3-4dec-857b-ac2a2164256b"/>
+        <COMPID name="CacheStrategy" mc="Standard.Class" uid="a93e5437-d479-47b3-b0c4-374a73eb20a8"/>
+        <COMPID name="HeaderParser" mc="Standard.Class" uid="17f0e35c-4804-473b-9738-2cb14ae0d9e6"/>
+        <COMPID name="HttpConnection" mc="Standard.Class" uid="1aebc3ff-3388-4919-8eef-b9bd9160e7fd"/>
+        <COMPID name="HttpDate" mc="Standard.Class" uid="99d767a9-be59-4981-ad11-77509e82d322"/>
+        <COMPID name="HttpEngine" mc="Standard.Class" uid="c65089c2-6701-4f63-a1c0-8a9a46523400"/>
+        <COMPID name="HttpMethod" mc="Standard.Class" uid="ca5e4c97-f7ed-4db9-b42e-fcef52f78432"/>
+        <COMPID name="HttpTransport" mc="Standard.Class" uid="44acdf80-ae76-4959-9949-2086d9d57df0"/>
+        <COMPID name="OkHeaders" mc="Standard.Class" uid="17c44d64-be11-4fd9-9827-8048630ed9c0"/>
+        <COMPID name="RealResponseBody" mc="Standard.Class" uid="e093e1ea-1e5f-4da9-bd83-87edf436e31d"/>
+        <COMPID name="RequestLine" mc="Standard.Class" uid="c282f877-acc9-4b46-b6cc-2820593ad2ca"/>
+        <COMPID name="RetryableSink" mc="Standard.Class" uid="31f24a50-1d08-4ff7-bf45-f91f8cf3a6d1"/>
+        <COMPID name="RouteSelector" mc="Standard.Class" uid="c5cbb166-fb41-4910-aec0-075c70cdf3a8"/>
+        <COMPID name="SpdyTransport" mc="Standard.Class" uid="bbfe0824-cf92-4f6f-bf72-cdbb1739ab56"/>
+        <COMPID name="StatusLine" mc="Standard.Class" uid="606bfca1-840b-435f-bfff-ba059d157516"/>
+        <COMPID name="Transport" mc="Standard.Interface" uid="06e22ab6-9785-49f4-ba90-0fe39169209d"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

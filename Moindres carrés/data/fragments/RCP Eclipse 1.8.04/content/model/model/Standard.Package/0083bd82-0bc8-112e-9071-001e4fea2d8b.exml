@@ -1,0 +1,57 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="compiler" version="4">
+  <OBJECT>
+    <ID name="compiler" mc="Standard.Package" uid="0083bd82-0bc8-112e-9071-001e4fea2d8b"/>
+    <PID name="internal" mc="Standard.Package" uid="00767f28-0bc8-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[compiler]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ASTVisitor" mc="Standard.Class" uid="0083c3ea-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AbstractAnnotationProcessorManager" mc="Standard.Class" uid="0083caac-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ClassFile" mc="Standard.Class" uid="0083d18c-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ClassFilePool" mc="Standard.Class" uid="0083d862-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CompilationResult" mc="Standard.Class" uid="0083df9c-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Compiler" mc="Standard.Class" uid="0083e71c-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DefaultErrorHandlingPolicies" mc="Standard.Class" uid="0083ee88-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DocumentElementParser" mc="Standard.Class" uid="0083f662-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ExtraFlags" mc="Standard.Class" uid="0083fe64-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ICompilerRequestor" mc="Standard.Interface" uid="00840472-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IDebugRequestor" mc="Standard.Interface" uid="00840b5c-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IDocumentElementRequestor" mc="Standard.Interface" uid="0084125a-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IErrorHandlingPolicy" mc="Standard.Interface" uid="00841944-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IProblemFactory" mc="Standard.Interface" uid="008420ce-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ISourceElementRequestor" mc="Standard.Interface" uid="0084284e-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ProcessTaskManager" mc="Standard.Class" uid="00847b96-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ReadManager" mc="Standard.Class" uid="00848424-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SourceElementNotifier" mc="Standard.Class" uid="00848ce4-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SourceElementParser" mc="Standard.Class" uid="00849c02-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SourceElementRequestorAdapter" mc="Standard.Class" uid="0084a51c-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SourceJavadocParser" mc="Standard.Class" uid="0084ae5e-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="apt" mc="Standard.Package" uid="0085878e-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ast" mc="Standard.Package" uid="008ac5be-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="batch" mc="Standard.Package" uid="00933528-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="classfmt" mc="Standard.Package" uid="0094a8f4-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="codegen" mc="Standard.Package" uid="009611b2-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="env" mc="Standard.Package" uid="0097f216-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="flow" mc="Standard.Package" uid="00011260-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="impl" mc="Standard.Package" uid="0002a706-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="lookup" mc="Standard.Package" uid="00043986-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="parser" mc="Standard.Package" uid="00088fe0-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="problem" mc="Standard.Package" uid="000c3e2e-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="tool" mc="Standard.Package" uid="000dc2c6-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="util" mc="Standard.Package" uid="000f641e-0bc9-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

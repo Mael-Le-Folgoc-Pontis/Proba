@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="dto" version="4">
+  <OBJECT>
+    <ID name="dto" mc="Standard.Package" uid="68283425-f28f-4469-8737-7829a5404f33"/>
+    <PID name="wiring" mc="Standard.Package" uid="003c99e8-21b1-1fb1-8a9e-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[dto]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="BundleRevisionDTO" mc="Standard.Class" uid="584f7a08-3194-4f15-9dce-eec41e21b605"/>
+        <COMPID name="BundleWireDTO" mc="Standard.Class" uid="3d0c48c1-8055-446a-b9b8-754f841c02bf"/>
+        <COMPID name="BundleWiringDTO" mc="Standard.Class" uid="e7f678a2-63d9-4c3a-8f5a-2518f4d9ff42"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

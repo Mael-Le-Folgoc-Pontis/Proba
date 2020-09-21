@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="containers" version="4">
+  <OBJECT>
+    <ID name="containers" mc="Standard.Package" uid="00094368-0bc1-112e-9071-001e4fea2d8b"/>
+    <PID name="sourcelookup" mc="Standard.Package" uid="000834a0-0bc1-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[containers]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractSourceContainer" mc="Standard.Class" uid="00094a20-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AbstractSourceContainerTypeDelegate" mc="Standard.Class" uid="00095146-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ArchiveSourceContainer" mc="Standard.Class" uid="00095894-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CompositeSourceContainer" mc="Standard.Class" uid="0009600a-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ContainerSourceContainer" mc="Standard.Class" uid="000967a8-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DefaultSourceContainer" mc="Standard.Class" uid="00096f46-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DirectorySourceContainer" mc="Standard.Class" uid="00097748-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ExternalArchiveSourceContainer" mc="Standard.Class" uid="00097f86-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FolderSourceContainer" mc="Standard.Class" uid="000987b0-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LocalFileStorage" mc="Standard.Class" uid="00099052-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ProjectSourceContainer" mc="Standard.Class" uid="00099930-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WorkspaceSourceContainer" mc="Standard.Class" uid="0009a1fa-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ZipEntryStorage" mc="Standard.Class" uid="0009abc8-0bc1-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

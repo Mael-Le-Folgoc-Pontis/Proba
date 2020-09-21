@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="params" version="4">
+  <OBJECT>
+    <ID name="params" mc="Standard.Package" uid="09b62cee-f15d-4cc1-84f3-088c79607730"/>
+    <PID name="client" mc="Standard.Package" uid="139da6c5-3b11-48bb-99e5-c2f3faab23d5"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[params]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AllClientPNames" mc="Standard.Interface" uid="8b2547e4-637a-48c9-bee3-dcd835c2c6b8"/>
+        <COMPID name="AuthPolicy" mc="Standard.Class" uid="87cf3d42-19ea-45a0-9ca9-e9187913574d"/>
+        <COMPID name="ClientPNames" mc="Standard.Interface" uid="a1ee1aea-79a7-4559-8865-8ca7589e6c4b"/>
+        <COMPID name="ClientParamBean" mc="Standard.Class" uid="cb22519d-31f3-4ff4-a8b8-d632c25fc185"/>
+        <COMPID name="CookiePolicy" mc="Standard.Class" uid="9226f2c7-ac53-40b3-a445-b2343d484d72"/>
+        <COMPID name="HttpClientParamConfig" mc="Standard.Class" uid="86c84c5b-3c29-4d41-b46d-8cec75feac8c"/>
+        <COMPID name="HttpClientParams" mc="Standard.Class" uid="1deddc44-9415-4cc9-b8a6-f0ba1f3c5a5f"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="sourcelookup" version="4">
+  <OBJECT>
+    <ID name="sourcelookup" mc="Standard.Package" uid="000ef240-0bc1-112e-9071-001e4fea2d8b"/>
+    <PID name="core" mc="Standard.Package" uid="000ae86c-0bc1-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[sourcelookup]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="SourceContainerType" mc="Standard.Class" uid="000ef8f8-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SourceLocatorMementoComparator" mc="Standard.Class" uid="000effec-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SourceLookupMessages" mc="Standard.Class" uid="000f0744-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SourceLookupUtils" mc="Standard.Class" uid="000f0eba-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SourcePathComputer" mc="Standard.Class" uid="000f2990-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="containers" mc="Standard.Package" uid="000ff082-0bc1-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

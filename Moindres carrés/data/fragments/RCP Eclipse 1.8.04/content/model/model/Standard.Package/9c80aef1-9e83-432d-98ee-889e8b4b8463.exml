@@ -1,0 +1,58 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="artifacts" version="4">
+  <OBJECT>
+    <ID name="artifacts" mc="Standard.Package" uid="9c80aef1-9e83-432d-98ee-889e8b4b8463"/>
+    <PID name="api" mc="Standard.Package" uid="e982dc26-8498-4432-83e7-291b435ca4a0"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[artifacts]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ArtifactRepositoryContainer" mc="Standard.Class" uid="6619b262-d2ac-4547-b2b4-6c62f77038e5"/>
+        <COMPID name="ComponentMetadata" mc="Standard.Interface" uid="f1cf23fb-1fb1-47d2-8bc9-dd4f9dd236e6"/>
+        <COMPID name="ComponentMetadataDetails" mc="Standard.Interface" uid="2756536f-534d-4d0a-93ea-ccbc0cc608fd"/>
+        <COMPID name="ComponentModuleMetadata" mc="Standard.Interface" uid="21874d36-0bcb-4086-bede-b2e3710456e0"/>
+        <COMPID name="ComponentSelection" mc="Standard.Interface" uid="85819e8c-6e37-423b-82c8-d222e4c7aa47"/>
+        <COMPID name="ComponentSelectionRules" mc="Standard.Class" uid="5f99e434-0808-4bef-b00a-76b49d99e363"/>
+        <COMPID name="Configuration" mc="Standard.Class" uid="582e319c-bc2a-430e-85f6-0ac3bfdb962c"/>
+        <COMPID name="ConfigurationContainer" mc="Standard.Class" uid="b2b7656c-4b4a-4bc6-87ca-4acb31dedf36"/>
+        <COMPID name="Dependency" mc="Standard.Interface" uid="342a9e65-0805-4d36-b101-df20248f012a"/>
+        <COMPID name="DependencyResolveDetails" mc="Standard.Interface" uid="2322ffb1-2504-4b13-83de-1c2898c61fbe"/>
+        <COMPID name="DependencySet" mc="Standard.Interface" uid="90cb2b8b-cb91-4c24-baaf-c7d993389bb6"/>
+        <COMPID name="DependencySubstitution" mc="Standard.Interface" uid="63b64705-c128-4f3b-8f19-e86a1db6cc08"/>
+        <COMPID name="DependencySubstitutions" mc="Standard.Interface" uid="c3b12e17-63ee-46a4-9182-c62e6f59779f"/>
+        <COMPID name="ExcludeRule" mc="Standard.Interface" uid="4fe029c4-f17a-4c52-8e62-797773f987aa"/>
+        <COMPID name="LenientConfiguration" mc="Standard.Interface" uid="5dc5176e-fb81-42ca-9d1c-4831289cf908"/>
+        <COMPID name="ModuleIdentifier" mc="Standard.Interface" uid="0d5714d1-dedc-4c42-b5a3-35c7e6909910"/>
+        <COMPID name="ModuleVersionIdentifier" mc="Standard.Interface" uid="436fde32-7056-4850-aa09-678e153d409c"/>
+        <COMPID name="ModuleVersionSelector" mc="Standard.Interface" uid="24a6fe5d-1031-4701-bff4-434ee88d5b83"/>
+        <COMPID name="PublishArtifact" mc="Standard.Interface" uid="9e5d6f83-47d9-4759-87dc-b3daf9562563"/>
+        <COMPID name="PublishArtifactSet" mc="Standard.Interface" uid="77a27752-ca54-42ad-9931-05c674d84b3f"/>
+        <COMPID name="ResolutionStrategy" mc="Standard.Interface" uid="c0ed95c2-6f5e-4e96-b93a-07e3cd093a75"/>
+        <COMPID name="ResolvableDependencies" mc="Standard.Class" uid="65f393e9-e4cd-4692-a55f-e3d2bc71ec42"/>
+        <COMPID name="ResolveException" mc="Standard.Class" uid="976aad5b-d32f-4255-a9b0-59b7fff4bea1"/>
+        <COMPID name="ResolvedArtifact" mc="Standard.Interface" uid="c642a793-f611-4ffc-9518-6104a88aca5d"/>
+        <COMPID name="ResolvedConfiguration" mc="Standard.Interface" uid="2609a0a3-ee77-4644-9320-bae18e3b861c"/>
+        <COMPID name="ResolvedDependency" mc="Standard.Interface" uid="af566268-4814-4f08-8f20-7d54fced2c7e"/>
+        <COMPID name="ResolvedModuleVersion" mc="Standard.Interface" uid="e364ff44-a234-45a2-83ac-0d4ef791ecdd"/>
+        <COMPID name="UnknownConfigurationException" mc="Standard.Class" uid="8275b008-bb38-4a62-9222-a50b3e37b356"/>
+        <COMPID name="UnknownRepositoryException" mc="Standard.Class" uid="85d1a0ec-14f0-4b28-b0d9-06274bdde634"/>
+        <COMPID name="UnresolvedDependency" mc="Standard.Interface" uid="85e62c68-df69-405f-9258-3af16b1be25f"/>
+        <COMPID name="component" mc="Standard.Package" uid="9d9dd347-2c3d-4232-880e-463816af11e1"/>
+        <COMPID name="dsl" mc="Standard.Package" uid="3bbf88e0-2d31-4e75-be60-d21aaadbafed"/>
+        <COMPID name="query" mc="Standard.Package" uid="09abdb31-9e6e-43b0-b4b7-3afd7aaf7148"/>
+        <COMPID name="repositories" mc="Standard.Package" uid="41a71f6c-4608-44b2-a329-42f831572929"/>
+        <COMPID name="result" mc="Standard.Package" uid="a5910f98-7b81-4550-8055-c73190e4a87b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

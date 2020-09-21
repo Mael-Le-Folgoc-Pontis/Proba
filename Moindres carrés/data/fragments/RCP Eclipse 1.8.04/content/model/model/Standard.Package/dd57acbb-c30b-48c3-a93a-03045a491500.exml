@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="merge" version="4">
+  <OBJECT>
+    <ID name="merge" mc="Standard.Package" uid="dd57acbb-c30b-48c3-a93a-03045a491500"/>
+    <PID name="internal" mc="Standard.Package" uid="4cf20e63-bbc4-4db1-9986-a242dfadfbfa"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[merge]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="DirCacheResourceVariantTreeProvider" mc="Standard.Class" uid="81eb1397-df50-4c88-856f-d84463b099ba"/>
+        <COMPID name="GitResourceVariantTreeProvider" mc="Standard.Interface" uid="8ba0f42c-8079-4e30-a60e-14388b8c913e"/>
+        <COMPID name="GitResourceVariantTreeSubscriber" mc="Standard.Class" uid="103ebf3a-5407-4acf-a2ae-a97e58a69323"/>
+        <COMPID name="GitSyncInfoToDiffConverter" mc="Standard.Class" uid="a069ebbd-ad20-4ebc-ac98-4c78a0e2923a"/>
+        <COMPID name="TreeWalkResourceVariantTreeProvider" mc="Standard.Class" uid="364a42c6-024b-408e-a880-bd015fff84b3"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

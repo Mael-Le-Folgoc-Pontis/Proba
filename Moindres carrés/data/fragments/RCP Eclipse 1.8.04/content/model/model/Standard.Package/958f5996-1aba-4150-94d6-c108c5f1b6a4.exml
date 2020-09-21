@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="spi" version="4">
+  <OBJECT>
+    <ID name="spi" mc="Standard.Package" uid="958f5996-1aba-4150-94d6-c108c5f1b6a4"/>
+    <PID name="log4j" mc="Standard.Package" uid="ed6a544b-48f0-4c81-b6a9-45e027c242cd"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[spi]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AppenderAttachable" mc="Standard.Interface" uid="79248298-bb9d-43b7-9987-75199b63455b"/>
+        <COMPID name="Configurator" mc="Standard.Interface" uid="f8d31205-3fa2-4c19-bc85-c8b2d39136db"/>
+        <COMPID name="DefaultRepositorySelector" mc="Standard.Class" uid="44202f5f-4b8d-4717-985a-f0ac444be6eb"/>
+        <COMPID name="ErrorCode" mc="Standard.Interface" uid="663af4ae-8414-4ac7-a46e-1ec194ab69f9"/>
+        <COMPID name="ErrorHandler" mc="Standard.Interface" uid="57cb3292-36ab-4c7f-a490-6ef45f60c8bb"/>
+        <COMPID name="Filter" mc="Standard.Class" uid="7d8065b9-a757-4ab6-bdf4-68552494e7e6"/>
+        <COMPID name="HierarchyEventListener" mc="Standard.Interface" uid="bc8fb265-2555-452f-b295-b6e63e31d59f"/>
+        <COMPID name="LocationInfo" mc="Standard.Class" uid="54254011-4840-4ee5-94ce-508a074acfd4"/>
+        <COMPID name="LoggerFactory" mc="Standard.Interface" uid="44867288-be95-4500-9549-c7a109c4b9cb"/>
+        <COMPID name="LoggerRepository" mc="Standard.Interface" uid="8a41a99f-02f5-4223-aee1-cde9382ddf85"/>
+        <COMPID name="LoggingEvent" mc="Standard.Class" uid="73ebf9bc-c781-441f-b6d3-5cbb571508df"/>
+        <COMPID name="NOPLogger" mc="Standard.Class" uid="77a80a8a-2a0b-4a7e-b6e3-43f60f4a3df8"/>
+        <COMPID name="NOPLoggerRepository" mc="Standard.Class" uid="c622a4d3-d474-4f7e-aa1b-158b2000be8c"/>
+        <COMPID name="OptionHandler" mc="Standard.Interface" uid="7efd4ee4-048c-4e14-a4de-683fe94c8368"/>
+        <COMPID name="RendererSupport" mc="Standard.Interface" uid="85a8f724-833a-4ec2-a476-7ae02af5f18e"/>
+        <COMPID name="RepositorySelector" mc="Standard.Interface" uid="26b7798c-80d5-49af-bf5d-377b4c0ee8c9"/>
+        <COMPID name="RootCategory" mc="Standard.Class" uid="d06a9b5a-3492-42cc-aa85-004b261b498e"/>
+        <COMPID name="RootLogger" mc="Standard.Class" uid="90739587-efe8-43f7-940a-7bd54f697850"/>
+        <COMPID name="ThrowableInformation" mc="Standard.Class" uid="d20c13f1-6448-4455-8c26-eb436c933a8e"/>
+        <COMPID name="TriggeringEventEvaluator" mc="Standard.Interface" uid="889113f5-fdc1-4b83-a0ec-d490acc52890"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

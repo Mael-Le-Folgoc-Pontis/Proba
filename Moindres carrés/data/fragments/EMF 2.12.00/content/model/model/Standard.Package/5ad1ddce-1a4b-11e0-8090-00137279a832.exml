@@ -1,0 +1,63 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="impl" version="4">
+  <OBJECT>
+    <ID name="impl" mc="Standard.Package" uid="5ad1ddce-1a4b-11e0-8090-00137279a832"/>
+    <PID name="xmi" mc="Standard.Package" uid="5ad1ddcd-1a4b-11e0-8090-00137279a832"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[impl]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="BasicResourceHandler" mc="Standard.Class" uid="5ad904dd-1a4b-11e0-8090-00137279a832"/>
+        <COMPID name="ConfigurationCache" mc="Standard.Class" uid="5adb673a-1a4b-11e0-8090-00137279a832"/>
+        <COMPID name="DefaultDOMHandlerImpl" mc="Standard.Class" uid="5adb673b-1a4b-11e0-8090-00137279a832"/>
+        <COMPID name="EMOFExtendedMetaData" mc="Standard.Class" uid="5addc98e-1a4b-11e0-8090-00137279a832"/>
+        <COMPID name="EMOFHandler" mc="Standard.Class" uid="5addc9a0-1a4b-11e0-8090-00137279a832"/>
+        <COMPID name="EMOFHelperImpl" mc="Standard.Class" uid="5ad904da-1a4b-11e0-8090-00137279a832"/>
+        <COMPID name="EMOFLoadImpl" mc="Standard.Class" uid="5adb673c-1a4b-11e0-8090-00137279a832"/>
+        <COMPID name="EMOFResourceFactoryImpl" mc="Standard.Class" uid="5ad1ddd0-1a4b-11e0-8090-00137279a832"/>
+        <COMPID name="EMOFResourceImpl" mc="Standard.Class" uid="5ad6a285-1a4b-11e0-8090-00137279a832"/>
+        <COMPID name="EMOFSaveImpl" mc="Standard.Class" uid="5adb673e-1a4b-11e0-8090-00137279a832"/>
+        <COMPID name="EcoreResourceFactoryImpl" mc="Standard.Class" uid="5ad4403a-1a4b-11e0-8090-00137279a832"/>
+        <COMPID name="ElementHandlerImpl" mc="Standard.Class" uid="5ad904de-1a4b-11e0-8090-00137279a832"/>
+        <COMPID name="GenericXMLResourceFactoryImpl" mc="Standard.Class" uid="5ad4403b-1a4b-11e0-8090-00137279a832"/>
+        <COMPID name="GenericXMLResourceImpl" mc="Standard.Class" uid="5ad6a282-1a4b-11e0-8090-00137279a832"/>
+        <COMPID name="NameInfoImpl" mc="Standard.Class" uid="5addc98f-1a4b-11e0-8090-00137279a832"/>
+        <COMPID name="ResourceEntityHandlerImpl" mc="Standard.Class" uid="5ad6a280-1a4b-11e0-8090-00137279a832"/>
+        <COMPID name="RootXMLContentHandlerImpl" mc="Standard.Class" uid="5ad6a28a-1a4b-11e0-8090-00137279a832"/>
+        <COMPID name="SAXWrapper" mc="Standard.Class" uid="5ad44038-1a4b-11e0-8090-00137279a832"/>
+        <COMPID name="SAXXMIHandler" mc="Standard.Class" uid="5adb6738-1a4b-11e0-8090-00137279a832"/>
+        <COMPID name="SAXXMLHandler" mc="Standard.Class" uid="5adb673f-1a4b-11e0-8090-00137279a832"/>
+        <COMPID name="StringSegment" mc="Standard.Class" uid="5ad6a286-1a4b-11e0-8090-00137279a832"/>
+        <COMPID name="URIHandlerImpl" mc="Standard.Class" uid="5ad6a289-1a4b-11e0-8090-00137279a832"/>
+        <COMPID name="XMIHandler" mc="Standard.Class" uid="5ad44039-1a4b-11e0-8090-00137279a832"/>
+        <COMPID name="XMIHelperImpl" mc="Standard.Class" uid="5ad6a28b-1a4b-11e0-8090-00137279a832"/>
+        <COMPID name="XMILoadImpl" mc="Standard.Class" uid="5ad4403c-1a4b-11e0-8090-00137279a832"/>
+        <COMPID name="XMIResourceFactoryImpl" mc="Standard.Class" uid="5ad6a281-1a4b-11e0-8090-00137279a832"/>
+        <COMPID name="XMIResourceImpl" mc="Standard.Class" uid="5ad1ddcf-1a4b-11e0-8090-00137279a832"/>
+        <COMPID name="XMISaveImpl" mc="Standard.Class" uid="5ad6a283-1a4b-11e0-8090-00137279a832"/>
+        <COMPID name="XMLContentHandlerImpl" mc="Standard.Class" uid="5ad904db-1a4b-11e0-8090-00137279a832"/>
+        <COMPID name="XMLHandler" mc="Standard.Class" uid="5ad6a284-1a4b-11e0-8090-00137279a832"/>
+        <COMPID name="XMLHelperImpl" mc="Standard.Class" uid="5adb673d-1a4b-11e0-8090-00137279a832"/>
+        <COMPID name="XMLInfoImpl" mc="Standard.Class" uid="5ad904df-1a4b-11e0-8090-00137279a832"/>
+        <COMPID name="XMLLoadImpl" mc="Standard.Class" uid="5ad1ddd1-1a4b-11e0-8090-00137279a832"/>
+        <COMPID name="XMLMapImpl" mc="Standard.Class" uid="5ad6a287-1a4b-11e0-8090-00137279a832"/>
+        <COMPID name="XMLOptionsImpl" mc="Standard.Class" uid="5ad1ddd3-1a4b-11e0-8090-00137279a832"/>
+        <COMPID name="XMLParserPoolImpl" mc="Standard.Class" uid="5addc9a1-1a4b-11e0-8090-00137279a832"/>
+        <COMPID name="XMLResourceFactoryImpl" mc="Standard.Class" uid="5ad6a288-1a4b-11e0-8090-00137279a832"/>
+        <COMPID name="XMLResourceImpl" mc="Standard.Class" uid="5adb6739-1a4b-11e0-8090-00137279a832"/>
+        <COMPID name="XMLSaveImpl" mc="Standard.Class" uid="5ad1ddd2-1a4b-11e0-8090-00137279a832"/>
+        <COMPID name="XMLString" mc="Standard.Class" uid="5ad904dc-1a4b-11e0-8090-00137279a832"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

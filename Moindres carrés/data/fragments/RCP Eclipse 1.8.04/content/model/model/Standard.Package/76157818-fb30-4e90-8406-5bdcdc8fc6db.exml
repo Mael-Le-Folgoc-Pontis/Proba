@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="bag" version="4">
+  <OBJECT>
+    <ID name="bag" mc="Standard.Package" uid="76157818-fb30-4e90-8406-5bdcdc8fc6db"/>
+    <PID name="collections" mc="Standard.Package" uid="a284a2b1-efc0-4907-b43d-a516c9a55292"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[bag]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractBagDecorator" mc="Standard.Class" uid="3fc47387-75f2-496d-9a4f-611575f7a1d4"/>
+        <COMPID name="AbstractMapBag" mc="Standard.Class" uid="ff7118e5-1999-44be-9a6b-d822cb3138db"/>
+        <COMPID name="AbstractSortedBagDecorator" mc="Standard.Class" uid="2aab6ac7-24f5-4527-8be5-b8cb21983028"/>
+        <COMPID name="HashBag" mc="Standard.Class" uid="2f59efb5-04cd-45dd-835f-e6d6840b73d5"/>
+        <COMPID name="PredicatedBag" mc="Standard.Class" uid="cdf43869-c209-4ee5-a7d5-d2210acf11a2"/>
+        <COMPID name="PredicatedSortedBag" mc="Standard.Class" uid="3a26ee4d-56e0-4fdb-a8f6-0d5ce2b603ed"/>
+        <COMPID name="SynchronizedBag" mc="Standard.Class" uid="8aa83915-52e8-4ffe-97ad-fa632ffe5c9e"/>
+        <COMPID name="SynchronizedSortedBag" mc="Standard.Class" uid="169bdda6-452d-4aa3-838b-b8da4a648374"/>
+        <COMPID name="TransformedBag" mc="Standard.Class" uid="544c531b-a754-4939-b462-56d423f87a1a"/>
+        <COMPID name="TransformedSortedBag" mc="Standard.Class" uid="986ce2a8-144b-45d7-8b76-3c894904d635"/>
+        <COMPID name="TreeBag" mc="Standard.Class" uid="a72a180f-afe3-4922-95dd-35496b771cae"/>
+        <COMPID name="TypedBag" mc="Standard.Class" uid="c1e4ade8-3694-4344-8154-cc7cc54fad28"/>
+        <COMPID name="TypedSortedBag" mc="Standard.Class" uid="a3545736-3848-4956-801d-fed6da220ff0"/>
+        <COMPID name="UnmodifiableBag" mc="Standard.Class" uid="7134fb46-8d66-4c0a-846a-551643015a44"/>
+        <COMPID name="UnmodifiableSortedBag" mc="Standard.Class" uid="98904720-942f-4f2a-8c44-94b5d2435e84"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

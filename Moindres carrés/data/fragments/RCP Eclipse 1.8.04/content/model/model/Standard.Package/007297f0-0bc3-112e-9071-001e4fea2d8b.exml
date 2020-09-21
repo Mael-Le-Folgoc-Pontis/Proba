@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="socket" version="4">
+  <OBJECT>
+    <ID name="socket" mc="Standard.Package" uid="007297f0-0bc3-112e-9071-001e4fea2d8b"/>
+    <PID name="events" mc="Standard.Package" uid="0071db9e-0bc3-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[socket]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractSocketEvent" mc="Standard.Class" uid="00729e6c-0bc3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AbstractSocketWrapper" mc="Standard.Class" uid="0072a614-0bc3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SocketClosedEvent" mc="Standard.Class" uid="0072ad1c-0bc3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SocketConnectedEvent" mc="Standard.Class" uid="0072b488-0bc3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SocketCreatedEvent" mc="Standard.Class" uid="0072bc44-0bc3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SocketEventCreateUtil" mc="Standard.Class" uid="0072c3ec-0bc3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SocketEventSource" mc="Standard.Class" uid="0072cc3e-0bc3-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

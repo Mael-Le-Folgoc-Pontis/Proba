@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="comparator" version="4">
+  <OBJECT>
+    <ID name="comparator" mc="Standard.Package" uid="cdee4d26-be12-4ce6-9529-ca15b0025881"/>
+    <PID name="io" mc="Standard.Package" uid="5e71a916-8548-43c4-a2c2-b88ae4b5171c"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[comparator]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="CompositeFileComparator" mc="Standard.Class" uid="d7839e2c-31a1-42a8-ab5b-e1f0aef959ae"/>
+        <COMPID name="DefaultFileComparator" mc="Standard.Class" uid="a4ea0c39-4c2d-44b9-a12b-1eec2c4ddf16"/>
+        <COMPID name="DirectoryFileComparator" mc="Standard.Class" uid="7c9ccfbb-38d9-4f84-9689-3110f962119e"/>
+        <COMPID name="ExtensionFileComparator" mc="Standard.Class" uid="d7331b4c-3174-4c98-b43d-f180ff2783f8"/>
+        <COMPID name="LastModifiedFileComparator" mc="Standard.Class" uid="0ed23b1c-92f0-4eae-b2dc-c4cfce47de40"/>
+        <COMPID name="NameFileComparator" mc="Standard.Class" uid="64e2d442-8015-44cc-a88b-a6025b0ca1d5"/>
+        <COMPID name="PathFileComparator" mc="Standard.Class" uid="f13fe638-6560-406f-b627-1352bd9ddf53"/>
+        <COMPID name="SizeFileComparator" mc="Standard.Class" uid="b937b15d-9571-4159-90ea-741594fdb6b4"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

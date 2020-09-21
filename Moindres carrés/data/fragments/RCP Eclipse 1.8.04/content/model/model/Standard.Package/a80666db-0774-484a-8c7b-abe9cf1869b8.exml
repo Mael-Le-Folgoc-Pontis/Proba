@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="bean" version="4">
+  <OBJECT>
+    <ID name="bean" mc="Standard.Package" uid="a80666db-0774-484a-8c7b-abe9cf1869b8"/>
+    <PID name="common" mc="Standard.Package" uid="050af403-d060-44b3-9040-ae05350b9b98"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[bean]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Bean" mc="Standard.Class" uid="8141f831-eb37-4bec-a092-07b53e7ba860"/>
+        <COMPID name="ObservableBean" mc="Standard.Interface" uid="08117cde-a78e-4e29-b414-0a582f6a1438"/>
+        <COMPID name="ObservableBean2" mc="Standard.Interface" uid="9e75017e-8756-49b8-a95c-cfc81b4a13ab"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

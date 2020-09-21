@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="regexp" version="4">
+  <OBJECT>
+    <ID name="regexp" mc="Standard.Package" uid="0097c822-0bbe-112e-9071-001e4fea2d8b"/>
+    <PID name="util" mc="Standard.Package" uid="008e2b50-0bbe-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[regexp]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="JakartaOroMatcher" mc="Standard.Class" uid="0097cea8-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JakartaOroRegexp" mc="Standard.Class" uid="0097d63c-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JakartaRegexpMatcher" mc="Standard.Class" uid="0097ddee-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JakartaRegexpRegexp" mc="Standard.Class" uid="0097e5be-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Jdk14RegexpMatcher" mc="Standard.Class" uid="0097edd4-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Jdk14RegexpRegexp" mc="Standard.Class" uid="0097f5e0-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Regexp" mc="Standard.Interface" uid="0097fcf2-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RegexpFactory" mc="Standard.Class" uid="0098059e-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RegexpMatcher" mc="Standard.Interface" uid="00980ce2-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RegexpMatcherFactory" mc="Standard.Class" uid="009815ac-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RegexpMatcherTest" mc="Standard.Class" uid="00981e80-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RegexpTest" mc="Standard.Class" uid="0098275e-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RegexpUtil" mc="Standard.Class" uid="009830a0-0bbe-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

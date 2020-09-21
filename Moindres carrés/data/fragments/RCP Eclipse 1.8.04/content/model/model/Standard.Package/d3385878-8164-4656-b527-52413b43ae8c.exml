@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="math" version="4">
+  <OBJECT>
+    <ID name="math" mc="Standard.Package" uid="d3385878-8164-4656-b527-52413b43ae8c"/>
+    <PID name="common" mc="Standard.Package" uid="099f3ed6-50bc-436f-b3eb-172b276c6268"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[math]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="IntMath" mc="Standard.Class" uid="d0af4a84-5588-464e-8cdb-2d58ee6c3f8b"/>
+        <COMPID name="LongMath" mc="Standard.Class" uid="f6d6da58-5494-4653-ba14-495fa9c7e26c"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

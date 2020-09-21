@@ -1,0 +1,62 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="wml" version="4">
+  <OBJECT>
+    <ID name="wml" mc="Standard.Package" uid="7d38505d-f939-40b8-a2fc-e5d516b51100"/>
+    <PID name="apache" mc="Standard.Package" uid="00858518-21b0-1fb1-8a9e-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[wml]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="WMLAElement" mc="Standard.Interface" uid="10fba2e3-2a9b-46dd-965d-e95c50ead4a3"/>
+        <COMPID name="WMLAccessElement" mc="Standard.Interface" uid="40e9817d-2e16-46e2-b85d-983814b6404c"/>
+        <COMPID name="WMLAnchorElement" mc="Standard.Interface" uid="7385cb6e-bc32-46ee-b7d5-d6bf1d35afc8"/>
+        <COMPID name="WMLBElement" mc="Standard.Interface" uid="249c2d30-75d8-4bed-a01c-bb12a5e0cb58"/>
+        <COMPID name="WMLBigElement" mc="Standard.Interface" uid="0fab1cca-5a7d-4fdb-a5e5-d07ff3f0276f"/>
+        <COMPID name="WMLBrElement" mc="Standard.Interface" uid="df9a74e7-72a2-49f3-9b65-9f6546ef4e0c"/>
+        <COMPID name="WMLCardElement" mc="Standard.Interface" uid="04b0684e-7888-44a8-88f8-2372971162a6"/>
+        <COMPID name="WMLDOMImplementation" mc="Standard.Interface" uid="81708c5a-e043-4de6-beeb-097904aca01f"/>
+        <COMPID name="WMLDoElement" mc="Standard.Interface" uid="3b84e152-a738-43a1-bb54-c266ed63ecf4"/>
+        <COMPID name="WMLDocument" mc="Standard.Interface" uid="8f25da08-ba95-431b-933b-f3d88a0a47bf"/>
+        <COMPID name="WMLElement" mc="Standard.Interface" uid="ec6613a2-b293-4667-a233-6b0912a296f0"/>
+        <COMPID name="WMLEmElement" mc="Standard.Interface" uid="e221a0e7-2474-4022-a428-e0ff0d5760d6"/>
+        <COMPID name="WMLFieldsetElement" mc="Standard.Interface" uid="c2e9ff30-28b1-4cb1-86b2-bc85817ecb72"/>
+        <COMPID name="WMLGoElement" mc="Standard.Interface" uid="e22065c2-a525-4558-9aa0-5c0eb2caa38c"/>
+        <COMPID name="WMLHeadElement" mc="Standard.Interface" uid="8cff0384-d7ad-4a72-b5ed-1fc4c26abf4f"/>
+        <COMPID name="WMLIElement" mc="Standard.Interface" uid="ca0f92b0-c268-4bd9-a45c-74f94292eb41"/>
+        <COMPID name="WMLImgElement" mc="Standard.Interface" uid="b005b174-7068-427f-bace-f92e86a6d2d8"/>
+        <COMPID name="WMLInputElement" mc="Standard.Interface" uid="a827a5e0-09f5-4033-9796-afb7eb16bc59"/>
+        <COMPID name="WMLMetaElement" mc="Standard.Interface" uid="fb313db4-4eca-43fc-b517-762f62efcf62"/>
+        <COMPID name="WMLNoopElement" mc="Standard.Interface" uid="40edb912-1932-4786-9815-8441070dd30f"/>
+        <COMPID name="WMLOneventElement" mc="Standard.Interface" uid="675eae98-7adc-4924-bd10-95cd94103445"/>
+        <COMPID name="WMLOptgroupElement" mc="Standard.Interface" uid="e6e1dbba-2c42-4827-8c3e-8f441fcd20b6"/>
+        <COMPID name="WMLOptionElement" mc="Standard.Interface" uid="9e4dabe7-bd22-42ef-b0e9-2b5330808693"/>
+        <COMPID name="WMLPElement" mc="Standard.Interface" uid="8cbe5210-4659-47c5-88fd-22f4504b7e68"/>
+        <COMPID name="WMLPostfieldElement" mc="Standard.Interface" uid="dd0f8ab2-8d7e-4f8a-a1d9-8e0579e37250"/>
+        <COMPID name="WMLPrevElement" mc="Standard.Interface" uid="b79d2908-dd1a-40cd-89e5-4e6a4edefbad"/>
+        <COMPID name="WMLRefreshElement" mc="Standard.Interface" uid="891da6a0-60db-484b-ad0d-dcaf8fcc961b"/>
+        <COMPID name="WMLSelectElement" mc="Standard.Interface" uid="9cc8e544-5f25-4d0b-88d4-2e556bb6954c"/>
+        <COMPID name="WMLSetvarElement" mc="Standard.Interface" uid="5c2ca549-796f-47b6-8c2c-42172f6ed841"/>
+        <COMPID name="WMLSmallElement" mc="Standard.Interface" uid="a9e7eaf2-7e1d-40f2-9da2-7a3a17b50728"/>
+        <COMPID name="WMLStrongElement" mc="Standard.Interface" uid="ec9f9558-5dc9-436d-82d9-4126c5850aeb"/>
+        <COMPID name="WMLTableElement" mc="Standard.Interface" uid="395900c3-f015-4799-9ea6-933cb1ad4464"/>
+        <COMPID name="WMLTdElement" mc="Standard.Interface" uid="b49c1d53-862b-45ae-959a-e55aaad388ac"/>
+        <COMPID name="WMLTemplateElement" mc="Standard.Interface" uid="d158bb31-e214-455e-ae4f-7bf30373b832"/>
+        <COMPID name="WMLTimerElement" mc="Standard.Interface" uid="988f1745-9d00-4028-a39f-06b94ef40c00"/>
+        <COMPID name="WMLTrElement" mc="Standard.Interface" uid="4c63183f-1fc7-46d0-922d-7344ec5143b7"/>
+        <COMPID name="WMLUElement" mc="Standard.Interface" uid="6c1f637b-d503-4836-aac3-89f19c16eec9"/>
+        <COMPID name="WMLWmlElement" mc="Standard.Interface" uid="4094d018-75b4-4aa1-8e83-96939ec7a0d2"/>
+        <COMPID name="dom" mc="Standard.Package" uid="340f723b-693e-4ec3-a290-31bc43f61c32"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

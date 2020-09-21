@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="table" version="4">
+  <OBJECT>
+    <ID name="table" mc="Standard.Package" uid="0d2a44d8-2e85-481d-9a53-eeb9b7cd3681"/>
+    <PID name="models" mc="Standard.Package" uid="1ab1ddcd-9635-4234-8d4e-52ae35bdc45d"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[table]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="TableColumnDescription" mc="Standard.Class" uid="bcd03462-7d1b-4d8f-b08e-5f3198049b8b"/>
+        <COMPID name="TableModelDescription" mc="Standard.Class" uid="0f7405bf-234e-409d-a013-3b0e39f675fb"/>
+        <COMPID name="TableModelDialog" mc="Standard.Class" uid="b5eb0bde-5890-4ba6-8701-bd08a8f6ccc5"/>
+        <COMPID name="TableModelEvaluator" mc="Standard.Class" uid="07e203d5-9636-4538-ae29-2182e850ceb8"/>
+        <COMPID name="TableModelPropertyEditor" mc="Standard.Class" uid="f47b7589-83af-4caf-9a8c-59f7d754f3cf"/>
+        <COMPID name="TitledComposite" mc="Standard.Class" uid="be42003b-f583-4e41-8bef-bfcb6ca7e892"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

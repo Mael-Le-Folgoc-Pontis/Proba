@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="comp" version="4">
+  <OBJECT>
+    <ID name="comp" mc="Standard.Package" uid="002e8484-0bd1-112e-9071-001e4fea2d8b"/>
+    <PID name="cheatsheet" mc="Standard.Package" uid="002d6c0c-0bd1-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[comp]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="CompCS" mc="Standard.Class" uid="002e8ab0-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CompCSDataObject" mc="Standard.Class" uid="002e90be-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CompCSDependency" mc="Standard.Class" uid="002e9726-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CompCSIntro" mc="Standard.Class" uid="002e9d7a-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CompCSModel" mc="Standard.Class" uid="002ea43c-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CompCSModelFactory" mc="Standard.Class" uid="002eab3a-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CompCSObject" mc="Standard.Class" uid="002eb22e-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CompCSOnCompletion" mc="Standard.Class" uid="002eb990-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CompCSParam" mc="Standard.Class" uid="002ec124-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CompCSTask" mc="Standard.Class" uid="002ec8b8-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CompCSTaskGroup" mc="Standard.Class" uid="002ed0b0-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CompCSTaskObject" mc="Standard.Class" uid="002ed93e-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CompCSWorkspaceModel" mc="Standard.Class" uid="002ee1e0-0bd1-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

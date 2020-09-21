@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="internal" version="4">
+  <OBJECT>
+    <ID name="internal" mc="Standard.Package" uid="0e967b30-b099-4831-b417-07bc82b085e5"/>
+    <PID name="common" mc="Standard.Package" uid="050af403-d060-44b3-9040-ae05350b9b98"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[internal]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="IActionBean" mc="Standard.Interface" uid="4bc01a89-ae37-4ef3-9678-d06f8d44e679"/>
+        <COMPID name="IActionObject" mc="Standard.Interface" uid="21483a7f-96a3-4516-afaf-c6900c41694d"/>
+        <COMPID name="IconResourceAccessor" mc="Standard.Interface" uid="0c68a079-93b4-426e-95ae-dfa238acb091"/>
+        <COMPID name="Messages" mc="Standard.Class" uid="274aa245-0a53-41b9-8306-6cb9b2f69d92"/>
+        <COMPID name="RenderingUtils" mc="Standard.Class" uid="999d4394-662b-4676-8c07-dc3c46734512"/>
+        <COMPID name="ResourceBundleAccessor" mc="Standard.Class" uid="3dfc71ec-1ae0-4f1d-a198-a732dff3fb6b"/>
+        <COMPID name="StringAndIconResourceAccessor" mc="Standard.Interface" uid="db7e5ecf-ba32-4f72-9354-726982ce9495"/>
+        <COMPID name="StringResourceAccess" mc="Standard.Class" uid="10d69ec0-f124-423c-8e3c-63ef47736859"/>
+        <COMPID name="StringResourceAccessor" mc="Standard.Interface" uid="60ab98c2-aa53-4315-844f-6024c503d1e0"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

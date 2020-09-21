@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="core" version="4">
+  <OBJECT>
+    <ID name="core" mc="Standard.Package" uid="e277ad09-dcdf-45b6-8109-d8cf5cbdfde9"/>
+    <PID name="internal" mc="Standard.Package" uid="d483a84b-d3a5-488f-9e57-cee3fc5ed5de"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[core]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractSetupTaskContext" mc="Standard.Class" uid="3f84f662-dcd4-46fe-898b-95cc241b3251"/>
+        <COMPID name="SetupContext" mc="Standard.Class" uid="5c4c597e-619c-47b4-8466-8dbceafb6fe7"/>
+        <COMPID name="SetupCorePlugin" mc="Standard.Class" uid="4a75e863-907d-4f1a-9777-51d6a558bff1"/>
+        <COMPID name="SetupTaskPerformer" mc="Standard.Class" uid="bfaa72b6-b270-4a4c-85d6-0d770b57d5b1"/>
+        <COMPID name="StringFilter" mc="Standard.Interface" uid="78d05ada-f42a-450a-8c8e-0fe2d5cad6dc"/>
+        <COMPID name="StringFilterRegistry" mc="Standard.Class" uid="f42cae13-d0a3-46ac-a5fe-378418d00412"/>
+        <COMPID name="util" mc="Standard.Package" uid="f25e06f8-0177-4c2b-8e23-890d44a33893"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

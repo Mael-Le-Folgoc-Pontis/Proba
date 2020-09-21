@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="text" version="4">
+  <OBJECT>
+    <ID name="text" mc="Standard.Package" uid="008caf14-0bd0-112e-9071-001e4fea2d8b"/>
+    <PID name="core" mc="Standard.Package" uid="0064dc0a-0bd0-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[text]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractEditingModel" mc="Standard.Class" uid="008cb658-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AbstractKeyValueTextChangeListener" mc="Standard.Class" uid="008cbc70-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AbstractTextChangeListener" mc="Standard.Class" uid="008cc2ec-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DocumentAttributeNode" mc="Standard.Class" uid="008cc968-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DocumentElementNode" mc="Standard.Class" uid="008cd016-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DocumentHandler" mc="Standard.Class" uid="008cd714-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DocumentNodeFactory" mc="Standard.Class" uid="008cde8a-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DocumentObject" mc="Standard.Class" uid="008ce5c4-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DocumentTextNode" mc="Standard.Class" uid="008ced4e-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DocumentXMLNode" mc="Standard.Class" uid="008cf51e-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IDocumentAttributeNode" mc="Standard.Interface" uid="008cfb04-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IDocumentElementNode" mc="Standard.Interface" uid="008d0220-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IDocumentKey" mc="Standard.Interface" uid="008d0900-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IDocumentNodeFactory" mc="Standard.Interface" uid="008d0fd6-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IDocumentObject" mc="Standard.Interface" uid="008d176a-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IDocumentRange" mc="Standard.Interface" uid="008d1f1c-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IDocumentTextNode" mc="Standard.Interface" uid="008d2674-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IDocumentXMLNode" mc="Standard.Interface" uid="008d2e44-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IEditingModel" mc="Standard.Interface" uid="008d363c-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IModelTextChangeListener" mc="Standard.Interface" uid="008d3e2a-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IReconcilingParticipant" mc="Standard.Interface" uid="008d4690-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="NodeDocumentHandler" mc="Standard.Class" uid="008d4f00-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="XMLEditingModel" mc="Standard.Class" uid="008d5752-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="build" mc="Standard.Package" uid="008f03f4-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="bundle" mc="Standard.Package" uid="0090e250-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="plugin" mc="Standard.Package" uid="00945f0c-0bd0-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

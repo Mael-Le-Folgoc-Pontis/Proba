@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="filter" version="4">
+  <OBJECT>
+    <ID name="filter" mc="Standard.Package" uid="e3847dc4-562e-4e18-a159-5560dc828a99"/>
+    <PID name="core" mc="Standard.Package" uid="0101cad1-4db3-4b5d-b30b-1e1efbf9bd6c"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[filter]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractMatcherFilter" mc="Standard.Class" uid="5840e2b8-9bfd-4220-8f1a-744b65380eac"/>
+        <COMPID name="EvaluatorFilter" mc="Standard.Class" uid="030d3e5b-4ebc-455c-bd8b-df57ccf9ca3f"/>
+        <COMPID name="Filter" mc="Standard.Class" uid="5b460059-108b-4f69-9691-0eecbc3126dc"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

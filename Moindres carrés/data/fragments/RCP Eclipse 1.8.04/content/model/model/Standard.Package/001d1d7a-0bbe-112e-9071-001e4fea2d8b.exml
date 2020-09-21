@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="fst" version="4">
+  <OBJECT>
+    <ID name="fst" mc="Standard.Package" uid="001d1d7a-0bbe-112e-9071-001e4fea2d8b"/>
+    <PID name="util" mc="Standard.Package" uid="00177564-0bbe-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[fst]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Builder" mc="Standard.Class" uid="001d25ae-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ByteSequenceOutputs" mc="Standard.Class" uid="001d6456-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BytesRefFSTEnum" mc="Standard.Class" uid="001d6bfe-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FST" mc="Standard.Class" uid="001d8292-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IntSequenceOutputs" mc="Standard.Class" uid="001db866-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IntsRefFSTEnum" mc="Standard.Class" uid="001dc0e0-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="NoOutputs" mc="Standard.Class" uid="001dd8e6-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Outputs" mc="Standard.Class" uid="001deaf2-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PairOutputs" mc="Standard.Class" uid="001df402-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PositiveIntOutputs" mc="Standard.Class" uid="001e0c8a-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="UpToTwoPositiveIntOutputs" mc="Standard.Class" uid="001e1658-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Util" mc="Standard.Class" uid="001e2eea-0bbe-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

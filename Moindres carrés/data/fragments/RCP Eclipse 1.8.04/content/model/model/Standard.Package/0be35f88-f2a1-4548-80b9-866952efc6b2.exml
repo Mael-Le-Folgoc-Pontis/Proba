@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ui" version="4">
+  <OBJECT>
+    <ID name="ui" mc="Standard.Package" uid="0be35f88-f2a1-4548-80b9-866952efc6b2"/>
+    <PID name="utils" mc="Standard.Package" uid="62abe31d-37c4-49eb-9781-3beef5e17715"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[ui]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractBindingComposite" mc="Standard.Class" uid="d8151e8b-7c5e-4fa6-bedf-71e86f81628c"/>
+        <COMPID name="CTabFactory" mc="Standard.Class" uid="9ad34dfb-c306-4ae4-b060-18a931cec67e"/>
+        <COMPID name="DrawUtils" mc="Standard.Class" uid="6eaffc2e-cb59-4f6f-ad31-1ed6c72790cd"/>
+        <COMPID name="EmptyTransfer" mc="Standard.Class" uid="4d6e1aa9-443a-4bb5-920d-0b8b27c09584"/>
+        <COMPID name="GridDataFactory" mc="Standard.Class" uid="b4faad05-6492-416b-88c1-1e134404831c"/>
+        <COMPID name="GridLayoutFactory" mc="Standard.Class" uid="504d13d2-9d96-4bf8-bc49-a736c8a0cb9d"/>
+        <COMPID name="IActionSingleton" mc="Standard.Interface" uid="b731c9a8-cd0d-4bed-8619-61a0b2e547a7"/>
+        <COMPID name="IWorkbenchThemeConstants" mc="Standard.Interface" uid="6a18a3e4-292d-4cf3-9fa4-ec742022783a"/>
+        <COMPID name="ImageDisposer" mc="Standard.Class" uid="daab75eb-c0a1-428c-8211-04fba6cc344d"/>
+        <COMPID name="ImageImageDescriptor" mc="Standard.Class" uid="a9a846e6-5229-4433-b9b4-ea4a49996ed5"/>
+        <COMPID name="ImageUtils" mc="Standard.Class" uid="f9f5e195-a7f8-41e0-b6ec-b35d8d31ad2b"/>
+        <COMPID name="MenuIntersector" mc="Standard.Class" uid="4530e171-c29d-49af-ab6a-f88e88aea9e3"/>
+        <COMPID name="MenuManagerEx" mc="Standard.Class" uid="2e9524c0-91b1-4bc6-bea7-68ee624f6e4e"/>
+        <COMPID name="PixelConverter" mc="Standard.Class" uid="558b2927-35ad-416a-98d3-22cbf91fa7d2"/>
+        <COMPID name="SwtResourceManager" mc="Standard.Class" uid="59e63f2b-717d-41b4-a9ec-5685eeb911ef"/>
+        <COMPID name="TabFactory" mc="Standard.Class" uid="64392400-0875-482d-a215-77bf9f67fe8e"/>
+        <COMPID name="TabFolderDecorator" mc="Standard.Class" uid="45b72a89-3017-4202-a37c-4c18d7f89305"/>
+        <COMPID name="TableColumnFactory" mc="Standard.Class" uid="097d2429-e3b6-4f1a-9bd5-34e8e6230a91"/>
+        <COMPID name="TableFactory" mc="Standard.Class" uid="18a1d700-145c-4f36-a638-5fadad87b284"/>
+        <COMPID name="UiUtils" mc="Standard.Class" uid="1cf6d779-3578-4dcb-8c6c-77f4b67b4494"/>
+        <COMPID name="dialogs" mc="Standard.Package" uid="9afc2c6a-3952-4142-a4d1-560c1f19eac0"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

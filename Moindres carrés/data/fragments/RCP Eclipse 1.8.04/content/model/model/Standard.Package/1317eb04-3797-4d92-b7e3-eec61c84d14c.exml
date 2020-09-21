@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="exception" version="4">
+  <OBJECT>
+    <ID name="exception" mc="Standard.Package" uid="1317eb04-3797-4d92-b7e3-eec61c84d14c"/>
+    <PID name="maven" mc="Standard.Package" uid="173ccbb1-ee67-4028-9140-8289e1158a15"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[exception]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="DefaultExceptionHandler" mc="Standard.Class" uid="2964d6d5-52d2-43e6-ba6d-09adccb6d4bb"/>
+        <COMPID name="ExceptionHandler" mc="Standard.Interface" uid="053e8488-57d3-4657-91b4-03fa7fa721e6"/>
+        <COMPID name="ExceptionSummary" mc="Standard.Class" uid="182da83c-5f7b-4f98-ac11-2fbbfb7e20cf"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

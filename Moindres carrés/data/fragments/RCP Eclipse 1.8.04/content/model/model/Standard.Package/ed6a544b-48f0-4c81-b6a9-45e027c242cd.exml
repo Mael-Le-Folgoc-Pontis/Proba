@@ -1,0 +1,58 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="log4j" version="4">
+  <OBJECT>
+    <ID name="log4j" mc="Standard.Package" uid="ed6a544b-48f0-4c81-b6a9-45e027c242cd"/>
+    <PID name="apache" mc="Standard.Package" uid="00858518-21b0-1fb1-8a9e-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[log4j]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Appender" mc="Standard.Interface" uid="b0860044-8024-4570-b83d-be67e3418872"/>
+        <COMPID name="AppenderSkeleton" mc="Standard.Class" uid="ec46ee45-6cca-4a42-b3d8-9235ed932ce8"/>
+        <COMPID name="AsyncAppender" mc="Standard.Class" uid="32d1a922-d69f-4df5-b923-e56ad5895cd2"/>
+        <COMPID name="BasicConfigurator" mc="Standard.Class" uid="ccc71c41-9d55-44ca-93fc-99057abc92ef"/>
+        <COMPID name="Category" mc="Standard.Class" uid="7492c964-b828-4de9-99b5-b49bbbae296d"/>
+        <COMPID name="ConsoleAppender" mc="Standard.Class" uid="975f225d-58bf-4637-a262-36562869e49a"/>
+        <COMPID name="DailyRollingFileAppender" mc="Standard.Class" uid="de38bd32-f9ac-488a-a204-275e7a7c3f58"/>
+        <COMPID name="FileAppender" mc="Standard.Class" uid="af214a66-40f8-441c-8425-292d51a42100"/>
+        <COMPID name="HTMLLayout" mc="Standard.Class" uid="4eeddd4e-ab4d-46b6-9790-075b3b286610"/>
+        <COMPID name="Hierarchy" mc="Standard.Class" uid="302e0daf-6b6a-4bbe-bf45-ea93cd27690c"/>
+        <COMPID name="Layout" mc="Standard.Class" uid="587a5eca-5629-4269-9032-b7e8679ebfa9"/>
+        <COMPID name="Level" mc="Standard.Class" uid="bb5e0e19-7a2d-4951-b703-3099899ad07c"/>
+        <COMPID name="LogManager" mc="Standard.Class" uid="75d2f5c2-18b9-4208-989c-9dc46cf4b06f"/>
+        <COMPID name="Logger" mc="Standard.Class" uid="bc923bab-7ade-4c7c-878f-78d0407ef132"/>
+        <COMPID name="MDC" mc="Standard.Class" uid="5a67c4c9-d684-4802-af67-371bc13d27b7"/>
+        <COMPID name="NDC" mc="Standard.Class" uid="13e60176-ec41-4da9-9666-53988c6aacea"/>
+        <COMPID name="PatternLayout" mc="Standard.Class" uid="86c78787-acc2-4a4b-84f0-d67433096581"/>
+        <COMPID name="Priority" mc="Standard.Class" uid="59cd0e14-94ee-4435-9ddc-dc3c76944863"/>
+        <COMPID name="PropertyConfigurator" mc="Standard.Class" uid="b2a1e237-29dd-484f-a3dd-a74248266a51"/>
+        <COMPID name="RollingFileAppender" mc="Standard.Class" uid="1d98c08b-bd64-48bd-908b-3eaa88c898c1"/>
+        <COMPID name="SimpleLayout" mc="Standard.Class" uid="dae86edc-3cc0-4fdc-9862-ce993c1aa7a3"/>
+        <COMPID name="TTCCLayout" mc="Standard.Class" uid="bdc395d3-99c5-4008-bd58-a5a81f3d5c48"/>
+        <COMPID name="WriterAppender" mc="Standard.Class" uid="a49bd905-3e09-4421-a479-a9ec570ca278"/>
+        <COMPID name="chainsaw" mc="Standard.Package" uid="1d6c8713-ad31-43b8-9363-4c9db73681e8"/>
+        <COMPID name="config" mc="Standard.Package" uid="e5068a01-22fe-4623-b8b8-4ef1e7d312e5"/>
+        <COMPID name="helpers" mc="Standard.Package" uid="5b448a97-ae6d-4364-8adb-7988fdd5ae5c"/>
+        <COMPID name="jdbc" mc="Standard.Package" uid="006afd7f-4d3b-4a7b-9856-b190975a8675"/>
+        <COMPID name="jmx" mc="Standard.Package" uid="3b93e72e-35bb-45a5-8518-5e18ae4dadec"/>
+        <COMPID name="lf5" mc="Standard.Package" uid="43f7e13b-da76-4673-b215-29925520dbb9"/>
+        <COMPID name="net" mc="Standard.Package" uid="a4c5368f-2f7f-4cdd-a901-f02f90eecf52"/>
+        <COMPID name="nt" mc="Standard.Package" uid="aa70f1b6-4a36-49a2-af7c-2d47ebc4ffe9"/>
+        <COMPID name="or" mc="Standard.Package" uid="49f1befe-9d28-41b0-b363-31a417ced4ca"/>
+        <COMPID name="spi" mc="Standard.Package" uid="958f5996-1aba-4150-94d6-c108c5f1b6a4"/>
+        <COMPID name="varia" mc="Standard.Package" uid="2e3ec73c-22cc-4ddc-b707-341fdc41b92e"/>
+        <COMPID name="xml" mc="Standard.Package" uid="00dec68c-1202-4dd4-bf1c-9e82bc1e876e"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

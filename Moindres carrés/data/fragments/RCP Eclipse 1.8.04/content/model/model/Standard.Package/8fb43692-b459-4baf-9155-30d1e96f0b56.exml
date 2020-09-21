@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="specs" version="4">
+  <OBJECT>
+    <ID name="specs" mc="Standard.Package" uid="8fb43692-b459-4baf-9155-30d1e96f0b56"/>
+    <PID name="api" mc="Standard.Package" uid="e982dc26-8498-4432-83e7-291b435ca4a0"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[specs]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AndSpec" mc="Standard.Class" uid="6232ef4a-03fc-481f-ba75-82c910d97ee0"/>
+        <COMPID name="CompositeSpec" mc="Standard.Class" uid="fba3b5c2-16b1-4366-be44-dbb3291ecc96"/>
+        <COMPID name="NotSpec" mc="Standard.Class" uid="d86e7f74-53fd-4e01-bb32-c9bf4ac90606"/>
+        <COMPID name="OrSpec" mc="Standard.Class" uid="33c48059-17ec-425b-8c24-d01a84078feb"/>
+        <COMPID name="Spec" mc="Standard.Interface" uid="1040b5f0-e182-4e64-a924-9ac85599a1a7"/>
+        <COMPID name="Specs" mc="Standard.Class" uid="96015922-cb8d-4e47-a1e8-306718384da8"/>
+        <COMPID name="internal" mc="Standard.Package" uid="c276f982-1918-4f0a-b58d-d98acdbe008a"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="core" version="4">
+  <OBJECT>
+    <ID name="core" mc="Standard.Package" uid="4a0dfcb0-8b51-4a28-b8e6-37024b216995"/>
+    <PID name="identity" mc="Standard.Package" uid="a1f4d513-42d8-4e42-b3c2-93013cc0abe0"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[core]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Identity" mc="Standard.Class" uid="315fc002-510f-478d-80f4-ca05c1df0260"/>
+        <COMPID name="IdentityModel" mc="Standard.Class" uid="b08f2ed2-6892-478c-b702-bc8c845bf78b"/>
+        <COMPID name="IdentityService" mc="Standard.Class" uid="3f80e888-5a17-4547-aa4f-29815934a1ff"/>
+        <COMPID name="Messages" mc="Standard.Class" uid="cc24dc67-9842-4ec9-90e5-473072b0a483"/>
+        <COMPID name="gravatar" mc="Standard.Package" uid="0a6e903e-90f0-4c68-aa6a-46fbaffea331"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

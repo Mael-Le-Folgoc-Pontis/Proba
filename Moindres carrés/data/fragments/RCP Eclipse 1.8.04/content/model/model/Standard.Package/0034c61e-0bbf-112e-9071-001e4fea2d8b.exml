@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="core" version="4">
+  <OBJECT>
+    <ID name="core" mc="Standard.Package" uid="0034c61e-0bbf-112e-9071-001e4fea2d8b"/>
+    <PID name="internal" mc="Standard.Package" uid="002f65de-0bbf-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[core]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ComparePlugin" mc="Standard.Class" uid="0034ccc2-0bbf-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LCS" mc="Standard.Class" uid="0034d438-0bbf-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Messages" mc="Standard.Class" uid="0034db86-0bbf-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TextLineLCS" mc="Standard.Class" uid="0034e342-0bbf-112e-9071-001e4fea2d8b"/>
+        <COMPID name="patch" mc="Standard.Package" uid="0035aa2a-0bbf-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

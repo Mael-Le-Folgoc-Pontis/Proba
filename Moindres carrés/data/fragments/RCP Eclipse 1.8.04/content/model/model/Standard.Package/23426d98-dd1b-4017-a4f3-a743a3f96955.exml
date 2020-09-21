@@ -1,0 +1,63 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="rebase" version="4">
+  <OBJECT>
+    <ID name="rebase" mc="Standard.Package" uid="23426d98-dd1b-4017-a4f3-a743a3f96955"/>
+    <PID name="internal" mc="Standard.Package" uid="1ad693c0-6f4f-4036-b8b3-856fc090e359"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[rebase]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="CommitMessageEditorDialog" mc="Standard.Class" uid="2e04b0bb-12f3-47d8-960b-47be98bab7c2"/>
+        <OBJECT>
+          <ID name="RebaseInteractiveHandler" mc="Standard.Enumeration" uid="95e3c530-60f1-4809-8234-dccde5f6cf32"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[RebaseInteractiveHandler]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Extension">
+              <FOREIGNID name="JavaEnumeration" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0262-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="RebaseInteractivePlanContentProvider" mc="Standard.Enumeration" uid="5ac21c76-6e1b-4559-babe-f48d62d15a06"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[RebaseInteractivePlanContentProvider]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Extension">
+              <FOREIGNID name="JavaEnumeration" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0262-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <COMPID name="RebaseInteractivePreferences" mc="Standard.Class" uid="70afe28a-cf0b-4dc6-9d14-8ccd96fe27fe"/>
+        <COMPID name="RebaseInteractiveStepActionToolBarProvider" mc="Standard.Class" uid="d6f408f5-c818-4537-bb8c-68f8339e03bc"/>
+        <COMPID name="RebaseInteractiveView" mc="Standard.Class" uid="9b2d28bb-3906-42bb-9452-cac3bfd54214"/>
+        <COMPID name="RebasePlanIndexer" mc="Standard.Class" uid="b871ebcd-9732-48ef-9ae7-31234e45902c"/>
+        <COMPID name="RebaseResultDialog" mc="Standard.Class" uid="3f8a65b9-1c5d-47a3-8a39-09554c3cce84"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

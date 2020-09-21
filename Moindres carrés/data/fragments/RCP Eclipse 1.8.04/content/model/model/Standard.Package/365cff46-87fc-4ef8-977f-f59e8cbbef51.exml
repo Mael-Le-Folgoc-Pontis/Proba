@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="rcp" version="4">
+  <OBJECT>
+    <ID name="rcp" mc="Standard.Package" uid="365cff46-87fc-4ef8-977f-f59e8cbbef51"/>
+    <PID name="recommenders" mc="Standard.Package" uid="a358c5e1-e2a3-468b-a21c-b2bca96b0f24"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[rcp]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="IAstProvider" mc="Standard.Interface" uid="a763aabd-d270-4215-b479-7c854a450d1d"/>
+        <COMPID name="IRcpService" mc="Standard.Interface" uid="2e296193-dae4-469f-847c-e0c644fcb4f5"/>
+        <COMPID name="JavaElementResolver" mc="Standard.Class" uid="35eb344c-e130-46a8-a5e5-e4c9aaa84daa"/>
+        <COMPID name="JavaElementSelectionEvent" mc="Standard.Class" uid="cd0a0ed8-6657-4d99-ba26-599e40c6d0ad"/>
+        <COMPID name="JavaModelEvents" mc="Standard.Class" uid="962c147b-5583-4edf-b0a8-cf46baaa1be6"/>
+        <COMPID name="SharedImages" mc="Standard.Class" uid="882ee063-f66e-467a-825b-8271f9f635ae"/>
+        <COMPID name="utils" mc="Standard.Package" uid="e4dc0940-dfa8-4ada-befc-f4905a7deb0e"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

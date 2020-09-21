@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="text" version="4">
+  <OBJECT>
+    <ID name="text" mc="Standard.Package" uid="0bb33e58-1642-4c52-8462-7e8bd80dd9f8"/>
+    <PID name="lang" mc="Standard.Package" uid="155eaaf0-9175-4065-b6fb-2dab46a99062"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[text]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="StrBuilder" mc="Standard.Class" uid="91adb00b-e5bf-445b-b54a-aabcef0d8a2e"/>
+        <COMPID name="StrMatcher" mc="Standard.Class" uid="4eb50730-3c92-42b8-bfca-f168fa0c7a46"/>
+        <COMPID name="StrTokenizer" mc="Standard.Class" uid="54715b44-455e-41a5-a708-a77bce6fe4ba"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="dynamic" version="4">
+  <OBJECT>
+    <ID name="dynamic" mc="Standard.Package" uid="006d32f6-21a2-1fb1-8a9e-001e4fea2d8b"/>
+    <PID name="internal" mc="Standard.Package" uid="00538bbc-21a2-1fb1-8a9e-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[dynamic]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="DocumentProcessor" mc="Standard.Class" uid="006f4dca-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="DocumentReader" mc="Standard.Class" uid="006e407e-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="DocumentWriter" mc="Standard.Class" uid="006fac0c-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ExtensionHandler" mc="Standard.Class" uid="00714d14-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ExtensionResolver" mc="Standard.Class" uid="00708c62-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="FilterHandler" mc="Standard.Class" uid="0071adae-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="FilterResolver" mc="Standard.Class" uid="00700a1c-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="IncludeHandler" mc="Standard.Class" uid="006dacb8-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="IncludeResolver" mc="Standard.Class" uid="0072135c-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ProcessorHandler" mc="Standard.Class" uid="0070ee0a-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ValidationHandler" mc="Standard.Class" uid="006ebb9e-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="XMLProcessor" mc="Standard.Class" uid="006d50c4-21a2-1fb1-8a9e-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

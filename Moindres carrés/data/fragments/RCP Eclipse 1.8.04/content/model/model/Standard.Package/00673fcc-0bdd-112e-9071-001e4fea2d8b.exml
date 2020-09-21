@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="request" version="4">
+  <OBJECT>
+    <ID name="request" mc="Standard.Package" uid="00673fcc-0bdd-112e-9071-001e4fea2d8b"/>
+    <PID name="jdi" mc="Standard.Package" uid="00603a92-0bdd-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[request]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AccessWatchpointRequest" mc="Standard.Interface" uid="00674a44-0bdd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BreakpointRequest" mc="Standard.Interface" uid="006751a6-0bdd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ClassPrepareRequest" mc="Standard.Interface" uid="00675890-0bdd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ClassUnloadRequest" mc="Standard.Interface" uid="00675fa2-0bdd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DuplicateRequestException" mc="Standard.Class" uid="006765d8-0bdd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="EventRequest" mc="Standard.Interface" uid="00676d30-0bdd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="EventRequestManager" mc="Standard.Interface" uid="006774b0-0bdd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ExceptionRequest" mc="Standard.Interface" uid="00677df2-0bdd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="InvalidRequestStateException" mc="Standard.Class" uid="0067848c-0bdd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MethodEntryRequest" mc="Standard.Interface" uid="00678c3e-0bdd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MethodExitRequest" mc="Standard.Interface" uid="00679404-0bdd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ModificationWatchpointRequest" mc="Standard.Interface" uid="00679c4c-0bdd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MonitorContendedEnterRequest" mc="Standard.Interface" uid="0067a674-0bdd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MonitorContendedEnteredRequest" mc="Standard.Interface" uid="0067af0c-0bdd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MonitorWaitRequest" mc="Standard.Interface" uid="0067b790-0bdd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MonitorWaitedRequest" mc="Standard.Interface" uid="0067c078-0bdd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="StepRequest" mc="Standard.Interface" uid="0067c9c4-0bdd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ThreadDeathRequest" mc="Standard.Interface" uid="0067d2d4-0bdd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ThreadStartRequest" mc="Standard.Interface" uid="0067dc3e-0bdd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="VMDeathRequest" mc="Standard.Interface" uid="0067e5f8-0bdd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WatchpointRequest" mc="Standard.Interface" uid="0067ef80-0bdd-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

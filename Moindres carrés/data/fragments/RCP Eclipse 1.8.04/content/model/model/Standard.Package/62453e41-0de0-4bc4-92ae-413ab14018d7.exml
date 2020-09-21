@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="actions" version="4">
+  <OBJECT>
+    <ID name="actions" mc="Standard.Package" uid="62453e41-0de0-4bc4-92ae-413ab14018d7"/>
+    <PID name="style" mc="Standard.Package" uid="76e062c1-4677-41cb-92e8-0dd36d9a9ad2"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[actions]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="BooleanStyleAction" mc="Standard.Class" uid="de2b51a9-9c51-4578-9056-cb634d04fb98"/>
+        <COMPID name="RadioStyleAction" mc="Standard.Class" uid="7bf6a944-b134-4c76-bace-2c2ec770a975"/>
+        <COMPID name="SubStyleAction" mc="Standard.Class" uid="f9b43344-00aa-49c9-8a5c-fed34f577ce8"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

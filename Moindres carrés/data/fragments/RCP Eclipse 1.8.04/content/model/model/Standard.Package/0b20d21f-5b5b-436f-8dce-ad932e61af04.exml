@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="component" version="4">
+  <OBJECT>
+    <ID name="component" mc="Standard.Package" uid="0b20d21f-5b5b-436f-8dce-ad932e61af04"/>
+    <PID name="api" mc="Standard.Package" uid="e982dc26-8498-4432-83e7-291b435ca4a0"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[component]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Artifact" mc="Standard.Interface" uid="8bd9d28e-4220-4c11-821f-37e887b98ed2"/>
+        <COMPID name="Component" mc="Standard.Interface" uid="369f51bb-ca2e-4b6d-9b5e-a19c915946e7"/>
+        <COMPID name="SoftwareComponent" mc="Standard.Interface" uid="99718b41-a07a-417c-895c-cfac6ada42fb"/>
+        <COMPID name="SoftwareComponentContainer" mc="Standard.Interface" uid="6f1a00c7-4704-4352-b79f-8e2425989f4c"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

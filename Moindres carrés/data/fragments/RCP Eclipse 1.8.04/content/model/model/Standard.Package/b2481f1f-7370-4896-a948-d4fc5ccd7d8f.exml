@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="provider" version="4">
+  <OBJECT>
+    <ID name="provider" mc="Standard.Package" uid="b2481f1f-7370-4896-a948-d4fc5ccd7d8f"/>
+    <PID name="base" mc="Standard.Package" uid="0ed29409-a097-4235-9eb7-4bb607f2cd3a"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[provider]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AnnotationItemProvider" mc="Standard.Class" uid="b0144fda-45ce-4798-ba22-5551a9ba4f3e"/>
+        <COMPID name="BaseEditPlugin" mc="Standard.Class" uid="c0154ebe-9497-4329-9cd5-4df0d5c33abc"/>
+        <COMPID name="BaseEditUtil" mc="Standard.Class" uid="e89e67c6-d638-4f8a-aad6-7d9b2f7565bd"/>
+        <COMPID name="BaseItemProviderAdapterFactory" mc="Standard.Class" uid="78ed6e52-a214-4db6-82d7-4686c06c4d4c"/>
+        <COMPID name="DataItemProvider" mc="Standard.Class" uid="fea3a9a5-390e-4131-97aa-2b1283c42404"/>
+        <COMPID name="ModelElementItemProvider" mc="Standard.Class" uid="d5db591a-af4e-4432-8f57-7052670d26f6"/>
+        <COMPID name="StringToStringMapEntryItemProvider" mc="Standard.Class" uid="8810e4b7-39b4-429a-b611-04c5e1eabffe"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="predicate" version="4">
+  <OBJECT>
+    <ID name="predicate" mc="Standard.Package" uid="d19c16f8-790f-43d8-b3fb-e34a6d3d5ae5"/>
+    <PID name="util" mc="Standard.Package" uid="acb35c6a-7f86-40a5-a987-53b18790ce47"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[predicate]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AlwaysPredicate" mc="Standard.Class" uid="8fb747ce-ed1a-4df6-bf41-a29726651385"/>
+        <COMPID name="ComponentSubclassPredicate" mc="Standard.Class" uid="c112fa76-d5f6-453d-8790-b10466a94421"/>
+        <COMPID name="ExpressionPredicate" mc="Standard.Class" uid="0456c34f-84e2-4f0c-94f9-e7749180c671"/>
+        <COMPID name="SubclassPredicate" mc="Standard.Class" uid="c6f078b6-709e-46f6-9db8-7546a7c76a5c"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

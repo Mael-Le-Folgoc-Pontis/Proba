@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="spi" version="4">
+  <OBJECT>
+    <ID name="spi" mc="Standard.Package" uid="a2c842ff-d311-4af3-903f-b8ef7f1c4d49"/>
+    <PID name="ui" mc="Standard.Package" uid="17eed99e-8492-49bd-bb4c-5779f9f1636b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[spi]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="BuildConnectorUi" mc="Standard.Class" uid="d816e278-7e0c-424e-ae0c-86d15c5fcf21"/>
+        <COMPID name="BuildServerPart" mc="Standard.Class" uid="a4e69785-4d4b-437b-87b9-b86d6359598b"/>
+        <COMPID name="BuildServerWizard" mc="Standard.Class" uid="75aa9bbf-910e-46a8-a2e6-0f43a707f41c"/>
+        <COMPID name="BuildServerWizardPage" mc="Standard.Class" uid="8f56b4f6-42c9-407f-92b1-e1207e7f65b4"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

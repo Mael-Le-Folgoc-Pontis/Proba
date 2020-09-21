@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="editor" version="4">
+  <OBJECT>
+    <ID name="editor" mc="Standard.Package" uid="58fbe25c-945f-4154-9bea-e4aa2a040d31"/>
+    <PID name="css" mc="Standard.Package" uid="0c8b2480-b445-4ee0-80ba-d8ad35768d6b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[editor]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="CssBlockScanner" mc="Standard.Class" uid="e40b605d-d26f-4a45-b0f5-a210faf87d92"/>
+        <COMPID name="CssConfiguration" mc="Standard.Class" uid="bfc18e99-2642-4678-8010-ea7374f0d26f"/>
+        <COMPID name="CssPartitioner" mc="Standard.Class" uid="01e6ecd6-f2c8-43b5-9b1b-f6595be83afa"/>
+        <COMPID name="CssScanner" mc="Standard.Class" uid="04129848-b9eb-4a39-9858-5f92a9c63af7"/>
+        <COMPID name="CssWhitespaceDetector" mc="Standard.Class" uid="486636c8-0140-47aa-852c-067063317035"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

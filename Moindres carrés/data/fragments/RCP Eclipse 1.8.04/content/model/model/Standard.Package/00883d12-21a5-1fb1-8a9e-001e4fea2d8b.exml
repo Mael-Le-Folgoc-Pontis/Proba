@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="sac" version="4">
+  <OBJECT>
+    <ID name="sac" mc="Standard.Package" uid="00883d12-21a5-1fb1-8a9e-001e4fea2d8b"/>
+    <PID name="impl" mc="Standard.Package" uid="006b8000-21a5-1fb1-8a9e-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[sac]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractAttributeCondition" mc="Standard.Class" uid="0091dbc4-21a5-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="AbstractCombinatorCondition" mc="Standard.Class" uid="008f56e2-21a5-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="AbstractDescendantSelector" mc="Standard.Class" uid="008ff4c6-21a5-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="AbstractElementSelector" mc="Standard.Class" uid="008cf956-21a5-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="AbstractSiblingSelector" mc="Standard.Class" uid="009277f0-21a5-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="CSSAndConditionImpl" mc="Standard.Class" uid="00893a64-21a5-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="CSSAttributeConditionImpl" mc="Standard.Class" uid="008c037a-21a5-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="CSSBeginHyphenAttributeConditionImpl" mc="Standard.Class" uid="00909318-21a5-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="CSSChildSelectorImpl" mc="Standard.Class" uid="0090c586-21a5-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="CSSClassConditionImpl" mc="Standard.Class" uid="008ef3dc-21a5-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="CSSConditionFactoryImpl" mc="Standard.Class" uid="00912bb6-21a5-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="CSSConditionalSelectorImpl" mc="Standard.Class" uid="008dbd1e-21a5-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="CSSDescendantSelectorImpl" mc="Standard.Class" uid="009349c8-21a5-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="CSSDirectAdjacentSelectorImpl" mc="Standard.Class" uid="008b6afa-21a5-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="CSSDocumentHandlerImpl" mc="Standard.Class" uid="009582a6-21a5-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="CSSElementSelectorImpl" mc="Standard.Class" uid="008b0894-21a5-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="CSSIdConditionImpl" mc="Standard.Class" uid="008c63f6-21a5-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="CSSLangConditionImpl" mc="Standard.Class" uid="0089d604-21a5-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="CSSOneOfAttributeConditionImpl" mc="Standard.Class" uid="008d8e52-21a5-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="CSSPseudoClassConditionImpl" mc="Standard.Class" uid="008e58b4-21a5-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="CSSPseudoElementSelectorImpl" mc="Standard.Class" uid="009316d8-21a5-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="CSSSelectorFactoryImpl" mc="Standard.Class" uid="00886364-21a5-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="DocumentHandlerFactoryImpl" mc="Standard.Class" uid="0093b214-21a5-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ExtendedCondition" mc="Standard.Interface" uid="0094499a-21a5-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ExtendedSelector" mc="Standard.Interface" uid="008a701e-21a5-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="SACParserFactoryImpl" mc="Standard.Class" uid="0094e4cc-21a5-1fb1-8a9e-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

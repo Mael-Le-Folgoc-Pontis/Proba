@@ -1,0 +1,69 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="engine" version="4">
+  <OBJECT>
+    <ID name="engine" mc="Standard.Package" uid="004109b0-d4f3-111c-bc9b-001e4fea2d8b"/>
+    <PID name="p2" mc="Standard.Package" uid="00381d32-d4f2-111c-bc9b-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[engine]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ActionManager" mc="Standard.Class" uid="00475072-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="AssignVariableAction" mc="Standard.Class" uid="0084851e-0bc4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BeginOperationEvent" mc="Standard.Class" uid="0046bf2c-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="CollectEvent" mc="Standard.Class" uid="0045a966-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="CommitOperationEvent" mc="Standard.Class" uid="004633c2-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="DebugHelper" mc="Standard.Class" uid="0047a36a-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="DownloadManager" mc="Standard.Class" uid="0047bd3c-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="Engine" mc="Standard.Class" uid="004164dc-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="EngineActivator" mc="Standard.Class" uid="00446650-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="EngineComponent" mc="Standard.Class" uid="00466108-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="EngineSession" mc="Standard.Class" uid="00448cfc-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="ISurrogateProfileHandler" mc="Standard.Interface" uid="00457aa4-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="InstallableUnitEvent" mc="Standard.Class" uid="0046781e-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="InstallableUnitOperand" mc="Standard.Class" uid="00412d28-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="InstallableUnitPhase" mc="Standard.Class" uid="00464a42-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="InstallableUnitPropertyOperand" mc="Standard.Class" uid="0046d782-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="InstructionParser" mc="Standard.Class" uid="00411428-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="Messages" mc="Standard.Class" uid="004568de-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="MissingAction" mc="Standard.Class" uid="00468f48-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="MissingActionsException" mc="Standard.Class" uid="00415276-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="Operand" mc="Standard.Class" uid="0045bf3c-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="ParameterizedProvisioningAction" mc="Standard.Class" uid="00447956-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="Phase" mc="Standard.Class" uid="0047695e-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="PhaseEvent" mc="Standard.Class" uid="00459408-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="PhaseSet" mc="Standard.Class" uid="0046ef92-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="Profile" mc="Standard.Class" uid="004782ea-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="ProfileEvent" mc="Standard.Class" uid="00445354-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="ProfileLock" mc="Standard.Class" uid="0046a7a8-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="ProfileMetadataRepository" mc="Standard.Class" uid="0047d7b8-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="ProfileMetadataRepositoryFactory" mc="Standard.Class" uid="00473786-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="ProfileParser" mc="Standard.Class" uid="004707de-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="ProfilePreferences" mc="Standard.Class" uid="0044ea58-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="ProfileRegistryComponent" mc="Standard.Class" uid="00461d60-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="ProfileWriter" mc="Standard.Class" uid="00444058-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="ProfileXMLConstants" mc="Standard.Interface" uid="0044adea-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="PropertyOperand" mc="Standard.Class" uid="0045060a-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="ProvisioningPlan" mc="Standard.Class" uid="00451abe-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="RollbackOperationEvent" mc="Standard.Class" uid="00414092-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="SharedProfilePreferences" mc="Standard.Class" uid="008b4318-0bc4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SimpleProfileRegistry" mc="Standard.Class" uid="0045d508-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="SizingPhaseSet" mc="Standard.Class" uid="004536de-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="SlashEncode" mc="Standard.Class" uid="008c3a3e-0bc4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SurrogateProfileHandler" mc="Standard.Class" uid="0044c208-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="TouchpointManager" mc="Standard.Class" uid="00454c0a-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="TransactionEvent" mc="Standard.Class" uid="0044d644-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="phases" mc="Standard.Package" uid="0042f040-d4f3-111c-bc9b-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

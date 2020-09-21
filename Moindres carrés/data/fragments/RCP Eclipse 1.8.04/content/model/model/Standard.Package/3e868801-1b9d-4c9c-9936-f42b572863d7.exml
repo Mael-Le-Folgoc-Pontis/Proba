@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="token" version="4">
+  <OBJECT>
+    <ID name="token" mc="Standard.Package" uid="3e868801-1b9d-4c9c-9936-f42b572863d7"/>
+    <PID name="core" mc="Standard.Package" uid="69bf6bb2-5767-4271-b67c-3f5be89fe703"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[token]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="EntityReplacementToken" mc="Standard.Class" uid="a206f259-e57e-42b9-9c66-7f3d491e8742"/>
+        <COMPID name="FootnoteReferenceReplacementToken" mc="Standard.Class" uid="1c853de8-445c-47b0-a592-665525693689"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

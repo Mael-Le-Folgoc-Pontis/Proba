@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="mutable" version="4">
+  <OBJECT>
+    <ID name="mutable" mc="Standard.Package" uid="548056f1-9437-4114-887d-27ae090ee496"/>
+    <PID name="lang3" mc="Standard.Package" uid="5a22ce01-ca4b-4c97-924f-8551fc63766c"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[mutable]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Mutable" mc="Standard.Interface" uid="d6752940-b478-494c-8dae-1e2254246b53"/>
+        <COMPID name="MutableBoolean" mc="Standard.Class" uid="276e10fc-60d8-42ca-9a8c-1bdebcb36dd3"/>
+        <COMPID name="MutableByte" mc="Standard.Class" uid="cb3059da-812f-4d70-b89c-a0f6ee7c3553"/>
+        <COMPID name="MutableDouble" mc="Standard.Class" uid="1461e731-c768-48ed-bf4e-419cb6044b92"/>
+        <COMPID name="MutableFloat" mc="Standard.Class" uid="ad301057-9dbe-471f-ada7-ae85ab7c56ef"/>
+        <COMPID name="MutableInt" mc="Standard.Class" uid="e652790f-58d7-49d6-869c-c1b88646020f"/>
+        <COMPID name="MutableLong" mc="Standard.Class" uid="3c91e445-4573-4dc5-96ac-b4e31240e3d4"/>
+        <COMPID name="MutableObject" mc="Standard.Class" uid="12bb9e9b-b48f-419d-897e-0e5bda910040"/>
+        <COMPID name="MutableShort" mc="Standard.Class" uid="dceb5804-6d2c-41b8-ae14-af10d1736d56"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

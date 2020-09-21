@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="exception" version="4">
+  <OBJECT>
+    <ID name="exception" mc="Standard.Package" uid="7c4638bd-25b1-4103-82eb-ece9dd1757e1"/>
+    <PID name="archetype" mc="Standard.Package" uid="15754755-ea04-4072-b80d-c868ad13cd6a"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[exception]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ArchetypeException" mc="Standard.Class" uid="9b708975-6bf1-4547-97be-0aa88083a9cd"/>
+        <COMPID name="ArchetypeGenerationConfigurationFailure" mc="Standard.Class" uid="4ecd2c2e-dd92-41ad-8e50-1bf20e36868b"/>
+        <COMPID name="ArchetypeGenerationFailure" mc="Standard.Class" uid="3965cde1-6de7-4c56-98f9-b760daf358c3"/>
+        <COMPID name="ArchetypeNotConfigured" mc="Standard.Class" uid="618f690c-5d3e-408a-a152-efa0d1853b3a"/>
+        <COMPID name="ArchetypeNotDefined" mc="Standard.Class" uid="0ef3a1a0-f3b2-4afa-aaee-fde48a051578"/>
+        <COMPID name="ArchetypeSelectionFailure" mc="Standard.Class" uid="f7b45ed3-03f7-467f-904c-3142c1bb1413"/>
+        <COMPID name="InvalidPackaging" mc="Standard.Class" uid="662afcdc-8095-4391-9c61-123c7fd0056f"/>
+        <COMPID name="OutputFileExists" mc="Standard.Class" uid="5b98e10f-5681-4663-8ffc-09de566cd05a"/>
+        <COMPID name="PomFileExists" mc="Standard.Class" uid="0c5e4838-402c-4ccb-a141-57cdda5c5c02"/>
+        <COMPID name="ProjectDirectoryExists" mc="Standard.Class" uid="4d92af35-0f43-4f48-afaf-31fd0b356031"/>
+        <COMPID name="TemplateCreationException" mc="Standard.Class" uid="3dfd4a96-0aed-4dee-b1fd-ccf5916f464c"/>
+        <COMPID name="UnknownArchetype" mc="Standard.Class" uid="14edfbad-7408-4516-abe1-fedcfa046883"/>
+        <COMPID name="UnknownGroup" mc="Standard.Class" uid="dae81311-12b0-42f0-a1a4-012bf4e8e639"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

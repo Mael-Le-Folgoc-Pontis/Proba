@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="actions" version="4">
+  <OBJECT>
+    <ID name="actions" mc="Standard.Package" uid="5d3dece4-6266-45ff-a85b-ce7b14421b49"/>
+    <PID name="internal" mc="Standard.Package" uid="78d3478f-ffaa-4fc9-8123-76468f3ac6f6"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[actions]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="CreateElementAction" mc="Standard.Class" uid="50403f54-3e9b-4c71-89bf-4a80a3a15eb3"/>
+        <COMPID name="DOMAttribute" mc="Standard.Class" uid="946f7280-f36f-4eb3-8af8-41f83f987a99"/>
+        <COMPID name="IXSDToolbarAction" mc="Standard.Interface" uid="acf58a19-ef6f-459c-9ee8-829448259dc3"/>
+        <COMPID name="MoveXSDAttributeAction" mc="Standard.Class" uid="0565b528-bffe-41c4-a99e-bd7b5c349762"/>
+        <COMPID name="MoveXSDBaseAction" mc="Standard.Class" uid="3980bee3-6674-4d78-8392-0b86cf1f15fe"/>
+        <COMPID name="MoveXSDElementAction" mc="Standard.Class" uid="64dc6415-8ec8-4e1f-a3ae-7e5510d5ceba"/>
+        <COMPID name="XSDEditNamespacesAction" mc="Standard.Class" uid="c2c1f89e-1848-4619-98a2-9730e2177a2b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

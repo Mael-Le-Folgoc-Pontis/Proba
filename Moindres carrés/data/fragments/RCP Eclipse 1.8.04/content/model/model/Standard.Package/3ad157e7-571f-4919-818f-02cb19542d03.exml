@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="gefTree" version="4">
+  <OBJECT>
+    <ID name="gefTree" mc="Standard.Package" uid="3ad157e7-571f-4919-818f-02cb19542d03"/>
+    <PID name="swing" mc="Standard.Package" uid="9830b5a7-65f5-42f6-9ec2-f443714086a1"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[gefTree]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="EditPartFactory" mc="Standard.Class" uid="2d6745d3-ad39-40d9-a99a-5b764e44374a"/>
+        <COMPID name="LayoutEditPolicyFactory" mc="Standard.Class" uid="9981394c-578d-4564-9d72-a22e2bcb96b4"/>
+        <COMPID name="part" mc="Standard.Package" uid="5e641bdd-1066-40d6-a7ac-d75a693aa28d"/>
+        <COMPID name="policy" mc="Standard.Package" uid="4f0f150b-6bf6-4111-b6f8-ab685b0d4730"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="build" version="4">
+  <OBJECT>
+    <ID name="build" mc="Standard.Package" uid="ffe43084-75ef-4bd3-b1b7-ac29f88666da"/>
+    <PID name="internal" mc="Standard.Package" uid="5e01f584-4d56-4af0-ac71-6b632782eb92"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[build]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="DefaultBuildEnvironment" mc="Standard.Class" uid="0a266e77-7179-4cd7-afd8-7f208e2e685c"/>
+        <COMPID name="VersionOnlyBuildEnvironment" mc="Standard.Class" uid="a42258b0-cf93-4dd4-8230-cc0813a6faeb"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

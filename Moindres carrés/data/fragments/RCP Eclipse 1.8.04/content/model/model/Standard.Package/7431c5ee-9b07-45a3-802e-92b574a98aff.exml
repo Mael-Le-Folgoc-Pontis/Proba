@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="internal" version="4">
+  <OBJECT>
+    <ID name="internal" mc="Standard.Package" uid="7431c5ee-9b07-45a3-802e-92b574a98aff"/>
+    <PID name="core" mc="Standard.Package" uid="22448ffd-04fe-48f6-b6de-251193afff58"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[internal]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="IProfileManager" mc="Standard.Interface" uid="3b637ef9-0e37-408f-953c-fce3ad935728"/>
+        <COMPID name="MavenProfilesCoreActivator" mc="Standard.Class" uid="1b6d41b3-04c1-44a4-bf79-8c5f071bc3e2"/>
+        <COMPID name="ProfileData" mc="Standard.Class" uid="551aa4f9-18aa-4841-bdb1-b2abf2109ba8"/>
+        <OBJECT>
+          <ID name="ProfileState" mc="Standard.Enumeration" uid="dac08af6-5b9f-4e76-afbc-f8444168adcd"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[ProfileState]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Extension">
+              <FOREIGNID name="JavaEnumeration" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0262-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <COMPID name="management" mc="Standard.Package" uid="06fda834-79b6-4136-8891-ecebf718a591"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

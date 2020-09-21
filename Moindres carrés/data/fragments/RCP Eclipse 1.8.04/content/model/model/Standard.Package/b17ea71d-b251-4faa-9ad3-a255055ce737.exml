@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="fluent" version="4">
+  <OBJECT>
+    <ID name="fluent" mc="Standard.Package" uid="b17ea71d-b251-4faa-9ad3-a255055ce737"/>
+    <PID name="client" mc="Standard.Package" uid="139da6c5-3b11-48bb-99e5-c2f3faab23d5"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[fluent]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Async" mc="Standard.Class" uid="cd79429f-11fb-45dc-b8c8-e72a91213b60"/>
+        <COMPID name="Content" mc="Standard.Class" uid="0546ff59-4ff8-4f10-84b3-62c9aaec9550"/>
+        <COMPID name="Executor" mc="Standard.Class" uid="f215bd06-e295-4b5f-89d1-ba0ab185edce"/>
+        <COMPID name="Form" mc="Standard.Class" uid="19bb817a-0070-4643-a158-197bc33aa952"/>
+        <COMPID name="Request" mc="Standard.Class" uid="4bba9cff-fbe6-427e-88b3-7ef342a0e582"/>
+        <COMPID name="Response" mc="Standard.Class" uid="1c04502f-6bf5-4730-803b-d5e9a355eecc"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

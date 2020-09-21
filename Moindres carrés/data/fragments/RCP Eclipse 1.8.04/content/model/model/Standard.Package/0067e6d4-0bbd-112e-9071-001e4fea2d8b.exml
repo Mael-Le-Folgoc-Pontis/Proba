@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="pt" version="4">
+  <OBJECT>
+    <ID name="pt" mc="Standard.Package" uid="0067e6d4-0bbd-112e-9071-001e4fea2d8b"/>
+    <PID name="analysis" mc="Standard.Package" uid="003a6222-0bbd-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[pt]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="PortugueseAnalyzer" mc="Standard.Class" uid="0067eea4-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PortugueseLightStemFilter" mc="Standard.Class" uid="00680916-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PortugueseLightStemmer" mc="Standard.Class" uid="006810be-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PortugueseMinimalStemFilter" mc="Standard.Class" uid="00681870-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PortugueseMinimalStemmer" mc="Standard.Class" uid="00682072-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PortugueseStemFilter" mc="Standard.Class" uid="006828c4-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PortugueseStemmer" mc="Standard.Class" uid="00683134-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RSLPStemmerBase" mc="Standard.Class" uid="006839f4-0bbd-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

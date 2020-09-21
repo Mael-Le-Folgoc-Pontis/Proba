@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="gaffer" version="4">
+  <OBJECT>
+    <ID name="gaffer" mc="Standard.Package" uid="fb97e1b1-8b7f-48b4-9c04-9cb203835d44"/>
+    <PID name="classic" mc="Standard.Package" uid="099ea9e4-dcb1-486e-adcd-be4022ab5d8a"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[gaffer]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AppenderDelegate" mc="Standard.Class" uid="cbb21ddf-b4c5-4239-8f8b-9ccc027322cf"/>
+        <COMPID name="ComponentDelegate" mc="Standard.Class" uid="efc6599f-1af3-45da-a4b8-2ba14afcede2"/>
+        <COMPID name="ConfigurationContributor" mc="Standard.Interface" uid="4c77aaeb-06b2-4cf9-ad68-20618d708f49"/>
+        <COMPID name="ConfigurationDelegate" mc="Standard.Class" uid="591aab2d-5833-4c76-92ea-75516d5ad98a"/>
+        <COMPID name="GafferConfigurator" mc="Standard.Class" uid="bb077d8f-41c8-4b3f-bf6e-dc6ad8f12d53"/>
+        <COMPID name="GafferUtil" mc="Standard.Class" uid="2856d2b4-fd6b-4f36-9de0-e7937cf7afe0"/>
+        <COMPID name="NestingType" mc="Standard.Class" uid="f3144ab4-1326-405c-abd0-0b44bf31262b"/>
+        <COMPID name="PropertyUtil" mc="Standard.Class" uid="5c6ff344-c159-4dcf-b247-9368c00368ec"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

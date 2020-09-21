@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="internal" version="4">
+  <OBJECT>
+    <ID name="internal" mc="Standard.Package" uid="0066b52a-0bda-112e-9071-001e4fea2d8b"/>
+    <PID name="trace" mc="Standard.Package" uid="0064c9ea-0bda-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[internal]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="IHelpContextIds" mc="Standard.Interface" uid="0066bc50-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Messages" mc="Standard.Class" uid="0066c40c-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TracingComponentColumnEditingSupport" mc="Standard.Class" uid="0066caa6-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TracingComponentComparator" mc="Standard.Class" uid="0066d0fa-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TracingComponentTreeViewer" mc="Standard.Class" uid="0066d7b2-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TracingComponentViewerFilter" mc="Standard.Class" uid="0066deb0-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TracingDoubleClickListener" mc="Standard.Class" uid="0066e59a-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TracingPreferencePage" mc="Standard.Class" uid="0066ece8-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TracingStartupMonitor" mc="Standard.Class" uid="0066f472-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TracingUIActivator" mc="Standard.Class" uid="0066fbfc-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="datamodel" mc="Standard.Package" uid="0068ebc4-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="providers" mc="Standard.Package" uid="006b0c6a-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="utils" mc="Standard.Package" uid="006d252c-0bda-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

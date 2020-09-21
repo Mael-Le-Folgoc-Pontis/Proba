@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="text" version="4">
+  <OBJECT>
+    <ID name="text" mc="Standard.Package" uid="0031e098-0bd1-112e-9071-001e4fea2d8b"/>
+    <PID name="simple" mc="Standard.Package" uid="0030058e-0bd1-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[text]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="SimpleCS" mc="Standard.Class" uid="0031e69c-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SimpleCSAction" mc="Standard.Class" uid="0031ed18-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SimpleCSCommand" mc="Standard.Class" uid="0031f33a-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SimpleCSConditionalSubItem" mc="Standard.Class" uid="0031f9ca-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SimpleCSDescription" mc="Standard.Class" uid="0032008c-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SimpleCSDocumentFactory" mc="Standard.Class" uid="00320758-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SimpleCSDocumentHandler" mc="Standard.Class" uid="00320e88-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SimpleCSDocumentTextNode" mc="Standard.Class" uid="003215e0-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SimpleCSIntro" mc="Standard.Class" uid="00321d56-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SimpleCSItem" mc="Standard.Class" uid="0032251c-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SimpleCSModel" mc="Standard.Class" uid="00322d0a-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SimpleCSObject" mc="Standard.Class" uid="00323502-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SimpleCSOnCompletion" mc="Standard.Class" uid="00323d5e-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SimpleCSPerformWhen" mc="Standard.Class" uid="0032460a-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SimpleCSRepeatedSubItem" mc="Standard.Class" uid="00324e98-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SimpleCSRunObject" mc="Standard.Class" uid="0032578a-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SimpleCSSubItem" mc="Standard.Class" uid="003260b8-0bd1-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

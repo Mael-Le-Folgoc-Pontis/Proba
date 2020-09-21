@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="bindings" version="4">
+  <OBJECT>
+    <ID name="bindings" mc="Standard.Package" uid="bb639141-4c9f-4efa-ac37-dd73351f2766"/>
+    <PID name="model" mc="Standard.Package" uid="eddbcd43-71e0-4ca5-8592-890b416fe753"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[bindings]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AutoBindingInfo" mc="Standard.Class" uid="65cb0f06-5df6-49d4-aa48-06150d198dab"/>
+        <COMPID name="BindingInfo" mc="Standard.Class" uid="2a0d2af4-5ed0-4df4-92c2-935666e29a25"/>
+        <COMPID name="ColumnBindingInfo" mc="Standard.Class" uid="6fb75a8e-ab45-4d33-8a78-132720c0d004"/>
+        <COMPID name="ColumnBindingModelSupport" mc="Standard.Class" uid="1cffedc0-b926-4135-926c-b90ea7430bf7"/>
+        <COMPID name="ConverterInfo" mc="Standard.Class" uid="84bc17c4-2cdc-4f01-bb2d-3ccaf98c0aef"/>
+        <COMPID name="DetailBindingInfo" mc="Standard.Class" uid="2dcc25a7-ece1-436c-a67a-eda13019a352"/>
+        <COMPID name="JComboBoxBindingInfo" mc="Standard.Class" uid="514dcf05-3cd6-49b6-88b0-0d2c93156990"/>
+        <COMPID name="JListBindingInfo" mc="Standard.Class" uid="c7a4b62d-ee22-43f3-80c1-61c2c6461300"/>
+        <COMPID name="JTableBindingInfo" mc="Standard.Class" uid="079a7813-7132-4542-94e5-f43bcc2eec6f"/>
+        <COMPID name="UpdateStrategyInfo" mc="Standard.Class" uid="eb183b9b-dd91-4fc8-b8b3-1815a8ab514a"/>
+        <COMPID name="ValidatorInfo" mc="Standard.Class" uid="1a1c056c-1933-4b0c-8d16-267a04843a44"/>
+        <COMPID name="VirtualBindingInfo" mc="Standard.Class" uid="e9b07097-8829-4f38-b687-1ee8f44fd60b"/>
+        <COMPID name="VirtualParser" mc="Standard.Class" uid="bb7fcb6d-0b1e-4f54-9a72-eb9531ef92bb"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

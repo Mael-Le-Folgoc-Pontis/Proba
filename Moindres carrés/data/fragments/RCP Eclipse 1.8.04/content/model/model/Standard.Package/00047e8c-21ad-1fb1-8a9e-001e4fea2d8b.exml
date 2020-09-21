@@ -1,0 +1,67 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="browser" version="4">
+  <OBJECT>
+    <ID name="browser" mc="Standard.Package" uid="00047e8c-21ad-1fb1-8a9e-001e4fea2d8b"/>
+    <PID name="internal" mc="Standard.Package" uid="0015be4a-21ac-1fb1-8a9e-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[browser]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="BrowserDescriptor" mc="Standard.Class" uid="001bb822-0bd6-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BrowserDescriptorDialog" mc="Standard.Class" uid="001bc416-0bd6-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BrowserDescriptorWorkingCopy" mc="Standard.Class" uid="001bd2c6-0bd6-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BrowserExt" mc="Standard.Class" uid="001bda28-0bd6-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BrowserLauncher" mc="Standard.Class" uid="001be16c-0bd6-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BrowserManager" mc="Standard.Class" uid="001be91e-0bd6-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BrowserText" mc="Standard.Class" uid="001bf102-0bd6-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BrowserViewer" mc="Standard.Class" uid="001bff62-0bd6-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BusyIndicator" mc="Standard.Class" uid="001c14b6-0bd6-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ContextIds" mc="Standard.Interface" uid="001c1ac4-0bd6-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DefaultBrowserSupport" mc="Standard.Class" uid="001c2366-0bd6-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DefaultWebBrowser" mc="Standard.Class" uid="0004f6fa-21ad-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="DefaultWorkbenchBrowserSupport" mc="Standard.Class" uid="00054fce-21ad-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ExternalBrowserInstance" mc="Standard.Class" uid="001ca55c-0bd6-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FallbackScrolledComposite" mc="Standard.Class" uid="001caec6-0bd6-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IBrowserDescriptor" mc="Standard.Interface" uid="001cb560-0bd6-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IBrowserDescriptorWorkingCopy" mc="Standard.Interface" uid="001cbc9a-0bd6-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IBrowserExt" mc="Standard.Interface" uid="001cc370-0bd6-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IBrowserViewerContainer" mc="Standard.Interface" uid="001ccab4-0bd6-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ImageResource" mc="Standard.Class" uid="001cd43c-0bd6-112e-9071-001e4fea2d8b"/>
+        <COMPID name="InternalBrowserEditorInstance" mc="Standard.Class" uid="001cdd6a-0bd6-112e-9071-001e4fea2d8b"/>
+        <COMPID name="InternalBrowserInstance" mc="Standard.Class" uid="001ce6e8-0bd6-112e-9071-001e4fea2d8b"/>
+        <COMPID name="InternalBrowserViewInstance" mc="Standard.Class" uid="001cf0ac-0bd6-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Messages" mc="Standard.Class" uid="001cfa66-0bd6-112e-9071-001e4fea2d8b"/>
+        <COMPID name="OpenBrowserHandler" mc="Standard.Class" uid="001d0484-0bd6-112e-9071-001e4fea2d8b"/>
+        <COMPID name="OpenBrowserWorkbenchAction" mc="Standard.Class" uid="001d0eca-0bd6-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SWTUtil" mc="Standard.Class" uid="001d1924-0bd6-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SystemBrowserDescriptor" mc="Standard.Class" uid="001d23d8-0bd6-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SystemBrowserInstance" mc="Standard.Class" uid="001d2f18-0bd6-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TextAction" mc="Standard.Class" uid="001d39f4-0bd6-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ToolbarLayout" mc="Standard.Class" uid="001d4548-0bd6-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Trace" mc="Standard.Class" uid="001d50d8-0bd6-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WebBrowserEditor" mc="Standard.Class" uid="001d5c5e-0bd6-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WebBrowserEditorActionBarContributor" mc="Standard.Class" uid="001d6848-0bd6-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WebBrowserEditorInput" mc="Standard.Class" uid="001d7a0e-0bd6-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WebBrowserPreference" mc="Standard.Class" uid="001d8666-0bd6-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WebBrowserPreferencePage" mc="Standard.Class" uid="001d92e6-0bd6-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WebBrowserUIPlugin" mc="Standard.Class" uid="001dab8c-0bd6-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WebBrowserUtil" mc="Standard.Class" uid="001db83e-0bd6-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WebBrowserView" mc="Standard.Class" uid="001dc5a4-0bd6-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WebBrowserViewDropAdapter" mc="Standard.Class" uid="001dd3aa-0bd6-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WorkbenchBrowserSupport" mc="Standard.Class" uid="00049b92-21ad-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="browsers" mc="Standard.Package" uid="00212ed8-0bd6-112e-9071-001e4fea2d8b"/>
+        <COMPID name="macosx" mc="Standard.Package" uid="00248bbe-0bd6-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

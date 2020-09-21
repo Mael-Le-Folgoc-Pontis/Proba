@@ -1,0 +1,73 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="launchConfigurations" version="4">
+  <OBJECT>
+    <ID name="launchConfigurations" mc="Standard.Package" uid="002be0c6-0bc1-112e-9071-001e4fea2d8b"/>
+    <PID name="ui" mc="Standard.Package" uid="0011cbfa-0bc1-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[launchConfigurations]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractLaunchConfigurationAction" mc="Standard.Class" uid="002be800-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ClosedProjectFilter" mc="Standard.Class" uid="002bf688-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CollapseAllLaunchConfigurationAction" mc="Standard.Class" uid="002bfdd6-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CompileErrorProjectPromptStatusHandler" mc="Standard.Class" uid="002c056a-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CompileErrorPromptStatusHandler" mc="Standard.Class" uid="002c0cea-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CreateLaunchConfigurationAction" mc="Standard.Class" uid="002c14d8-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DebugModePromptStatusHandler" mc="Standard.Class" uid="002c1d02-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DeleteLaunchConfigurationAction" mc="Standard.Class" uid="002c2518-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DeletedProjectFilter" mc="Standard.Class" uid="002c2df6-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DuplicateLaunchConfigurationAction" mc="Standard.Class" uid="002c36c0-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DuplicateLaunchDelegatesStatusHandler" mc="Standard.Class" uid="002c3f76-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="EnvironmentVariable" mc="Standard.Class" uid="002c48a4-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FavoritesDialog" mc="Standard.Class" uid="002c51fa-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FilterDropDownMenuCreator" mc="Standard.Class" uid="002c6226-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FilterLaunchConfigurationAction" mc="Standard.Class" uid="002c7306-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LaunchCategoryFilter" mc="Standard.Class" uid="002c7cfc-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LaunchConfigurationComparator" mc="Standard.Class" uid="002c8738-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LaunchConfigurationDialog" mc="Standard.Class" uid="002c9160-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LaunchConfigurationEditDialog" mc="Standard.Class" uid="002c9bf6-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LaunchConfigurationFilteredTree" mc="Standard.Class" uid="002ca6c8-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LaunchConfigurationManager" mc="Standard.Class" uid="002cb186-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LaunchConfigurationPresentationManager" mc="Standard.Class" uid="002cc388-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LaunchConfigurationPropertiesDialog" mc="Standard.Class" uid="002ccebe-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LaunchConfigurationSelectionDialog" mc="Standard.Class" uid="002cda58-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LaunchConfigurationTabGroupExtension" mc="Standard.Class" uid="002ce61a-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LaunchConfigurationTabGroupViewer" mc="Standard.Class" uid="002cf1dc-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LaunchConfigurationTabGroupWrapper" mc="Standard.Class" uid="002cfe20-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LaunchConfigurationTabImageDescriptor" mc="Standard.Class" uid="002d1130-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LaunchConfigurationTreeContentProvider" mc="Standard.Class" uid="002d1dc4-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LaunchConfigurationTypeFilter" mc="Standard.Class" uid="002d3746-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LaunchConfigurationView" mc="Standard.Class" uid="002d447a-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LaunchConfigurationViewer" mc="Standard.Class" uid="002d51d6-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LaunchConfigurationsDialog" mc="Standard.Class" uid="002d5f64-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LaunchConfigurationsMessages" mc="Standard.Class" uid="002d6cf2-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LaunchDelegateContribution" mc="Standard.Class" uid="002d7ae4-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LaunchDelegateNotAvailableHandler" mc="Standard.Class" uid="002d8912-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LaunchGroupExtension" mc="Standard.Class" uid="002d972c-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LaunchGroupFilter" mc="Standard.Class" uid="002da5a0-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LaunchHistory" mc="Standard.Class" uid="002db496-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LaunchShortcutExtension" mc="Standard.Class" uid="002dc33c-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LaunchShortcutSelectionDialog" mc="Standard.Class" uid="002dd8e0-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LaunchTabContribution" mc="Standard.Class" uid="002de7f4-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="OrganizeFavoritesAction" mc="Standard.Class" uid="002df758-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PerspectiveManager" mc="Standard.Class" uid="002e0702-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SaveScopeResourcesHandler" mc="Standard.Class" uid="002e24d0-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SelectFavoritesDialog" mc="Standard.Class" uid="002e3b6e-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SelectLaunchModesDialog" mc="Standard.Class" uid="002e5324-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SelectLaunchersDialog" mc="Standard.Class" uid="002e6a76-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WorkingSetComparator" mc="Standard.Class" uid="002e81b4-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WorkingSetsFilter" mc="Standard.Class" uid="002e9294-0bc1-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

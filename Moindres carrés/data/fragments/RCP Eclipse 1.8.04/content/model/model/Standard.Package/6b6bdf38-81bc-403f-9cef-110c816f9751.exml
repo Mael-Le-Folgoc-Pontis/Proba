@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ssl" version="4">
+  <OBJECT>
+    <ID name="ssl" mc="Standard.Package" uid="6b6bdf38-81bc-403f-9cef-110c816f9751"/>
+    <PID name="conn" mc="Standard.Package" uid="99a18589-0db3-4e68-b189-836df1bd39fe"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[ssl]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractVerifier" mc="Standard.Class" uid="a6988c76-8246-4e7b-9e6e-b1f373ebce60"/>
+        <COMPID name="AllowAllHostnameVerifier" mc="Standard.Class" uid="d56e3162-2c72-4da2-8b1c-650c451177c5"/>
+        <COMPID name="BrowserCompatHostnameVerifier" mc="Standard.Class" uid="9327e8e2-d7e7-4a44-98ab-031fea23c74b"/>
+        <COMPID name="PrivateKeyDetails" mc="Standard.Class" uid="d622bb4d-7d8c-46fe-baa2-6dabd201836e"/>
+        <COMPID name="PrivateKeyStrategy" mc="Standard.Interface" uid="58c1f9be-7a3d-44ca-a823-c2fd297030dd"/>
+        <COMPID name="SSLConnectionSocketFactory" mc="Standard.Class" uid="5540c1e2-70e6-4724-8e3c-463ab1336fd1"/>
+        <COMPID name="SSLContextBuilder" mc="Standard.Class" uid="f2b916ee-8230-4823-b0ef-e410144f3010"/>
+        <COMPID name="SSLContexts" mc="Standard.Class" uid="2d489d83-c463-418f-9907-bc94cc5cb68c"/>
+        <COMPID name="SSLInitializationException" mc="Standard.Class" uid="a347ac2f-9ba0-458a-a2ed-eb68e25ce32a"/>
+        <COMPID name="SSLSocketFactory" mc="Standard.Class" uid="51b69fa4-3f96-4e3b-bde9-c2cf759341ae"/>
+        <COMPID name="StrictHostnameVerifier" mc="Standard.Class" uid="e3fc3090-7852-4efd-b333-a7009ebf5050"/>
+        <COMPID name="TrustSelfSignedStrategy" mc="Standard.Class" uid="369e18a3-991e-4b38-be6d-1f174ed4c28d"/>
+        <COMPID name="TrustStrategy" mc="Standard.Interface" uid="b33f458e-b872-49c4-9b8e-0006fb3c19d6"/>
+        <COMPID name="X509HostnameVerifier" mc="Standard.Interface" uid="4309d310-2685-4079-ad4e-5b52485bdb28"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

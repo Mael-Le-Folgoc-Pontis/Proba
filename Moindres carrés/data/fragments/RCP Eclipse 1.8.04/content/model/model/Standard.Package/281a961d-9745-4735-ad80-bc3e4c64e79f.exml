@@ -1,0 +1,55 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="wizards" version="4">
+  <OBJECT>
+    <ID name="wizards" mc="Standard.Package" uid="281a961d-9745-4735-ad80-bc3e4c64e79f"/>
+    <PID name="internal" mc="Standard.Package" uid="025b47b3-801a-40ae-9f93-2fe51ae17ec2"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[wizards]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractCreateMavenProjectJob" mc="Standard.Class" uid="94f647ba-33e2-4ee8-9bce-0d218d76b480"/>
+        <COMPID name="AbstractCreateMavenProjectsOperation" mc="Standard.Class" uid="ae947654-7e87-47a1-855d-3740b9f9b111"/>
+        <COMPID name="AbstractMavenProjectWizard" mc="Standard.Class" uid="0cd05dd5-69b8-4339-802c-c37bebe3efc5"/>
+        <COMPID name="AbstractMavenWizardPage" mc="Standard.Class" uid="3b9c76c4-2f79-48c9-b6db-eeb381d16095"/>
+        <COMPID name="CustomArchetypeDialog" mc="Standard.Class" uid="b192bb5e-4af4-4b6b-bbc8-8c83d747e57a"/>
+        <COMPID name="IMavenDiscoveryUI" mc="Standard.Interface" uid="5e4df8af-d005-40c6-8719-074a0af59c42"/>
+        <COMPID name="ImportMavenProjectsJob" mc="Standard.Class" uid="74fe9f9d-2bb7-460d-aaee-8b3562d7e523"/>
+        <COMPID name="LifecycleMappingDiscoveryHelper" mc="Standard.Class" uid="e34d14e5-d188-48e2-885d-eb374abdea36"/>
+        <COMPID name="LifecycleMappingPage" mc="Standard.Class" uid="293b44cf-bbbe-4703-b7ad-43552bda3352"/>
+        <COMPID name="MappingDiscoveryJob" mc="Standard.Class" uid="67dd2f9e-b864-48dc-b90a-956d8cbe012e"/>
+        <COMPID name="MavenArtifactComponent" mc="Standard.Class" uid="c3af6d12-e890-4ecb-8668-5d6495f60ddb"/>
+        <COMPID name="MavenDependenciesWizardPage" mc="Standard.Class" uid="c79a333f-8319-4f7f-a748-e510457eed6f"/>
+        <COMPID name="MavenDiscoveryProposalWizard" mc="Standard.Class" uid="227912a9-2cf6-48a1-bec0-d5fea03f62a5"/>
+        <COMPID name="MavenImportWizard" mc="Standard.Class" uid="dd8cd027-e9ca-4978-9666-7b236f1026e0"/>
+        <COMPID name="MavenImportWizardPage" mc="Standard.Class" uid="984373c2-0e4f-4f10-b275-15ead954fa7c"/>
+        <COMPID name="MavenInstallFileArtifactWizardPage" mc="Standard.Class" uid="91fbf362-8e2b-4b3c-b964-40368fe855f5"/>
+        <COMPID name="MavenInstallFileWizard" mc="Standard.Class" uid="f8e8b897-8c27-4207-91aa-e2ef2ed584d7"/>
+        <COMPID name="MavenLocationComponent" mc="Standard.Class" uid="f0f0050c-ccc0-4d87-8954-a8a6a74904f5"/>
+        <COMPID name="MavenModuleWizard" mc="Standard.Class" uid="01c5e874-69f8-4b53-aa34-0a047d8d1a20"/>
+        <COMPID name="MavenModuleWizardParentPage" mc="Standard.Class" uid="14b5f9b3-76c6-409a-870b-fc003b106e11"/>
+        <COMPID name="MavenParentComponent" mc="Standard.Class" uid="b5ba539f-7688-417e-85db-f4de9e8c125a"/>
+        <COMPID name="MavenPomSelectionComponent" mc="Standard.Class" uid="0e28fad8-d764-4061-97df-cb3a156ba2b1"/>
+        <COMPID name="MavenPomWizard" mc="Standard.Class" uid="4ac96771-0c5b-40d5-a434-2c03a16c8396"/>
+        <COMPID name="MavenPomWizardPage" mc="Standard.Class" uid="f769787d-46d2-4264-8854-5f827ad34d31"/>
+        <COMPID name="MavenProjectSelectionDialog" mc="Standard.Class" uid="a332058c-33d2-48b7-864c-3704942cc945"/>
+        <COMPID name="MavenProjectWizard" mc="Standard.Class" uid="2b4a9c0e-8ff9-4787-bdfc-7694f40e3759"/>
+        <COMPID name="MavenProjectWizardArchetypePage" mc="Standard.Class" uid="21441b76-8844-4d3c-8a9a-1f2f428b269b"/>
+        <COMPID name="MavenProjectWizardArchetypeParametersPage" mc="Standard.Class" uid="ee48ad82-6732-419b-b7c0-1d9e76a4985d"/>
+        <COMPID name="MavenProjectWizardArtifactPage" mc="Standard.Class" uid="0bbb4883-f894-4aa3-85a4-5d709c5875c7"/>
+        <COMPID name="MavenProjectWizardLocationPage" mc="Standard.Class" uid="fe900d24-4e50-4719-b614-00c01cc49430"/>
+        <COMPID name="ResolverConfigurationComponent" mc="Standard.Class" uid="dccf6066-cb85-43ed-b25e-f696828dad91"/>
+        <COMPID name="WidthGroup" mc="Standard.Class" uid="d99e0e11-7739-4437-b339-cfffa409ecdd"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

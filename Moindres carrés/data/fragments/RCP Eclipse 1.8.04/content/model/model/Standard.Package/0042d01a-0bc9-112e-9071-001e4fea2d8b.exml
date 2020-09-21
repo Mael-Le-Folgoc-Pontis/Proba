@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="codemanipulation" version="4">
+  <OBJECT>
+    <ID name="codemanipulation" mc="Standard.Package" uid="0042d01a-0bc9-112e-9071-001e4fea2d8b"/>
+    <PID name="corext" mc="Standard.Package" uid="003dd6d2-0bc9-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[codemanipulation]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AddCustomConstructorOperation" mc="Standard.Class" uid="0042dc40-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AddDelegateMethodsOperation" mc="Standard.Class" uid="0042e3b6-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AddGetterSetterOperation" mc="Standard.Class" uid="0042ffd6-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AddImportsOperation" mc="Standard.Class" uid="0043088c-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AddJavaDocStubOperation" mc="Standard.Class" uid="00431700-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AddUnimplementedConstructorsOperation" mc="Standard.Class" uid="00431e62-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AddUnimplementedMethodsOperation" mc="Standard.Class" uid="0043260a-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CodeGenerationMessages" mc="Standard.Class" uid="00432db2-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CodeGenerationSettings" mc="Standard.Class" uid="004335be-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ContextSensitiveImportRewriteContext" mc="Standard.Class" uid="00433e10-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="GenerateHashCodeEqualsOperation" mc="Standard.Class" uid="00434626-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="GetterSetterUtil" mc="Standard.Class" uid="0043556c-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IRequestQuery" mc="Standard.Interface" uid="00435b70-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ImportReferencesCollector" mc="Standard.Class" uid="004364b2-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="OrganizeImportsOperation" mc="Standard.Class" uid="00436dc2-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SortMembersOperation" mc="Standard.Class" uid="00439e3c-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="StubUtility" mc="Standard.Class" uid="0043b91c-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="StubUtility2" mc="Standard.Class" uid="0043d334-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="tostringgeneration" mc="Standard.Package" uid="0045543e-0bc9-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

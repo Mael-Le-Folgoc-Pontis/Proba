@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="command" version="4">
+  <OBJECT>
+    <ID name="command" mc="Standard.Package" uid="0268f2c6-2027-4b95-8be2-7aa8f3ad2403"/>
+    <PID name="reflog" mc="Standard.Package" uid="656521d3-dba3-48ea-b3ff-d741566be279"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[command]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="CheckoutHandler" mc="Standard.Class" uid="4d11558f-e5b2-41ef-8f60-a4a96565a2d2"/>
+        <COMPID name="CopyHandler" mc="Standard.Class" uid="95acba34-f57c-456a-882b-742df473b148"/>
+        <COMPID name="OpenInCommitViewerHandler" mc="Standard.Class" uid="119e402c-5bf0-4b07-8a56-1199e7637416"/>
+        <COMPID name="ResetHandler" mc="Standard.Class" uid="27d32495-fc06-4eda-8537-f56d87694c0f"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

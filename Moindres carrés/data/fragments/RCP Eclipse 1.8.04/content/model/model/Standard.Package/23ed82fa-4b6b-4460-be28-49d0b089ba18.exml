@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="util" version="4">
+  <OBJECT>
+    <ID name="util" mc="Standard.Package" uid="23ed82fa-4b6b-4460-be28-49d0b089ba18"/>
+    <PID name="core" mc="Standard.Package" uid="0a9bf791-6796-4d6d-8583-536c999d4feb"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[util]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractP2TransportFactory" mc="Standard.Class" uid="d94e0615-b6c5-4793-bae1-2b14a82b9f2a"/>
+        <COMPID name="HttpUtil" mc="Standard.Class" uid="b08a4626-adcc-49ea-934e-d6e8cad9b963"/>
+        <COMPID name="ITransport" mc="Standard.Interface" uid="8f36a93d-0842-480c-8e1c-f28275b76ae2"/>
+        <COMPID name="JavaPlatformTransportFactory" mc="Standard.Class" uid="64335394-f7fe-403e-89ee-4c078ac0159b"/>
+        <COMPID name="ProxyHelper" mc="Standard.Class" uid="78db5b6c-8eb8-4274-ae6c-6aeb65da2dd0"/>
+        <COMPID name="ServiceUtil" mc="Standard.Class" uid="e7d6d8a3-9765-4b7d-a354-f12bfcfb8a78"/>
+        <COMPID name="TextUtil" mc="Standard.Class" uid="6b54a7f6-216b-4eac-9b07-fc4036b0b963"/>
+        <COMPID name="TransportFactory" mc="Standard.Class" uid="03c7e6dc-26e3-4135-bdc5-4ebbbdc10fac"/>
+        <COMPID name="URLUtil" mc="Standard.Class" uid="78e814b7-121c-4f6e-af37-8d039b857fa2"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

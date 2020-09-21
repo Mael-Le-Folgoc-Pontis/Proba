@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="perforce" version="4">
+  <OBJECT>
+    <ID name="perforce" mc="Standard.Package" uid="006490c4-0bbe-112e-9071-001e4fea2d8b"/>
+    <PID name="optional" mc="Standard.Package" uid="0043083c-0bbe-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[perforce]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="FStatP4OutputHandler" mc="Standard.Class" uid="0064983a-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="P4Add" mc="Standard.Class" uid="0064a03c-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="P4Base" mc="Standard.Class" uid="0064a7c6-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="P4Change" mc="Standard.Class" uid="0064afa0-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="P4Counter" mc="Standard.Class" uid="0064b798-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="P4Delete" mc="Standard.Class" uid="0064bf9a-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="P4Edit" mc="Standard.Class" uid="0064c800-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="P4Fstat" mc="Standard.Class" uid="0064d08e-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="P4Handler" mc="Standard.Interface" uid="0064d764-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="P4HandlerAdapter" mc="Standard.Class" uid="0064e060-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="P4Have" mc="Standard.Class" uid="0064e9ca-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="P4Integrate" mc="Standard.Class" uid="0064f2d0-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="P4Label" mc="Standard.Class" uid="0064fc44-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="P4Labelsync" mc="Standard.Class" uid="006505fe-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="P4OutputHandler" mc="Standard.Interface" uid="00650d42-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="P4OutputStream" mc="Standard.Class" uid="0065174c-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="P4Reopen" mc="Standard.Class" uid="00652160-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="P4Resolve" mc="Standard.Class" uid="00652b7e-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="P4Revert" mc="Standard.Class" uid="006536aa-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="P4Submit" mc="Standard.Class" uid="0065415e-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="P4Sync" mc="Standard.Class" uid="0065531a-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SimpleP4OutputHandler" mc="Standard.Class" uid="00655e28-0bbe-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

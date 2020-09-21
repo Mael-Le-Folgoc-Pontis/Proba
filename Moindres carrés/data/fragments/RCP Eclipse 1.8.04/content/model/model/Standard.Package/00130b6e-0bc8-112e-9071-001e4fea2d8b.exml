@@ -1,0 +1,57 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="servlet" version="4">
+  <OBJECT>
+    <ID name="servlet" mc="Standard.Package" uid="00130b6e-0bc8-112e-9071-001e4fea2d8b"/>
+    <PID name="webapp" mc="Standard.Package" uid="000577e2-0bc8-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[servlet]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AboutServlet" mc="Standard.Class" uid="001311f4-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BreadcrumbsFilter" mc="Standard.Class" uid="001325a4-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ChildLinkInserter" mc="Standard.Class" uid="00132c98-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ContentServlet" mc="Standard.Class" uid="001333be-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ContextServlet" mc="Standard.Class" uid="00133ae4-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ControlServlet" mc="Standard.Class" uid="00134278-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CookieUtil" mc="Standard.Class" uid="00134a34-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DynamicXHTMLFilter" mc="Standard.Class" uid="001351e6-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="EclipseConnector" mc="Standard.Class" uid="00135a10-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ExtensionServlet" mc="Standard.Class" uid="00136a0a-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ExtraFilters" mc="Standard.Class" uid="00137298-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FilterHTMLHeadAndBodyOutputStream" mc="Standard.Class" uid="00137b58-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FilterHTMLHeadOutputStream" mc="Standard.Class" uid="00138404-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FilterUtils" mc="Standard.Class" uid="00138d32-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FramesetFilter" mc="Standard.Class" uid="00139692-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HighlightFilter" mc="Standard.Class" uid="00139fd4-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IndexFragmentServlet" mc="Standard.Class" uid="0013a9de-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IndexServlet" mc="Standard.Class" uid="0013ba1e-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="InfocenterWorkingSetManager" mc="Standard.Class" uid="0013c446-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="InjectionFilter" mc="Standard.Class" uid="0013ce8c-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LiveHelpServlet" mc="Standard.Class" uid="0013d8dc-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="NavServlet" mc="Standard.Class" uid="0013e3a4-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PluginsRootFilter" mc="Standard.Class" uid="0013ee94-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PluginsRootResolvingStream" mc="Standard.Class" uid="0013f970-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PreferenceWriter" mc="Standard.Class" uid="00140532-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PrioritizedFilter" mc="Standard.Class" uid="001410b8-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SearchServlet" mc="Standard.Class" uid="00141c3e-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ServletPrintWriter" mc="Standard.Class" uid="00142ea4-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ShowInTocFilter" mc="Standard.Class" uid="00143a8e-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TocFragmentServlet" mc="Standard.Class" uid="001446d2-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TocServlet" mc="Standard.Class" uid="00145974-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ValidatorServlet" mc="Standard.Class" uid="00146626-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WebappWorkingSetManager" mc="Standard.Class" uid="00147fd0-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="XMLGenerator" mc="Standard.Class" uid="00148ce6-0bc8-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,78 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="dialogs" version="4">
+  <OBJECT>
+    <ID name="dialogs" mc="Standard.Package" uid="0084d5fa-21ab-1fb1-8a9e-001e4fea2d8b"/>
+    <PID name="ui" mc="Standard.Package" uid="001f4794-21ab-1fb1-8a9e-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[dialogs]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractElementListSelectionDialog" mc="Standard.Class" uid="0093e6bc-21ab-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="CheckedTreeSelectionDialog" mc="Standard.Class" uid="008db300-21ab-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ContainerCheckedTreeViewer" mc="Standard.Class" uid="008944b4-21ab-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ContainerGenerator" mc="Standard.Class" uid="008f49ea-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ContainerSelectionDialog" mc="Standard.Class" uid="008f5840-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="EditorSelectionDialog" mc="Standard.Class" uid="0085aae8-21ab-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ElementListSelectionDialog" mc="Standard.Class" uid="008a9e40-21ab-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ElementTreeSelectionDialog" mc="Standard.Class" uid="008cf6f4-21ab-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="FileEditorMappingContentProvider" mc="Standard.Class" uid="008b5628-21ab-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="FileEditorMappingLabelProvider" mc="Standard.Class" uid="008e6aac-21ab-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="FileSelectionDialog" mc="Standard.Class" uid="0090851c-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FileSystemElement" mc="Standard.Class" uid="00944684-21ab-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="FilteredItemsSelectionDialog" mc="Standard.Class" uid="00912580-21ab-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="FilteredList" mc="Standard.Class" uid="00867e1e-21ab-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="FilteredResourcesSelectionDialog" mc="Standard.Class" uid="009555ec-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FilteredTree" mc="Standard.Class" uid="008c72d8-21ab-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="IOverwriteQuery" mc="Standard.Interface" uid="00896a2a-21ab-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ISelectionStatusValidator" mc="Standard.Interface" uid="008a75c8-21ab-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ISelectionValidator" mc="Standard.Interface" uid="008632b0-21ab-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="IWorkingSetEditWizard" mc="Standard.Interface" uid="008e0d96-21ab-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="IWorkingSetNewWizard" mc="Standard.Interface" uid="00898f3c-21ab-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="IWorkingSetPage" mc="Standard.Interface" uid="008f8b3a-21ab-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="IWorkingSetSelectionDialog" mc="Standard.Interface" uid="0090c6a8-21ab-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ListDialog" mc="Standard.Class" uid="0086581c-21ab-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ListSelectionDialog" mc="Standard.Class" uid="008f2e06-21ab-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="MarkerResolutionSelectionDialog" mc="Standard.Class" uid="00977976-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="NewFolderDialog" mc="Standard.Class" uid="00978736-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PatternFilter" mc="Standard.Class" uid="008af872-21ab-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="PreferenceLinkArea" mc="Standard.Class" uid="0087fe42-21ab-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="PreferencesUtil" mc="Standard.Class" uid="0084f256-21ab-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ProjectLocationMoveDialog" mc="Standard.Class" uid="009822a4-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ProjectLocationSelectionDialog" mc="Standard.Class" uid="00982fec-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PropertyDialogAction" mc="Standard.Class" uid="00879bbe-21ab-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="PropertyPage" mc="Standard.Class" uid="00885ebe-21ab-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ResourceListSelectionDialog" mc="Standard.Class" uid="00000744-0bd5-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ResourceSelectionDialog" mc="Standard.Class" uid="0000357a-0bd5-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SaveAsDialog" mc="Standard.Class" uid="00004330-0bd5-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SearchPattern" mc="Standard.Class" uid="0088eb7c-21ab-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="SelectionDialog" mc="Standard.Class" uid="008553c2-21ab-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="SelectionStatusDialog" mc="Standard.Class" uid="008c16d0-21ab-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="TwoPaneElementSelector" mc="Standard.Class" uid="008d55cc-21ab-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="TypeFilteringDialog" mc="Standard.Class" uid="008bb10e-21ab-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="WizardDataTransferPage" mc="Standard.Class" uid="0001a34c-0bd5-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WizardExportPage" mc="Standard.Class" uid="0001b1de-0bd5-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WizardExportResourcesPage" mc="Standard.Class" uid="0001c052-0bd5-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WizardImportPage" mc="Standard.Class" uid="0001cee4-0bd5-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WizardNewFileCreationPage" mc="Standard.Class" uid="0001dd58-0bd5-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WizardNewFolderMainPage" mc="Standard.Class" uid="0001ec1c-0bd5-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WizardNewLinkPage" mc="Standard.Class" uid="0001fb26-0bd5-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WizardNewProjectCreationPage" mc="Standard.Class" uid="00020a30-0bd5-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WizardNewProjectReferencePage" mc="Standard.Class" uid="000219a8-0bd5-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WizardResourceImportPage" mc="Standard.Class" uid="0002295c-0bd5-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WorkingSetConfigurationBlock" mc="Standard.Class" uid="00906096-21ab-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="WorkingSetGroup" mc="Standard.Class" uid="008ecb14-21ab-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="YesNoCancelListSelectionDialog" mc="Standard.Class" uid="0089e892-21ab-1fb1-8a9e-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

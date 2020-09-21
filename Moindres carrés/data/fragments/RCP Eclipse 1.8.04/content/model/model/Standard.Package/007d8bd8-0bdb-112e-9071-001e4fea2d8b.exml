@@ -1,0 +1,63 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="dom" version="4">
+  <OBJECT>
+    <ID name="dom" mc="Standard.Package" uid="007d8bd8-0bdb-112e-9071-001e4fea2d8b"/>
+    <PID name="w3c" mc="Standard.Package" uid="007ae608-0bdb-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[dom]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Attr" mc="Standard.Interface" uid="007d925e-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CDATASection" mc="Standard.Interface" uid="007d98ee-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CharacterData" mc="Standard.Interface" uid="007da078-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Comment" mc="Standard.Interface" uid="007da794-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DOMConfiguration" mc="Standard.Interface" uid="007dae92-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DOMError" mc="Standard.Interface" uid="007db612-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DOMErrorHandler" mc="Standard.Interface" uid="007dbdb0-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DOMException" mc="Standard.Class" uid="007dc3fa-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DOMImplementation" mc="Standard.Interface" uid="007dcb98-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DOMImplementationList" mc="Standard.Interface" uid="007dd3a4-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DOMImplementationSource" mc="Standard.Interface" uid="007ddb9c-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DOMLocator" mc="Standard.Interface" uid="007de40c-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DOMStringList" mc="Standard.Interface" uid="007deca4-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Document" mc="Standard.Interface" uid="007df564-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DocumentFragment" mc="Standard.Interface" uid="007dfe1a-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DocumentType" mc="Standard.Interface" uid="007e073e-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Element" mc="Standard.Interface" uid="007e10bc-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Entity" mc="Standard.Interface" uid="007e1a08-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="EntityReference" mc="Standard.Interface" uid="007e23d6-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="NameList" mc="Standard.Interface" uid="007e2dc2-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="NamedNodeMap" mc="Standard.Interface" uid="007e37e0-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Node" mc="Standard.Interface" uid="007e4230-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="NodeList" mc="Standard.Interface" uid="007e4c9e-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Notation" mc="Standard.Interface" uid="007e5702-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ProcessingInstruction" mc="Standard.Interface" uid="007e61de-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Text" mc="Standard.Interface" uid="007e6cd8-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TypeInfo" mc="Standard.Interface" uid="007e780e-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="UserDataHandler" mc="Standard.Interface" uid="007e8326-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="bootstrap" mc="Standard.Package" uid="007f2862-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="css" mc="Standard.Package" uid="007fdc8a-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="events" mc="Standard.Package" uid="00814bba-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="html" mc="Standard.Package" uid="00824452-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ls" mc="Standard.Package" uid="00858324-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ranges" mc="Standard.Package" uid="008696a6-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="smil" mc="Standard.Package" uid="00877422-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="stylesheets" mc="Standard.Package" uid="00884a82-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="svg" mc="Standard.Package" uid="008943c4-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="traversal" mc="Standard.Package" uid="00979398-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="views" mc="Standard.Package" uid="009895c2-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="xpath" mc="Standard.Package" uid="0000f7ee-0bdc-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,82 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="core" version="4">
+  <OBJECT>
+    <ID name="core" mc="Standard.Package" uid="4a803f96-7396-45ff-b1a2-91a6d53dd25b"/>
+    <PID name="bugzilla" mc="Standard.Package" uid="182c2885-72bb-409b-b705-7da97119000a"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[core]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractBugzillaOperation" mc="Standard.Class" uid="6ac25bdf-b3b3-4de7-8ff3-a7e74b29b3ad"/>
+        <COMPID name="AbstractReportFactory" mc="Standard.Class" uid="9486dd74-5bee-4540-bedb-b0b185ab8630"/>
+        <COMPID name="BugHistory" mc="Standard.Class" uid="e8a1a9da-8e9a-44ce-bb94-1f392b8bc4f3"/>
+        <COMPID name="BugzillaAttachmentMapper" mc="Standard.Class" uid="04cba759-3f2c-49ae-9132-e12abb6f17ee"/>
+        <OBJECT>
+          <ID name="BugzillaAttribute" mc="Standard.Enumeration" uid="e4129114-86a0-4df7-8692-fe64ec1eed69"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[BugzillaAttribute]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Extension">
+              <FOREIGNID name="JavaEnumeration" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0262-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <COMPID name="BugzillaAttributeMapper" mc="Standard.Class" uid="fc16a730-2692-42c0-b821-3ffc628ed809"/>
+        <COMPID name="BugzillaClient" mc="Standard.Class" uid="b822d05d-5e03-4c39-b325-96f04449e0b6"/>
+        <COMPID name="BugzillaClientFactory" mc="Standard.Class" uid="7134416c-1b91-40c4-86c9-2fd0b09e3491"/>
+        <COMPID name="BugzillaClientManager" mc="Standard.Class" uid="09bbc5de-c55e-48e2-a555-1377f304b784"/>
+        <COMPID name="BugzillaCorePlugin" mc="Standard.Class" uid="c2b36859-620f-4f46-8669-dc51ca55a4d7"/>
+        <COMPID name="BugzillaCustomField" mc="Standard.Class" uid="ff52080b-4a08-4340-b74c-c59f47ad1c0f"/>
+        <COMPID name="BugzillaFilePart" mc="Standard.Class" uid="d858b510-93e8-41c6-8e25-9c12c1eb4dd7"/>
+        <COMPID name="BugzillaFlag" mc="Standard.Class" uid="4d122d6d-7ad5-41e1-b819-00fe1d52e958"/>
+        <COMPID name="BugzillaFlagMapper" mc="Standard.Class" uid="2aa4ee31-14d9-41a0-a2a0-50caa80f0b9d"/>
+        <COMPID name="BugzillaLanguageSettings" mc="Standard.Class" uid="fb902bcd-30f1-449b-a80a-00b2524ceb36"/>
+        <COMPID name="BugzillaOperation" mc="Standard.Class" uid="6aa1de99-ebba-40e3-a8d8-bfca0a3aa6d4"/>
+        <COMPID name="BugzillaRepositoryConnector" mc="Standard.Class" uid="ff76dcbd-485f-4cc5-97a3-a7e7a1d2c7ed"/>
+        <COMPID name="BugzillaRepositoryMigrator" mc="Standard.Class" uid="05af19e6-a165-4312-bf49-87f97aa3bdc7"/>
+        <COMPID name="BugzillaRepositoryResponse" mc="Standard.Class" uid="b6298b15-fe5c-42d7-b06f-07214293eb1b"/>
+        <COMPID name="BugzillaSearch" mc="Standard.Class" uid="b0e72986-fe9e-4868-9ffc-5173b5c84a1c"/>
+        <COMPID name="BugzillaStatus" mc="Standard.Class" uid="4b6c2a36-71bb-4f61-8ac2-96b6dcde01e9"/>
+        <COMPID name="BugzillaTaskAttachmentHandler" mc="Standard.Class" uid="50c470be-7f23-4124-ae1f-f8a5fa9be6b1"/>
+        <COMPID name="BugzillaTaskDataCollector" mc="Standard.Class" uid="46b9af0e-9c56-416a-83ea-c9007e9ea59e"/>
+        <COMPID name="BugzillaTaskDataHandler" mc="Standard.Class" uid="f8a00d60-3feb-439a-88e3-377a5147cb4c"/>
+        <COMPID name="BugzillaTaskListMigrator" mc="Standard.Class" uid="7feae5b5-a65a-48b9-9f5d-2c8d036725ac"/>
+        <COMPID name="BugzillaUserMatchResponse" mc="Standard.Class" uid="ba1f4563-81bf-4cd3-97d5-9d3452ba114b"/>
+        <COMPID name="BugzillaUtil" mc="Standard.Class" uid="2b224f60-70b2-4a10-9c3d-83d7148ad331"/>
+        <COMPID name="BugzillaVersion" mc="Standard.Class" uid="42f02076-70b6-4191-9885-c68a22e9fa40"/>
+        <COMPID name="CustomTransitionManager" mc="Standard.Class" uid="7d9b084a-47ef-4a64-b654-2f9a69e1d343"/>
+        <COMPID name="GzipGetMethod" mc="Standard.Class" uid="8207ff7c-a47b-4302-8909-a435249b7594"/>
+        <COMPID name="GzipPostMethod" mc="Standard.Class" uid="743064fb-1448-4ec7-9283-076513b16048"/>
+        <COMPID name="IBugzillaConstants" mc="Standard.Interface" uid="34a19844-8f2b-47a9-98cd-31e16ad50545"/>
+        <COMPID name="Messages" mc="Standard.Class" uid="09bb4bee-5d64-460c-8fde-c2ddbbbc5371"/>
+        <COMPID name="MultiBugReportFactory" mc="Standard.Class" uid="c5139230-f4d9-4d9c-b60c-1d57ed2872c2"/>
+        <COMPID name="RepositoryConfiguration" mc="Standard.Class" uid="807871a4-4898-43e0-ae54-03f3763649ff"/>
+        <COMPID name="RepositoryConfigurationFactory" mc="Standard.Class" uid="344afce0-9c80-477d-9860-d46b0a051662"/>
+        <COMPID name="RepositoryQueryResultsFactory" mc="Standard.Class" uid="b07de0f5-3868-46ac-938b-b125eafb3b3a"/>
+        <COMPID name="SaxBugzillaQueryContentHandler" mc="Standard.Class" uid="682f3ea0-e6db-4882-a9af-734392453943"/>
+        <COMPID name="SaxConfigurationContentHandler" mc="Standard.Class" uid="956d52f6-359d-4765-b78c-22931932a9aa"/>
+        <COMPID name="SaxMultiBugReportContentHandler" mc="Standard.Class" uid="8b8dfc7c-baa5-49cf-930f-5247d116ea71"/>
+        <COMPID name="UnrecognizedReponseException" mc="Standard.Class" uid="66616b08-e67d-4558-8f1c-a4942d155858"/>
+        <COMPID name="XmlCleaner" mc="Standard.Class" uid="c45babe9-b312-4e8b-972e-a906373a6f07"/>
+        <COMPID name="service" mc="Standard.Package" uid="4783a440-cc28-4c82-9b57-9be1e6a860d9"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

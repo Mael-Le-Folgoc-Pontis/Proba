@@ -1,0 +1,71 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="lang3" version="4">
+  <OBJECT>
+    <ID name="lang3" mc="Standard.Package" uid="5a22ce01-ca4b-4c97-924f-8551fc63766c"/>
+    <PID name="commons" mc="Standard.Package" uid="0009d012-0bbd-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[lang3]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AnnotationUtils" mc="Standard.Class" uid="caaf8881-474e-484a-9a2d-51fe2a8f0fc5"/>
+        <COMPID name="ArrayUtils" mc="Standard.Class" uid="7f0052d3-abd6-4fe1-88bd-8ea664fe362b"/>
+        <COMPID name="BitField" mc="Standard.Class" uid="44097a7c-965b-4325-a7bf-a28a2ccc7548"/>
+        <COMPID name="BooleanUtils" mc="Standard.Class" uid="5b326a8a-180d-45b1-b7cd-faad9de4ac34"/>
+        <COMPID name="CharEncoding" mc="Standard.Class" uid="53e8bb69-83ae-4a5f-ab9e-2a0670ae4ee1"/>
+        <COMPID name="CharSequenceUtils" mc="Standard.Class" uid="9112cd7d-73c8-49f6-b4f7-fd5dc48f0e47"/>
+        <COMPID name="CharSet" mc="Standard.Class" uid="e18f45ae-85b3-4d6b-b957-f97d13689068"/>
+        <COMPID name="CharSetUtils" mc="Standard.Class" uid="62a7a783-6985-4da1-a592-da68a0748091"/>
+        <COMPID name="CharUtils" mc="Standard.Class" uid="15937193-99d8-4b9c-bbb7-27758ecc3191"/>
+        <COMPID name="ClassUtils" mc="Standard.Class" uid="3be7136b-9144-4a6b-8dda-18c696150c9f"/>
+        <COMPID name="EnumUtils" mc="Standard.Class" uid="e29227d7-598a-4699-a1e0-6b2d9f9e5b2e"/>
+        <OBJECT>
+          <ID name="JavaVersion" mc="Standard.Enumeration" uid="80703b9e-ce26-481b-8d99-ba45d571435e"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[JavaVersion]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Extension">
+              <FOREIGNID name="JavaEnumeration" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0262-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <COMPID name="LocaleUtils" mc="Standard.Class" uid="d6ea17f1-0b48-4585-ba0d-189e0f6bd87f"/>
+        <COMPID name="ObjectUtils" mc="Standard.Class" uid="44b114a1-9ce9-4466-83a6-f72d44fea4e1"/>
+        <COMPID name="RandomStringUtils" mc="Standard.Class" uid="70526664-110f-48d9-bfbb-04b55701d3eb"/>
+        <COMPID name="Range" mc="Standard.Class" uid="0d3eb6a1-4ef3-44f7-b040-361fef03bee4"/>
+        <COMPID name="SerializationException" mc="Standard.Class" uid="294b30a7-1a50-4698-89eb-a94063cdcee9"/>
+        <COMPID name="SerializationUtils" mc="Standard.Class" uid="046f9142-f741-4b09-a406-53c63f775bb9"/>
+        <COMPID name="StringEscapeUtils" mc="Standard.Class" uid="1de5416c-54c7-4fae-8124-a27f8fb2de53"/>
+        <COMPID name="StringUtils" mc="Standard.Class" uid="921d42d9-a7e9-4ea4-aff8-ccdea31e1c5f"/>
+        <COMPID name="SystemUtils" mc="Standard.Class" uid="93f598c1-eb23-4ce8-817b-c9bd7a1f42e2"/>
+        <COMPID name="Validate" mc="Standard.Class" uid="b6446dd1-1196-484c-a2d2-e94632f88528"/>
+        <COMPID name="builder" mc="Standard.Package" uid="fdf53427-f0f5-4707-b1be-1169a6485118"/>
+        <COMPID name="concurrent" mc="Standard.Package" uid="5392bebb-d8bd-4afa-81c4-54c838f4e549"/>
+        <COMPID name="event" mc="Standard.Package" uid="d815379d-080f-457e-8471-36d59422f287"/>
+        <COMPID name="exception" mc="Standard.Package" uid="1e598669-9311-4b89-b5d9-887df1822785"/>
+        <COMPID name="math" mc="Standard.Package" uid="13904fab-9ed3-494f-8a40-53d186324ed1"/>
+        <COMPID name="mutable" mc="Standard.Package" uid="548056f1-9437-4114-887d-27ae090ee496"/>
+        <COMPID name="reflect" mc="Standard.Package" uid="c1038b45-cfac-4fc6-a0e7-601dcdff54f1"/>
+        <COMPID name="text" mc="Standard.Package" uid="1fc6991e-da66-4da6-af49-9c0ec3ee9d83"/>
+        <COMPID name="time" mc="Standard.Package" uid="b8968f2a-3ade-42b3-a4ce-040a61196d1b"/>
+        <COMPID name="tuple" mc="Standard.Package" uid="32894b83-c846-474e-9bff-2c0483a5307d"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

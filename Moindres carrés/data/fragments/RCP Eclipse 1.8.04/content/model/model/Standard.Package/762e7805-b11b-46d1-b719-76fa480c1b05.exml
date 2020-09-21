@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="absolute" version="4">
+  <OBJECT>
+    <ID name="absolute" mc="Standard.Package" uid="762e7805-b11b-46d1-b719-76fa480c1b05"/>
+    <PID name="layout" mc="Standard.Package" uid="6746026d-5c50-4d4b-b179-2f415e7a5078"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[absolute]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbsoluteBasedLayoutEditPolicy" mc="Standard.Class" uid="5e4e0a3d-18a5-4406-a564-5c026c218bc5"/>
+        <COMPID name="AbsoluteBasedSelectionEditPolicy" mc="Standard.Class" uid="d4b6b068-7daa-4120-9fa5-6ad612d3c740"/>
+        <COMPID name="AbsoluteComplexSelectionEditPolicy" mc="Standard.Class" uid="bbd808b8-7965-4f7c-afc6-18123c670489"/>
+        <COMPID name="AbsoluteLayoutSelectionEditPolicy" mc="Standard.Class" uid="b4e190d9-b5c7-4e4b-832b-05299966b2c2"/>
+        <COMPID name="AbsolutePolicyUtils" mc="Standard.Class" uid="ee80db4d-3550-456a-b543-e450a2ff6f7a"/>
+        <COMPID name="DotsFeedback" mc="Standard.Class" uid="8bc52355-5edf-4d75-88b9-4224d07fd525"/>
+        <COMPID name="KeyboardMovingLayoutEditPolicy" mc="Standard.Class" uid="cc5fbd2c-48ca-4827-a8ca-f99525d85f11"/>
+        <COMPID name="LineEndFigure" mc="Standard.Class" uid="af433721-498a-4233-ba0a-b2910bc9d9c0"/>
+        <COMPID name="actions" mc="Standard.Package" uid="870cdf61-fa18-491f-bda7-31b72b19877f"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

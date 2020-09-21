@@ -1,0 +1,64 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="zip" version="4">
+  <OBJECT>
+    <ID name="zip" mc="Standard.Package" uid="0001d0b0-0bbf-112e-9071-001e4fea2d8b"/>
+    <PID name="tools" mc="Standard.Package" uid="001f9fbe-0bbe-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[zip]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractUnicodeExtraField" mc="Standard.Class" uid="0001d786-0bbf-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AsiExtraField" mc="Standard.Class" uid="0001df06-0bbf-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CentralDirectoryParsingZipExtraField" mc="Standard.Interface" uid="0001e5c8-0bbf-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ExtraFieldUtils" mc="Standard.Class" uid="0001ed98-0bbf-112e-9071-001e4fea2d8b"/>
+        <COMPID name="GeneralPurposeBit" mc="Standard.Class" uid="c66f2e63-48ad-4a69-bf19-6a52ad6f2cf3"/>
+        <COMPID name="JarMarker" mc="Standard.Class" uid="00020c4c-0bbf-112e-9071-001e4fea2d8b"/>
+        <COMPID name="UnicodeCommentExtraField" mc="Standard.Class" uid="00023442-0bbf-112e-9071-001e4fea2d8b"/>
+        <COMPID name="UnicodePathExtraField" mc="Standard.Class" uid="00023d0c-0bbf-112e-9071-001e4fea2d8b"/>
+        <COMPID name="UnixStat" mc="Standard.Interface" uid="00024482-0bbf-112e-9071-001e4fea2d8b"/>
+        <COMPID name="UnparseableExtraFieldData" mc="Standard.Class" uid="00024d6a-0bbf-112e-9071-001e4fea2d8b"/>
+        <COMPID name="UnrecognizedExtraField" mc="Standard.Class" uid="000256d4-0bbf-112e-9071-001e4fea2d8b"/>
+        <COMPID name="UnsupportedZipFeatureException" mc="Standard.Class" uid="5ae106df-48a5-4f27-a39a-57e80427319f"/>
+        <COMPID name="Zip64ExtendedInformationExtraField" mc="Standard.Class" uid="30a64616-cfcf-4110-8df3-5c2c99c1ebeb"/>
+        <OBJECT>
+          <ID name="Zip64Mode" mc="Standard.Enumeration" uid="15e7f154-32f5-4227-b19e-73b1f08a7b11"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[Zip64Mode]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Extension">
+              <FOREIGNID name="JavaEnumeration" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0262-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <COMPID name="Zip64RequiredException" mc="Standard.Class" uid="a8ffaff3-bb09-4251-851f-86fa225d4219"/>
+        <COMPID name="ZipEightByteInteger" mc="Standard.Class" uid="61304265-dacd-45bd-b5d6-0594d6a06097"/>
+        <COMPID name="ZipEncoding" mc="Standard.Interface" uid="4ed11c43-1250-4069-8012-1dce8924458c"/>
+        <COMPID name="ZipEncodingHelper" mc="Standard.Class" uid="e7c0ac44-d6f5-47a5-b415-3af60685651c"/>
+        <COMPID name="ZipEntry" mc="Standard.Class" uid="000280b4-0bbf-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ZipExtraField" mc="Standard.Interface" uid="000288e8-0bbf-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ZipFile" mc="Standard.Class" uid="000292c0-0bbf-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ZipLong" mc="Standard.Class" uid="0002c25e-0bbf-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ZipOutputStream" mc="Standard.Class" uid="0002cc9a-0bbf-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ZipShort" mc="Standard.Class" uid="0002e5a4-0bbf-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ZipUtil" mc="Standard.Class" uid="0002f080-0bbf-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

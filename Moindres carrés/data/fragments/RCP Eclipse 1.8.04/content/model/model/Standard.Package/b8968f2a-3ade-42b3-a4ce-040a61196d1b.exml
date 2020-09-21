@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="time" version="4">
+  <OBJECT>
+    <ID name="time" mc="Standard.Package" uid="b8968f2a-3ade-42b3-a4ce-040a61196d1b"/>
+    <PID name="lang3" mc="Standard.Package" uid="5a22ce01-ca4b-4c97-924f-8551fc63766c"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[time]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="DateFormatUtils" mc="Standard.Class" uid="87881443-2875-46fd-8746-1bc28c83cb45"/>
+        <COMPID name="DateUtils" mc="Standard.Class" uid="3185a497-6bd0-4717-a1cb-ad9d8f5e50d3"/>
+        <COMPID name="DurationFormatUtils" mc="Standard.Class" uid="c0bcf058-192f-40eb-ba00-7b01a3b562a9"/>
+        <COMPID name="FastDateFormat" mc="Standard.Class" uid="6bce6fa8-e43e-4f03-831a-d5d8bec7f43a"/>
+        <COMPID name="StopWatch" mc="Standard.Class" uid="94e69603-c082-429b-b48f-d618627938ad"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

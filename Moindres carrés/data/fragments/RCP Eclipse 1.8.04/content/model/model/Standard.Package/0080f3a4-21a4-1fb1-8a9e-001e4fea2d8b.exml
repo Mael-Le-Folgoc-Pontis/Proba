@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="swt" version="4">
+  <OBJECT>
+    <ID name="swt" mc="Standard.Package" uid="0080f3a4-21a4-1fb1-8a9e-001e4fea2d8b"/>
+    <PID name="workbench" mc="Standard.Package" uid="007f4824-21a4-1fb1-8a9e-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[swt]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractPartRenderer" mc="Standard.Class" uid="00871a36-21a4-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="AnimationEngine" mc="Standard.Class" uid="0085eb5c-21a4-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="AnimationFeedbackBase" mc="Standard.Class" uid="0089e72a-21a4-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="CSSConstants" mc="Standard.Class" uid="989ea755-1e49-41b1-949b-cfb1fe6777da"/>
+        <COMPID name="CSSRenderingUtils" mc="Standard.Class" uid="0084e478-21a4-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="E4Application" mc="Standard.Class" uid="00874966-21a4-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="E4Testable" mc="Standard.Class" uid="0083e424-21a4-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="FaderAnimationFeedback" mc="Standard.Class" uid="0084858c-21a4-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="GenTopic" mc="Standard.Class" uid="00854c10-21a4-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="IEventLoopAdvisor" mc="Standard.Interface" uid="0089b5fc-21a4-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="MenuService" mc="Standard.Class" uid="b317bce1-5b37-4905-828f-6e7a62d06cd1"/>
+        <COMPID name="MenuServiceCreationFunction" mc="Standard.Class" uid="fc09cc0c-560c-457d-9414-1fdef995a472"/>
+        <COMPID name="PartRenderingEngine" mc="Standard.Class" uid="008908a0-21a4-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="Policy" mc="Standard.Class" uid="00868864-21a4-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ResourceUtility" mc="Standard.Class" uid="0086b6c2-21a4-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="SelectionAdapterFactory" mc="Standard.Class" uid="00886774-21a4-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ShellActivationListener" mc="Standard.Class" uid="008a17f4-21a4-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="StatusReporterCreationFunction" mc="Standard.Class" uid="008837b8-21a4-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="WorkbenchSWTActivator" mc="Standard.Class" uid="00811050-21a4-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="WorkbenchStatusReporter" mc="Standard.Class" uid="008377aa-21a4-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="handlers" mc="Standard.Package" uid="0082cc4c-21a4-1fb1-8a9e-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

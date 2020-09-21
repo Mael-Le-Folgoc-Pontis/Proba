@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="codehaus" version="4">
+  <OBJECT>
+    <ID name="codehaus" mc="Standard.Package" uid="3f7575f8-1a58-4389-bdbc-7371f8d7e7c8"/>
+    <PID name="org" mc="Standard.Package" uid="0006919a-219f-1fb1-8a9e-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[codehaus]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="classworlds" mc="Standard.Package" uid="30127551-fff1-4d66-bf79-38db4d6af12f"/>
+        <COMPID name="plexus" mc="Standard.Package" uid="c67b106c-3a65-4ab5-8e13-78f5c00efd85"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

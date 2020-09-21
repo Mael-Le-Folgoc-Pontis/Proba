@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="jres" version="4">
+  <OBJECT>
+    <ID name="jres" mc="Standard.Package" uid="002eba4e-0bca-112e-9071-001e4fea2d8b"/>
+    <PID name="ui" mc="Standard.Package" uid="001ad2fe-0bca-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[jres]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AddVMInstallWizard" mc="Standard.Class" uid="002ec07a-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BuildJREDescriptor" mc="Standard.Class" uid="002ec6d8-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="EEVMPage" mc="Standard.Class" uid="002ecd4a-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="EditVMInstallWizard" mc="Standard.Class" uid="002ed3bc-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ExecutionEnvironmentsLabelProvider" mc="Standard.Class" uid="002eda9c-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ExecutionEnvironmentsPreferencePage" mc="Standard.Class" uid="002ee1ea-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IAddVMDialogRequestor" mc="Standard.Interface" uid="002eedca-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="InstalledJREsBlock" mc="Standard.Class" uid="002ef5b8-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JREContainerWizardPage" mc="Standard.Class" uid="002f092c-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JREDescriptor" mc="Standard.Class" uid="002f10a2-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JREMessages" mc="Standard.Class" uid="002f18a4-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JREsComboBlock" mc="Standard.Class" uid="002f20c4-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JREsEnvironmentComparator" mc="Standard.Class" uid="002f28c6-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JREsEnvironmentLabelProvider" mc="Standard.Class" uid="002f312c-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JREsLabelProvider" mc="Standard.Class" uid="002f4004-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JREsPreferencePage" mc="Standard.Class" uid="002f48d8-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JREsUpdater" mc="Standard.Class" uid="002f51e8-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LibraryContentProvider" mc="Standard.Class" uid="002f5ae4-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LibraryLabelProvider" mc="Standard.Class" uid="002f6a3e-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LibraryStandin" mc="Standard.Class" uid="002f73a8-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="StandardVMCommandTab" mc="Standard.Class" uid="002f880c-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="StandardVMPage" mc="Standard.Class" uid="002f920c-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="VMDetailsDialog" mc="Standard.Class" uid="002f9c7a-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="VMInstallWizard" mc="Standard.Class" uid="002fa72e-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="VMLibraryBlock" mc="Standard.Class" uid="002fb1c4-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="VMTypePage" mc="Standard.Class" uid="002fbd22-0bca-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

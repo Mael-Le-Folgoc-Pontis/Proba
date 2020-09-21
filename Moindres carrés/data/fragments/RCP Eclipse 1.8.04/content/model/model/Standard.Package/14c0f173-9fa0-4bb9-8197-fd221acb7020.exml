@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="analysis" version="4">
+  <OBJECT>
+    <ID name="analysis" mc="Standard.Package" uid="14c0f173-9fa0-4bb9-8197-fd221acb7020"/>
+    <PID name="math" mc="Standard.Package" uid="6f81fdc4-2ff0-400d-8d89-7999bec4c6cd"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[analysis]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="BinaryFunction" mc="Standard.Class" uid="e6a98d13-d59f-4813-a0c7-07a4bbe5939c"/>
+        <COMPID name="BivariateRealFunction" mc="Standard.Interface" uid="302736eb-9017-4109-9a98-6bc74fc9badb"/>
+        <COMPID name="ComposableFunction" mc="Standard.Class" uid="82397ff5-8707-4860-8e4e-7d085ea7293f"/>
+        <COMPID name="DifferentiableMultivariateRealFunction" mc="Standard.Interface" uid="74e7d6bc-f859-4032-be5a-61b4d9f72c8e"/>
+        <COMPID name="DifferentiableMultivariateVectorialFunction" mc="Standard.Interface" uid="3df73abd-3379-4fdf-ab58-5d5760063371"/>
+        <COMPID name="DifferentiableUnivariateMatrixFunction" mc="Standard.Interface" uid="3c2c58d3-43da-49e1-9782-d7ccc4089330"/>
+        <COMPID name="DifferentiableUnivariateRealFunction" mc="Standard.Interface" uid="a406b07d-55dd-4b0c-8c8e-f514444cdc6b"/>
+        <COMPID name="DifferentiableUnivariateVectorialFunction" mc="Standard.Interface" uid="598fc0f5-0997-4a70-9787-e1b9c7fa3ca9"/>
+        <COMPID name="MultivariateMatrixFunction" mc="Standard.Interface" uid="e5fed4bc-6f94-4116-b74d-cebc2ab6c90f"/>
+        <COMPID name="MultivariateRealFunction" mc="Standard.Interface" uid="ac8e6be6-e323-465d-a0ce-5aad2a89d528"/>
+        <COMPID name="MultivariateVectorialFunction" mc="Standard.Interface" uid="eee1d5ef-a67b-4d9c-97af-25fc0e51c41f"/>
+        <COMPID name="UnivariateMatrixFunction" mc="Standard.Interface" uid="9e62143f-f463-47e9-ae56-7f74e51a39bf"/>
+        <COMPID name="UnivariateRealFunction" mc="Standard.Interface" uid="42bac2e5-e31a-45e8-ab27-ed45d0b66fc2"/>
+        <COMPID name="UnivariateVectorialFunction" mc="Standard.Interface" uid="2b4e4c85-3176-474f-a503-c3e142770cd0"/>
+        <COMPID name="integration" mc="Standard.Package" uid="33425278-655b-432d-8693-afcdbb9e0048"/>
+        <COMPID name="interpolation" mc="Standard.Package" uid="c0ff5561-8bc0-4bee-8e43-fd3593ffb072"/>
+        <COMPID name="polynomials" mc="Standard.Package" uid="1d51536b-7be1-4f9d-9646-6ae9e2ab588f"/>
+        <COMPID name="solvers" mc="Standard.Package" uid="ab6a2d73-6e55-4396-bbc0-467f5d451fc1"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

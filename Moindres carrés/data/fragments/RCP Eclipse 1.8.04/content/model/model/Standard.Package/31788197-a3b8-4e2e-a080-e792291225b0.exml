@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="quickscan" version="4">
+  <OBJECT>
+    <ID name="quickscan" mc="Standard.Package" uid="31788197-a3b8-4e2e-a080-e792291225b0"/>
+    <PID name="search" mc="Standard.Package" uid="6235c7ef-c807-4d7c-8f08-42b01780ebd2"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[quickscan]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="XMLQuickScan" mc="Standard.Class" uid="bf2a491d-1c91-4f97-b22a-eee5adb5970e"/>
+        <COMPID name="XMLQuickScanContentHandler" mc="Standard.Class" uid="a784c6f4-2f51-4849-80ed-a22de78e759e"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

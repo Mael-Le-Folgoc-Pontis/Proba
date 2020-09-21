@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="transform" version="4">
+  <OBJECT>
+    <ID name="transform" mc="Standard.Package" uid="6dc3d0cb-9ec4-401b-9d3d-33b43b6039ed"/>
+    <PID name="cglib" mc="Standard.Package" uid="2bf8a8fe-acc9-4c36-86d5-2828785e1d53"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[transform]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractClassFilterTransformer" mc="Standard.Class" uid="26119a4e-ea73-4e81-9b0d-419ec12cb39a"/>
+        <COMPID name="AbstractClassLoader" mc="Standard.Class" uid="8a326077-bd4e-45a9-848e-0babb055cfac"/>
+        <COMPID name="AbstractClassTransformer" mc="Standard.Class" uid="d0fda217-a873-4f9d-a75d-56e07d04d241"/>
+        <COMPID name="AbstractProcessTask" mc="Standard.Class" uid="9b72f12e-ea0a-42ad-803b-474dbeeb8059"/>
+        <COMPID name="AbstractTransformTask" mc="Standard.Class" uid="7bf3f1d0-ea41-4d17-a74c-7e3553cc547b"/>
+        <COMPID name="AnnotationVisitorTee" mc="Standard.Class" uid="411a9932-8ed0-49a3-9bd2-c9c4867ea46c"/>
+        <COMPID name="ClassEmitterTransformer" mc="Standard.Class" uid="086c0b3e-4705-4ea7-ad16-d50469184901"/>
+        <COMPID name="ClassFilter" mc="Standard.Interface" uid="d8db46a8-8f3b-42c6-8525-947b78c39af5"/>
+        <COMPID name="ClassFilterTransformer" mc="Standard.Class" uid="d648ec67-6ad4-4981-a978-6c0573eadf98"/>
+        <COMPID name="ClassReaderGenerator" mc="Standard.Class" uid="78cd4535-b325-472b-8023-e01154f77612"/>
+        <COMPID name="ClassTransformer" mc="Standard.Interface" uid="d7a54fe6-2e4e-4df6-bbc2-ec7e0da10ca0"/>
+        <COMPID name="ClassTransformerChain" mc="Standard.Class" uid="2f71358b-8df9-403f-a320-a0edd2350974"/>
+        <COMPID name="ClassTransformerFactory" mc="Standard.Interface" uid="487b7daf-a306-4997-9f64-07f6ed627ecb"/>
+        <COMPID name="ClassTransformerTee" mc="Standard.Class" uid="93a8479e-45cf-4e3c-b4d2-7d472f93c398"/>
+        <COMPID name="ClassVisitorTee" mc="Standard.Class" uid="7f3b9f81-1b52-4552-bc43-a08e7a9df131"/>
+        <COMPID name="FieldVisitorTee" mc="Standard.Class" uid="9a438e30-2f6a-4e74-a374-01f39cbb2728"/>
+        <COMPID name="MethodFilter" mc="Standard.Interface" uid="6f8d31c6-ddc6-4cec-9cb3-79209f88f65c"/>
+        <COMPID name="MethodFilterTransformer" mc="Standard.Class" uid="53f6eb17-4764-4eed-af27-cb2bfbc5ef8e"/>
+        <COMPID name="MethodVisitorTee" mc="Standard.Class" uid="78b5581c-78ab-4468-a4b8-6c42e824a22c"/>
+        <COMPID name="TransformingClassGenerator" mc="Standard.Class" uid="c29fdbcb-2087-4300-83c6-8e9bbc324371"/>
+        <COMPID name="TransformingClassLoader" mc="Standard.Class" uid="de9757ed-bc05-46d8-a1d9-b90001aceb63"/>
+        <COMPID name="impl" mc="Standard.Package" uid="b7910f9a-390d-4a72-ae4f-9d1622c5b04e"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

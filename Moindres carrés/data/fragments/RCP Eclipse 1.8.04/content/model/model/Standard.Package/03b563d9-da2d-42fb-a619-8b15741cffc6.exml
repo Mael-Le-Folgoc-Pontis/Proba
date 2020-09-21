@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ui" version="4">
+  <OBJECT>
+    <ID name="ui" mc="Standard.Package" uid="03b563d9-da2d-42fb-a619-8b15741cffc6"/>
+    <PID name="team" mc="Standard.Package" uid="b6667616-ba57-4220-a31d-e84c48203939"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[ui]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractCommitWorkflowProvider" mc="Standard.Class" uid="f3b16270-aebf-48f0-8012-92bee9491b0b"/>
+        <COMPID name="ContextActiveChangeSetManager" mc="Standard.Class" uid="62cf7063-6a09-47c9-b58e-ec3c5f004ed5"/>
+        <COMPID name="ContextChangeSet" mc="Standard.Class" uid="ef096d9f-3e23-4830-ad15-635c54418029"/>
+        <COMPID name="ContextChangeSetDecorator" mc="Standard.Class" uid="0b8e4d58-5e86-4d45-8029-65e2c3b616a5"/>
+        <COMPID name="FocusedTeamExtensionPointReader" mc="Standard.Class" uid="7900e371-8cfb-4d70-b970-2bbc3ed977e8"/>
+        <COMPID name="FocusedTeamUiPlugin" mc="Standard.Class" uid="9355ae0a-bff3-4ad3-b0ed-35b2edcf2518"/>
+        <COMPID name="LinkedTaskInfo" mc="Standard.Class" uid="b7ed9962-b3b7-4b50-88fc-d841002f2757"/>
+        <COMPID name="LinkedTaskInfoAdapterFactory" mc="Standard.Class" uid="89f12fa7-7bbb-4ce4-b6b9-c0f420e45d8e"/>
+        <COMPID name="Messages" mc="Standard.Class" uid="33ee35b4-b945-462f-ab77-9240fabbf431"/>
+        <COMPID name="actions" mc="Standard.Package" uid="e60453a0-e5a3-4169-a93d-c964b2529fc3"/>
+        <COMPID name="history" mc="Standard.Package" uid="5e92ecec-129e-4045-a327-975e971aa37a"/>
+        <COMPID name="preferences" mc="Standard.Package" uid="76c73ea4-cbd0-4ee4-b025-3a5dade91ce1"/>
+        <COMPID name="properties" mc="Standard.Package" uid="cbfb3826-ccf6-4e36-867c-b62ecf4fe7f8"/>
+        <COMPID name="templates" mc="Standard.Package" uid="57e59343-cb61-422d-89b8-bec72308fe3c"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

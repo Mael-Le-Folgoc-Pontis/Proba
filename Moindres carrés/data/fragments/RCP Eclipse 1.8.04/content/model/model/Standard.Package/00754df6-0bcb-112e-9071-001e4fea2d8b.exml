@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="newsourcepage" version="4">
+  <OBJECT>
+    <ID name="newsourcepage" mc="Standard.Package" uid="00754df6-0bcb-112e-9071-001e4fea2d8b"/>
+    <PID name="buildpaths" mc="Standard.Package" uid="006f8e5c-0bcb-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[newsourcepage]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AddArchiveToBuildpathAction" mc="Standard.Class" uid="00755490-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AddFolderToBuildpathAction" mc="Standard.Class" uid="00755ab2-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AddLibraryToBuildpathAction" mc="Standard.Class" uid="00756124-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AddSelectedLibraryToBuildpathAction" mc="Standard.Class" uid="007567d2-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BuildpathModifierAction" mc="Standard.Class" uid="00756e76-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ClasspathModifierDropDownAction" mc="Standard.Class" uid="0075757e-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ClasspathModifierQueries" mc="Standard.Class" uid="00757cb8-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ConfigureBuildPathAction" mc="Standard.Class" uid="0075cda8-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CreateLinkedSourceFolderAction" mc="Standard.Class" uid="0075d578-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CreateLinkedSourceFolderAction2" mc="Standard.Class" uid="0075dd48-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CreateSourceFolderAction" mc="Standard.Class" uid="0075e55e-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CreateSourceFolderAction2" mc="Standard.Class" uid="0075ed56-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DialogPackageExplorer" mc="Standard.Class" uid="0075f5bc-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DialogPackageExplorerActionGroup" mc="Standard.Class" uid="00761eac-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="EditFilterAction" mc="Standard.Class" uid="0076276c-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="EditOutputFolderAction" mc="Standard.Class" uid="00763068-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ExcludeFromBuildpathAction" mc="Standard.Class" uid="0076396e-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="GenerateBuildPathActionGroup" mc="Standard.Class" uid="007642ce-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HelpAction" mc="Standard.Class" uid="007664a2-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HintTextGroup" mc="Standard.Class" uid="00766e3e-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IncludeToBuildpathAction" mc="Standard.Class" uid="00767834-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="NewSourceContainerWorkbookPage" mc="Standard.Class" uid="00768270-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RemoveFromBuildpathAction" mc="Standard.Class" uid="00768c98-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ResetAction" mc="Standard.Class" uid="0076a200-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ResetAllAction" mc="Standard.Class" uid="0076acc8-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ResetAllOutputFoldersAction" mc="Standard.Class" uid="0076b7ea-0bcb-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

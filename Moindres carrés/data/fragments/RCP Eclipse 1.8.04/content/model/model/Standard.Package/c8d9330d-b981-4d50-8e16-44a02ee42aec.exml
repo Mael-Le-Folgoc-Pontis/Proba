@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="composite" version="4">
+  <OBJECT>
+    <ID name="composite" mc="Standard.Package" uid="c8d9330d-b981-4d50-8e16-44a02ee42aec"/>
+    <PID name="converters" mc="Standard.Package" uid="5a8c2bad-004b-46cf-a1bd-f2356d7b2c3b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[composite]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractCollectionConverter" mc="Standard.Class" uid="d83b3d36-649f-412f-9a14-90103babef62"/>
+        <COMPID name="ArrayConverter" mc="Standard.Class" uid="3c556a4d-a61a-4449-95e2-62d22e18126d"/>
+        <COMPID name="CollectionConverter" mc="Standard.Class" uid="1c7b03e9-54bf-481d-9b3b-fb6d69e907e7"/>
+        <COMPID name="MapConverter" mc="Standard.Class" uid="ce121d88-9a69-4e7a-909a-25008264fc2f"/>
+        <COMPID name="ObjectWithFieldsConverter" mc="Standard.Class" uid="e44f3c43-c883-4f07-83e7-8f5811952741"/>
+        <COMPID name="PlexusConfigurationConverter" mc="Standard.Class" uid="92aa0a6c-6dff-483b-9e68-38a0a233ab62"/>
+        <COMPID name="PropertiesConverter" mc="Standard.Class" uid="b96c2bfb-cbb7-48ab-b1a6-b131c9297def"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

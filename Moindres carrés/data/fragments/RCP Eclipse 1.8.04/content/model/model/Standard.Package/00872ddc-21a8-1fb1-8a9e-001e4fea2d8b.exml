@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="consumable" version="4">
+  <OBJECT>
+    <ID name="consumable" mc="Standard.Package" uid="00872ddc-21a8-1fb1-8a9e-001e4fea2d8b"/>
+    <PID name="internal" mc="Standard.Package" uid="0085a75a-21a8-1fb1-8a9e-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[consumable]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="StructuredTextComma" mc="Standard.Class" uid="7c8c43c3-fb12-4420-a689-f8e07aa42695"/>
+        <COMPID name="StructuredTextEmail" mc="Standard.Class" uid="5c9d1ec6-fe8d-42a5-aa3a-f53dc10b23e5"/>
+        <COMPID name="StructuredTextFile" mc="Standard.Class" uid="0235037e-c934-4488-a26f-3fade2bd4eb0"/>
+        <COMPID name="StructuredTextJava" mc="Standard.Class" uid="b3ee989a-f92a-4aff-8e26-726fc667b14b"/>
+        <COMPID name="StructuredTextRegex" mc="Standard.Class" uid="49457fb8-e9f1-46a7-a6d5-25e631ead818"/>
+        <COMPID name="StructuredTextSql" mc="Standard.Class" uid="a43d5741-8d3d-4051-9b45-14ddd38d21ad"/>
+        <COMPID name="StructuredTextURL" mc="Standard.Class" uid="62c09a6c-9e16-4cf0-bb9e-b98a26d83b39"/>
+        <COMPID name="StructuredTextUnderscore" mc="Standard.Class" uid="fb0eacd0-e72b-4de7-b291-0429aef9d0ab"/>
+        <COMPID name="StructuredTextXPath" mc="Standard.Class" uid="25aab3fd-f5ba-4fc2-9cf0-1ae78be61939"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

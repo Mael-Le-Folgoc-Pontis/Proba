@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="concurrent" version="4">
+  <OBJECT>
+    <ID name="concurrent" mc="Standard.Package" uid="2d0e4fb4-c724-4a4f-b148-d50ba9261323"/>
+    <PID name="http" mc="Standard.Package" uid="69579971-0298-4981-9fc7-48c3562d4504"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[concurrent]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="BasicFuture" mc="Standard.Class" uid="2408077c-4982-40ad-ab67-43348d7273fa"/>
+        <COMPID name="Cancellable" mc="Standard.Interface" uid="35257835-b0ea-415c-84ed-948a78f36f3f"/>
+        <COMPID name="FutureCallback" mc="Standard.Interface" uid="34b9f8ca-9095-41e1-ace7-ba3db41f204e"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

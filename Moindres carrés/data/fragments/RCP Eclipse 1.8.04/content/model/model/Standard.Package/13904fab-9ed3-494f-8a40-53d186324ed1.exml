@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="math" version="4">
+  <OBJECT>
+    <ID name="math" mc="Standard.Package" uid="13904fab-9ed3-494f-8a40-53d186324ed1"/>
+    <PID name="lang3" mc="Standard.Package" uid="5a22ce01-ca4b-4c97-924f-8551fc63766c"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[math]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Fraction" mc="Standard.Class" uid="7badd1cf-d42d-4138-86dd-20cd7955458d"/>
+        <COMPID name="IEEE754rUtils" mc="Standard.Class" uid="d67e1e57-7ae3-40d1-8a73-d6d2df513ff6"/>
+        <COMPID name="NumberUtils" mc="Standard.Class" uid="cc2a7444-5a10-4c83-8d13-ac05cce8ad90"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

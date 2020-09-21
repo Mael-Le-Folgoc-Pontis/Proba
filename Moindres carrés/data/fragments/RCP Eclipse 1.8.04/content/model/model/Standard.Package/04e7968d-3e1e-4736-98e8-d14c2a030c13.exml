@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="builder" version="4">
+  <OBJECT>
+    <ID name="builder" mc="Standard.Package" uid="04e7968d-3e1e-4736-98e8-d14c2a030c13"/>
+    <PID name="internal" mc="Standard.Package" uid="999b298b-d15f-4f3b-8e5a-71f986a32262"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[builder]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="DependencyGraph" mc="Standard.Class" uid="067f5e34-72e9-4fb0-8e39-2e4ad66cc1ed"/>
+        <COMPID name="DependencyGraphEvent" mc="Standard.Class" uid="dfb31c93-6c94-47e6-8139-0ca98fd4b88a"/>
+        <COMPID name="DependencyGraphImpl" mc="Standard.Class" uid="cb5c619a-e3f3-4e8b-9141-6cc5e3761040"/>
+        <COMPID name="DependencyGraphManager" mc="Standard.Class" uid="67ee2dea-8f8f-4e13-b37a-0673293cce7e"/>
+        <COMPID name="IDependencyGraph" mc="Standard.Interface" uid="a9e5e6b5-a762-4efa-b3ab-e0e321ef5ba2"/>
+        <COMPID name="IDependencyGraphListener" mc="Standard.Interface" uid="494528e6-db5d-4799-a07e-95ba88e7ed81"/>
+        <COMPID name="IDependencyGraphReferences" mc="Standard.Interface" uid="3c0e3405-933c-4cd2-935f-baffc2ba74f5"/>
+        <COMPID name="IDependencyGraphUpdateEvent" mc="Standard.Interface" uid="d8f482fd-e60b-4427-ad49-85a0b4a084d1"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

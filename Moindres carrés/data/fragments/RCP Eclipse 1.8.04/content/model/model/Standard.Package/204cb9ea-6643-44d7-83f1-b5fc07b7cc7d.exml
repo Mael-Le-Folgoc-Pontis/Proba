@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="nonstiff" version="4">
+  <OBJECT>
+    <ID name="nonstiff" mc="Standard.Package" uid="204cb9ea-6643-44d7-83f1-b5fc07b7cc7d"/>
+    <PID name="ode" mc="Standard.Package" uid="2df3d1cc-baf1-4160-94e9-6cf8cf82e8f5"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[nonstiff]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AdamsBashforthIntegrator" mc="Standard.Class" uid="ae989dfb-fd4b-4c75-b834-2e606d6298ab"/>
+        <COMPID name="AdamsIntegrator" mc="Standard.Class" uid="104dc635-a61f-4764-b740-2c500bb92225"/>
+        <COMPID name="AdamsMoultonIntegrator" mc="Standard.Class" uid="154c2080-ac86-448d-9d49-f648e4e6736b"/>
+        <COMPID name="AdamsNordsieckTransformer" mc="Standard.Class" uid="54295868-14f8-4208-a12e-b08289539759"/>
+        <COMPID name="AdaptiveStepsizeIntegrator" mc="Standard.Class" uid="5a9accbb-99ad-41db-9367-c39038996e49"/>
+        <COMPID name="ClassicalRungeKuttaIntegrator" mc="Standard.Class" uid="e10f4a08-c400-4b1b-84b4-761aa4e6b48d"/>
+        <COMPID name="DormandPrince54Integrator" mc="Standard.Class" uid="98650376-4f28-42b8-a778-9a87933d4604"/>
+        <COMPID name="DormandPrince853Integrator" mc="Standard.Class" uid="ef46b8d9-ae9f-46e9-9f83-1bffadc09983"/>
+        <COMPID name="EmbeddedRungeKuttaIntegrator" mc="Standard.Class" uid="8c69036d-05eb-46b3-8b03-097136407805"/>
+        <COMPID name="EulerIntegrator" mc="Standard.Class" uid="a3649185-f6e5-471d-b11f-54e43e7d7432"/>
+        <COMPID name="GillIntegrator" mc="Standard.Class" uid="19b23f7a-5bd6-4d81-8f5b-d5f147ebaaf7"/>
+        <COMPID name="GraggBulirschStoerIntegrator" mc="Standard.Class" uid="0996918d-1c91-4ffb-8b09-20da58fae405"/>
+        <COMPID name="HighamHall54Integrator" mc="Standard.Class" uid="bf1e82d3-2350-47fb-9409-c14f39b2be59"/>
+        <COMPID name="MidpointIntegrator" mc="Standard.Class" uid="74c6d66e-564b-4c02-b8c8-1128955bd0ab"/>
+        <COMPID name="RungeKuttaIntegrator" mc="Standard.Class" uid="180e6685-f44d-4669-bb7f-09a42fcb99c4"/>
+        <COMPID name="ThreeEighthesIntegrator" mc="Standard.Class" uid="b5c1ae6c-0f2a-457f-9c64-7e59cfa0f8a1"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

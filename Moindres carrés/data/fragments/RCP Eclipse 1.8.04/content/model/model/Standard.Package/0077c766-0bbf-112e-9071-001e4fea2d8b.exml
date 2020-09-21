@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="manipulation" version="4">
+  <OBJECT>
+    <ID name="manipulation" mc="Standard.Package" uid="0077c766-0bbf-112e-9071-001e4fea2d8b"/>
+    <PID name="filebuffers" mc="Standard.Package" uid="0076859a-0bbf-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[manipulation]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ContainerCreator" mc="Standard.Class" uid="0077ce78-0bbf-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ConvertLineDelimitersOperation" mc="Standard.Class" uid="0077d5f8-0bbf-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FileBufferOperationRunner" mc="Standard.Class" uid="0077dd96-0bbf-112e-9071-001e4fea2d8b"/>
+        <COMPID name="GenericFileBufferOperationRunner" mc="Standard.Class" uid="0077ed68-0bbf-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IFileBufferOperation" mc="Standard.Interface" uid="0077f48e-0bbf-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MultiTextEditWithProgress" mc="Standard.Class" uid="0077fcf4-0bbf-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RemoveTrailingWhitespaceOperation" mc="Standard.Class" uid="0078051e-0bbf-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TextFileBufferOperation" mc="Standard.Class" uid="00780db6-0bbf-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

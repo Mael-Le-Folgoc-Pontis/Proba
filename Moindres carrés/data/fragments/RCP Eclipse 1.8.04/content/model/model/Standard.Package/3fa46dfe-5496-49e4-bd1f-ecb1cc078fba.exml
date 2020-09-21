@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="jar" version="4">
+  <OBJECT>
+    <ID name="jar" mc="Standard.Package" uid="3fa46dfe-5496-49e4-bd1f-ecb1cc078fba"/>
+    <PID name="archivers" mc="Standard.Package" uid="4532fdb7-0b49-4b6f-a887-708552929eb5"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[jar]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="JarArchiveEntry" mc="Standard.Class" uid="93a20013-a8ea-4921-a10f-83a9a63e1746"/>
+        <COMPID name="JarArchiveInputStream" mc="Standard.Class" uid="ba898055-f968-4741-b046-e13677aca53d"/>
+        <COMPID name="JarArchiveOutputStream" mc="Standard.Class" uid="3ff81c19-a187-472b-8c94-c7a70834f249"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

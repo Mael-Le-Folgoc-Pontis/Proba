@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="dto" version="4">
+  <OBJECT>
+    <ID name="dto" mc="Standard.Package" uid="86937cab-efd4-43f5-870a-d1b89fc17f81"/>
+    <PID name="runtime" mc="Standard.Package" uid="2caf0aea-0819-4cce-b728-98efd64b6f07"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[dto]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="BaseServletDTO" mc="Standard.Class" uid="0f4dc840-2b9a-4c08-91d8-a3cc4df95fc9"/>
+        <COMPID name="DTOConstants" mc="Standard.Class" uid="0d6ece12-a62b-45a8-a31a-216be8a8b1b7"/>
+        <COMPID name="ErrorPageDTO" mc="Standard.Class" uid="27f0cbe9-68fc-4b1a-8c36-ba6d0f656a25"/>
+        <COMPID name="FailedErrorPageDTO" mc="Standard.Class" uid="a77a1bb2-0592-43ee-b35a-e9f68061fd62"/>
+        <COMPID name="FailedFilterDTO" mc="Standard.Class" uid="58054e47-0bf6-4336-920f-e38c895eddd6"/>
+        <COMPID name="FailedListenerDTO" mc="Standard.Class" uid="1f225c3e-940a-4457-8056-c3773e0d434e"/>
+        <COMPID name="FailedResourceDTO" mc="Standard.Class" uid="b67d23ea-d417-496d-813f-f82d6f3b25a8"/>
+        <COMPID name="FailedServletContextDTO" mc="Standard.Class" uid="b29df3ca-a880-4dd3-8b71-2d99aae0806e"/>
+        <COMPID name="FailedServletDTO" mc="Standard.Class" uid="e36b6c95-bd7b-4809-8d8a-4b69389262a5"/>
+        <COMPID name="FilterDTO" mc="Standard.Class" uid="68562d05-3451-4797-9619-b56937277237"/>
+        <COMPID name="ListenerDTO" mc="Standard.Class" uid="529ea4ce-67bd-43c8-a371-52b695c43002"/>
+        <COMPID name="RequestInfoDTO" mc="Standard.Class" uid="6f64db2e-32b2-4d7e-b82c-0a4e7e02ef97"/>
+        <COMPID name="ResourceDTO" mc="Standard.Class" uid="9200ee2d-8dae-4985-9951-09cb54c87ef2"/>
+        <COMPID name="RuntimeDTO" mc="Standard.Class" uid="c8233c6e-cfd0-4ecd-837c-eb46fc4c50a2"/>
+        <COMPID name="ServletContextDTO" mc="Standard.Class" uid="68695c22-03b2-4390-8607-cc24c7e7ed98"/>
+        <COMPID name="ServletDTO" mc="Standard.Class" uid="07df3bfb-f3c8-4680-91f0-d978885d177d"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

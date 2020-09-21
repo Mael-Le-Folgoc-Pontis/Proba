@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="block" version="4">
+  <OBJECT>
+    <ID name="block" mc="Standard.Package" uid="3f44fa42-6271-41cb-8d53-4c200b56e740"/>
+    <PID name="core" mc="Standard.Package" uid="2ac77124-faa8-4ab0-a4ad-a7fb68962c25"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[block]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="DefinitionListBlock" mc="Standard.Class" uid="4a2970b3-7046-4164-b180-ae0e8dcbe657"/>
+        <COMPID name="HeadingBlock" mc="Standard.Class" uid="a1af8423-62df-4f26-b8d9-68ca9c569357"/>
+        <COMPID name="ListBlock" mc="Standard.Class" uid="b273fdbf-e721-4054-a6ad-72f27d41ff22"/>
+        <COMPID name="ParagraphBlock" mc="Standard.Class" uid="15266ec1-e049-451c-9a34-245d72130d60"/>
+        <COMPID name="PreformattedBlock" mc="Standard.Class" uid="7384df92-d5e3-4c00-b9eb-9f215138ffc5"/>
+        <COMPID name="QuoteBlock" mc="Standard.Class" uid="aea19872-ef4b-4e60-8c1c-d977376543e6"/>
+        <COMPID name="TableBlock" mc="Standard.Class" uid="6c061a12-3024-4ca5-9c07-268ace028d83"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

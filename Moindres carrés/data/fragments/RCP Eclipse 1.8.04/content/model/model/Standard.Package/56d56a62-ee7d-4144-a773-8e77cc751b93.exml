@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="editing" version="4">
+  <OBJECT>
+    <ID name="editing" mc="Standard.Package" uid="56d56a62-ee7d-4144-a773-8e77cc751b93"/>
+    <PID name="internal" mc="Standard.Package" uid="025b47b3-801a-40ae-9f93-2fe51ae17ec2"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[editing]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AddDependencyOperation" mc="Standard.Class" uid="38688b95-9331-418d-8f04-cbef75acf718"/>
+        <COMPID name="AddExclusionOperation" mc="Standard.Class" uid="cb3dc80a-323b-4302-b1b3-8fbae24aeb3a"/>
+        <COMPID name="ChangeCreator" mc="Standard.Class" uid="11709feb-2175-4cb7-b738-64acb2115c68"/>
+        <COMPID name="LifecycleMappingOperation" mc="Standard.Class" uid="f98dea0c-3785-4edd-bb2d-5f510643997f"/>
+        <COMPID name="PomEdits" mc="Standard.Class" uid="bc84ed9e-bea4-4f00-83dd-1a2eadf03181"/>
+        <COMPID name="PomHelper" mc="Standard.Class" uid="f974a7ef-97e8-4255-83ec-3ba52537ef87"/>
+        <COMPID name="RemoveDependencyOperation" mc="Standard.Class" uid="1b4fd9b3-033e-4775-9b17-edb1477b915a"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

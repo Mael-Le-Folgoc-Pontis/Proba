@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="log" version="4">
+  <OBJECT>
+    <ID name="log" mc="Standard.Package" uid="006655e4-0bd9-112e-9071-001e4fea2d8b"/>
+    <PID name="views" mc="Standard.Package" uid="0058a05c-0bd9-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[log]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractEntry" mc="Standard.Class" uid="00665c60-0bd9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Activator" mc="Standard.Class" uid="006662e6-0bd9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="EventDetailsDialog" mc="Standard.Class" uid="00666958-0bd9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="EventDetailsDialogAction" mc="Standard.Class" uid="00667010-0bd9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FilterDialog" mc="Standard.Class" uid="006676e6-0bd9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Group" mc="Standard.Class" uid="00667e0c-0bd9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IHelpContextIds" mc="Standard.Interface" uid="00668424-0bd9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ILogFileProvider" mc="Standard.Interface" uid="00668bae-0bd9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ImportLogAction" mc="Standard.Class" uid="00669356-0bd9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LogEntry" mc="Standard.Class" uid="0066a0a8-0bd9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LogFilesManager" mc="Standard.Class" uid="0066a83c-0bd9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LogSession" mc="Standard.Class" uid="0066b7dc-0bd9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LogView" mc="Standard.Class" uid="0066c01a-0bd9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LogViewContentProvider" mc="Standard.Class" uid="0066ce34-0bd9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LogViewLabelProvider" mc="Standard.Class" uid="0066d6cc-0bd9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Messages" mc="Standard.Class" uid="0066df64-0bd9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="OpenIDELogFileAction" mc="Standard.Class" uid="0066e874-0bd9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="OpenLogDialog" mc="Standard.Class" uid="0066f1ac-0bd9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SharedImages" mc="Standard.Class" uid="0066fada-0bd9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TailInputStream" mc="Standard.Class" uid="00670480-0bd9-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

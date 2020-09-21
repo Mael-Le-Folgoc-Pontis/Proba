@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="client" version="4">
+  <OBJECT>
+    <ID name="client" mc="Standard.Package" uid="4b0d483e-6d30-476f-acd9-9ac7f5a900e2"/>
+    <PID name="aether" mc="Standard.Package" uid="16c0f0b4-6b15-409d-bd18-e55d9ef28261"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[client]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AetherClient" mc="Standard.Interface" uid="d12bca3c-49cf-4fcd-8400-758a564831cf"/>
+        <COMPID name="AetherClientAuthentication" mc="Standard.Class" uid="e9f59188-79b2-4121-b928-ebc4c681e43c"/>
+        <COMPID name="AetherClientConfig" mc="Standard.Class" uid="b302d398-6969-4925-bf9b-ee1ffb7196d7"/>
+        <COMPID name="AetherClientProxy" mc="Standard.Class" uid="00066f48-8584-482a-bc00-9b79418f4eec"/>
+        <COMPID name="Response" mc="Standard.Interface" uid="3f26fa2d-81ee-4e23-a13f-b5fed38b3b70"/>
+        <COMPID name="RetryableSource" mc="Standard.Interface" uid="d8cca36f-ff56-4658-8a4a-da0ab44c90ed"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

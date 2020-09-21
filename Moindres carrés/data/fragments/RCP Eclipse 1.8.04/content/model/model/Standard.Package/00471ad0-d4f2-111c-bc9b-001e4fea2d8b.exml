@@ -1,0 +1,53 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ui" version="4">
+  <OBJECT>
+    <ID name="ui" mc="Standard.Package" uid="00471ad0-d4f2-111c-bc9b-001e4fea2d8b"/>
+    <PID name="p2" mc="Standard.Package" uid="00381d32-d4f2-111c-bc9b-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[ui]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ColocatedRepositoryTracker" mc="Standard.Class" uid="00585368-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="ElementQueryDescriptor" mc="Standard.Class" uid="0057d71c-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="ElementWrapper" mc="Standard.Class" uid="00582bcc-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="IProvHelpContextIds" mc="Standard.Interface" uid="00583d60-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="ProvUI" mc="Standard.Class" uid="0054ef20-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="ProvUIActivator" mc="Standard.Class" uid="00581646-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="ProvUIAdapterFactory" mc="Standard.Class" uid="004bc256-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="ProvUIImages" mc="Standard.Class" uid="00492410-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="ProvUIMessages" mc="Standard.Class" uid="004f054c-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="ProvUIProvisioningListener" mc="Standard.Class" uid="004911fa-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="ProvisioningOperationRunner" mc="Standard.Class" uid="0048ffbc-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="QueryProvider" mc="Standard.Class" uid="00553f5c-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="QueryableArtifactRepositoryManager" mc="Standard.Class" uid="00555320-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="QueryableMetadataRepositoryManager" mc="Standard.Class" uid="0057ec16-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="QueryableRepositoryManager" mc="Standard.Class" uid="00586948-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="RepositoryLocationQuery" mc="Standard.Class" uid="005502a8-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="RepositoryOperationBeginningEvent" mc="Standard.Class" uid="00551676-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="RepositoryOperationEndingEvent" mc="Standard.Class" uid="00552a58-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="RepositoryTrackerComponent" mc="Standard.Class" uid="00493608-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="ServiceUIComponent" mc="Standard.Class" uid="0058012e-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="UpdateManagerCompatibility" mc="Standard.Class" uid="0054dc1a-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="ValidationDialogServiceUI" mc="Standard.Class" uid="0057b048-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="actions" mc="Standard.Package" uid="00484482-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="dialogs" mc="Standard.Package" uid="005055aa-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="discovery" mc="Standard.Package" uid="b10e3381-91c6-4691-b015-2eabde12f75e"/>
+        <COMPID name="misc" mc="Standard.Package" uid="9c78a495-0b66-499f-bbac-c6b8ba472e06"/>
+        <COMPID name="model" mc="Standard.Package" uid="004d08aa-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="query" mc="Standard.Package" uid="0056c188-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="sdk" mc="Standard.Package" uid="008d4c62-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="viewers" mc="Standard.Package" uid="004a71f8-d4f2-111c-bc9b-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

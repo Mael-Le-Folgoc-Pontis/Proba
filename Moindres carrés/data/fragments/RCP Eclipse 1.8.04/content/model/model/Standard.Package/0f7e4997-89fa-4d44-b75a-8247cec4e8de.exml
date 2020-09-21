@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="views" version="4">
+  <OBJECT>
+    <ID name="views" mc="Standard.Package" uid="0f7e4997-89fa-4d44-b75a-8247cec4e8de"/>
+    <PID name="internal" mc="Standard.Package" uid="025b47b3-801a-40ae-9f93-2fe51ae17ec2"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[views]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="MavenRepositoryView" mc="Standard.Class" uid="d91153c3-f2f0-407c-a4d2-e7406d428924"/>
+        <COMPID name="RepositoryViewContentProvider" mc="Standard.Class" uid="44740a6d-ff5d-4a61-83f2-6eb4507f044d"/>
+        <COMPID name="RepositoryViewLabelProvider" mc="Standard.Class" uid="78d1dde8-3e18-4dae-a462-953ee41b8067"/>
+        <COMPID name="build" mc="Standard.Package" uid="094a1464-b925-4f7e-b40e-7c6c060637c7"/>
+        <COMPID name="nodes" mc="Standard.Package" uid="c047ffb3-e57b-4fb1-8331-ee426f23aa39"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="DependencySubstitutions" version="4">
+  <OBJECT>
+    <ID name="DependencySubstitutions" mc="Standard.Interface" uid="c3b12e17-63ee-46a4-9182-c62e6f59779f"/>
+    <PID name="artifacts" mc="Standard.Package" uid="9c80aef1-9e83-432d-98ee-889e8b4b8463"/>
+    <ATTRIBUTES>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">true</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[DependencySubstitutions]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Substitution" mc="Standard.Interface" uid="6e288975-f340-42b0-baea-5b1a37ab7e7d"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaInterface" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0267-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

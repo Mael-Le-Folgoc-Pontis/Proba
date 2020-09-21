@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="apache" version="4">
+  <OBJECT>
+    <ID name="apache" mc="Standard.Package" uid="00858518-21b0-1fb1-8a9e-001e4fea2d8b"/>
+    <PID name="org" mc="Standard.Package" uid="0006919a-219f-1fb1-8a9e-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[apache]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="batik" mc="Standard.Package" uid="004c171a-0bbc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="commons" mc="Standard.Package" uid="0009d012-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="felix" mc="Standard.Package" uid="0085ef58-21b0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="html" mc="Standard.Package" uid="800e2890-fa0d-4e24-92dd-07e715d80647"/>
+        <COMPID name="http" mc="Standard.Package" uid="69579971-0298-4981-9fc7-48c3562d4504"/>
+        <COMPID name="jasper" mc="Standard.Package" uid="002b83ba-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="log4j" mc="Standard.Package" uid="ed6a544b-48f0-4c81-b6a9-45e027c242cd"/>
+        <COMPID name="lucene" mc="Standard.Package" uid="0039f17a-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="maven" mc="Standard.Package" uid="173ccbb1-ee67-4028-9140-8289e1158a15"/>
+        <COMPID name="oro" mc="Standard.Package" uid="9b6c849d-7caa-4be9-9aaf-a9591491bafb"/>
+        <COMPID name="solr" mc="Standard.Package" uid="a8a54ac8-403b-4c27-be5a-4ce6f15f92ee"/>
+        <COMPID name="tools" mc="Standard.Package" uid="001f9fbe-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="velocity" mc="Standard.Package" uid="f64d32da-b37a-4bf8-af95-e529226e220c"/>
+        <COMPID name="wml" mc="Standard.Package" uid="7d38505d-f939-40b8-a2fc-e5d516b51100"/>
+        <COMPID name="ws" mc="Standard.Package" uid="2f930711-e5ff-436b-927f-a04e562a07bc"/>
+        <COMPID name="xerces" mc="Standard.Package" uid="80c42980-a493-459a-9c50-b9ae0d56f35b"/>
+        <COMPID name="xml" mc="Standard.Package" uid="6435ccee-7092-445c-908c-344a5449cc87"/>
+        <COMPID name="xmlcommons" mc="Standard.Package" uid="000349e0-0bbf-112e-9071-001e4fea2d8b"/>
+        <COMPID name="xmlrpc" mc="Standard.Package" uid="3caa19ae-c32b-4acc-b4e2-14d2bd04e5bb"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

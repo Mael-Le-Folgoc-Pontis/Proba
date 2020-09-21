@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="internal" version="4">
+  <OBJECT>
+    <ID name="internal" mc="Standard.Package" uid="1615398b-2e73-4a71-a17c-b1a20cb45452"/>
+    <PID name="inject" mc="Standard.Package" uid="8ae47951-ec4b-4139-8eb5-d40d8d278ac2"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[internal]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractBindingBuilder" mc="Standard.Class" uid="4b757cb2-afdf-49c7-8e5a-a3a1fb8fc8f0"/>
+        <COMPID name="Annotations" mc="Standard.Class" uid="94a8058a-ad15-4efd-8471-a3a3066744c0"/>
+        <COMPID name="BindingBuilder" mc="Standard.Class" uid="b9333509-bd11-48e9-b5eb-26342aba4628"/>
+        <COMPID name="BindingImpl" mc="Standard.Class" uid="31613b8d-6d7f-48d3-802a-b65733d99f56"/>
+        <COMPID name="BytecodeGen" mc="Standard.Class" uid="5e9990ee-ab4a-46ac-9bb1-8e327dd7bdaa"/>
+        <COMPID name="CircularDependencyProxy" mc="Standard.Interface" uid="9726da79-3286-4978-a513-735b72bfde21"/>
+        <COMPID name="ConstantBindingBuilderImpl" mc="Standard.Class" uid="6b78c852-c67e-47fa-8c7e-2836b7ef6a09"/>
+        <COMPID name="Errors" mc="Standard.Class" uid="29342762-22ea-4096-9aef-177bbec41e58"/>
+        <COMPID name="ErrorsException" mc="Standard.Class" uid="1a1c87bf-46b2-4872-b189-0ec6bccd7044"/>
+        <COMPID name="ExposedBindingImpl" mc="Standard.Class" uid="1e40aebc-9a0a-482d-bc75-d33295f4abaf"/>
+        <COMPID name="ExposureBuilder" mc="Standard.Class" uid="267228e0-ad59-4e3b-9f65-035ddf3c7559"/>
+        <COMPID name="FailableCache" mc="Standard.Class" uid="517f52ef-944c-41aa-b369-13b944e3e31f"/>
+        <COMPID name="InternalFlags" mc="Standard.Class" uid="a7d30303-9fda-4489-bac2-305f4bf4d0b2"/>
+        <COMPID name="InternalInjectorCreator" mc="Standard.Class" uid="a8bfc46c-16c6-4f86-87d6-1c8ae7de3880"/>
+        <COMPID name="LinkedBindingImpl" mc="Standard.Class" uid="4741eaea-6ad4-4c90-ada0-b76c0f32c175"/>
+        <COMPID name="MoreTypes" mc="Standard.Class" uid="23b7642b-9b06-4d6d-8c2f-1186d228c6f4"/>
+        <COMPID name="Nullability" mc="Standard.Class" uid="54dd6616-adbd-43d9-ac20-1ffc2c5389f1"/>
+        <COMPID name="PrivateElementsImpl" mc="Standard.Class" uid="e241684c-920e-49c3-ac68-c0fc0da882b4"/>
+        <COMPID name="ProviderMethod" mc="Standard.Class" uid="224849bc-cd85-4d4e-926a-465195473f2f"/>
+        <COMPID name="ProviderMethodsModule" mc="Standard.Class" uid="0c5b0d02-3dc8-4d4a-9c2a-41ec5f8019bf"/>
+        <COMPID name="Scoping" mc="Standard.Class" uid="ca27b680-f5b3-476f-87ba-d3625ab41582"/>
+        <COMPID name="SingletonScope" mc="Standard.Class" uid="771031c5-4721-475a-b9a0-e4504cd68331"/>
+        <COMPID name="UniqueAnnotations" mc="Standard.Class" uid="21e7b36f-82e8-4230-8ade-ac66690e759e"/>
+        <COMPID name="util" mc="Standard.Package" uid="c84e0196-f81d-45c0-9f91-1bfd9040d09a"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

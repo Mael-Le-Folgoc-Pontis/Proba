@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="emfworkbench" version="4">
+  <OBJECT>
+    <ID name="emfworkbench" mc="Standard.Package" uid="8e64d4bd-53fd-4bd3-a953-7ae2d53aeb36"/>
+    <PID name="internal" mc="Standard.Package" uid="b171e41e-82e5-4dc0-85bb-acdb308816c0"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[emfworkbench]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="CompatibilityWorkbenchURIConverterImpl" mc="Standard.Class" uid="4a710172-9387-4f40-9224-e16bb5f22eb8"/>
+        <COMPID name="DynamicGrowthModel" mc="Standard.Class" uid="d51ccc4d-fc91-41d7-a3d4-3f91b78061b2"/>
+        <COMPID name="EMFWorkbenchContext" mc="Standard.Class" uid="8ada3d2c-4447-421b-a1ab-d7bf5c78de03"/>
+        <COMPID name="EMFWorkbenchEditResourceHandler" mc="Standard.Class" uid="6f40c3a6-1952-41de-b6a3-e1717dbcaa50"/>
+        <COMPID name="EditModelLeastUsedCache" mc="Standard.Class" uid="eb60544c-97f4-45dd-bbf9-9597b44b1a8e"/>
+        <COMPID name="EmfPackagePropertyTester" mc="Standard.Class" uid="2f95ce6f-3f7a-4654-9b67-a6ca52189893"/>
+        <COMPID name="EmfValidationHandler" mc="Standard.Class" uid="6dbd0db0-a4a8-461c-8470-cc9c04111724"/>
+        <COMPID name="PassthruResourceSet" mc="Standard.Class" uid="58bf5d71-1dba-415b-b233-7911299381f6"/>
+        <COMPID name="WorkbenchResourceHelper" mc="Standard.Class" uid="ce98569b-288d-4356-93fa-d80b2be302e3"/>
+        <COMPID name="edit" mc="Standard.Package" uid="035f0e8c-f9b9-448d-94b5-c9972f5f2d70"/>
+        <COMPID name="integration" mc="Standard.Package" uid="f42b241b-b685-4e3f-ad17-a3d1736da56c"/>
+        <COMPID name="validateedit" mc="Standard.Package" uid="5570545c-5274-4efc-80d4-c122d980e33e"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

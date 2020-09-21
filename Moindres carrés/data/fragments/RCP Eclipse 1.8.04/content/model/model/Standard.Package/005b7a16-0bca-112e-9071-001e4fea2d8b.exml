@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="runner" version="4">
+  <OBJECT>
+    <ID name="runner" mc="Standard.Package" uid="005b7a16-0bca-112e-9071-001e4fea2d8b"/>
+    <PID name="junit4" mc="Standard.Package" uid="005a24a4-0bca-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[runner]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="DescriptionMatcher" mc="Standard.Class" uid="6cb549d6-ff1e-4edc-8840-5db83e5d677c"/>
+        <COMPID name="FailuresFirstSorter" mc="Standard.Class" uid="005b802e-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JUnit4Identifier" mc="Standard.Class" uid="005b8650-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JUnit4TestClassReference" mc="Standard.Class" uid="005b8ce0-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JUnit4TestListener" mc="Standard.Class" uid="005b9398-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JUnit4TestLoader" mc="Standard.Class" uid="005ba84c-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JUnit4TestMethodReference" mc="Standard.Class" uid="005baf7c-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JUnit4TestReference" mc="Standard.Class" uid="005bb6ca-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SubForestFilter" mc="Standard.Class" uid="1003e817-a285-4feb-8f8c-96e42a14ff8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

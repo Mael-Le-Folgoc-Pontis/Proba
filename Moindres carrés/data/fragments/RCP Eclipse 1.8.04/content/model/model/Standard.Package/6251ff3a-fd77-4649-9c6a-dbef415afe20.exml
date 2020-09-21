@@ -1,0 +1,66 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="plugin" version="4">
+  <OBJECT>
+    <ID name="plugin" mc="Standard.Package" uid="6251ff3a-fd77-4649-9c6a-dbef415afe20"/>
+    <PID name="maven" mc="Standard.Package" uid="173ccbb1-ee67-4028-9140-8289e1158a15"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[plugin]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractMojo" mc="Standard.Class" uid="8fb3c9d3-1a40-4871-ba70-cf592d065e9f"/>
+        <COMPID name="AbstractMojoExecutionException" mc="Standard.Class" uid="465be422-c5d6-4a8d-8bab-738923ff55a0"/>
+        <COMPID name="BuildPluginManager" mc="Standard.Interface" uid="679f2146-977a-4331-8858-85ce8eac0311"/>
+        <COMPID name="ContextEnabled" mc="Standard.Interface" uid="3498b63e-c544-487d-9099-aabea89c559e"/>
+        <COMPID name="CycleDetectedInPluginGraphException" mc="Standard.Class" uid="cb92d0f3-4af4-4cd8-b741-20476d0f9b9b"/>
+        <COMPID name="DebugConfigurationListener" mc="Standard.Class" uid="43e27f43-920e-463a-b514-dd6fe3e3f05a"/>
+        <COMPID name="DefaultBuildPluginManager" mc="Standard.Class" uid="8b8583c5-0ca3-4e6c-84d2-1400c6a1386d"/>
+        <COMPID name="DefaultExtensionRealmCache" mc="Standard.Class" uid="71cdc8fe-1c3d-493e-840a-fc5ca2279e35"/>
+        <COMPID name="DefaultPluginArtifactsCache" mc="Standard.Class" uid="8a0b91b9-c8d9-4c91-a943-5c3dea67d411"/>
+        <COMPID name="DefaultPluginDescriptorCache" mc="Standard.Class" uid="be1ff92c-31c9-46b7-a7eb-af8102f9e6fa"/>
+        <COMPID name="DefaultPluginRealmCache" mc="Standard.Class" uid="68692581-d295-4c26-9a3f-5dd389687300"/>
+        <COMPID name="ExtensionRealmCache" mc="Standard.Interface" uid="b6b6f863-b8af-4eba-85f8-1d42ad15e407"/>
+        <COMPID name="InvalidPluginDescriptorException" mc="Standard.Class" uid="b12df9e7-431e-43c8-8e32-de5bebc3206e"/>
+        <COMPID name="InvalidPluginException" mc="Standard.Class" uid="c27b9685-72cb-445d-8d2c-df5cad1ea304"/>
+        <COMPID name="LegacySupport" mc="Standard.Interface" uid="aabade76-a9a9-4503-a08b-4d3d7680365c"/>
+        <COMPID name="MavenPluginManager" mc="Standard.Interface" uid="427f8157-de6e-4645-9962-32cf7ec864dc"/>
+        <COMPID name="MavenPluginValidator" mc="Standard.Class" uid="b9490181-34ea-4b09-a070-6e15fd8b56bc"/>
+        <COMPID name="Mojo" mc="Standard.Interface" uid="7d6bd63e-ffcc-4191-a58a-de19680e0e6e"/>
+        <COMPID name="MojoExecution" mc="Standard.Class" uid="b7d6192a-adcf-4f2c-9716-c4dfce1ca551"/>
+        <COMPID name="MojoExecutionException" mc="Standard.Class" uid="9c570ba9-d5c8-4146-bedf-22df33c37748"/>
+        <COMPID name="MojoFailureException" mc="Standard.Class" uid="0241c218-6680-49d7-8b95-76a532a0326b"/>
+        <COMPID name="MojoNotFoundException" mc="Standard.Class" uid="76bc7815-39d3-411b-ac32-30037409aeb2"/>
+        <COMPID name="PluginArtifactsCache" mc="Standard.Interface" uid="e0b963d6-e539-45bf-b0ed-e30a931995bf"/>
+        <COMPID name="PluginConfigurationException" mc="Standard.Class" uid="726102e9-7f9d-4c0d-b502-077cd65df961"/>
+        <COMPID name="PluginContainerException" mc="Standard.Class" uid="02acdb3c-38db-43de-813f-c2413138ae0c"/>
+        <COMPID name="PluginDescriptorCache" mc="Standard.Interface" uid="887cb7e8-f4f6-4fbe-be2a-4672a4b5f27b"/>
+        <COMPID name="PluginDescriptorParsingException" mc="Standard.Class" uid="daba1b7b-fc75-4350-8626-8520b701c20f"/>
+        <COMPID name="PluginExecutionException" mc="Standard.Class" uid="09c32057-e4e9-49c8-9991-a99372ec8dd8"/>
+        <COMPID name="PluginIncompatibleException" mc="Standard.Class" uid="6cd8c24d-5cc6-4b6b-857d-6967271c54f1"/>
+        <COMPID name="PluginLoaderException" mc="Standard.Class" uid="45c16a78-f5ad-4034-afaa-b2e9db587e8a"/>
+        <COMPID name="PluginManager" mc="Standard.Interface" uid="ddf1310e-931c-4e4d-967c-c1cd9f2f77a4"/>
+        <COMPID name="PluginManagerException" mc="Standard.Class" uid="d398ad59-4887-41d4-a5c7-1ecc3f27dba8"/>
+        <COMPID name="PluginNotFoundException" mc="Standard.Class" uid="77f84f53-5d62-4f3b-8d63-2fab2b604021"/>
+        <COMPID name="PluginParameterException" mc="Standard.Class" uid="cde9ee91-b741-4f38-82cd-3a4c07c18d5d"/>
+        <COMPID name="PluginParameterExpressionEvaluator" mc="Standard.Class" uid="c82bf9bc-dffd-4752-90fb-cda6ba0752f4"/>
+        <COMPID name="PluginRealmCache" mc="Standard.Interface" uid="87f28adb-a4b5-4f91-a28c-b3d38b230684"/>
+        <COMPID name="PluginResolutionException" mc="Standard.Class" uid="a3614164-2479-489b-947e-0316fe00e135"/>
+        <COMPID name="descriptor" mc="Standard.Package" uid="89618171-ca84-47bf-844c-077c6710f5af"/>
+        <COMPID name="internal" mc="Standard.Package" uid="ebc81bf1-af97-4bd1-9d9c-2d6c37c0ff6c"/>
+        <COMPID name="lifecycle" mc="Standard.Package" uid="0df3f3f3-c688-4552-bb16-951122495f82"/>
+        <COMPID name="logging" mc="Standard.Package" uid="d67dc4ce-8bd5-4d9d-876d-8a3e7263fd5e"/>
+        <COMPID name="prefix" mc="Standard.Package" uid="c71f258a-1e2b-4750-b374-4f77ad53cd48"/>
+        <COMPID name="version" mc="Standard.Package" uid="5949c130-f57e-4e7d-a85f-54f3e86a8093"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

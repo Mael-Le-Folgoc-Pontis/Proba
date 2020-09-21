@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="util" version="4">
+  <OBJECT>
+    <ID name="util" mc="Standard.Package" uid="2852dc77-be33-4e7e-9f52-fe7fa856e06e"/>
+    <PID name="xmlrpc" mc="Standard.Package" uid="3caa19ae-c32b-4acc-b4e2-14d2bd04e5bb"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[util]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="HttpUtil" mc="Standard.Class" uid="6ec5fe25-782c-4378-93c8-e5556fa292cd"/>
+        <COMPID name="LimitedInputStream" mc="Standard.Class" uid="27b26136-62a5-4ac2-928a-b24e98f636c3"/>
+        <COMPID name="SAXParsers" mc="Standard.Class" uid="b62bcfa0-a410-485d-b4d8-f86b4199b858"/>
+        <COMPID name="ThreadPool" mc="Standard.Class" uid="a96c9311-e2d2-4c0a-8550-3772e3ce3139"/>
+        <COMPID name="XmlRpcDateTimeDateFormat" mc="Standard.Class" uid="76e75ffe-62ca-4373-97c2-ed2858be7751"/>
+        <COMPID name="XmlRpcDateTimeFormat" mc="Standard.Class" uid="5356ee9b-e919-4f26-b9de-045acc65c067"/>
+        <COMPID name="XmlRpcIOException" mc="Standard.Class" uid="99040f94-cd1f-42af-aa5b-2385cff7f4bb"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

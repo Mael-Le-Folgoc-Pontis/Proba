@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="namespace" version="4">
+  <OBJECT>
+    <ID name="namespace" mc="Standard.Package" uid="00428d94-21b1-1fb1-8a9e-001e4fea2d8b"/>
+    <PID name="framework" mc="Standard.Package" uid="003b9ac0-21b1-1fb1-8a9e-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[namespace]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractWiringNamespace" mc="Standard.Class" uid="0043247a-21b1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="BundleNamespace" mc="Standard.Class" uid="00439536-21b1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ExecutionEnvironmentNamespace" mc="Standard.Class" uid="0042a95a-21b1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="HostNamespace" mc="Standard.Class" uid="00436f3e-21b1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="IdentityNamespace" mc="Standard.Class" uid="004349d2-21b1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="NativeNamespace" mc="Standard.Class" uid="dade7ce8-f986-4f83-83f0-fbca13ad8155"/>
+        <COMPID name="PackageNamespace" mc="Standard.Class" uid="0042cdf4-21b1-1fb1-8a9e-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="tar" version="4">
+  <OBJECT>
+    <ID name="tar" mc="Standard.Package" uid="bc482740-8f3c-4885-97d1-2b8f04cae409"/>
+    <PID name="internal" mc="Standard.Package" uid="1e9d7d55-d709-4972-942a-541221f09e3f"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[tar]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="TarEntry" mc="Standard.Class" uid="60318210-13f9-40b5-a922-7451a320d807"/>
+        <COMPID name="TarException" mc="Standard.Class" uid="efdc3f8e-9d55-479e-95d0-8208bd950880"/>
+        <COMPID name="TarFile" mc="Standard.Class" uid="cae73091-a4ca-4998-9243-3a2257897f87"/>
+        <COMPID name="TarInputStream" mc="Standard.Class" uid="23e44142-c104-4316-a397-d6838fc3aacd"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

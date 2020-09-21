@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="validation" version="4">
+  <OBJECT>
+    <ID name="validation" mc="Standard.Package" uid="69e13114-cbe6-4344-9410-0e1fe8666058"/>
+    <PID name="internal" mc="Standard.Package" uid="fed72978-bb15-4d8f-baa5-a833797392d0"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[validation]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="DTDValidationMessages" mc="Standard.Class" uid="dd61ced8-e376-458f-84a8-c0dc15d2e552"/>
+        <COMPID name="DTDValidator" mc="Standard.Class" uid="74202b83-3eaf-4257-ada4-68ff20857ab6"/>
+        <COMPID name="eclipse" mc="Standard.Package" uid="30ff7088-8509-4b55-ae3a-3ae8abad9069"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="wagon" version="4">
+  <OBJECT>
+    <ID name="wagon" mc="Standard.Package" uid="a77e2a31-15c8-4f8d-a412-39b813ad7bd2"/>
+    <PID name="transport" mc="Standard.Package" uid="a1918594-9899-4dda-8154-cbcef7f4a3c4"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[wagon]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="PlexusWagonConfigurator" mc="Standard.Class" uid="f2f85bdd-98c5-44a6-b4d6-995862088638"/>
+        <COMPID name="PlexusWagonProvider" mc="Standard.Class" uid="bd47333a-bc40-47c3-82d9-3debbe7e6a74"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

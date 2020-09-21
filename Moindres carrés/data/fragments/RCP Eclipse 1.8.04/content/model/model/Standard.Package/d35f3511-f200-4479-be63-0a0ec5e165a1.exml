@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="util" version="4">
+  <OBJECT>
+    <ID name="util" mc="Standard.Package" uid="d35f3511-f200-4479-be63-0a0ec5e165a1"/>
+    <PID name="velocity" mc="Standard.Package" uid="f64d32da-b37a-4bf8-af95-e529226e220c"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[util]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ArrayIterator" mc="Standard.Class" uid="517f699c-f764-4a35-b62e-d235fb1cce4d"/>
+        <COMPID name="ClassUtils" mc="Standard.Class" uid="84b71e5c-22a9-4472-88df-1ac4a7450a36"/>
+        <COMPID name="ContextAware" mc="Standard.Interface" uid="fcfe5e41-7148-4a60-917b-29b900cee87c"/>
+        <COMPID name="EnumerationIterator" mc="Standard.Class" uid="62fcdfb9-e14c-4612-9def-aedd393afc9a"/>
+        <COMPID name="ExceptionUtils" mc="Standard.Class" uid="5916bd33-718c-428d-a2cf-c37357d781a0"/>
+        <COMPID name="RuntimeServicesAware" mc="Standard.Interface" uid="0d75fb03-cad9-4b8b-9f95-ec0d8b1817b3"/>
+        <COMPID name="SimplePool" mc="Standard.Class" uid="0322c624-433c-4048-9677-583e679fdf53"/>
+        <COMPID name="StringUtils" mc="Standard.Class" uid="3160950e-1f67-4bfc-b647-c246b43d23d1"/>
+        <COMPID name="TemplateNumber" mc="Standard.Interface" uid="a06f37fb-09dd-4f60-acbb-6b4e505d3bdc"/>
+        <COMPID name="introspection" mc="Standard.Package" uid="18c19db4-7aa1-47d6-926f-91c65981608e"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

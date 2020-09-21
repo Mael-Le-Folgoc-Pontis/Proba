@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="snipmatch" version="4">
+  <OBJECT>
+    <ID name="snipmatch" mc="Standard.Package" uid="b65247aa-99a3-4f34-bb31-66558903f323"/>
+    <PID name="recommenders" mc="Standard.Package" uid="a358c5e1-e2a3-468b-a21c-b2bca96b0f24"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[snipmatch]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ISearchContext" mc="Standard.Interface" uid="fa67a8a8-0453-4141-9aad-2437cb6a8e69"/>
+        <COMPID name="ISnippet" mc="Standard.Interface" uid="286220c1-0e40-43a7-834d-4a5ba93c3060"/>
+        <COMPID name="ISnippetRepository" mc="Standard.Interface" uid="cb91b131-47c3-4f8e-8c79-837aec85171d"/>
+        <OBJECT>
+          <ID name="Location" mc="Standard.Enumeration" uid="61cfedd5-0467-4f5d-a5d5-27b95ce7dbc6"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[Location]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Extension">
+              <FOREIGNID name="JavaEnumeration" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0262-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <COMPID name="SearchContext" mc="Standard.Class" uid="65b0c9de-78e3-4087-abc7-feb28c72010c"/>
+        <COMPID name="Snippet" mc="Standard.Class" uid="dc6ad452-837c-4ab3-93b1-bc65c2066a6a"/>
+        <COMPID name="model" mc="Standard.Package" uid="459e02f7-7aa4-4541-ae19-958e23e13de0"/>
+        <COMPID name="rcp" mc="Standard.Package" uid="eb7c8641-4ade-400c-a08c-697d3113c1a5"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

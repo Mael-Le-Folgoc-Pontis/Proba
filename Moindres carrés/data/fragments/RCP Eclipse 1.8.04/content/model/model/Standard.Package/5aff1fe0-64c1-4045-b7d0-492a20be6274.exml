@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="impl" version="4">
+  <OBJECT>
+    <ID name="impl" mc="Standard.Package" uid="5aff1fe0-64c1-4045-b7d0-492a20be6274"/>
+    <PID name="model" mc="Standard.Package" uid="73c19c3d-deb0-4fdd-86d3-f0205f2c6507"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[impl]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="BundleImpl" mc="Standard.Class" uid="df7ca29a-456d-4d05-a676-f7854cef1798"/>
+        <COMPID name="ErrorReportImpl" mc="Standard.Class" uid="0d70d205-71ca-43f2-8e39-f7d77e8de62f"/>
+        <COMPID name="ModelFactoryImpl" mc="Standard.Class" uid="21ad657c-82a1-4a55-8298-eba9570298a1"/>
+        <COMPID name="ModelPackageImpl" mc="Standard.Class" uid="4fb30e59-1f9b-4842-8f57-eea45973cce0"/>
+        <COMPID name="SettingsImpl" mc="Standard.Class" uid="bbaa0b33-6ee0-4bb8-ae00-fb01f28afb13"/>
+        <COMPID name="StackTraceElementImpl" mc="Standard.Class" uid="1ba44011-141a-4045-8559-71bccf1e99ec"/>
+        <COMPID name="StatusImpl" mc="Standard.Class" uid="cad69f65-fb0d-4df4-891f-2c95769e9590"/>
+        <COMPID name="ThrowableImpl" mc="Standard.Class" uid="9e235c62-d429-4725-bfe8-6b2b0d198a66"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

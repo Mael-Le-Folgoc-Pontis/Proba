@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="actions" version="4">
+  <OBJECT>
+    <ID name="actions" mc="Standard.Package" uid="37a32d85-45ba-4ce2-8418-e30b75420f1c"/>
+    <PID name="search" mc="Standard.Package" uid="26bcfb94-907e-47db-9fc9-57f4d4e34cd0"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[actions]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="BaseGroupActionDelegate" mc="Standard.Class" uid="943ebb18-e57f-430e-bab3-8e8b5f2a25a9"/>
+        <COMPID name="CompositeActionGroup" mc="Standard.Class" uid="1ff1cca0-23af-4185-abd7-9557bf191d98"/>
+        <COMPID name="DeclarationsSearchGroup" mc="Standard.Class" uid="6eb40c78-2455-4b88-b013-27b8a6370092"/>
+        <COMPID name="FindAction" mc="Standard.Class" uid="4ec66848-f6f2-4eb6-a1b0-14903ec7acd9"/>
+        <COMPID name="FindReferencesAction" mc="Standard.Class" uid="11589b62-e70f-4abd-b1a4-83255d3605b4"/>
+        <COMPID name="FindReferencesInProjectAction" mc="Standard.Class" uid="f84a23ac-6fe9-4504-8892-41c559f2b0c0"/>
+        <COMPID name="FindReferencesInWorkingSetAction" mc="Standard.Class" uid="15f09454-c10d-46e4-bcc5-1eaced3b7711"/>
+        <COMPID name="ImplementorsSearchGroup" mc="Standard.Class" uid="da828a13-5726-4e57-940a-9a84579ea93b"/>
+        <COMPID name="OccurrencesSearchGroup" mc="Standard.Class" uid="271e7a1f-8636-4c95-aa71-97594453dfc3"/>
+        <COMPID name="ReferencesSearchGroup" mc="Standard.Class" uid="34d0d3ff-af06-4c85-aa97-7b26d030fe81"/>
+        <COMPID name="SearchGroup" mc="Standard.Class" uid="0210b0ac-e84d-47e3-870b-3fe100055b94"/>
+        <COMPID name="XSDSearchActionGroup" mc="Standard.Class" uid="05021e09-2752-49d3-b0ae-0390b71e56db"/>
+        <COMPID name="XSDSearchDeclarationsGroupActionDelegate" mc="Standard.Class" uid="2ccb22fe-d775-486b-bed4-920e4a821e86"/>
+        <COMPID name="XSDSearchGroupSubMenu" mc="Standard.Class" uid="d0a63354-1f6e-4cf5-99fb-e397ef7b7e24"/>
+        <COMPID name="XSDSearchReferencesGroupActionDelegate" mc="Standard.Class" uid="973f590c-4ad8-4762-84e5-a4e2d4c6fc43"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

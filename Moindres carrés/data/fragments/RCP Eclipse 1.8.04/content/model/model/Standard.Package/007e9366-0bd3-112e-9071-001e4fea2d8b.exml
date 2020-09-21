@@ -1,0 +1,63 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="client" version="4">
+  <OBJECT>
+    <ID name="client" mc="Standard.Package" uid="007e9366-0bd3-112e-9071-001e4fea2d8b"/>
+    <PID name="core" mc="Standard.Package" uid="007c49a8-0bd3-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[client]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Add" mc="Standard.Class" uid="007ea68a-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Admin" mc="Standard.Class" uid="007eb3be-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Annotate" mc="Standard.Class" uid="007ebabc-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CRLFDetectInputStream" mc="Standard.Class" uid="007ec926-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Checkout" mc="Standard.Class" uid="007ed902-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CheckoutWithOverwrite" mc="Standard.Class" uid="007ee0c8-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Command" mc="Standard.Class" uid="007eef0a-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CommandOutputListener" mc="Standard.Class" uid="007f3e4c-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Commit" mc="Standard.Class" uid="007f4702-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ConsoleListeners" mc="Standard.Class" uid="007f4fe0-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Diff" mc="Standard.Class" uid="007f61f6-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Editors" mc="Standard.Class" uid="007f7542-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ExpandModules" mc="Standard.Class" uid="007f7ee8-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Import" mc="Standard.Class" uid="007f9342-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Log" mc="Standard.Class" uid="007fa828-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MTHandler" mc="Standard.Class" uid="007fb30e-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ModuleExpansionHandler" mc="Standard.Class" uid="007fd4ba-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="NOOPCommand" mc="Standard.Class" uid="007fe02c-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="NOOPVisitor" mc="Standard.Class" uid="007fec0c-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="NewEntryHandler" mc="Standard.Class" uid="007ff828-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="NotifiedHandler" mc="Standard.Class" uid="0080046c-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PruneFolderVisitor" mc="Standard.Class" uid="00801128-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RDiff" mc="Standard.Class" uid="00801de4-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RLog" mc="Standard.Class" uid="00802a82-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RTag" mc="Standard.Class" uid="0080378e-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RemoteCommand" mc="Standard.Class" uid="008044ea-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Remove" mc="Standard.Class" uid="00805232-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Replace" mc="Standard.Class" uid="00807bb8-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Request" mc="Standard.Class" uid="00808ff4-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ResponseHandler" mc="Standard.Class" uid="00809e40-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Session" mc="Standard.Class" uid="0080ad72-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Status" mc="Standard.Class" uid="0080cb22-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SyncUpdate" mc="Standard.Class" uid="0080e9f4-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Tag" mc="Standard.Class" uid="0080f9b2-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TemplateHandler" mc="Standard.Class" uid="008119f6-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Update" mc="Standard.Class" uid="00812a04-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="UpdateMergableOnly" mc="Standard.Class" uid="00813a80-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="UpdatedHandler" mc="Standard.Class" uid="0081570e-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Version" mc="Standard.Class" uid="00818a6c-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="listeners" mc="Standard.Package" uid="0082805c-0bd3-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

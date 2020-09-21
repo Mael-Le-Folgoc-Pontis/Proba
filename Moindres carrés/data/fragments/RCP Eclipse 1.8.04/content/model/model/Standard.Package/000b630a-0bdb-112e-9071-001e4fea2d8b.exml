@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="categories" version="4">
+  <OBJECT>
+    <ID name="categories" mc="Standard.Package" uid="000b630a-0bdb-112e-9071-001e4fea2d8b"/>
+    <PID name="experimental" mc="Standard.Package" uid="000b10a8-0bdb-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[categories]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Categories" mc="Standard.Class" uid="000b68aa-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Category" mc="Standard.Class" uid="25506a88-dcc5-4b1d-b834-6316c3cae3ca"/>
+        <COMPID name="CategoryValidator" mc="Standard.Class" uid="1401fc93-58c9-462a-9fc3-96a02127bcff"/>
+        <COMPID name="ExcludeCategories" mc="Standard.Class" uid="81b6d0c3-7659-40d3-991c-9ca05e8ac0f2"/>
+        <COMPID name="IncludeCategories" mc="Standard.Class" uid="855ff030-3ae4-411c-b9a4-e64c142a9d00"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

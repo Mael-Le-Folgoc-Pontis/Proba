@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="repository" version="4">
+  <OBJECT>
+    <ID name="repository" mc="Standard.Package" uid="858b789d-5960-4616-8bf0-6c5aa7aadb1f"/>
+    <PID name="aether" mc="Standard.Package" uid="838241ca-6249-4205-8716-7762cb313d96"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[repository]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ArtifactRepository" mc="Standard.Interface" uid="43cfa016-c920-4b97-ad41-8333a5e04ef5"/>
+        <COMPID name="Authentication" mc="Standard.Interface" uid="79082677-6b41-4bb2-86b1-afe152a582af"/>
+        <COMPID name="AuthenticationContext" mc="Standard.Class" uid="ee11608f-9934-4cef-bad5-87e5838519b1"/>
+        <COMPID name="AuthenticationDigest" mc="Standard.Class" uid="5924e66b-d998-411e-9abf-dfe2e96e63bf"/>
+        <COMPID name="AuthenticationSelector" mc="Standard.Interface" uid="f2018bb5-3e63-4ac5-8e69-ab3d1c45f113"/>
+        <COMPID name="LocalArtifactRegistration" mc="Standard.Class" uid="5907deb8-bb64-415f-9361-fbd2f6a25fc5"/>
+        <COMPID name="LocalArtifactRequest" mc="Standard.Class" uid="834b8367-cb4a-40ce-b49f-8229e1ae8a46"/>
+        <COMPID name="LocalArtifactResult" mc="Standard.Class" uid="721a1ce5-a23a-44ab-890b-76b03b262206"/>
+        <COMPID name="LocalMetadataRegistration" mc="Standard.Class" uid="92157d46-8255-4d20-af6f-0a29c1d99d12"/>
+        <COMPID name="LocalMetadataRequest" mc="Standard.Class" uid="d8d34151-fbe6-454c-a117-f00f8dc32ef1"/>
+        <COMPID name="LocalMetadataResult" mc="Standard.Class" uid="339a3115-183f-459a-a8a9-4f24dd2a3bc6"/>
+        <COMPID name="LocalRepository" mc="Standard.Class" uid="bedb1fa8-f288-4aa1-a66c-ff9ea0b56fe2"/>
+        <COMPID name="LocalRepositoryManager" mc="Standard.Interface" uid="3802ada0-1229-4351-943f-16e8c87becc5"/>
+        <COMPID name="MirrorSelector" mc="Standard.Interface" uid="db8212a4-42c6-4bf7-98e3-eb8b4d314090"/>
+        <COMPID name="NoLocalRepositoryManagerException" mc="Standard.Class" uid="a0b98679-e93c-4fd1-a7f3-ac0e5e5ca32d"/>
+        <COMPID name="Proxy" mc="Standard.Class" uid="144a5d4c-6f6f-4b2c-8ce4-df823734db69"/>
+        <COMPID name="ProxySelector" mc="Standard.Interface" uid="932aae20-56e1-42f8-88ad-b1ea6c94d4c0"/>
+        <COMPID name="RemoteRepository" mc="Standard.Class" uid="44601715-0c69-4cb1-82b0-34fcef66b876"/>
+        <COMPID name="RepositoryPolicy" mc="Standard.Class" uid="02f1c569-a973-4229-95e3-97634c704017"/>
+        <COMPID name="WorkspaceReader" mc="Standard.Interface" uid="aa29f0b4-9947-4983-8a42-077e49651655"/>
+        <COMPID name="WorkspaceRepository" mc="Standard.Class" uid="02270776-faf4-4108-ac85-dbe2f82bba1c"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

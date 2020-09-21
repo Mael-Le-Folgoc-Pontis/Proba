@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="moindres carrés" version="4">
+  <OBJECT>
+    <ID name="moindres carrés" mc="Standard.Package" uid="2cb16440-9d7a-4479-944e-e56e0bf91f07"/>
+    <PID name="Moindres carrés" mc="Standard.Project" uid="28811743-8ba2-4c02-b753-e5c93e4f5267"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[moindres carrés]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Match" mc="Standard.Class" uid="a17aa1d8-fd35-44bb-9adf-3078439cea08"/>
+        <COMPID name="Equipe" mc="Standard.Class" uid="9cd4438e-e052-4683-aa15-25be19e6d28c"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="pronostiques de foot" mc="Standard.ClassDiagram" uid="5a6e451f-6883-45e5-a18a-68f4bd59830f"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

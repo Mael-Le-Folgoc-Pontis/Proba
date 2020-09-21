@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="editor" version="4">
+  <OBJECT>
+    <ID name="editor" mc="Standard.Package" uid="c6c3f1fd-4734-4ad2-a018-eb41555897e1"/>
+    <PID name="m2e" mc="Standard.Package" uid="6113f149-1b64-4fc9-a6e8-99b6eb1cb739"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[editor]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="MavenEditorImages" mc="Standard.Class" uid="fb7fa4f7-6096-452b-9306-23f48c104c64"/>
+        <COMPID name="MavenEditorPlugin" mc="Standard.Class" uid="587b5351-701d-4249-be16-00403d30f0d9"/>
+        <COMPID name="composites" mc="Standard.Package" uid="8fd8a106-5e2b-440c-a90d-65723f8d8fea"/>
+        <COMPID name="dialogs" mc="Standard.Package" uid="9ecc0b9f-5266-4f04-b7b4-4dc54bdb4390"/>
+        <COMPID name="internal" mc="Standard.Package" uid="2b58a32b-8473-4085-974f-33d6565dcbb8"/>
+        <COMPID name="pom" mc="Standard.Package" uid="c2faa0c6-adde-470a-9fde-26389e68a7bf"/>
+        <COMPID name="xml" mc="Standard.Package" uid="d023918f-38bd-4824-ad4e-513d3687b741"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

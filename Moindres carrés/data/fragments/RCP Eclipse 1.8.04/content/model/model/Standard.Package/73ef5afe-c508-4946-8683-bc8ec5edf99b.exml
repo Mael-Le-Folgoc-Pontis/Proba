@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="templates" version="4">
+  <OBJECT>
+    <ID name="templates" mc="Standard.Package" uid="73ef5afe-c508-4946-8683-bc8ec5edf99b"/>
+    <PID name="internal" mc="Standard.Package" uid="09b5b54d-2362-4bc2-8424-dd8ed3bccc95"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[templates]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="TemplateContextTypeDTD" mc="Standard.Class" uid="76669ce8-1007-4a78-b214-5f36c2525b3f"/>
+        <COMPID name="TemplateContextTypeIdsDTD" mc="Standard.Class" uid="13b73151-790e-43da-b69f-814a37da3e24"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

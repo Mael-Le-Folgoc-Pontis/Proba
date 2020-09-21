@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ui" version="4">
+  <OBJECT>
+    <ID name="ui" mc="Standard.Package" uid="0005ff5a-0bd1-112e-9071-001e4fea2d8b"/>
+    <PID name="ds" mc="Standard.Package" uid="00015568-0bd1-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[ui]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Activator" mc="Standard.Class" uid="00060568-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IConstants" mc="Standard.Interface" uid="00060b30-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Messages" mc="Standard.Class" uid="000611de-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SWTUtil" mc="Standard.Class" uid="0006183c-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SharedImages" mc="Standard.Class" uid="00061ec2-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="editor" mc="Standard.Package" uid="00071890-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="parts" mc="Standard.Package" uid="000c50c6-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="wizards" mc="Standard.Package" uid="000d7140-0bd1-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

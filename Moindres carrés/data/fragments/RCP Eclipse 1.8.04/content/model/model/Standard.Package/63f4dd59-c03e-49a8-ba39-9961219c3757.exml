@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="transform" version="4">
+  <OBJECT>
+    <ID name="transform" mc="Standard.Package" uid="63f4dd59-c03e-49a8-ba39-9961219c3757"/>
+    <PID name="jdom" mc="Standard.Package" uid="f2cb053a-09e2-411e-9342-9d8b064789bd"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[transform]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="JDOMResult" mc="Standard.Class" uid="f9308275-c2b2-4417-b721-e387d179ddf3"/>
+        <COMPID name="JDOMSource" mc="Standard.Class" uid="5ff10554-87b8-4bec-aa98-27c25baf2596"/>
+        <COMPID name="XSLTransformException" mc="Standard.Class" uid="ab35d09a-4f7c-4bb4-a710-b186f6fcb889"/>
+        <COMPID name="XSLTransformer" mc="Standard.Class" uid="cb8cacd6-6609-4790-8e44-13bd664fceba"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

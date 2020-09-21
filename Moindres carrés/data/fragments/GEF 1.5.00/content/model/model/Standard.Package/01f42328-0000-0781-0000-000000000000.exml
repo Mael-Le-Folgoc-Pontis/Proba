@@ -1,0 +1,52 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="text" version="4">
+  <OBJECT>
+    <ID name="text" mc="Standard.Package" uid="01f42328-0000-0781-0000-000000000000"/>
+    <PID name="draw2d" mc="Standard.Package" uid="01f42328-0000-0010-0000-000000000000"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[text]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractFlowBorder" mc="Standard.Class" uid="01f42328-0000-08a9-0000-000000000000"/>
+        <COMPID name="BidiInfo" mc="Standard.Class" uid="01f42328-0000-079b-0000-000000000000"/>
+        <COMPID name="BidiProcessor" mc="Standard.Class" uid="01f42328-0000-0790-0000-000000000000"/>
+        <COMPID name="BlockBox" mc="Standard.Class" uid="01f42328-0000-0a4f-0000-000000000000"/>
+        <COMPID name="BlockFlow" mc="Standard.Class" uid="01f42328-0000-0990-0000-000000000000"/>
+        <COMPID name="BlockFlowLayout" mc="Standard.Class" uid="01f42328-0000-095e-0000-000000000000"/>
+        <COMPID name="CaretInfo" mc="Standard.Class" uid="01f42328-0000-0866-0000-000000000000"/>
+        <COMPID name="CompositeBox" mc="Standard.Class" uid="01f42328-0000-0809-0000-000000000000"/>
+        <COMPID name="ContentBox" mc="Standard.Class" uid="01f42328-0000-08f3-0000-000000000000"/>
+        <COMPID name="FlowAdapter" mc="Standard.Class" uid="01f42328-0000-0967-0000-000000000000"/>
+        <COMPID name="FlowBorder" mc="Standard.Interface" uid="01f42328-0000-08b0-0000-000000000000"/>
+        <COMPID name="FlowBox" mc="Standard.Class" uid="01f42328-0000-080a-0000-000000000000"/>
+        <COMPID name="FlowContainerLayout" mc="Standard.Class" uid="01f42328-0000-08d9-0000-000000000000"/>
+        <COMPID name="FlowContext" mc="Standard.Interface" uid="01f42328-0000-08dc-0000-000000000000"/>
+        <COMPID name="FlowFigure" mc="Standard.Class" uid="01f42328-0000-0782-0000-000000000000"/>
+        <COMPID name="FlowFigureLayout" mc="Standard.Class" uid="01f42328-0000-0794-0000-000000000000"/>
+        <COMPID name="FlowPage" mc="Standard.Class" uid="01f42328-0000-0963-0000-000000000000"/>
+        <COMPID name="FlowUtilities" mc="Standard.Class" uid="01f42328-0000-07f0-0000-000000000000"/>
+        <COMPID name="InlineFlow" mc="Standard.Class" uid="01f42328-0000-07b2-0000-000000000000"/>
+        <COMPID name="InlineFlowLayout" mc="Standard.Class" uid="01f42328-0000-0ac3-0000-000000000000"/>
+        <COMPID name="LineBox" mc="Standard.Class" uid="01f42328-0000-07ad-0000-000000000000"/>
+        <COMPID name="LineRoot" mc="Standard.Class" uid="01f42328-0000-07be-0000-000000000000"/>
+        <COMPID name="NestedLine" mc="Standard.Class" uid="01f42328-0000-07ac-0000-000000000000"/>
+        <COMPID name="PageFlowLayout" mc="Standard.Class" uid="01f42328-0000-095d-0000-000000000000"/>
+        <COMPID name="ParagraphTextLayout" mc="Standard.Class" uid="01f42328-0000-07d0-0000-000000000000"/>
+        <COMPID name="SimpleTextLayout" mc="Standard.Class" uid="01f42328-0000-0934-0000-000000000000"/>
+        <COMPID name="TextFlow" mc="Standard.Class" uid="01f42328-0000-07e1-0000-000000000000"/>
+        <COMPID name="TextFragmentBox" mc="Standard.Class" uid="01f42328-0000-09ce-0000-000000000000"/>
+        <COMPID name="TextLayout" mc="Standard.Class" uid="01f42328-0000-07d1-0000-000000000000"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

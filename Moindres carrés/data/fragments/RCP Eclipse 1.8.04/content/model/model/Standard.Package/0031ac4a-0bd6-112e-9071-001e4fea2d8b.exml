@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="explorer" version="4">
+  <OBJECT>
+    <ID name="explorer" mc="Standard.Package" uid="0031ac4a-0bd6-112e-9071-001e4fea2d8b"/>
+    <PID name="composite" mc="Standard.Package" uid="002e7ce6-0bd6-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[explorer]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractOverlayIcon" mc="Standard.Class" uid="0031b2e4-0bd6-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ConfirmRestartDialog" mc="Standard.Class" uid="0031b94c-0bd6-112e-9071-001e4fea2d8b"/>
+        <COMPID name="OverlayIcon" mc="Standard.Class" uid="0031cbe4-0bd6-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ResetTaskAction" mc="Standard.Class" uid="0031d24c-0bd6-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RestartAllAction" mc="Standard.Class" uid="0031d918-0bd6-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SkipAction" mc="Standard.Class" uid="0031e016-0bd6-112e-9071-001e4fea2d8b"/>
+        <COMPID name="StartAction" mc="Standard.Class" uid="0031e714-0bd6-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TreeExplorerMenu" mc="Standard.Class" uid="0031f718-0bd6-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TreeLabelProvider" mc="Standard.Class" uid="0031fec0-0bd6-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TreeTaskExplorer" mc="Standard.Class" uid="00320c9e-0bd6-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

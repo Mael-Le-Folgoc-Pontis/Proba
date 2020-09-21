@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="util" version="4">
+  <OBJECT>
+    <ID name="util" mc="Standard.Package" uid="74396a03-c929-4f9e-9f00-868cc4fc3642"/>
+    <PID name="model" mc="Standard.Package" uid="2dbb386c-0c31-41c8-9d72-953c2cd73ef0"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[util]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="SnipmatchRcpModelAdapterFactory" mc="Standard.Class" uid="f73ffb73-6edb-4d6f-9dc2-f4560e1b55ac"/>
+        <COMPID name="SnipmatchRcpModelSwitch" mc="Standard.Class" uid="3653c268-5a9d-46b5-8411-2de95660d8b1"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

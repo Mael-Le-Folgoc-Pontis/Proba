@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="model" version="4">
+  <OBJECT>
+    <ID name="model" mc="Standard.Package" uid="9056f02a-6466-4e71-ad47-e7e20a7b145f"/>
+    <PID name="databinding" mc="Standard.Package" uid="aac28d53-7cb1-4f38-b5af-7df8a9c40d1f"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[model]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AstObjectInfo" mc="Standard.Class" uid="ce4c1fc3-a798-4752-956e-dee2cc6c914f"/>
+        <COMPID name="AstObjectInfoVisitor" mc="Standard.Class" uid="80d33713-7776-441f-82b9-a8b6ef1335cd"/>
+        <COMPID name="CodeGenerationSupport" mc="Standard.Class" uid="1bfa77bd-a60e-4128-b9f8-3a2f468d1226"/>
+        <COMPID name="ContainerAstObjectInfo" mc="Standard.Class" uid="15a8bbba-b3bc-4ee4-a00f-134dd9ec646c"/>
+        <COMPID name="IASTObjectInfo2" mc="Standard.Interface" uid="38848049-a94e-4f34-aa15-696c9e69fc30"/>
+        <COMPID name="IBindingInfo" mc="Standard.Interface" uid="51633872-ac4e-44ce-8a51-caf2b4769545"/>
+        <COMPID name="IDatabindingFactory" mc="Standard.Interface" uid="a4a5209b-b1a5-4f77-bc2e-843d352eaf10"/>
+        <COMPID name="IDatabindingsProvider" mc="Standard.Interface" uid="cc67a2c0-974f-40ed-8695-750354461901"/>
+        <COMPID name="IObserveDecoration" mc="Standard.Interface" uid="a1ab3f5e-9b6c-443d-bfc0-1b9046b851f6"/>
+        <COMPID name="IObserveInfo" mc="Standard.Interface" uid="77c8f8d9-07e7-48a1-ba8c-8da32dd250a5"/>
+        <COMPID name="IObservePresentation" mc="Standard.Interface" uid="798717ac-73ff-4e6c-93f7-d476dddb6d38"/>
+        <COMPID name="ISynchronizeProcessor" mc="Standard.Interface" uid="aa5b2580-ef0a-4fcb-bd18-f15949bcab1e"/>
+        <COMPID name="JavaInfoDeleteManager" mc="Standard.Class" uid="4ea98f8f-68c8-408f-b954-7cd7e603ab40"/>
+        <COMPID name="ObserveComparator" mc="Standard.Class" uid="1b522e89-b29e-4501-8ded-c0c5b1efa876"/>
+        <COMPID name="ObserveTypeContainer" mc="Standard.Class" uid="e2859f19-6747-4e00-8911-aa1b6c994ab5"/>
+        <COMPID name="SynchronizeManager" mc="Standard.Class" uid="970bdbbe-dff3-4e60-824d-3dc2196c372f"/>
+        <COMPID name="presentation" mc="Standard.Package" uid="02b0800a-4d61-427b-9dea-b3bd9c73d865"/>
+        <COMPID name="reference" mc="Standard.Package" uid="e25201cb-ba89-4f9f-a8c9-6564fd06df33"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

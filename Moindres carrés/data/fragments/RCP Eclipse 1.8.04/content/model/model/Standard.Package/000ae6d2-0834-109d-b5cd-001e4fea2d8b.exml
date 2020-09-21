@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="templates" version="4">
+  <OBJECT>
+    <ID name="templates" mc="Standard.Package" uid="000ae6d2-0834-109d-b5cd-001e4fea2d8b"/>
+    <PID name="text" mc="Standard.Package" uid="007fca06-0833-109d-b5cd-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[templates]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ContextTypeRegistry" mc="Standard.Class" uid="000aed62-0834-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="DocumentTemplateContext" mc="Standard.Class" uid="0059f880-0caa-109d-8c43-001e4fea2d8b"/>
+        <COMPID name="GlobalTemplateVariables" mc="Standard.Class" uid="005a0258-0caa-109d-8c43-001e4fea2d8b"/>
+        <COMPID name="SimpleTemplateVariableResolver" mc="Standard.Class" uid="005a924a-0caa-109d-8c43-001e4fea2d8b"/>
+        <COMPID name="Template" mc="Standard.Class" uid="005a9c86-0caa-109d-8c43-001e4fea2d8b"/>
+        <COMPID name="TemplateBuffer" mc="Standard.Class" uid="005aa69a-0caa-109d-8c43-001e4fea2d8b"/>
+        <COMPID name="TemplateCompletionProcessor" mc="Standard.Class" uid="000b0bee-0834-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="TemplateContext" mc="Standard.Class" uid="005ab130-0caa-109d-8c43-001e4fea2d8b"/>
+        <COMPID name="TemplateContextType" mc="Standard.Class" uid="005abbf8-0caa-109d-8c43-001e4fea2d8b"/>
+        <COMPID name="TemplateException" mc="Standard.Class" uid="005ac6d4-0caa-109d-8c43-001e4fea2d8b"/>
+        <COMPID name="TemplateProposal" mc="Standard.Class" uid="000b2322-0834-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="TemplateTranslator" mc="Standard.Class" uid="005ad26e-0caa-109d-8c43-001e4fea2d8b"/>
+        <COMPID name="TemplateVariable" mc="Standard.Class" uid="005ae57e-0caa-109d-8c43-001e4fea2d8b"/>
+        <COMPID name="TemplateVariableResolver" mc="Standard.Class" uid="005af154-0caa-109d-8c43-001e4fea2d8b"/>
+        <COMPID name="TemplateVariableType" mc="Standard.Class" uid="005afe10-0caa-109d-8c43-001e4fea2d8b"/>
+        <COMPID name="persistence" mc="Standard.Package" uid="000cf18e-0834-109d-b5cd-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

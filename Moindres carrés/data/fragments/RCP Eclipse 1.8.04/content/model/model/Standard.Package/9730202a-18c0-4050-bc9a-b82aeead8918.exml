@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="dnd" version="4">
+  <OBJECT>
+    <ID name="dnd" mc="Standard.Package" uid="9730202a-18c0-4050-bc9a-b82aeead8918"/>
+    <PID name="internal" mc="Standard.Package" uid="5c186275-25a5-4f23-8168-54825ff2c5f9"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[dnd]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="SnippetTextDropAction" mc="Standard.Class" uid="b36e851b-b55b-4699-a9f3-160abe74683f"/>
+        <COMPID name="SnippetTextTransfer" mc="Standard.Class" uid="fff6b70c-1e3c-4ac7-adbc-494cf7f0647f"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="synchronize" version="4">
+  <OBJECT>
+    <ID name="synchronize" mc="Standard.Package" uid="2bb806bc-71a6-47e7-b961-c53fcf8da707"/>
+    <PID name="internal" mc="Standard.Package" uid="1ad693c0-6f4f-4036-b8b3-856fc090e359"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[synchronize]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="GitChangeSetModelProvider" mc="Standard.Class" uid="a012d431-6170-4c3f-8fca-efad854175ff"/>
+        <COMPID name="GitModelSynchronize" mc="Standard.Class" uid="f47aef97-e835-4c43-880e-524e91f0879e"/>
+        <COMPID name="GitModelSynchronizeParticipant" mc="Standard.Class" uid="174a9501-1a60-440c-9090-98d2e3a5abfe"/>
+        <COMPID name="GitSynchronizeWizard" mc="Standard.Class" uid="0fe6239b-e4ea-408e-9db1-4794796d8d5f"/>
+        <COMPID name="SyncRepoEntity" mc="Standard.Class" uid="c40256b0-74e7-478c-9b81-92affad6dff7"/>
+        <COMPID name="action" mc="Standard.Package" uid="0aee9500-6d79-4c02-9f87-afbedb19d379"/>
+        <COMPID name="compare" mc="Standard.Package" uid="05c45d82-3fc8-499b-95ca-63f7d7397fe5"/>
+        <COMPID name="mapping" mc="Standard.Package" uid="72635737-0610-4ecf-870c-a391ec9646b8"/>
+        <COMPID name="model" mc="Standard.Package" uid="cdc04bca-11bc-42cb-9509-def7983dcc9f"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

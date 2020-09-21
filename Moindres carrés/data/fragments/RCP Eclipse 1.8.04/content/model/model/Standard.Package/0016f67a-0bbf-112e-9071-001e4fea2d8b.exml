@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="actions" version="4">
+  <OBJECT>
+    <ID name="actions" mc="Standard.Package" uid="0016f67a-0bbf-112e-9071-001e4fea2d8b"/>
+    <PID name="editor" mc="Standard.Package" uid="00155fea-0bbf-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[actions]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AntEditorActionMessages" mc="Standard.Class" uid="0016fd14-0bbf-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FoldingActionGroup" mc="Standard.Class" uid="0017049e-0bbf-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FoldingExpandAllRulerAction" mc="Standard.Class" uid="00170c00-0bbf-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FoldingToggleRulerAction" mc="Standard.Class" uid="001713f8-0bbf-112e-9071-001e4fea2d8b"/>
+        <COMPID name="OpenAntDeclarationHander" mc="Standard.Class" uid="00171c04-0bbf-112e-9071-001e4fea2d8b"/>
+        <COMPID name="OpenExternalAntDocHandler" mc="Standard.Class" uid="00172406-0bbf-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RenameInFileAction" mc="Standard.Class" uid="00172c6c-0bbf-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RunToLineAdapter" mc="Standard.Class" uid="001734fa-0bbf-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ToggleAutoReconcileAction" mc="Standard.Class" uid="00173d9c-0bbf-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ToggleLineBreakpointAction" mc="Standard.Class" uid="001746a2-0bbf-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ToggleMarkOccurrencesAction" mc="Standard.Class" uid="00174fda-0bbf-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TogglePresentationAction" mc="Standard.Class" uid="001758fe-0bbf-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

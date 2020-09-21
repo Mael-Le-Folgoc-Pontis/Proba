@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="impl" version="4">
+  <OBJECT>
+    <ID name="impl" mc="Standard.Package" uid="0002a706-0bc9-112e-9071-001e4fea2d8b"/>
+    <PID name="compiler" mc="Standard.Package" uid="0083bd82-0bc8-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[impl]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="BooleanConstant" mc="Standard.Class" uid="0002ad3c-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ByteConstant" mc="Standard.Class" uid="0002b44e-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CharConstant" mc="Standard.Class" uid="0002bb1a-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CompilerOptions" mc="Standard.Class" uid="0002c1f0-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CompilerStats" mc="Standard.Class" uid="0002c92a-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Constant" mc="Standard.Class" uid="0002d0a0-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DoubleConstant" mc="Standard.Class" uid="0002d80c-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FloatConstant" mc="Standard.Class" uid="0002dfdc-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ITypeRequestor" mc="Standard.Interface" uid="0002e626-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IntConstant" mc="Standard.Class" uid="0002eebe-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IrritantSet" mc="Standard.Class" uid="0002f706-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LongConstant" mc="Standard.Class" uid="0002ffa8-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ReferenceContext" mc="Standard.Interface" uid="00030656-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ShortConstant" mc="Standard.Class" uid="00030f2a-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="StringConstant" mc="Standard.Class" uid="000317fe-0bc9-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

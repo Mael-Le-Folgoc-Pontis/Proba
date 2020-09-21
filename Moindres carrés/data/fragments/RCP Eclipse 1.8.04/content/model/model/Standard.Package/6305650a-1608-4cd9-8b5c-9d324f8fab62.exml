@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="xmlrpc" version="4">
+  <OBJECT>
+    <ID name="xmlrpc" mc="Standard.Package" uid="6305650a-1608-4cd9-8b5c-9d324f8fab62"/>
+    <PID name="commons" mc="Standard.Package" uid="b6e147f5-e463-4dab-9dfe-8ee79bc39421"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[xmlrpc]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="CommonXmlRpcClient" mc="Standard.Class" uid="85ec0160-8058-43e6-b368-7bb884010bd3"/>
+        <COMPID name="Multicall" mc="Standard.Class" uid="ca5fa9ef-77f0-44c2-a20a-b33c220e93f6"/>
+        <COMPID name="MulticallResult" mc="Standard.Class" uid="e1e6c1b3-ee35-4c04-a79e-b18a989d948e"/>
+        <COMPID name="XmlRpcHttpException" mc="Standard.Class" uid="9d542a95-a321-4a52-8e9f-a7103d943877"/>
+        <COMPID name="XmlRpcIllegalContentTypeException" mc="Standard.Class" uid="272b5ea5-9f98-4048-b619-67a2306ab2c9"/>
+        <COMPID name="XmlRpcLoginException" mc="Standard.Class" uid="f3cf08d5-d10b-4b60-bb4d-f7e14844fd8c"/>
+        <COMPID name="XmlRpcNoSuchMethodException" mc="Standard.Class" uid="c8baaead-0c90-4460-b24e-dfcb08be3497"/>
+        <COMPID name="XmlRpcOperation" mc="Standard.Class" uid="12bbf160-4b10-4ee5-bb4f-74fb2553aa42"/>
+        <COMPID name="XmlRpcPermissionDeniedException" mc="Standard.Class" uid="2f7516b5-5198-4ecd-84f5-ca20bfcf7889"/>
+        <COMPID name="XmlRpcProxyAuthenticationException" mc="Standard.Class" uid="e1ea51c9-1d4e-47f3-9dd6-71d8679d9906"/>
+        <COMPID name="XmlRpcRemoteException" mc="Standard.Class" uid="9fd6d082-16bd-4064-8f03-c9d757ab08e4"/>
+        <COMPID name="XmlRpcSslCertificateException" mc="Standard.Class" uid="6aa88a10-ec33-41a8-97fc-710cf53d5a9f"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="texen" version="4">
+  <OBJECT>
+    <ID name="texen" mc="Standard.Package" uid="09aee068-7410-49a7-a020-1f1d46c3fe42"/>
+    <PID name="velocity" mc="Standard.Package" uid="f64d32da-b37a-4bf8-af95-e529226e220c"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[texen]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Generator" mc="Standard.Class" uid="b397b81e-6870-4379-8f1b-e0404577fd5d"/>
+        <COMPID name="ant" mc="Standard.Package" uid="c3f07782-32a3-4482-9996-e0a67846fdca"/>
+        <COMPID name="util" mc="Standard.Package" uid="10f3ff39-f71b-43c7-bcb1-5f759dfff74f"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

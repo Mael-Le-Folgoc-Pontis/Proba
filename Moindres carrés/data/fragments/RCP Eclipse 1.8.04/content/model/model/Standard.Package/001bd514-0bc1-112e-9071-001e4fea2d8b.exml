@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="expressions" version="4">
+  <OBJECT>
+    <ID name="expressions" mc="Standard.Package" uid="001bd514-0bc1-112e-9071-001e4fea2d8b"/>
+    <PID name="actions" mc="Standard.Package" uid="0014080c-0bc1-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[expressions]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AddWatchExpressionAction" mc="Standard.Class" uid="001bdbd6-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ConvertToWatchExpressionAction" mc="Standard.Class" uid="001be2c0-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DisableWatchExpressionAction" mc="Standard.Class" uid="001bea40-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="EditWatchExpressinInPlaceAction" mc="Standard.Class" uid="001bf1c0-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="EditWatchExpressionAction" mc="Standard.Class" uid="001bfaf8-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="EnableWatchExpressionAction" mc="Standard.Class" uid="001c02dc-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PasteWatchExpressionsAction" mc="Standard.Class" uid="001c0ae8-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ReevaluateWatchExpressionAction" mc="Standard.Class" uid="001c12e0-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RemoveAllExpressionsAction" mc="Standard.Class" uid="001c1b46-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RemoveExpressionAction" mc="Standard.Class" uid="001c23e8-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SelectAllExpressionsAction" mc="Standard.Class" uid="001c2c80-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WatchExpressionAction" mc="Standard.Class" uid="001c359a-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WatchExpressionDialog" mc="Standard.Class" uid="001c3f36-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WatchExpressionFactoryTester" mc="Standard.Class" uid="001c4864-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WatchHandler" mc="Standard.Class" uid="001c521e-0bc1-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

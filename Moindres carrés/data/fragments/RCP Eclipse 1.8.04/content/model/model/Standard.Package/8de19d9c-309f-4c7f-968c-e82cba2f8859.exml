@@ -1,0 +1,96 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="internal" version="4">
+  <OBJECT>
+    <ID name="internal" mc="Standard.Package" uid="8de19d9c-309f-4c7f-968c-e82cba2f8859"/>
+    <PID name="ui" mc="Standard.Package" uid="b3f0f184-0215-4378-a017-437af2ad1cb1"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[internal]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractDropAction" mc="Standard.Class" uid="a7aa1ce0-c791-45a5-9bc1-96e829002690"/>
+        <COMPID name="CaretMediator" mc="Standard.Class" uid="22f02039-2e12-48b5-aa39-035f91beb969"/>
+        <COMPID name="ExtendedConfigurationBuilder" mc="Standard.Class" uid="a951c81b-d9b8-4849-a573-cc54796280d7"/>
+        <COMPID name="ExtendedEditorActionBuilder" mc="Standard.Class" uid="19f42ebd-7b4e-4cce-a45a-a96ce5f82081"/>
+        <COMPID name="ExtendedEditorDropTargetAdapter" mc="Standard.Class" uid="9ef76a13-d90e-436d-bde9-dd5809a5e34b"/>
+        <COMPID name="FileDropAction" mc="Standard.Class" uid="c9a05810-abfe-4039-8e7b-b9a23990bb93"/>
+        <COMPID name="FormatProcessorsExtensionReader" mc="Standard.Class" uid="b6c4984e-76d5-454f-9ae1-f88ba1f1e1e3"/>
+        <COMPID name="GotoAnnotationAction" mc="Standard.Class" uid="5f642e40-a2ee-4977-a221-1d551214ce65"/>
+        <COMPID name="IActionValidator" mc="Standard.Interface" uid="73db56e4-ecbe-41e5-9f76-9408bd7af8a3"/>
+        <COMPID name="IDropAction" mc="Standard.Interface" uid="9fa10a35-b921-49f3-b51d-deb7594d4ff5"/>
+        <COMPID name="IExtendedContributor" mc="Standard.Interface" uid="4cf1fccd-4fcf-4cf0-8930-ceefea7efbff"/>
+        <COMPID name="IExtendedEditorAction" mc="Standard.Interface" uid="38fc62a7-80aa-4cc3-acc9-fe267160e146"/>
+        <COMPID name="IExtendedMarkupEditor" mc="Standard.Interface" uid="1d09cd33-53de-4a62-bf41-b0a7776901f7"/>
+        <COMPID name="IExtendedSimpleEditor" mc="Standard.Interface" uid="88b68f5c-6fce-4e05-83a8-d1ec8a84a0b0"/>
+        <COMPID name="IModelProvider" mc="Standard.Interface" uid="d0b42ea2-bcfb-4eb1-910d-fcd8b21c9cbc"/>
+        <COMPID name="IPopupMenuContributor" mc="Standard.Interface" uid="9f2dfda0-b9bc-4791-89fd-fe5657d0f59c"/>
+        <COMPID name="IReleasable" mc="Standard.Interface" uid="61334e64-9228-45b5-b1c3-5a1d75a8d5fe"/>
+        <COMPID name="ISourceViewerActionBarContributor" mc="Standard.Interface" uid="06e284b3-2cb3-4ca7-9cd2-3207124b580c"/>
+        <COMPID name="IStructuredTextEditorActionConstants" mc="Standard.Interface" uid="69e2a28e-0c5b-435b-89e1-bfa17cc6cae0"/>
+        <COMPID name="ITemporaryAnnotation" mc="Standard.Interface" uid="e008a8fd-d080-40f7-a841-ad04c9a45ab5"/>
+        <COMPID name="Logger" mc="Standard.Class" uid="21fb6d3f-f003-4b42-ac81-2b278d2de77b"/>
+        <COMPID name="PreferenceInitializer" mc="Standard.Class" uid="f7f11f9e-d3da-4682-86da-36feebf0d838"/>
+        <COMPID name="ReadOnlyAwareDropTargetAdapter" mc="Standard.Class" uid="fdfec4a0-10f9-491d-99d2-b0141f0ec47c"/>
+        <COMPID name="SSEUIMessages" mc="Standard.Class" uid="53277632-0baa-4cfc-8ed9-1937ddd03644"/>
+        <COMPID name="SSEUIPlugin" mc="Standard.Class" uid="48c112ab-e726-48c9-8e5d-14e744af343a"/>
+        <COMPID name="ShowViewAction" mc="Standard.Class" uid="8e2ccab1-9d54-4241-bd8e-5df275fc4da8"/>
+        <COMPID name="StorageModelProvider" mc="Standard.Class" uid="36f4307a-7198-4877-8e1e-8d88f259aeca"/>
+        <COMPID name="StructuredDocumentToTextAdapter" mc="Standard.Class" uid="51874daf-2f4a-4478-89a2-1370ff4cb0e3"/>
+        <COMPID name="StructuredLineChangeHover" mc="Standard.Class" uid="cb762491-0dde-4cd3-9398-2cccb69354ed"/>
+        <COMPID name="StructuredMarkerAnnotation" mc="Standard.Class" uid="90cc7afb-d4fb-41d4-b7ce-f9ee3e051e2b"/>
+        <COMPID name="StructuredResourceMarkerAnnotationModel" mc="Standard.Class" uid="2d8be665-867a-4bc4-b294-1ade514080b3"/>
+        <COMPID name="StructuredResourceMarkerAnnotationModelFactory" mc="Standard.Class" uid="04772590-2563-45bb-b534-945b63c8e138"/>
+        <COMPID name="StructuredTextAnnotationHover" mc="Standard.Class" uid="ef4cb3a2-fca0-489d-98d1-36a40824bc34"/>
+        <COMPID name="StructuredTextLineBreakingReader" mc="Standard.Class" uid="a65906d5-44b5-4f56-93ef-fa00a9d0e760"/>
+        <COMPID name="StructuredTextSelectionChangedEvent" mc="Standard.Class" uid="db2f491a-9310-4022-baf5-a5b040412fff"/>
+        <COMPID name="StructuredTextViewer" mc="Standard.Class" uid="1269bc58-f516-4cac-a526-67bc89d4428b"/>
+        <COMPID name="TextDropAction" mc="Standard.Class" uid="8957e541-cb46-4279-b789-a71bc73d65de"/>
+        <COMPID name="TransferBuilder" mc="Standard.Class" uid="138e8f21-86af-46d7-a554-8ef0b9744dcb"/>
+        <COMPID name="UnknownContentTypeDialog" mc="Standard.Class" uid="5d0f5926-0b3e-41d4-ad7a-05f4c3d0ee4c"/>
+        <COMPID name="actions" mc="Standard.Package" uid="bc44cf4d-4b0b-4212-a1d2-5e5da815dddf"/>
+        <COMPID name="comment" mc="Standard.Package" uid="f1407dfa-db71-4a1a-9fda-b6eec832eef0"/>
+        <COMPID name="contentassist" mc="Standard.Package" uid="6e3f72bd-5ae9-47d4-831f-35c43e403b6a"/>
+        <COMPID name="contentoutline" mc="Standard.Package" uid="5c545234-58e7-4b49-ac46-2b8e6f3ef40c"/>
+        <COMPID name="contentproperties" mc="Standard.Package" uid="e48074f8-7418-410c-b5f0-7511c03322c0"/>
+        <COMPID name="correction" mc="Standard.Package" uid="b6869712-28d2-4532-86b1-b6738b53e6b1"/>
+        <COMPID name="debug" mc="Standard.Package" uid="908387a1-7bd7-4f51-9746-8bb77566a1bb"/>
+        <COMPID name="derived" mc="Standard.Package" uid="9688d416-271c-4252-bf19-cb7348979536"/>
+        <COMPID name="edit" mc="Standard.Package" uid="c3545dae-9ef2-4841-86ae-60c7f33d592f"/>
+        <COMPID name="editor" mc="Standard.Package" uid="856804fe-6b99-4e17-99f5-06c1b30e4ed9"/>
+        <COMPID name="encoding" mc="Standard.Package" uid="ea5e6548-dceb-4fee-9145-9d9576e96e3d"/>
+        <COMPID name="extension" mc="Standard.Package" uid="36e3ecf2-fe05-4c96-b9af-884d8028715d"/>
+        <COMPID name="filter" mc="Standard.Package" uid="0c6cbfda-e835-4edb-8e2f-072f72c814f0"/>
+        <COMPID name="format" mc="Standard.Package" uid="8cba670e-4852-48a9-9262-fcac8939488f"/>
+        <COMPID name="handlers" mc="Standard.Package" uid="ef68c476-c7fa-4cf5-bc62-197be160478b"/>
+        <COMPID name="hyperlink" mc="Standard.Package" uid="227dbaaf-f5d5-4d7d-971f-9533af34d6f0"/>
+        <COMPID name="openon" mc="Standard.Package" uid="d8c4f3ff-1fa8-4154-9744-5990cba97697"/>
+        <COMPID name="preferences" mc="Standard.Package" uid="7d0b046b-6482-4c77-a998-9d1c544bde37"/>
+        <COMPID name="projection" mc="Standard.Package" uid="2fc41289-f066-481c-925c-4069cc9da26b"/>
+        <COMPID name="properties" mc="Standard.Package" uid="eb8d2662-09e1-4ac3-bd7b-58a549802a57"/>
+        <COMPID name="propertytester" mc="Standard.Package" uid="57e8e014-c40c-416f-85da-8da4353795b5"/>
+        <COMPID name="provisional" mc="Standard.Package" uid="51096470-157a-4d0c-88e1-39db76cce283"/>
+        <COMPID name="quickoutline" mc="Standard.Package" uid="d67bc354-0c50-4f1d-82b1-cffc70d85153"/>
+        <COMPID name="reconcile" mc="Standard.Package" uid="ee53692e-3390-4350-9dc8-208dc9fb09a3"/>
+        <COMPID name="rules" mc="Standard.Package" uid="4a13097b-9ba1-441c-ae52-43f3c9fc76e5"/>
+        <COMPID name="search" mc="Standard.Package" uid="88dc8fe4-1952-4aa8-906b-a42666a6dca0"/>
+        <COMPID name="selection" mc="Standard.Package" uid="1b35b6e6-01a3-47cc-b870-798cf52c3d30"/>
+        <COMPID name="spelling" mc="Standard.Package" uid="2fc578f9-9c5a-4928-bb51-8b5ae193a078"/>
+        <COMPID name="style" mc="Standard.Package" uid="358e4a54-e413-4afc-bd54-bfbfb13c4084"/>
+        <COMPID name="taginfo" mc="Standard.Package" uid="a2af6b85-3360-4547-8b62-47138b1d9d4e"/>
+        <COMPID name="text" mc="Standard.Package" uid="7b24ac3d-44e8-4f69-9bd3-5755d8c27307"/>
+        <COMPID name="ui" mc="Standard.Package" uid="659aa7bc-379a-4e97-b3b9-5aa037ecf8d4"/>
+        <COMPID name="util" mc="Standard.Package" uid="698f555e-2857-48cf-896c-7f2ba6971f3b"/>
+        <COMPID name="view" mc="Standard.Package" uid="2bed45a6-47c0-4ae9-a835-c5ddb0b73870"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

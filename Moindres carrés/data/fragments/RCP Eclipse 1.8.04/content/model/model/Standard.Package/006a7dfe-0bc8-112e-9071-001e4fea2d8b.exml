@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="search" version="4">
+  <OBJECT>
+    <ID name="search" mc="Standard.Package" uid="006a7dfe-0bc8-112e-9071-001e4fea2d8b"/>
+    <PID name="core" mc="Standard.Package" uid="004e9184-0bc8-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[search]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="FieldDeclarationMatch" mc="Standard.Class" uid="006a8498-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FieldReferenceMatch" mc="Standard.Class" uid="006a8b64-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IJavaSearchConstants" mc="Standard.Interface" uid="006a9190-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IJavaSearchResultCollector" mc="Standard.Interface" uid="006a9870-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IJavaSearchScope" mc="Standard.Interface" uid="006a9f6e-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ISearchPattern" mc="Standard.Interface" uid="006aa662-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ITypeNameRequestor" mc="Standard.Interface" uid="006aadc4-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LocalVariableDeclarationMatch" mc="Standard.Class" uid="006ab512-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LocalVariableReferenceMatch" mc="Standard.Class" uid="006abbe8-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MethodDeclarationMatch" mc="Standard.Class" uid="006ac322-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MethodReferenceMatch" mc="Standard.Class" uid="006aca98-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PackageDeclarationMatch" mc="Standard.Class" uid="006ad204-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PackageReferenceMatch" mc="Standard.Class" uid="006ad9de-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ReferenceMatch" mc="Standard.Class" uid="006ae1ea-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SearchDocument" mc="Standard.Class" uid="006ae9f6-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SearchEngine" mc="Standard.Class" uid="006af270-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SearchMatch" mc="Standard.Class" uid="006b2628-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SearchParticipant" mc="Standard.Class" uid="006b2f06-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SearchPattern" mc="Standard.Class" uid="006b37da-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SearchRequestor" mc="Standard.Class" uid="006b4126-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TypeDeclarationMatch" mc="Standard.Class" uid="006b4a90-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TypeNameMatch" mc="Standard.Class" uid="006b5486-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TypeNameMatchRequestor" mc="Standard.Class" uid="006b5e5e-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TypeNameRequestor" mc="Standard.Class" uid="006b6868-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TypeParameterDeclarationMatch" mc="Standard.Class" uid="006b727c-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TypeParameterReferenceMatch" mc="Standard.Class" uid="006b7cea-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TypeReferenceMatch" mc="Standard.Class" uid="006b878a-0bc8-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

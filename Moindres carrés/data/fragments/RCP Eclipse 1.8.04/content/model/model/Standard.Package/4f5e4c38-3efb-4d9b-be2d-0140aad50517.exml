@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="statement" version="4">
+  <OBJECT>
+    <ID name="statement" mc="Standard.Package" uid="4f5e4c38-3efb-4d9b-be2d-0140aad50517"/>
+    <PID name="generation" mc="Standard.Package" uid="5e99d068-11e9-4d8e-9ee2-211e23004da5"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[statement]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractInsideStatementGenerator" mc="Standard.Class" uid="d6fcac92-d067-40a7-8709-978b07bdcadf"/>
+        <COMPID name="PureFlatStatementGenerator" mc="Standard.Class" uid="9dd99bd9-2901-4e5d-bf10-122c10459097"/>
+        <COMPID name="StatementGenerator" mc="Standard.Class" uid="5a6bb6bc-aa28-4643-bfb2-20ce6fce7c5d"/>
+        <COMPID name="StatementGeneratorDescription" mc="Standard.Class" uid="6b8ff7ae-e7b5-49f7-b5b4-2db23a267ff4"/>
+        <COMPID name="block" mc="Standard.Package" uid="7b3f889c-8863-4159-9ae1-b0397332c17f"/>
+        <COMPID name="flat" mc="Standard.Package" uid="fc132c23-6216-4780-84d7-c3db2a6c0978"/>
+        <COMPID name="lazy" mc="Standard.Package" uid="ccf856c5-d30e-4b14-86af-192af4eee67e"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

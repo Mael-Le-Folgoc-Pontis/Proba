@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="artifact" version="4">
+  <OBJECT>
+    <ID name="artifact" mc="Standard.Package" uid="023e63ef-0435-4585-833c-6b9c2197f0e3"/>
+    <PID name="aether" mc="Standard.Package" uid="838241ca-6249-4205-8716-7762cb313d96"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[artifact]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractArtifact" mc="Standard.Class" uid="16ff82ca-ba9a-4a88-a9e8-cf64c16add23"/>
+        <COMPID name="Artifact" mc="Standard.Interface" uid="ffe518d3-4f50-4b3e-a750-a8bf76cedf07"/>
+        <COMPID name="ArtifactProperties" mc="Standard.Class" uid="67e40357-9944-4f75-98de-d3dc1f9fd3cf"/>
+        <COMPID name="ArtifactType" mc="Standard.Interface" uid="ade20808-a437-4185-b2aa-329f2214e482"/>
+        <COMPID name="ArtifactTypeRegistry" mc="Standard.Interface" uid="4175ec70-ad5f-4120-919d-0c3fe5908ec7"/>
+        <COMPID name="DefaultArtifact" mc="Standard.Class" uid="5223559b-79d5-4aa9-92c8-c10750e8ab12"/>
+        <COMPID name="DefaultArtifactType" mc="Standard.Class" uid="1b3dc543-0e40-4dfb-b830-2e8a35b7de37"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

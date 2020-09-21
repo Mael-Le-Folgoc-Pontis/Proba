@@ -1,0 +1,51 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="wizards" version="4">
+  <OBJECT>
+    <ID name="wizards" mc="Standard.Package" uid="002fdd2a-0bd2-112e-9071-001e4fea2d8b"/>
+    <PID name="ui" mc="Standard.Package" uid="00559196-0bd1-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[wizards]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="BaseWizardSelectionPage" mc="Standard.Class" uid="002fe360-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BundleProviderHistoryUtil" mc="Standard.Class" uid="002fe96e-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Category" mc="Standard.Class" uid="002fefae-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IDefaultValueConsumer" mc="Standard.Interface" uid="002ff59e-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IProjectProvider" mc="Standard.Interface" uid="002ffc56-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ListUtil" mc="Standard.Class" uid="00300340-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="NewWizard" mc="Standard.Class" uid="003041ca-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PDEWizardNewFileCreationPage" mc="Standard.Class" uid="003048b4-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RenameDialog" mc="Standard.Class" uid="00304fb2-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RequiredPluginsContainerPage" mc="Standard.Class" uid="003056f6-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ResizableWizardDialog" mc="Standard.Class" uid="00306a1a-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WizardCollectionComparator" mc="Standard.Class" uid="003071cc-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WizardCollectionElement" mc="Standard.Class" uid="00307992-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WizardElement" mc="Standard.Class" uid="003081d0-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WizardListSelectionPage" mc="Standard.Class" uid="00308a18-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WizardNode" mc="Standard.Class" uid="00309832-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WizardTreeSelectionPage" mc="Standard.Class" uid="0030a0e8-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="category" mc="Standard.Package" uid="003266d0-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="exports" mc="Standard.Package" uid="00344888-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="extension" mc="Standard.Package" uid="0036fe3e-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="feature" mc="Standard.Package" uid="00395094-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="imports" mc="Standard.Package" uid="003bb2a8-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="plugin" mc="Standard.Package" uid="003eaee0-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="product" mc="Standard.Package" uid="00417c6a-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="site" mc="Standard.Package" uid="00441b32-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="target" mc="Standard.Package" uid="00464f4c-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="templates" mc="Standard.Package" uid="0048bdfe-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="tools" mc="Standard.Package" uid="004b3cf0-0bd2-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

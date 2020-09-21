@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="response" version="4">
+  <OBJECT>
+    <ID name="response" mc="Standard.Package" uid="2adf68ca-51bb-4c82-a9e1-96aada0e867f"/>
+    <PID name="solrj" mc="Standard.Package" uid="57f5c103-fbba-4c6d-acd3-7a520964a9b1"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[response]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AnalysisResponseBase" mc="Standard.Class" uid="9858795a-d07d-4416-aa07-909d20a4cdc6"/>
+        <COMPID name="CoreAdminResponse" mc="Standard.Class" uid="e739ccb1-168e-40be-b8dd-5887c73db296"/>
+        <COMPID name="DocumentAnalysisResponse" mc="Standard.Class" uid="9917158e-4047-4b03-ab0c-ae7d493af77d"/>
+        <COMPID name="FacetField" mc="Standard.Class" uid="91178427-4db8-459d-a821-752ac52c70bc"/>
+        <COMPID name="FieldAnalysisResponse" mc="Standard.Class" uid="c2481a3c-666d-4123-8fe9-22bf45feaf74"/>
+        <COMPID name="FieldStatsInfo" mc="Standard.Class" uid="2066d61a-f898-49ff-a382-111779665618"/>
+        <COMPID name="Group" mc="Standard.Class" uid="75e393f6-b929-426d-8716-5a24898393e0"/>
+        <COMPID name="GroupCommand" mc="Standard.Class" uid="adca3ffb-b16e-4bb3-aa85-deea716edf4a"/>
+        <COMPID name="GroupResponse" mc="Standard.Class" uid="f0589261-1829-4ea9-abd3-27b224988b46"/>
+        <COMPID name="LukeResponse" mc="Standard.Class" uid="8a629a4a-d21c-4aaf-9595-396fc9f79956"/>
+        <COMPID name="QueryResponse" mc="Standard.Class" uid="b0a62db3-716b-4ca1-8451-b2423cd2e033"/>
+        <COMPID name="RangeFacet" mc="Standard.Class" uid="e0bd3fc5-7d10-4d3d-beee-65264a7f3132"/>
+        <COMPID name="SolrPingResponse" mc="Standard.Class" uid="b475b939-addc-4683-80ef-c1128f6fedcc"/>
+        <COMPID name="SolrResponseBase" mc="Standard.Class" uid="3fa0a629-a059-41ec-82de-a0ece474d0ff"/>
+        <COMPID name="SpellCheckResponse" mc="Standard.Class" uid="87738c20-2a2c-48e3-8416-c89fc12da749"/>
+        <COMPID name="TermsResponse" mc="Standard.Class" uid="38f3d897-3631-4105-91b5-78a992fbbfcd"/>
+        <COMPID name="UpdateResponse" mc="Standard.Class" uid="6b3ce1f6-13e6-4771-8e5a-f3e955bd8dde"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

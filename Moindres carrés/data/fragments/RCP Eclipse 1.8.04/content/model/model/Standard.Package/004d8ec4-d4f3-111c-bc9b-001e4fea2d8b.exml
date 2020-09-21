@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="jarprocessor" version="4">
+  <OBJECT>
+    <ID name="jarprocessor" mc="Standard.Package" uid="004d8ec4-d4f3-111c-bc9b-001e4fea2d8b"/>
+    <PID name="p2" mc="Standard.Package" uid="00381d32-d4f2-111c-bc9b-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[jarprocessor]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="CommandStep" mc="Standard.Class" uid="004dcfce-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="Main" mc="Standard.Class" uid="004f93ea-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="PackStep" mc="Standard.Class" uid="004dbdae-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="PackUnpackStep" mc="Standard.Class" uid="004d9a36-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="SignCommandStep" mc="Standard.Class" uid="004dac24-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="StreamProcessor" mc="Standard.Class" uid="00518a42-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="StreamProcessorJob" mc="Standard.Class" uid="005177aa-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="UnpackStep" mc="Standard.Class" uid="004fa600-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="Utils" mc="Standard.Class" uid="0051b0e4-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="ZipProcessor" mc="Standard.Class" uid="00519d98-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="ant" mc="Standard.Package" uid="005652a2-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="unsigner" mc="Standard.Package" uid="005146ea-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="verifier" mc="Standard.Package" uid="004f6366-d4f3-111c-bc9b-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

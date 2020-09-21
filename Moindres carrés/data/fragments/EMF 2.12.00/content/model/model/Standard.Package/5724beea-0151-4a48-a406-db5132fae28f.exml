@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="util" version="4">
+  <OBJECT>
+    <ID name="util" mc="Standard.Package" uid="5724beea-0151-4a48-a406-db5132fae28f"/>
+    <PID name="ui" mc="Standard.Package" uid="06c47a93-a0b3-4177-a89d-b009fe3c91d3"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[util]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="EditUIMarkerHelper" mc="Standard.Class" uid="cd92a77c-a82d-4203-a899-9b6284a6827d"/>
+        <COMPID name="EditUIUtil" mc="Standard.Class" uid="bf6807b8-6d2d-48ef-93bd-d233fd745fd9"/>
+        <COMPID name="QueryDelegateTextViewer" mc="Standard.Interface" uid="8d8a5dd0-177c-4cc4-b15e-fa25d230a70b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="enum" version="4">
+  <OBJECT>
+    <ID name="enum" mc="Standard.Package" uid="a05c2feb-ec5d-4e26-9817-365c8deeb368"/>
+    <PID name="lang" mc="Standard.Package" uid="aaa366b2-06b1-4bbf-b7dd-3497ccf82d96"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[enum]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Enum" mc="Standard.Class" uid="0b5366f3-0751-48f3-b80e-99cff4508444"/>
+        <COMPID name="EnumUtils" mc="Standard.Class" uid="5828bc03-744e-4f6b-94a8-a6cf4841dd34"/>
+        <COMPID name="ValuedEnum" mc="Standard.Class" uid="d848ac86-c171-4316-930f-6f0e2f42227c"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

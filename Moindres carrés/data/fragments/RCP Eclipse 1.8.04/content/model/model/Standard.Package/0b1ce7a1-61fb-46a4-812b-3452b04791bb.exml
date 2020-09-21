@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="gef" version="4">
+  <OBJECT>
+    <ID name="gef" mc="Standard.Package" uid="0b1ce7a1-61fb-46a4-812b-3452b04791bb"/>
+    <PID name="group" mc="Standard.Package" uid="14b016fe-6d24-481c-a13f-49688b7d02c7"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[gef]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="GroupLayoutEditPolicy2" mc="Standard.Class" uid="4cf509e9-b0f8-4244-846e-a40bafdf179a"/>
+        <COMPID name="GroupSelectionEditPolicy2" mc="Standard.Class" uid="ec8b9abb-48f5-4f92-9592-5489d4b695c7"/>
+        <COMPID name="IFeedbacksHelper" mc="Standard.Interface" uid="9412c32b-52db-43b6-8169-f489f9adfa53"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

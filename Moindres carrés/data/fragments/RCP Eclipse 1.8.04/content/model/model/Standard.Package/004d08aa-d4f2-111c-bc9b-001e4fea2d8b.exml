@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="model" version="4">
+  <OBJECT>
+    <ID name="model" mc="Standard.Package" uid="004d08aa-d4f2-111c-bc9b-001e4fea2d8b"/>
+    <PID name="ui" mc="Standard.Package" uid="00471ad0-d4f2-111c-bc9b-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[model]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ArtifactElement" mc="Standard.Class" uid="004d9a7c-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="ArtifactRepositories" mc="Standard.Class" uid="004dff08-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="ArtifactRepositoryElement" mc="Standard.Class" uid="004d38c0-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="AvailableIUElement" mc="Standard.Class" uid="004dc2ea-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="AvailableUpdateElement" mc="Standard.Class" uid="004e7fd2-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="CategoryElement" mc="Standard.Class" uid="004ef2dc-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="ElementUtils" mc="Standard.Class" uid="004e3e82-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="EmptyElementExplanation" mc="Standard.Class" uid="004de9be-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="IIUElement" mc="Standard.Interface" uid="004dd5aa-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="IRepositoryElement" mc="Standard.Interface" uid="004d1368-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="IUElementListRoot" mc="Standard.Class" uid="004d2632-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="InstalledIUElement" mc="Standard.Class" uid="004d4bc6-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="MetadataRepositories" mc="Standard.Class" uid="004e69c0-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="MetadataRepositoryElement" mc="Standard.Class" uid="004e1402-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="ProfileElement" mc="Standard.Class" uid="004e968e-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="ProfileSnapshots" mc="Standard.Class" uid="004dae54-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="Profiles" mc="Standard.Class" uid="004d72ae-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="ProvElement" mc="Standard.Class" uid="004edab8-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="QueriedElement" mc="Standard.Class" uid="004ec35c-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="QueriedElementWrapper" mc="Standard.Class" uid="004e541c-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="RemedyElementCategory" mc="Standard.Class" uid="291ad15f-76e1-4bc1-9985-e94a5c8046e4"/>
+        <COMPID name="RemoteQueriedElement" mc="Standard.Class" uid="004d8686-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="RollbackProfileElement" mc="Standard.Class" uid="004d5f62-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="RootElement" mc="Standard.Class" uid="004e28fc-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="Updates" mc="Standard.Class" uid="004eacc8-d4f2-111c-bc9b-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

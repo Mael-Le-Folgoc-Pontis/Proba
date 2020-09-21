@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="localstore" version="4">
+  <OBJECT>
+    <ID name="localstore" mc="Standard.Package" uid="002c1e4c-0bc0-112e-9071-001e4fea2d8b"/>
+    <PID name="internal" mc="Standard.Package" uid="008cece0-21a6-1fb1-8a9e-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[localstore]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="BlobStore" mc="Standard.Class" uid="002c261c-0bc0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Bucket" mc="Standard.Class" uid="002c2db0-0bc0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BucketTree" mc="Standard.Class" uid="002c556a-0bc0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CollectSyncStatusVisitor" mc="Standard.Class" uid="002c5d44-0bc0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CopyVisitor" mc="Standard.Class" uid="002c653c-0bc0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DeleteVisitor" mc="Standard.Class" uid="002c6db6-0bc0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FileStoreRoot" mc="Standard.Class" uid="002c7630-0bc0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FileSystemResourceManager" mc="Standard.Class" uid="002c7ec8-0bc0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HistoryBucket" mc="Standard.Class" uid="002c879c-0bc0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HistoryStore2" mc="Standard.Class" uid="002c9f5c-0bc0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IHistoryStore" mc="Standard.Interface" uid="002cadd0-0bc0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ILocalStoreConstants" mc="Standard.Interface" uid="002cb55a-0bc0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IUnifiedTreeVisitor" mc="Standard.Interface" uid="002cbd2a-0bc0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IsSynchronizedVisitor" mc="Standard.Class" uid="002cc6da-0bc0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PrefixPool" mc="Standard.Class" uid="002cdf30-0bc0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RefreshLocalAliasVisitor" mc="Standard.Class" uid="002ce8f4-0bc0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RefreshLocalVisitor" mc="Standard.Class" uid="002cf2d6-0bc0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SafeChunkyInputStream" mc="Standard.Class" uid="002cfcb8-0bc0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SafeChunkyOutputStream" mc="Standard.Class" uid="002d0708-0bc0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SafeFileInputStream" mc="Standard.Class" uid="002d11ee-0bc0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SafeFileOutputStream" mc="Standard.Class" uid="002d1c66-0bc0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="UnifiedTree" mc="Standard.Class" uid="002d2742-0bc0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="UnifiedTreeNode" mc="Standard.Class" uid="002d4146-0bc0-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

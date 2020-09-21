@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="model" version="4">
+  <OBJECT>
+    <ID name="model" mc="Standard.Package" uid="0087cd96-0bc8-112e-9071-001e4fea2d8b"/>
+    <PID name="apt" mc="Standard.Package" uid="0085878e-0bc8-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[model]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AnnotationMemberValue" mc="Standard.Class" uid="0087d41c-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AnnotationMirrorImpl" mc="Standard.Class" uid="0087daa2-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AnnotationValueImpl" mc="Standard.Class" uid="0087e182-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ArrayTypeImpl" mc="Standard.Class" uid="0087e89e-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DeclaredTypeImpl" mc="Standard.Class" uid="0087ef9c-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ElementImpl" mc="Standard.Class" uid="0087f712-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ElementsImpl" mc="Standard.Class" uid="0087fee2-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ErrorTypeElement" mc="Standard.Class" uid="0088068a-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ErrorTypeImpl" mc="Standard.Class" uid="00880eaa-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ExecutableElementImpl" mc="Standard.Class" uid="008816fc-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ExecutableTypeImpl" mc="Standard.Class" uid="00881f3a-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Factory" mc="Standard.Class" uid="00882836-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IElementInfo" mc="Standard.Interface" uid="00882e80-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="NameImpl" mc="Standard.Class" uid="00883772-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="NoTypeImpl" mc="Standard.Class" uid="008840aa-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PackageElementImpl" mc="Standard.Class" uid="008849f6-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PrimitiveTypeImpl" mc="Standard.Class" uid="00885338-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TypeElementImpl" mc="Standard.Class" uid="00885ce8-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TypeMirrorImpl" mc="Standard.Class" uid="008866ca-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TypeParameterElementImpl" mc="Standard.Class" uid="008870a2-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TypeVariableImpl" mc="Standard.Class" uid="00887ae8-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TypesImpl" mc="Standard.Class" uid="00888556-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="VariableElementImpl" mc="Standard.Class" uid="00888fce-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WildcardTypeImpl" mc="Standard.Class" uid="00889af0-0bc8-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

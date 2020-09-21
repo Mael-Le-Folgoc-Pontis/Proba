@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="addons" version="4">
+  <OBJECT>
+    <ID name="addons" mc="Standard.Package" uid="0069c13e-21a4-1fb1-8a9e-001e4fea2d8b"/>
+    <PID name="workbench" mc="Standard.Package" uid="0022a092-21a4-1fb1-8a9e-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[addons]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="cleanupaddon" mc="Standard.Package" uid="006af7ca-21a4-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="dndaddon" mc="Standard.Package" uid="006e8ba6-21a4-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="minmax" mc="Standard.Package" uid="007612d6-21a4-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="perspectiveswitcher" mc="Standard.Package" uid="00793be6-21a4-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="splitteraddon" mc="Standard.Package" uid="b6b94af5-28ff-49be-8cdd-2e4c5a582f4c"/>
+        <COMPID name="swt" mc="Standard.Package" uid="006cae62-21a4-1fb1-8a9e-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

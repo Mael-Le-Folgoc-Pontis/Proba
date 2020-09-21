@@ -1,0 +1,51 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="parsers" version="4">
+  <OBJECT>
+    <ID name="parsers" mc="Standard.Package" uid="5b392d05-c228-4949-95ef-9a9047c22c70"/>
+    <PID name="xerces" mc="Standard.Package" uid="80c42980-a493-459a-9c50-b9ae0d56f35b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[parsers]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractDOMParser" mc="Standard.Class" uid="e99bcfd6-7a17-4f82-b965-9bb58b90504b"/>
+        <COMPID name="AbstractSAXParser" mc="Standard.Class" uid="1d3fbe6e-4e98-4755-89d3-b78654b2de0a"/>
+        <COMPID name="AbstractXMLDocumentParser" mc="Standard.Class" uid="c61f70c2-d67e-4643-8a62-8f4c9d7911d3"/>
+        <COMPID name="BasicParserConfiguration" mc="Standard.Class" uid="085b583b-1639-45cb-833b-944803e38289"/>
+        <COMPID name="CachingParserPool" mc="Standard.Class" uid="f158a007-98ae-47f7-a2d0-b77418026e32"/>
+        <COMPID name="DOMASBuilderImpl" mc="Standard.Class" uid="fea5810c-c230-4b81-8c06-87ed138f18aa"/>
+        <COMPID name="DOMParser" mc="Standard.Class" uid="83340693-657f-4ec5-a41d-d7a07f29bec4"/>
+        <COMPID name="DOMParserImpl" mc="Standard.Class" uid="b5c23c12-2eee-4b99-bce0-c02a2927021a"/>
+        <COMPID name="DTDConfiguration" mc="Standard.Class" uid="aba25e14-5fe0-4a64-a395-17386c78fe02"/>
+        <COMPID name="DTDParser" mc="Standard.Class" uid="9e8e4372-17e4-41f0-8126-0942d67f0faa"/>
+        <COMPID name="IntegratedParserConfiguration" mc="Standard.Class" uid="e62f753e-9f9e-47e1-b83d-48322b97f3c6"/>
+        <COMPID name="NonValidatingConfiguration" mc="Standard.Class" uid="0084819b-4b7d-46db-8a9b-a3ee9930509f"/>
+        <COMPID name="SAXParser" mc="Standard.Class" uid="95dd9e23-d7b1-4529-abbb-100d4f523784"/>
+        <COMPID name="SecurityConfiguration" mc="Standard.Class" uid="857d5598-819c-4878-bb74-4aa0f5394001"/>
+        <COMPID name="SoftReferenceSymbolTableConfiguration" mc="Standard.Class" uid="8ff74cf3-3daa-41b8-a84c-1e7e91097f41"/>
+        <COMPID name="StandardParserConfiguration" mc="Standard.Class" uid="5c79856c-0f5c-4348-a4f1-1e5616f69524"/>
+        <COMPID name="XIncludeAwareParserConfiguration" mc="Standard.Class" uid="f71d079b-8026-471c-9277-38305daa6e11"/>
+        <COMPID name="XIncludeParserConfiguration" mc="Standard.Class" uid="f7cca310-9c11-4bab-b3bb-601e571da23a"/>
+        <COMPID name="XML11Configurable" mc="Standard.Interface" uid="cd578d36-2e9d-4da0-a3ca-c5ded9d30336"/>
+        <COMPID name="XML11Configuration" mc="Standard.Class" uid="a940b280-6020-4915-82d3-0f2ee749a4d5"/>
+        <COMPID name="XML11DTDConfiguration" mc="Standard.Class" uid="24d1973e-24c9-4fd1-b6b2-bd8fa0ea5635"/>
+        <COMPID name="XML11NonValidatingConfiguration" mc="Standard.Class" uid="6704bcf2-dcb9-4233-92ad-867ddca1d9a2"/>
+        <COMPID name="XMLDocumentParser" mc="Standard.Class" uid="32611902-e96e-4ab1-9dbb-ca23d0596569"/>
+        <COMPID name="XMLGrammarCachingConfiguration" mc="Standard.Class" uid="95ab69fd-b3d9-42c7-9657-bfccd839de13"/>
+        <COMPID name="XMLGrammarParser" mc="Standard.Class" uid="ede63241-4de2-4d4a-9d8e-7beed44cb5be"/>
+        <COMPID name="XMLGrammarPreparser" mc="Standard.Class" uid="aa4b7337-ce8a-4f97-afff-2a49b6f48ec4"/>
+        <COMPID name="XMLParser" mc="Standard.Class" uid="5738ff17-d8b6-4063-af73-a582b2d7b0b7"/>
+        <COMPID name="XPointerParserConfiguration" mc="Standard.Class" uid="3925e5df-873f-4742-8c41-409398955319"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

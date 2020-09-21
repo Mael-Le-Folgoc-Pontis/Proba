@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="utils" version="4">
+  <OBJECT>
+    <ID name="utils" mc="Standard.Package" uid="78f7e5b9-2c32-4967-a698-d3074a1a3070"/>
+    <PID name="client" mc="Standard.Package" uid="139da6c5-3b11-48bb-99e5-c2f3faab23d5"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[utils]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="CloneUtils" mc="Standard.Class" uid="86b52dc6-ff5b-4d8b-9c08-bedab35a4dec"/>
+        <COMPID name="DateUtils" mc="Standard.Class" uid="2d8e86c4-657e-4fd4-88d1-fcff4682ba59"/>
+        <COMPID name="HttpClientUtils" mc="Standard.Class" uid="f454bce1-1600-43af-9bd1-5ec113f9607c"/>
+        <COMPID name="Idn" mc="Standard.Interface" uid="845bdf4e-11a6-4e3a-bb42-db22222ce640"/>
+        <COMPID name="JdkIdn" mc="Standard.Class" uid="46409881-d544-4f4a-a046-bb6a29189fed"/>
+        <COMPID name="Punycode" mc="Standard.Class" uid="fbf3dc4a-58ad-4956-b8b6-d8ac1ccee653"/>
+        <COMPID name="Rfc3492Idn" mc="Standard.Class" uid="217cf541-28d3-44d8-9c32-d86b8721ed1e"/>
+        <COMPID name="URIBuilder" mc="Standard.Class" uid="0a484200-5437-4224-8d06-310b3f5d89f3"/>
+        <COMPID name="URIUtils" mc="Standard.Class" uid="9718a4dd-f097-4ca5-8ab2-2ec523852f96"/>
+        <COMPID name="URLEncodedUtils" mc="Standard.Class" uid="d02f0eb6-77ae-4d31-a42c-93270890fd8d"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

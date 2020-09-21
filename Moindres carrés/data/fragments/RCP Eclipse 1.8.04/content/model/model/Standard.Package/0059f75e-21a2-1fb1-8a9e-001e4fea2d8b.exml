@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="criteria" version="4">
+  <OBJECT>
+    <ID name="criteria" mc="Standard.Package" uid="0059f75e-21a2-1fb1-8a9e-001e4fea2d8b"/>
+    <PID name="internal" mc="Standard.Package" uid="00538bbc-21a2-1fb1-8a9e-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[criteria]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Criteria" mc="Standard.Class" uid="005c96f8-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="CriteriaDefinition" mc="Standard.Class" uid="005fa92e-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="CriteriaDefinitionAssembler" mc="Standard.Class" uid="005c391a-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="CriteriaDefinitionContribution" mc="Standard.Class" uid="005d28fc-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="CriteriaDefinitionDocumentReader" mc="Standard.Class" uid="005ee64c-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="CriteriaDefinitionFile" mc="Standard.Class" uid="005aec5e-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="CriteriaDefinitionFileParser" mc="Standard.Class" uid="005b4924-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="CriteriaDefinitionFileProvider" mc="Standard.Class" uid="005d555c-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="CriteriaDefinitionManager" mc="Standard.Class" uid="005a8002-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="CriteriaManager" mc="Standard.Class" uid="005df39a-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="CriteriaProviderRegistry" mc="Standard.Class" uid="005a14d2-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="CriterionDefinition" mc="Standard.Class" uid="005e5240-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="CriterionResource" mc="Standard.Class" uid="005f7b34-21a2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="CriterionValueDefinition" mc="Standard.Class" uid="005ba6d0-21a2-1fb1-8a9e-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

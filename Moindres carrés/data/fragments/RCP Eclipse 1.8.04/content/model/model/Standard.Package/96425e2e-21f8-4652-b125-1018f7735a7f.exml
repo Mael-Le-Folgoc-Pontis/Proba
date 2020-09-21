@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="gson" version="4">
+  <OBJECT>
+    <ID name="gson" mc="Standard.Package" uid="96425e2e-21f8-4652-b125-1018f7735a7f"/>
+    <PID name="utils" mc="Standard.Package" uid="4a3c717d-586c-43a8-abdd-03a5b9f1c1de"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[gson]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="EmfFieldExclusionStrategy" mc="Standard.Class" uid="23fc0ef4-6f29-4a85-ab2a-21ad5c1226b8"/>
+        <COMPID name="FieldNameTypeAdapter" mc="Standard.Class" uid="65cd67ef-bbcf-4307-af86-16ea2e6bac39"/>
+        <COMPID name="FileTypeAdapter" mc="Standard.Class" uid="730b0340-2ef1-4af2-9a93-26c945b3812a"/>
+        <COMPID name="GsonUtil" mc="Standard.Class" uid="afd1f516-f36f-42cb-98b7-1289746be978"/>
+        <COMPID name="ISO8601DateParser" mc="Standard.Class" uid="d79a8c49-d902-4e1e-83a9-a9d43d82d40d"/>
+        <COMPID name="MethodNameTypeAdapter" mc="Standard.Class" uid="b656a3cd-227e-442e-a527-c9350a2aa736"/>
+        <COMPID name="MultimapTypeAdapter" mc="Standard.Class" uid="b69a7027-7352-450b-a7f1-76cc1a49e7e1"/>
+        <COMPID name="MultisetTypeAdapterFactory" mc="Standard.Class" uid="c8137e7a-3bc7-4d7c-bdac-64dc3894b13a"/>
+        <COMPID name="OptionalJsonTypeAdapter" mc="Standard.Class" uid="d7965ea4-71e1-4ca5-b6ce-a7d8d926fe5d"/>
+        <COMPID name="PackageNameTypeAdapter" mc="Standard.Class" uid="ba73271a-8d6e-4b8e-a444-1ad9277383da"/>
+        <COMPID name="ParameterizedTypeImpl" mc="Standard.Class" uid="f6e42f16-ccda-4346-bae8-88463803e033"/>
+        <COMPID name="TypeNameTypeAdapter" mc="Standard.Class" uid="44efafcb-bacd-4fc9-b021-827d47b89c58"/>
+        <COMPID name="UuidTypeAdapter" mc="Standard.Class" uid="04da09ec-07ee-40dc-a7d3-24fc8faef877"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,53 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="condition" version="4">
+  <OBJECT>
+    <ID name="condition" mc="Standard.Package" uid="003e77ea-0bbe-112e-9071-001e4fea2d8b"/>
+    <PID name="taskdefs" mc="Standard.Package" uid="002c7e78-0bbe-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[condition]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="And" mc="Standard.Class" uid="003e7ec0-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AntVersion" mc="Standard.Class" uid="003e862c-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Condition" mc="Standard.Interface" uid="003e8d3e-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ConditionBase" mc="Standard.Class" uid="003e94d2-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Contains" mc="Standard.Class" uid="003e9ca2-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Equals" mc="Standard.Class" uid="003ea4a4-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FilesMatch" mc="Standard.Class" uid="003eaca6-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HasFreeSpace" mc="Standard.Class" uid="003eb50c-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HasMethod" mc="Standard.Class" uid="003ebe30-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Http" mc="Standard.Class" uid="003ec704-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IsFailure" mc="Standard.Class" uid="003ed014-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IsFalse" mc="Standard.Class" uid="003ed94c-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IsFileSelected" mc="Standard.Class" uid="003ee270-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IsLastModified" mc="Standard.Class" uid="003eec0c-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IsReachable" mc="Standard.Class" uid="003f076e-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IsReference" mc="Standard.Class" uid="003f116e-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IsSet" mc="Standard.Class" uid="003f1ba0-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IsSigned" mc="Standard.Class" uid="003f260e-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IsTrue" mc="Standard.Class" uid="003f3068-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Matches" mc="Standard.Class" uid="003f3b30-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Not" mc="Standard.Class" uid="003f462a-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Or" mc="Standard.Class" uid="003f511a-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Os" mc="Standard.Class" uid="003f5d22-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ParserSupports" mc="Standard.Class" uid="003f690c-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ResourceContains" mc="Standard.Class" uid="003f7488-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ResourceExists" mc="Standard.Class" uid="003f8090-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ResourcesMatch" mc="Standard.Class" uid="003f8cfc-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Socket" mc="Standard.Class" uid="003f9986-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TypeFound" mc="Standard.Class" uid="003fa5fc-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Xor" mc="Standard.Class" uid="003fb2ae-0bbe-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

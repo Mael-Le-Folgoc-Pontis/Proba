@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="checksum" version="4">
+  <OBJECT>
+    <ID name="checksum" mc="Standard.Package" uid="dd603df2-2f50-47e7-84da-2275206eed1b"/>
+    <PID name="connector" mc="Standard.Package" uid="7bf1759e-9f0b-4f89-8266-fc35218712ea"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[checksum]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ChecksumPolicy" mc="Standard.Interface" uid="015c835a-2895-4844-a87a-bb9f7584da3d"/>
+        <COMPID name="ChecksumPolicyProvider" mc="Standard.Interface" uid="0f62a92f-5591-4cb4-adde-7c6e6e609c86"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="pattern" version="4">
+  <OBJECT>
+    <ID name="pattern" mc="Standard.Package" uid="59dab338-94d0-4170-9958-f14dc9d276f6"/>
+    <PID name="search" mc="Standard.Package" uid="c7bd5619-309b-4014-896e-815b6d74b821"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[pattern]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ComponentDeclarationPattern" mc="Standard.Class" uid="2cc9fb5a-2bf4-4b7e-baed-d3c431d50c9c"/>
+        <COMPID name="ComponentReferencePattern" mc="Standard.Class" uid="2170f50b-5f50-49f9-b2a5-9e2bad6f1f13"/>
+        <COMPID name="ComponentSearchPattern" mc="Standard.Class" uid="f41288cc-b38e-499d-bf71-52328c52338d"/>
+        <COMPID name="FileReferencePattern" mc="Standard.Class" uid="baa8297b-ef2d-4e74-9b34-c669d6f6cfc8"/>
+        <COMPID name="QualifiedName" mc="Standard.Class" uid="61e2fd8a-36ab-4ccb-b678-983049868b30"/>
+        <COMPID name="SearchPattern" mc="Standard.Class" uid="d294ee51-5b77-4349-b652-05820c2c4d10"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

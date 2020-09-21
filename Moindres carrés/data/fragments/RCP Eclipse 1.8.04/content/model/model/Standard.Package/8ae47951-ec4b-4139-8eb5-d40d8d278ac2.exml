@@ -1,0 +1,73 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="inject" version="4">
+  <OBJECT>
+    <ID name="inject" mc="Standard.Package" uid="8ae47951-ec4b-4139-8eb5-d40d8d278ac2"/>
+    <PID name="google" mc="Standard.Package" uid="a301f1d0-0192-488e-9a2d-bb390b65e6ec"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[inject]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractModule" mc="Standard.Class" uid="27165367-cde4-4b33-8858-694380f06be2"/>
+        <COMPID name="Binder" mc="Standard.Interface" uid="566be573-0ed9-41fc-914b-d95b0c9c46f2"/>
+        <COMPID name="Binding" mc="Standard.Interface" uid="11544a2f-fd45-44d4-96cf-f011dd8dc9c2"/>
+        <COMPID name="BindingAnnotation" mc="Standard.Class" uid="77a6edf4-0782-4588-be34-c51516ee686e"/>
+        <COMPID name="ConfigurationException" mc="Standard.Class" uid="e1ee3cf9-5f8d-4be0-91e3-385fc1934c33"/>
+        <COMPID name="CreationException" mc="Standard.Class" uid="1ef8e134-51c3-40be-bc48-a6013a148e00"/>
+        <COMPID name="Exposed" mc="Standard.Class" uid="bc2c1bd3-7ea8-43c3-8429-9d2192de46d3"/>
+        <COMPID name="Guice" mc="Standard.Class" uid="1aeaef3a-03bf-42f5-ae1f-e4853c13e9a2"/>
+        <COMPID name="ImplementedBy" mc="Standard.Class" uid="6c382f34-987d-47a3-b5fc-42f5a4a75d86"/>
+        <COMPID name="Inject" mc="Standard.Class" uid="adf6d71e-5f24-4939-972f-77a0cbe12532"/>
+        <COMPID name="Injector" mc="Standard.Interface" uid="19fb2bd2-8fb6-4fbf-9808-fcda96c4c193"/>
+        <COMPID name="Key" mc="Standard.Class" uid="a236f03b-4de0-466e-815f-e6a6be7a8f92"/>
+        <COMPID name="MembersInjector" mc="Standard.Interface" uid="d9b14e3f-2f8b-4c3f-859f-40892f1f9584"/>
+        <COMPID name="Module" mc="Standard.Interface" uid="d8619e15-b7b4-432b-ba8e-f1804895d982"/>
+        <COMPID name="OutOfScopeException" mc="Standard.Class" uid="20434e6c-a0b5-43f6-af27-f7f485ab349a"/>
+        <COMPID name="PrivateBinder" mc="Standard.Interface" uid="3c07543f-2c30-401e-a194-5e2126974881"/>
+        <COMPID name="PrivateModule" mc="Standard.Class" uid="8e6f03e8-ef24-4d0d-88d2-d2ca5b4b1e10"/>
+        <COMPID name="ProvidedBy" mc="Standard.Class" uid="36f89474-a571-4213-8cd3-d77000241554"/>
+        <COMPID name="Provider" mc="Standard.Interface" uid="92e10ac4-d6a2-4ca7-ad4e-5a6ad1992d5b"/>
+        <COMPID name="Provides" mc="Standard.Class" uid="c2386ddc-4b94-4828-bc50-045c6dbfb6fb"/>
+        <COMPID name="ProvisionException" mc="Standard.Class" uid="ef5001cb-2ed8-4f82-b21e-745f290457df"/>
+        <COMPID name="Scope" mc="Standard.Interface" uid="010e7c52-95b5-4b0c-ab9c-86588b4c994a"/>
+        <COMPID name="ScopeAnnotation" mc="Standard.Class" uid="1ca58f3d-205b-428e-89b2-0338353805f2"/>
+        <COMPID name="Scopes" mc="Standard.Class" uid="2278dfa1-6d1b-4d98-a8c1-7b3893f1d798"/>
+        <COMPID name="Singleton" mc="Standard.Class" uid="951656b7-9346-4034-80cc-90524a0c0a94"/>
+        <OBJECT>
+          <ID name="Stage" mc="Standard.Enumeration" uid="bbcfd072-b793-47b0-89b7-454e5842cfb7"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[Stage]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Extension">
+              <FOREIGNID name="JavaEnumeration" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0262-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <COMPID name="TypeLiteral" mc="Standard.Class" uid="f053910b-5672-4703-82f8-2bf2a98bf9e5"/>
+        <COMPID name="binder" mc="Standard.Package" uid="6723d3e1-6c7d-48f1-8182-8a76c836d10a"/>
+        <COMPID name="internal" mc="Standard.Package" uid="1615398b-2e73-4a71-a17c-b1a20cb45452"/>
+        <COMPID name="matcher" mc="Standard.Package" uid="dd98c885-d76b-4399-8c9f-7c458232605a"/>
+        <COMPID name="multibindings" mc="Standard.Package" uid="4d779d32-f504-4f92-9f75-e4959ed07bcd"/>
+        <COMPID name="name" mc="Standard.Package" uid="f61ad965-eb2c-4619-95ac-055f747ccc61"/>
+        <COMPID name="spi" mc="Standard.Package" uid="0fd64b14-9dd2-4faa-8d11-8aa6bf75d098"/>
+        <COMPID name="util" mc="Standard.Package" uid="225933b1-fbdc-4b5a-898b-7cd185a9c0a5"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

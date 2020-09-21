@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="forms" version="4">
+  <OBJECT>
+    <ID name="forms" mc="Standard.Package" uid="3e3feffd-ea25-43c6-9cc6-65e447bb18f2"/>
+    <PID name="jgoodies" mc="Standard.Package" uid="e5439600-25d1-48a6-81fa-95e88b65fd54"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[forms]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="FormsSetup" mc="Standard.Class" uid="4416b86c-cb29-4891-88b8-b0d91df76677"/>
+        <COMPID name="builder" mc="Standard.Package" uid="0acffa7a-ce4a-4be7-bcad-f3531ec00e99"/>
+        <COMPID name="debug" mc="Standard.Package" uid="39ef1517-65d2-4590-9535-e293c79b0911"/>
+        <COMPID name="factories" mc="Standard.Package" uid="db3b1555-b55c-46d2-aa7c-27b63fef7fe0"/>
+        <COMPID name="internal" mc="Standard.Package" uid="469a0fd7-d5ac-478f-8799-4b2da2136289"/>
+        <COMPID name="layout" mc="Standard.Package" uid="1289381a-1ff4-4a30-b28e-22ea3f4e940a"/>
+        <COMPID name="util" mc="Standard.Package" uid="fbf48ed3-a741-4b8b-8705-9fc8970b28a5"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

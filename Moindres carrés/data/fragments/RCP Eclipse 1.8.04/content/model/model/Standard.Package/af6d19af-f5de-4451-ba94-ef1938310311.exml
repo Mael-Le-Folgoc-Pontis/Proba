@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="select" version="4">
+  <OBJECT>
+    <ID name="select" mc="Standard.Package" uid="af6d19af-f5de-4451-ba94-ef1938310311"/>
+    <PID name="jsoup" mc="Standard.Package" uid="7860095d-1867-4806-b4ff-0938d134bb58"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[select]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Collector" mc="Standard.Class" uid="1142c43f-aa98-4d84-8ef2-7a9d4a914bc0"/>
+        <COMPID name="Elements" mc="Standard.Class" uid="b2f4a708-b176-4aef-b0fb-96e85ca79bac"/>
+        <COMPID name="Evaluator" mc="Standard.Class" uid="3ee9107e-aa38-43dd-b71f-8ee07bdc257d"/>
+        <COMPID name="NodeTraversor" mc="Standard.Class" uid="43d6ff24-88e8-419b-9bd2-da47d79da456"/>
+        <COMPID name="NodeVisitor" mc="Standard.Interface" uid="6dd14437-93e3-4645-ba13-ed7a656da541"/>
+        <COMPID name="Selector" mc="Standard.Class" uid="06391ecc-0e5f-40e3-b1b7-3433b8a910bf"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

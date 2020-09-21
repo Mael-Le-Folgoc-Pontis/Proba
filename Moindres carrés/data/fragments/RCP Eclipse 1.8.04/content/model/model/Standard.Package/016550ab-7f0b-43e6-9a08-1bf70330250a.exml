@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="core" version="4">
+  <OBJECT>
+    <ID name="core" mc="Standard.Package" uid="016550ab-7f0b-43e6-9a08-1bf70330250a"/>
+    <PID name="versions" mc="Standard.Package" uid="169204cf-c0c4-492f-a9cf-e9b798b6fc63"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[core]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Change" mc="Standard.Class" uid="51690b1a-277c-4f30-b7f7-003738bf3e68"/>
+        <COMPID name="ChangeSet" mc="Standard.Class" uid="9513d88f-a11c-497b-a89a-b9b3ff1be376"/>
+        <OBJECT>
+          <ID name="ChangeType" mc="Standard.Enumeration" uid="80c0d34d-d9a4-4201-876e-9735a46d513d"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[ChangeType]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Extension">
+              <FOREIGNID name="JavaEnumeration" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0262-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <COMPID name="ProjectSetConverter" mc="Standard.Class" uid="5d7fd7ae-e49d-4f52-b69b-11037c52bf8c"/>
+        <COMPID name="ScmArtifact" mc="Standard.Class" uid="9192df97-c68e-4502-97e7-16f89f6b0e1e"/>
+        <COMPID name="ScmCore" mc="Standard.Class" uid="e54dfd0c-ed28-403c-bd79-71b92fc0d4b7"/>
+        <COMPID name="ScmRepository" mc="Standard.Class" uid="0600d5a4-090c-4300-9c41-21126570c3d8"/>
+        <COMPID name="ScmUser" mc="Standard.Class" uid="5fc510c3-9e02-4785-8b97-9d7522458fde"/>
+        <COMPID name="spi" mc="Standard.Package" uid="a0bbc033-d4ef-4e10-b68b-ac80575ed6d5"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

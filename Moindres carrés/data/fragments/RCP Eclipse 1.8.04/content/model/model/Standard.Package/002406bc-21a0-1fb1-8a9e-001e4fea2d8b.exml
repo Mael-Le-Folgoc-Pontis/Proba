@@ -1,0 +1,79 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="events" version="4">
+  <OBJECT>
+    <ID name="events" mc="Standard.Package" uid="002406bc-21a0-1fb1-8a9e-001e4fea2d8b"/>
+    <PID name="swt" mc="Standard.Package" uid="001656ac-219f-1fb1-8a9e-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[events]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ArmEvent" mc="Standard.Class" uid="003949e6-21a0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ArmListener" mc="Standard.Interface" uid="0028cd32-21a0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ControlAdapter" mc="Standard.Class" uid="0030ae94-21a0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ControlEvent" mc="Standard.Class" uid="003a12b8-21a0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ControlListener" mc="Standard.Interface" uid="00250bc0-21a0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="DisposeEvent" mc="Standard.Class" uid="00388452-21a0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="DisposeListener" mc="Standard.Interface" uid="00298894-21a0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="DragDetectEvent" mc="Standard.Class" uid="00378d04-21a0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="DragDetectListener" mc="Standard.Interface" uid="0033b2e2-21a0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ExpandAdapter" mc="Standard.Class" uid="002a1980-21a0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ExpandEvent" mc="Standard.Class" uid="00344842-21a0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ExpandListener" mc="Standard.Interface" uid="002f289e-21a0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="FocusAdapter" mc="Standard.Class" uid="00259cfc-21a0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="FocusEvent" mc="Standard.Class" uid="002bfa20-21a0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="FocusListener" mc="Standard.Interface" uid="0025f814-21a0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="GestureEvent" mc="Standard.Class" uid="00304f80-21a0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="GestureListener" mc="Standard.Interface" uid="0031f9b6-21a0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="HelpEvent" mc="Standard.Class" uid="002cb708-21a0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="HelpListener" mc="Standard.Interface" uid="00331fa8-21a0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="KeyAdapter" mc="Standard.Class" uid="002423ea-21a0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="KeyEvent" mc="Standard.Class" uid="00319c78-21a0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="KeyListener" mc="Standard.Interface" uid="00271974-21a0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="MenuAdapter" mc="Standard.Class" uid="002b9c74-21a0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="MenuDetectEvent" mc="Standard.Class" uid="003dcaac-21a0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="MenuDetectListener" mc="Standard.Interface" uid="0036f628-21a0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="MenuEvent" mc="Standard.Class" uid="003d645e-21a0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="MenuListener" mc="Standard.Interface" uid="003ccb52-21a0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ModifyEvent" mc="Standard.Class" uid="0030dc84-21a0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ModifyListener" mc="Standard.Interface" uid="003c348a-21a0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="MouseAdapter" mc="Standard.Class" uid="00295d88-21a0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="MouseEvent" mc="Standard.Class" uid="002688d8-21a0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="MouseListener" mc="Standard.Interface" uid="00283c96-21a0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="MouseMoveListener" mc="Standard.Interface" uid="002e9604-21a0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="MouseTrackAdapter" mc="Standard.Class" uid="0038e744-21a0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="MouseTrackListener" mc="Standard.Interface" uid="002e0432-21a0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="MouseWheelListener" mc="Standard.Interface" uid="00328c46-21a0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="PaintEvent" mc="Standard.Class" uid="002a7650-21a0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="PaintListener" mc="Standard.Interface" uid="003b9dd6-21a0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="SegmentEvent" mc="Standard.Class" uid="002d15ae-21a0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="SegmentListener" mc="Standard.Interface" uid="0037ecfe-21a0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="SelectionAdapter" mc="Standard.Class" uid="003570f0-21a0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="SelectionEvent" mc="Standard.Class" uid="0035a07a-21a0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="SelectionListener" mc="Standard.Interface" uid="002d72a6-21a0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ShellAdapter" mc="Standard.Class" uid="00313c38-21a0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ShellEvent" mc="Standard.Class" uid="002c58b2-21a0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ShellListener" mc="Standard.Interface" uid="003b0826-21a0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="TouchEvent" mc="Standard.Class" uid="00247dfe-21a0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="TouchListener" mc="Standard.Interface" uid="003a72da-21a0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="TraverseEvent" mc="Standard.Class" uid="002fbbe2-21a0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="TraverseListener" mc="Standard.Interface" uid="0034dbcc-21a0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="TreeAdapter" mc="Standard.Class" uid="00391854-21a0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="TreeEvent" mc="Standard.Class" uid="00369674-21a0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="TreeListener" mc="Standard.Interface" uid="0027abf0-21a0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="TypedEvent" mc="Standard.Class" uid="002b07b4-21a0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="VerifyEvent" mc="Standard.Class" uid="0039ae22-21a0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="VerifyListener" mc="Standard.Interface" uid="0035ffd4-21a0-1fb1-8a9e-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

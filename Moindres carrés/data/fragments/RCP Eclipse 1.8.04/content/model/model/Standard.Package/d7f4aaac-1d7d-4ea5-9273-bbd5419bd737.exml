@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="contentassist" version="4">
+  <OBJECT>
+    <ID name="contentassist" mc="Standard.Package" uid="d7f4aaac-1d7d-4ea5-9273-bbd5419bd737"/>
+    <PID name="ui" mc="Standard.Package" uid="b3f0f184-0215-4378-a017-437af2ad1cb1"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[contentassist]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AutoActivationDelegate" mc="Standard.Class" uid="3953c8ad-ff75-45d3-a19f-d6e5bcf57f0b"/>
+        <COMPID name="CompletionProposalInvocationContext" mc="Standard.Class" uid="f93e43e8-26b4-418a-ae82-4bf858a7d3b2"/>
+        <COMPID name="ICompletionProposalComputer" mc="Standard.Interface" uid="72b7f6ba-64fe-4837-804d-a0fda209e4d0"/>
+        <COMPID name="StructuredContentAssistProcessor" mc="Standard.Class" uid="14ddad22-518b-43c5-9a94-5982054c06f6"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

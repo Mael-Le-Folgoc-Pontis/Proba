@@ -1,0 +1,62 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="actions" version="4">
+  <OBJECT>
+    <ID name="actions" mc="Standard.Package" uid="006263f8-0bc1-112e-9071-001e4fea2d8b"/>
+    <PID name="ui" mc="Standard.Package" uid="00601454-0bc1-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[actions]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractLaunchHistoryAction" mc="Standard.Class" uid="00626ab0-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AbstractLaunchToolbarAction" mc="Standard.Class" uid="0062719a-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AddMemoryRenderingActionDelegate" mc="Standard.Class" uid="006278ac-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BreakpointTypesContribution" mc="Standard.Class" uid="00629454-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ContextualLaunchAction" mc="Standard.Class" uid="0062a246-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DebugAction" mc="Standard.Class" uid="0062a9ee-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DebugCommandAction" mc="Standard.Class" uid="0062b1c8-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DebugCommandHandler" mc="Standard.Class" uid="0062b9ca-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ExportBreakpointsOperation" mc="Standard.Class" uid="0062c8b6-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IAddMemoryBlocksTarget" mc="Standard.Interface" uid="0062cf46-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IAddMemoryRenderingsTarget" mc="Standard.Interface" uid="0062d64e-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ILaunchable" mc="Standard.Interface" uid="0062dd7e-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IRunToLineTarget" mc="Standard.Interface" uid="0062e4d6-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IToggleBreakpointsTarget" mc="Standard.Interface" uid="0062ec60-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IToggleBreakpointsTargetExtension" mc="Standard.Interface" uid="0062f430-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IToggleBreakpointsTargetExtension2" mc="Standard.Interface" uid="0062fc3c-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IToggleBreakpointsTargetFactory" mc="Standard.Interface" uid="00630498-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IToggleBreakpointsTargetManager" mc="Standard.Interface" uid="00630d1c-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IToggleBreakpointsTargetManagerListener" mc="Standard.Interface" uid="006315d2-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IVariableValueEditor" mc="Standard.Interface" uid="00631eb0-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IWatchExpressionFactoryAdapter" mc="Standard.Interface" uid="006327ca-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IWatchExpressionFactoryAdapter2" mc="Standard.Interface" uid="00633120-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IWatchExpressionFactoryAdapterExtension" mc="Standard.Interface" uid="00633aa8-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ImportBreakpointsOperation" mc="Standard.Class" uid="00634340-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LaunchAction" mc="Standard.Class" uid="00634bf6-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LaunchAsAction" mc="Standard.Class" uid="006354f2-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LaunchShortcutsAction" mc="Standard.Class" uid="00635ea2-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="OpenLaunchDialogAction" mc="Standard.Class" uid="006367ee-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RelaunchLastAction" mc="Standard.Class" uid="0063714e-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RulerBreakpointAction" mc="Standard.Class" uid="00638170-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RulerBreakpointTypesActionDelegate" mc="Standard.Class" uid="00638b48-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RulerEnableDisableBreakpointActionDelegate" mc="Standard.Class" uid="00639bd8-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RulerToggleBreakpointActionDelegate" mc="Standard.Class" uid="0063a628-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RunAction" mc="Standard.Class" uid="0063b0a0-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RunToLineActionDelegate" mc="Standard.Class" uid="0063bb4a-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RunToLineHandler" mc="Standard.Class" uid="0063cca2-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ToggleBreakpointAction" mc="Standard.Class" uid="0063d7a6-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ToggleMethodBreakpointActionDelegate" mc="Standard.Class" uid="0063e2e6-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ToggleWatchpointActionDelegate" mc="Standard.Class" uid="0063ee58-0bc1-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

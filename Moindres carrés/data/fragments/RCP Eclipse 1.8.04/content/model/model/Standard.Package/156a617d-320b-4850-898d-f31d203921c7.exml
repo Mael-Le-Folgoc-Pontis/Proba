@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="archive" version="4">
+  <OBJECT>
+    <ID name="archive" mc="Standard.Package" uid="156a617d-320b-4850-898d-f31d203921c7"/>
+    <PID name="jgit" mc="Standard.Package" uid="bf3b61ef-28ee-4cf7-8afd-022df78c66c8"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[archive]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ArchiveFormats" mc="Standard.Class" uid="1b0a6dbe-ffc2-4cb8-bf02-6664b138672a"/>
+        <COMPID name="BaseFormat" mc="Standard.Class" uid="9ea02a8e-3aee-4c5e-9e01-ca4ab81aa722"/>
+        <COMPID name="FormatActivator" mc="Standard.Class" uid="57e360cb-4c67-4cff-8140-b264ed21de1f"/>
+        <COMPID name="TarFormat" mc="Standard.Class" uid="805e8564-c5cf-49eb-8a05-e2fb0a5dff17"/>
+        <COMPID name="Tbz2Format" mc="Standard.Class" uid="5c2fce4e-cfb4-4870-b211-00d48a20fdfa"/>
+        <COMPID name="TgzFormat" mc="Standard.Class" uid="8f8aaf88-f6d7-4712-8914-c05a3d95be04"/>
+        <COMPID name="TxzFormat" mc="Standard.Class" uid="304ff996-7767-4bef-ae52-92afc661a7a2"/>
+        <COMPID name="ZipFormat" mc="Standard.Class" uid="f4164a63-dc99-4638-a20e-11cda7a40593"/>
+        <COMPID name="internal" mc="Standard.Package" uid="42227be8-2bef-4288-a3e2-92562e4f102b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

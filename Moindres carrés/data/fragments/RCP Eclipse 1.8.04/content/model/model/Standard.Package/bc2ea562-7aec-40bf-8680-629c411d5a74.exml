@@ -1,0 +1,51 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="chardet" version="4">
+  <OBJECT>
+    <ID name="chardet" mc="Standard.Package" uid="bc2ea562-7aec-40bf-8680-629c411d5a74"/>
+    <PID name="intl" mc="Standard.Package" uid="1256ef78-7ac9-4253-82c0-05329ba5da01"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[chardet]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Big5Statistics" mc="Standard.Class" uid="440dc7d6-3af3-46d4-a8b3-a7ef6d477e66"/>
+        <COMPID name="EUCJPStatistics" mc="Standard.Class" uid="eeed5812-0fbd-4fcd-98cd-2fe63e7f0526"/>
+        <COMPID name="EUCKRStatistics" mc="Standard.Class" uid="3c673dc4-67b9-4717-8533-eb700cc7b1ee"/>
+        <COMPID name="EUCTWStatistics" mc="Standard.Class" uid="9116f51f-1597-484f-8e72-889e483999e5"/>
+        <COMPID name="GB2312Statistics" mc="Standard.Class" uid="21c89075-37a7-4e7e-9334-d1daf2f66736"/>
+        <COMPID name="HtmlCharsetDetector" mc="Standard.Class" uid="12b3c0ed-0b46-43a0-ae33-2961f33dd3e2"/>
+        <COMPID name="nsBIG5Verifier" mc="Standard.Class" uid="080c1994-b886-45e9-b667-26119609b7fa"/>
+        <COMPID name="nsCP1252Verifier" mc="Standard.Class" uid="62f596be-183e-479b-9fc1-01a2a5bfb2bc"/>
+        <COMPID name="nsDetector" mc="Standard.Class" uid="9fcb8f93-0dc4-45ad-82d2-ef15f7c9a9b8"/>
+        <COMPID name="nsEUCJPVerifier" mc="Standard.Class" uid="fc1c2c76-540b-4535-8e81-ef6b37db5e25"/>
+        <COMPID name="nsEUCKRVerifier" mc="Standard.Class" uid="bb47d8c8-ebed-46ee-84b7-6b8936363d47"/>
+        <COMPID name="nsEUCSampler" mc="Standard.Class" uid="5725634e-1aa2-462d-b8b5-a39a079becf0"/>
+        <COMPID name="nsEUCStatistics" mc="Standard.Class" uid="2635638a-f07e-48cc-8917-828f40d5739b"/>
+        <COMPID name="nsEUCTWVerifier" mc="Standard.Class" uid="f0dc2896-b8d9-4220-95c8-f7562e4b900b"/>
+        <COMPID name="nsGB18030Verifier" mc="Standard.Class" uid="00eeba4b-d321-4e39-bfb5-96dcff744bf9"/>
+        <COMPID name="nsGB2312Verifier" mc="Standard.Class" uid="a562034d-9ee3-4960-b8a1-94f59bf08e3b"/>
+        <COMPID name="nsHZVerifier" mc="Standard.Class" uid="27eb8293-27cc-4d71-80cb-c5fa0e610044"/>
+        <COMPID name="nsICharsetDetectionObserver" mc="Standard.Interface" uid="da252586-ce82-48b8-81ce-5e4499123f0b"/>
+        <COMPID name="nsICharsetDetector" mc="Standard.Interface" uid="4ebe489e-a308-494d-8df7-f4806ec32dfd"/>
+        <COMPID name="nsISO2022CNVerifier" mc="Standard.Class" uid="4e643f67-483a-407b-a720-e079fe13269f"/>
+        <COMPID name="nsISO2022JPVerifier" mc="Standard.Class" uid="cbc4aef6-d0af-4d5c-b002-114aed12dec2"/>
+        <COMPID name="nsISO2022KRVerifier" mc="Standard.Class" uid="60a46a3e-f6e1-41ca-aa3b-bfcbcc6c145b"/>
+        <COMPID name="nsPSMDetector" mc="Standard.Class" uid="b6bcf4f0-11dc-4daf-b5b1-dbe863ce4c3b"/>
+        <COMPID name="nsSJISVerifier" mc="Standard.Class" uid="b6e0c532-f2ac-4c4c-a655-64b5197e7220"/>
+        <COMPID name="nsUCS2BEVerifier" mc="Standard.Class" uid="fb049004-d717-4d79-8c3c-14c5df416f38"/>
+        <COMPID name="nsUCS2LEVerifier" mc="Standard.Class" uid="b03670a9-8130-4899-9d57-023cb1c7ed85"/>
+        <COMPID name="nsUTF8Verifier" mc="Standard.Class" uid="71c5b104-0da0-4853-8f25-c4cb5a82560a"/>
+        <COMPID name="nsVerifier" mc="Standard.Class" uid="b7ff1151-535b-4b05-8c45-9bd824d30daf"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

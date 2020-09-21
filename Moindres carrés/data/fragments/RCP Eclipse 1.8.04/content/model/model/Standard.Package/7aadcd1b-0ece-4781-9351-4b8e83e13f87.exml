@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="tree" version="4">
+  <OBJECT>
+    <ID name="tree" mc="Standard.Package" uid="7aadcd1b-0ece-4781-9351-4b8e83e13f87"/>
+    <PID name="models" mc="Standard.Package" uid="1ab1ddcd-9635-4234-8d4e-52ae35bdc45d"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[tree]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="TreeModelDialog" mc="Standard.Class" uid="f72cdf88-50f9-4843-b501-cb13247bbf09"/>
+        <COMPID name="TreeModelEvaluator" mc="Standard.Class" uid="113f9ec2-a5c7-43c4-833e-7d40567fbf21"/>
+        <COMPID name="TreeModelPropertyEditor" mc="Standard.Class" uid="0e872fc4-fc23-4fd2-ad87-3d9b144f3c3f"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

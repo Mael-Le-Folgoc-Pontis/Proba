@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="token" version="4">
+  <OBJECT>
+    <ID name="token" mc="Standard.Package" uid="3e4cc8ea-e943-4bfb-86f8-f1829ac5d4ee"/>
+    <PID name="core" mc="Standard.Package" uid="cee8c411-8540-452d-86a9-1c7e5be70cf4"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[token]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="IconReplacementToken" mc="Standard.Class" uid="f9b283ea-8197-4fe5-be92-d732de0b64ee"/>
+        <COMPID name="ImpliedEmailLinkReplacementToken" mc="Standard.Class" uid="e6634f1d-b0e3-47cd-97b3-0bce21442cb5"/>
+        <COMPID name="LinkReplacementToken" mc="Standard.Class" uid="3e8898d3-29b6-4ffa-8f53-fc349462e491"/>
+        <COMPID name="WikiWordReplacementToken" mc="Standard.Class" uid="1712efef-17f0-41fa-8c9f-87c77d6b272c"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="editor" version="4">
+  <OBJECT>
+    <ID name="editor" mc="Standard.Package" uid="e20235b5-2295-43b3-b9c2-1197cffbfcab"/>
+    <PID name="ui" mc="Standard.Package" uid="50c3c555-c27e-463b-bea0-d6b6bb9b8481"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[editor]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractBuildEditorPart" mc="Standard.Class" uid="369db53b-2744-44b2-bdac-947d446724ea"/>
+        <COMPID name="ActionPart" mc="Standard.Class" uid="4cb4a636-6519-45ad-ac3d-301a9d034103"/>
+        <COMPID name="ArtifactsLabelProvider" mc="Standard.Class" uid="3c5c237c-2ea3-435f-9f31-2c5100166167"/>
+        <COMPID name="ArtifactsPart" mc="Standard.Class" uid="50d66325-7d12-4ba1-aef0-b726600c908f"/>
+        <COMPID name="BuildDetailsPage" mc="Standard.Class" uid="bd11fd72-e7f7-4dfb-b876-7518b5e65800"/>
+        <COMPID name="BuildEditor" mc="Standard.Class" uid="2ef1a649-78e0-4fef-babe-85f074a86cc9"/>
+        <COMPID name="BuildEditorActionContribution" mc="Standard.Class" uid="6104a317-041f-40bd-b5d9-5ce54b3476bc"/>
+        <COMPID name="BuildEditorInput" mc="Standard.Class" uid="e80b4295-b9d5-4fe8-8385-56d55a00e0e8"/>
+        <COMPID name="BuildEditorPage" mc="Standard.Class" uid="7d166d4d-b802-44c8-a731-a7c264eeacf1"/>
+        <COMPID name="BuildOutputPart" mc="Standard.Class" uid="89609a4b-d57c-4a5b-9c11-de8e7a495b01"/>
+        <COMPID name="ChangesLabelProvider" mc="Standard.Class" uid="929ee12a-3d87-44e9-9dd5-087f1ab7015d"/>
+        <COMPID name="ChangesPart" mc="Standard.Class" uid="05249a08-8ac5-4840-b2bc-ce1fe29132a8"/>
+        <COMPID name="HeaderPart" mc="Standard.Class" uid="4f9751c4-4ae9-4890-9c2e-9138c4e88f3b"/>
+        <COMPID name="Messages" mc="Standard.Class" uid="db914d89-5bd8-47c8-8759-7c25162267a3"/>
+        <COMPID name="SummaryPart" mc="Standard.Class" uid="811409fa-1b9f-41a0-a6ed-f398abc2926a"/>
+        <COMPID name="TaskReference" mc="Standard.Class" uid="1e812cc3-d763-4000-807a-874125952696"/>
+        <COMPID name="TestResultLabelProvider" mc="Standard.Class" uid="cfa3bd77-ca6a-474f-9154-7b7fcb4ed12c"/>
+        <COMPID name="TestResultPart" mc="Standard.Class" uid="053f52f4-6350-4aad-b347-2b851d840c78"/>
+        <COMPID name="TimestampToStringConverter" mc="Standard.Class" uid="864970ff-73e7-40c1-a696-16d88b045215"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

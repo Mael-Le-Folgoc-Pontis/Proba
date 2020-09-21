@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="preferences" version="4">
+  <OBJECT>
+    <ID name="preferences" mc="Standard.Package" uid="76b1a534-032e-4be4-b68e-2c72555767b0"/>
+    <PID name="internal" mc="Standard.Package" uid="8dac5e70-eadd-4ac5-9e61-066073002452"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[preferences]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="EmptyFilePreferencePage" mc="Standard.Class" uid="f37ee776-284d-4634-916f-b6505d6beb08"/>
+        <COMPID name="EncodingSettings" mc="Standard.Class" uid="75427884-21ae-436d-a1b2-e9790998447f"/>
+        <COMPID name="WorkbenchDefaultEncodingSettings" mc="Standard.Class" uid="85c70583-ec71-4ef5-90c7-fc1b33170e63"/>
+        <COMPID name="XMLColorPage" mc="Standard.Class" uid="5271230e-94b6-41dc-891a-fee477ff3502"/>
+        <COMPID name="XMLCompletionProposalCategoriesConfiguration" mc="Standard.Class" uid="75e580e4-0bb3-46be-b3bd-81ca41cd37d1"/>
+        <COMPID name="XMLContentAssistPreferencePage" mc="Standard.Class" uid="65283f06-5888-4010-b697-9efaf08cc98f"/>
+        <COMPID name="XMLFilesPreferencePage" mc="Standard.Class" uid="b7dc4c80-9102-49cd-b592-3772c86e1434"/>
+        <COMPID name="XMLSourcePreferencePage" mc="Standard.Class" uid="0c298ffe-4a49-480f-8b67-040741b44dc9"/>
+        <COMPID name="XMLSyntaxColoringPage" mc="Standard.Class" uid="fd5676b0-2bcc-48d2-846d-086df15a74cc"/>
+        <COMPID name="XMLTemplatePreferencePage" mc="Standard.Class" uid="6323bf95-0382-4f1c-973b-5ce68e0b2b1f"/>
+        <COMPID name="XMLTypingPreferencePage" mc="Standard.Class" uid="9fcd5cef-aaac-46f0-b424-1e6cb9671c5c"/>
+        <COMPID name="XMLUIPreferenceInitializer" mc="Standard.Class" uid="845c36d0-ea4c-4992-ab4a-cea02126bcde"/>
+        <COMPID name="XMLUIPreferenceNames" mc="Standard.Class" uid="95ca1734-eda0-4333-a259-d44293133e0f"/>
+        <COMPID name="XMLValidatorPreferencePage" mc="Standard.Class" uid="cd4612f5-890c-464f-a1cb-34409559c8b4"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

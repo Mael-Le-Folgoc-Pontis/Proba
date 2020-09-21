@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="reflect" version="4">
+  <OBJECT>
+    <ID name="reflect" mc="Standard.Package" uid="ed1c7187-0f20-4e67-abd5-2431202e99e1"/>
+    <PID name="utils" mc="Standard.Package" uid="62abe31d-37c4-49eb-9781-3beef5e17715"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[reflect]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractMethodsImplementorVisitor" mc="Standard.Class" uid="5ce24d5d-f449-43d4-99e1-ef2690cd0a87"/>
+        <COMPID name="BundleClassLoader" mc="Standard.Class" uid="5fa1aad7-5c73-41d0-895c-0938841d2fdc"/>
+        <COMPID name="ClassLoaderLocalMap" mc="Standard.Class" uid="f5c94d32-3299-4b2e-9413-d53a7c293108"/>
+        <COMPID name="ClassMap" mc="Standard.Class" uid="6669a78f-38b2-4510-ab88-ac2512c3a090"/>
+        <COMPID name="CompositeClassLoader" mc="Standard.Class" uid="84a470c0-cad5-46f3-a4fc-58cf03495323"/>
+        <COMPID name="IByteCodeProcessor" mc="Standard.Interface" uid="539b66f8-12cd-4c48-8039-8de3a73ba94c"/>
+        <COMPID name="IClassLoaderInitializer" mc="Standard.Interface" uid="f8c4ef4f-72d2-465b-945f-5baf24fdf02b"/>
+        <COMPID name="IntrospectionHelper" mc="Standard.Class" uid="4fd60925-af94-427b-b69e-51d5fca43951"/>
+        <COMPID name="ProjectClassLoader" mc="Standard.Class" uid="e7e28866-32fb-4df9-a5b7-798bcd1bd309"/>
+        <COMPID name="ReflectionUtils" mc="Standard.Class" uid="c3f3e134-6a5c-406c-acd5-aa26b273d90f"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

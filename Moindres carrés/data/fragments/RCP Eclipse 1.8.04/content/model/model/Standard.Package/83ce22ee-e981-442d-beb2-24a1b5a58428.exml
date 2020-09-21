@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="provider" version="4">
+  <OBJECT>
+    <ID name="provider" mc="Standard.Package" uid="83ce22ee-e981-442d-beb2-24a1b5a58428"/>
+    <PID name="p2" mc="Standard.Package" uid="122f3cd5-7c11-446e-8419-b2e1cc47971a"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[provider]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ConfigurationItemProvider" mc="Standard.Class" uid="ed79e629-7fbf-4587-9432-86a2752eca58"/>
+        <COMPID name="P2EditPlugin" mc="Standard.Class" uid="03f31965-7621-468e-a0fa-3815955d9b40"/>
+        <COMPID name="P2ItemProviderAdapterFactory" mc="Standard.Class" uid="6fa2f6fe-bd55-4ebb-80d9-c5b17ad632bd"/>
+        <COMPID name="ProfileDefinitionItemProvider" mc="Standard.Class" uid="3da41a7e-eafc-416a-a2b5-2b5b7adc05b5"/>
+        <COMPID name="RepositoryItemProvider" mc="Standard.Class" uid="ed2ca161-8bb4-4abf-b1cb-a7e195c2fc70"/>
+        <COMPID name="RepositoryListItemProvider" mc="Standard.Class" uid="03aca22f-26d5-4f9d-879a-3456ddb6fd79"/>
+        <COMPID name="RequirementItemProvider" mc="Standard.Class" uid="5d5956fb-eac6-46d1-9818-3bb716caa380"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

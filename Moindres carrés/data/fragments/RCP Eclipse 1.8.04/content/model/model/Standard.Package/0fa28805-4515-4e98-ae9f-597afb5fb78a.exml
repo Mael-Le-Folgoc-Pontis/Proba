@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="impl" version="4">
+  <OBJECT>
+    <ID name="impl" mc="Standard.Package" uid="0fa28805-4515-4e98-ae9f-597afb5fb78a"/>
+    <PID name="p2" mc="Standard.Package" uid="122f3cd5-7c11-446e-8419-b2e1cc47971a"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[impl]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ConfigurationImpl" mc="Standard.Class" uid="20f870cd-fef9-41a1-af17-9e698d6f5ee1"/>
+        <COMPID name="P2FactoryImpl" mc="Standard.Class" uid="b3c1f783-313e-4a8e-9699-ddcce5c021fb"/>
+        <COMPID name="P2PackageImpl" mc="Standard.Class" uid="b6cfebd0-6348-4fe5-896a-2454cefdba74"/>
+        <COMPID name="ProfileDefinitionImpl" mc="Standard.Class" uid="fad1af17-d2b4-42d5-907b-5c334e629124"/>
+        <COMPID name="RepositoryImpl" mc="Standard.Class" uid="4511c26d-1dc8-44a8-a38a-3f0ac132c275"/>
+        <COMPID name="RepositoryListImpl" mc="Standard.Class" uid="6144544e-7f16-4fe5-836d-43a5bed6f7b7"/>
+        <COMPID name="RequirementImpl" mc="Standard.Class" uid="742b61af-73b9-4fc3-8eef-e6c64c5d6b3c"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

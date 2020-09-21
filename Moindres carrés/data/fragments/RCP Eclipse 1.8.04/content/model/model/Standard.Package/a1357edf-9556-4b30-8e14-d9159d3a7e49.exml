@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ui" version="4">
+  <OBJECT>
+    <ID name="ui" mc="Standard.Package" uid="a1357edf-9556-4b30-8e14-d9159d3a7e49"/>
+    <PID name="bugzilla" mc="Standard.Package" uid="182c2885-72bb-409b-b705-7da97119000a"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[ui]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="BugzillaImages" mc="Standard.Class" uid="b6534ca4-8077-40e9-bba8-cad3a5ecf5d2"/>
+        <COMPID name="BugzillaSearchHandler" mc="Standard.Class" uid="8b434c1a-4e34-40c4-a5bc-3fc79e5ca050"/>
+        <COMPID name="BugzillaUiExtensionReader" mc="Standard.Class" uid="1b45d4d0-d487-4206-a0d0-ca4d089f59bd"/>
+        <COMPID name="BugzillaUiPlugin" mc="Standard.Class" uid="cbbf5aa5-bbf5-4906-bf41-1a78bbd71f29"/>
+        <COMPID name="Messages" mc="Standard.Class" uid="b436c78d-a26d-4fb0-9f16-9f27fbae5cb5"/>
+        <COMPID name="TaskAttachmentHyperlink" mc="Standard.Class" uid="9c174b81-d481-41a3-bee9-cd5a5778f366"/>
+        <COMPID name="TaskAttachmentTableEditorHyperlink" mc="Standard.Class" uid="de955ab2-734a-4298-90a3-9f7380bb5605"/>
+        <COMPID name="action" mc="Standard.Package" uid="5753cfe8-6e26-4dc0-8b52-4f130ee3cf90"/>
+        <COMPID name="editor" mc="Standard.Package" uid="ed103aec-9135-47bc-aa19-2d55ac4a5900"/>
+        <COMPID name="search" mc="Standard.Package" uid="85881d1e-bdd8-4efb-8bba-739dcd9c7f15"/>
+        <COMPID name="tasklist" mc="Standard.Package" uid="356a3687-1f7f-4f4d-a267-074dc1f0c3fa"/>
+        <COMPID name="wizard" mc="Standard.Package" uid="cd270758-8756-445b-8460-23e7b3b4aa27"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

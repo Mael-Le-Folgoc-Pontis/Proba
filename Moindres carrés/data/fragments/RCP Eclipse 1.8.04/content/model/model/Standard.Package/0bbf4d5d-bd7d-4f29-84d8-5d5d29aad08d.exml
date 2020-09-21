@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="linear" version="4">
+  <OBJECT>
+    <ID name="linear" mc="Standard.Package" uid="0bbf4d5d-bd7d-4f29-84d8-5d5d29aad08d"/>
+    <PID name="optimization" mc="Standard.Package" uid="31d2dd10-056c-4382-80ff-e712c577bb24"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[linear]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractLinearOptimizer" mc="Standard.Class" uid="49dc4d49-ecfc-499a-b404-68e595061650"/>
+        <COMPID name="LinearConstraint" mc="Standard.Class" uid="96581ed8-045a-4abd-92ba-4327b76ece14"/>
+        <COMPID name="LinearObjectiveFunction" mc="Standard.Class" uid="b80bea33-e11b-4dd9-8c7d-e2b13bf96be5"/>
+        <COMPID name="LinearOptimizer" mc="Standard.Interface" uid="31f40362-8f38-46aa-9c55-f6aaed171cc7"/>
+        <COMPID name="NoFeasibleSolutionException" mc="Standard.Class" uid="9bed03f4-835b-424d-b990-ffd009deb6db"/>
+        <OBJECT>
+          <ID name="Relationship" mc="Standard.Enumeration" uid="5f2ed14a-bbc2-4401-9ca4-9b2584396129"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[Relationship]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Extension">
+              <FOREIGNID name="JavaEnumeration" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0262-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <COMPID name="SimplexSolver" mc="Standard.Class" uid="c7592cd1-1dbc-4578-ada9-a7288cd3b8b9"/>
+        <COMPID name="UnboundedSolutionException" mc="Standard.Class" uid="9ae88b3b-69ca-4704-9077-22f73faf40d8"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

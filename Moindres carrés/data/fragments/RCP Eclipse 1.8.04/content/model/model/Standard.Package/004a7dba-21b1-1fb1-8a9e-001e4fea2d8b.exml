@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="service" version="4">
+  <OBJECT>
+    <ID name="service" mc="Standard.Package" uid="004a7dba-21b1-1fb1-8a9e-001e4fea2d8b"/>
+    <PID name="hooks" mc="Standard.Package" uid="004867c8-21b1-1fb1-8a9e-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[service]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="EventHook" mc="Standard.Interface" uid="004b68ce-21b1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="EventListenerHook" mc="Standard.Interface" uid="004bc152-21b1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="FindHook" mc="Standard.Interface" uid="004a9976-21b1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ListenerHook" mc="Standard.Interface" uid="004af402-21b1-1fb1-8a9e-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="packer" version="4">
+  <OBJECT>
+    <ID name="packer" mc="Standard.Package" uid="873eb96e-32ca-4e03-bacb-422a789983fe"/>
+    <PID name="index" mc="Standard.Package" uid="c783765e-7614-4963-9c1b-b9b50c46d7b8"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[packer]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="DigesterUtils" mc="Standard.Class" uid="b3363a6f-4f59-446d-9cec-305fb431b9d0"/>
+        <COMPID name="IndexPacker" mc="Standard.Interface" uid="27299261-025b-4f8d-b68e-ed6ccdeb7343"/>
+        <COMPID name="IndexPackingRequest" mc="Standard.Class" uid="c5bf97d6-ddd6-49b8-943f-5e6aa1120e78"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

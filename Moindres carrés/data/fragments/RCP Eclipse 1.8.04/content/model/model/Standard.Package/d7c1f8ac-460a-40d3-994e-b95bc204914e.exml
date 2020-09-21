@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="socket" version="4">
+  <OBJECT>
+    <ID name="socket" mc="Standard.Package" uid="d7c1f8ac-460a-40d3-994e-b95bc204914e"/>
+    <PID name="conn" mc="Standard.Package" uid="99a18589-0db3-4e68-b189-836df1bd39fe"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[socket]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ConnectionSocketFactory" mc="Standard.Interface" uid="02ec27aa-0f28-42d5-9ed3-ec900f10932d"/>
+        <COMPID name="LayeredConnectionSocketFactory" mc="Standard.Interface" uid="d099e542-9c90-46fe-b3fb-a6c64978daf4"/>
+        <COMPID name="PlainConnectionSocketFactory" mc="Standard.Class" uid="c2b884e9-1f21-47e3-a2ca-d0baf65d4773"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="attributes" version="4">
+  <OBJECT>
+    <ID name="attributes" mc="Standard.Package" uid="f735ec09-cc60-4bf3-9817-64a15e97c8a3"/>
+    <PID name="jgit" mc="Standard.Package" uid="bf3b61ef-28ee-4cf7-8afd-022df78c66c8"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[attributes]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Attribute" mc="Standard.Class" uid="3dccca71-6f8d-49dd-af3e-481272cf711f"/>
+        <COMPID name="AttributesNode" mc="Standard.Class" uid="92552a96-7841-499d-8875-6d792a6dea0a"/>
+        <COMPID name="AttributesRule" mc="Standard.Class" uid="ab888346-930c-4a65-bb7b-9a3fd1abe5b2"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

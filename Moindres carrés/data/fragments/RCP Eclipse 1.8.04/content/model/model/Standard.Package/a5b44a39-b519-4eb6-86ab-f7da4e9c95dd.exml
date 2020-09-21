@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="editors" version="4">
+  <OBJECT>
+    <ID name="editors" mc="Standard.Package" uid="a5b44a39-b519-4eb6-86ab-f7da4e9c95dd"/>
+    <PID name="ui" mc="Standard.Package" uid="d60ba454-ca37-481d-af17-68708f704e3c"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[editors]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractAttributeEditor" mc="Standard.Class" uid="b852ad89-72c3-4714-ad31-38aa1864863b"/>
+        <COMPID name="AbstractRenderingEngine" mc="Standard.Class" uid="7ffc43c4-eea8-44e3-9332-8c7ade31cd17"/>
+        <COMPID name="AbstractTaskEditorExtension" mc="Standard.Class" uid="f01640bc-3d86-41a9-bd50-bd1ec41f4ba3"/>
+        <COMPID name="AbstractTaskEditorPage" mc="Standard.Class" uid="18ffb0c2-9c9e-46aa-8244-321a16f8e5ff"/>
+        <COMPID name="AbstractTaskEditorPageFactory" mc="Standard.Class" uid="f8b2318b-466c-4dd7-a6e4-1883b956f4c1"/>
+        <COMPID name="AbstractTaskEditorPart" mc="Standard.Class" uid="311264bb-7341-4cfe-9dc9-034c5723c37b"/>
+        <COMPID name="AttributeEditorFactory" mc="Standard.Class" uid="560d6bf7-6fb7-48c3-a9cb-9c2dd8aaf61d"/>
+        <COMPID name="AttributeEditorToolkit" mc="Standard.Class" uid="cd36f248-b10e-4b39-a973-96f39f99c700"/>
+        <COMPID name="BrowserFormPage" mc="Standard.Class" uid="0f1c68f8-2b2f-47c5-a92b-0bd727700c09"/>
+        <COMPID name="LayoutHint" mc="Standard.Class" uid="e65d322b-d137-4b59-b6a6-e0dc5eebfb99"/>
+        <COMPID name="TaskEditor" mc="Standard.Class" uid="deba57cc-d40c-4376-92e7-46efee92f0be"/>
+        <COMPID name="TaskEditorInput" mc="Standard.Class" uid="9579ea2d-992b-47ee-af53-3020646267c1"/>
+        <COMPID name="TaskEditorPartDescriptor" mc="Standard.Class" uid="24a4d2a5-d7c9-4678-a6c0-26ced38e7fd7"/>
+        <COMPID name="TaskFormPage" mc="Standard.Class" uid="d050631e-b081-4602-a757-b55c942b2157"/>
+        <COMPID name="TaskTemplateVariableResolver" mc="Standard.Class" uid="95b807d7-4720-4ba9-835f-3a2da6263286"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

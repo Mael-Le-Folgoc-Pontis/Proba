@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="listeners" version="4">
+  <OBJECT>
+    <ID name="listeners" mc="Standard.Package" uid="0082805c-0bd3-112e-9071-001e4fea2d8b"/>
+    <PID name="client" mc="Standard.Package" uid="007e9366-0bd3-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[listeners]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AdminKSubstListener" mc="Standard.Class" uid="008286b0-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AnnotateListener" mc="Standard.Class" uid="00828cfa-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DiffListener" mc="Standard.Class" uid="0082931c-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="EditorsListener" mc="Standard.Class" uid="008299ac-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ICommandOutputListener" mc="Standard.Interface" uid="00829fc4-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IConsoleListener" mc="Standard.Interface" uid="0082a668-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ILogEntryListener" mc="Standard.Interface" uid="0082ad34-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IMessagePatterns" mc="Standard.Interface" uid="0082b43c-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IStatusListener" mc="Standard.Interface" uid="0082bb3a-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IUpdateMessageListener" mc="Standard.Interface" uid="0082c2a6-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LogEntry" mc="Standard.Class" uid="0082c9d6-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LogListener" mc="Standard.Class" uid="0082d0a2-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ModuleDefinitionsListener" mc="Standard.Class" uid="0082e628-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RDiffSummaryListener" mc="Standard.Class" uid="0082ed8a-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ServerMessageLineMatcher" mc="Standard.Class" uid="0082fb9a-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="StatusListener" mc="Standard.Class" uid="0083036a-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TagListener" mc="Standard.Class" uid="00830b6c-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="UpdateListener" mc="Standard.Class" uid="00831364-0bd3-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="undo" version="4">
+  <OBJECT>
+    <ID name="undo" mc="Standard.Package" uid="0067f4da-0bd7-112e-9071-001e4fea2d8b"/>
+    <PID name="ide" mc="Standard.Package" uid="003c74c2-0bd7-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[undo]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ContainerDescription" mc="Standard.Class" uid="00680100-0bd7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FileDescription" mc="Standard.Class" uid="00680740-0bd7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FolderDescription" mc="Standard.Class" uid="00680da8-0bd7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IFileContentDescription" mc="Standard.Interface" uid="006813b6-0bd7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MarkerDescription" mc="Standard.Class" uid="00681b54-0bd7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ProjectDescription" mc="Standard.Class" uid="00682220-0bd7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="UndoMessages" mc="Standard.Class" uid="0068291e-0bd7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WorkspaceUndoMonitor" mc="Standard.Class" uid="00683062-0bd7-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

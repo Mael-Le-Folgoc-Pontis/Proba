@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="viewers" version="4">
+  <OBJECT>
+    <ID name="viewers" mc="Standard.Package" uid="003d0e14-0bc1-112e-9071-001e4fea2d8b"/>
+    <PID name="ui" mc="Standard.Package" uid="0011cbfa-0bc1-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[viewers]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractUpdatePolicy" mc="Standard.Class" uid="003d14ea-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AsynchronousModel" mc="Standard.Class" uid="003d1c06-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AsynchronousRequestMonitor" mc="Standard.Class" uid="003d29c6-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AsynchronousSchedulingRuleFactory" mc="Standard.Class" uid="003d313c-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AsynchronousTableModel" mc="Standard.Class" uid="003d465e-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AsynchronousTableViewer" mc="Standard.Class" uid="003d4dfc-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AsynchronousViewer" mc="Standard.Class" uid="003d55fe-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FindElementDialog" mc="Standard.Class" uid="003d6d32-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ILabelResult" mc="Standard.Interface" uid="003d73ea-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ModelNode" mc="Standard.Class" uid="003d8efc-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PartPresentationContext" mc="Standard.Class" uid="003d980c-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TableAddRequestMonitor" mc="Standard.Class" uid="003da194-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TableEditorImpl" mc="Standard.Class" uid="003dab3a-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TableInsertRequestMonitor" mc="Standard.Class" uid="003db4e0-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TableRemoveRequestMonitor" mc="Standard.Class" uid="003dbeea-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TableReplaceRequestMonitor" mc="Standard.Class" uid="003dc930-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TableUpdatePolicy" mc="Standard.Class" uid="003dd36c-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="breadcrumb" mc="Standard.Package" uid="003f02c8-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="model" mc="Standard.Package" uid="00407be4-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="provisional" mc="Standard.Package" uid="00462c7e-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="update" mc="Standard.Package" uid="0047bb84-0bc1-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

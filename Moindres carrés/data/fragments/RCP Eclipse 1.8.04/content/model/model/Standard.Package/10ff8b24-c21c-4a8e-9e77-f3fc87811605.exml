@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="preferences" version="4">
+  <OBJECT>
+    <ID name="preferences" mc="Standard.Package" uid="10ff8b24-c21c-4a8e-9e77-f3fc87811605"/>
+    <PID name="swing" mc="Standard.Package" uid="9830b5a7-65f5-42f6-9ec2-f443714086a1"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[preferences]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="IPreferenceConstants" mc="Standard.Interface" uid="782611a2-5e12-44c8-9dd5-879c83d755c2"/>
+        <COMPID name="MainPreferencePage" mc="Standard.Class" uid="664e879a-521f-426b-ba54-89a6e056704e"/>
+        <COMPID name="Messages" mc="Standard.Class" uid="5200f7c1-005f-4829-9435-98a542a32cdb"/>
+        <COMPID name="PreferenceInitializer" mc="Standard.Class" uid="aac0dc3c-b90a-4070-ba9e-d61f2a3bae8b"/>
+        <COMPID name="code" mc="Standard.Package" uid="1d3e0ea4-8ce0-4bfe-83c7-6e0dde75b4e6"/>
+        <COMPID name="event" mc="Standard.Package" uid="0035a7eb-e7a5-4e89-ae67-076c3ee3856b"/>
+        <COMPID name="laf" mc="Standard.Package" uid="b48cd6b2-e19f-4236-99ac-889c879dfdec"/>
+        <COMPID name="layout" mc="Standard.Package" uid="f7d0446e-561d-43b8-bd42-cfabaa4f405c"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

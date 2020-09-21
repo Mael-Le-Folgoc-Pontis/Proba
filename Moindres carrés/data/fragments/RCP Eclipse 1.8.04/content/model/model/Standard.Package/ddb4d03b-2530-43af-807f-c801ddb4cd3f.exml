@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="parser" version="4">
+  <OBJECT>
+    <ID name="parser" mc="Standard.Package" uid="ddb4d03b-2530-43af-807f-c801ddb4cd3f"/>
+    <PID name="swing" mc="Standard.Package" uid="9830b5a7-65f5-42f6-9ec2-f443714086a1"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[parser]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ParseFactory" mc="Standard.Class" uid="66633975-5292-41f8-aecd-50c4f237c987"/>
+        <COMPID name="ParseFactorySimpleModelCic" mc="Standard.Class" uid="e5883d8d-a0dd-43b9-a3bf-fd584e5713c6"/>
+        <COMPID name="SwingExecutionFlowProvider" mc="Standard.Class" uid="13dfc751-8bb3-40fc-b941-388d11a46be6"/>
+        <COMPID name="SwingRewriteProcessor" mc="Standard.Class" uid="e5a520b3-0614-4d98-973c-cb7ab86a52cd"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

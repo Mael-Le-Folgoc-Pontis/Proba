@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="basic" version="4">
+  <OBJECT>
+    <ID name="basic" mc="Standard.Package" uid="fd870a15-0598-4696-ac08-6e330fd873ea"/>
+    <PID name="converters" mc="Standard.Package" uid="5a8c2bad-004b-46cf-a1bd-f2356d7b2c3b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[basic]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractBasicConverter" mc="Standard.Class" uid="32fe2630-a008-4aa1-82c5-d40e916a3e33"/>
+        <COMPID name="BooleanConverter" mc="Standard.Class" uid="7bf8eebf-4c80-42b4-95c9-bfb8632043df"/>
+        <COMPID name="ByteConverter" mc="Standard.Class" uid="fca0d16b-afe2-4713-a729-11f44c0e1de5"/>
+        <COMPID name="CharConverter" mc="Standard.Class" uid="f4ed9b3a-d221-488d-a3bb-0e2ba68e0201"/>
+        <COMPID name="ClassConverter" mc="Standard.Class" uid="43ae38b5-e980-4df1-ab2c-4bcde563bb00"/>
+        <COMPID name="DateConverter" mc="Standard.Class" uid="672cdb4d-a49c-4338-8699-f56eaeceb034"/>
+        <COMPID name="DoubleConverter" mc="Standard.Class" uid="dc75612e-5f38-4fed-ae9f-2bf940eaa8ba"/>
+        <COMPID name="EnumConverter" mc="Standard.Class" uid="bbb7d20f-4024-4cca-966c-271739ad9921"/>
+        <COMPID name="FileConverter" mc="Standard.Class" uid="c79472e4-2e48-4246-b949-5e83dd3028ea"/>
+        <COMPID name="FloatConverter" mc="Standard.Class" uid="fcebbe90-8a23-4e1f-a11c-46e4063cab25"/>
+        <COMPID name="IntConverter" mc="Standard.Class" uid="1b8c5d36-3c70-4f0d-9c4c-1c8fe7eb29af"/>
+        <COMPID name="LongConverter" mc="Standard.Class" uid="0aa0d3f1-04b3-4988-b8e4-cb893e4a6c7a"/>
+        <COMPID name="ShortConverter" mc="Standard.Class" uid="e78cc215-5bac-47fe-bf82-55416c1ce9df"/>
+        <COMPID name="StringBufferConverter" mc="Standard.Class" uid="ab06f3f8-923b-4c16-a0a3-e4edfdb90905"/>
+        <COMPID name="StringBuilderConverter" mc="Standard.Class" uid="e02ad1c4-4944-42f4-bbfe-6f0793baaec9"/>
+        <COMPID name="StringConverter" mc="Standard.Class" uid="0db0ec49-4999-4c8d-8822-8bc5c7f956f4"/>
+        <COMPID name="UriConverter" mc="Standard.Class" uid="109b132a-cee3-404c-b6fd-681c04f2a376"/>
+        <COMPID name="UrlConverter" mc="Standard.Class" uid="847d3695-2721-4ee0-bd8c-1e6313e676da"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

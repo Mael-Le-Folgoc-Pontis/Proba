@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="actions" version="4">
+  <OBJECT>
+    <ID name="actions" mc="Standard.Package" uid="008ad72a-d4f3-111c-bc9b-001e4fea2d8b"/>
+    <PID name="publisher" mc="Standard.Package" uid="000fff6e-d4f3-111c-bc9b-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[actions]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="IAdditionalInstallableUnitAdvice" mc="Standard.Interface" uid="008b921e-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="ICapabilityAdvice" mc="Standard.Interface" uid="008af34a-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="IFeatureRootAdvice" mc="Standard.Interface" uid="008b273e-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="IFilterAdvice" mc="Standard.Interface" uid="008c2616-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="ILicenseAdvice" mc="Standard.Interface" uid="008ae210-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="IPropertyAdvice" mc="Standard.Interface" uid="008b7f9a-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="IRootFilesAdvice" mc="Standard.Interface" uid="008bc86a-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="IRootIUAdvice" mc="Standard.Interface" uid="008b38e6-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="ITouchpointAdvice" mc="Standard.Interface" uid="008b5bb4-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="IUpdateDescriptorAdvice" mc="Standard.Interface" uid="008bdb70-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="IVersionAdvice" mc="Standard.Interface" uid="008bee1c-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="JREAction" mc="Standard.Class" uid="008b15d2-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="MergeResultsAction" mc="Standard.Class" uid="008ba3f8-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="QueryableFilterAdvice" mc="Standard.Class" uid="008b6dc0-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="RootFilesAction" mc="Standard.Class" uid="008c1324-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="RootFilesAdvice" mc="Standard.Class" uid="008b49f8-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="RootIUAction" mc="Standard.Class" uid="008c3962-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="RootIUAdvice" mc="Standard.Class" uid="008bb5d2-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="RootIUResultFilterAdvice" mc="Standard.Class" uid="008c0078-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="VersionAdvice" mc="Standard.Class" uid="008b048e-d4f3-111c-bc9b-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

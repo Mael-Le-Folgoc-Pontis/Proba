@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="model" version="4">
+  <OBJECT>
+    <ID name="model" mc="Standard.Package" uid="2619f826-569b-4144-b9ef-37442d621004"/>
+    <PID name="laf" mc="Standard.Package" uid="1b88f26e-fa15-41a5-b9c1-f968b57b06e9"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[model]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractCustomLafInfo" mc="Standard.Class" uid="c593c611-8996-45ee-a366-1680cffea5ed"/>
+        <COMPID name="CategoryInfo" mc="Standard.Class" uid="2d1c705e-fc88-4f5a-986a-693b3855cb04"/>
+        <COMPID name="LafEntryInfo" mc="Standard.Class" uid="f57543ac-7744-464a-acce-290f054b77b8"/>
+        <COMPID name="LafInfo" mc="Standard.Class" uid="a0121aaa-0f6c-4303-b776-d7fa4fddb88b"/>
+        <COMPID name="PluginLafInfo" mc="Standard.Class" uid="6db3df2c-b0da-472a-b6b3-8db716ae38c0"/>
+        <COMPID name="SeparatorLafInfo" mc="Standard.Class" uid="8a2bf800-7762-470c-a029-9e8b4b14418e"/>
+        <COMPID name="SystemLafInfo" mc="Standard.Class" uid="86a22019-333a-445d-a63e-b3d1228c808b"/>
+        <COMPID name="UndefinedLafInfo" mc="Standard.Class" uid="f460cb1b-54e4-4739-8c78-afe6fa210817"/>
+        <COMPID name="UserDefinedLafInfo" mc="Standard.Class" uid="9ceaa20d-d30c-4641-adeb-df3629168403"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="debug" version="4">
+  <OBJECT>
+    <ID name="debug" mc="Standard.Package" uid="513af982-5156-4d00-8589-4c5289cce59d"/>
+    <PID name="mvel2" mc="Standard.Package" uid="9144514c-c276-4a5b-9f46-4b3c52f6ca1f"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[debug]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="DebugTools" mc="Standard.Class" uid="25502e7a-d920-4e96-9fba-437c69e42153"/>
+        <COMPID name="Debugger" mc="Standard.Interface" uid="d746789e-043e-40b5-8970-5333a12bf284"/>
+        <COMPID name="DebuggerContext" mc="Standard.Class" uid="72c5233b-d41e-4e19-86f0-3b47624dd681"/>
+        <COMPID name="Frame" mc="Standard.Class" uid="43009906-6e70-4dc7-a880-5b4384291f11"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

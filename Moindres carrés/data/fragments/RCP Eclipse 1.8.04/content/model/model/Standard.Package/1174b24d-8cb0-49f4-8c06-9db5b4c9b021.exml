@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="core" version="4">
+  <OBJECT>
+    <ID name="core" mc="Standard.Package" uid="1174b24d-8cb0-49f4-8c06-9db5b4c9b021"/>
+    <PID name="server" mc="Standard.Package" uid="020f0d06-c758-4a04-8eba-93ff4177f7d3"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[core]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="IModule" mc="Standard.Interface" uid="4b6da264-b5b3-4493-a1c2-10aed163720e"/>
+        <COMPID name="IModule2" mc="Standard.Interface" uid="7901ffa2-1f12-4389-a40d-0effd011ec9f"/>
+        <COMPID name="IModuleArtifact" mc="Standard.Interface" uid="0466ae27-bcc6-425d-975a-8a757cf83eca"/>
+        <COMPID name="IModuleType" mc="Standard.Interface" uid="66055c04-d856-460d-bcb1-7ac1258345e5"/>
+        <COMPID name="IProjectProperties" mc="Standard.Interface" uid="de55a345-1b09-4ec9-9f63-65aa65f389ca"/>
+        <COMPID name="IPublishListener" mc="Standard.Interface" uid="5bb6d445-8074-40e9-bd69-1b9541899a42"/>
+        <COMPID name="IRuntime" mc="Standard.Interface" uid="e7498229-a7b2-4d0b-b7b3-3afbfff672ca"/>
+        <COMPID name="IRuntimeLifecycleListener" mc="Standard.Interface" uid="839e379b-fd70-48ec-b513-c67886b1343f"/>
+        <COMPID name="IRuntimeTargetHandler" mc="Standard.Interface" uid="a7510b8b-cc1b-41e4-bed6-8b78e6c1c660"/>
+        <COMPID name="IRuntimeType" mc="Standard.Interface" uid="d6a3b033-e390-4fee-8f13-4223399b6284"/>
+        <COMPID name="IRuntimeWorkingCopy" mc="Standard.Interface" uid="719d0f05-9dee-4d10-8b0e-3ffbbf6df053"/>
+        <COMPID name="IServer" mc="Standard.Interface" uid="e6054a6a-99ef-4e90-91af-0af2499965a7"/>
+        <COMPID name="IServerAttributes" mc="Standard.Interface" uid="3ce12a8e-0c03-4184-a73a-dddab5539f32"/>
+        <COMPID name="IServerLifecycleListener" mc="Standard.Interface" uid="75b61ab1-8a17-42dd-8db4-e6fa99d6c71d"/>
+        <COMPID name="IServerListener" mc="Standard.Interface" uid="32b47b0a-ce09-481a-b3ff-dc624d7582f5"/>
+        <COMPID name="IServerType" mc="Standard.Interface" uid="d6903067-d198-4e27-add1-e0d1bbd6d946"/>
+        <COMPID name="IServerWorkingCopy" mc="Standard.Interface" uid="aa6b29ba-74f3-4937-96c5-6a64ca4fb85d"/>
+        <COMPID name="ServerCore" mc="Standard.Class" uid="3d9b367d-a4fb-49ba-8f6d-3be17ba3fe9f"/>
+        <COMPID name="ServerEvent" mc="Standard.Class" uid="48f1b3b4-91c3-494e-a5d1-2f13dd24b57c"/>
+        <COMPID name="ServerPort" mc="Standard.Class" uid="6923295b-aa3a-49ed-ac3e-57263cf5ca29"/>
+        <COMPID name="ServerUtil" mc="Standard.Class" uid="eae343fc-f792-4e57-bca0-90b02adf7d0b"/>
+        <COMPID name="TaskModel" mc="Standard.Class" uid="bbd4d0e7-a83e-4eb5-a4e9-2edc6191cd89"/>
+        <COMPID name="internal" mc="Standard.Package" uid="1e9d7d55-d709-4972-942a-541221f09e3f"/>
+        <COMPID name="model" mc="Standard.Package" uid="4a1c25ba-bd02-419b-b637-b600e49cdca3"/>
+        <COMPID name="util" mc="Standard.Package" uid="f4836807-632d-4fb7-b6f1-a7594d843273"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="orders" version="4">
+  <OBJECT>
+    <ID name="orders" mc="Standard.Package" uid="006d1e24-0bdb-112e-9071-001e4fea2d8b"/>
+    <PID name="minisat" mc="Standard.Package" uid="0068dd14-0bdb-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[orders]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="NegativeLiteralSelectionStrategy" mc="Standard.Class" uid="006d2b08-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PhaseCachingAutoEraseStrategy" mc="Standard.Class" uid="006d318e-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PhaseInLastLearnedClauseSelectionStrategy" mc="Standard.Class" uid="006d3832-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PositiveLiteralSelectionStrategy" mc="Standard.Class" uid="006d3ecc-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PureOrder" mc="Standard.Class" uid="006d45ca-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RSATLastLearnedClausesPhaseSelectionStrategy" mc="Standard.Class" uid="006d4d0e-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RSATPhaseSelectionStrategy" mc="Standard.Class" uid="006d543e-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RandomLiteralSelectionStrategy" mc="Standard.Class" uid="006d5bdc-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RandomWalkDecorator" mc="Standard.Class" uid="006d63a2-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SubsetVarOrder" mc="Standard.Class" uid="ea5e2223-3db5-4951-8c1d-27127185067a"/>
+        <COMPID name="TabuListDecorator" mc="Standard.Class" uid="48e91741-b2c9-422c-83ea-0957b572f3d7"/>
+        <COMPID name="UserFixedPhaseSelectionStrategy" mc="Standard.Class" uid="006d6b68-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="VarOrderHeap" mc="Standard.Class" uid="006d7c0c-0bdb-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

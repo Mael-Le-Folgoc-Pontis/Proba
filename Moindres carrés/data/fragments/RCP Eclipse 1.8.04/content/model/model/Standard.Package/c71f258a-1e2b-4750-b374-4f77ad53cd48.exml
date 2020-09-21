@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="prefix" version="4">
+  <OBJECT>
+    <ID name="prefix" mc="Standard.Package" uid="c71f258a-1e2b-4750-b374-4f77ad53cd48"/>
+    <PID name="plugin" mc="Standard.Package" uid="6251ff3a-fd77-4649-9c6a-dbef415afe20"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[prefix]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="DefaultPluginPrefixRequest" mc="Standard.Class" uid="11d24e15-7ee8-46db-8c38-da40f2ec4afe"/>
+        <COMPID name="NoPluginFoundForPrefixException" mc="Standard.Class" uid="264faf69-ec8b-4ad5-b8a5-0f614b011db3"/>
+        <COMPID name="PluginPrefixRequest" mc="Standard.Interface" uid="3a9d480f-a8c0-4ec7-9198-f9c11258b223"/>
+        <COMPID name="PluginPrefixResolver" mc="Standard.Interface" uid="d8831959-b326-4d36-9cf6-121a436dcbde"/>
+        <COMPID name="PluginPrefixResult" mc="Standard.Interface" uid="e9b5d142-57d1-4530-994a-84c522430b23"/>
+        <COMPID name="internal" mc="Standard.Package" uid="81d47e96-699d-43a6-9c6b-8c203236a8f9"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

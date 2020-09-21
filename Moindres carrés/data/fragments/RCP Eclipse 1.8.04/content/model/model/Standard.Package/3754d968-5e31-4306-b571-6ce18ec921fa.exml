@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="traversers" version="4">
+  <OBJECT>
+    <ID name="traversers" mc="Standard.Package" uid="3754d968-5e31-4306-b571-6ce18ec921fa"/>
+    <PID name="xs" mc="Standard.Package" uid="3710217b-443b-4d36-9a89-27b4bddb95aa"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[traversers]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="XSAttributeChecker" mc="Standard.Class" uid="21199e41-516c-497d-b64b-9fa27a9bb36a"/>
+        <COMPID name="XSDHandler" mc="Standard.Class" uid="d6430481-34bd-445b-87ae-f93aa9600021"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

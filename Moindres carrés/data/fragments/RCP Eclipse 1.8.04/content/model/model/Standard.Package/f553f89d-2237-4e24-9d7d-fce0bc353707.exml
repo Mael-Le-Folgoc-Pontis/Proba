@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="resources" version="4">
+  <OBJECT>
+    <ID name="resources" mc="Standard.Package" uid="f553f89d-2237-4e24-9d7d-fce0bc353707"/>
+    <PID name="internal" mc="Standard.Package" uid="1bab5348-1a0a-49b9-8551-0697ad3ac40f"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[resources]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ExternalContainer" mc="Standard.Class" uid="bf0f9fd0-de8a-4d23-ad41-aed5e453477d"/>
+        <COMPID name="ExternalFile" mc="Standard.Class" uid="7016585c-21a7-4a84-a577-bd2841465556"/>
+        <COMPID name="ExternalFolder" mc="Standard.Class" uid="a5f45239-91ec-46d6-8246-5a91c12c5f62"/>
+        <COMPID name="ExternalProject" mc="Standard.Class" uid="4bfda8c6-93cf-4e88-9d8f-cbe7f90f2a05"/>
+        <COMPID name="ExternalResource" mc="Standard.Class" uid="1d08eb26-c1b9-47d0-b693-188dc0171759"/>
+        <COMPID name="ResourcesPlugin" mc="Standard.Class" uid="1fe7bdcd-bcf7-4dd0-88b4-e988b7427ef8"/>
+        <COMPID name="WorkspaceProjectLocationsResolver" mc="Standard.Class" uid="2af4e0a6-2fcc-4015-9e7b-7542a148016b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

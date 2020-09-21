@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="plexusbuildapi" version="4">
+  <OBJECT>
+    <ID name="plexusbuildapi" mc="Standard.Package" uid="a58d4b31-2dc1-4197-aa5e-f9c6ef7c8a54"/>
+    <PID name="builder" mc="Standard.Package" uid="86a78ba8-774d-4867-b055-1a0663873828"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[plexusbuildapi]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractEclipseBuildContext" mc="Standard.Class" uid="df6f0b32-200a-4bd4-b93d-85e2284f15c0"/>
+        <COMPID name="ChangedFileOutputStream" mc="Standard.Class" uid="3f85f065-28e1-4c2d-931b-ad265290da0b"/>
+        <COMPID name="EclipseBuildContext" mc="Standard.Class" uid="1878531f-c3b7-4ad5-9da1-a29fe94805e3"/>
+        <COMPID name="EclipseEmptyBuildContext" mc="Standard.Class" uid="02bb6791-0780-44c3-87d6-948b93c45052"/>
+        <COMPID name="EclipseIncrementalBuildContext" mc="Standard.Class" uid="5c82e5ea-3e13-4f84-a59a-668bf7533752"/>
+        <COMPID name="PlexusBuildAPI" mc="Standard.Class" uid="03fc7845-0003-4265-80d6-c0878858dcce"/>
+        <COMPID name="ResourceDeltaScanner" mc="Standard.Class" uid="a1b97b3b-b875-439c-a0f7-93c5d7f3639b"/>
+        <COMPID name="ResourceScanner" mc="Standard.Class" uid="4d6b7aba-fdda-449b-ba6a-b9b734eeb131"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

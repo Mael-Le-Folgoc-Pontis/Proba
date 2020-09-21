@@ -1,0 +1,97 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="preferences" version="4">
+  <OBJECT>
+    <ID name="preferences" mc="Standard.Package" uid="00057a1c-0bcb-112e-9071-001e4fea2d8b"/>
+    <PID name="ui" mc="Standard.Package" uid="006159f4-0bca-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[preferences]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractConfigurationBlockPreferenceAndPropertyPage" mc="Standard.Class" uid="00058d7c-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AbstractConfigurationBlockPreferencePage" mc="Standard.Class" uid="000593c6-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AppearancePreferencePage" mc="Standard.Class" uid="00059a74-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BuildPathsPropertyPage" mc="Standard.Class" uid="0005a14a-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BulletListBlock" mc="Standard.Class" uid="0005a820-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ClasspathContainerPreferencePage" mc="Standard.Class" uid="0005af5a-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ClasspathVariablesPreferencePage" mc="Standard.Class" uid="0005b6da-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CleanUpPreferencePage" mc="Standard.Class" uid="0005be50-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CodeAssistAdvancedPreferencePage" mc="Standard.Class" uid="0005e772-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CodeAssistFavoritesPreferencePage" mc="Standard.Class" uid="000628e0-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CodeAssistPreferencePage" mc="Standard.Class" uid="000631c8-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CodeFormatterPreferencePage" mc="Standard.Class" uid="00063ad8-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CodeStylePreferencePage" mc="Standard.Class" uid="0006442e-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CodeTemplateBlock" mc="Standard.Class" uid="00064d70-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CodeTemplatePreferencePage" mc="Standard.Class" uid="00066aee-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CodeTemplateSourceViewerConfiguration" mc="Standard.Class" uid="0006750c-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ComplianceConfigurationBlock" mc="Standard.Class" uid="00068c86-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CompliancePreferencePage" mc="Standard.Class" uid="00069712-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="EditTemplateDialog" mc="Standard.Class" uid="0006a18a-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FilterTextControl" mc="Standard.Class" uid="0006b986-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FoldingPreferencePage" mc="Standard.Class" uid="0006dcf4-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IPreferenceAndPropertyConfigurationBlock" mc="Standard.Interface" uid="0006e316-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IPreferenceConfigurationBlock" mc="Standard.Interface" uid="0006e9f6-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ImportOrganizeConfigurationBlock" mc="Standard.Class" uid="0006f5c2-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ImportOrganizeInputDialog" mc="Standard.Class" uid="00072344-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ImportOrganizePreferencePage" mc="Standard.Class" uid="0007355a-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaBasePreferencePage" mc="Standard.Class" uid="00074108-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaBuildConfigurationBlock" mc="Standard.Class" uid="00074d1a-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaBuildPreferencePage" mc="Standard.Class" uid="00075940-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaCompilerPropertyPage" mc="Standard.Class" uid="00076566-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaEditorColoringPreferencePage" mc="Standard.Class" uid="0007b4da-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaEditorHoverPreferencePage" mc="Standard.Class" uid="0007eaae-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaEditorPreferencePage" mc="Standard.Class" uid="0007f832-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaEditorPropertyPage" mc="Standard.Class" uid="00080610-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaPreferencesSettings" mc="Standard.Class" uid="00081420-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaSourcePreviewerUpdater" mc="Standard.Class" uid="0008223a-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaTemplatePreferencePage" mc="Standard.Class" uid="000830c2-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavadocConfigurationBlock" mc="Standard.Class" uid="00083f86-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavadocConfigurationPropertyPage" mc="Standard.Class" uid="00088590-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavadocProblemsConfigurationBlock" mc="Standard.Class" uid="000894c2-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavadocProblemsPreferencePage" mc="Standard.Class" uid="0008a408-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MarkOccurrencesPreferencePage" mc="Standard.Class" uid="0008c302-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MembersOrderPreferenceCache" mc="Standard.Class" uid="0008d310-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MembersOrderPreferencePage" mc="Standard.Class" uid="0008e346-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MockupPreferenceStore" mc="Standard.Class" uid="0008ff7a-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="NameConventionConfigurationBlock" mc="Standard.Class" uid="0009103c-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="NativeLibrariesConfigurationBlock" mc="Standard.Class" uid="0009499e-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="NativeLibrariesPropertyPage" mc="Standard.Class" uid="000960b4-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="NewJavaProjectPreferencePage" mc="Standard.Class" uid="00097180-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="OccurrencesPreferencePage" mc="Standard.Class" uid="000982d8-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="OptionsConfigurationBlock" mc="Standard.Class" uid="00099444-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="OverlayPreferenceStore" mc="Standard.Class" uid="000a0ad2-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PreferencesAccess" mc="Standard.Class" uid="000a3ee4-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PreferencesMessages" mc="Standard.Class" uid="000a6ce8-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ProblemSeveritiesConfigurationBlock" mc="Standard.Class" uid="000a7f58-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ProblemSeveritiesPreferencePage" mc="Standard.Class" uid="000a9d9e-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ProfilePreferencePage" mc="Standard.Class" uid="000ab086-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ProjectSelectionDialog" mc="Standard.Class" uid="000ac33c-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PropertiesFileEditorPreferencePage" mc="Standard.Class" uid="000ad660-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PropertyAndPreferencePage" mc="Standard.Class" uid="000b12ba-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SaveParticipantPreferencePage" mc="Standard.Class" uid="000b40b4-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ScrolledPageContent" mc="Standard.Class" uid="000b5496-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SmartTypingPreferencePage" mc="Standard.Class" uid="000b7d18-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SourceAttachmentPropertyPage" mc="Standard.Class" uid="000b919a-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SpellingConfigurationBlock" mc="Standard.Class" uid="000ba630-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SpellingPreferenceBlock" mc="Standard.Class" uid="000bbb20-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TodoTaskConfigurationBlock" mc="Standard.Class" uid="000bdc2c-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TodoTaskInputDialog" mc="Standard.Class" uid="000c1a7a-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TodoTaskPreferencePage" mc="Standard.Class" uid="000c35a0-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TypeFilterInputDialog" mc="Standard.Class" uid="000c4b58-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TypeFilterPreferencePage" mc="Standard.Class" uid="000c670a-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="UserLibraryPreferencePage" mc="Standard.Class" uid="000c8348-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="cleanup" mc="Standard.Package" uid="000e8314-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="formatter" mc="Standard.Package" uid="0010e7ee-0bcb-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

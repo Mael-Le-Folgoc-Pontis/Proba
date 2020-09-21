@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="edit" version="4">
+  <OBJECT>
+    <ID name="edit" mc="Standard.Package" uid="c09db03c-4b02-42ae-b782-d3fb00554a36"/>
+    <PID name="nls" mc="Standard.Package" uid="b7c23c83-117c-4c8d-aa9e-abc6cfd31b03"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[edit]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="EditableSource" mc="Standard.Class" uid="c99f1c51-6b57-4963-8fc3-ccb27fede9a0"/>
+        <COMPID name="EditableSupport" mc="Standard.Class" uid="d6ca892e-1e02-4779-a1c0-f1ccd39fcad8"/>
+        <COMPID name="IEditableSource" mc="Standard.Interface" uid="0f0be041-d471-4815-ab4b-a5d39630108c"/>
+        <COMPID name="IEditableSourceListener" mc="Standard.Interface" uid="8546af43-8072-4746-8f5f-2602e4a5f771"/>
+        <COMPID name="IEditableSupport" mc="Standard.Interface" uid="ae9a71f3-a3cd-484e-9301-0761dc71b45b"/>
+        <COMPID name="IEditableSupportListener" mc="Standard.Class" uid="a03925bc-2cc6-498b-bdd6-00133645d893"/>
+        <COMPID name="StringPropertyInfo" mc="Standard.Class" uid="0496b613-6fde-4876-91c2-d341e231b8c9"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

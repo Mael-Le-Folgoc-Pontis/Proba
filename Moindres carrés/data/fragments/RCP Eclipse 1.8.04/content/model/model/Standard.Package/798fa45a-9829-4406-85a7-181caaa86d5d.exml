@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="correlation" version="4">
+  <OBJECT>
+    <ID name="correlation" mc="Standard.Package" uid="798fa45a-9829-4406-85a7-181caaa86d5d"/>
+    <PID name="stat" mc="Standard.Package" uid="b8f32d4b-8f90-41c0-a072-7c4bb75ded97"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[correlation]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Covariance" mc="Standard.Class" uid="5b99baf9-9e50-45a8-9342-7c6a5647499f"/>
+        <COMPID name="PearsonsCorrelation" mc="Standard.Class" uid="f09bc1ce-b48f-4624-9d33-4f45ca558448"/>
+        <COMPID name="SpearmansCorrelation" mc="Standard.Class" uid="0cef287d-ef3e-41b3-9de0-bc068afd4794"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

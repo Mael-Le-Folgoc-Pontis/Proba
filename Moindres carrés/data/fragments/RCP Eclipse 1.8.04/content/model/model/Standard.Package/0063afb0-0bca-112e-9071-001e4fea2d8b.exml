@@ -1,0 +1,65 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="actions" version="4">
+  <OBJECT>
+    <ID name="actions" mc="Standard.Package" uid="0063afb0-0bca-112e-9071-001e4fea2d8b"/>
+    <PID name="ui" mc="Standard.Package" uid="006159f4-0bca-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[actions]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractToggleLinkingAction" mc="Standard.Class" uid="0063b60e-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ActionMessages" mc="Standard.Class" uid="0063bc6c-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ActionUtil" mc="Standard.Class" uid="0063c2e8-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AddBlockCommentAction" mc="Standard.Class" uid="0063c95a-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AddTaskAction" mc="Standard.Class" uid="0063d030-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AllCleanUpsAction" mc="Standard.Class" uid="0063d742-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BlockCommentAction" mc="Standard.Class" uid="0063de4a-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CategoryFilterActionGroup" mc="Standard.Class" uid="00640168-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CleanUpAction" mc="Standard.Class" uid="00642f62-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CollapseAllAction" mc="Standard.Class" uid="0064370a-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CompositeActionGroup" mc="Standard.Class" uid="00643f5c-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ConfigureContainerAction" mc="Standard.Class" uid="006447a4-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CopyQualifiedNameAction" mc="Standard.Class" uid="00644fec-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ExtractSuperClassAction" mc="Standard.Class" uid="00645898-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FindBrokenNLSKeysAction" mc="Standard.Class" uid="0064616c-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FoldingActionGroup" mc="Standard.Class" uid="006477e2-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FoldingMessages" mc="Standard.Class" uid="0064957e-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="GenerateConstructorUsingFieldsContentProvider" mc="Standard.Class" uid="00649f74-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="GenerateConstructorUsingFieldsSelectionDialog" mc="Standard.Class" uid="0064a8e8-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="GenerateConstructorUsingFieldsValidator" mc="Standard.Class" uid="0064b8c4-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="GenerateJavadocAction" mc="Standard.Class" uid="0064c292-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IndentAction" mc="Standard.Class" uid="0064ccd8-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IntroduceParameterObjectAction" mc="Standard.Class" uid="0064e4b6-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JDTQuickMenuCreator" mc="Standard.Class" uid="0064ef74-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JarImportWizardAction" mc="Standard.Class" uid="0064fa46-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LexicalSortingAction" mc="Standard.Class" uid="00650554-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MultiActionGroup" mc="Standard.Class" uid="0065106c-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MultiFormatAction" mc="Standard.Class" uid="00651bf2-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MultiOrganizeImportAction" mc="Standard.Class" uid="0065278c-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MultiSortMembersAction" mc="Standard.Class" uid="006533b2-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="NewWizardsActionGroup" mc="Standard.Class" uid="00653ff6-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="OccurrencesSearchMenuAction" mc="Standard.Class" uid="00654c94-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="OpenBrowserUtil" mc="Standard.Class" uid="006558f6-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="OpenTypeAction" mc="Standard.Class" uid="006565b2-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="OpenTypeInHierarchyAction" mc="Standard.Class" uid="006572e6-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RemoveBlockCommentAction" mc="Standard.Class" uid="00657fd4-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SelectAllAction" mc="Standard.Class" uid="00658d26-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SelectionConverter" mc="Standard.Class" uid="00659aaa-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SimpleSelectionProvider" mc="Standard.Class" uid="0065a81a-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SurroundWithActionGroup" mc="Standard.Class" uid="0065b602-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SurroundWithTemplateMenuAction" mc="Standard.Class" uid="0065c41c-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WorkbenchRunnableAdapter" mc="Standard.Class" uid="0065e046-0bca-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

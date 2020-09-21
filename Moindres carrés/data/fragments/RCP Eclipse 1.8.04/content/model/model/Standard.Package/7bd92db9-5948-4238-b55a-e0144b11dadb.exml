@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="texteditor" version="4">
+  <OBJECT>
+    <ID name="texteditor" mc="Standard.Package" uid="7bd92db9-5948-4238-b55a-e0144b11dadb"/>
+    <PID name="workbench" mc="Standard.Package" uid="c03ad54e-b791-45c1-9675-fb8e7f68d391"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[texteditor]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractDeleteLineHandler" mc="Standard.Class" uid="a075a236-738d-4d43-b3b5-39e5d9d3e23d"/>
+        <COMPID name="AbstractTextViewerHandler" mc="Standard.Class" uid="4454ca2d-983f-4c15-9589-7e87a5220727"/>
+        <COMPID name="CutLineHandler" mc="Standard.Class" uid="e0124432-4265-44ac-822b-547404c7bfa0"/>
+        <COMPID name="CutLineToBeginningHandler" mc="Standard.Class" uid="34d3b296-7cd1-42aa-860f-c3d483db8dc6"/>
+        <COMPID name="CutLineToEndHandler" mc="Standard.Class" uid="60e5dcc1-cf09-4b13-9e6b-cb526b89b7e4"/>
+        <COMPID name="DeleteLineHandler" mc="Standard.Class" uid="ee68e4b8-2e28-4b3b-ab08-b5ae5bc140af"/>
+        <COMPID name="DeleteLineToBeginningHandler" mc="Standard.Class" uid="53197122-b83a-4d5f-96ba-13128ed6fa6c"/>
+        <COMPID name="DeleteLineToEndHandler" mc="Standard.Class" uid="cd71290c-dadf-4785-9b5c-818c15aa261b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

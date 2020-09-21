@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="core" version="4">
+  <OBJECT>
+    <ID name="core" mc="Standard.Package" uid="0a9bf791-6796-4d6d-8583-536c999d4feb"/>
+    <PID name="mpc" mc="Standard.Package" uid="064f94ac-21ad-4a29-b27e-8a565b940f7b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[core]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="MarketplaceClientCore" mc="Standard.Class" uid="aa6839a4-17b9-4ba4-90c6-7aff475c720d"/>
+        <COMPID name="MarketplaceClientCorePlugin" mc="Standard.Class" uid="e896314b-4e89-48c1-9a5b-3b79e8775e5a"/>
+        <COMPID name="ServiceHelperImpl" mc="Standard.Class" uid="0d441afe-8904-48c9-a708-924c56267941"/>
+        <COMPID name="ServiceLocator" mc="Standard.Class" uid="b9fd53f1-519b-4c6b-bc4a-f0c45fcddef2"/>
+        <COMPID name="service" mc="Standard.Package" uid="b26e572b-1f01-40eb-9c11-4c9de0c28020"/>
+        <COMPID name="util" mc="Standard.Package" uid="23ed82fa-4b6b-4460-be28-49d0b089ba18"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

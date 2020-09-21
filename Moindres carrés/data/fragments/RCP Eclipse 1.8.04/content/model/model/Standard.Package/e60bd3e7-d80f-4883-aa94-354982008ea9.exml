@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="jmx" version="4">
+  <OBJECT>
+    <ID name="jmx" mc="Standard.Package" uid="e60bd3e7-d80f-4883-aa94-354982008ea9"/>
+    <PID name="classic" mc="Standard.Package" uid="099ea9e4-dcb1-486e-adcd-be4022ab5d8a"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[jmx]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="JMXConfigurator" mc="Standard.Class" uid="2f49a67e-d356-4c13-9e10-06418d833a80"/>
+        <COMPID name="JMXConfiguratorMBean" mc="Standard.Interface" uid="49f9754f-c53a-4750-8c3e-0783dda2d5dd"/>
+        <COMPID name="MBeanUtil" mc="Standard.Class" uid="fbfbdc6c-597f-4a7f-97ff-4e3ff5ae9022"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

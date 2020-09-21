@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="modelhandler" version="4">
+  <OBJECT>
+    <ID name="modelhandler" mc="Standard.Package" uid="f507a921-9491-41f4-b71b-7c292a804457"/>
+    <PID name="internal" mc="Standard.Package" uid="e9152071-ab45-4e26-8cf6-708827cd7d86"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[modelhandler]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="EmbeddedXML" mc="Standard.Class" uid="d876bff7-4427-445d-bc95-739b5547e8c7"/>
+        <COMPID name="ModelHandlerForXML" mc="Standard.Class" uid="dfc18e60-6dfe-4828-a4bd-17d100f21080"/>
+        <COMPID name="XMLModelLoader" mc="Standard.Class" uid="0274775a-9e32-434e-afc6-65f2c99aedbb"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

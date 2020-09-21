@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Authentication" version="4">
+  <OBJECT>
+    <ID name="Authentication" mc="Standard.Interface" uid="0011e6c6-0bcc-112e-9071-001e4fea2d8b"/>
+    <PID name="server" mc="Standard.Package" uid="0011a33c-0bcc-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">true</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Authentication]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Challenge" mc="Standard.Interface" uid="0011ed24-0bcc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Deferred" mc="Standard.Interface" uid="0011f3be-0bcc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Failed" mc="Standard.Class" uid="ea5b2799-05cc-42c5-a891-516873d8295b"/>
+        <COMPID name="Failure" mc="Standard.Interface" uid="0011fa8a-0bcc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ResponseSent" mc="Standard.Interface" uid="00120188-0bcc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SendSuccess" mc="Standard.Interface" uid="00120886-0bcc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="User" mc="Standard.Interface" uid="00120fe8-0bcc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Wrapped" mc="Standard.Interface" uid="0012177c-0bcc-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaInterface" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0267-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

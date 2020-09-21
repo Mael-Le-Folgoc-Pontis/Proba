@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="events" version="4">
+  <OBJECT>
+    <ID name="events" mc="Standard.Package" uid="00562e26-0bc3-112e-9071-001e4fea2d8b"/>
+    <PID name="core" mc="Standard.Package" uid="002d659a-d4f1-111c-bc9b-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[events]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ContainerConnectedEvent" mc="Standard.Class" uid="00563556-0bc3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ContainerConnectingEvent" mc="Standard.Class" uid="00563c36-0bc3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ContainerDisconnectedEvent" mc="Standard.Class" uid="0056437a-0bc3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ContainerDisconnectingEvent" mc="Standard.Class" uid="00564b04-0bc3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ContainerDisposeEvent" mc="Standard.Class" uid="00565266-0bc3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ContainerEjectedEvent" mc="Standard.Class" uid="00565a4a-0bc3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IContainerConnectedEvent" mc="Standard.Interface" uid="00566120-0bc3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IContainerConnectingEvent" mc="Standard.Interface" uid="0056685a-0bc3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IContainerDisconnectedEvent" mc="Standard.Interface" uid="00566fa8-0bc3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IContainerDisconnectingEvent" mc="Standard.Interface" uid="00567750-0bc3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IContainerDisposeEvent" mc="Standard.Interface" uid="00567ee4-0bc3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IContainerEjectedEvent" mc="Standard.Interface" uid="005686dc-0bc3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IContainerEvent" mc="Standard.Interface" uid="00568f38-0bc3-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

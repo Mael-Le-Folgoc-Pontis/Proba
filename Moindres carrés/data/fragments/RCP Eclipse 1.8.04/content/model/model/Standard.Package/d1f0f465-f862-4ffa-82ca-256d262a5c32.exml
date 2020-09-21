@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="filter" version="4">
+  <OBJECT>
+    <ID name="filter" mc="Standard.Package" uid="d1f0f465-f862-4ffa-82ca-256d262a5c32"/>
+    <PID name="revwalk" mc="Standard.Package" uid="8ac576c7-eccd-4203-ac07-d389add603d7"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[filter]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AndRevFilter" mc="Standard.Class" uid="a4156eae-85aa-4a19-920c-7da696181fa9"/>
+        <COMPID name="AuthorRevFilter" mc="Standard.Class" uid="5e6fc473-32b2-495f-af28-487e70d6eacd"/>
+        <COMPID name="CommitTimeRevFilter" mc="Standard.Class" uid="39885b0e-b5d3-489b-ae15-07a23473a487"/>
+        <COMPID name="CommitterRevFilter" mc="Standard.Class" uid="1f652c1d-709a-4492-9e58-5fef4396904f"/>
+        <COMPID name="MaxCountRevFilter" mc="Standard.Class" uid="0a047dff-9be0-44f4-9376-cc34297bd53a"/>
+        <COMPID name="MessageRevFilter" mc="Standard.Class" uid="5ff2eda9-6fd6-43e3-9e68-c4b8dbfda09c"/>
+        <COMPID name="NotRevFilter" mc="Standard.Class" uid="920ba299-7a29-44ea-9039-6bb998662126"/>
+        <COMPID name="ObjectFilter" mc="Standard.Class" uid="fa47db2f-d4d5-401a-80d7-1cbb14b5710b"/>
+        <COMPID name="OrRevFilter" mc="Standard.Class" uid="7bf3cbed-39fc-45a3-8be9-69100fe5a348"/>
+        <COMPID name="PatternMatchRevFilter" mc="Standard.Class" uid="7505f7f4-1742-4497-acc7-06e3e81b71dd"/>
+        <COMPID name="RevFilter" mc="Standard.Class" uid="f38776e3-fcf1-4ac8-b042-99da1f30bb48"/>
+        <COMPID name="RevFlagFilter" mc="Standard.Class" uid="4997365c-ced9-457f-9c19-c95b1cba47f6"/>
+        <COMPID name="SkipRevFilter" mc="Standard.Class" uid="e3bf1af4-1023-48e7-ad82-9a42cb36c4d8"/>
+        <COMPID name="SubStringRevFilter" mc="Standard.Class" uid="be439fa6-6b3d-45b1-adfc-cf2946874e8f"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

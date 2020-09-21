@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="securestorage" version="4">
+  <OBJECT>
+    <ID name="securestorage" mc="Standard.Package" uid="992c53fb-07e4-4796-a6d9-1dec8287e7d1"/>
+    <PID name="core" mc="Standard.Package" uid="5e95d30f-294d-414e-bbc0-a559ceff63bc"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[securestorage]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="EGitSecureStore" mc="Standard.Class" uid="62c01f78-ad38-42b6-860f-520fbf98e20b"/>
+        <COMPID name="UserPasswordCredentials" mc="Standard.Class" uid="0e4fc968-f339-4fe6-9208-25460e018022"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

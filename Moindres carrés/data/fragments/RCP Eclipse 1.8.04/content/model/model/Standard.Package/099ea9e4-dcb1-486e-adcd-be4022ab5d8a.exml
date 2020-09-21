@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="classic" version="4">
+  <OBJECT>
+    <ID name="classic" mc="Standard.Package" uid="099ea9e4-dcb1-486e-adcd-be4022ab5d8a"/>
+    <PID name="logback" mc="Standard.Package" uid="5615e790-8ce6-4d8c-8dad-a24ea489469d"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[classic]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AsyncAppender" mc="Standard.Class" uid="8ea0473a-045e-432c-80ab-fa82c79a798d"/>
+        <COMPID name="BasicConfigurator" mc="Standard.Class" uid="c994746b-9911-4270-8314-0b6b329a519a"/>
+        <COMPID name="ClassicConstants" mc="Standard.Class" uid="fe1fe719-9da7-473d-ab51-8d5224246b3d"/>
+        <COMPID name="Level" mc="Standard.Class" uid="3228ea02-76d7-4c04-af3a-11a65863d396"/>
+        <COMPID name="Logger" mc="Standard.Class" uid="e6903a28-cebb-4297-bbc8-647f992ce63e"/>
+        <COMPID name="LoggerContext" mc="Standard.Class" uid="c99ab2b5-5b6a-48a8-b5a0-f6b7559406fa"/>
+        <COMPID name="PatternLayout" mc="Standard.Class" uid="50fdc105-76fd-40c2-95a7-b855ad7e2bdf"/>
+        <COMPID name="ViewStatusMessagesServlet" mc="Standard.Class" uid="4df8a520-7021-427e-8af0-f08f783ecf58"/>
+        <COMPID name="boolex" mc="Standard.Package" uid="267472d7-4838-4020-a4c3-5b56c967a690"/>
+        <COMPID name="db" mc="Standard.Package" uid="1e74d603-417a-4bbf-89ab-5d65df84c2bb"/>
+        <COMPID name="encoder" mc="Standard.Package" uid="d2626180-d8f4-4816-94fe-89a1dbf584f5"/>
+        <COMPID name="filter" mc="Standard.Package" uid="285f37a2-019a-4568-8119-70d0df27b756"/>
+        <COMPID name="gaffer" mc="Standard.Package" uid="fb97e1b1-8b7f-48b4-9c04-9cb203835d44"/>
+        <COMPID name="helpers" mc="Standard.Package" uid="0e3d16f0-2fa7-468f-98af-46063412482d"/>
+        <COMPID name="html" mc="Standard.Package" uid="901e3d30-59c9-458c-8474-ba0271b33bb9"/>
+        <COMPID name="jmx" mc="Standard.Package" uid="e60bd3e7-d80f-4883-aa94-354982008ea9"/>
+        <COMPID name="joran" mc="Standard.Package" uid="3494a262-1e8e-45fc-9136-c9c396aca124"/>
+        <COMPID name="jul" mc="Standard.Package" uid="6931f865-aac2-424b-9ecd-9bf451ee0d97"/>
+        <COMPID name="log4j" mc="Standard.Package" uid="438f6f24-d12c-4dc7-b161-907e228beaca"/>
+        <COMPID name="net" mc="Standard.Package" uid="8accbe05-e518-4895-8a96-ddaeabe2ed9d"/>
+        <COMPID name="pattern" mc="Standard.Package" uid="49724f6d-223a-4e69-89eb-f629d200463f"/>
+        <COMPID name="selector" mc="Standard.Package" uid="5257d66d-c83e-4e06-9c87-1ef90124f4d5"/>
+        <COMPID name="sift" mc="Standard.Package" uid="4485c8ab-5d3e-46f4-aff2-36283c05c31b"/>
+        <COMPID name="spi" mc="Standard.Package" uid="7146f6e8-b29a-4e64-84e6-6f3b62793270"/>
+        <COMPID name="turbo" mc="Standard.Package" uid="52466219-65e4-4a11-8268-81cfef270df6"/>
+        <COMPID name="util" mc="Standard.Package" uid="f49742e7-290a-4f46-8bb5-76953d8f92c1"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

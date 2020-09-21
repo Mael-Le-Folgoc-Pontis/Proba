@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="net" version="4">
+  <OBJECT>
+    <ID name="net" mc="Standard.Package" uid="bd0d2a51-3332-4ab1-bad5-268f49322996"/>
+    <PID name="core" mc="Standard.Package" uid="0101cad1-4db3-4b5d-b30b-1e1efbf9bd6c"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[net]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="JMSAppenderBase" mc="Standard.Class" uid="89459302-d62e-4e32-890e-ad83754e3627"/>
+        <COMPID name="LoginAuthenticator" mc="Standard.Class" uid="ae472d02-44c3-40f2-9d2a-4e7a7ec4d28b"/>
+        <COMPID name="SMTPAppenderBase" mc="Standard.Class" uid="5a2047e6-0865-4866-b538-30ca6fa1b360"/>
+        <COMPID name="SocketAppenderBase" mc="Standard.Class" uid="f58c2e2f-1331-4a1e-948d-184941b9cc61"/>
+        <COMPID name="SyslogAppenderBase" mc="Standard.Class" uid="9e503188-4c6b-4299-b982-8d65b9f2de0d"/>
+        <COMPID name="SyslogConstants" mc="Standard.Class" uid="85ce385c-1799-4a4e-8158-e4fff24d31a1"/>
+        <COMPID name="SyslogOutputStream" mc="Standard.Class" uid="6075a67b-a6d4-4632-a706-1d44ab711cb9"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="component" version="4">
+  <OBJECT>
+    <ID name="component" mc="Standard.Package" uid="001d4214-21b1-1fb1-8a9e-001e4fea2d8b"/>
+    <PID name="service" mc="Standard.Package" uid="000441a6-21b1-1fb1-8a9e-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[component]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ComponentConstants" mc="Standard.Interface" uid="0026a1ce-21b1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ComponentContext" mc="Standard.Interface" uid="0026f1e2-21b1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ComponentException" mc="Standard.Class" uid="0026ccee-21b1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ComponentFactory" mc="Standard.Interface" uid="00267cc6-21b1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ComponentInstance" mc="Standard.Interface" uid="00274f98-21b1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="annotations" mc="Standard.Package" uid="001e4b50-21b1-1fb1-8a9e-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

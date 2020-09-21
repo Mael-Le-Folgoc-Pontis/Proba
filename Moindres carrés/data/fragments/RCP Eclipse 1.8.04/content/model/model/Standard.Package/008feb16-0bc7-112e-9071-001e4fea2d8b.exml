@@ -1,0 +1,59 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="search" version="4">
+  <OBJECT>
+    <ID name="search" mc="Standard.Package" uid="008feb16-0bc7-112e-9071-001e4fea2d8b"/>
+    <PID name="internal" mc="Standard.Package" uid="00538bbc-21a2-1fb1-8a9e-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[search]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ASCIIReader" mc="Standard.Class" uid="008ff1f6-0bc7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AnalyzerDescriptor" mc="Standard.Class" uid="008ff8ea-0bc7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AnalyzerFactory" mc="Standard.Class" uid="008fffe8-0bc7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Analyzer_en" mc="Standard.Class" uid="009006e6-0bc7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DefaultAnalyzer" mc="Standard.Class" uid="00900e52-0bc7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HTMLDocParser" mc="Standard.Class" uid="009015f0-0bc7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HTMLSearchParticipant" mc="Standard.Class" uid="00901d84-0bc7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ISearchHitCollector" mc="Standard.Interface" uid="00902428-0bc7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ISearchQuery" mc="Standard.Interface" uid="00902b76-0bc7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="InfoCenter" mc="Standard.Class" uid="00904282-0bc7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LimitedSizeCharArrayWriter" mc="Standard.Class" uid="00906e42-0bc7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LocalSearchManager" mc="Standard.Class" uid="009076d0-0bc7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LowerCaseAndDigitsTokenizer" mc="Standard.Class" uid="00908e68-0bc7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LuceneSearchDocument" mc="Standard.Class" uid="009097b4-0bc7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PluginIndex" mc="Standard.Class" uid="0090a100-0bc7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PluginVersionInfo" mc="Standard.Class" uid="0090aa9c-0bc7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PrebuiltIndexes" mc="Standard.Class" uid="0090b460-0bc7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ProgressDistributor" mc="Standard.Class" uid="0090be24-0bc7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="QueryBuilder" mc="Standard.Class" uid="0090c860-0bc7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="QueryTooComplexException" mc="Standard.Class" uid="0090d2c4-0bc7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="QueryWordsExactPhrase" mc="Standard.Class" uid="0090dd28-0bc7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="QueryWordsPhrase" mc="Standard.Class" uid="0090e7e6-0bc7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="QueryWordsToken" mc="Standard.Class" uid="0090f2ea-0bc7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SearchHit" mc="Standard.Class" uid="0090fde4-0bc7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SearchIndex" mc="Standard.Class" uid="00910942-0bc7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SearchIndexWithIndexingProgress" mc="Standard.Class" uid="009114dc-0bc7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SearchManager" mc="Standard.Class" uid="0091206c-0bc7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SearchProgressMonitor" mc="Standard.Class" uid="00913a5c-0bc7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SearchQuery" mc="Standard.Class" uid="00915500-0bc7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SearchResult" mc="Standard.Class" uid="00916162-0bc7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SearchResults" mc="Standard.Class" uid="00916dba-0bc7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SmartAnalyzer" mc="Standard.Class" uid="00917a94-0bc7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WebSearch" mc="Standard.Class" uid="00918796-0bc7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WordTokenStream" mc="Standard.Class" uid="0091b108-0bc7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="XHTMLSearchParticipant" mc="Standard.Class" uid="0091be96-0bc7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="federated" mc="Standard.Package" uid="0092cd22-0bc7-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

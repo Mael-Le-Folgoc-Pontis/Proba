@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="impl" version="4">
+  <OBJECT>
+    <ID name="impl" mc="Standard.Package" uid="003aae62-21a3-1fb1-8a9e-001e4fea2d8b"/>
+    <PID name="commands" mc="Standard.Package" uid="0034ee6e-21a3-1fb1-8a9e-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[impl]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="BindingContextImpl" mc="Standard.Class" uid="003cfa8c-21a3-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="BindingTableImpl" mc="Standard.Class" uid="003e4da6-21a3-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="CategoryImpl" mc="Standard.Class" uid="003da82e-21a3-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="CommandImpl" mc="Standard.Class" uid="00407dba-21a3-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="CommandParameterImpl" mc="Standard.Class" uid="003b7aae-21a3-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="CommandsFactoryImpl" mc="Standard.Class" uid="003c1996-21a3-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="CommandsPackageImpl" mc="Standard.Class" uid="004132c8-21a3-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="HandlerImpl" mc="Standard.Class" uid="003fd7de-21a3-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="KeyBindingImpl" mc="Standard.Class" uid="003acbe0-21a3-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ParameterImpl" mc="Standard.Class" uid="003f373e-21a3-1fb1-8a9e-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

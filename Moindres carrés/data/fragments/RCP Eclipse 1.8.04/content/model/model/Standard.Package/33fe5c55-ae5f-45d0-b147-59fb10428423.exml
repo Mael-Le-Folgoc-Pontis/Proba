@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="concurrency" version="4">
+  <OBJECT>
+    <ID name="concurrency" mc="Standard.Package" uid="33fe5c55-ae5f-45d0-b147-59fb10428423"/>
+    <PID name="aether" mc="Standard.Package" uid="16c0f0b4-6b15-409d-bd18-e55d9ef28261"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[concurrency]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="LockingFileProcessor" mc="Standard.Class" uid="f9af2b24-6264-4595-835f-2008f33714e2"/>
+        <COMPID name="LockingSyncContextFactory" mc="Standard.Class" uid="aa8efaf6-36f8-4c46-83d1-7ade634f6857"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

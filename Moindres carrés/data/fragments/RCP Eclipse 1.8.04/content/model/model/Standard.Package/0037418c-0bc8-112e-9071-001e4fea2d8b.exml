@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="jdwp" version="4">
+  <OBJECT>
+    <ID name="jdwp" mc="Standard.Package" uid="0037418c-0bc8-112e-9071-001e4fea2d8b"/>
+    <PID name="internal" mc="Standard.Package" uid="00313260-0bc8-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[jdwp]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="JDWPMessages" mc="Standard.Class" uid="003747fe-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JdwpArrayID" mc="Standard.Class" uid="00374e84-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JdwpClassID" mc="Standard.Class" uid="00375578-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JdwpClassLoaderID" mc="Standard.Class" uid="00375c58-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JdwpClassObjectID" mc="Standard.Class" uid="003763b0-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JdwpCommandPacket" mc="Standard.Class" uid="00376b9e-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JdwpFieldID" mc="Standard.Class" uid="00377328-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JdwpFrameID" mc="Standard.Class" uid="00377b20-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JdwpID" mc="Standard.Class" uid="0037834a-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JdwpInterfaceID" mc="Standard.Class" uid="00378b9c-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JdwpMethodID" mc="Standard.Class" uid="003793ee-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JdwpObjectID" mc="Standard.Class" uid="00379cae-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JdwpPacket" mc="Standard.Class" uid="0037a564-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JdwpReferenceTypeID" mc="Standard.Class" uid="0037aed8-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JdwpReplyPacket" mc="Standard.Class" uid="0037b838-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JdwpString" mc="Standard.Class" uid="0037c18e-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JdwpStringID" mc="Standard.Class" uid="0037cb34-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JdwpThreadGroupID" mc="Standard.Class" uid="0037d516-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JdwpThreadID" mc="Standard.Class" uid="0037df02-0bc8-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

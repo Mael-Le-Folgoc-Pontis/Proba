@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="osgi" version="4">
+  <OBJECT>
+    <ID name="osgi" mc="Standard.Package" uid="00908b34-21a7-1fb1-8a9e-001e4fea2d8b"/>
+    <PID name="registry" mc="Standard.Package" uid="00822102-21a7-1fb1-8a9e-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[osgi]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Activator" mc="Standard.Class" uid="0093e3ba-21a7-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="EclipseBundleListener" mc="Standard.Class" uid="00916676-21a7-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="EquinoxRegistryStrategy" mc="Standard.Class" uid="00938460-21a7-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="EquinoxUtils" mc="Standard.Class" uid="0090a7e0-21a7-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ExtensionEventDispatcherJob" mc="Standard.Class" uid="009359fe-21a7-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="OSGIUtils" mc="Standard.Class" uid="0091faf0-21a7-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="RegistryCommandProvider" mc="Standard.Class" uid="0092c75a-21a7-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="RegistryProviderOSGI" mc="Standard.Class" uid="009107bc-21a7-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="RegistryStrategyOSGI" mc="Standard.Class" uid="009260a8-21a7-1fb1-8a9e-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

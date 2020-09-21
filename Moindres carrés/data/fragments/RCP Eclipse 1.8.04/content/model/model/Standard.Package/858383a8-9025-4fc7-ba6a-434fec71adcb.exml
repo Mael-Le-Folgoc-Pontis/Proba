@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="synchronizer" version="4">
+  <OBJECT>
+    <ID name="synchronizer" mc="Standard.Package" uid="858383a8-9025-4fc7-ba6a-434fec71adcb"/>
+    <PID name="ui" mc="Standard.Package" uid="286ee4ec-8847-49bc-9700-b5f17f245214"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[synchronizer]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="SynchronizerAction" mc="Standard.Class" uid="67ec772a-64f5-406a-84f5-6aab471a1ae3"/>
+        <COMPID name="SynchronizerDialog" mc="Standard.Class" uid="6266521b-25b2-4a17-9963-de4d69cac96c"/>
+        <COMPID name="SynchronizerLoginComposite" mc="Standard.Class" uid="94d1aa49-f1dd-4c6f-b0c6-96dccc62ae24"/>
+        <COMPID name="SynchronizerLoginDialog" mc="Standard.Class" uid="85fb4281-d15a-4f89-b652-4e22a69a7edc"/>
+        <COMPID name="SynchronizerManager" mc="Standard.Class" uid="130661f8-6fa7-47d2-93ac-e3681e0e594b"/>
+        <COMPID name="SynchronizerPreferencePage" mc="Standard.Class" uid="d5aff1ac-b13d-40ad-b01a-210b69917381"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

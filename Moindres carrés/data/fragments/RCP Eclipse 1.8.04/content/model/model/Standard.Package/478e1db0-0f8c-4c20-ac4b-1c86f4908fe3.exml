@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="preferences" version="4">
+  <OBJECT>
+    <ID name="preferences" mc="Standard.Package" uid="478e1db0-0f8c-4c20-ac4b-1c86f4908fe3"/>
+    <PID name="internal" mc="Standard.Package" uid="1ad693c0-6f4f-4036-b8b3-856fc090e359"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[preferences]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AddConfigEntryDialog" mc="Standard.Class" uid="fb4789eb-b00d-4f24-bb63-19775251bdac"/>
+        <COMPID name="CommittingPreferencePage" mc="Standard.Class" uid="ff80d396-192e-4d2d-95e9-c8635298e7c8"/>
+        <COMPID name="ConfigurationEditorComponent" mc="Standard.Class" uid="eadd4feb-2968-4b6e-b089-fd1f5c9233ab"/>
+        <COMPID name="DialogsPreferencePage" mc="Standard.Class" uid="cd779879-7a59-407d-88c8-b5c27bd802de"/>
+        <COMPID name="GitDecoratorPreferencePage" mc="Standard.Class" uid="4d130a18-fea5-4135-b048-806e1bd60f66"/>
+        <COMPID name="GitPreferenceRoot" mc="Standard.Class" uid="195a97e7-fb86-4328-ac78-ff248e74f478"/>
+        <COMPID name="GitProjectPropertyPage" mc="Standard.Class" uid="f3e4074e-9a4d-47eb-85e8-1ba0f52c1051"/>
+        <COMPID name="GlobalConfigurationPreferencePage" mc="Standard.Class" uid="7d815fac-ac95-4182-8e60-18b7fcf0babe"/>
+        <COMPID name="HistoryPreferencePage" mc="Standard.Class" uid="d9218dd4-bfcd-4845-81a1-f517010b31ee"/>
+        <COMPID name="ProjectsPreferencePage" mc="Standard.Class" uid="ce000eac-6858-496f-9191-1d09803901f3"/>
+        <COMPID name="SynchronizePreferencePage" mc="Standard.Class" uid="db134d5a-b7dd-4ddd-a7cc-2de0f4455c61"/>
+        <COMPID name="WindowCachePreferencePage" mc="Standard.Class" uid="40f460b0-2a72-4ffa-8757-b9b6da73dbc7"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

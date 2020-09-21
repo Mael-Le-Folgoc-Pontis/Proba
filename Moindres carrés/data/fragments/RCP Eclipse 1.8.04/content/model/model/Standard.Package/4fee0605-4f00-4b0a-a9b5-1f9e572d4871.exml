@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="registration" version="4">
+  <OBJECT>
+    <ID name="registration" mc="Standard.Package" uid="4fee0605-4f00-4b0a-a9b5-1f9e572d4871"/>
+    <PID name="internal" mc="Standard.Package" uid="003717fc-0bc4-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[registration]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="EndpointRegistration" mc="Standard.Class" uid="8a360823-a46e-47c9-97c4-2a6a537b6899"/>
+        <COMPID name="FilterRegistration" mc="Standard.Class" uid="e36cd936-19f0-49ef-b37f-dfadfe398d2e"/>
+        <COMPID name="ListenerRegistration" mc="Standard.Class" uid="86f49875-27fb-4a45-a676-932718e5d522"/>
+        <COMPID name="MatchableRegistration" mc="Standard.Class" uid="f6495fbc-5a98-4cc3-bc2e-4c715ed200dd"/>
+        <COMPID name="Registration" mc="Standard.Class" uid="8daa1f2c-8d93-4c3d-8e87-407a56989d96"/>
+        <COMPID name="ResourceRegistration" mc="Standard.Class" uid="7551466f-9bc3-4bff-a85d-712bdc68cdc3"/>
+        <COMPID name="ServletRegistration" mc="Standard.Class" uid="7aaf2ce7-8805-4e7f-8673-ef0405851ac5"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

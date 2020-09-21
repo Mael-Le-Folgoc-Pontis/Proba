@@ -1,0 +1,55 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="builders" version="4">
+  <OBJECT>
+    <ID name="builders" mc="Standard.Package" uid="006a9cbc-0bd0-112e-9071-001e4fea2d8b"/>
+    <PID name="core" mc="Standard.Package" uid="0064dc0a-0bd0-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[builders]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="BuildErrorReporter" mc="Standard.Class" uid="006aa306-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BundleErrorReporter" mc="Standard.Class" uid="006ab594-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CompilerFlags" mc="Standard.Class" uid="006abc42-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DefaultSAXParser" mc="Standard.Class" uid="006ac2a0-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DependencyLoop" mc="Standard.Class" uid="006ac98a-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DependencyLoopFinder" mc="Standard.Class" uid="006ad09c-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ElementOccurenceChecker" mc="Standard.Class" uid="006ad79a-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ElementOccurrenceResult" mc="Standard.Class" uid="006adf06-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ErrorReporter" mc="Standard.Class" uid="006ae6a4-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ExtensionPointSchemaBuilder" mc="Standard.Class" uid="006aee4c-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ExtensionsErrorReporter" mc="Standard.Class" uid="006afcac-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FeatureConsistencyChecker" mc="Standard.Class" uid="006b04ae-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FeatureErrorReporter" mc="Standard.Class" uid="006b12fa-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FeatureRebuilder" mc="Standard.Class" uid="006b1b60-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FragmentErrorReporter" mc="Standard.Class" uid="006b2434-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IHeader" mc="Standard.Interface" uid="006b2a38-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JarManifestErrorReporter" mc="Standard.Class" uid="006b337a-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JarManifestHeader" mc="Standard.Class" uid="006b3cda-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ManifestConsistencyChecker" mc="Standard.Class" uid="006b464e-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ManifestErrorReporter" mc="Standard.Class" uid="006b621e-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PDEBuilderHelper" mc="Standard.Class" uid="006b6c00-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PDEMarkerFactory" mc="Standard.Class" uid="006b7614-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PluginBaseErrorReporter" mc="Standard.Class" uid="006b800a-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PluginErrorReporter" mc="Standard.Class" uid="006b8a6e-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PluginRebuilder" mc="Standard.Class" uid="006b950e-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PomErrorReporter" mc="Standard.Class" uid="c1b6f49d-57c9-4c18-8652-4cd387dbd53f"/>
+        <COMPID name="SchemaErrorReporter" mc="Standard.Class" uid="006b9fa4-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SchemaTransformer" mc="Standard.Class" uid="006bb07a-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SourceEntryErrorReporter" mc="Standard.Class" uid="006bbb7e-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="UpdateSiteBuilder" mc="Standard.Class" uid="006be680-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="UpdateSiteErrorReporter" mc="Standard.Class" uid="006bf864-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="XMLErrorReporter" mc="Standard.Class" uid="006c03fe-0bd0-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

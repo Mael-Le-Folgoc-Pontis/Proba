@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="actions" version="4">
+  <OBJECT>
+    <ID name="actions" mc="Standard.Package" uid="cd05427c-353d-46c0-a7c1-72781bc68ee5"/>
+    <PID name="ui" mc="Standard.Package" uid="47ef170e-a127-41c9-8398-4eea589d1940"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[actions]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractInterestManipulationAction" mc="Standard.Class" uid="43a7c7bd-d289-4abd-ab41-2c4590e5aa47"/>
+        <COMPID name="ContextActiveActionFilter" mc="Standard.Class" uid="9fe21ce5-b9b3-40e5-83a2-77cc8f1435c3"/>
+        <COMPID name="FocusOutlineAction" mc="Standard.Class" uid="778418df-27e4-4d1f-9d3e-c84c7c1db6a2"/>
+        <COMPID name="InterestDecrementAction" mc="Standard.Class" uid="06106694-8252-4f1b-b0ec-0f68e372059b"/>
+        <COMPID name="InterestIncrementAction" mc="Standard.Class" uid="f9bc5894-c7be-4913-847c-2b5eb6d0eb6a"/>
+        <COMPID name="MarkAsLandmarkCommandHandler" mc="Standard.Class" uid="ac8388e0-dff1-468d-8328-b4379ca6f66c"/>
+        <COMPID name="Messages" mc="Standard.Class" uid="9240dcea-0f0c-4bbf-9e6a-9a3fb1bcaab7"/>
+        <COMPID name="OpenQuickContextPopupDialogAction" mc="Standard.Class" uid="29a276f7-7703-4c68-8e8f-8ba57b9d5cec"/>
+        <COMPID name="RemoveFromContextCommandHandler" mc="Standard.Class" uid="91d79cd3-9806-4e02-babe-fe0b6be0cece"/>
+        <COMPID name="ToggleDecorateInterestLevelAction" mc="Standard.Class" uid="456a16d9-4e1c-4c1b-8e3e-d5632952e9c5"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="cpio" version="4">
+  <OBJECT>
+    <ID name="cpio" mc="Standard.Package" uid="26651513-59fd-4c6c-bf6d-c8c614313046"/>
+    <PID name="archivers" mc="Standard.Package" uid="4532fdb7-0b49-4b6f-a887-708552929eb5"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[cpio]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="CpioArchiveEntry" mc="Standard.Class" uid="03083e62-1ece-4ad4-b2c3-9af9497e0222"/>
+        <COMPID name="CpioArchiveInputStream" mc="Standard.Class" uid="2011a279-4553-4e92-9f25-7656a1d456da"/>
+        <COMPID name="CpioArchiveOutputStream" mc="Standard.Class" uid="b69dc0b8-ccf1-44bd-aebb-50a93e2d6276"/>
+        <COMPID name="CpioConstants" mc="Standard.Interface" uid="5174df09-5c88-4bfa-b13d-86ae552235fd"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

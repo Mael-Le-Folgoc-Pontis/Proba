@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="mapping" version="4">
+  <OBJECT>
+    <ID name="mapping" mc="Standard.Package" uid="007451f8-0bd3-112e-9071-001e4fea2d8b"/>
+    <PID name="core" mc="Standard.Package" uid="006d678a-0bd3-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[mapping]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ChangeTracker" mc="Standard.Class" uid="007457d4-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DelegatingStorageMerger" mc="Standard.Class" uid="00746418-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IChangeGroupingRequestor" mc="Standard.Interface" uid="00746a30-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IMergeContext" mc="Standard.Interface" uid="00747106-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IMergeStatus" mc="Standard.Interface" uid="0074780e-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IResourceDiff" mc="Standard.Interface" uid="00747ee4-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IResourceDiffTree" mc="Standard.Interface" uid="00748628-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IResourceMappingMerger" mc="Standard.Interface" uid="00748dd0-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IStorageMerger" mc="Standard.Interface" uid="00749532-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ISynchronizationContext" mc="Standard.Interface" uid="00749cf8-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ISynchronizationScope" mc="Standard.Interface" uid="0074a50e-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ISynchronizationScopeChangeListener" mc="Standard.Interface" uid="0074ad06-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ISynchronizationScopeManager" mc="Standard.Interface" uid="0074b558-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ISynchronizationScopeParticipant" mc="Standard.Interface" uid="0074bde6-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ISynchronizationScopeParticipantFactory" mc="Standard.Interface" uid="0074c69c-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ResourceMappingMerger" mc="Standard.Class" uid="0074cd2c-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="provider" mc="Standard.Package" uid="0075b3d6-0bd3-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

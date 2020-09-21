@@ -1,0 +1,54 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ui" version="4">
+  <OBJECT>
+    <ID name="ui" mc="Standard.Package" uid="0085ef26-0bcb-112e-9071-001e4fea2d8b"/>
+    <PID name="jdt" mc="Standard.Package" uid="003b0678-0bc8-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[ui]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="CodeGeneration" mc="Standard.Class" uid="0085f552-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CodeStyleConfiguration" mc="Standard.Class" uid="0085fb9c-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IContextMenuConstants" mc="Standard.Interface" uid="0086018c-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IJavaElementSearchConstants" mc="Standard.Interface" uid="00860812-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IPackagesViewPart" mc="Standard.Interface" uid="00860ef2-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ISharedImages" mc="Standard.Interface" uid="00861604-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ITypeHierarchyViewPart" mc="Standard.Interface" uid="00861d0c-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IWorkingCopyManager" mc="Standard.Interface" uid="00862482-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IWorkingCopyManagerExtension" mc="Standard.Interface" uid="00862c48-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IWorkingCopyProvider" mc="Standard.Interface" uid="008633e6-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaElementComparator" mc="Standard.Class" uid="00863ab2-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaElementContentProvider" mc="Standard.Class" uid="00864156-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaElementImageDescriptor" mc="Standard.Class" uid="008647e6-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaElementLabelProvider" mc="Standard.Class" uid="00864ee4-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaElementLabels" mc="Standard.Class" uid="00865614-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaElementSorter" mc="Standard.Class" uid="00865d3a-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaUI" mc="Standard.Class" uid="008664ce-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavadocContentAccess" mc="Standard.Class" uid="00866c9e-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="OverrideIndicatorLabelDecorator" mc="Standard.Class" uid="0086746e-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PreferenceConstants" mc="Standard.Class" uid="00867ca2-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ProblemsLabelDecorator" mc="Standard.Class" uid="00868508-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SharedASTProvider" mc="Standard.Class" uid="00869bf6-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="StandardJavaElementContentProvider" mc="Standard.Class" uid="0086b2a8-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="actions" mc="Standard.Package" uid="008781a6-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="cleanup" mc="Standard.Package" uid="00911e46-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="dialogs" mc="Standard.Package" uid="00922ab6-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="jarpackager" mc="Standard.Package" uid="00933410-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="refactoring" mc="Standard.Package" uid="0094651a-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="search" mc="Standard.Package" uid="00956da2-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="text" mc="Standard.Package" uid="00969182-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="wizards" mc="Standard.Package" uid="0004b7c6-0bcc-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="spi" version="4">
+  <OBJECT>
+    <ID name="spi" mc="Standard.Package" uid="fa3e6b6c-8418-45b3-8db6-1c877962785e"/>
+    <PID name="context" mc="Standard.Package" uid="cba0cf7f-e44c-4f03-b788-26fcba6c7916"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[spi]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Context" mc="Standard.Interface" uid="c703e773-b30a-4863-a906-dce10f181f0a"/>
+        <COMPID name="Contextual" mc="Standard.Interface" uid="8e2c91a2-9a19-4549-8b46-408a043f3614"/>
+        <COMPID name="CreationalContext" mc="Standard.Interface" uid="a46c380d-eaa5-4ee4-9f10-412ce5a7d8af"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

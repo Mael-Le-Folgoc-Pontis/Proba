@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="pool" version="4">
+  <OBJECT>
+    <ID name="pool" mc="Standard.Package" uid="b4d8fe1b-6746-4ab7-872d-c3836cdf9a3b"/>
+    <PID name="http" mc="Standard.Package" uid="69579971-0298-4981-9fc7-48c3562d4504"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[pool]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractConnPool" mc="Standard.Class" uid="ca2fd15d-0e33-4cc7-a9f4-8bfbbdc22a07"/>
+        <COMPID name="ConnFactory" mc="Standard.Interface" uid="3466f825-eb9b-47bb-a7f7-bed26c18719b"/>
+        <COMPID name="ConnPool" mc="Standard.Interface" uid="14c69524-ba85-4713-b9c7-286e85a34693"/>
+        <COMPID name="ConnPoolControl" mc="Standard.Interface" uid="e612575a-8759-4fc3-98b7-200cfcc5973f"/>
+        <COMPID name="PoolEntry" mc="Standard.Class" uid="647bafcb-5982-4d39-927f-d7adefe4cd5d"/>
+        <COMPID name="PoolEntryCallback" mc="Standard.Interface" uid="f3c8a3bc-3562-4d72-a28e-11a025080816"/>
+        <COMPID name="PoolStats" mc="Standard.Class" uid="b1e2ea5c-bb58-412b-99ba-63ab2e77ac3f"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

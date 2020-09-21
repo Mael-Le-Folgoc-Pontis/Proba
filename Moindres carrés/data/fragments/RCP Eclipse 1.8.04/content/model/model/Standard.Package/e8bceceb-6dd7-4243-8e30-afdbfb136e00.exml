@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="core" version="4">
+  <OBJECT>
+    <ID name="core" mc="Standard.Package" uid="e8bceceb-6dd7-4243-8e30-afdbfb136e00"/>
+    <PID name="http" mc="Standard.Package" uid="29e50ec1-e4ff-4c55-9de3-826ada4c3d3c"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[core]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="IdleConnectionMonitorThread" mc="Standard.Class" uid="aad00132-308c-4d6f-8ae8-41e8a0d52181"/>
+        <COMPID name="PollingProtocolSocketFactory" mc="Standard.Class" uid="df1f46a6-78cd-4b13-a9b8-94db3bdd18c2"/>
+        <COMPID name="PollingSslProtocolSocketFactory" mc="Standard.Class" uid="a3cbd8a9-6f69-498b-be0a-144561677a92"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

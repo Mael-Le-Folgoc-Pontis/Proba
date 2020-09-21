@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="errors" version="4">
+  <OBJECT>
+    <ID name="errors" mc="Standard.Package" uid="54c12688-e6fb-422b-ab7e-0c02a143695b"/>
+    <PID name="actions" mc="Standard.Package" uid="d631bf07-aeca-4d5a-81d2-03a7f37aa754"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[errors]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="BadNodesErrorPage" mc="Standard.Class" uid="d1f2c1ef-c08c-4fe1-9820-aa0c9248e6fe"/>
+        <COMPID name="BadNodesParserErrorPage" mc="Standard.Class" uid="ab8e2724-ca1a-4dfc-ba69-913bb278d901"/>
+        <COMPID name="BadNodesRefreshErrorPage" mc="Standard.Class" uid="26c89777-7f3e-4c79-9346-c2d524a04453"/>
+        <COMPID name="ErrorsAction" mc="Standard.Class" uid="3aef88bd-d3bf-4dd9-89e9-001333c850b5"/>
+        <COMPID name="ErrorsDialog" mc="Standard.Class" uid="62a1ee70-915f-4ece-9087-12ca51c6b93d"/>
+        <COMPID name="IErrorPage" mc="Standard.Interface" uid="86083c8d-7d73-44e8-83fc-6ca41daee844"/>
+        <COMPID name="WarningsErrorPage" mc="Standard.Class" uid="29e96b98-314b-4cc2-89dc-eec31157cef8"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

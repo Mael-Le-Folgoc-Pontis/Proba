@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="pb" version="4">
+  <OBJECT>
+    <ID name="pb" mc="Standard.Package" uid="005dcd70-d4f0-111c-bc9b-001e4fea2d8b"/>
+    <PID name="sat4j" mc="Standard.Package" uid="001eadc0-d4f0-111c-bc9b-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[pb]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ConstraintRelaxingPseudoOptDecorator" mc="Standard.Class" uid="3cbf4937-1df8-45cb-93c1-e67828122db9"/>
+        <COMPID name="IPBSolver" mc="Standard.Interface" uid="006ef424-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IPBSolverService" mc="Standard.Interface" uid="23c53c46-7ff2-484c-8684-912ab0f369ce"/>
+        <COMPID name="LPStringSolver" mc="Standard.Class" uid="65ae8110-63de-4ea1-9ebc-880c4c7cc23c"/>
+        <COMPID name="LanceurPseudo2005" mc="Standard.Class" uid="006efb7c-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LanceurPseudo2007" mc="Standard.Class" uid="006f01d0-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LanceurPseudo2007Eclipse" mc="Standard.Class" uid="006f081a-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="OPBStringSolver" mc="Standard.Class" uid="006f0ebe-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ObjectiveFunction" mc="Standard.Class" uid="006f1594-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="OptToPBSATAdapter" mc="Standard.Class" uid="006f1ca6-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PBSolverDecorator" mc="Standard.Class" uid="006f23e0-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PseudoBitsAdderDecorator" mc="Standard.Class" uid="006f2b4c-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PseudoIteratorDecorator" mc="Standard.Class" uid="006f32ae-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PseudoOptDecorator" mc="Standard.Class" uid="006f3a88-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SolverFactory" mc="Standard.Class" uid="006f428a-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="UserFriendlyPBStringSolver" mc="Standard.Class" uid="006f4a96-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="constraints" mc="Standard.Package" uid="006fb88c-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="core" mc="Standard.Package" uid="007212ee-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="orders" mc="Standard.Package" uid="0072d080-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="reader" mc="Standard.Package" uid="00735686-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="tools" mc="Standard.Package" uid="005dde64-d4f0-111c-bc9b-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

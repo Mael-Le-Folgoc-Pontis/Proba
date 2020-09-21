@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="parser" version="4">
+  <OBJECT>
+    <ID name="parser" mc="Standard.Package" uid="4290afbf-f62d-4b24-9ff7-9cab789e98c0"/>
+    <PID name="runtime" mc="Standard.Package" uid="b49e96ae-43ea-4b59-bab5-7fead6df26ae"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[parser]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="CharStream" mc="Standard.Interface" uid="2252eb38-7d42-4500-b378-d8b3f3333ea3"/>
+        <COMPID name="ParseException" mc="Standard.Class" uid="c2ccd938-0929-4ee9-b0bd-bbb8c32165b3"/>
+        <COMPID name="Parser" mc="Standard.Class" uid="9db43aed-c18e-4e01-90de-9e07fcfd889d"/>
+        <COMPID name="ParserConstants" mc="Standard.Interface" uid="8cce2e83-5c96-43de-8e50-3da82c037ba0"/>
+        <COMPID name="ParserTokenManager" mc="Standard.Class" uid="48613289-d0c3-4d7f-99a0-a26f863f2fd0"/>
+        <COMPID name="ParserTreeConstants" mc="Standard.Interface" uid="16ad44d6-9554-49f9-93a7-d468c52a1cb7"/>
+        <COMPID name="ParserVisitor" mc="Standard.Interface" uid="7ebaf615-8ff3-4340-a22f-835fddc10a35"/>
+        <COMPID name="TemplateParseException" mc="Standard.Class" uid="bd3a356b-c81c-47a4-8b10-5c3130ee5369"/>
+        <COMPID name="Token" mc="Standard.Class" uid="7ed37084-7d5f-49ae-a74c-34f9456f72af"/>
+        <COMPID name="TokenMgrError" mc="Standard.Class" uid="621404f7-1b42-43dd-86a8-378ac33e27d6"/>
+        <COMPID name="VelocityCharStream" mc="Standard.Class" uid="7a89c4c2-e24d-4474-83f1-f6e93f686228"/>
+        <COMPID name="node" mc="Standard.Package" uid="f9c90b5f-6097-4796-bf93-30422712a8d9"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

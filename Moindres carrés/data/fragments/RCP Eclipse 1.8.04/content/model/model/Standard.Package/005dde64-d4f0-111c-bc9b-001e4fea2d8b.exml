@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="tools" version="4">
+  <OBJECT>
+    <ID name="tools" mc="Standard.Package" uid="005dde64-d4f0-111c-bc9b-001e4fea2d8b"/>
+    <PID name="pb" mc="Standard.Package" uid="005dcd70-d4f0-111c-bc9b-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[tools]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractLexicoHelper" mc="Standard.Class" uid="a80d8451-2d6a-45b8-a434-a9db976d5cfd"/>
+        <COMPID name="ClausalConstraintsDecorator" mc="Standard.Class" uid="bad96ec3-ac5e-4914-8f03-f242a53fd540"/>
+        <COMPID name="ConflictTracing" mc="Standard.Class" uid="0074093c-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DependencyHelper" mc="Standard.Class" uid="005deb48-d4f0-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="DisjunctionRHS" mc="Standard.Class" uid="0074cae8-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="INegator" mc="Standard.Interface" uid="0074d146-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ImplicationAnd" mc="Standard.Class" uid="0074d934-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ImplicationNamer" mc="Standard.Class" uid="0074e046-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ImplicationRHS" mc="Standard.Class" uid="0074e780-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LexicoDecoratorPB" mc="Standard.Class" uid="0074eeba-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LexicoHelper" mc="Standard.Class" uid="0074f658-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ManyCorePB" mc="Standard.Class" uid="0074fe32-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PBAdapter" mc="Standard.Class" uid="ddc26bf4-85aa-4f32-a16e-a04e9ad9f22a"/>
+        <COMPID name="SearchOptimizerListener" mc="Standard.Class" uid="4919c9d1-adcf-4ab5-ab76-29e1ca1681de"/>
+        <COMPID name="SteppedTimeoutLexicoDecoratorPB" mc="Standard.Class" uid="60b07d89-c772-4a98-abea-be4a1dd31de8"/>
+        <COMPID name="SteppedTimeoutLexicoHelper" mc="Standard.Class" uid="ef563898-1756-49d1-90a2-78d33ff49188"/>
+        <COMPID name="StringNegator" mc="Standard.Class" uid="00750602-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WeightedObject" mc="Standard.Class" uid="00005186-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="XplainPB" mc="Standard.Class" uid="00756552-0bdb-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

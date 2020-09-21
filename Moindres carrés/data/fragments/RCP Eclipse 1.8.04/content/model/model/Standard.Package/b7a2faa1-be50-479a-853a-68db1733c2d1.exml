@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="apidocs" version="4">
+  <OBJECT>
+    <ID name="apidocs" mc="Standard.Package" uid="b7a2faa1-be50-479a-853a-68db1733c2d1"/>
+    <PID name="recommenders" mc="Standard.Package" uid="a358c5e1-e2a3-468b-a21c-b2bca96b0f24"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[apidocs]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ClassOverrideDirectives" mc="Standard.Class" uid="959aab3b-0e76-4f18-aefe-1b0c6fb4ef30"/>
+        <COMPID name="ClassOverridePatterns" mc="Standard.Class" uid="67a43ec2-2a3b-4015-81a6-f141bab1ae76"/>
+        <COMPID name="ClassSelfCallsModelProvider" mc="Standard.Class" uid="a557ed42-1774-4f65-bdb6-c8889bd1e152"/>
+        <COMPID name="ClassSelfcallDirectives" mc="Standard.Class" uid="f2400612-8d3b-4015-8d9c-dfe0ba10eff1"/>
+        <COMPID name="MethodPattern" mc="Standard.Class" uid="52858ee4-c32b-4118-9b24-826765d38742"/>
+        <COMPID name="MethodSelfCallsDirectivesModelProvider" mc="Standard.Class" uid="51d904db-1d96-410c-97e4-182bd8affb7e"/>
+        <COMPID name="MethodSelfcallDirectives" mc="Standard.Class" uid="ab02ca3f-3b71-41f5-b6b8-39ab68da6ac3"/>
+        <COMPID name="OverrideDirectivesModelProvider" mc="Standard.Class" uid="da202996-e176-4fec-b715-5144cd93bd0c"/>
+        <COMPID name="OverridePatternsModelProvider" mc="Standard.Class" uid="19e0e14b-8750-460d-b93f-f4181848752b"/>
+        <COMPID name="SingleZipMethodSelfCallsModelProvider" mc="Standard.Class" uid="913d2e1b-c1e8-47b0-ac30-883811ee5419"/>
+        <COMPID name="SingleZipOverridePatternsModelProvider" mc="Standard.Class" uid="7b795d11-4d50-4698-be1a-491a212660f6"/>
+        <COMPID name="rcp" mc="Standard.Package" uid="4bf306e9-3f15-4b8f-a633-e343c4a7df7a"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

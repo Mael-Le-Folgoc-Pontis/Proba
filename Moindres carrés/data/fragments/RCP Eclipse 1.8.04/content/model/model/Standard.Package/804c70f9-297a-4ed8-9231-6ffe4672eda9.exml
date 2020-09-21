@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="util" version="4">
+  <OBJECT>
+    <ID name="util" mc="Standard.Package" uid="804c70f9-297a-4ed8-9231-6ffe4672eda9"/>
+    <PID name="emf" mc="Standard.Package" uid="35e1561d-30f3-46e9-b458-23319ee00cf9"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[util]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="DTDAdapterFactory" mc="Standard.Class" uid="dbb67b4b-4803-4927-ac0d-26ee30c29c3a"/>
+        <COMPID name="DTDMetrics" mc="Standard.Class" uid="72d20b07-1104-4eb9-afa9-a3a947aab411"/>
+        <COMPID name="DTDModelBuilder" mc="Standard.Class" uid="7ce57940-a366-4c31-a009-e2e93391cd7b"/>
+        <COMPID name="DTDObjectFinder" mc="Standard.Class" uid="a5429cee-0b44-403d-96ed-571533c576a9"/>
+        <COMPID name="DTDPathnameUtil" mc="Standard.Class" uid="f4f47144-2277-4061-8f4e-ab786d353256"/>
+        <COMPID name="DTDPrinter" mc="Standard.Class" uid="b8af2683-7259-48af-84f9-c9b72837f240"/>
+        <COMPID name="DTDResourceFactoryImpl" mc="Standard.Class" uid="9f5c0fac-def9-4837-8ec0-c0e5ec5d4ba2"/>
+        <COMPID name="DTDResourceImpl" mc="Standard.Class" uid="5ee1dcc6-d350-4563-8c94-5fa11eacf4b4"/>
+        <COMPID name="DTDSwitch" mc="Standard.Class" uid="d28502c3-e9ed-43b5-b466-c37d47751761"/>
+        <COMPID name="DTDUniqueNameHelper" mc="Standard.Class" uid="811e1259-8db8-45dd-86d1-4bd440b6c8f0"/>
+        <COMPID name="DTDUtil" mc="Standard.Class" uid="96886a9a-1f6c-4562-8af2-26506a181b39"/>
+        <COMPID name="DTDVisitor" mc="Standard.Class" uid="c8b5e276-7301-4e85-a3c2-a12f55d2108a"/>
+        <COMPID name="ExternalDTDModel" mc="Standard.Class" uid="370cd807-ca9a-4538-8ebf-0575a2dc9fdd"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

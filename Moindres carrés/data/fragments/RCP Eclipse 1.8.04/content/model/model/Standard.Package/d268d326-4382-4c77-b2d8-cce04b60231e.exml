@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="joran" version="4">
+  <OBJECT>
+    <ID name="joran" mc="Standard.Package" uid="d268d326-4382-4c77-b2d8-cce04b60231e"/>
+    <PID name="core" mc="Standard.Package" uid="0101cad1-4db3-4b5d-b30b-1e1efbf9bd6c"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[joran]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="GenericConfigurator" mc="Standard.Class" uid="6e2e525b-3a43-427b-885d-32e91356a784"/>
+        <COMPID name="JoranConfiguratorBase" mc="Standard.Class" uid="0af4f7ad-e863-41d1-b6f1-412037462419"/>
+        <COMPID name="action" mc="Standard.Package" uid="a0ff36e6-2102-4028-bdb8-c8cee2f1200d"/>
+        <COMPID name="conditional" mc="Standard.Package" uid="15792f17-4ef0-4c35-9c50-1753b87d49d2"/>
+        <COMPID name="event" mc="Standard.Package" uid="7527febf-f4c9-4e1d-a24c-8912382a502b"/>
+        <COMPID name="spi" mc="Standard.Package" uid="26df0da0-52dd-4f2d-a356-ba9a41c2f9e8"/>
+        <COMPID name="util" mc="Standard.Package" uid="e0ec1b08-3f6b-43de-93c4-205235e37b65"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

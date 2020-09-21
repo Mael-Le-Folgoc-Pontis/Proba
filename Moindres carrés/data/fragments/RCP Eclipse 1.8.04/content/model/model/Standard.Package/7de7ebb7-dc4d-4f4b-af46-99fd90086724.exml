@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="wagon" version="4">
+  <OBJECT>
+    <ID name="wagon" mc="Standard.Package" uid="7de7ebb7-dc4d-4f4b-af46-99fd90086724"/>
+    <PID name="aether" mc="Standard.Package" uid="16c0f0b4-6b15-409d-bd18-e55d9ef28261"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[wagon]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="OkHttpWagon" mc="Standard.Class" uid="4b29f49f-fe1f-4335-8ef4-2bba1f68d454"/>
+        <COMPID name="OkHttpsWagon" mc="Standard.Class" uid="d6548889-a369-4cad-9883-fa66aaaf8589"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

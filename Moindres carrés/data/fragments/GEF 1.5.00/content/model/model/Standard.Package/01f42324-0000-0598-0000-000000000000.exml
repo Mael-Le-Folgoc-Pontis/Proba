@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="editparts" version="4">
+  <OBJECT>
+    <ID name="editparts" mc="Standard.Package" uid="01f42324-0000-0598-0000-000000000000"/>
+    <PID name="palette" mc="Standard.Package" uid="01f42324-0000-0597-0000-000000000000"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[editparts]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="SeparatorEditPart" mc="Standard.Class" uid="01f42324-0000-0599-0000-000000000000"/>
+        <COMPID name="ToolbarEditPart" mc="Standard.Class" uid="01f42324-0000-059a-0000-000000000000"/>
+        <COMPID name="PinnablePaletteStackEditPart" mc="Standard.Class" uid="01f42324-0000-059b-0000-000000000000"/>
+        <COMPID name="ColumnsLayout" mc="Standard.Class" uid="01f42324-0000-059c-0000-000000000000"/>
+        <COMPID name="GroupEditPart" mc="Standard.Class" uid="01f42324-0000-059d-0000-000000000000"/>
+        <COMPID name="PaletteStackEditPart" mc="Standard.Class" uid="01f42324-0000-059e-0000-000000000000"/>
+        <COMPID name="PaletteContainerFlowLayout" mc="Standard.Class" uid="01f42324-0000-059f-0000-000000000000"/>
+        <COMPID name="PaletteScrollBar" mc="Standard.Class" uid="01f42324-0000-05a3-0000-000000000000"/>
+        <COMPID name="TemplateEditPart" mc="Standard.Class" uid="01f42324-0000-05a4-0000-000000000000"/>
+        <COMPID name="OverlayScrollPaneLayout" mc="Standard.Class" uid="01f42324-0000-05a5-0000-000000000000"/>
+        <COMPID name="ToolEntryEditPart" mc="Standard.Class" uid="01f42324-0000-05a6-0000-000000000000"/>
+        <COMPID name="PinnablePaletteStackFigure" mc="Standard.Class" uid="01f42324-0000-05a7-0000-000000000000"/>
+        <COMPID name="RaisedBorder" mc="Standard.Class" uid="01f42324-0000-05a8-0000-000000000000"/>
+        <COMPID name="DrawerFigure" mc="Standard.Class" uid="01f42324-0000-05a9-0000-000000000000"/>
+        <COMPID name="PinFigure" mc="Standard.Class" uid="01f42324-0000-05aa-0000-000000000000"/>
+        <COMPID name="DrawerEditPart" mc="Standard.Class" uid="01f42324-0000-05ad-0000-000000000000"/>
+        <COMPID name="SliderPaletteEditPart" mc="Standard.Class" uid="01f42324-0000-05ae-0000-000000000000"/>
+        <COMPID name="DetailedLabelFigure" mc="Standard.Class" uid="01f42324-0000-05af-0000-000000000000"/>
+        <COMPID name="IPaletteStackEditPart" mc="Standard.Interface" uid="3d11b2c5-8b12-11de-aace-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

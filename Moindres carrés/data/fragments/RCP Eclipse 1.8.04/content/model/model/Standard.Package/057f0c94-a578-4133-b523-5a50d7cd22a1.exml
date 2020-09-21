@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="annotations" version="4">
+  <OBJECT>
+    <ID name="annotations" mc="Standard.Package" uid="057f0c94-a578-4133-b523-5a50d7cd22a1"/>
+    <PID name="common" mc="Standard.Package" uid="099f3ed6-50bc-436f-b3eb-172b276c6268"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[annotations]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Beta" mc="Standard.Class" uid="dd52a1b1-3f14-47c1-a37f-956ca7ad9e32"/>
+        <COMPID name="GwtCompatible" mc="Standard.Class" uid="13e977eb-d05a-45c7-8c24-57fa6783da6e"/>
+        <COMPID name="GwtIncompatible" mc="Standard.Class" uid="334ccce5-1ab3-4bde-87cd-92020aa2f0d4"/>
+        <COMPID name="VisibleForTesting" mc="Standard.Class" uid="bc3439bf-15a9-490e-afe5-f7d606164225"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

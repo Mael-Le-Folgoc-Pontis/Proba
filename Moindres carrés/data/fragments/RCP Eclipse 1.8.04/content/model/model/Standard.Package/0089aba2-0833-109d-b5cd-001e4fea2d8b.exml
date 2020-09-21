@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="formatter" version="4">
+  <OBJECT>
+    <ID name="formatter" mc="Standard.Package" uid="0089aba2-0833-109d-b5cd-001e4fea2d8b"/>
+    <PID name="text" mc="Standard.Package" uid="007fca06-0833-109d-b5cd-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[formatter]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ContentFormatter" mc="Standard.Class" uid="0089b21e-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="ContextBasedFormattingStrategy" mc="Standard.Class" uid="0089df64-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="FormattingContext" mc="Standard.Class" uid="0089e6e4-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="FormattingContextProperties" mc="Standard.Class" uid="0089eea0-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="IContentFormatter" mc="Standard.Interface" uid="0089f56c-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="IContentFormatterExtension" mc="Standard.Interface" uid="0089fcce-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="IFormattingContext" mc="Standard.Interface" uid="008a046c-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="IFormattingStrategy" mc="Standard.Interface" uid="008a0c32-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="IFormattingStrategyExtension" mc="Standard.Interface" uid="008a1420-0833-109d-b5cd-001e4fea2d8b"/>
+        <COMPID name="MultiPassContentFormatter" mc="Standard.Class" uid="008a1c22-0833-109d-b5cd-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

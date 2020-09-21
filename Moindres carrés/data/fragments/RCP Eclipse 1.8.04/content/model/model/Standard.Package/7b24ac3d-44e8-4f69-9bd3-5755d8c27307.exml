@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="text" version="4">
+  <OBJECT>
+    <ID name="text" mc="Standard.Package" uid="7b24ac3d-44e8-4f69-9bd3-5755d8c27307"/>
+    <PID name="internal" mc="Standard.Package" uid="8de19d9c-309f-4c7f-968c-e82cba2f8859"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[text]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="DocumentRegionEdgeMatcher" mc="Standard.Class" uid="2f17d34f-0ffc-4d24-8dd3-8c0496e57295"/>
+        <COMPID name="SourceInfoProvider" mc="Standard.Class" uid="8aa3e22d-532a-4e91-bd11-13f624d937a2"/>
+        <COMPID name="StructuredAutoEditStrategy" mc="Standard.Class" uid="4627e80c-4b4b-4fa5-b0e1-d549f7e192ce"/>
+        <COMPID name="WordFinder" mc="Standard.Class" uid="2e180bf5-3dbd-49fa-8f62-1a175f2db9a1"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="packageview" version="4">
+  <OBJECT>
+    <ID name="packageview" mc="Standard.Package" uid="0002693a-0bcb-112e-9071-001e4fea2d8b"/>
+    <PID name="ui" mc="Standard.Package" uid="006159f4-0bca-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[packageview]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ClassPathContainer" mc="Standard.Class" uid="00026fde-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DefaultElementComparer" mc="Standard.Class" uid="00028492-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FileTransferDragAdapter" mc="Standard.Class" uid="00028b5e-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FileTransferDropAdapter" mc="Standard.Class" uid="00029216-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="GotoResourceAction" mc="Standard.Class" uid="0002a72e-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HierarchicalDecorationContext" mc="Standard.Class" uid="0002c9ca-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IMultiElementTreeContentProvider" mc="Standard.Interface" uid="0002eb6c-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LibraryContainer" mc="Standard.Class" uid="000304f8-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PackageExplorerContentProvider" mc="Standard.Class" uid="000315d8-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PackageExplorerLabelProvider" mc="Standard.Class" uid="00031ec0-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PackageExplorerPart" mc="Standard.Class" uid="0003279e-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PackageExplorerProblemsDecorator" mc="Standard.Class" uid="000336ee-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PackageFragmentRootContainer" mc="Standard.Class" uid="00034026-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PackagesMessages" mc="Standard.Class" uid="00036182-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PluginTransferDropAdapter" mc="Standard.Class" uid="00036b50-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SelectionTransferDragAdapter" mc="Standard.Class" uid="0003758c-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SelectionTransferDropAdapter" mc="Standard.Class" uid="00038004-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ToggleLinkingAction" mc="Standard.Class" uid="000395d0-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WorkingSetAwareContentProvider" mc="Standard.Class" uid="0003a0de-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WorkingSetAwareJavaElementSorter" mc="Standard.Class" uid="0003abd8-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WorkingSetDropAdapter" mc="Standard.Class" uid="0003b772-0bcb-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

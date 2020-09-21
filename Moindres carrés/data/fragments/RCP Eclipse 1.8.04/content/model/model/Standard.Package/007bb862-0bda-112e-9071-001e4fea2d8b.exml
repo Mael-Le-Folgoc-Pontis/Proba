@@ -1,0 +1,97 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="internal" version="4">
+  <OBJECT>
+    <ID name="internal" mc="Standard.Package" uid="007bb862-0bda-112e-9071-001e4fea2d8b"/>
+    <PID name="markers" mc="Standard.Package" uid="00796724-0bda-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[internal]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractField" mc="Standard.Class" uid="007bbfd8-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ActionAddGlobalTask" mc="Standard.Class" uid="007bc636-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ActionCopyMarker" mc="Standard.Class" uid="007bcc8a-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ActionDeleteCompleted" mc="Standard.Class" uid="007bd324-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ActionMarkCompleted" mc="Standard.Class" uid="007bd9f0-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ActionMarkerProperties" mc="Standard.Class" uid="007be0bc-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ActionOpenMarker" mc="Standard.Class" uid="007be7f6-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ActionPasteMarker" mc="Standard.Class" uid="007bef8a-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ActionProblemProperties" mc="Standard.Class" uid="007bf700-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ActionRemoveMarker" mc="Standard.Class" uid="007bfee4-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ActionResolveMarker" mc="Standard.Class" uid="007c06fa-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ActionRevealMarker" mc="Standard.Class" uid="007c0f06-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ActionSelectAll" mc="Standard.Class" uid="007c1776-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ActionTaskProperties" mc="Standard.Class" uid="007c202c-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AttributeMarkerGrouping" mc="Standard.Class" uid="007c28ce-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BookmarkFilter" mc="Standard.Class" uid="007c31d4-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BookmarkMarker" mc="Standard.Class" uid="007c3bfc-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BookmarkView" mc="Standard.Class" uid="007c457a-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CategoryComparator" mc="Standard.Class" uid="007c4f3e-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ConcreteMarker" mc="Standard.Class" uid="007c5920-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ContentGeneratorDescriptor" mc="Standard.Class" uid="007c6352-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DialogBookmarkFilter" mc="Standard.Class" uid="007c7838-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DialogMarkerFilter" mc="Standard.Class" uid="007c8882-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DialogMarkerProperties" mc="Standard.Class" uid="007cb366-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DialogProblemFilter" mc="Standard.Class" uid="007cbe88-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DialogProblemProperties" mc="Standard.Class" uid="007cd594-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DialogTaskFilter" mc="Standard.Class" uid="007ce11a-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DialogTaskProperties" mc="Standard.Class" uid="007cff06-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FieldCategory" mc="Standard.Class" uid="007d0b22-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FieldCreationTime" mc="Standard.Class" uid="007d172a-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FieldDone" mc="Standard.Class" uid="007d236e-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FieldDummy" mc="Standard.Class" uid="007d2fd0-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FieldFolder" mc="Standard.Class" uid="007d3c50-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FieldId" mc="Standard.Class" uid="007d493e-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FieldLineNumber" mc="Standard.Class" uid="007d5654-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FieldMessage" mc="Standard.Class" uid="007d6360-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FieldPriority" mc="Standard.Class" uid="007d71de-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FieldResource" mc="Standard.Class" uid="007d7f76-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FieldSeverityAndMessage" mc="Standard.Class" uid="007d8d0e-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IField" mc="Standard.Interface" uid="007dafaa-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IFilter" mc="Standard.Interface" uid="007db6ee-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IItemsChangedListener" mc="Standard.Interface" uid="007dbde2-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IMarkerChangedListener" mc="Standard.Interface" uid="007dc4cc-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IMarkerResourceAdapter" mc="Standard.Interface" uid="007dcc10-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ITableListener" mc="Standard.Interface" uid="007dd390-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MarkerAdapter" mc="Standard.Class" uid="007de254-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MarkerFilter" mc="Standard.Class" uid="007df6ea-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MarkerGroup" mc="Standard.Class" uid="007e0590-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MarkerGroupingEntry" mc="Standard.Class" uid="007e2d54-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MarkerList" mc="Standard.Class" uid="007e4c80-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MarkerMessages" mc="Standard.Class" uid="007e5c34-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MarkerNode" mc="Standard.Class" uid="007e6bca-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MarkerResolutionDialog" mc="Standard.Class" uid="007e8c22-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MarkerSelectionProviderAction" mc="Standard.Class" uid="007e9c62-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MarkerSupportRegistry" mc="Standard.Class" uid="007ed006-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MarkerTreeContentProvider" mc="Standard.Class" uid="007ee17c-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MarkerType" mc="Standard.Class" uid="007ef31a-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MarkerTypesModel" mc="Standard.Class" uid="007f04ae-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MarkerView" mc="Standard.Class" uid="007f16c4-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MarkerViewLabelProvider" mc="Standard.Class" uid="007f40c2-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MarkerViewPreferenceDialog" mc="Standard.Class" uid="007f531e-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ProblemFilter" mc="Standard.Class" uid="007f6598-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ProblemMarker" mc="Standard.Class" uid="007f7862-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ProblemView" mc="Standard.Class" uid="007f8b54-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TableComparator" mc="Standard.Class" uid="007fb836-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TableSortAction" mc="Standard.Class" uid="007fcbb4-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TableSortDialog" mc="Standard.Class" uid="007fe02c-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TableView" mc="Standard.Class" uid="007ff440-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TableViewLabelProvider" mc="Standard.Class" uid="00800872-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TaskFilter" mc="Standard.Class" uid="00801d12-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TaskMarker" mc="Standard.Class" uid="00803194-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TaskView" mc="Standard.Class" uid="00804684-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TypeMarkerGroup" mc="Standard.Class" uid="00805b42-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Util" mc="Standard.Class" uid="00807c4e-0bda-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

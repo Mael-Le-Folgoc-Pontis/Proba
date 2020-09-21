@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="figures" version="4">
+  <OBJECT>
+    <ID name="figures" mc="Standard.Package" uid="ce5d8d68-a1a9-470b-a820-9ac4e074f323"/>
+    <PID name="design" mc="Standard.Package" uid="2181992f-1097-4979-91ad-7eacd01f1124"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[figures]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="CategoryFigure" mc="Standard.Class" uid="180a9482-11c3-4efd-ad71-34bd2fe12956"/>
+        <COMPID name="CenteredIconFigure" mc="Standard.Class" uid="cfd8245f-9541-49ed-af40-c3702ffed91b"/>
+        <COMPID name="GenericGroupFigure" mc="Standard.Class" uid="23a7eb9f-8142-4e25-b3b2-d48a7da9e5ec"/>
+        <COMPID name="HyperLinkLabel" mc="Standard.Class" uid="50bb7d1f-a855-4e0c-bd9b-65d3f286167a"/>
+        <COMPID name="IExtendedFigureFactory" mc="Standard.Interface" uid="3f69372e-1542-4a7a-bcb0-16cf5d808ece"/>
+        <COMPID name="IModelGroupFigure" mc="Standard.Interface" uid="b6ef1253-3385-44b3-ae8e-73d4d6b64625"/>
+        <COMPID name="ModelGroupFigure" mc="Standard.Class" uid="cb99c5ae-a5d4-4244-b522-5684ddb87e11"/>
+        <COMPID name="SpacingFigure" mc="Standard.Class" uid="e8db1e38-9aa3-4e72-8a85-b366aa48f473"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

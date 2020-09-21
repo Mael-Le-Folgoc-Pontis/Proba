@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="directedit" version="4">
+  <OBJECT>
+    <ID name="directedit" mc="Standard.Package" uid="aeba4869-b9d4-44f3-861c-6a43b6fcf109"/>
+    <PID name="design" mc="Standard.Package" uid="38dfb95f-5d9d-436e-9059-8449adf555cc"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[directedit]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ADTComboBoxCellEditor" mc="Standard.Class" uid="54570c28-ea8d-49ea-a5bf-72fc9731af8b"/>
+        <COMPID name="AttributeReferenceDirectEditManager" mc="Standard.Class" uid="3e5b58a6-115a-4126-aaad-01b49a3cc4e2"/>
+        <COMPID name="ComboBoxCellEditorManager" mc="Standard.Class" uid="5451a319-88b0-4988-9eb9-ea02e743b12b"/>
+        <COMPID name="ElementReferenceDirectEditManager" mc="Standard.Class" uid="6842c7c7-390b-49d0-b07a-da00dd62fd02"/>
+        <COMPID name="LabelCellEditorLocator" mc="Standard.Class" uid="b6895d96-ad4f-4d71-b465-bc2667d67e42"/>
+        <COMPID name="LabelEditManager" mc="Standard.Class" uid="e0aaaaf7-48e0-421e-822e-4b4fea03b064"/>
+        <COMPID name="ReferenceDirectEditManager" mc="Standard.Class" uid="db3a8361-9b59-4ed8-940f-0bdfa4e97573"/>
+        <COMPID name="TypeReferenceDirectEditManager" mc="Standard.Class" uid="2008a3ce-909e-452e-a493-c6168c2b101f"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

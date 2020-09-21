@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="handles" version="4">
+  <OBJECT>
+    <ID name="handles" mc="Standard.Package" uid="01f42324-0000-074f-0000-000000000000"/>
+    <PID name="gef" mc="Standard.Package" uid="01f42324-0000-0594-0000-000000000000"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[handles]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractHandle" mc="Standard.Class" uid="01f42324-0000-0752-0000-000000000000"/>
+        <COMPID name="BendpointCreationHandle" mc="Standard.Class" uid="01f42324-0000-0755-0000-000000000000"/>
+        <COMPID name="BendpointHandle" mc="Standard.Class" uid="01f42324-0000-075a-0000-000000000000"/>
+        <COMPID name="BendpointMoveHandle" mc="Standard.Class" uid="01f42324-0000-0751-0000-000000000000"/>
+        <COMPID name="ConnectionEndHandle" mc="Standard.Class" uid="01f42324-0000-0750-0000-000000000000"/>
+        <COMPID name="ConnectionEndpointHandle" mc="Standard.Class" uid="01f42324-0000-0759-0000-000000000000"/>
+        <COMPID name="ConnectionHandle" mc="Standard.Class" uid="01f42324-0000-0761-0000-000000000000"/>
+        <COMPID name="ConnectionStartHandle" mc="Standard.Class" uid="01f42324-0000-0754-0000-000000000000"/>
+        <COMPID name="CornerTriangleBorder" mc="Standard.Class" uid="01f42324-0000-0756-0000-000000000000"/>
+        <COMPID name="HandleBounds" mc="Standard.Interface" uid="359eadf9-8b12-11de-aace-001e4fea2d8b"/>
+        <COMPID name="MoveHandle" mc="Standard.Class" uid="01f42324-0000-075d-0000-000000000000"/>
+        <COMPID name="MoveHandleLocator" mc="Standard.Class" uid="01f42324-0000-075c-0000-000000000000"/>
+        <COMPID name="NonResizableHandle" mc="Standard.Class" uid="01f42324-0000-0757-0000-000000000000"/>
+        <COMPID name="NonResizableHandleKit" mc="Standard.Class" uid="01f42324-0000-075f-0000-000000000000"/>
+        <COMPID name="RelativeHandleLocator" mc="Standard.Class" uid="01f42324-0000-075e-0000-000000000000"/>
+        <COMPID name="ResizableHandleKit" mc="Standard.Class" uid="01f42324-0000-075b-0000-000000000000"/>
+        <COMPID name="ResizeHandle" mc="Standard.Class" uid="01f42324-0000-0753-0000-000000000000"/>
+        <COMPID name="SquareHandle" mc="Standard.Class" uid="01f42324-0000-0758-0000-000000000000"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

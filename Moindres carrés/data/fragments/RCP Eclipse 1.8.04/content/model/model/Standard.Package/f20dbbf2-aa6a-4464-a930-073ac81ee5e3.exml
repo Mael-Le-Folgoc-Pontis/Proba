@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="buildaction" version="4">
+  <OBJECT>
+    <ID name="buildaction" mc="Standard.Package" uid="f20dbbf2-aa6a-4464-a930-073ac81ee5e3"/>
+    <PID name="toolingmodel" mc="Standard.Package" uid="6454d015-5c3e-453e-9a19-30beea78c954"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[buildaction]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="BuildActionFactory" mc="Standard.Class" uid="950fd08b-63b7-44d9-b32e-1e778a2a2912"/>
+        <COMPID name="DoubleBuildAction" mc="Standard.Class" uid="43c862c8-dfd5-4f30-8cc7-13d3c987d006"/>
+        <COMPID name="GlobalModelBuildAction" mc="Standard.Class" uid="98368c30-d35e-41d2-ba9f-24dd4a80eaa6"/>
+        <COMPID name="ModelForAllProjectsBuildAction" mc="Standard.Class" uid="f5fb0d88-5135-4ad3-969f-53f3014e3766"/>
+        <COMPID name="ModelForSingleProjectBuildAction" mc="Standard.Class" uid="18f604c3-c539-4831-bc13-28a466023af5"/>
+        <COMPID name="TripleBuildAction" mc="Standard.Class" uid="4f4e4c90-d4ba-4abc-9259-921032c9d1bf"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

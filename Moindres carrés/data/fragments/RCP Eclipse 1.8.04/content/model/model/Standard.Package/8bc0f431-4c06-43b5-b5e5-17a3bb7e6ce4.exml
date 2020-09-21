@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="metatype" version="4">
+  <OBJECT>
+    <ID name="metatype" mc="Standard.Package" uid="8bc0f431-4c06-43b5-b5e5-17a3bb7e6ce4"/>
+    <PID name="service" mc="Standard.Package" uid="2dac8d0c-dcc0-4044-aa9a-81a1bbc04d5c"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[metatype]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AttributeDefinition" mc="Standard.Class" uid="f92b2e85-a96f-443e-8e9a-6837e9126e16"/>
+        <COMPID name="MetaTypeInformation" mc="Standard.Class" uid="c7d39351-bd4b-400f-9707-6d6b35c473fe"/>
+        <COMPID name="MetaTypeProvider" mc="Standard.Class" uid="262d4be0-7a2e-4e9a-b37c-d9f6d83bcebb"/>
+        <COMPID name="MetaTypeService" mc="Standard.Class" uid="bc88b034-6d00-4ff9-82f7-cb2374c7c03b"/>
+        <COMPID name="ObjectClassDefinition" mc="Standard.Class" uid="6db08b5b-8097-4e97-9f0b-4734e64dc823"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

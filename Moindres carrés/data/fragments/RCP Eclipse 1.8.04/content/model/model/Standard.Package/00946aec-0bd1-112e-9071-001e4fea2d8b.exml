@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="parts" version="4">
+  <OBJECT>
+    <ID name="parts" mc="Standard.Package" uid="00946aec-0bd1-112e-9071-001e4fea2d8b"/>
+    <PID name="ui" mc="Standard.Package" uid="00559196-0bd1-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[parts]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="CheckboxTablePart" mc="Standard.Class" uid="00947122-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ComboPart" mc="Standard.Class" uid="0094774e-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ComboViewerPart" mc="Standard.Class" uid="00947d8e-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ConditionalListSelectionDialog" mc="Standard.Class" uid="00948450-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="EditableTablePart" mc="Standard.Class" uid="00948ae0-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FormBrowser" mc="Standard.Class" uid="00949d6e-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FormEntry" mc="Standard.Class" uid="0094a48a-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IFormEntryListener" mc="Standard.Interface" uid="0094aa5c-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ILinkLabelProvider" mc="Standard.Interface" uid="0094b0e2-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MessageLine" mc="Standard.Class" uid="0094b894-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PDESourceViewer" mc="Standard.Class" uid="0094c00a-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PluginVersionPart" mc="Standard.Class" uid="0094c7b2-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SharedPart" mc="Standard.Class" uid="0094db94-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SharedPartWithButtons" mc="Standard.Class" uid="0094e3dc-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="StatusInfo" mc="Standard.Class" uid="0094f1ba-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="StructuredViewerPart" mc="Standard.Class" uid="0094fa34-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TablePart" mc="Standard.Class" uid="009502f4-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TreeMessageDialog" mc="Standard.Class" uid="00950bd2-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TreePart" mc="Standard.Class" uid="009514ba-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WizardCheckboxTablePart" mc="Standard.Class" uid="00951dfc-0bd1-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

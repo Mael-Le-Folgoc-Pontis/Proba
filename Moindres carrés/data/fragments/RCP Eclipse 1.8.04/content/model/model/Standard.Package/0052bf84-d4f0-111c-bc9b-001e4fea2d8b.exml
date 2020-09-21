@@ -1,0 +1,54 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="filetransfer" version="4">
+  <OBJECT>
+    <ID name="filetransfer" mc="Standard.Package" uid="0052bf84-d4f0-111c-bc9b-001e4fea2d8b"/>
+    <PID name="ecf" mc="Standard.Package" uid="0052afd0-d4f0-111c-bc9b-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[filetransfer]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="BrowseFileTransferException" mc="Standard.Class" uid="001fc8fe-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="FileTransferInfo" mc="Standard.Class" uid="00602994-0bc3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FileTransferJob" mc="Standard.Class" uid="008b30ee-d4f0-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="IFileRangeSpecification" mc="Standard.Interface" uid="00141662-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="IFileTransfer" mc="Standard.Interface" uid="00606c88-0bc3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IFileTransferInfo" mc="Standard.Interface" uid="006074d0-0bc3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IFileTransferListener" mc="Standard.Interface" uid="006051b2-d4f1-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="IFileTransferPausable" mc="Standard.Interface" uid="00609938-0bc3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IFileTransferRateControl" mc="Standard.Interface" uid="0060a1d0-0bc3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IFileTransferRunnable" mc="Standard.Interface" uid="0060aa04-0bc3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IIncomingFileTransfer" mc="Standard.Interface" uid="0060b2b0-0bc3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IIncomingFileTransferRequestListener" mc="Standard.Interface" uid="0060bb98-0bc3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IOutgoingFileTransfer" mc="Standard.Interface" uid="0060c46c-0bc3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IRemoteFile" mc="Standard.Interface" uid="0060cda4-0bc3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IRemoteFileAttributes" mc="Standard.Interface" uid="0060d70e-0bc3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IRemoteFileInfo" mc="Standard.Interface" uid="0060e0a0-0bc3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IRemoteFileSystemBrowserContainerAdapter" mc="Standard.Interface" uid="0060ea46-0bc3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IRemoteFileSystemListener" mc="Standard.Interface" uid="000b4b22-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="IRemoteFileSystemRequest" mc="Standard.Interface" uid="0061128c-0bc3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IRetrieveFileTransferContainerAdapter" mc="Standard.Interface" uid="00611cdc-0bc3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IRetrieveFileTransferOptions" mc="Standard.Interface" uid="006127cc-0bc3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ISendFileTransferContainerAdapter" mc="Standard.Interface" uid="00613294-0bc3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ISendFileTransferOptions" mc="Standard.Interface" uid="00613d3e-0bc3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IncomingFileTransferException" mc="Standard.Class" uid="0055d5f2-d4f1-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="InvalidFileRangeSpecificationException" mc="Standard.Class" uid="006163ea-0bc3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RemoteFileSystemException" mc="Standard.Class" uid="00616d22-0bc3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SendFileTransferException" mc="Standard.Class" uid="006176b4-0bc3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="UserCancelledException" mc="Standard.Class" uid="006d9fb6-d4f1-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="events" mc="Standard.Package" uid="000c4298-d4f1-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="identity" mc="Standard.Package" uid="00945ffc-d4f0-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="service" mc="Standard.Package" uid="005d51ba-d4f1-111c-bc9b-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

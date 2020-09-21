@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="runtime" version="4">
+  <OBJECT>
+    <ID name="runtime" mc="Standard.Package" uid="008f9080-21b0-1fb1-8a9e-001e4fea2d8b"/>
+    <PID name="gogo" mc="Standard.Package" uid="008b9c00-21b0-1fb1-8a9e-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[runtime]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Closure" mc="Standard.Class" uid="0093792a-21b0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="CommandNotFoundException" mc="Standard.Class" uid="0092f306-21b0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="CommandProcessorImpl" mc="Standard.Class" uid="00926f58-21b0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="CommandProxy" mc="Standard.Class" uid="00931cbe-21b0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="CommandSessionImpl" mc="Standard.Class" uid="00969966-21b0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="EOFError" mc="Standard.Class" uid="00944a4e-21b0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="Evaluate" mc="Standard.Interface" uid="009420d2-21b0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="Parser" mc="Standard.Class" uid="0096c580-21b0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="Pipe" mc="Standard.Class" uid="0092caac-21b0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="Reflective" mc="Standard.Class" uid="008faca0-21b0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="SyntaxError" mc="Standard.Class" uid="0090f204-21b0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="Token" mc="Standard.Class" uid="0094741a-21b0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="Tokenizer" mc="Standard.Class" uid="008fd3a6-21b0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="activator" mc="Standard.Package" uid="0095475a-21b0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="threadio" mc="Standard.Package" uid="0091b2ac-21b0-1fb1-8a9e-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

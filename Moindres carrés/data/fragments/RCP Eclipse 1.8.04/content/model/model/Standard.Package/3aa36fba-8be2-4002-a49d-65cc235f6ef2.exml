@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="cm" version="4">
+  <OBJECT>
+    <ID name="cm" mc="Standard.Package" uid="3aa36fba-8be2-4002-a49d-65cc235f6ef2"/>
+    <PID name="service" mc="Standard.Package" uid="2dac8d0c-dcc0-4044-aa9a-81a1bbc04d5c"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[cm]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Configuration" mc="Standard.Class" uid="40e7fe20-1c90-4921-a316-ad3fbb1d070d"/>
+        <COMPID name="ConfigurationAdmin" mc="Standard.Class" uid="b14de4f4-0e2f-428c-9d04-ca01973559e9"/>
+        <COMPID name="ConfigurationEvent" mc="Standard.Class" uid="7b0f6486-92d6-4055-b498-16c23701b880"/>
+        <COMPID name="ConfigurationException" mc="Standard.Class" uid="061dd5b3-4fd5-49ed-bb12-0f6f6a755ab8"/>
+        <COMPID name="ConfigurationListener" mc="Standard.Class" uid="cfb218e6-b11e-4ab0-bd0f-cc5033db62ae"/>
+        <COMPID name="ConfigurationPermission" mc="Standard.Class" uid="f6d2bf94-3f60-469e-855d-87fef8a53eef"/>
+        <COMPID name="ConfigurationPermissionCollection" mc="Standard.Class" uid="35284e20-4293-4ad5-a9f7-b2863dcbd1fc"/>
+        <COMPID name="ConfigurationPlugin" mc="Standard.Class" uid="287fbbc2-3328-4370-a2a6-d5bfb9556dc1"/>
+        <COMPID name="ManagedService" mc="Standard.Class" uid="3bda1d79-d49a-4940-afa7-df4f1e6f9fa1"/>
+        <COMPID name="ManagedServiceFactory" mc="Standard.Class" uid="68528da1-c50a-40a2-8abf-943f478f5471"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

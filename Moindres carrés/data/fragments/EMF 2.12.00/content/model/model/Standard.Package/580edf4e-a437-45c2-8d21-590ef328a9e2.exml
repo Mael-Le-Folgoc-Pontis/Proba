@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="viewer" version="4">
+  <OBJECT>
+    <ID name="viewer" mc="Standard.Package" uid="580edf4e-a437-45c2-8d21-590ef328a9e2"/>
+    <PID name="ui" mc="Standard.Package" uid="d932eaed-e65e-4833-b3a3-0c18f1d0b3a7"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[viewer]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ColumnViewerInformationControlToolTipSupport" mc="Standard.Class" uid="276e97aa-19e4-4dcd-89f6-e00f679d8a3a"/>
+        <COMPID name="ExtendedTableTreeViewer" mc="Standard.Class" uid="a9a44964-00e8-43eb-9ae8-e17bfe69b831"/>
+        <COMPID name="IStyledLabelDecorator" mc="Standard.Interface" uid="b9ddb7a0-dbfb-4033-a313-d3cd37f49fc7"/>
+        <COMPID name="IUndecoratingLabelProvider" mc="Standard.Interface" uid="bbbf4d2d-e50b-4e91-b53b-eadadd309d51"/>
+        <COMPID name="IViewerProvider" mc="Standard.Interface" uid="26f260fe-fe2e-4218-9d29-5ccdfe82bcdd"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

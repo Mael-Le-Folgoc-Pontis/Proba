@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="datatransfer" version="4">
+  <OBJECT>
+    <ID name="datatransfer" mc="Standard.Package" uid="000e65b4-0bbf-112e-9071-001e4fea2d8b"/>
+    <PID name="ui" mc="Standard.Package" uid="000c1b7e-0bbf-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[datatransfer]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AntBuildfileExportPage" mc="Standard.Class" uid="000e6c80-0bbf-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AntBuildfileExportWizard" mc="Standard.Class" uid="000e73ba-0bbf-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AntNewJavaProjectPage" mc="Standard.Class" uid="000e7b4e-0bbf-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AntNewJavaProjectWizard" mc="Standard.Class" uid="000e96e2-0bbf-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AppletUtil" mc="Standard.Class" uid="000e9eda-0bbf-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BuildFileCreator" mc="Standard.Class" uid="000ea70e-0bbf-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DataTransferMessages" mc="Standard.Class" uid="000eaf6a-0bbf-112e-9071-001e4fea2d8b"/>
+        <COMPID name="EclipseClasspath" mc="Standard.Class" uid="000eb7bc-0bbf-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ExportUtil" mc="Standard.Class" uid="000ec086-0bbf-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavacTableLabelProvider" mc="Standard.Class" uid="000f1130-0bbf-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ProjectCreator" mc="Standard.Class" uid="000f1a68-0bbf-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SourceAnalyzer" mc="Standard.Class" uid="000f2418-0bbf-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

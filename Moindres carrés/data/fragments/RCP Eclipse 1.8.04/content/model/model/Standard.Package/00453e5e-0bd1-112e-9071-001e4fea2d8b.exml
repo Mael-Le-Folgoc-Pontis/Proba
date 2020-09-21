@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="actions" version="4">
+  <OBJECT>
+    <ID name="actions" mc="Standard.Package" uid="00453e5e-0bd1-112e-9071-001e4fea2d8b"/>
+    <PID name="simple" mc="Standard.Package" uid="00437fb0-0bd1-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[actions]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="SimpleActionMessages" mc="Standard.Class" uid="00454476-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SimpleCSAddStepAction" mc="Standard.Class" uid="00454ab6-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SimpleCSAddSubStepAction" mc="Standard.Class" uid="0045511e-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SimpleCSPreviewAction" mc="Standard.Class" uid="004557c2-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SimpleCSRemoveRunObjectAction" mc="Standard.Class" uid="00455e8e-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SimpleCSRemoveStepAction" mc="Standard.Class" uid="00456550-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SimpleCSRemoveSubStepAction" mc="Standard.Class" uid="00456c80-0bd1-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

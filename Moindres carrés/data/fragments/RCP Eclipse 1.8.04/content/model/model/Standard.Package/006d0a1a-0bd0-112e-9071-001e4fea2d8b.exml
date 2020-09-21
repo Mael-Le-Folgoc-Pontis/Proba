@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="bundle" version="4">
+  <OBJECT>
+    <ID name="bundle" mc="Standard.Package" uid="006d0a1a-0bd0-112e-9071-001e4fea2d8b"/>
+    <PID name="core" mc="Standard.Package" uid="0064dc0a-0bd0-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[bundle]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Bundle" mc="Standard.Class" uid="006d1000-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BundleFragment" mc="Standard.Class" uid="006d1640-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BundleFragmentModel" mc="Standard.Class" uid="006d1ca8-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BundleModel" mc="Standard.Class" uid="006d2374-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BundleObject" mc="Standard.Class" uid="006d2a40-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BundlePlugin" mc="Standard.Class" uid="006d313e-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BundlePluginBase" mc="Standard.Class" uid="006d383c-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BundlePluginModel" mc="Standard.Class" uid="006d3f9e-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BundlePluginModelBase" mc="Standard.Class" uid="006d4728-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WorkspaceBundleFragmentModel" mc="Standard.Class" uid="006d4ebc-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WorkspaceBundleModel" mc="Standard.Class" uid="006d56be-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WorkspaceBundlePluginModel" mc="Standard.Class" uid="006d5f24-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WorkspaceBundlePluginModelBase" mc="Standard.Class" uid="006d674e-0bd0-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="standard" version="4">
+  <OBJECT>
+    <ID name="standard" mc="Standard.Package" uid="0076217c-0bbd-112e-9071-001e4fea2d8b"/>
+    <PID name="analysis" mc="Standard.Package" uid="003a6222-0bbd-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[standard]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ClassicAnalyzer" mc="Standard.Class" uid="00762866-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ClassicFilter" mc="Standard.Class" uid="00762fe6-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ClassicTokenizer" mc="Standard.Class" uid="0076375c-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="StandardAnalyzer" mc="Standard.Class" uid="00764760-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="StandardFilter" mc="Standard.Class" uid="0076502a-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="StandardTokenizer" mc="Standard.Class" uid="007658b8-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="StandardTokenizerImpl" mc="Standard.Class" uid="00766178-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="StandardTokenizerInterface" mc="Standard.Interface" uid="0076689e-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="UAX29URLEmailTokenizer" mc="Standard.Class" uid="00767280-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="UAX29URLEmailTokenizerImpl" mc="Standard.Class" uid="00767bae-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="std31" mc="Standard.Package" uid="00781aa4-0bbd-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

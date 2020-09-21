@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="custom" version="4">
+  <OBJECT>
+    <ID name="custom" mc="Standard.Package" uid="67ee8d33-f0ee-47dd-ac5d-a255d6400889"/>
+    <PID name="appinfo" mc="Standard.Package" uid="46c1957c-310f-479c-82f8-09e8340bedad"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[custom]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="DefaultListNodeEditorConfiguration" mc="Standard.Class" uid="3f2111c5-0eac-4e94-9997-63038cb6580d"/>
+        <COMPID name="DialogNodeEditorConfiguration" mc="Standard.Class" uid="9cb603de-3a17-45ee-b436-75671a2849de"/>
+        <COMPID name="ListNodeEditorConfiguration" mc="Standard.Class" uid="1b886bdd-45f9-431b-ae39-5f6e74fef388"/>
+        <COMPID name="NodeCustomizationRegistry" mc="Standard.Class" uid="75684d9d-cadd-49db-9569-eb89078586b3"/>
+        <COMPID name="NodeEditorConfiguration" mc="Standard.Class" uid="6aa07ba4-c63b-4566-9261-4d268f2ec825"/>
+        <COMPID name="NodeEditorProvider" mc="Standard.Class" uid="8d397de3-dd55-4cc4-84c3-3f1531e72a81"/>
+        <COMPID name="NodeFilter" mc="Standard.Class" uid="758b39b8-ee61-4217-bf59-13ffb822bfc6"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

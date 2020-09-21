@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="basecode" version="4">
+  <OBJECT>
+    <ID name="basecode" mc="Standard.Package" uid="8380c4d1-fb00-4a7d-8716-1528bf8959c2"/>
+    <PID name="search" mc="Standard.Package" uid="0decd16c-747b-464b-815e-8dabcc77b37c"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[basecode]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="FileLabelProvider" mc="Standard.Class" uid="ab6a62b8-c99e-4b6c-b054-e3a40535423d"/>
+        <COMPID name="IFileSearchContentProvider" mc="Standard.Interface" uid="1735d21a-0d9a-4db1-b744-110a66ace032"/>
+        <COMPID name="Messages" mc="Standard.Class" uid="838cbe04-475e-47cd-8be6-4ce5e1a9d0d2"/>
+        <COMPID name="ResourceTransferDragAdapter" mc="Standard.Class" uid="86cefc8b-6476-4082-a46f-c0b041f944ac"/>
+        <COMPID name="SortAction" mc="Standard.Class" uid="e260f65a-cb52-4375-a23c-edd4d171c331"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,52 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="events" version="4">
+  <OBJECT>
+    <ID name="events" mc="Standard.Package" uid="11dd7007-895c-455d-899e-5958870b71f6"/>
+    <PID name="tooling" mc="Standard.Package" uid="a7cc4559-6906-4c16-9e82-7a1b5271167c"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[events]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="FailureResult" mc="Standard.Interface" uid="ffc8da23-1a20-4cea-8213-8070abbcc7b1"/>
+        <COMPID name="FinishEvent" mc="Standard.Interface" uid="405a6872-31b7-4b51-9695-8bd5b377c815"/>
+        <COMPID name="OperationDescriptor" mc="Standard.Interface" uid="04b02689-13e4-4f18-839e-05b25383e862"/>
+        <COMPID name="OperationResult" mc="Standard.Interface" uid="61d8b610-29f7-429c-afaa-bbff8b0f4ab7"/>
+        <OBJECT>
+          <ID name="OperationType" mc="Standard.Enumeration" uid="16ae6e6d-42b5-48e6-a716-a8e96af9e546"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[OperationType]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Extension">
+              <FOREIGNID name="JavaEnumeration" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0262-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <COMPID name="ProgressEvent" mc="Standard.Interface" uid="57557a30-f0e3-4b02-b821-840400a838af"/>
+        <COMPID name="ProgressListener" mc="Standard.Interface" uid="55d2988c-94ce-4c01-9d6d-14e0241be6b6"/>
+        <COMPID name="SkippedResult" mc="Standard.Interface" uid="b42b8bc7-6a08-42b3-a0dc-34f5f950c82c"/>
+        <COMPID name="StartEvent" mc="Standard.Interface" uid="ed8b4b54-a2c1-400c-8879-0c592b638935"/>
+        <COMPID name="SuccessResult" mc="Standard.Interface" uid="2ef42699-e6b9-4225-af93-6ba85d436922"/>
+        <COMPID name="internal" mc="Standard.Package" uid="411093b7-f405-444b-b05f-284b47f6abf8"/>
+        <COMPID name="task" mc="Standard.Package" uid="38527b2b-25ba-4806-90eb-790fd1d71828"/>
+        <COMPID name="test" mc="Standard.Package" uid="71618417-f364-4de8-adc9-cd0faebcf16b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

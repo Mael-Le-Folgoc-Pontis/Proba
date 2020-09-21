@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="command" version="4">
+  <OBJECT>
+    <ID name="command" mc="Standard.Package" uid="a1ecaa2f-f41e-473d-8cdc-1afc437f254e"/>
+    <PID name="commit" mc="Standard.Package" uid="563cd662-431e-4bfd-9802-97153174f03d"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[command]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="CheckoutHandler" mc="Standard.Class" uid="d5de48d8-7431-41ab-9638-894cc674516c"/>
+        <COMPID name="CherryPickHandler" mc="Standard.Class" uid="b874c088-d46f-490e-8637-9ed88537fd67"/>
+        <COMPID name="CommitCommandHandler" mc="Standard.Class" uid="ba5e10dc-c431-4e3b-b0f1-03b84fdc4369"/>
+        <COMPID name="CreateBranchHandler" mc="Standard.Class" uid="427bf092-4ea2-4553-93c7-ea31aa013180"/>
+        <COMPID name="CreateTagHandler" mc="Standard.Class" uid="c4ddd3ed-ab1f-428c-8dee-4b8160176102"/>
+        <COMPID name="EditHandler" mc="Standard.Class" uid="921b1b5b-3a70-45f0-a136-fc7391f8faa0"/>
+        <COMPID name="RevertHandler" mc="Standard.Class" uid="2a1485a8-a205-4e25-be92-f48749f6cd0e"/>
+        <COMPID name="RewordHandler" mc="Standard.Class" uid="099103d3-f061-465e-9152-498cd69e88ac"/>
+        <COMPID name="ShowInHistoryHandler" mc="Standard.Class" uid="3d0cddbb-c8da-45cb-908d-48f03718b651"/>
+        <COMPID name="SquashHandler" mc="Standard.Class" uid="7b15384a-7794-4c8a-bd8d-fa8ee88867a2"/>
+        <COMPID name="StashApplyHandler" mc="Standard.Class" uid="f8a6c890-9fc0-4ee4-8278-4ce7cd95256c"/>
+        <COMPID name="StashDropHandler" mc="Standard.Class" uid="caf7fb01-7354-4970-aa35-e9c27bfc15cd"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

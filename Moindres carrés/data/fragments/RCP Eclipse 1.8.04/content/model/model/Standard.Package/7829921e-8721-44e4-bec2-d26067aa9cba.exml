@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="execution" version="4">
+  <OBJECT>
+    <ID name="execution" mc="Standard.Package" uid="7829921e-8721-44e4-bec2-d26067aa9cba"/>
+    <PID name="utils" mc="Standard.Package" uid="62abe31d-37c4-49eb-9781-3beef5e17715"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[execution]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ExecutionUtils" mc="Standard.Class" uid="9be7b527-33bf-4bf1-b977-a9617cec685d"/>
+        <COMPID name="NoOpProgressMonitor" mc="Standard.Class" uid="6cddbe76-622e-437b-9807-fa04d5b50416"/>
+        <COMPID name="RunnableEx" mc="Standard.Interface" uid="2569af47-d3f6-4557-ad03-d1f53ea0f2c2"/>
+        <COMPID name="RunnableObjectEx" mc="Standard.Interface" uid="107638c7-c8d3-43c2-a87c-ca84cbc9674a"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

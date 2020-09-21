@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="menu" version="4">
+  <OBJECT>
+    <ID name="menu" mc="Standard.Package" uid="6b386784-d7eb-4e5e-8f27-1ab6a4ce9fc4"/>
+    <PID name="component" mc="Standard.Package" uid="22f7420e-5fe9-45ed-9254-dc1d0b960686"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[menu]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ComponentMenuItemInfo" mc="Standard.Class" uid="4dcf89db-dd31-4b8f-9a95-960a781bbbff"/>
+        <COMPID name="JMenuBarInfo" mc="Standard.Class" uid="f67f6f78-680e-48c6-bd9e-7b163d937a42"/>
+        <COMPID name="JMenuInfo" mc="Standard.Class" uid="0233ee7e-99ef-4448-b9de-eab9f7d4c3b4"/>
+        <COMPID name="JMenuItemInfo" mc="Standard.Class" uid="2fcfb6db-610a-4d34-b783-b66ef7bb72d0"/>
+        <COMPID name="JMenuSeparatorCreationSupport" mc="Standard.Class" uid="1aa0cfb7-89da-47b3-94b7-7fb13e0bff7d"/>
+        <COMPID name="JPopupMenuAssociation" mc="Standard.Class" uid="522f70e6-febc-49a3-859b-955001176185"/>
+        <COMPID name="JPopupMenuInfo" mc="Standard.Class" uid="95613bc6-0cd5-4664-88b4-e14a511e51b8"/>
+        <COMPID name="JPopupMenuSeparatorCreationSupport" mc="Standard.Class" uid="f75821d7-d11f-4466-906c-b92b49caff5f"/>
+        <COMPID name="JPopupMenuSeparatorInfo" mc="Standard.Class" uid="b409dfd6-4165-46e6-9386-7267cce0dc23"/>
+        <COMPID name="MenuUtils" mc="Standard.Class" uid="2fed530e-eff4-4fe5-80e6-679793240e4b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

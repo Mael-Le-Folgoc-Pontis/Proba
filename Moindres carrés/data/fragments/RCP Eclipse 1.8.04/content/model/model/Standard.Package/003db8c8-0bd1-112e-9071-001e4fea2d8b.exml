@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="cheatsheet" version="4">
+  <OBJECT>
+    <ID name="cheatsheet" mc="Standard.Package" uid="003db8c8-0bd1-112e-9071-001e4fea2d8b"/>
+    <PID name="editor" mc="Standard.Package" uid="003c968c-0bd1-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[cheatsheet]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="CSAbstractDetails" mc="Standard.Class" uid="003dbeae-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CSAbstractEditor" mc="Standard.Class" uid="003dc502-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CSAbstractSubDetails" mc="Standard.Class" uid="003dcb2e-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ICSDetails" mc="Standard.Interface" uid="003dd146-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ICSMaster" mc="Standard.Interface" uid="003dd7fe-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Messages" mc="Standard.Class" uid="003ddeca-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="comp" mc="Standard.Package" uid="003f0da4-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="simple" mc="Standard.Package" uid="00437fb0-0bd1-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

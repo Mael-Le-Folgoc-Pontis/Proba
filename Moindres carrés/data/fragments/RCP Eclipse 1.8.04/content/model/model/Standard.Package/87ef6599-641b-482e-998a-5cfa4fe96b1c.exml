@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="registry" version="4">
+  <OBJECT>
+    <ID name="registry" mc="Standard.Package" uid="87ef6599-641b-482e-998a-5cfa4fe96b1c"/>
+    <PID name="provisional" mc="Standard.Package" uid="51096470-157a-4d0c-88e1-39db76cce283"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[registry]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AdapterFactoryProvider" mc="Standard.Interface" uid="8832177d-feed-45f1-91e5-61e3234bad8a"/>
+        <COMPID name="AdapterFactoryRegistry" mc="Standard.Interface" uid="8209f54e-d4fe-47b9-934b-255444e196f5"/>
+        <COMPID name="AdapterFactoryRegistryExtension" mc="Standard.Interface" uid="d90dc817-be6c-4524-8627-0037ec114eb1"/>
+        <COMPID name="AdapterFactoryRegistryImpl" mc="Standard.Class" uid="b044f553-75de-4861-9b79-bb1077f82819"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

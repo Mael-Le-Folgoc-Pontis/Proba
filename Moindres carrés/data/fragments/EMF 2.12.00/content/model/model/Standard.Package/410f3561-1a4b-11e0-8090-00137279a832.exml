@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="notify" version="4">
+  <OBJECT>
+    <ID name="notify" mc="Standard.Package" uid="410f3561-1a4b-11e0-8090-00137279a832"/>
+    <PID name="common" mc="Standard.Package" uid="410f3560-1a4b-11e0-8090-00137279a832"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[notify]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Adapter" mc="Standard.Interface" uid="4162a7bd-1a4b-11e0-8090-00137279a832"/>
+        <COMPID name="AdapterFactory" mc="Standard.Interface" uid="4162a7d3-1a4b-11e0-8090-00137279a832"/>
+        <COMPID name="Notification" mc="Standard.Interface" uid="41591e54-1a4b-11e0-8090-00137279a832"/>
+        <COMPID name="NotificationChain" mc="Standard.Interface" uid="41591e4f-1a4b-11e0-8090-00137279a832"/>
+        <COMPID name="NotificationWrapper" mc="Standard.Class" uid="41650a19-1a4b-11e0-8090-00137279a832"/>
+        <COMPID name="Notifier" mc="Standard.Interface" uid="4162a7ca-1a4b-11e0-8090-00137279a832"/>
+        <COMPID name="NotifyingList" mc="Standard.Interface" uid="4162a7b6-1a4b-11e0-8090-00137279a832"/>
+        <COMPID name="impl" mc="Standard.Package" uid="410f3562-1a4b-11e0-8090-00137279a832"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

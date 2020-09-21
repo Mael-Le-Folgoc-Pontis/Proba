@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="selection" version="4">
+  <OBJECT>
+    <ID name="selection" mc="Standard.Package" uid="05d593f8-f012-49e0-811b-8e31931e652b"/>
+    <PID name="header" mc="Standard.Package" uid="fde92afc-295c-4d8e-9cbc-b172b69a1939"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[selection]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ColumnSelectionEditPolicy" mc="Standard.Class" uid="18d00d06-d1d6-4e0a-9f77-91ce0f0f7bef"/>
+        <COMPID name="RowSelectionEditPolicy" mc="Standard.Class" uid="83515183-2f86-46b2-a8a9-1524cd082b80"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

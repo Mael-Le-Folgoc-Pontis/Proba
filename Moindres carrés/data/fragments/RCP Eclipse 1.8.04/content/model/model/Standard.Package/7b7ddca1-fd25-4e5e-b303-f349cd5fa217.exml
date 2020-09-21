@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="core" version="4">
+  <OBJECT>
+    <ID name="core" mc="Standard.Package" uid="7b7ddca1-fd25-4e5e-b303-f349cd5fa217"/>
+    <PID name="buildship" mc="Standard.Package" uid="2f261dfb-eb69-4aa2-bd8d-228873670d03"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[core]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AggregateException" mc="Standard.Class" uid="359124db-c443-4acd-a3b9-aa876df233c8"/>
+        <COMPID name="CorePlugin" mc="Standard.Class" uid="9fe89352-6164-49c3-acf7-e3cdf45595ad"/>
+        <COMPID name="GradlePluginsRuntimeException" mc="Standard.Class" uid="32da7089-1df0-42c0-a2a5-6a06c7bc00bf"/>
+        <COMPID name="Logger" mc="Standard.Interface" uid="928314b4-bd3c-42a6-ac03-17386e526d24"/>
+        <COMPID name="configuration" mc="Standard.Package" uid="b4e4ed3c-b46f-4edd-bb87-a6c86b16fafc"/>
+        <COMPID name="console" mc="Standard.Package" uid="19bdb97b-8130-4de6-8653-65266560a05c"/>
+        <COMPID name="event" mc="Standard.Package" uid="100b8d15-1ef7-46e9-9a60-cbbca5e0fc9c"/>
+        <COMPID name="gradle" mc="Standard.Package" uid="40274b94-b07a-44d7-8384-890a49fb4e1e"/>
+        <COMPID name="i18n" mc="Standard.Package" uid="80649155-0428-4fed-b109-da39b29f90e3"/>
+        <COMPID name="launch" mc="Standard.Package" uid="9511f9e3-7ee7-4382-97b8-68c1ec9a895e"/>
+        <COMPID name="notification" mc="Standard.Package" uid="db29d73f-cd81-41de-b39b-cf4575d6f9c3"/>
+        <COMPID name="projectimport" mc="Standard.Package" uid="144f8673-bc08-4ac1-8767-4a1328cb240c"/>
+        <COMPID name="util" mc="Standard.Package" uid="acda86ad-c2f2-44f1-81d8-0e0c2d95611f"/>
+        <COMPID name="workspace" mc="Standard.Package" uid="09c371a7-3a84-4766-86bf-86acb07fe2f9"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

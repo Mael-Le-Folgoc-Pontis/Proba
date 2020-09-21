@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="plugin" version="4">
+  <OBJECT>
+    <ID name="plugin" mc="Standard.Package" uid="4b681088-fcef-4590-be4a-b78c85cffcb5"/>
+    <PID name="ui" mc="Standard.Package" uid="92f12de4-b0d4-4182-97bc-7bf1c2802fe1"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[plugin]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="RunnableWithProgressWrapper" mc="Standard.Class" uid="9b8d5745-65f8-4ce3-ab4e-52f5d217597c"/>
+        <COMPID name="ValidationUIPlugin" mc="Standard.Class" uid="125fcf44-e884-4a40-988c-94c1fb1dee29"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

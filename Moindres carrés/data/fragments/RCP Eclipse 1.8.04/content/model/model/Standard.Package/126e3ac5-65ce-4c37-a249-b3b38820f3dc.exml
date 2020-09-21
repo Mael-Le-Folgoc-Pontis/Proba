@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="idea" version="4">
+  <OBJECT>
+    <ID name="idea" mc="Standard.Package" uid="126e3ac5-65ce-4c37-a249-b3b38820f3dc"/>
+    <PID name="model" mc="Standard.Package" uid="2577379c-539f-4f9d-84f0-2f9d2dce2e26"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[idea]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="BasicIdeaProject" mc="Standard.Interface" uid="d7b90745-77d3-456c-beaa-82c0ae737c55"/>
+        <COMPID name="IdeaCompilerOutput" mc="Standard.Interface" uid="3376d227-2a39-4d31-ac99-77e3010879ba"/>
+        <COMPID name="IdeaContentRoot" mc="Standard.Interface" uid="2a193ea0-62f5-4ab8-a56d-3fb4eee824c9"/>
+        <COMPID name="IdeaDependency" mc="Standard.Interface" uid="1c68b79a-c892-45e8-aead-6a926c9b1fc3"/>
+        <COMPID name="IdeaDependencyScope" mc="Standard.Interface" uid="1705500b-8228-4bae-bd4a-5cd92b4ab9b8"/>
+        <COMPID name="IdeaLanguageLevel" mc="Standard.Interface" uid="376b3bd7-15a5-4538-8e50-c8f14c160142"/>
+        <COMPID name="IdeaModule" mc="Standard.Interface" uid="83e3034e-3f07-41c1-a24f-6fe24e9c1051"/>
+        <COMPID name="IdeaModuleDependency" mc="Standard.Interface" uid="7abb036d-84a2-4583-bddb-d74efd1acb67"/>
+        <COMPID name="IdeaProject" mc="Standard.Interface" uid="a33d0483-0830-4010-8510-652a23bd5921"/>
+        <COMPID name="IdeaSingleEntryLibraryDependency" mc="Standard.Interface" uid="7ddeef10-f543-4f14-96e0-cb134f35b511"/>
+        <COMPID name="IdeaSourceDirectory" mc="Standard.Interface" uid="183cfbb4-7e1f-4a8b-96f8-a22afb0ea4d5"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,57 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="core" version="4">
+  <OBJECT>
+    <ID name="core" mc="Standard.Package" uid="0101cad1-4db3-4b5d-b30b-1e1efbf9bd6c"/>
+    <PID name="logback" mc="Standard.Package" uid="5615e790-8ce6-4d8c-8dad-a24ea489469d"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[core]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Appender" mc="Standard.Interface" uid="0639dc0a-dcf5-40a8-b963-8f030e6d6b32"/>
+        <COMPID name="AppenderBase" mc="Standard.Class" uid="253500f6-80c4-49b6-aaad-dd5569bb8798"/>
+        <COMPID name="AsyncAppenderBase" mc="Standard.Class" uid="8bc03b04-7cfc-48b9-b98c-3c8cb5e81bc4"/>
+        <COMPID name="BasicStatusManager" mc="Standard.Class" uid="55f0732c-2565-4ad8-b707-a4957c9d366f"/>
+        <COMPID name="ConsoleAppender" mc="Standard.Class" uid="08910060-9994-4462-ae7b-ee38b14b2d20"/>
+        <COMPID name="Context" mc="Standard.Interface" uid="43d4b0c9-b7f7-4c4d-a6b1-d7662e055d2e"/>
+        <COMPID name="ContextBase" mc="Standard.Class" uid="2c1d665c-b9fe-4b7d-96c5-683fa7ea684b"/>
+        <COMPID name="CoreConstants" mc="Standard.Class" uid="d4d64784-fd30-4678-b3dd-237bc8ba7028"/>
+        <COMPID name="FileAppender" mc="Standard.Class" uid="8a84fa13-391e-4961-964c-d61c9868200c"/>
+        <COMPID name="Layout" mc="Standard.Interface" uid="9df8077a-f4c8-43ba-8ec0-f06df6bf6cc9"/>
+        <COMPID name="LayoutBase" mc="Standard.Class" uid="e9d2e534-ded2-43bc-9ec9-707809802a0d"/>
+        <COMPID name="LogbackException" mc="Standard.Class" uid="4d6d16f8-6570-444d-945a-c05a79819521"/>
+        <COMPID name="OutputStreamAppender" mc="Standard.Class" uid="b27ecc00-f5e3-4560-ab1b-2058fa71fa5d"/>
+        <COMPID name="PropertyDefinerBase" mc="Standard.Class" uid="ecb78b4d-6aa2-405f-a614-3e4175e134e9"/>
+        <COMPID name="UnsynchronizedAppenderBase" mc="Standard.Class" uid="03956812-79f4-4ce3-b5c8-2a99c2892f71"/>
+        <COMPID name="boolex" mc="Standard.Package" uid="fb3ad5fd-f833-47d4-bc22-81355f30592d"/>
+        <COMPID name="db" mc="Standard.Package" uid="da8c41e6-1486-4f49-bbbf-e2d15dbcf593"/>
+        <COMPID name="encoder" mc="Standard.Package" uid="579dc280-2461-403b-abdb-9bbd324f3a71"/>
+        <COMPID name="filter" mc="Standard.Package" uid="e3847dc4-562e-4e18-a159-5560dc828a99"/>
+        <COMPID name="helpers" mc="Standard.Package" uid="47e94268-c24a-4f0b-b998-aba7d6e65f86"/>
+        <COMPID name="html" mc="Standard.Package" uid="c993769e-2bd2-4996-8c45-6f068f6b86d7"/>
+        <COMPID name="joran" mc="Standard.Package" uid="d268d326-4382-4c77-b2d8-cce04b60231e"/>
+        <COMPID name="layout" mc="Standard.Package" uid="cdecc27b-89d2-47d0-80b4-03bd35e34fc9"/>
+        <COMPID name="net" mc="Standard.Package" uid="bd0d2a51-3332-4ab1-bad5-268f49322996"/>
+        <COMPID name="pattern" mc="Standard.Package" uid="3605a7d0-310e-4089-8253-1133b943c6de"/>
+        <COMPID name="property" mc="Standard.Package" uid="24d9a653-be53-4d57-87e4-da88c52172e7"/>
+        <COMPID name="read" mc="Standard.Package" uid="c47771dd-9bed-4816-8b72-b1654cc2c9f8"/>
+        <COMPID name="recovery" mc="Standard.Package" uid="abc745f2-51d8-4687-ab43-fa273f790abf"/>
+        <COMPID name="rolling" mc="Standard.Package" uid="5cf6d9b8-14a6-42a7-a7fc-248167842e42"/>
+        <COMPID name="sift" mc="Standard.Package" uid="db22db14-4229-4c4f-8998-b9bbcc8c21c1"/>
+        <COMPID name="spi" mc="Standard.Package" uid="4f0fac23-d4e0-4307-9071-277eca4f881d"/>
+        <COMPID name="status" mc="Standard.Package" uid="993e0097-9bc9-4c61-b087-9b4ec0e7828d"/>
+        <COMPID name="subst" mc="Standard.Package" uid="ba3661b1-19df-4900-89ba-7d08869302f6"/>
+        <COMPID name="util" mc="Standard.Package" uid="4cf41724-aa56-4a2c-a225-2a86ac089cbd"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

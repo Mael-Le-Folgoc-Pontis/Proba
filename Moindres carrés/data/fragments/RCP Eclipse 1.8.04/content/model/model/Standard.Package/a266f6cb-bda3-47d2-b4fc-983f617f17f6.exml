@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="type" version="4">
+  <OBJECT>
+    <ID name="type" mc="Standard.Package" uid="a266f6cb-bda3-47d2-b4fc-983f617f17f6"/>
+    <PID name="impl" mc="Standard.Package" uid="3cd8661b-0cc5-4119-876f-47b343da2975"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[type]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="XSDAnySimpleType" mc="Standard.Class" uid="c016335d-6e14-40c3-b8bb-8a9a0b36add6"/>
+        <COMPID name="XSDAnyURIType" mc="Standard.Class" uid="467d2e72-a2b5-4beb-88c6-b2f044d14b58"/>
+        <COMPID name="XSDBase64BinaryType" mc="Standard.Class" uid="c4b20fd8-5c1c-4486-8f69-a585cd2cabb2"/>
+        <COMPID name="XSDBooleanType" mc="Standard.Class" uid="ab8452b8-d513-4901-9d59-fb1112fc789b"/>
+        <COMPID name="XSDDateTimeType" mc="Standard.Class" uid="ab645cb4-904d-4808-afd6-02f613193b23"/>
+        <COMPID name="XSDDateType" mc="Standard.Class" uid="f3715b56-30ec-40b4-a8eb-fb1a47c7b726"/>
+        <COMPID name="XSDDecimalType" mc="Standard.Class" uid="a4b93e29-fff4-4bb7-8152-f8c48261d15e"/>
+        <COMPID name="XSDDoubleType" mc="Standard.Class" uid="8486579a-c13a-45aa-bb02-2c4ec525b702"/>
+        <COMPID name="XSDDurationType" mc="Standard.Class" uid="2d8e054b-9e5a-40fb-b222-053ffccc1690"/>
+        <COMPID name="XSDFloatType" mc="Standard.Class" uid="3122fddf-ce20-4292-b9a7-6881d497db83"/>
+        <COMPID name="XSDGDayType" mc="Standard.Class" uid="0ca08e34-6a61-4c9c-9db9-e8aac4d3d5da"/>
+        <COMPID name="XSDGMonthDayType" mc="Standard.Class" uid="b2db75d4-5c0c-4d3d-a83e-437a210fdf5f"/>
+        <COMPID name="XSDGMonthType" mc="Standard.Class" uid="bad3ba59-2a47-48b6-9006-8ee1cfcb8b81"/>
+        <COMPID name="XSDGYearMonthType" mc="Standard.Class" uid="21c12b95-98fb-41b3-ab45-c04a70aeb165"/>
+        <COMPID name="XSDGYearType" mc="Standard.Class" uid="3adf96ab-b630-4d8d-8e8a-1053199d8056"/>
+        <COMPID name="XSDHexBinaryType" mc="Standard.Class" uid="25ac4cbb-6dea-45fa-a7b1-f72969dab5f4"/>
+        <COMPID name="XSDNotationType" mc="Standard.Class" uid="e40173b0-6d59-4634-9eff-2712995094e1"/>
+        <COMPID name="XSDQNameType" mc="Standard.Class" uid="64f13560-d125-45f3-90f4-7bc412d56b6e"/>
+        <COMPID name="XSDTimeType" mc="Standard.Class" uid="9013f13d-1b29-4603-b6e4-d09fffcd88ec"/>
+        <COMPID name="XSDTypeRegister" mc="Standard.Class" uid="842ba97d-5fc7-4e31-b732-792af4e63c94"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

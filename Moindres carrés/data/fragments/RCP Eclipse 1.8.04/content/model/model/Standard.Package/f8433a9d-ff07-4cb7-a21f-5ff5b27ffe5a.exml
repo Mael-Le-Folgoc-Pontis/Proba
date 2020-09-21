@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ui" version="4">
+  <OBJECT>
+    <ID name="ui" mc="Standard.Package" uid="f8433a9d-ff07-4cb7-a21f-5ff5b27ffe5a"/>
+    <PID name="commons" mc="Standard.Package" uid="7a1d6d86-ba7e-4f55-b54c-a883ddc492f4"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[ui]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractColumnViewerSorter" mc="Standard.Class" uid="2d3ee5ea-026c-4a10-9298-528c1cc49be8"/>
+        <COMPID name="AbstractColumnViewerSupport" mc="Standard.Class" uid="8bec4e70-5311-4137-95e8-718fbc482550"/>
+        <COMPID name="ClipboardCopier" mc="Standard.Class" uid="197a366a-35c5-4b64-8aa7-ebef8a159da8"/>
+        <COMPID name="CommonImages" mc="Standard.Class" uid="ce2813d6-ae5b-44dc-be22-f5d21023d6d8"/>
+        <COMPID name="CommonUiUtil" mc="Standard.Class" uid="1ec54f79-66b2-4fc6-9b29-6975eb242cad"/>
+        <COMPID name="ControlListItem" mc="Standard.Class" uid="f210487c-740c-49cd-a130-1ed0c44cadfc"/>
+        <COMPID name="ControlListViewer" mc="Standard.Class" uid="382f1d7f-da81-46ab-bf72-169de965874b"/>
+        <COMPID name="FillWidthLayout" mc="Standard.Class" uid="ca8e2586-d2ad-4ab9-b522-839911d0c063"/>
+        <COMPID name="GradientCanvas" mc="Standard.Class" uid="e421c87b-cdc0-4e4f-b027-a738dddff932"/>
+        <COMPID name="GradientColors" mc="Standard.Class" uid="e273d16b-b7b7-47b0-9539-a5474a4d83bf"/>
+        <COMPID name="GradientToolTip" mc="Standard.Class" uid="3565d2bf-119c-4941-befc-775bb2550920"/>
+        <COMPID name="PlatformUiUtil" mc="Standard.Class" uid="2fbcca81-1df4-46cb-b54e-531899b2431e"/>
+        <COMPID name="ProgressContainer" mc="Standard.Class" uid="063fd591-009b-40f0-9bec-11e200d89c16"/>
+        <COMPID name="SelectionProviderAdapter" mc="Standard.Class" uid="f6ef2d3b-5a1a-41d5-8e5b-d137e3fe5811"/>
+        <COMPID name="ShellDragSupport" mc="Standard.Class" uid="387a57d4-58e9-43b5-8201-74efd0aecd4d"/>
+        <COMPID name="TableSorter" mc="Standard.Class" uid="8643f97f-8390-44a1-a20e-ef3f8f999765"/>
+        <COMPID name="TableViewerSupport" mc="Standard.Class" uid="878c50ab-ec26-4346-a3b2-0af6f20d86df"/>
+        <COMPID name="TreeSorter" mc="Standard.Class" uid="62d0f7e7-4fd7-404f-90a0-8e76766459c9"/>
+        <COMPID name="TreeViewerSupport" mc="Standard.Class" uid="21a84327-9357-4fe0-b6e4-f5f285b766da"/>
+        <COMPID name="actions" mc="Standard.Package" uid="989a82b2-bf37-4472-87d6-d4b4b8d5002c"/>
+        <COMPID name="compatibility" mc="Standard.Package" uid="20c208fe-c609-4b9c-925c-b287dadc4361"/>
+        <COMPID name="dialogs" mc="Standard.Package" uid="28ef76e1-e69d-4c8f-9608-3e0dfa2ad173"/>
+        <COMPID name="screenshots" mc="Standard.Package" uid="429f40da-57d4-47fc-8b29-1d57bb01f7b9"/>
+        <COMPID name="wizard" mc="Standard.Package" uid="ff4e45a0-116c-4bcb-a8da-aab6a5380958"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

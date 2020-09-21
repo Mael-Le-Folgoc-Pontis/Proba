@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="pom" version="4">
+  <OBJECT>
+    <ID name="pom" mc="Standard.Package" uid="c2faa0c6-adde-470a-9fde-26389e68a7bf"/>
+    <PID name="editor" mc="Standard.Package" uid="c6c3f1fd-4734-4ad2-a018-eb41555897e1"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[pom]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="DependenciesPage" mc="Standard.Class" uid="1a5e808e-847e-441b-80db-c4b09fb3a26e"/>
+        <COMPID name="DependencyTreePage" mc="Standard.Class" uid="45281d3c-7cd0-400a-bdb4-ede9600974b5"/>
+        <COMPID name="ElementValueProvider" mc="Standard.Class" uid="9d0974cf-fc5a-4e6d-a264-7daa1bd1d997"/>
+        <COMPID name="FormUtils" mc="Standard.Class" uid="22d11aa6-a64f-47bf-9d55-3650197e7180"/>
+        <COMPID name="IPomFileChangedListener" mc="Standard.Interface" uid="3ac438b3-b1ef-4049-ad54-56efccc48de7"/>
+        <COMPID name="Matcher" mc="Standard.Class" uid="6f6e6702-ad52-44c1-aaf6-902c071807a1"/>
+        <COMPID name="MavenPomEditor" mc="Standard.Class" uid="fedc4587-9cf3-4090-83e1-388bce910533"/>
+        <COMPID name="MavenPomEditorContributor" mc="Standard.Class" uid="f09e28d3-fea3-47e7-8cdf-f616dc0f11ac"/>
+        <COMPID name="MavenPomEditorPage" mc="Standard.Class" uid="2dd55c9b-b23b-4de7-8138-2966bc040320"/>
+        <COMPID name="MavenPomEditorPageFactory" mc="Standard.Class" uid="22581cfb-ed0a-4a0d-bf9f-516870dbcb47"/>
+        <COMPID name="OverviewPage" mc="Standard.Class" uid="3b07f6a2-9108-43ee-8065-dd223ea0b6a5"/>
+        <COMPID name="PropertiesSection" mc="Standard.Class" uid="c65d9da5-e8d2-4fea-83c4-91de8447e75c"/>
+        <COMPID name="ScopeArtifactFilter" mc="Standard.Class" uid="cdacfb9d-d03d-457e-91d5-a1edf521137f"/>
+        <COMPID name="SearchControl" mc="Standard.Class" uid="f768635f-82dc-45fe-b905-ede6fe617993"/>
+        <COMPID name="SearchMatcher" mc="Standard.Class" uid="71d46379-d556-41b4-a538-099bb5608ee7"/>
+        <COMPID name="ValueProvider" mc="Standard.Class" uid="b638164b-54eb-4b2c-ae64-0d4499e0916b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

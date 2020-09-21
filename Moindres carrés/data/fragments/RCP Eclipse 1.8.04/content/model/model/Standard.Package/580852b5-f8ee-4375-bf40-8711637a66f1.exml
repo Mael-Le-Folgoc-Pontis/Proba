@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="impl" version="4">
+  <OBJECT>
+    <ID name="impl" mc="Standard.Package" uid="580852b5-f8ee-4375-bf40-8711637a66f1"/>
+    <PID name="style" mc="Standard.Package" uid="76e062c1-4677-41cb-92e8-0dd36d9a9ad2"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[impl]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="BooleanStylePropertyImpl" mc="Standard.Class" uid="771ffb71-5e49-4d32-bbbd-fac1fef0a207"/>
+        <COMPID name="BooleanUsingEqualsStylePropertyImpl" mc="Standard.Class" uid="863eec45-83d3-488a-9c67-e6118814bd32"/>
+        <COMPID name="EnumerationStylePropertyImpl" mc="Standard.Class" uid="eaeba968-e03c-443f-a989-9bf0759d6ade"/>
+        <COMPID name="MacroStylePropertyImpl" mc="Standard.Class" uid="c6fbf33e-9134-4a56-86bc-2000f37bc738"/>
+        <COMPID name="MacroUsingEqualsStylePropertyImpl" mc="Standard.Class" uid="2ac10013-6d9d-447f-8194-f3bd6df7ed10"/>
+        <COMPID name="SelectionStylePropertyImpl" mc="Standard.Class" uid="c8ffe024-58bf-4a28-8368-06e4187be3f9"/>
+        <COMPID name="SelectionUsingEqualsStylePropertyImpl" mc="Standard.Class" uid="85999452-a640-450d-9861-6911f68b8ad0"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

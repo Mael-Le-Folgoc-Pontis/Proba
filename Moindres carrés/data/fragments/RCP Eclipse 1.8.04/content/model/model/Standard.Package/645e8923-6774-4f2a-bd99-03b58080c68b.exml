@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="util" version="4">
+  <OBJECT>
+    <ID name="util" mc="Standard.Package" uid="645e8923-6774-4f2a-bd99-03b58080c68b"/>
+    <PID name="core" mc="Standard.Package" uid="35226573-924b-4e65-81e5-991f38c8f92d"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[util]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ContributorBlackList" mc="Standard.Class" uid="5bfbe2b0-1a48-4858-b0dc-2cc6495a32c4"/>
+        <COMPID name="KeyringMigrator" mc="Standard.Class" uid="f1dd9a4d-89c2-4280-891d-531e1dcf3e3c"/>
+        <COMPID name="RepositoryConnectorExtensionReader" mc="Standard.Class" uid="fdebc012-a0f9-4f91-b338-bc2e61a9dd8f"/>
+        <COMPID name="RepositoryConnectorLoader" mc="Standard.Class" uid="19df2253-1ee5-48fb-b600-1b9df5d5f62e"/>
+        <COMPID name="RepositoryTemplateExtensionReader" mc="Standard.Class" uid="f04eae9f-62be-4f6a-8451-1211d228c776"/>
+        <COMPID name="TaskRepositoryKeyringMigrator" mc="Standard.Class" uid="05a68668-89a8-4223-86a0-4e638138a542"/>
+        <COMPID name="TaskRepositorySecureStoreMigrator" mc="Standard.Class" uid="d210b701-c9c9-466d-8afe-0e9647f566d3"/>
+        <COMPID name="TasksCoreExtensionReader" mc="Standard.Class" uid="391f6b25-d0ce-4c72-a349-ebbe4ec2997c"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

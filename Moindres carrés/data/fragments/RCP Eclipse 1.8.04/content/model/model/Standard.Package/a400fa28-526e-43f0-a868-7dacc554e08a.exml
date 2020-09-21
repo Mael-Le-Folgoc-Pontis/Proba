@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="util" version="4">
+  <OBJECT>
+    <ID name="util" mc="Standard.Package" uid="a400fa28-526e-43f0-a868-7dacc554e08a"/>
+    <PID name="setup" mc="Standard.Package" uid="6a6ae1bc-e3c1-4aa8-ad3a-67deb1afa397"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[util]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="DownloadUtil" mc="Standard.Class" uid="d2b7085c-65ab-457e-8cd6-628933ecb2d5"/>
+        <COMPID name="FileUtil" mc="Standard.Class" uid="4f4f5a1b-fa42-411c-ab5c-76b870d4b90e"/>
+        <COMPID name="SetupAdapterFactory" mc="Standard.Class" uid="2d155c74-7cc7-4727-a594-d25410b53128"/>
+        <COMPID name="SetupSwitch" mc="Standard.Class" uid="4d444e4a-d703-49ea-81c3-e3508db81a5f"/>
+        <COMPID name="SetupUtil" mc="Standard.Class" uid="e308cc13-54e7-45af-9179-655cc0460f49"/>
+        <COMPID name="StringExpander" mc="Standard.Class" uid="b9d7f66e-b5b3-4933-b2a9-ea7c6cd8edca"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

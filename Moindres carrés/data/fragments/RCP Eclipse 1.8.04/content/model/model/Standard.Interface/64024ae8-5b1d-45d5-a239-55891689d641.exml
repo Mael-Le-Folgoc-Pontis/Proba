@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ITasksCoreConstants" version="4">
+  <OBJECT>
+    <ID name="ITasksCoreConstants" mc="Standard.Interface" uid="64024ae8-5b1d-45d5-a239-55891689d641"/>
+    <PID name="core" mc="Standard.Package" uid="35226573-924b-4e65-81e5-991f38c8f92d"/>
+    <ATTRIBUTES>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">true</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[ITasksCoreConstants]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="MutexSchedulingRule" mc="Standard.Class" uid="e29997c7-91ed-4d94-bbbf-09c06257a834"/>
+        <COMPID name="ObjectSchedulingRule" mc="Standard.Class" uid="711c8bc9-a87b-46bb-a9d6-70a8a19e537a"/>
+        <COMPID name="RootSchedulingRule" mc="Standard.Class" uid="49c072f8-a1f4-4bc6-ab89-d4329e19d26b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaInterface" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0267-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

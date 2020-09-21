@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="servlet" version="4">
+  <OBJECT>
+    <ID name="servlet" mc="Standard.Package" uid="001c2e42-0bcc-112e-9071-001e4fea2d8b"/>
+    <PID name="jetty" mc="Standard.Package" uid="00065040-0bcc-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[servlet]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="BaseHolder" mc="Standard.Class" uid="819c453e-4b48-4e71-8f1c-d96ce5667c96"/>
+        <COMPID name="DefaultServlet" mc="Standard.Class" uid="001c3428-0bcc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ErrorPageErrorHandler" mc="Standard.Class" uid="001c3a7c-0bcc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FilterHolder" mc="Standard.Class" uid="001c467a-0bcc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FilterMapping" mc="Standard.Class" uid="001c58f4-0bcc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Holder" mc="Standard.Class" uid="001c5fb6-0bcc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Invoker" mc="Standard.Class" uid="001c79c4-0bcc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JspPropertyGroupServlet" mc="Standard.Class" uid="dfd1144c-296f-4fc2-aa56-e7f953e6b2bb"/>
+        <COMPID name="ListenerHolder" mc="Standard.Class" uid="c5c31071-5001-4962-aaa0-93e428527f9e"/>
+        <COMPID name="NoJspServlet" mc="Standard.Class" uid="001c8694-0bcc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ServletContextHandler" mc="Standard.Class" uid="001c8e46-0bcc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ServletHandler" mc="Standard.Class" uid="001cccb2-0bcc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ServletHolder" mc="Standard.Class" uid="001ce0a8-0bcc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ServletMapping" mc="Standard.Class" uid="001cfa8e-0bcc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ServletTester" mc="Standard.Class" uid="0613f9c2-2541-4cc5-b7f0-120c88c9b4f0"/>
+        <COMPID name="StatisticsServlet" mc="Standard.Class" uid="001d02b8-0bcc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="jmx" mc="Standard.Package" uid="001dc9be-0bcc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="listener" mc="Standard.Package" uid="001ea852-0bcc-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="code" version="4">
+  <OBJECT>
+    <ID name="code" mc="Standard.Package" uid="002304ba-0bcb-112e-9071-001e4fea2d8b"/>
+    <PID name="refactoring" mc="Standard.Package" uid="00180c90-0bcb-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[code]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ExtractMethodInputPage" mc="Standard.Class" uid="00230a96-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ExtractMethodWizard" mc="Standard.Class" uid="00231108-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="InlineMethodInputPage" mc="Standard.Class" uid="0023177a-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="InlineMethodWizard" mc="Standard.Class" uid="00231de2-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ReplaceInvocationsInputPage" mc="Standard.Class" uid="002324ae-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ReplaceInvocationsWizard" mc="Standard.Class" uid="00232bb6-0bcb-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

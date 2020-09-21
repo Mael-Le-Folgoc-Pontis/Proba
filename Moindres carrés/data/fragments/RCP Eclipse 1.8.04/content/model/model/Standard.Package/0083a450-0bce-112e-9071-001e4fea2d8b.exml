@@ -1,0 +1,69 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="refactoring" version="4">
+  <OBJECT>
+    <ID name="refactoring" mc="Standard.Package" uid="0083a450-0bce-112e-9071-001e4fea2d8b"/>
+    <PID name="core" mc="Standard.Package" uid="0082f744-0bce-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[refactoring]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="CategorizedTextEditGroup" mc="Standard.Class" uid="0083aaae-0bce-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Change" mc="Standard.Class" uid="0083b152-0bce-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ChangeDescriptor" mc="Standard.Class" uid="0083b83c-0bce-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CheckConditionsOperation" mc="Standard.Class" uid="0083beae-0bce-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CompositeChange" mc="Standard.Class" uid="0083c5ac-0bce-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ContentStamp" mc="Standard.Class" uid="0083cce6-0bce-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CreateChangeOperation" mc="Standard.Class" uid="0083d3f8-0bce-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DocumentChange" mc="Standard.Class" uid="0083db6e-0bce-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FileStatusContext" mc="Standard.Class" uid="0083e316-0bce-112e-9071-001e4fea2d8b"/>
+        <COMPID name="GroupCategory" mc="Standard.Class" uid="0083eabe-0bce-112e-9071-001e4fea2d8b"/>
+        <COMPID name="GroupCategorySet" mc="Standard.Class" uid="0083f2ca-0bce-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IRefactoringCoreStatusCodes" mc="Standard.Interface" uid="0083f8e2-0bce-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IRefactoringStatusEntryComparator" mc="Standard.Interface" uid="0083ff72-0bce-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IResourceMapper" mc="Standard.Interface" uid="00840652-0bce-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IUndoManager" mc="Standard.Interface" uid="00840d5a-0bce-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IUndoManagerListener" mc="Standard.Interface" uid="0084148a-0bce-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IValidationCheckResultQuery" mc="Standard.Interface" uid="00841bce-0bce-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IValidationCheckResultQueryFactory" mc="Standard.Interface" uid="0084236c-0bce-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MultiStateTextFileChange" mc="Standard.Class" uid="00842c18-0bce-112e-9071-001e4fea2d8b"/>
+        <COMPID name="NullChange" mc="Standard.Class" uid="008472ae-0bce-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PerformChangeOperation" mc="Standard.Class" uid="00847b6e-0bce-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PerformRefactoringHistoryOperation" mc="Standard.Class" uid="00848456-0bce-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PerformRefactoringOperation" mc="Standard.Class" uid="00848d70-0bce-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Refactoring" mc="Standard.Class" uid="0084968a-0bce-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RefactoringChangeDescriptor" mc="Standard.Class" uid="0084a008-0bce-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RefactoringContext" mc="Standard.Class" uid="0084a9cc-0bce-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RefactoringContribution" mc="Standard.Class" uid="0084b37c-0bce-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RefactoringCore" mc="Standard.Class" uid="0084bdb8-0bce-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RefactoringDescriptor" mc="Standard.Class" uid="0084e39c-0bce-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RefactoringDescriptorProxy" mc="Standard.Class" uid="0084ee3c-0bce-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RefactoringSessionDescriptor" mc="Standard.Class" uid="0084f936-0bce-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RefactoringStatus" mc="Standard.Class" uid="0085043a-0bce-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RefactoringStatusContext" mc="Standard.Class" uid="00850f3e-0bce-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RefactoringStatusEntry" mc="Standard.Class" uid="00851a9c-0bce-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RefactoringTickProvider" mc="Standard.Class" uid="00852618-0bce-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TextChange" mc="Standard.Class" uid="008531a8-0bce-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TextEditBasedChange" mc="Standard.Class" uid="00853d92-0bce-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TextEditBasedChangeGroup" mc="Standard.Class" uid="008564fc-0bce-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TextEditChangeGroup" mc="Standard.Class" uid="00857168-0bce-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TextFileChange" mc="Standard.Class" uid="00857e10-0bce-112e-9071-001e4fea2d8b"/>
+        <COMPID name="UndoManagerAdapter" mc="Standard.Class" uid="00858b80-0bce-112e-9071-001e4fea2d8b"/>
+        <COMPID name="UndoTextFileChange" mc="Standard.Class" uid="0085983c-0bce-112e-9071-001e4fea2d8b"/>
+        <COMPID name="history" mc="Standard.Package" uid="00865600-0bce-112e-9071-001e4fea2d8b"/>
+        <COMPID name="model" mc="Standard.Package" uid="008742a4-0bce-112e-9071-001e4fea2d8b"/>
+        <COMPID name="participants" mc="Standard.Package" uid="00881fc6-0bce-112e-9071-001e4fea2d8b"/>
+        <COMPID name="resource" mc="Standard.Package" uid="008a1ad8-0bce-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

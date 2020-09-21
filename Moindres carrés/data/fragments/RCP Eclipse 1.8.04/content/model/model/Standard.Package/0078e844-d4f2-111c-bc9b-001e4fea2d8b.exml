@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="processing" version="4">
+  <OBJECT>
+    <ID name="processing" mc="Standard.Package" uid="0078e844-d4f2-111c-bc9b-001e4fea2d8b"/>
+    <PID name="repository" mc="Standard.Package" uid="007793d6-d4f2-111c-bc9b-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[processing]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Messages" mc="Standard.Class" uid="0078f3de-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="ProcessingStep" mc="Standard.Class" uid="00795716-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="ProcessingStepHandler" mc="Standard.Class" uid="00791e68-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="ZipVerifierStep" mc="Standard.Class" uid="0079091e-d4f2-111c-bc9b-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

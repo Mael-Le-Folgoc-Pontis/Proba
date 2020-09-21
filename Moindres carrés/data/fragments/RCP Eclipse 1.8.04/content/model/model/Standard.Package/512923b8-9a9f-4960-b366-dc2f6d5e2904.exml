@@ -1,0 +1,58 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="broadcast" version="4">
+  <OBJECT>
+    <ID name="broadcast" mc="Standard.Package" uid="512923b8-9a9f-4960-b366-dc2f6d5e2904"/>
+    <PID name="model" mc="Standard.Package" uid="c286e5a9-2d7d-405c-9bdd-cd4596b38110"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[broadcast]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="BroadcastGroup" mc="Standard.Class" uid="fb8741f3-1418-4159-94b9-5e40070fcd40"/>
+        <COMPID name="BroadcastSupport" mc="Standard.Class" uid="c4809280-6386-42fc-9699-50f593f9bafe"/>
+        <COMPID name="DisplayEventListener" mc="Standard.Class" uid="1f34b377-4cb6-4b0c-8f5f-5e9e9af03639"/>
+        <COMPID name="EditorActivatedListener" mc="Standard.Interface" uid="6d7d934b-766b-4353-b7d2-9d2a2734e4f5"/>
+        <COMPID name="EditorActivatedRequest" mc="Standard.Class" uid="6c8f2a38-f00e-42ec-a6b4-00603262fe3b"/>
+        <COMPID name="EvaluationEventListener" mc="Standard.Class" uid="706088c4-0732-40d3-8205-0cfef448840d"/>
+        <COMPID name="ExecutionFlowEnterFrame" mc="Standard.Interface" uid="68289cf5-df4c-48fb-935a-3b00283d4871"/>
+        <COMPID name="GenericPropertyGetValue" mc="Standard.Interface" uid="1d88900b-a946-4328-9ebf-474d72d9615f"/>
+        <COMPID name="GenericPropertyGetValueEx" mc="Standard.Interface" uid="c7f2ab77-6b9e-43f1-955f-aa08a083616e"/>
+        <COMPID name="GenericPropertySetValue" mc="Standard.Interface" uid="f4573dca-a6e2-42ac-b29c-49c282b3bf31"/>
+        <COMPID name="JavaEventListener" mc="Standard.Class" uid="8ca8db06-b347-4339-8f1a-60ca99f4b0fc"/>
+        <COMPID name="JavaInfoAddProperties" mc="Standard.Interface" uid="daeaaf28-c2db-4a5e-8fef-b1cf9cd62238"/>
+        <COMPID name="JavaInfoChildBeforeAssociation" mc="Standard.Class" uid="190a4862-12f0-4bb6-8fa0-ed424751c6c7"/>
+        <COMPID name="JavaInfoEventListeners" mc="Standard.Interface" uid="55eac837-1e59-44a7-a22d-d4421fe9013e"/>
+        <COMPID name="JavaInfoEventOpen" mc="Standard.Interface" uid="d27e5404-38fd-4982-ace4-8f26b3fd5f83"/>
+        <COMPID name="JavaInfoMethodAssociationOnParse" mc="Standard.Interface" uid="86a25dc8-ccc6-482a-96a6-ceaed3bdec2f"/>
+        <COMPID name="JavaInfoSetAssociationBefore" mc="Standard.Interface" uid="24779e1d-eb7a-4bd1-b78a-ee80c3a66c5e"/>
+        <COMPID name="JavaInfoSetObjectAfter" mc="Standard.Interface" uid="2ff5e4c8-61dd-457e-81e7-f6c0f24af3db"/>
+        <COMPID name="JavaInfoSetVariable" mc="Standard.Interface" uid="bf25f62b-938f-4edb-aa47-0f5d9b3cb662"/>
+        <COMPID name="JavaInfoTreeAlmostComplete" mc="Standard.Interface" uid="a623d87d-2515-4f18-9e40-0b4cf9e8a64a"/>
+        <COMPID name="JavaInfosetObjectBefore" mc="Standard.Interface" uid="24f10db7-895b-420b-8ac9-8a4bd115bd62"/>
+        <COMPID name="ObjectEventListener" mc="Standard.Class" uid="8ff43f48-e205-4d50-9e85-f2d6ce8616f9"/>
+        <COMPID name="ObjectInfoAddProperties" mc="Standard.Interface" uid="a40c1bc6-80d8-4740-a7db-f4ff338ea8bb"/>
+        <COMPID name="ObjectInfoAllProperties" mc="Standard.Interface" uid="9cc7390e-3c7f-4cac-8af6-f315ad5a2d81"/>
+        <COMPID name="ObjectInfoChildAddAfter" mc="Standard.Interface" uid="99b06915-212d-42a7-949b-060506ededa3"/>
+        <COMPID name="ObjectInfoChildAddBefore" mc="Standard.Interface" uid="042c1db9-d938-40ed-9de5-39ba4defb1a0"/>
+        <COMPID name="ObjectInfoChildGraphical" mc="Standard.Interface" uid="db218aa4-ca2d-4489-adba-38fa987bb6f8"/>
+        <COMPID name="ObjectInfoChildTree" mc="Standard.Interface" uid="2fe88ef0-da27-40be-ac2a-cbf8099d0d8b"/>
+        <COMPID name="ObjectInfoChildrenGraphical" mc="Standard.Interface" uid="1f76dd7c-bb12-4c1b-807b-4c5287c9e986"/>
+        <COMPID name="ObjectInfoChildrenTree" mc="Standard.Interface" uid="90331880-a4ac-4207-8b35-1926861f4023"/>
+        <COMPID name="ObjectInfoDeactivePropertyEditor" mc="Standard.Interface" uid="6cfb2d4d-c175-4e71-9240-7b263e6d07f9"/>
+        <COMPID name="ObjectInfoDelete" mc="Standard.Class" uid="abdeebf6-cfc6-4bc8-94de-72eb1e39c7d6"/>
+        <COMPID name="ObjectInfoPresentationDecorateIcon" mc="Standard.Interface" uid="303d096c-8e1d-41a8-aecc-1e366a3a1cc9"/>
+        <COMPID name="ObjectInfoPresentationDecorateText" mc="Standard.Interface" uid="fb39a3aa-127d-4c43-8554-9a33ed5d2de2"/>
+        <COMPID name="ObjectInfoTreeComplete" mc="Standard.Interface" uid="eebfcd1b-2dab-4274-bdd1-2185b5502439"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

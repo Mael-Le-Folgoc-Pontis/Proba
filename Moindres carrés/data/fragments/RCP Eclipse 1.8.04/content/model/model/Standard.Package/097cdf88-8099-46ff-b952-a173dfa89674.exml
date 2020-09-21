@@ -1,0 +1,52 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="cache" version="4">
+  <OBJECT>
+    <ID name="cache" mc="Standard.Package" uid="097cdf88-8099-46ff-b952-a173dfa89674"/>
+    <PID name="client" mc="Standard.Package" uid="139da6c5-3b11-48bb-99e5-c2f3faab23d5"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[cache]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <OBJECT>
+          <ID name="CacheResponseStatus" mc="Standard.Enumeration" uid="b1dcf938-f585-4657-ac52-3160064e85ef"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[CacheResponseStatus]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Extension">
+              <FOREIGNID name="JavaEnumeration" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0262-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <COMPID name="HeaderConstants" mc="Standard.Class" uid="1fe0c97a-dd6f-4431-a6e3-1fe76ee10a96"/>
+        <COMPID name="HttpCacheContext" mc="Standard.Class" uid="0724c567-fd35-4392-8e2f-e8dc8ab3015f"/>
+        <COMPID name="HttpCacheEntry" mc="Standard.Class" uid="4b6d137a-f8ae-4f5a-a5ce-beffe9e99bf3"/>
+        <COMPID name="HttpCacheEntrySerializationException" mc="Standard.Class" uid="af502412-2fc1-4691-8048-d6ac9c52ee28"/>
+        <COMPID name="HttpCacheEntrySerializer" mc="Standard.Interface" uid="4393cdfa-3a10-4da7-87b1-5398c54f9722"/>
+        <COMPID name="HttpCacheInvalidator" mc="Standard.Interface" uid="a53e6cdc-5171-4120-b1d1-1f52043af076"/>
+        <COMPID name="HttpCacheStorage" mc="Standard.Interface" uid="2593a7a0-01b6-4b36-a383-5019ba846d52"/>
+        <COMPID name="HttpCacheUpdateCallback" mc="Standard.Interface" uid="fedd448e-f55d-4756-bed3-14a73aeba620"/>
+        <COMPID name="HttpCacheUpdateException" mc="Standard.Class" uid="a5c1f40e-3c5f-432d-8207-ccb62998302d"/>
+        <COMPID name="InputLimit" mc="Standard.Class" uid="d6e9bf40-5626-4d23-8716-8efa95df6f96"/>
+        <COMPID name="Resource" mc="Standard.Interface" uid="87e0658c-2b69-4b57-b405-d025d412cb50"/>
+        <COMPID name="ResourceFactory" mc="Standard.Interface" uid="789ec242-1749-43fe-b598-d037121416e5"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

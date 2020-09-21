@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="classpath" version="4">
+  <OBJECT>
+    <ID name="classpath" mc="Standard.Package" uid="fe607185-abc8-4539-b823-ca570754d7db"/>
+    <PID name="loader" mc="Standard.Package" uid="0001b06c-21b0-1fb1-8a9e-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[classpath]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ClasspathEntry" mc="Standard.Class" uid="e4ff4b3e-45c3-4996-a418-4bc1bc4b254f"/>
+        <COMPID name="ClasspathManager" mc="Standard.Class" uid="3aeb2b7a-f45e-46b6-9c20-4aae7b63265c"/>
+        <COMPID name="FragmentClasspath" mc="Standard.Class" uid="1acb9173-c47e-4e23-8136-30948891cfa2"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

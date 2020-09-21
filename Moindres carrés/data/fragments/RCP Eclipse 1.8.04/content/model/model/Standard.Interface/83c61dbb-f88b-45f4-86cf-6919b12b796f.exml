@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="RequestProcessorFactoryFactory" version="4">
+  <OBJECT>
+    <ID name="RequestProcessorFactoryFactory" mc="Standard.Interface" uid="83c61dbb-f88b-45f4-86cf-6919b12b796f"/>
+    <PID name="server" mc="Standard.Package" uid="fdb7870b-49c3-4aa6-80a3-c12a9e87de92"/>
+    <ATTRIBUTES>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">true</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[RequestProcessorFactoryFactory]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="RequestProcessorFactory" mc="Standard.Interface" uid="5761e3f5-586e-42d7-b7e5-8065a73700b7"/>
+        <COMPID name="RequestSpecificProcessorFactoryFactory" mc="Standard.Class" uid="14146923-10a2-44ff-980c-474d108efd94"/>
+        <COMPID name="StatelessProcessorFactoryFactory" mc="Standard.Class" uid="9d520b7f-8d1a-4851-a7d7-b7cf16157912"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaInterface" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0267-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

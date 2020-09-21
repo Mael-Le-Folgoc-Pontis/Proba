@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="style" version="4">
+  <OBJECT>
+    <ID name="style" mc="Standard.Package" uid="358e4a54-e413-4afc-bd54-bfbfb13c4084"/>
+    <PID name="internal" mc="Standard.Package" uid="8de19d9c-309f-4c7f-968c-e82cba2f8859"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[style]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="SemanticHighlightingManager" mc="Standard.Class" uid="2ba67a2e-c6db-488f-b774-fcfff549f40a"/>
+        <COMPID name="SemanticHighlightingPresenter" mc="Standard.Class" uid="f255fee5-4780-4a2a-874f-0c14d3e44918"/>
+        <COMPID name="SemanticHighlightingReconciler" mc="Standard.Class" uid="53cf1759-56e5-4cdb-95c5-9a771f9d421b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

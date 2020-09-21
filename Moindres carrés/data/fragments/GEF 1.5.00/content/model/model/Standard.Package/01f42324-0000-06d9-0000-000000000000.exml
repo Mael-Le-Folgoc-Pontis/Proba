@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="editpolicies" version="4">
+  <OBJECT>
+    <ID name="editpolicies" mc="Standard.Package" uid="01f42324-0000-06d9-0000-000000000000"/>
+    <PID name="gef" mc="Standard.Package" uid="01f42324-0000-0594-0000-000000000000"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[editpolicies]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractEditPolicy" mc="Standard.Class" uid="01f42324-0000-06db-0000-000000000000"/>
+        <COMPID name="AbstractTreeContainerEditPolicy" mc="Standard.Class" uid="01f42324-0000-0718-0000-000000000000"/>
+        <COMPID name="BendpointEditPolicy" mc="Standard.Class" uid="01f42324-0000-071f-0000-000000000000"/>
+        <COMPID name="ComponentEditPolicy" mc="Standard.Class" uid="01f42324-0000-06f0-0000-000000000000"/>
+        <COMPID name="ConnectionEditPolicy" mc="Standard.Class" uid="01f42324-0000-06da-0000-000000000000"/>
+        <COMPID name="ConnectionEndpointEditPolicy" mc="Standard.Class" uid="01f42324-0000-073b-0000-000000000000"/>
+        <COMPID name="ConstrainedLayoutEditPolicy" mc="Standard.Class" uid="01f42324-0000-073a-0000-000000000000"/>
+        <COMPID name="ContainerEditPolicy" mc="Standard.Class" uid="01f42324-0000-0723-0000-000000000000"/>
+        <COMPID name="DirectEditPolicy" mc="Standard.Class" uid="01f42324-0000-06f7-0000-000000000000"/>
+        <COMPID name="FeedbackHelper" mc="Standard.Class" uid="01f42324-0000-0720-0000-000000000000"/>
+        <COMPID name="FlowLayoutEditPolicy" mc="Standard.Class" uid="01f42324-0000-074c-0000-000000000000"/>
+        <COMPID name="GraphicalEditPolicy" mc="Standard.Class" uid="01f42324-0000-06f8-0000-000000000000"/>
+        <COMPID name="GraphicalNodeEditPolicy" mc="Standard.Class" uid="01f42324-0000-0739-0000-000000000000"/>
+        <COMPID name="LayoutEditPolicy" mc="Standard.Class" uid="01f42324-0000-071d-0000-000000000000"/>
+        <COMPID name="NonResizableEditPolicy" mc="Standard.Class" uid="01f42324-0000-0717-0000-000000000000"/>
+        <COMPID name="OrderedLayoutEditPolicy" mc="Standard.Class" uid="01f42324-0000-0721-0000-000000000000"/>
+        <COMPID name="ResizableEditPolicy" mc="Standard.Class" uid="01f42324-0000-0722-0000-000000000000"/>
+        <COMPID name="RootComponentEditPolicy" mc="Standard.Class" uid="01f42324-0000-06ef-0000-000000000000"/>
+        <COMPID name="ScrollableSelectionFeedbackEditPolicy" mc="Standard.Class" uid="005c367c-f997-1088-84ae-001e4fea2d8b"/>
+        <COMPID name="SelectionEditPolicy" mc="Standard.Class" uid="01f42324-0000-074a-0000-000000000000"/>
+        <COMPID name="SelectionHandlesEditPolicy" mc="Standard.Class" uid="01f42324-0000-074d-0000-000000000000"/>
+        <COMPID name="SnapFeedbackPolicy" mc="Standard.Class" uid="01f42324-0000-074b-0000-000000000000"/>
+        <COMPID name="StrokePointList" mc="Standard.Class" uid="01f42324-0000-071e-0000-000000000000"/>
+        <COMPID name="TreeContainerEditPolicy" mc="Standard.Class" uid="01f42324-0000-0719-0000-000000000000"/>
+        <COMPID name="XYLayoutEditPolicy" mc="Standard.Class" uid="01f42324-0000-073c-0000-000000000000"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

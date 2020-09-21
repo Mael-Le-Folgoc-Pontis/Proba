@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="util" version="4">
+  <OBJECT>
+    <ID name="util" mc="Standard.Package" uid="1f33d072-3ada-41f2-971c-86c678bbd9db"/>
+    <PID name="jayes" mc="Standard.Package" uid="9bbbc226-2719-4a18-b1ed-a2f7004d0413"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[util]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="BayesNodeUtil" mc="Standard.Class" uid="bb8a86f0-1aeb-4fee-bb84-8c34179a0eff"/>
+        <COMPID name="Graph" mc="Standard.Class" uid="2da01955-2c83-495a-aacc-de4ef9b8a22f"/>
+        <COMPID name="MathUtils" mc="Standard.Class" uid="e61b27e1-2829-444e-9224-446bdd279d84"/>
+        <COMPID name="NumericalInstabilityException" mc="Standard.Class" uid="11646944-0c98-47ce-b83f-c3d1b1a08940"/>
+        <COMPID name="OrderIgnoringPair" mc="Standard.Class" uid="de6b045b-44b7-42af-83e6-13310cc3a947"/>
+        <COMPID name="Pair" mc="Standard.Class" uid="d895b026-fb96-45f2-9f57-f3b85189da8a"/>
+        <COMPID name="sharing" mc="Standard.Package" uid="8b7edbd9-d006-4a9f-a1ae-944aa25ec06b"/>
+        <COMPID name="triangulation" mc="Standard.Package" uid="01acb1c7-5b9a-41e6-b144-fb4304aba224"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

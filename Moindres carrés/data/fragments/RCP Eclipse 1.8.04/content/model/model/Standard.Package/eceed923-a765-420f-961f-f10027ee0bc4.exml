@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="validator" version="4">
+  <OBJECT>
+    <ID name="validator" mc="Standard.Package" uid="eceed923-a765-420f-961f-f10027ee0bc4"/>
+    <PID name="junit" mc="Standard.Package" uid="000a5ad2-0bdb-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[validator]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AnnotationValidator" mc="Standard.Class" uid="33292d6c-08b5-4973-8522-c1a2e3e5613e"/>
+        <COMPID name="AnnotationValidatorFactory" mc="Standard.Class" uid="a221b346-1f29-47b7-ac03-7979e002c412"/>
+        <COMPID name="AnnotationsValidator" mc="Standard.Class" uid="9bb61a4d-a6eb-4cd0-812f-05a4f024f1bc"/>
+        <COMPID name="PublicClassValidator" mc="Standard.Class" uid="6fdd5b87-69ee-417d-8134-cf1a67ed4ce7"/>
+        <COMPID name="TestClassValidator" mc="Standard.Interface" uid="1246cba0-1b1d-42ed-a5e8-605019319b8c"/>
+        <COMPID name="ValidateWith" mc="Standard.Class" uid="37654852-aafe-4baf-a903-b98a58296b2c"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

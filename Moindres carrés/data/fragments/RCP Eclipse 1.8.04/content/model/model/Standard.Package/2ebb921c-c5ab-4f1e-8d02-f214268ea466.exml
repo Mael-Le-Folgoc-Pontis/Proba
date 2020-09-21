@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="datatype" version="4">
+  <OBJECT>
+    <ID name="datatype" mc="Standard.Package" uid="2ebb921c-c5ab-4f1e-8d02-f214268ea466"/>
+    <PID name="dom4j" mc="Standard.Package" uid="eff6051a-f8fa-491f-aac6-6e4ed7ac354f"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[datatype]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="DatatypeAttribute" mc="Standard.Class" uid="8b863e02-57fc-42b9-a9d8-46908d7d079d"/>
+        <COMPID name="DatatypeDocumentFactory" mc="Standard.Class" uid="81b0573c-6fe9-4f8c-a566-f27e8fd8af3e"/>
+        <COMPID name="DatatypeElement" mc="Standard.Class" uid="2ef823cd-5b9b-4322-b6a5-7d99c99056c5"/>
+        <COMPID name="DatatypeElementFactory" mc="Standard.Class" uid="1523bfd6-9e9c-49ed-bc81-2ae6ef437f06"/>
+        <COMPID name="InvalidSchemaException" mc="Standard.Class" uid="5f76dddd-b314-495c-944c-123847098d5a"/>
+        <COMPID name="NamedTypeResolver" mc="Standard.Class" uid="f9eaadf0-f10c-49d4-87b4-927f94976d3f"/>
+        <COMPID name="SchemaParser" mc="Standard.Class" uid="f7098dd0-ab69-4705-8a82-e4d0db049551"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

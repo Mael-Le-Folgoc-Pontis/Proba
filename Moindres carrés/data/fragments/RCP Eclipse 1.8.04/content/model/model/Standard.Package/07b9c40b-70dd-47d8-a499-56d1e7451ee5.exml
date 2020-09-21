@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="internal" version="4">
+  <OBJECT>
+    <ID name="internal" mc="Standard.Package" uid="07b9c40b-70dd-47d8-a499-56d1e7451ee5"/>
+    <PID name="mylyn" mc="Standard.Package" uid="514c24cd-dfd6-4cf0-95dc-3b2cbafcc2a7"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[internal]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="bugzilla" mc="Standard.Package" uid="182c2885-72bb-409b-b705-7da97119000a"/>
+        <COMPID name="builds" mc="Standard.Package" uid="d50bfb8a-df3f-4573-b1c7-88151070858c"/>
+        <COMPID name="commons" mc="Standard.Package" uid="b6e147f5-e463-4dab-9dfe-8ee79bc39421"/>
+        <COMPID name="context" mc="Standard.Package" uid="bfeda6c2-f3a8-4047-b948-853f3bbcf019"/>
+        <COMPID name="debug" mc="Standard.Package" uid="d747e6bb-5b9d-4a39-b590-7f23f1b2347f"/>
+        <COMPID name="discovery" mc="Standard.Package" uid="bdc88cb9-ef3d-45c1-8624-f4197803caa3"/>
+        <COMPID name="git" mc="Standard.Package" uid="77b54604-4f25-4e29-8c20-4a3209566fa7"/>
+        <COMPID name="hudson" mc="Standard.Package" uid="ac033c25-38c5-41b8-a481-a598ebb49152"/>
+        <COMPID name="ide" mc="Standard.Package" uid="fa9f0f25-c3b6-48f4-99ec-383958ba7d94"/>
+        <COMPID name="java" mc="Standard.Package" uid="a3a666d0-a6d9-4d9f-801f-8e4c1a8863e2"/>
+        <COMPID name="monitor" mc="Standard.Package" uid="23781631-7ea0-434a-9168-3f2da40e7486"/>
+        <COMPID name="provisional" mc="Standard.Package" uid="5d857c7b-c2c1-499e-b06e-0e35d6b5a20c"/>
+        <COMPID name="resources" mc="Standard.Package" uid="961d9b8b-fd4d-490b-883d-7d1d66dd02f3"/>
+        <COMPID name="tasks" mc="Standard.Package" uid="119e7c00-c9ac-4bfe-8321-ed9570f2ad8e"/>
+        <COMPID name="team" mc="Standard.Package" uid="b6667616-ba57-4220-a31d-e84c48203939"/>
+        <COMPID name="versions" mc="Standard.Package" uid="7ea44954-feab-4d5d-a62c-45497b76628e"/>
+        <COMPID name="wikitext" mc="Standard.Package" uid="3245825f-a4b3-4d18-b378-20e02bd2ee34"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="annotations" version="4">
+  <OBJECT>
+    <ID name="annotations" mc="Standard.Package" uid="ce99d821-fb9c-47bb-be30-8476c0617691"/>
+    <PID name="gson" mc="Standard.Package" uid="e14269e8-ec07-482f-aeee-00187d79fd70"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[annotations]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Expose" mc="Standard.Class" uid="a507dfa9-61bc-47bd-8a16-44ba8761b0c1"/>
+        <COMPID name="SerializedName" mc="Standard.Class" uid="60888634-eba1-4cc4-be1a-2db29affed1f"/>
+        <COMPID name="Since" mc="Standard.Class" uid="a4184e02-b5c6-4705-83e0-33855af92d38"/>
+        <COMPID name="Until" mc="Standard.Class" uid="5b2cddc5-a7c2-43f6-a74c-33d67f3dcaa0"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

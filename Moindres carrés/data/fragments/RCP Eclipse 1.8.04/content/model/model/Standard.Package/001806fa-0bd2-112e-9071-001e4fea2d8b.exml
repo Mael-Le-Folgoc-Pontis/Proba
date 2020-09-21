@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ide" version="4">
+  <OBJECT>
+    <ID name="ide" mc="Standard.Package" uid="001806fa-0bd2-112e-9071-001e4fea2d8b"/>
+    <PID name="templates" mc="Standard.Package" uid="00164608-0bd2-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[ide]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="BaseEditorTemplate" mc="Standard.Class" uid="00180d12-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BuilderNewWizard" mc="Standard.Class" uid="00181316-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BuilderTemplate" mc="Standard.Class" uid="00181956-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CommonNavigatorTemplate" mc="Standard.Class" uid="00181fc8-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DecoratorTemplate" mc="Standard.Class" uid="00182658-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="EditorNewWizard" mc="Standard.Class" uid="00182d38-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="EditorTemplate" mc="Standard.Class" uid="0018344a-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HelloWorldCmdNewWizard" mc="Standard.Class" uid="00183b66-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HelloWorldCmdTemplate" mc="Standard.Class" uid="001842e6-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HelloWorldNewWizard" mc="Standard.Class" uid="00184b06-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HelloWorldTemplate" mc="Standard.Class" uid="001852c2-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HelpNewWizard" mc="Standard.Class" uid="00185af6-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HelpTemplate" mc="Standard.Class" uid="00186334-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ImportWizardTemplate" mc="Standard.Class" uid="00186b7c-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MultiPageEditorNewWizard" mc="Standard.Class" uid="00187432-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MultiPageEditorTemplate" mc="Standard.Class" uid="00187d1a-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="NewWizardTemplate" mc="Standard.Class" uid="00188616-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PerspectiveTemplate" mc="Standard.Class" uid="00188f62-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PopupMenuNewWizard" mc="Standard.Class" uid="001898e0-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PopupMenuTemplate" mc="Standard.Class" uid="0018a272-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PreferencePageTemplate" mc="Standard.Class" uid="0018ac72-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PropertyPageNewWizard" mc="Standard.Class" uid="0018b686-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PropertyPageTemplate" mc="Standard.Class" uid="0018c0b8-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SplashHandlersTemplate" mc="Standard.Class" uid="0018cb30-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="UniversalWelcomeTemplate" mc="Standard.Class" uid="0018d5e4-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ViewNewWizard" mc="Standard.Class" uid="0018e0a2-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ViewTemplate" mc="Standard.Class" uid="0018ec3c-0bd2-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

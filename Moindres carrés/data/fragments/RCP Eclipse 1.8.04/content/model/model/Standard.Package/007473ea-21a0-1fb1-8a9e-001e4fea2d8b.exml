@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="webkit" version="4">
+  <OBJECT>
+    <ID name="webkit" mc="Standard.Package" uid="007473ea-21a0-1fb1-8a9e-001e4fea2d8b"/>
+    <PID name="internal" mc="Standard.Package" uid="005398b4-21a0-1fb1-8a9e-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[webkit]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="IWebCookieManager" mc="Standard.Class" uid="9e983533-7837-42e8-9a5a-44b8357e0489"/>
+        <COMPID name="IWebDataSource" mc="Standard.Class" uid="40d4f2e8-1ac8-45f9-824f-ff5da3b3068d"/>
+        <COMPID name="IWebDocumentRepresentation" mc="Standard.Class" uid="26a0ad18-8807-4eff-82b7-78bc711c7773"/>
+        <COMPID name="IWebDownload" mc="Standard.Class" uid="ed4ec9e7-16f1-4b1d-9f2b-9a2b2555e0d9"/>
+        <COMPID name="IWebError" mc="Standard.Class" uid="f5480a90-cf8c-44c1-abd8-5c8c62e1651b"/>
+        <COMPID name="IWebErrorPrivate" mc="Standard.Class" uid="5a7314fe-cd63-426d-9a64-fe2dd7a2f17c"/>
+        <COMPID name="IWebFrame" mc="Standard.Class" uid="93666183-69a3-47dd-ab5e-7c9c77613810"/>
+        <COMPID name="IWebFramePrivate" mc="Standard.Class" uid="3ba90617-6d31-410f-aebf-f7cc1e2ce75f"/>
+        <COMPID name="IWebIBActions" mc="Standard.Class" uid="20fb2e43-2793-46a2-8731-ecf961de075f"/>
+        <COMPID name="IWebMutableURLRequest" mc="Standard.Class" uid="591f62a0-070f-4f6d-8d29-a9f8529bb7aa"/>
+        <COMPID name="IWebMutableURLRequestPrivate" mc="Standard.Class" uid="07e1da1f-84d6-4ac2-bbf0-73226fe087ef"/>
+        <COMPID name="IWebOpenPanelResultListener" mc="Standard.Class" uid="1d01bb66-7085-4221-b141-0f91e22ebc5c"/>
+        <COMPID name="IWebPolicyDecisionListener" mc="Standard.Class" uid="8c504a5f-62d4-43b7-bb2a-9708a44542f0"/>
+        <COMPID name="IWebPreferences" mc="Standard.Class" uid="6bc899c9-c314-4a01-a4fa-924387d6a839"/>
+        <COMPID name="IWebURLAuthenticationChallenge" mc="Standard.Class" uid="2abb7372-fafb-4847-82ac-8210221f427e"/>
+        <COMPID name="IWebURLAuthenticationChallengeSender" mc="Standard.Class" uid="75860588-5fbe-4c0b-ba82-29429c7be1eb"/>
+        <COMPID name="IWebURLCredential" mc="Standard.Class" uid="120fe98f-0277-489c-aa7a-243e29ae85dc"/>
+        <COMPID name="IWebURLProtectionSpace" mc="Standard.Class" uid="f9086d34-d5c2-468e-ba4d-d552375c27b1"/>
+        <COMPID name="IWebURLRequest" mc="Standard.Class" uid="e1ccaca6-3ce1-40c3-96d0-e3ca97c9315b"/>
+        <COMPID name="IWebURLResponse" mc="Standard.Class" uid="87ec46cb-1dc5-44fc-88d3-1205113071d7"/>
+        <COMPID name="IWebView" mc="Standard.Class" uid="72824ae5-01c5-42fd-a7f6-1550937b9dd2"/>
+        <COMPID name="IWebViewPrivate" mc="Standard.Class" uid="177a4d5b-38dd-49ec-81ec-3fceb7442195"/>
+        <COMPID name="JSClassDefinition" mc="Standard.Class" uid="0079fd2e-21a0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="WebKitGTK" mc="Standard.Class" uid="00751098-21a0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="WebKit_win32" mc="Standard.Class" uid="e01e1317-f00c-4e02-8417-ae7a0a2c7605"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

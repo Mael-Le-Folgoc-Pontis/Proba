@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="beans" version="4">
+  <OBJECT>
+    <ID name="beans" mc="Standard.Package" uid="8d67bf1d-42bf-44e4-aed2-532d607c2d62"/>
+    <PID name="solrj" mc="Standard.Package" uid="57f5c103-fbba-4c6d-acd3-7a520964a9b1"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[beans]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="DocumentObjectBinder" mc="Standard.Class" uid="2ece0def-3854-4196-93ee-08e81cdfb6d2"/>
+        <COMPID name="Field" mc="Standard.Class" uid="43986bac-ccf4-419d-a98c-8a1d15bcfd4f"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

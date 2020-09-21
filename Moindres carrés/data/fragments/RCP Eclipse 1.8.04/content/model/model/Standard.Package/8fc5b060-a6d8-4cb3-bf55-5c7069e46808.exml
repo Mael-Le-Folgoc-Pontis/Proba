@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="xpath" version="4">
+  <OBJECT>
+    <ID name="xpath" mc="Standard.Package" uid="8fc5b060-a6d8-4cb3-bf55-5c7069e46808"/>
+    <PID name="jdom" mc="Standard.Package" uid="f2cb053a-09e2-411e-9342-9d8b064789bd"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[xpath]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="JaxenXPath" mc="Standard.Class" uid="2e3a7bd0-9770-4b40-b9a0-cdb9b8f2c466"/>
+        <COMPID name="XPath" mc="Standard.Class" uid="29493e03-5dca-4aec-bcc1-1370e20ebdcd"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

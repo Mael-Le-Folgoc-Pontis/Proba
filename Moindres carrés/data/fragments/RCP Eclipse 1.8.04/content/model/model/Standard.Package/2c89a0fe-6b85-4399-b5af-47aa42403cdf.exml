@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="manager" version="4">
+  <OBJECT>
+    <ID name="manager" mc="Standard.Package" uid="2c89a0fe-6b85-4399-b5af-47aa42403cdf"/>
+    <PID name="graph" mc="Standard.Package" uid="2440364e-b9d2-432e-9f81-7c4d084f26bf"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[manager]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ClassicDependencyManager" mc="Standard.Class" uid="c27e4c60-07fd-4a7e-8ba7-4e141b22cde5"/>
+        <COMPID name="DependencyManagerUtils" mc="Standard.Class" uid="627e3a20-5a7e-4ba5-9533-e4d393fb1cce"/>
+        <COMPID name="NoopDependencyManager" mc="Standard.Class" uid="d4ccf3af-234a-4ee5-bdbd-10133ad984ce"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

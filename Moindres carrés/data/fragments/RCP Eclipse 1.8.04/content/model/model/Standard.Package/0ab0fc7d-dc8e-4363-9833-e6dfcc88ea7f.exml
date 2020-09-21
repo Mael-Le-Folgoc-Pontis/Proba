@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="visitor" version="4">
+  <OBJECT>
+    <ID name="visitor" mc="Standard.Package" uid="0ab0fc7d-dc8e-4363-9833-e6dfcc88ea7f"/>
+    <PID name="runtime" mc="Standard.Package" uid="b49e96ae-43ea-4b59-bab5-7fead6df26ae"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[visitor]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="BaseVisitor" mc="Standard.Class" uid="5a6e07cc-debc-4e49-af20-f5f3a10e46a2"/>
+        <COMPID name="NodeViewMode" mc="Standard.Class" uid="09d41558-06c7-46fb-bb12-7c622d49f9f2"/>
+        <COMPID name="VMReferenceMungeVisitor" mc="Standard.Class" uid="20644a74-0591-4cb2-865c-73a1f413450b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

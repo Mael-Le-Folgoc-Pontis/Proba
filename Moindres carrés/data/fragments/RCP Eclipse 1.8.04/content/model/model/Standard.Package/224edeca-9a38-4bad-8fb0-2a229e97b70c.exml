@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="consumer" version="4">
+  <OBJECT>
+    <ID name="consumer" mc="Standard.Package" uid="224edeca-9a38-4bad-8fb0-2a229e97b70c"/>
+    <PID name="internal" mc="Standard.Package" uid="5e01f584-4d56-4af0-ac71-6b632782eb92"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[consumer]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractLongRunningOperation" mc="Standard.Class" uid="508f4c5a-c036-447a-9273-148582ed07a8"/>
+        <COMPID name="CancellationTokenInternal" mc="Standard.Interface" uid="4872d2b1-f9a7-4b69-a44a-40848ad09ac3"/>
+        <COMPID name="ConnectionFactory" mc="Standard.Class" uid="4b3eb1e9-4fd4-40e9-b825-737f80faef3b"/>
+        <COMPID name="ConnectionParameters" mc="Standard.Interface" uid="a0a31859-5bd2-471e-bc73-a5675e6bd4ba"/>
+        <COMPID name="ConnectorServices" mc="Standard.Class" uid="0baf88de-5efd-4635-946a-81fb3da93652"/>
+        <COMPID name="DefaultCancellationTokenSource" mc="Standard.Class" uid="0a35a247-11c0-436d-b659-35c3a89e4400"/>
+        <COMPID name="DefaultConnectionParameters" mc="Standard.Class" uid="86a172c5-b122-4fb9-b79c-c9e62142820b"/>
+        <COMPID name="DefaultExecutorServiceFactory" mc="Standard.Class" uid="b2a5c2ca-32b3-4866-937f-c8e138a88de9"/>
+        <COMPID name="DefaultFailure" mc="Standard.Class" uid="994ebdae-1a4c-4027-a14d-765291ed2ced"/>
+        <COMPID name="DefaultGradleConnector" mc="Standard.Class" uid="fcfb44cb-52cb-40b3-a4c8-2ee1ad7bc325"/>
+        <COMPID name="DefaultModelBuilder" mc="Standard.Class" uid="497829b6-1cbb-4903-baa1-7338c5de6d0f"/>
+        <COMPID name="DefaultTestLauncher" mc="Standard.Class" uid="a8c3388a-b507-4ab9-8597-0ea990cb6d46"/>
+        <COMPID name="Distribution" mc="Standard.Interface" uid="96e3b642-390c-4df1-bff2-534758ff240c"/>
+        <COMPID name="DistributionFactory" mc="Standard.Class" uid="12b25315-ef1c-44a4-95eb-a47482afda37"/>
+        <COMPID name="ExecutorServiceFactory" mc="Standard.Interface" uid="d95accba-b5a3-4037-9e4d-85be8b990b1e"/>
+        <COMPID name="LoggingProvider" mc="Standard.Interface" uid="91bdc165-69ca-41f9-b147-d720f29ce881"/>
+        <COMPID name="SynchronizedLogging" mc="Standard.Class" uid="10b2c57f-174c-4dde-9e98-1424def6ba19"/>
+        <COMPID name="TestExecutionRequest" mc="Standard.Class" uid="fda6659f-9851-4001-adb5-30d94586eb45"/>
+        <COMPID name="async" mc="Standard.Package" uid="9b2bd9c7-c3cd-46e0-9457-0da2fd9c7ddb"/>
+        <COMPID name="connection" mc="Standard.Package" uid="205d92ba-c549-4d8b-a71d-9f556b80243d"/>
+        <COMPID name="converters" mc="Standard.Package" uid="b2f0d263-4665-4688-ab22-b35e7a9377c0"/>
+        <COMPID name="loader" mc="Standard.Package" uid="0a2245da-f0d4-4587-a156-e4d4e104f527"/>
+        <COMPID name="parameters" mc="Standard.Package" uid="31898a62-add2-40ff-8b17-02144b7f1ac0"/>
+        <COMPID name="versioning" mc="Standard.Package" uid="f0f9f485-b4f2-4be3-8ec0-e144ea61c735"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

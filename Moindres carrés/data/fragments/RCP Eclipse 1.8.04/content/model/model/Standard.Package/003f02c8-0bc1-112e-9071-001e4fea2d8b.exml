@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="breadcrumb" version="4">
+  <OBJECT>
+    <ID name="breadcrumb" mc="Standard.Package" uid="003f02c8-0bc1-112e-9071-001e4fea2d8b"/>
+    <PID name="viewers" mc="Standard.Package" uid="003d0e14-0bc1-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[breadcrumb]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractBreadcrumb" mc="Standard.Class" uid="003f0944-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BreadcrumbMessages" mc="Standard.Class" uid="003f2d02-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BreadcrumbViewer" mc="Standard.Class" uid="003f34d2-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IBreadcrumbDropDownSite" mc="Standard.Interface" uid="003f3b4e-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TreeViewerDropDown" mc="Standard.Class" uid="003f4396-0bc1-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

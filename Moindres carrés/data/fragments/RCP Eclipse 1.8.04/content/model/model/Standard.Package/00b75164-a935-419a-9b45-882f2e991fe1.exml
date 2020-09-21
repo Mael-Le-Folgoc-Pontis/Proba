@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="top" version="4">
+  <OBJECT>
+    <ID name="top" mc="Standard.Package" uid="00b75164-a935-419a-9b45-882f2e991fe1"/>
+    <PID name="component" mc="Standard.Package" uid="22f7420e-5fe9-45ed-9254-dc1d0b960686"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[top]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="JPanelTopBoundsSupport" mc="Standard.Class" uid="572064a1-10ae-4dae-abe3-a50b8e716619"/>
+        <COMPID name="SwingTopBoundsSupport" mc="Standard.Class" uid="32d452f6-596a-424b-aaba-0eb7d5ab37bf"/>
+        <COMPID name="WindowTopBoundsSupport" mc="Standard.Class" uid="1d10a8d2-1bca-471e-8888-77a8975428d6"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

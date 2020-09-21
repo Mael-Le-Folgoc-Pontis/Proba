@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="part" version="4">
+  <OBJECT>
+    <ID name="part" mc="Standard.Package" uid="c248d26d-7c88-48d0-a950-b4f2678838ec"/>
+    <PID name="gefTree" mc="Standard.Package" uid="f7438f58-aff2-4e26-9267-d9dfa5b397fd"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[part]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ArrayObjectEditPart" mc="Standard.Class" uid="aa2d6a15-2273-479a-91a0-bfb384268957"/>
+        <COMPID name="FlowContainerGroupEditPart" mc="Standard.Class" uid="e322f691-91c5-4818-830a-e214a06c340c"/>
+        <COMPID name="menu" mc="Standard.Package" uid="5c8ee97e-7b10-47b8-adb5-f3368e87bfc7"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,64 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="provider" version="4">
+  <OBJECT>
+    <ID name="provider" mc="Standard.Package" uid="eb5cf52f-8460-4259-9666-8f9f1443bf75"/>
+    <PID name="pom" mc="Standard.Package" uid="f77d9a5d-34c1-4268-aa31-28567cd8c3ba"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[provider]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ActivationFileItemProvider" mc="Standard.Class" uid="61531a89-27b1-43af-bacb-279814b32533"/>
+        <COMPID name="ActivationItemProvider" mc="Standard.Class" uid="119fa5f2-6e6b-4e62-9f23-5b8bb8a3fe7c"/>
+        <COMPID name="ActivationOSItemProvider" mc="Standard.Class" uid="3e9bf151-0e5a-4203-9cb0-d9e73e109320"/>
+        <COMPID name="ActivationPropertyItemProvider" mc="Standard.Class" uid="f225b374-0eb9-4635-9ef3-1ac6c4b7f7fd"/>
+        <COMPID name="BuildBaseItemProvider" mc="Standard.Class" uid="16ed7dda-3bb6-458d-b676-d938e9f29169"/>
+        <COMPID name="BuildItemProvider" mc="Standard.Class" uid="5a24a39d-f650-4e17-8240-4f759245e868"/>
+        <COMPID name="CiManagementItemProvider" mc="Standard.Class" uid="c01d1fd3-0795-493e-94ed-93bb0c5a1d58"/>
+        <COMPID name="ConfigurationItemProvider" mc="Standard.Class" uid="922f922b-2475-432c-b506-a27d9ca20e52"/>
+        <COMPID name="ContributorItemProvider" mc="Standard.Class" uid="668daa8f-1586-4636-a999-886a855ecd7f"/>
+        <COMPID name="DependencyItemProvider" mc="Standard.Class" uid="fac2d759-a487-4857-b62d-bdbf707347d3"/>
+        <COMPID name="DependencyManagementItemProvider" mc="Standard.Class" uid="8fc97026-0fa2-4743-b580-d6139ed71a59"/>
+        <COMPID name="DeploymentRepositoryItemProvider" mc="Standard.Class" uid="c1037294-f81e-4b92-8b56-525ee55eaa69"/>
+        <COMPID name="DeveloperItemProvider" mc="Standard.Class" uid="8f913930-c286-4ff4-8924-b2a5cadf5a7d"/>
+        <COMPID name="DistributionManagementItemProvider" mc="Standard.Class" uid="2360284c-bd64-4ea4-9abd-ceecf92b26ed"/>
+        <COMPID name="DocumentRootItemProvider" mc="Standard.Class" uid="531a8e72-e7d0-40b4-939b-3fe2788679e8"/>
+        <COMPID name="ExclusionItemProvider" mc="Standard.Class" uid="f2e519cb-b697-454c-9294-1d00fe2a318e"/>
+        <COMPID name="ExtensionItemProvider" mc="Standard.Class" uid="59d8403a-2877-4024-b814-7766057d3f3e"/>
+        <COMPID name="IssueManagementItemProvider" mc="Standard.Class" uid="cb1b88fa-bd81-46b1-876c-265127f9beac"/>
+        <COMPID name="LicenseItemProvider" mc="Standard.Class" uid="f83bfcb3-512b-4dac-bbfd-ce1f0b87f434"/>
+        <COMPID name="MailingListItemProvider" mc="Standard.Class" uid="2aaa64f6-4015-4041-98b9-740e4eb79bfb"/>
+        <COMPID name="ModelItemProvider" mc="Standard.Class" uid="ebb8a536-b816-4156-9fc9-d999794361f6"/>
+        <COMPID name="NotifierItemProvider" mc="Standard.Class" uid="59e43a43-2bb0-4a66-8e9d-b3e066d13243"/>
+        <COMPID name="OrganizationItemProvider" mc="Standard.Class" uid="1a2f2d01-3813-41d1-aa74-ab3767af8f4c"/>
+        <COMPID name="ParentItemProvider" mc="Standard.Class" uid="8c304aca-2b9d-4c73-a68c-a16541e58992"/>
+        <COMPID name="PluginExecutionItemProvider" mc="Standard.Class" uid="f2c4f512-5694-4da7-ab00-16dfc6b77192"/>
+        <COMPID name="PluginItemProvider" mc="Standard.Class" uid="e60a41ec-d38e-4a28-a67b-cc62ef337f11"/>
+        <COMPID name="PluginManagementItemProvider" mc="Standard.Class" uid="1a99c8cf-a4ef-45a8-a781-f3c5daf8d596"/>
+        <COMPID name="PomEditPlugin" mc="Standard.Class" uid="5cd77f50-3961-4c51-9add-8c1eb2e7561a"/>
+        <COMPID name="PomItemProviderAdapterFactory" mc="Standard.Class" uid="74adfa42-3d05-4e6c-b209-f8c91c8d8ee8"/>
+        <COMPID name="PrerequisitesItemProvider" mc="Standard.Class" uid="6c820540-71a0-48b8-8ea1-1a6f2a0bb79b"/>
+        <COMPID name="ProfileItemProvider" mc="Standard.Class" uid="05d6bcca-58db-4aca-ad94-586298d1f3cf"/>
+        <COMPID name="PropertyElementItemProvider" mc="Standard.Class" uid="bba6f066-c825-455c-8c5c-447f234b3d8f"/>
+        <COMPID name="RelocationItemProvider" mc="Standard.Class" uid="e59c6c03-f68b-4169-9145-e2902c49f362"/>
+        <COMPID name="ReportPluginItemProvider" mc="Standard.Class" uid="b162b2f6-3f18-4ced-a116-cca767d37b3f"/>
+        <COMPID name="ReportSetItemProvider" mc="Standard.Class" uid="1074421e-da9b-413d-aa71-c824ddfd35c9"/>
+        <COMPID name="ReportingItemProvider" mc="Standard.Class" uid="1eae3c5f-3fcf-4435-beec-9d25bb014321"/>
+        <COMPID name="RepositoryItemProvider" mc="Standard.Class" uid="be73a625-016b-4568-87d1-ff25968d836b"/>
+        <COMPID name="RepositoryPolicyItemProvider" mc="Standard.Class" uid="a64a2d68-6c05-4c8a-b8e1-f8ee423213f3"/>
+        <COMPID name="ResourceItemProvider" mc="Standard.Class" uid="c8ba65e9-6bd4-41d8-8801-f94defde26f6"/>
+        <COMPID name="ScmItemProvider" mc="Standard.Class" uid="98a48cab-7975-4610-9678-5a02583f7551"/>
+        <COMPID name="SiteItemProvider" mc="Standard.Class" uid="ee62c57b-79ea-44b0-89a2-a0a0cc192b5f"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

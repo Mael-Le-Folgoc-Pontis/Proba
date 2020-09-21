@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="lz" version="4">
+  <OBJECT>
+    <ID name="lz" mc="Standard.Package" uid="d1e65404-a326-487a-9880-287889a6ea8b"/>
+    <PID name="xz" mc="Standard.Package" uid="d95f0043-5157-46b7-a345-0537f210e6de"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[lz]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="LZDecoder" mc="Standard.Class" uid="22842a11-51c2-49ed-b91d-f6ff1bf1cddc"/>
+        <COMPID name="LZEncoder" mc="Standard.Class" uid="76f21a0d-b82e-4156-9bc8-6cd02403b7f2"/>
+        <COMPID name="Matches" mc="Standard.Class" uid="a48a545e-f36b-4e0e-8d06-e6c51ecffa32"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

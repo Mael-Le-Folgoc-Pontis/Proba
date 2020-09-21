@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="internal" version="4">
+  <OBJECT>
+    <ID name="internal" mc="Standard.Package" uid="ebc81bf1-af97-4bd1-9d9c-2d6c37c0ff6c"/>
+    <PID name="plugin" mc="Standard.Package" uid="6251ff3a-fd77-4649-9c6a-dbef415afe20"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[internal]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="DefaultLegacySupport" mc="Standard.Class" uid="ec9200e0-f4b1-45e2-b123-5e89c21cf002"/>
+        <COMPID name="DefaultMavenPluginManager" mc="Standard.Class" uid="663bcfc5-29ab-4a27-a55a-72d5a10a4b26"/>
+        <COMPID name="DefaultPluginDependenciesResolver" mc="Standard.Class" uid="2ed75160-b71d-40c0-a4f7-2ab8b2c7f772"/>
+        <COMPID name="DefaultPluginManager" mc="Standard.Class" uid="1da9985c-6eb4-4164-bebe-1223acf23413"/>
+        <COMPID name="PluginDependenciesResolver" mc="Standard.Interface" uid="7afc3900-ee9d-4b13-b923-cc44ebe76f5a"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

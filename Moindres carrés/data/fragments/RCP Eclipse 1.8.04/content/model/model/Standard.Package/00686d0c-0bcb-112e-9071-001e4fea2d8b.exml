@@ -1,0 +1,63 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="viewsupport" version="4">
+  <OBJECT>
+    <ID name="viewsupport" mc="Standard.Package" uid="00686d0c-0bcb-112e-9071-001e4fea2d8b"/>
+    <PID name="ui" mc="Standard.Package" uid="006159f4-0bca-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[viewsupport]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AppearanceAwareLabelProvider" mc="Standard.Class" uid="006873b0-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BasicElementLabels" mc="Standard.Class" uid="00687a0e-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BindingLabelProvider" mc="Standard.Class" uid="00688044-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BindingLinkedLabelComposer" mc="Standard.Class" uid="375b171b-7658-48d9-83ac-6165873327be"/>
+        <COMPID name="ColoredViewersManager" mc="Standard.Class" uid="0068871a-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ColoringLabelProvider" mc="Standard.Class" uid="00688dfa-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DecoratingJavaLabelProvider" mc="Standard.Class" uid="006894d0-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FilterUpdater" mc="Standard.Class" uid="00689c14-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FilteredElementTreeSelectionDialog" mc="Standard.Class" uid="0068a380-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FocusDescriptor" mc="Standard.Class" uid="0068c69e-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IProblemChangedListener" mc="Standard.Interface" uid="0068f524-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IRefreshable" mc="Standard.Interface" uid="0068fc0e-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ISelectionListenerWithAST" mc="Standard.Interface" uid="006902bc-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IViewPartInputProvider" mc="Standard.Interface" uid="006909c4-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ImageDescriptorRegistry" mc="Standard.Class" uid="00691270-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ImageDisposer" mc="Standard.Class" uid="00691afe-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ImageImageDescriptor" mc="Standard.Class" uid="0069236e-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ImagesOnFileSystemRegistry" mc="Standard.Class" uid="00692c42-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaElementImageProvider" mc="Standard.Class" uid="00693548-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaElementLabelComposer" mc="Standard.Class" uid="00693e44-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaElementLinks" mc="Standard.Class" uid="0069802a-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaUILabelProvider" mc="Standard.Class" uid="00699e16-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaViewerFilter" mc="Standard.Class" uid="0069a802-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LabelProviderDisposer" mc="Standard.Class" uid="0069b20c-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LibraryFilter" mc="Standard.Class" uid="0069bc48-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LinkedProposalModelPresenter" mc="Standard.Class" uid="0069c68e-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MemberFilter" mc="Standard.Class" uid="0069ecb8-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MemberFilterAction" mc="Standard.Class" uid="0069f7b2-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ProblemMarkerManager" mc="Standard.Class" uid="006a0284-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ProblemTableViewer" mc="Standard.Class" uid="006a1bd4-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ProblemTreeViewer" mc="Standard.Class" uid="006a2750-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ProjectTemplateStore" mc="Standard.Class" uid="006a32b8-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ResourceToItemsMapper" mc="Standard.Class" uid="006a3ea2-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SelectionListenerWithASTManager" mc="Standard.Class" uid="006a50f4-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SelectionProviderMediator" mc="Standard.Class" uid="006a6ada-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SourcePositionComparator" mc="Standard.Class" uid="006a833a-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="StatusBarUpdater" mc="Standard.Class" uid="006a9000-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="StorageLabelProvider" mc="Standard.Class" uid="006a9cb2-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TreeHierarchyLayoutProblemsDecorator" mc="Standard.Class" uid="006aa9dc-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ViewHistory" mc="Standard.Class" uid="006ab756-0bcb-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="document" version="4">
+  <OBJECT>
+    <ID name="document" mc="Standard.Package" uid="0d03f6d8-33de-4ee1-8e8b-dbf83157d255"/>
+    <PID name="internal" mc="Standard.Package" uid="94ec56ce-4e15-411a-84a2-88c38d75dcef"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[document]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractDocumentLoader" mc="Standard.Class" uid="0754229d-f511-4ae0-83f9-ba3e47946219"/>
+        <COMPID name="DocumentReader" mc="Standard.Class" uid="512b1c09-3644-4224-b823-933b8a7afb4e"/>
+        <COMPID name="IDocumentCharsetDetector" mc="Standard.Interface" uid="7e8a5a7d-d636-4be5-b544-de7a9164bf56"/>
+        <COMPID name="IDocumentLoader" mc="Standard.Interface" uid="2e027bed-b9bf-4a29-a3f0-bc3bf1aad2f5"/>
+        <COMPID name="StructuredDocumentFactory" mc="Standard.Class" uid="3384fc1f-4d27-434b-b3a3-913365d79f04"/>
+        <COMPID name="TextUtilities" mc="Standard.Class" uid="c4bbe438-303c-4966-b177-220d13e588f9"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

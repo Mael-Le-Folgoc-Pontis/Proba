@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="xz" version="4">
+  <OBJECT>
+    <ID name="xz" mc="Standard.Package" uid="e11d6c7b-4a5e-4d78-a366-f639d779df8c"/>
+    <PID name="compressors" mc="Standard.Package" uid="8b7a1328-933b-4909-bfc4-607f8d3b13c7"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[xz]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="XZCompressorInputStream" mc="Standard.Class" uid="7bd49f51-e8b7-47af-83f9-e1c1e4e81a44"/>
+        <COMPID name="XZCompressorOutputStream" mc="Standard.Class" uid="cbc7b614-cbf7-4da9-a99b-201594a10319"/>
+        <COMPID name="XZUtils" mc="Standard.Class" uid="aca1bf33-0a86-47d7-b785-43dd7410922b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

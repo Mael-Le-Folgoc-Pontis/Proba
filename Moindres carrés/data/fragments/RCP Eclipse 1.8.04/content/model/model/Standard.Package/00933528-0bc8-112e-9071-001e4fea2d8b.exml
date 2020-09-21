@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="batch" version="4">
+  <OBJECT>
+    <ID name="batch" mc="Standard.Package" uid="00933528-0bc8-112e-9071-001e4fea2d8b"/>
+    <PID name="compiler" mc="Standard.Package" uid="0083bd82-0bc8-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[batch]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="BatchCompilerRequestor" mc="Standard.Class" uid="f6a2ab7c-2418-40b6-bfd8-e50fcaee0143"/>
+        <COMPID name="ClasspathDirectory" mc="Standard.Class" uid="00933c26-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ClasspathJar" mc="Standard.Class" uid="009342b6-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ClasspathJsr199" mc="Standard.Class" uid="da011f0d-da26-486c-9cb6-5992f5ba2f46"/>
+        <COMPID name="ClasspathLocation" mc="Standard.Class" uid="00934996-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ClasspathSourceJar" mc="Standard.Class" uid="009350b2-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CompilationUnit" mc="Standard.Class" uid="009357ce-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FileFinder" mc="Standard.Class" uid="00935f44-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FileSystem" mc="Standard.Class" uid="009366f6-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Main" mc="Standard.Class" uid="0093919e-0bc8-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

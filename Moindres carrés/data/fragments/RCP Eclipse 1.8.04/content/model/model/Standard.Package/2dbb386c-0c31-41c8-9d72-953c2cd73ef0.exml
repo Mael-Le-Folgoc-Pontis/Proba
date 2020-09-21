@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="model" version="4">
+  <OBJECT>
+    <ID name="model" mc="Standard.Package" uid="2dbb386c-0c31-41c8-9d72-953c2cd73ef0"/>
+    <PID name="rcp" mc="Standard.Package" uid="eb7c8641-4ade-400c-a08c-697d3113c1a5"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[model]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="DefaultEclipseGitSnippetRepositoryConfiguration" mc="Standard.Interface" uid="902ae801-a352-4118-bd6d-cb219de012c7"/>
+        <COMPID name="EclipseGitSnippetRepositoryConfiguration" mc="Standard.Interface" uid="230986ca-dc86-4f03-9e7d-12872855e690"/>
+        <COMPID name="SnipmatchRcpModelFactory" mc="Standard.Interface" uid="601e5573-20ac-46df-9afb-918a9303c9d7"/>
+        <COMPID name="SnipmatchRcpModelPackage" mc="Standard.Interface" uid="95920816-5e75-4e65-9787-56e21c2d8745"/>
+        <COMPID name="SnippetRepositoryConfigurations" mc="Standard.Interface" uid="fb2d9976-3933-4b7c-8adb-be7c97d8f065"/>
+        <COMPID name="impl" mc="Standard.Package" uid="6aab131a-5466-42be-850c-f9a780d6e22e"/>
+        <COMPID name="util" mc="Standard.Package" uid="74396a03-c929-4f9e-9f00-868cc4fc3642"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

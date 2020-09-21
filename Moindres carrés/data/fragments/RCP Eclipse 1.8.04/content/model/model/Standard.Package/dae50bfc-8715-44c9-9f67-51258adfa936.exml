@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="configurator" version="4">
+  <OBJECT>
+    <ID name="configurator" mc="Standard.Package" uid="dae50bfc-8715-44c9-9f67-51258adfa936"/>
+    <PID name="project" mc="Standard.Package" uid="b5e078ac-aa45-432c-8e8b-417f510273dc"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[configurator]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractBuildParticipant" mc="Standard.Class" uid="3c78aa20-45cc-40de-a1fb-a37951cff78d"/>
+        <COMPID name="AbstractBuildParticipant2" mc="Standard.Class" uid="d075e377-ac7e-4658-b55a-ac339cec6f8b"/>
+        <COMPID name="AbstractCustomizableLifecycleMapping" mc="Standard.Class" uid="530123af-cdeb-4873-b290-6acc8012e24a"/>
+        <COMPID name="AbstractLifecycleMapping" mc="Standard.Class" uid="7b40e9ff-216f-47a2-84c9-76281aa48d93"/>
+        <COMPID name="AbstractProjectConfigurator" mc="Standard.Class" uid="494b0a16-da1f-4c84-b8fd-f6f901b9d925"/>
+        <COMPID name="ILifecycleMapping" mc="Standard.Interface" uid="9a8ae84e-68b8-43cb-a501-8f1a4f6b8a36"/>
+        <COMPID name="ILifecycleMappingConfiguration" mc="Standard.Interface" uid="56eef4c9-c23b-406e-b033-1f7e40d3b9ed"/>
+        <COMPID name="MojoExecutionBuildParticipant" mc="Standard.Class" uid="9f48ecc8-a9d4-4fa6-91da-5658327c7ec2"/>
+        <COMPID name="MojoExecutionKey" mc="Standard.Class" uid="24d47b2f-37af-46da-82c8-1073bc8c7409"/>
+        <COMPID name="NoopLifecycleMapping" mc="Standard.Class" uid="64b9d532-7a20-4a69-a533-4f1d90aa2016"/>
+        <COMPID name="ProjectConfigurationRequest" mc="Standard.Class" uid="4036ecb4-96f8-424a-87d6-35729615adf7"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

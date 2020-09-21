@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="io" version="4">
+  <OBJECT>
+    <ID name="io" mc="Standard.Package" uid="4bef127f-0cd7-4c95-a0ff-7d3b9dfef1c3"/>
+    <PID name="util" mc="Standard.Package" uid="4db11711-6a51-4a50-aabc-31926afc26d3"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[io]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="InputStreamFacade" mc="Standard.Interface" uid="dd960dfb-693b-4414-8ddd-47b22d9d452c"/>
+        <COMPID name="RawInputStreamFacade" mc="Standard.Class" uid="e66750f8-02d7-424b-9fcf-425af0acd6a4"/>
+        <COMPID name="URLInputStreamFacade" mc="Standard.Class" uid="24e3e10e-51e9-444b-82ae-c207341887e0"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

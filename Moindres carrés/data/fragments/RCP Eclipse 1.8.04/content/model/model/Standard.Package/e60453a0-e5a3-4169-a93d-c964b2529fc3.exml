@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="actions" version="4">
+  <OBJECT>
+    <ID name="actions" mc="Standard.Package" uid="e60453a0-e5a3-4169-a93d-c964b2529fc3"/>
+    <PID name="ui" mc="Standard.Package" uid="03b563d9-da2d-42fb-a619-8b15741cffc6"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[actions]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AddToTaskContextAction" mc="Standard.Class" uid="f90f4221-98da-460e-a963-df21e9587761"/>
+        <COMPID name="ApplyPatchAction" mc="Standard.Class" uid="8caec4d5-8f27-445f-8b9f-bad8127345d8"/>
+        <COMPID name="CommitContextAction" mc="Standard.Class" uid="a942cf4f-edce-4d2e-aefc-dee2a54af4dd"/>
+        <COMPID name="Messages" mc="Standard.Class" uid="940be3e6-61d2-4566-9ab6-ba348e07be63"/>
+        <COMPID name="OpenCorrespondingTaskAction" mc="Standard.Class" uid="2b196e2e-be67-438e-9ece-6ec90b0cd870"/>
+        <COMPID name="TaskFinder" mc="Standard.Class" uid="498a3e72-1dad-44d0-8699-b4ea278c103e"/>
+        <COMPID name="TaskResourceMappingActionProvider" mc="Standard.Class" uid="44b14eaf-d9d5-49f7-b59f-bc8a9be30551"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

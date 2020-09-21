@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="equinox" version="4">
+  <OBJECT>
+    <ID name="equinox" mc="Standard.Package" uid="0073de8a-21a8-1fb1-8a9e-001e4fea2d8b"/>
+    <PID name="eclipse" mc="Standard.Package" uid="0015e0b4-219f-1fb1-8a9e-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[equinox]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="app" mc="Standard.Package" uid="007fba16-21a8-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="bidi" mc="Standard.Package" uid="0080ef1c-21a8-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="concurrent" mc="Standard.Package" uid="001c76b8-0bc4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="console" mc="Standard.Package" uid="0058a6f6-21a9-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="events" mc="Standard.Package" uid="007eec30-21a8-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="frameworkadmin" mc="Standard.Package" uid="006928f0-d4f1-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="http" mc="Standard.Package" uid="00304fda-0bc4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="internal" mc="Standard.Package" uid="008c686a-21a8-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="jsp" mc="Standard.Package" uid="008867ec-0bc6-112e-9071-001e4fea2d8b"/>
+        <COMPID name="launcher" mc="Standard.Package" uid="00569e10-21a9-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="log" mc="Standard.Package" uid="00747052-21a8-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="p2" mc="Standard.Package" uid="003a9120-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="security" mc="Standard.Package" uid="000fb7e8-d4f1-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="simpleconfigurator" mc="Standard.Package" uid="00950f6a-d4f1-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="spi" mc="Standard.Package" uid="0086cf90-d4f3-111c-bc9b-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="util" version="4">
+  <OBJECT>
+    <ID name="util" mc="Standard.Package" uid="5bc7e592-1395-43d0-b7e1-e6d8f837ae92"/>
+    <PID name="core" mc="Standard.Package" uid="b2a6444b-135c-463b-ab40-643a4d6cc915"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[util]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="DefaultXmlStreamWriter" mc="Standard.Class" uid="51e48bd9-afc4-42bf-b82b-f325f642cfa3"/>
+        <COMPID name="FormattingXMLStreamWriter" mc="Standard.Class" uid="80362cfb-16dd-4d6d-8ec9-d68c54d52b39"/>
+        <COMPID name="IgnoreDtdEntityResolver" mc="Standard.Class" uid="9f887ff1-c323-4182-b13b-20bf150acd76"/>
+        <COMPID name="LocationTrackingReader" mc="Standard.Class" uid="e6721072-cbd4-4bd2-9cf5-1d6ac2a2ad94"/>
+        <COMPID name="LocatorImpl" mc="Standard.Class" uid="049555cd-277d-4d1d-bad1-24d0a82bed4e"/>
+        <COMPID name="ServiceLocator" mc="Standard.Class" uid="b93764c7-9a4a-49bb-b6d8-c76b338f1ee0"/>
+        <COMPID name="XmlStreamWriter" mc="Standard.Class" uid="7cfb52ad-02de-4b3f-8351-f34e16097a14"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

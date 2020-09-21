@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="directive" version="4">
+  <OBJECT>
+    <ID name="directive" mc="Standard.Package" uid="cbe28474-de98-4197-bbc0-9f826d809214"/>
+    <PID name="runtime" mc="Standard.Package" uid="b49e96ae-43ea-4b59-bab5-7fead6df26ae"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[directive]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Directive" mc="Standard.Class" uid="3d3c47e6-c34a-4c6a-a11c-77cad6b73eba"/>
+        <COMPID name="DirectiveConstants" mc="Standard.Interface" uid="7a6424b9-7564-40c8-b3f8-0336ccc590f1"/>
+        <COMPID name="Foreach" mc="Standard.Class" uid="75d94ffc-9616-43b4-95d0-f8132591c713"/>
+        <COMPID name="Include" mc="Standard.Class" uid="0465bf26-835f-43a0-a1ab-e757b39e512b"/>
+        <COMPID name="InputBase" mc="Standard.Class" uid="ec5436e1-ffb3-46b4-a14d-0810e5e9c345"/>
+        <COMPID name="Literal" mc="Standard.Class" uid="89bf28d2-fc2a-44e4-8bdf-1b32ba436640"/>
+        <COMPID name="Macro" mc="Standard.Class" uid="1ed9ddf2-e62a-4f92-9304-f8df4dabcf55"/>
+        <COMPID name="MacroParseException" mc="Standard.Class" uid="de2d5b11-851b-47d8-93af-cfd63f416d36"/>
+        <COMPID name="Parse" mc="Standard.Class" uid="6f5c3458-c031-4505-ae3c-73ac855f874f"/>
+        <COMPID name="VMProxyArg" mc="Standard.Class" uid="e2ed6936-9e23-427e-9b4a-68d2e347fd7c"/>
+        <COMPID name="VelocimacroProxy" mc="Standard.Class" uid="573fe2c3-1c51-45e5-b840-459b8e0376ba"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

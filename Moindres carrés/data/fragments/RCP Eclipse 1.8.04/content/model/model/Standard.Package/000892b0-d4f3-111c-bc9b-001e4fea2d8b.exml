@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ecf" version="4">
+  <OBJECT>
+    <ID name="ecf" mc="Standard.Package" uid="000892b0-d4f3-111c-bc9b-001e4fea2d8b"/>
+    <PID name="transport" mc="Standard.Package" uid="00072d1c-d4f3-111c-bc9b-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[ecf]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Activator" mc="Standard.Class" uid="00094070-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="ECFTransportComponent" mc="Standard.Class" uid="0008c2da-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="FileInfoReader" mc="Standard.Class" uid="00092c70-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="FileReader" mc="Standard.Class" uid="0008d5cc-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="Messages" mc="Standard.Class" uid="0008afca-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="RepositoryStatus" mc="Standard.Class" uid="00089cd8-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="RepositoryStatusHelper" mc="Standard.Class" uid="000918a2-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="RepositoryTransport" mc="Standard.Class" uid="00095498-d4f3-111c-bc9b-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="editor" version="4">
+  <OBJECT>
+    <ID name="editor" mc="Standard.Package" uid="2c37f8ec-cc63-4fd4-ae9c-f10d68540057"/>
+    <PID name="internal" mc="Standard.Package" uid="09b5b54d-2362-4bc2-8424-dd8ed3bccc95"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[editor]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ActionContributorDTD" mc="Standard.Class" uid="af01a8c8-dad4-4faa-8335-d1de82db4a7b"/>
+        <COMPID name="DTDEditorPluginImageHelper" mc="Standard.Class" uid="72b3d6e3-0467-4363-aabb-dbf7fe1da10e"/>
+        <COMPID name="DTDEditorPluginImages" mc="Standard.Class" uid="95b4aabd-d9b7-451d-9e35-1dfce36a97e4"/>
+        <COMPID name="IHelpContextIds" mc="Standard.Interface" uid="7cb935a3-2938-4043-83e5-9be75467515d"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

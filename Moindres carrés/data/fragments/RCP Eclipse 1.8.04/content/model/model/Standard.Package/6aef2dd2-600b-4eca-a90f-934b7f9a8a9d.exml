@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="inject" version="4">
+  <OBJECT>
+    <ID name="inject" mc="Standard.Package" uid="6aef2dd2-600b-4eca-a90f-934b7f9a8a9d"/>
+    <PID name="enterprise" mc="Standard.Package" uid="f42b9082-9144-4828-8def-96c918ee15fc"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[inject]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Alternative" mc="Standard.Class" uid="4edead6b-7feb-4ec5-8f26-b11648959052"/>
+        <COMPID name="AmbiguousResolutionException" mc="Standard.Class" uid="0618aa87-26ec-4005-ad33-38c606c93b18"/>
+        <COMPID name="Any" mc="Standard.Class" uid="028417b8-4c6f-46f2-a384-1e0b387fc91d"/>
+        <COMPID name="CreationException" mc="Standard.Class" uid="59987c16-f827-420c-bb36-f169087cbdf7"/>
+        <COMPID name="Default" mc="Standard.Class" uid="03adc2de-7d62-4dec-b872-279674fd7ce1"/>
+        <COMPID name="Disposes" mc="Standard.Class" uid="78ae8e75-3a31-48db-9234-fa0308d5b8f7"/>
+        <COMPID name="IllegalProductException" mc="Standard.Class" uid="07073bdf-8269-45b7-8a47-bef7f2efe752"/>
+        <COMPID name="InjectionException" mc="Standard.Class" uid="985b07b6-6a04-41f6-96c6-e0a6830b1686"/>
+        <COMPID name="Instance" mc="Standard.Interface" uid="e0d89bb1-3d27-4ac6-94bc-c47ae1f47825"/>
+        <COMPID name="Model" mc="Standard.Class" uid="bf54d2a5-52c2-4fe4-86ab-b4fecb661215"/>
+        <COMPID name="New" mc="Standard.Class" uid="143e5fe7-c415-4be8-a859-c939ae3e6151"/>
+        <COMPID name="Produces" mc="Standard.Class" uid="ec3c9904-760c-4c01-9964-5c3426e3596a"/>
+        <COMPID name="ResolutionException" mc="Standard.Class" uid="6e0f3177-dbf7-45bf-a853-ef7accdcf50f"/>
+        <COMPID name="Specializes" mc="Standard.Class" uid="b4863d91-a70c-44c8-a7a7-d46fd1fde21d"/>
+        <COMPID name="Stereotype" mc="Standard.Class" uid="21aabcff-1743-4ead-801f-0189a99339ec"/>
+        <COMPID name="Typed" mc="Standard.Class" uid="094c310d-406e-47b6-a23e-193619447091"/>
+        <COMPID name="UnproxyableResolutionException" mc="Standard.Class" uid="0221dda3-102a-45ea-864a-bf1e83b21c62"/>
+        <COMPID name="UnsatisfiedResolutionException" mc="Standard.Class" uid="a07f397b-378f-4747-b4ef-4c6caa2fbdcb"/>
+        <COMPID name="spi" mc="Standard.Package" uid="1ae0962d-776d-45ae-890b-dadeb74bda1c"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

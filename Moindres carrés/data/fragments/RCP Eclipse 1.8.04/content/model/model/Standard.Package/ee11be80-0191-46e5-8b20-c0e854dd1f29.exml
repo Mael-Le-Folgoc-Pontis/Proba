@@ -1,0 +1,63 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="model" version="4">
+  <OBJECT>
+    <ID name="model" mc="Standard.Package" uid="ee11be80-0191-46e5-8b20-c0e854dd1f29"/>
+    <PID name="core" mc="Standard.Package" uid="4549fa9c-f4d2-4daa-9caf-ca141a00ffb9"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[model]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractDiscoverySource" mc="Standard.Class" uid="bea839bf-cd87-4cf2-b218-6c9eaf38baea"/>
+        <COMPID name="AbstractDiscoveryStrategy" mc="Standard.Class" uid="fa1a3150-d698-4b1d-ad90-1279ef61d4ea"/>
+        <COMPID name="BundleDiscoverySource" mc="Standard.Class" uid="2e92a6d0-445e-48c1-a19e-4da948dd5ed4"/>
+        <COMPID name="BundleDiscoveryStrategy" mc="Standard.Class" uid="186e9b99-8339-4f5f-9420-6c7755d7be12"/>
+        <COMPID name="Certification" mc="Standard.Class" uid="62927cb7-a825-4e2b-9bb2-3368f031e716"/>
+        <COMPID name="ConnectorCategory" mc="Standard.Class" uid="b56fddea-b82f-487f-a98a-f99d85d26855"/>
+        <COMPID name="ConnectorDescriptor" mc="Standard.Class" uid="88c075e9-000e-482a-85fb-3efae030f72c"/>
+        <OBJECT>
+          <ID name="ConnectorDescriptorKind" mc="Standard.Enumeration" uid="ce2134bf-5d77-40ab-9da5-b5b5d62138b5"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[ConnectorDescriptorKind]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Extension">
+              <FOREIGNID name="JavaEnumeration" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0262-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <COMPID name="ConnectorDiscovery" mc="Standard.Class" uid="649a5be3-f2d6-4b25-b07b-d762b6d9e8bc"/>
+        <COMPID name="ConnectorDiscoveryExtensionReader" mc="Standard.Class" uid="1bf16fbf-1a09-4236-8eb7-c177c1a2c112"/>
+        <COMPID name="Directory" mc="Standard.Class" uid="0467b89f-012d-4fc9-a0b2-27e9fd0884c5"/>
+        <COMPID name="DirectoryParser" mc="Standard.Class" uid="c1e24905-623e-4692-bec6-63b116251b31"/>
+        <COMPID name="DiscoveryCategory" mc="Standard.Class" uid="03603587-0d13-4a59-a131-ad34958afeb2"/>
+        <COMPID name="DiscoveryCertification" mc="Standard.Class" uid="13258554-bed1-4b2d-bea1-5b35d2ecc678"/>
+        <COMPID name="DiscoveryConnector" mc="Standard.Class" uid="563d448f-a18b-4b20-a331-9915acac7c5f"/>
+        <COMPID name="DiscoveryFeedbackJob" mc="Standard.Class" uid="8d7b97d0-262c-48cb-ab5c-6e87b77cce25"/>
+        <COMPID name="FeatureFilter" mc="Standard.Class" uid="437dc0af-bc97-4f67-a0ea-2d325f7f41a6"/>
+        <COMPID name="Group" mc="Standard.Class" uid="8ae7cc1f-a2b2-4431-8f58-d040d0acf034"/>
+        <COMPID name="Icon" mc="Standard.Class" uid="81ce1901-c78b-4857-97ab-6ed4a713cc8e"/>
+        <COMPID name="JarDiscoverySource" mc="Standard.Class" uid="cb6e27da-714d-465d-b11f-4e809945a21a"/>
+        <COMPID name="Overview" mc="Standard.Class" uid="debaa6ac-45dc-494f-8ac2-a8bf6a2ac6d4"/>
+        <COMPID name="Policy" mc="Standard.Class" uid="de2137a7-4660-4493-9167-9c09b350e449"/>
+        <COMPID name="RemoteBundleDiscoveryStrategy" mc="Standard.Class" uid="2e031252-7c5f-43e4-bfa2-2726b549b0da"/>
+        <COMPID name="ValidationException" mc="Standard.Class" uid="1cf1920d-dde2-4b3b-b86f-1da48331a3cf"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

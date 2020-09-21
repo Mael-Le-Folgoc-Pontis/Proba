@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="pages" version="4">
+  <OBJECT>
+    <ID name="pages" mc="Standard.Package" uid="9a6ca040-1b5c-4c80-9e40-07e988a08746"/>
+    <PID name="border" mc="Standard.Package" uid="9ad52efe-6e6d-4728-8753-ed1e22df4dea"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[pages]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractBorderComposite" mc="Standard.Class" uid="cf4ead7d-655a-4894-90b8-9064925e379e"/>
+        <COMPID name="BevelBorderComposite" mc="Standard.Class" uid="f01df7b4-ba4c-4146-9031-13c438842ba5"/>
+        <COMPID name="CompoundBorderComposite" mc="Standard.Class" uid="631964c6-31a8-4b62-8e43-232e75efe91b"/>
+        <COMPID name="DefaultBorderComposite" mc="Standard.Class" uid="a24fb2b8-4521-4dc6-99d7-94784596eb0a"/>
+        <COMPID name="EmptyBorderComposite" mc="Standard.Class" uid="78bd4c86-09ff-415f-9e17-60f22015f7e8"/>
+        <COMPID name="EtchedBorderComposite" mc="Standard.Class" uid="dbeabbbc-f7be-4f57-aed0-d15de6c36c8a"/>
+        <COMPID name="LineBorderComposite" mc="Standard.Class" uid="ae77a72f-a14a-49c1-8f50-059804c308c1"/>
+        <COMPID name="MatteBorderComposite" mc="Standard.Class" uid="b83c843a-e876-4765-9526-de67302f06ce"/>
+        <COMPID name="NoBorderComposite" mc="Standard.Class" uid="4c0d0e02-683d-4e34-b92d-10f996f933cf"/>
+        <COMPID name="SoftBevelBorderComposite" mc="Standard.Class" uid="73063bb5-44bd-4492-80be-9a7726d9087a"/>
+        <COMPID name="SwingBorderComposite" mc="Standard.Class" uid="6d16fafe-29cc-4f22-b830-f601d044db5e"/>
+        <COMPID name="TitledBorderComposite" mc="Standard.Class" uid="fa452785-fcd8-4fec-a9a0-f7ffc491725f"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

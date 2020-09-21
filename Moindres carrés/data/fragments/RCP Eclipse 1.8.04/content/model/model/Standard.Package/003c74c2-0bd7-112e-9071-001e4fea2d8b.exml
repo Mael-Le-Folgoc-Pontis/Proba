@@ -1,0 +1,67 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ide" version="4">
+  <OBJECT>
+    <ID name="ide" mc="Standard.Package" uid="003c74c2-0bd7-112e-9071-001e4fea2d8b"/>
+    <PID name="internal" mc="Standard.Package" uid="0015be4a-21ac-1fb1-8a9e-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[ide]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AboutInfo" mc="Standard.Class" uid="003c7f8a-0bd7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ChooseWorkspaceData" mc="Standard.Class" uid="003c85e8-0bd7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ChooseWorkspaceDialog" mc="Standard.Class" uid="003c9434-0bd7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ChooseWorkspaceWithSettingsDialog" mc="Standard.Class" uid="003c9b00-0bd7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ContentTypeDecorator" mc="Standard.Class" uid="003ca1f4-0bd7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DefaultContributorResourceAdapter" mc="Standard.Class" uid="003ca906-0bd7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DialogUtil" mc="Standard.Class" uid="003cb022-0bd7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="EditorAreaDropAdapter" mc="Standard.Class" uid="003cb798-0bd7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="EditorAssociationOverrideDescriptor" mc="Standard.Class" uid="003cbf40-0bd7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FeatureSelectionDialog" mc="Standard.Class" uid="003cc6f2-0bd7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IDEInternalPreferences" mc="Standard.Interface" uid="003ccd0a-0bd7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IDEInternalWorkbenchImages" mc="Standard.Class" uid="003cd598-0bd7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IDEPreferenceInitializer" mc="Standard.Class" uid="003cdda4-0bd7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IDESelectionConversionService" mc="Standard.Class" uid="003ce628-0bd7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IDEWorkbenchActivityHelper" mc="Standard.Class" uid="003cef38-0bd7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IDEWorkbenchErrorHandler" mc="Standard.Class" uid="003cf7e4-0bd7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IDEWorkbenchMessages" mc="Standard.Class" uid="003d0720-0bd7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IDEWorkbenchPlugin" mc="Standard.Class" uid="003d103a-0bd7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IIDEHelpContextIds" mc="Standard.Interface" uid="003d16b6-0bd7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IMarkerImageProvider" mc="Standard.Interface" uid="003d1daa-0bd7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IURIEditorInputAdapterFactory" mc="Standard.Class" uid="003d2764-0bd7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LineDelimiterEditor" mc="Standard.Class" uid="003d4442-0bd7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LinkedResourceDecorator" mc="Standard.Class" uid="003d4e4c-0bd7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Policy" mc="Standard.Class" uid="003d589c-0bd7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ProblemImageProvider" mc="Standard.Class" uid="003d62ba-0bd7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ResourceDragAndDropEditor" mc="Standard.Class" uid="003d6d3c-0bd7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ResourceFilterDecorator" mc="Standard.Class" uid="003d7d9a-0bd7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ResourceWorkingSetUpdater" mc="Standard.Class" uid="003d8a4c-0bd7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="StatusUtil" mc="Standard.Class" uid="003da2de-0bd7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="StringMatcher" mc="Standard.Class" uid="003dae3c-0bd7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SymlinkDecorator" mc="Standard.Class" uid="bc8e04a1-e1a5-4600-829d-6ca55daa79fe"/>
+        <COMPID name="TipsAndTricksAction" mc="Standard.Class" uid="003dc6f6-0bd7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="VirtualResourceDecorator" mc="Standard.Class" uid="003dd2a4-0bd7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WorkbenchActionBuilder" mc="Standard.Class" uid="003dde5c-0bd7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="actions" mc="Standard.Package" uid="004119c8-0bd7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="application" mc="Standard.Package" uid="0044d05e-0bd7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="commands" mc="Standard.Package" uid="004ba8a2-0bd7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="dialogs" mc="Standard.Package" uid="004f0fb0-0bd7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="filesystem" mc="Standard.Package" uid="00554a42-0bd7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="handlers" mc="Standard.Package" uid="0058c668-0bd7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="misc" mc="Standard.Package" uid="005c48f6-0bd7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="model" mc="Standard.Package" uid="00602d86-0bd7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="registry" mc="Standard.Package" uid="00642ce2-0bd7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="undo" mc="Standard.Package" uid="0067f4da-0bd7-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

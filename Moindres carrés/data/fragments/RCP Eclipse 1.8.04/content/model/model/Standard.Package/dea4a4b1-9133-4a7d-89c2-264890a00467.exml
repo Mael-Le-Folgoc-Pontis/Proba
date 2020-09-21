@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="storage" version="4">
+  <OBJECT>
+    <ID name="storage" mc="Standard.Package" uid="dea4a4b1-9133-4a7d-89c2-264890a00467"/>
+    <PID name="core" mc="Standard.Package" uid="dd7bf435-0d58-431f-a15b-7758a3398dd1"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[storage]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="CommonStore" mc="Standard.Class" uid="cd0a5428-734f-44a2-84b6-4181733fe960"/>
+        <COMPID name="ICommonStorable" mc="Standard.Interface" uid="6099360a-1a4b-4420-b0c2-b1d0dd3351ed"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

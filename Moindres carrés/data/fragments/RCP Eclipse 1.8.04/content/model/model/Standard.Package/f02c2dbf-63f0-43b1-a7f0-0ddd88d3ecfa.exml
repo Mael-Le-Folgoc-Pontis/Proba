@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="util" version="4">
+  <OBJECT>
+    <ID name="util" mc="Standard.Package" uid="f02c2dbf-63f0-43b1-a7f0-0ddd88d3ecfa"/>
+    <PID name="xsd" mc="Standard.Package" uid="49bee3fb-4490-45a2-b29a-36add430bad1"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[util]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="DefaultErrorHandler" mc="Standard.Class" uid="5d99b58b-cbd7-44d7-98b7-ad49346646d9"/>
+        <COMPID name="DefaultJAXPConfiguration" mc="Standard.Class" uid="544cfd9f-16fc-45e4-a1a4-649febcb05ff"/>
+        <COMPID name="DefaultJAXPPool" mc="Standard.Class" uid="000b1b88-41f4-4fb9-9f5e-fd459bfa7b5e"/>
+        <COMPID name="JAXPConfiguration" mc="Standard.Interface" uid="6fcb93af-dbcd-403e-ba6d-0ecb9895ba78"/>
+        <COMPID name="JAXPPool" mc="Standard.Interface" uid="bb1f7c43-5a5b-401c-9ce5-0bfda58ccb84"/>
+        <COMPID name="XSDAdapterFactory" mc="Standard.Class" uid="d52bc241-a6b6-4624-a188-580d032c723e"/>
+        <COMPID name="XSDConstants" mc="Standard.Class" uid="cb78ca5a-e606-4895-80a2-1b7482500e98"/>
+        <COMPID name="XSDParser" mc="Standard.Class" uid="27ad7195-40fe-4fae-b036-2103fc8043d1"/>
+        <COMPID name="XSDPrototypicalSchema" mc="Standard.Class" uid="f094dfd0-9359-411b-94fd-f1fcfb5b60c3"/>
+        <COMPID name="XSDResourceFactoryImpl" mc="Standard.Class" uid="5e3d5cde-997f-4b9b-a57e-3688a66b16e2"/>
+        <COMPID name="XSDResourceImpl" mc="Standard.Class" uid="d69e1065-cf85-40b5-a398-e55d53f6d2bd"/>
+        <COMPID name="XSDSchemaBuildingTools" mc="Standard.Class" uid="d851f092-97cb-4483-9288-293d5876087e"/>
+        <COMPID name="XSDSchemaLocationResolver" mc="Standard.Interface" uid="785ea25f-316c-4e46-8304-2eeb32149dfb"/>
+        <COMPID name="XSDSchemaLocator" mc="Standard.Interface" uid="0ac812af-74fa-4831-a7cf-2200b317e7de"/>
+        <COMPID name="XSDSchemaQueryTools" mc="Standard.Class" uid="b1deeabc-120c-49e8-ab35-35e2f235b4a0"/>
+        <COMPID name="XSDSwitch" mc="Standard.Class" uid="9fce838f-1b37-4427-b0d7-662ac694eadd"/>
+        <COMPID name="XSDUtil" mc="Standard.Class" uid="a06f100f-e57a-4aa4-8808-395c91593f0f"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

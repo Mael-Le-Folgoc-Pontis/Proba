@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="operations" version="4">
+  <OBJECT>
+    <ID name="operations" mc="Standard.Package" uid="8d8f8bb1-a23c-497f-b78a-ecbd361155d2"/>
+    <PID name="core" mc="Standard.Package" uid="91719f9e-d1d0-4d55-8873-7e878fa92b19"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[operations]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="NullOperationMonitor" mc="Standard.Class" uid="62e190c8-5af5-4e8f-a8b9-3f8397d87682"/>
+        <COMPID name="OperationMonitor" mc="Standard.Class" uid="5c5eb825-3f48-4d98-ad54-f36a35901884"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

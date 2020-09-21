@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="index" version="4">
+  <OBJECT>
+    <ID name="index" mc="Standard.Package" uid="7731bc2c-0ea3-4f78-95f8-0ae71707554f"/>
+    <PID name="xz" mc="Standard.Package" uid="d95f0043-5157-46b7-a345-0537f210e6de"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[index]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="BlockInfo" mc="Standard.Class" uid="fe565036-0ffb-4ace-926e-736742e15895"/>
+        <COMPID name="IndexDecoder" mc="Standard.Class" uid="700b2c25-fad6-4fad-825a-28bd46b9f016"/>
+        <COMPID name="IndexEncoder" mc="Standard.Class" uid="ebb1426f-9a4a-498c-873c-094c2fcc63a7"/>
+        <COMPID name="IndexHash" mc="Standard.Class" uid="3f18c546-7065-4a1e-a7bf-4426a3b66a39"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

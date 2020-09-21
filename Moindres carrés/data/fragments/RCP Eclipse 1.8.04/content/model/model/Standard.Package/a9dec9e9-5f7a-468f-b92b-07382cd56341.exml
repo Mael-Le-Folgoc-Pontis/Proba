@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="log" version="4">
+  <OBJECT>
+    <ID name="log" mc="Standard.Package" uid="a9dec9e9-5f7a-468f-b92b-07382cd56341"/>
+    <PID name="internal" mc="Standard.Package" uid="0080c2c6-21af-1fb1-8a9e-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[log]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="BasicReadWriteLock" mc="Standard.Class" uid="12be3af7-9d0a-4908-86e2-f40ca4bf26e3"/>
+        <COMPID name="EquinoxLogServices" mc="Standard.Class" uid="4bccd1fa-accd-45d6-ba1d-5dfe334f1f31"/>
+        <COMPID name="EventAdminAdapter" mc="Standard.Class" uid="14ff9ae3-730e-445f-9fec-e81e36baaf85"/>
+        <COMPID name="EventAdminLogListener" mc="Standard.Class" uid="3085bf4e-80b7-473e-ae0a-5bdc09010891"/>
+        <COMPID name="ExtendedLogEntryImpl" mc="Standard.Class" uid="b3fd979b-d633-482f-b778-c496a673389d"/>
+        <COMPID name="ExtendedLogReaderServiceFactory" mc="Standard.Class" uid="016d39bf-c5c0-4ad0-b23d-fae6c0b59ccb"/>
+        <COMPID name="ExtendedLogReaderServiceImpl" mc="Standard.Class" uid="678acb51-3148-4572-8b07-f3e4b9282346"/>
+        <COMPID name="ExtendedLogServiceFactory" mc="Standard.Class" uid="f9f8c204-8ddf-498b-9abd-c50456522245"/>
+        <COMPID name="ExtendedLogServiceImpl" mc="Standard.Class" uid="46ac27d8-ccf0-4e25-8e92-6bcd98edac7f"/>
+        <COMPID name="LogServiceManager" mc="Standard.Class" uid="4de188c9-2c4d-4199-8a42-72ea0a8727a7"/>
+        <COMPID name="LoggerImpl" mc="Standard.Class" uid="6aaddc6d-7884-46c5-af55-1c97e43dcc2a"/>
+        <COMPID name="SerializedTaskQueue" mc="Standard.Class" uid="7f87e985-e36c-46a0-bde6-371e83c4ccd9"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

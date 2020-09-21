@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="util" version="4">
+  <OBJECT>
+    <ID name="util" mc="Standard.Package" uid="008c2a58-0bd3-112e-9071-001e4fea2d8b"/>
+    <PID name="core" mc="Standard.Package" uid="007c49a8-0bd3-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[util]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="BuildCleanupListener" mc="Standard.Class" uid="008c3084-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CVSDateFormatter" mc="Standard.Class" uid="008c3692-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FileNameMatcher" mc="Standard.Class" uid="008c3cf0-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="KnownRepositories" mc="Standard.Class" uid="008c43b2-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MoveDeleteHook" mc="Standard.Class" uid="008c5000-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PrepareForReplaceVisitor" mc="Standard.Class" uid="008c56fe-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ResourceStateChangeListeners" mc="Standard.Class" uid="008c5de8-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ResponsiveSocketFactory" mc="Standard.Class" uid="008c6b26-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="StringMatcher" mc="Standard.Class" uid="008c7274-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SyncFileChangeListener" mc="Standard.Class" uid="008c9696-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SyncFileWriter" mc="Standard.Class" uid="008c9e7a-0bd3-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Util" mc="Standard.Class" uid="008ca672-0bd3-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="wrapper" version="4">
+  <OBJECT>
+    <ID name="wrapper" mc="Standard.Package" uid="3354e636-b893-4d47-bb76-c66ef52d0105"/>
+    <PID name="gradle" mc="Standard.Package" uid="b0a3a6a5-f52d-4ed0-a27b-9f7ce9859eef"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[wrapper]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="BootstrapMainStarter" mc="Standard.Class" uid="1ef06a5f-cac0-4460-b223-a5eec7942528"/>
+        <COMPID name="Download" mc="Standard.Class" uid="fcbd1bd3-f10f-4632-8469-1ee803d1d4fd"/>
+        <COMPID name="ExclusiveFileAccessManager" mc="Standard.Class" uid="0797c1b2-ce91-4136-8670-56ebd38d2d5a"/>
+        <COMPID name="GradleUserHomeLookup" mc="Standard.Class" uid="5f58e7f6-8df4-4fb3-88dd-e4442deeea87"/>
+        <COMPID name="IDownload" mc="Standard.Interface" uid="fa4c1c8c-8f8c-42c7-b649-b0f0ab1831bf"/>
+        <COMPID name="Install" mc="Standard.Class" uid="42ecd445-e857-4ff6-815e-71f43cbf25ab"/>
+        <COMPID name="Logger" mc="Standard.Class" uid="486810bd-2182-4473-9f05-b581a5a2a259"/>
+        <COMPID name="PathAssembler" mc="Standard.Class" uid="35bebf20-5bb7-4675-82f5-51bdff68f425"/>
+        <COMPID name="WrapperConfiguration" mc="Standard.Class" uid="78c528ca-e62b-4a6c-8625-c016d89e52fd"/>
+        <COMPID name="WrapperExecutor" mc="Standard.Class" uid="3bca76c7-7f9b-4eca-b339-39e7da94ed0d"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

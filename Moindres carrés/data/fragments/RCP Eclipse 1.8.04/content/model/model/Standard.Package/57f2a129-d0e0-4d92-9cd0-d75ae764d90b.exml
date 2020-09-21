@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="dialogs" version="4">
+  <OBJECT>
+    <ID name="dialogs" mc="Standard.Package" uid="57f2a129-d0e0-4d92-9cd0-d75ae764d90b"/>
+    <PID name="palette" mc="Standard.Package" uid="49a65cdd-7c95-4352-b030-3b87dfd721c1"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[dialogs]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractPaletteDialog" mc="Standard.Class" uid="ab39c7da-faba-4e4b-94ad-aa3711e58371"/>
+        <COMPID name="AbstractPaletteElementDialog" mc="Standard.Class" uid="d0c56545-97ee-43ed-88ba-38de90ad3621"/>
+        <COMPID name="CategoryAbstractDialog" mc="Standard.Class" uid="3efeb6c9-7794-4a6f-ab57-052725c87d93"/>
+        <COMPID name="CategoryAddDialog" mc="Standard.Class" uid="54c36571-b1eb-45b3-9ee2-91fc9d12bc25"/>
+        <COMPID name="CategoryEditDialog" mc="Standard.Class" uid="6d1496ef-2d43-4886-9e14-fc9d9b90c197"/>
+        <COMPID name="ComponentAbstractDialog" mc="Standard.Class" uid="8056fe99-c94e-442b-b8f0-955b2d36fd13"/>
+        <COMPID name="ComponentAddDialog" mc="Standard.Class" uid="0f050aa1-8be3-45f6-ba85-8888fdb0ed7f"/>
+        <COMPID name="ComponentEditDialog" mc="Standard.Class" uid="b6063b6d-3e4f-4037-9342-c567f9fdcce4"/>
+        <COMPID name="ImportArchiveDialog" mc="Standard.Class" uid="90c0cb10-50f8-4c61-af3f-2ed729e1628b"/>
+        <COMPID name="PaletteManagerDialog" mc="Standard.Class" uid="b98b6525-d1f0-48b3-8e1b-eba32598ab34"/>
+        <COMPID name="PalettePreferencesDialog" mc="Standard.Class" uid="7af5c7e5-47e7-4c83-88c5-91354ae15f41"/>
+        <COMPID name="factory" mc="Standard.Package" uid="98e49a8f-0a56-412e-ad78-e3dbf0c8e31b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

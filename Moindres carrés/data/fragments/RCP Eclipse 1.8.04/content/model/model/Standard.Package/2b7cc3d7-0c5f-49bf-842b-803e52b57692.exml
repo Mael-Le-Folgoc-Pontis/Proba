@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="html" version="4">
+  <OBJECT>
+    <ID name="html" mc="Standard.Package" uid="2b7cc3d7-0c5f-49bf-842b-803e52b57692"/>
+    <PID name="parser" mc="Standard.Package" uid="84ce8f01-b616-466e-b522-f9782eabcf4d"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[html]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractSaxHtmlParser" mc="Standard.Class" uid="c5853087-5155-41cb-8eea-13c13344e545"/>
+        <COMPID name="DocumentProcessor" mc="Standard.Class" uid="29ddd433-d88b-43ae-a5c1-8235bcc66964"/>
+        <COMPID name="HtmlCleaner" mc="Standard.Class" uid="4ed51a6d-a4c6-470f-81c6-cf6c3985de69"/>
+        <COMPID name="HtmlParser" mc="Standard.Class" uid="13ae845b-12ea-4caf-998d-8bffe153211f"/>
+        <COMPID name="RemoveExcessiveStylesProcessor" mc="Standard.Class" uid="1e3f76e9-3090-40b4-b602-b3344dc5948a"/>
+        <COMPID name="RepairBrokenCSSColorStylesProcessor" mc="Standard.Class" uid="686080d8-8bfe-4cfc-b5ac-364e302b5006"/>
+        <COMPID name="XHtmlParser" mc="Standard.Class" uid="d4912c0e-1aa1-4ae1-9591-55157336abad"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

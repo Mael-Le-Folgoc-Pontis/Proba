@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="value" version="4">
+  <OBJECT>
+    <ID name="value" mc="Standard.Package" uid="008f848c-0bbc-112e-9071-001e4fea2d8b"/>
+    <PID name="engine" mc="Standard.Package" uid="008a760e-0bbc-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[value]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractColorManager" mc="Standard.Class" uid="008f8c02-0bbc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AbstractValue" mc="Standard.Class" uid="008f947c-0bbc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AbstractValueFactory" mc="Standard.Class" uid="008f9d50-0bbc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AbstractValueManager" mc="Standard.Class" uid="008fa6a6-0bbc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ComputedValue" mc="Standard.Class" uid="008fb06a-0bbc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FloatValue" mc="Standard.Class" uid="008fba92-0bbc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IdentifierManager" mc="Standard.Class" uid="008fc51e-0bbc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="InheritValue" mc="Standard.Class" uid="008fd02c-0bbc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LengthManager" mc="Standard.Class" uid="008fdb9e-0bbc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ListValue" mc="Standard.Class" uid="008fe77e-0bbc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Messages" mc="Standard.Class" uid="008ff43a-0bbc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RGBColorValue" mc="Standard.Class" uid="00900128-0bbc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RectManager" mc="Standard.Class" uid="00900e52-0bbc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RectValue" mc="Standard.Class" uid="00901bfe-0bbc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ShorthandManager" mc="Standard.Interface" uid="009023a6-0bbc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="StringMap" mc="Standard.Class" uid="00903a44-0bbc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="StringValue" mc="Standard.Class" uid="00905ce0-0bbc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="URIValue" mc="Standard.Class" uid="00906bfe-0bbc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Value" mc="Standard.Interface" uid="00907446-0bbc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ValueConstants" mc="Standard.Interface" uid="00907d10-0bbc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ValueManager" mc="Standard.Interface" uid="0090865c-0bbc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="css2" mc="Standard.Package" uid="00915654-0bbc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="svg" mc="Standard.Package" uid="0092fdce-0bbc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="svg12" mc="Standard.Package" uid="0096483a-0bbc-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

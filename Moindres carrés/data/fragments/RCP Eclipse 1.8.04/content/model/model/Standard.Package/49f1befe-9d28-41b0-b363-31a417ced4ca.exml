@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="or" version="4">
+  <OBJECT>
+    <ID name="or" mc="Standard.Package" uid="49f1befe-9d28-41b0-b363-31a417ced4ca"/>
+    <PID name="log4j" mc="Standard.Package" uid="ed6a544b-48f0-4c81-b6a9-45e027c242cd"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[or]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ObjectRenderer" mc="Standard.Interface" uid="5eb6f959-3a14-47b1-b3f3-5346006db8f4"/>
+        <COMPID name="RendererMap" mc="Standard.Class" uid="4ac72a93-dbfb-42a7-9780-37bd42395952"/>
+        <COMPID name="ThreadGroupRenderer" mc="Standard.Class" uid="1711311c-a2e3-4d2f-8b12-3c37e617657a"/>
+        <COMPID name="jms" mc="Standard.Package" uid="e083cf5d-1306-4f40-b923-ff9bb700ad38"/>
+        <COMPID name="sax" mc="Standard.Package" uid="dd754028-1e45-4139-a9c2-b5f410233d8a"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

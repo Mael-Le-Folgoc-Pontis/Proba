@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="synchronize" version="4">
+  <OBJECT>
+    <ID name="synchronize" mc="Standard.Package" uid="b36062fe-d73b-4b7b-9aae-48994851820f"/>
+    <PID name="core" mc="Standard.Package" uid="5e95d30f-294d-414e-bbc0-a559ceff63bc"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[synchronize]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="GitCommitsModelCache" mc="Standard.Class" uid="61d540a5-b1c8-45a5-8001-e216149ef1e0"/>
+        <COMPID name="GitCommitsModelDirectionException" mc="Standard.Class" uid="8fffe566-8fbf-4f55-baee-d954afa95691"/>
+        <COMPID name="GitRemoteResource" mc="Standard.Class" uid="08c8577c-cae1-4298-8014-7cdb13d9878c"/>
+        <COMPID name="GitResourceVariantTreeSubscriber" mc="Standard.Class" uid="e9f2371b-ebb6-4fbf-8c06-c25a06c7842e"/>
+        <COMPID name="GitSubscriberMergeContext" mc="Standard.Class" uid="b099031a-0bc4-43f3-80be-132ad27eda56"/>
+        <COMPID name="GitSubscriberResourceMappingContext" mc="Standard.Class" uid="b0620010-1db7-4c3e-af4c-18cef6ef5a4c"/>
+        <COMPID name="StagedChangeCache" mc="Standard.Class" uid="96964d86-e800-4913-bf38-233c447eeef3"/>
+        <COMPID name="ThreeWayDiffEntry" mc="Standard.Class" uid="7050d255-608d-49f6-871d-e94bb0fa6777"/>
+        <COMPID name="WorkingTreeChangeCache" mc="Standard.Class" uid="d9654dda-e85d-4fe8-8420-d1881ae391f3"/>
+        <COMPID name="dto" mc="Standard.Package" uid="1cadd31f-81e4-49be-b6fe-2566600b118c"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

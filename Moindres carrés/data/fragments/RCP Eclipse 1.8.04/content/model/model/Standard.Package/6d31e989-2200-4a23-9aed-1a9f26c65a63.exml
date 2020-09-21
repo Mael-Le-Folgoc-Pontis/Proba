@@ -1,0 +1,58 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="digester" version="4">
+  <OBJECT>
+    <ID name="digester" mc="Standard.Package" uid="6d31e989-2200-4a23-9aed-1a9f26c65a63"/>
+    <PID name="commons" mc="Standard.Package" uid="0009d012-0bbd-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[digester]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractObjectCreationFactory" mc="Standard.Class" uid="cb4dbe0e-9181-4ae5-9fae-925641957ff7"/>
+        <COMPID name="AbstractRulesImpl" mc="Standard.Class" uid="2db57746-27af-4d30-9a96-0ae1931e0794"/>
+        <COMPID name="BeanPropertySetterRule" mc="Standard.Class" uid="11e54775-8afb-418d-a7d1-f518771df65b"/>
+        <COMPID name="CallMethodRule" mc="Standard.Class" uid="9a45cd71-bad7-4bf2-859b-e9921300c45b"/>
+        <COMPID name="CallParamRule" mc="Standard.Class" uid="7bf5f456-7bbe-43ae-bf24-b25666573605"/>
+        <COMPID name="Digester" mc="Standard.Class" uid="5bdd0812-0826-44b6-bc78-c9a5b2103aad"/>
+        <COMPID name="ExtendedBaseRules" mc="Standard.Class" uid="4f21b273-44b6-43ea-8808-82fa056a5708"/>
+        <COMPID name="FactoryCreateRule" mc="Standard.Class" uid="e1c25c27-4504-4cfa-8551-9086e472222e"/>
+        <COMPID name="NodeCreateRule" mc="Standard.Class" uid="48665701-de60-42d6-800e-a556a01e9ee3"/>
+        <COMPID name="ObjectCreateRule" mc="Standard.Class" uid="1e4f9dc0-02ce-4820-a1e6-2934a6bce57f"/>
+        <COMPID name="ObjectCreationFactory" mc="Standard.Interface" uid="e8394572-a1b7-4863-ab01-aea0defbbef4"/>
+        <COMPID name="ObjectParamRule" mc="Standard.Class" uid="3e028d16-69d7-473e-a83e-ddb46d83c0ce"/>
+        <COMPID name="ParserFeatureSetterFactory" mc="Standard.Class" uid="843889c2-4839-40e6-8992-8a621e5c202a"/>
+        <COMPID name="PathCallParamRule" mc="Standard.Class" uid="87146426-775e-43f4-852d-4da8cb7d3039"/>
+        <COMPID name="RegexMatcher" mc="Standard.Class" uid="4ac74fb6-4a3c-4c12-bf4a-b44aff29c53b"/>
+        <COMPID name="RegexRules" mc="Standard.Class" uid="001d62cf-95d7-4271-bbfa-191797c9209b"/>
+        <COMPID name="Rule" mc="Standard.Class" uid="dc2e336f-fcec-4df9-a392-9cf0502530fb"/>
+        <COMPID name="RuleSet" mc="Standard.Interface" uid="060b3074-975e-4e68-a862-8cbff0205c46"/>
+        <COMPID name="RuleSetBase" mc="Standard.Class" uid="3599f923-c3f0-4bfd-acc2-90963d3c8d40"/>
+        <COMPID name="Rules" mc="Standard.Interface" uid="faff3fbf-2d90-4661-b0d9-6b3f0efbbcbe"/>
+        <COMPID name="RulesBase" mc="Standard.Class" uid="10ef4127-4a67-4a67-a0d6-f7d061384ed2"/>
+        <COMPID name="SetNestedPropertiesRule" mc="Standard.Class" uid="7af9fc3e-2820-43d2-a084-87c19717d374"/>
+        <COMPID name="SetNextRule" mc="Standard.Class" uid="b7e5833a-4c98-4d97-a581-98afce0f39eb"/>
+        <COMPID name="SetPropertiesRule" mc="Standard.Class" uid="edb3aab7-1cbb-4ea5-84bc-60f443b2d538"/>
+        <COMPID name="SetPropertyRule" mc="Standard.Class" uid="2122dbc7-7e75-4967-a622-2bb0efd5719f"/>
+        <COMPID name="SetRootRule" mc="Standard.Class" uid="e8a09c79-f5a2-459a-a0a9-fd8ffd34d22f"/>
+        <COMPID name="SetTopRule" mc="Standard.Class" uid="5bef4295-c014-4059-8bf8-476fcdcb12bc"/>
+        <COMPID name="SimpleRegexMatcher" mc="Standard.Class" uid="fc06ef08-c750-4a2f-9c00-3347418e439e"/>
+        <COMPID name="StackAction" mc="Standard.Interface" uid="f5541c5c-6589-40a9-8eff-3ff2dc470518"/>
+        <COMPID name="Substitutor" mc="Standard.Class" uid="feac5709-1719-4871-a34e-b3da011f97b8"/>
+        <COMPID name="WithDefaultsRulesWrapper" mc="Standard.Class" uid="6e60816a-fd46-4a15-9cff-1fbc67148622"/>
+        <COMPID name="parser" mc="Standard.Package" uid="0eb9323a-131b-4eb3-8c81-a571ab84ceea"/>
+        <COMPID name="plugins" mc="Standard.Package" uid="41aa6d74-64a8-4516-bc5e-a977c4b96e02"/>
+        <COMPID name="substitution" mc="Standard.Package" uid="4de6e809-84f7-4abd-ae45-f00000015cb5"/>
+        <COMPID name="xmlrules" mc="Standard.Package" uid="1edbf737-3ba5-47e6-bf5c-f769b57a9054"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

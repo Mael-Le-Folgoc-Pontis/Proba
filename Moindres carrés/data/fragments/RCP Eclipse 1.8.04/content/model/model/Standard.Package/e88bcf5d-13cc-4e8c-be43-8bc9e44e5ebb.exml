@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="repository" version="4">
+  <OBJECT>
+    <ID name="repository" mc="Standard.Package" uid="e88bcf5d-13cc-4e8c-be43-8bc9e44e5ebb"/>
+    <PID name="util" mc="Standard.Package" uid="fbcb0581-8ae4-44bf-bed2-745c3f92a86a"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[repository]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AuthenticationBuilder" mc="Standard.Class" uid="f36648a7-edb8-4d6c-8cf1-c46439d89967"/>
+        <COMPID name="ChainedWorkspaceReader" mc="Standard.Class" uid="7c1c1ca5-e9f9-4b11-8f3a-1f0485569e88"/>
+        <COMPID name="ConservativeAuthenticationSelector" mc="Standard.Class" uid="be220bb7-b9fe-487f-acbe-9cb684dd2b09"/>
+        <COMPID name="ConservativeProxySelector" mc="Standard.Class" uid="9a3a3ab7-1287-46b8-8555-06568835fe13"/>
+        <COMPID name="DefaultAuthenticationSelector" mc="Standard.Class" uid="f4d4b15b-07dc-42ff-8873-93fabe5025f0"/>
+        <COMPID name="DefaultMirrorSelector" mc="Standard.Class" uid="2a46517c-5153-41f7-b04c-b4302795633e"/>
+        <COMPID name="DefaultProxySelector" mc="Standard.Class" uid="0bd3dc49-294c-4931-a73b-670ead3bd8ed"/>
+        <COMPID name="JreProxySelector" mc="Standard.Class" uid="c14a64d8-550b-4388-9088-ba6b1888847f"/>
+        <COMPID name="SimpleArtifactDescriptorPolicy" mc="Standard.Class" uid="f83b31b1-f983-4141-a3d4-62a4678fb4a5"/>
+        <COMPID name="SimpleResolutionErrorPolicy" mc="Standard.Class" uid="653c030a-5915-4ef8-b559-cbf613653042"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

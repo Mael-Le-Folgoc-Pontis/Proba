@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="operations" version="4">
+  <OBJECT>
+    <ID name="operations" mc="Standard.Package" uid="c3b1018f-21bb-4194-9eff-2fb82d77b8d2"/>
+    <PID name="internal" mc="Standard.Package" uid="d9212ba3-aeff-4017-b122-a2ad13473688"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[operations]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AllValidatorsOperation" mc="Standard.Class" uid="bbb52aa1-b9a2-4263-a288-e4ae7483f7e2"/>
+        <COMPID name="DefaultResourceUtil" mc="Standard.Class" uid="774c56e2-7f66-47e1-9796-920b0f58ad04"/>
+        <COMPID name="EnabledIncrementalValidatorsOperation" mc="Standard.Class" uid="90249840-dd85-4cd3-8005-cf915f1bd4c2"/>
+        <COMPID name="EnabledValidatorsOperation" mc="Standard.Class" uid="6ee0d315-9fb8-4506-8985-e5151173ccbb"/>
+        <COMPID name="IResourceUtil" mc="Standard.Interface" uid="73c95031-f9f9-4eb1-bdd2-155fe2440f46"/>
+        <COMPID name="IRuleGroup" mc="Standard.Interface" uid="1c34f564-b289-4c21-bbc0-3b94643e016d"/>
+        <COMPID name="IWorkbenchContext" mc="Standard.Interface" uid="e2e28e6c-1884-4fa0-964f-940e8324c537"/>
+        <COMPID name="LocalizedMessage" mc="Standard.Class" uid="f7d5a49e-d380-4b76-b5a0-8e6e641a5e0e"/>
+        <COMPID name="ManualIncrementalValidatorsOperation" mc="Standard.Class" uid="0420cb78-a1a5-409d-a329-e65ef3768122"/>
+        <COMPID name="ManualValidatorsOperation" mc="Standard.Class" uid="0f238bdf-3883-4bf9-bf5e-94ea83ff1e67"/>
+        <COMPID name="MessageInfo" mc="Standard.Class" uid="1f5f840b-a909-4034-adfb-86161f53a71b"/>
+        <COMPID name="OneValidatorOperation" mc="Standard.Class" uid="bca5ac15-4c45-4f30-9f5b-68bdc1ccf25a"/>
+        <COMPID name="ReferencialFileValidator" mc="Standard.Interface" uid="54ebc71f-e700-4ea8-bf70-230f004965c4"/>
+        <COMPID name="ReferencialFileValidatorHelper" mc="Standard.Class" uid="8ada0179-7c8a-4ccf-9a0c-3d3032097f61"/>
+        <COMPID name="ResourceHandler" mc="Standard.Class" uid="b7dadb27-e2ff-4884-b946-fb51ad26c1e3"/>
+        <COMPID name="TaskListHelper" mc="Standard.Class" uid="e2dbfaab-c587-4785-a96c-88ea1f36381e"/>
+        <COMPID name="ValidationBuilder" mc="Standard.Class" uid="699b7cfc-59c7-4dcb-9422-bfc795ce491b"/>
+        <COMPID name="ValidationConstants" mc="Standard.Interface" uid="bee44129-bd30-47a3-8c2d-19232972f55f"/>
+        <COMPID name="ValidationOperation" mc="Standard.Class" uid="19fe7f4d-85c9-42d4-9de6-4be74ae78a24"/>
+        <COMPID name="ValidationUtility" mc="Standard.Class" uid="b5011014-f99b-4624-a256-e66845455e33"/>
+        <COMPID name="ValidatorJob" mc="Standard.Class" uid="0f353669-47c4-4cfc-9b70-c3365cf11acc"/>
+        <COMPID name="ValidatorManager" mc="Standard.Class" uid="18079456-81a0-4925-95bb-b16e006c8b6e"/>
+        <COMPID name="ValidatorSubsetOperation" mc="Standard.Class" uid="0814705c-9c6a-4788-9451-cadcc7c2f56d"/>
+        <COMPID name="WorkbenchContext" mc="Standard.Class" uid="086735fd-f917-4d5c-8b81-d00c84601b8c"/>
+        <COMPID name="WorkbenchFileDelta" mc="Standard.Class" uid="9340d4d8-8c67-4f42-8b19-2d70c6f9d2b3"/>
+        <COMPID name="WorkbenchReporter" mc="Standard.Class" uid="34cef136-3b20-4d58-8402-404102715d69"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

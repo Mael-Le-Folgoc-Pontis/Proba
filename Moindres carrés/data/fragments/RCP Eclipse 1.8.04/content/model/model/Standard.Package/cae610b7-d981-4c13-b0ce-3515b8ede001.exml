@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="fs" version="4">
+  <OBJECT>
+    <ID name="fs" mc="Standard.Package" uid="cae610b7-d981-4c13-b0ce-3515b8ede001"/>
+    <PID name="index" mc="Standard.Package" uid="c783765e-7614-4963-9c1b-b9b50c46d7b8"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[fs]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Lock" mc="Standard.Interface" uid="c86a62d9-4233-4c81-b41a-7bd38df54c1b"/>
+        <COMPID name="Locker" mc="Standard.Interface" uid="cc6cb4f6-3134-458f-bce3-ce96f2fcad77"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

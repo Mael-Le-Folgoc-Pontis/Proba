@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="engine" version="4">
+  <OBJECT>
+    <ID name="engine" mc="Standard.Package" uid="0058a854-0bcb-112e-9071-001e4fea2d8b"/>
+    <PID name="spelling" mc="Standard.Package" uid="0055b4aa-0bcb-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[engine]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractSpellDictionary" mc="Standard.Class" uid="0058ae8a-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DefaultPhoneticDistanceAlgorithm" mc="Standard.Class" uid="0058c442-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DefaultPhoneticHashProvider" mc="Standard.Class" uid="0058cb04-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DefaultSpellChecker" mc="Standard.Class" uid="0058d19e-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IPhoneticDistanceAlgorithm" mc="Standard.Interface" uid="0058d7a2-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IPhoneticHashProvider" mc="Standard.Interface" uid="0058de32-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ISpellCheckEngine" mc="Standard.Interface" uid="0058e512-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ISpellCheckIterator" mc="Standard.Interface" uid="0058ec1a-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ISpellChecker" mc="Standard.Interface" uid="0058f372-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ISpellDictionary" mc="Standard.Interface" uid="0058fafc-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ISpellEvent" mc="Standard.Interface" uid="005902ea-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ISpellEventListener" mc="Standard.Interface" uid="00590a88-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LocaleSensitiveSpellDictionary" mc="Standard.Class" uid="005911c2-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PersistentSpellDictionary" mc="Standard.Class" uid="005918ca-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RankedWordProposal" mc="Standard.Class" uid="00591fd2-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SpellEvent" mc="Standard.Class" uid="00592734-0bcb-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

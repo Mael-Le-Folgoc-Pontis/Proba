@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="invoker" version="4">
+  <OBJECT>
+    <ID name="invoker" mc="Standard.Package" uid="179dff1e-9c08-4ce6-98c3-09b17def0c80"/>
+    <PID name="shared" mc="Standard.Package" uid="e4187734-d250-41d6-92fa-d9eda2c81c1a"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[invoker]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="CommandLineConfigurationException" mc="Standard.Class" uid="c7c4ed38-f690-4eb7-95af-7c183622ccc0"/>
+        <COMPID name="DefaultInvocationRequest" mc="Standard.Class" uid="4e25177c-342c-41c7-984c-ded983d6ae66"/>
+        <COMPID name="DefaultInvocationResult" mc="Standard.Class" uid="a3761d90-19ad-48b5-ac39-0bf8592d24b2"/>
+        <COMPID name="DefaultInvoker" mc="Standard.Class" uid="dec1fcaf-970a-489d-acc4-925efb267bdb"/>
+        <COMPID name="InvocationOutputHandler" mc="Standard.Interface" uid="af516459-0f1d-4f32-b0f6-e7370d6407bb"/>
+        <COMPID name="InvocationRequest" mc="Standard.Interface" uid="80bd73c5-f8f1-4858-99cb-91e2b158f42b"/>
+        <COMPID name="InvocationResult" mc="Standard.Interface" uid="a249a023-5505-4d6d-ab48-2327b41db1da"/>
+        <COMPID name="Invoker" mc="Standard.Interface" uid="270ef26f-7e96-4b91-8020-3d2514aac7b4"/>
+        <COMPID name="InvokerLogger" mc="Standard.Interface" uid="25642ea8-03d2-4ae0-b692-eff026435793"/>
+        <COMPID name="MavenCommandLineBuilder" mc="Standard.Class" uid="c5507859-a160-4527-8f38-797f427b943e"/>
+        <COMPID name="MavenInvocationException" mc="Standard.Class" uid="bf6c27d5-2fe4-464d-ab24-7ef7eba50bd3"/>
+        <COMPID name="PrintStreamHandler" mc="Standard.Class" uid="1ac28178-8834-4d08-9145-8b777c1cec83"/>
+        <COMPID name="PrintStreamLogger" mc="Standard.Class" uid="e14f1d07-2060-4840-ae97-87228ae8c0ae"/>
+        <COMPID name="SystemOutHandler" mc="Standard.Class" uid="852634ba-f367-4764-b7e1-30df5bac7a41"/>
+        <COMPID name="SystemOutLogger" mc="Standard.Class" uid="8f8c269d-3a9a-445e-9ad8-5646685d2e55"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

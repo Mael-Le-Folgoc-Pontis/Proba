@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="runner" version="4">
+  <OBJECT>
+    <ID name="runner" mc="Standard.Package" uid="008ae0a8-0bdd-112e-9071-001e4fea2d8b"/>
+    <PID name="junit" mc="Standard.Package" uid="0089b1a6-0bdd-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[runner]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="BaseTestRunner" mc="Standard.Class" uid="008ae67a-0bdd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TestRunListener" mc="Standard.Interface" uid="008b309e-0bdd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Version" mc="Standard.Class" uid="008b3f8a-0bdd-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

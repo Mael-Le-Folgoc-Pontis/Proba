@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="resource" version="4">
+  <OBJECT>
+    <ID name="resource" mc="Standard.Package" uid="a347debf-4226-44de-b59b-c8bba038f32b"/>
+    <PID name="description" mc="Standard.Package" uid="136a19fe-0ebb-473a-a136-e3f265617ba2"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[resource]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ClassResourceInfo" mc="Standard.Class" uid="44c2d76d-de6b-4e89-8531-dab9f5d91611"/>
+        <COMPID name="EmptyDescriptionVersionsProvider" mc="Standard.Class" uid="bb37a0db-016a-4e31-adec-f78ff4e18106"/>
+        <COMPID name="FromListDescriptionVersionsProvider" mc="Standard.Class" uid="4b6b6918-4e47-499a-8e6c-88e2d738c035"/>
+        <COMPID name="IDescriptionVersionsProvider" mc="Standard.Interface" uid="c77b81dc-bd98-4da1-85e7-f5cda6b2d977"/>
+        <COMPID name="IDescriptionVersionsProviderFactory" mc="Standard.Interface" uid="1f6968c2-9cf7-42b2-95c6-a9737bf0599f"/>
+        <COMPID name="ResourceInfo" mc="Standard.Class" uid="d92b8a57-302a-4613-9474-37607097927d"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

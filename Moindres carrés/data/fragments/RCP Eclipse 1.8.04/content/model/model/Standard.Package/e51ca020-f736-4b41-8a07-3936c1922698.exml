@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="util" version="4">
+  <OBJECT>
+    <ID name="util" mc="Standard.Package" uid="e51ca020-f736-4b41-8a07-3936c1922698"/>
+    <PID name="gradle" mc="Standard.Package" uid="b0a3a6a5-f52d-4ed0-a27b-9f7ce9859eef"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[util]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="CollectionUtils" mc="Standard.Class" uid="932cb41d-6996-4dde-8891-522b6bc2562c"/>
+        <COMPID name="Configurable" mc="Standard.Class" uid="0d763249-f770-4f95-b488-583a833e5b4b"/>
+        <COMPID name="DistributionLocator" mc="Standard.Class" uid="5ef295b0-8c10-43a4-b46a-31a12a1aae0a"/>
+        <COMPID name="GFileUtils" mc="Standard.Class" uid="9b343bc1-daa5-44ab-98bd-3a4391317273"/>
+        <COMPID name="GUtil" mc="Standard.Class" uid="c24788be-7078-4d8b-863e-2cf1a86cec45"/>
+        <COMPID name="GradleVersion" mc="Standard.Class" uid="3b7522d2-a041-4b93-bce1-043864095853"/>
+        <COMPID name="internal" mc="Standard.Package" uid="27913d5f-6e61-4174-bca4-5239a0704001"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

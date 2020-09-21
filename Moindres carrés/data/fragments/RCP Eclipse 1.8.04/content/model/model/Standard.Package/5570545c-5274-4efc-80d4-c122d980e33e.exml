@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="validateedit" version="4">
+  <OBJECT>
+    <ID name="validateedit" mc="Standard.Package" uid="5570545c-5274-4efc-80d4-c122d980e33e"/>
+    <PID name="emfworkbench" mc="Standard.Package" uid="8e64d4bd-53fd-4bd3-a953-7ae2d53aeb36"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[validateedit]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="IValidateEditContext" mc="Standard.Interface" uid="017f1e9d-5aef-4565-9760-a502ee3884c7"/>
+        <COMPID name="ResourceStateInputProvider" mc="Standard.Interface" uid="6165dca0-0aa1-4639-a7a3-6148f24fc56e"/>
+        <COMPID name="ResourceStateValidator" mc="Standard.Interface" uid="25732f95-7e42-4c0e-bf77-b7129077b1d1"/>
+        <COMPID name="ResourceStateValidatorImpl" mc="Standard.Class" uid="e5d2ded5-9c24-4275-bf7a-258dc4b07ad4"/>
+        <COMPID name="ResourceStateValidatorPresenter" mc="Standard.Interface" uid="69694d58-90eb-4bc1-941a-6d487a3874c9"/>
+        <COMPID name="ValidateEditHeadlessContext" mc="Standard.Class" uid="a557fa79-6dc0-41ee-b58c-f8240664d4e2"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

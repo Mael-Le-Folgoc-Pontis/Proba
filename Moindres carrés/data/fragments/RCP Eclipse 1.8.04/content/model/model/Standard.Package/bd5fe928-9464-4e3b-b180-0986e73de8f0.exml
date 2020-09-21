@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="exceptions" version="4">
+  <OBJECT>
+    <ID name="exceptions" mc="Standard.Package" uid="bd5fe928-9464-4e3b-b180-0986e73de8f0"/>
+    <PID name="tooling" mc="Standard.Package" uid="a7cc4559-6906-4c16-9e82-7a1b5271167c"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[exceptions]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="UnsupportedBuildArgumentException" mc="Standard.Class" uid="dad2f6bc-4e31-4bf2-8d7d-2bb157750fdf"/>
+        <COMPID name="UnsupportedOperationConfigurationException" mc="Standard.Class" uid="5d8aca75-a76d-40d6-b4b2-23615db1cf46"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

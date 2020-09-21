@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="moment" version="4">
+  <OBJECT>
+    <ID name="moment" mc="Standard.Package" uid="ea6062e9-a869-462e-b054-9d64be68fa33"/>
+    <PID name="descriptive" mc="Standard.Package" uid="f658e721-f165-4bb8-ada9-a98905cd5f01"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[moment]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="FirstMoment" mc="Standard.Class" uid="9a7c0a9e-66ed-47a1-a93e-b0c6d2888953"/>
+        <COMPID name="FourthMoment" mc="Standard.Class" uid="72fcbdc6-6b29-4f60-9c6c-d14eb49454f8"/>
+        <COMPID name="GeometricMean" mc="Standard.Class" uid="babac1f7-5881-434a-b53b-1f781ecd772b"/>
+        <COMPID name="Kurtosis" mc="Standard.Class" uid="984af904-047b-4662-bac5-0085d8e84b15"/>
+        <COMPID name="Mean" mc="Standard.Class" uid="81ee4583-ab89-4534-8763-55fd11698aab"/>
+        <COMPID name="SecondMoment" mc="Standard.Class" uid="bac06d8b-dff2-45be-8276-28ee57206946"/>
+        <COMPID name="SemiVariance" mc="Standard.Class" uid="c872d8f4-0d30-4a4d-892d-40f4b7362d48"/>
+        <COMPID name="Skewness" mc="Standard.Class" uid="faa142ed-5da8-4f54-858b-d41ec6147ed8"/>
+        <COMPID name="StandardDeviation" mc="Standard.Class" uid="c0fe8779-3b0d-4b90-bb7e-791b0512495d"/>
+        <COMPID name="ThirdMoment" mc="Standard.Class" uid="be8f2120-0e42-4e93-93ca-d49680e7e8fe"/>
+        <COMPID name="Variance" mc="Standard.Class" uid="e139295f-abe9-4bb2-adfb-e1c48272e314"/>
+        <COMPID name="VectorialCovariance" mc="Standard.Class" uid="009bd1e9-dd48-4ba8-82a6-a8e9581fef45"/>
+        <COMPID name="VectorialMean" mc="Standard.Class" uid="bb56b8d1-597b-4ec2-89b3-076b8a21ec25"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

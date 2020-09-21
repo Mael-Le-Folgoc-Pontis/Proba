@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="tasks" version="4">
+  <OBJECT>
+    <ID name="tasks" mc="Standard.Package" uid="5bc3a32a-724c-4cc6-b235-33c9fe4c8dc8"/>
+    <PID name="core" mc="Standard.Package" uid="d917b643-68de-4c19-9c97-66bfcebc7f77"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[tasks]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ConfigurationException" mc="Standard.Class" uid="70e52151-280d-4371-982e-fc9fb25e8e06"/>
+        <COMPID name="MediaWikiImageFetcher" mc="Standard.Class" uid="d4f474fe-daf2-4941-853e-b2cfb58d569d"/>
+        <COMPID name="WikiToDocTask" mc="Standard.Class" uid="972d7aa8-a315-453d-a42a-37005740fd6f"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

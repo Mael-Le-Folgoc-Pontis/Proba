@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="list" version="4">
+  <OBJECT>
+    <ID name="list" mc="Standard.Package" uid="0040c7ac-21a8-1fb1-8a9e-001e4fea2d8b"/>
+    <PID name="observable" mc="Standard.Package" uid="003f68f8-21a8-1fb1-8a9e-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[list]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractObservableList" mc="Standard.Class" uid="004434d2-21a8-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ComputedList" mc="Standard.Class" uid="0045289c-21a8-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="DecoratingObservableList" mc="Standard.Class" uid="0041731e-21a8-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="IListChangeListener" mc="Standard.Interface" uid="0040e46c-21a8-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="IObservableList" mc="Standard.Interface" uid="00461252-21a8-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ListChangeEvent" mc="Standard.Class" uid="00431200-21a8-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ListDiff" mc="Standard.Class" uid="004237b8-21a8-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ListDiffEntry" mc="Standard.Class" uid="0047d902-21a8-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ListDiffVisitor" mc="Standard.Class" uid="0045e944-21a8-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="MultiList" mc="Standard.Class" uid="00473920-21a8-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ObservableList" mc="Standard.Class" uid="0046a316-21a8-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="WritableList" mc="Standard.Class" uid="0043a3fa-21a8-1fb1-8a9e-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="measurement" version="4">
+  <OBJECT>
+    <ID name="measurement" mc="Standard.Package" uid="c52e11e8-3cca-49e3-990e-7db6401e5d85"/>
+    <PID name="util" mc="Standard.Package" uid="38427339-43ba-49ce-a34e-f0cc5c8e6d73"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[measurement]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Measurement" mc="Standard.Class" uid="4840fce2-64b8-437f-95c7-129772fe6d4f"/>
+        <COMPID name="State" mc="Standard.Class" uid="ccab0df8-7052-477f-811a-93321c3b6bb6"/>
+        <COMPID name="Unit" mc="Standard.Class" uid="87469e61-d433-42de-a78a-219663c8575e"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

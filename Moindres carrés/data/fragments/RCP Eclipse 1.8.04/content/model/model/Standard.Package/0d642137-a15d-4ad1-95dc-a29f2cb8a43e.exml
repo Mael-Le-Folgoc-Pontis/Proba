@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="operations" version="4">
+  <OBJECT>
+    <ID name="operations" mc="Standard.Package" uid="0d642137-a15d-4ad1-95dc-a29f2cb8a43e"/>
+    <PID name="core" mc="Standard.Package" uid="dd7bf435-0d58-431f-a15b-7758a3398dd1"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[operations]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="CancellableOperationMonitorThread" mc="Standard.Class" uid="0701358c-c5f5-4f6b-a591-3c7df02b5896"/>
+        <COMPID name="ICancellable" mc="Standard.Interface" uid="18f10baa-a1c2-469a-8233-30589c84d9b0"/>
+        <COMPID name="ICancellableOperation" mc="Standard.Interface" uid="5da69221-27c0-4afc-94c9-73b4a1653d08"/>
+        <COMPID name="IOperationMonitor" mc="Standard.Interface" uid="c443d2dd-a02c-4af4-9182-db9775d0b14a"/>
+        <COMPID name="MonitoredOperation" mc="Standard.Class" uid="7647aa13-ee5d-499c-b768-b29dfeecb011"/>
+        <COMPID name="Operation" mc="Standard.Class" uid="a8006458-5fc1-40d9-9cca-be2ab596f852"/>
+        <COMPID name="OperationUtil" mc="Standard.Class" uid="73b85480-dcfd-4c71-b9ca-7132fa7089e2"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

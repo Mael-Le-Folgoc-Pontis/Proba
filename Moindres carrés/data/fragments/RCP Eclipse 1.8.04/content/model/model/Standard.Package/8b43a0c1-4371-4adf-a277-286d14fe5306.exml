@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="impl" version="4">
+  <OBJECT>
+    <ID name="impl" mc="Standard.Package" uid="8b43a0c1-4371-4adf-a277-286d14fe5306"/>
+    <PID name="http" mc="Standard.Package" uid="69579971-0298-4981-9fc7-48c3562d4504"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[impl]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractHttpClientConnection" mc="Standard.Class" uid="050ebd6e-0058-4ca5-8997-1ec8437f1494"/>
+        <COMPID name="AbstractHttpServerConnection" mc="Standard.Class" uid="2d1130e3-808f-4ab1-a3d9-9e42fdd8abb3"/>
+        <COMPID name="BHttpConnectionBase" mc="Standard.Class" uid="97bd5fd4-3880-4f21-ba6b-c57a6c06a9f8"/>
+        <COMPID name="ConnSupport" mc="Standard.Class" uid="bee322a2-151e-4743-b216-a4150a963b86"/>
+        <COMPID name="DefaultBHttpClientConnection" mc="Standard.Class" uid="e58abf19-8a87-437e-92de-4c964cb209bb"/>
+        <COMPID name="DefaultBHttpClientConnectionFactory" mc="Standard.Class" uid="48beefa4-b0c6-4309-8328-802717d8d1a7"/>
+        <COMPID name="DefaultBHttpServerConnection" mc="Standard.Class" uid="e9c1fe86-ccb9-4021-b3af-08e3fa433295"/>
+        <COMPID name="DefaultBHttpServerConnectionFactory" mc="Standard.Class" uid="8d38c055-87a3-49cb-81f7-f0911e178eaf"/>
+        <COMPID name="DefaultConnectionReuseStrategy" mc="Standard.Class" uid="ea4819cf-db8b-4164-bbea-230956e0100f"/>
+        <COMPID name="DefaultHttpClientConnection" mc="Standard.Class" uid="39814e31-a46a-461a-8e63-b0894c9d025e"/>
+        <COMPID name="DefaultHttpRequestFactory" mc="Standard.Class" uid="0b35f7fd-10c2-44a2-a5ee-c10245979a5e"/>
+        <COMPID name="DefaultHttpResponseFactory" mc="Standard.Class" uid="024d1b42-c401-433d-b0bc-701b56f7610f"/>
+        <COMPID name="DefaultHttpServerConnection" mc="Standard.Class" uid="cb2a6798-70fb-4e09-ac1f-38e3d2a4d66c"/>
+        <COMPID name="EnglishReasonPhraseCatalog" mc="Standard.Class" uid="1e356720-304d-4d07-a622-c85b4369e3ce"/>
+        <COMPID name="HttpConnectionMetricsImpl" mc="Standard.Class" uid="f9be2654-697e-40c9-9545-c6da2e57ce80"/>
+        <COMPID name="NoConnectionReuseStrategy" mc="Standard.Class" uid="a817437d-1608-453f-ba98-09ff490b992d"/>
+        <COMPID name="SocketHttpClientConnection" mc="Standard.Class" uid="38cd7ee2-d88a-46ab-aaef-ce6e5ffe3a57"/>
+        <COMPID name="SocketHttpServerConnection" mc="Standard.Class" uid="d87db4f9-9d84-4c36-acc8-9cbe6ac44705"/>
+        <COMPID name="auth" mc="Standard.Package" uid="79364a56-1654-4ad0-a72a-d57d1d66decd"/>
+        <COMPID name="client" mc="Standard.Package" uid="ccb9e063-b689-4552-97c0-7280c8f057fc"/>
+        <COMPID name="conn" mc="Standard.Package" uid="cff75fb3-3267-4daa-8038-2d7aa588a193"/>
+        <COMPID name="cookie" mc="Standard.Package" uid="6c05b728-c637-45cc-9a20-a720a4cb14ef"/>
+        <COMPID name="entity" mc="Standard.Package" uid="bdb4d364-c92d-45f4-8d74-0fd6bafe1fe0"/>
+        <COMPID name="execchain" mc="Standard.Package" uid="8a9f72b6-a973-4f0a-81a7-9ff87856fcb7"/>
+        <COMPID name="io" mc="Standard.Package" uid="d49fc373-54d9-4859-8114-c51221c94fc3"/>
+        <COMPID name="pool" mc="Standard.Package" uid="ac839915-ae0d-4bc7-b387-1a06d1005a5d"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

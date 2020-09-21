@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="dom" version="4">
+  <OBJECT>
+    <ID name="dom" mc="Standard.Package" uid="004fb65e-21a5-1fb1-8a9e-001e4fea2d8b"/>
+    <PID name="swt" mc="Standard.Package" uid="001cf034-21a5-1fb1-8a9e-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[dom]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ButtonElement" mc="Standard.Class" uid="00579900-21a5-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="CTabFolderElement" mc="Standard.Class" uid="0056cfa2-21a5-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="CTabItemElement" mc="Standard.Class" uid="0054b4b0-21a5-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="CompositeElement" mc="Standard.Class" uid="005380c2-21a5-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ControlElement" mc="Standard.Class" uid="00566648-21a5-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ISelectionBackgroundCustomizationElement" mc="Standard.Interface" uid="0034a018-0b86-4c52-9007-c20b8b5c9420"/>
+        <COMPID name="ItemElement" mc="Standard.Class" uid="0055e0ba-21a5-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="SWTElementProvider" mc="Standard.Class" uid="004fd44a-21a5-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ScaleElement" mc="Standard.Class" uid="0052ea86-21a5-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ShellElement" mc="Standard.Class" uid="0057fefe-21a5-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="TableElement" mc="Standard.Class" uid="27404467-55fe-4d9c-af94-12bf514bb0c2"/>
+        <COMPID name="TableItemElement" mc="Standard.Class" uid="00573438-21a5-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="TextElement" mc="Standard.Class" uid="0055497a-21a5-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ToolBarElement" mc="Standard.Class" uid="0037eccc-0bc2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ToolItemElement" mc="Standard.Class" uid="0037f9ec-0bc2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TreeElement" mc="Standard.Class" uid="74e2e76c-28c7-4598-8bb5-e08b1320f388"/>
+        <COMPID name="WidgetElement" mc="Standard.Class" uid="00541780-21a5-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="definition" mc="Standard.Package" uid="344b7c2b-f9d4-469f-9525-8845bd5afb2c"/>
+        <COMPID name="html" mc="Standard.Package" uid="0051ce8a-21a5-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="preference" mc="Standard.Package" uid="0c354ccd-15c0-48fc-8265-7a04b2e76ba5"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

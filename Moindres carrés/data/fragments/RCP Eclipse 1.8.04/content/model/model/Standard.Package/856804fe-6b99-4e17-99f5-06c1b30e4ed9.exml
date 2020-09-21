@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="editor" version="4">
+  <OBJECT>
+    <ID name="editor" mc="Standard.Package" uid="856804fe-6b99-4e17-99f5-06c1b30e4ed9"/>
+    <PID name="internal" mc="Standard.Package" uid="8de19d9c-309f-4c7f-968c-e82cba2f8859"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[editor]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="EditorModelUtil" mc="Standard.Class" uid="09bfd4ce-97a1-42a3-9e87-6153a578048f"/>
+        <COMPID name="EditorPluginImageHelper" mc="Standard.Class" uid="9a11fd94-721f-4557-b27d-521784e937f6"/>
+        <COMPID name="EditorPluginImages" mc="Standard.Class" uid="d23b2612-7ccc-4d9f-8f69-2b67c102bae4"/>
+        <COMPID name="IHelpContextIds" mc="Standard.Interface" uid="834a7ddb-4b04-4b90-b904-bbfa2f21b07c"/>
+        <COMPID name="SelectionConvertor" mc="Standard.Class" uid="e9b878e8-568d-4c62-a4e8-85ab60552bb8"/>
+        <COMPID name="StructuredModelDocumentProvider" mc="Standard.Class" uid="91dc60b1-8b36-4450-8489-f37134cc6cbd"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

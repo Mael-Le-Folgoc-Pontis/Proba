@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="tools" version="4">
+  <OBJECT>
+    <ID name="tools" mc="Standard.Package" uid="00634df4-d4f2-111c-bc9b-001e4fea2d8b"/>
+    <PID name="repository" mc="Standard.Package" uid="005bafea-d4f2-111c-bc9b-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[tools]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractApplication" mc="Standard.Class" uid="00652cc8-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="Activator" mc="Standard.Class" uid="0065d2f4-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="ArtifactRepositoryValidator" mc="Standard.Class" uid="0065946a-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="CompositeRepositoryApplication" mc="Standard.Class" uid="006553d8-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="Messages" mc="Standard.Class" uid="00654064-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="MirrorApplication" mc="Standard.Class" uid="0065e816-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="RecreateRepositoryApplication" mc="Standard.Class" uid="0065a8ba-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="Repo2Runnable" mc="Standard.Class" uid="00635876-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="RepositoryAnalyzer" mc="Standard.Class" uid="00657c0a-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="RepositoryAnalyzerApplication" mc="Standard.Class" uid="00637a2c-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="RepositoryDescriptor" mc="Standard.Class" uid="006567ce-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="RepositoryUtilities" mc="Standard.Class" uid="0065194a-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="SlicingOptions" mc="Standard.Class" uid="0065be4a-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="analyzer" mc="Standard.Package" uid="00648188-d4f2-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="tasks" mc="Standard.Package" uid="006ad25e-d4f2-111c-bc9b-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

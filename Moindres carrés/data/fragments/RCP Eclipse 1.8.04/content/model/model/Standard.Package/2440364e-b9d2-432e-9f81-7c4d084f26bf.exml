@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="graph" version="4">
+  <OBJECT>
+    <ID name="graph" mc="Standard.Package" uid="2440364e-b9d2-432e-9f81-7c4d084f26bf"/>
+    <PID name="util" mc="Standard.Package" uid="fbcb0581-8ae4-44bf-bed2-745c3f92a86a"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[graph]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="manager" mc="Standard.Package" uid="2c89a0fe-6b85-4399-b5af-47aa42403cdf"/>
+        <COMPID name="selector" mc="Standard.Package" uid="a31ff7d8-96ee-4443-b3fa-8375aa740bf1"/>
+        <COMPID name="transformer" mc="Standard.Package" uid="c6a86a36-f0e7-42f7-9db2-054f6dfd1926"/>
+        <COMPID name="traverser" mc="Standard.Package" uid="46cce483-ced5-47db-a1dc-53aad120c582"/>
+        <COMPID name="version" mc="Standard.Package" uid="092e3348-2de2-4ec6-95cd-6d16955172fb"/>
+        <COMPID name="visitor" mc="Standard.Package" uid="c5534dc7-3085-4391-9066-4da234388879"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

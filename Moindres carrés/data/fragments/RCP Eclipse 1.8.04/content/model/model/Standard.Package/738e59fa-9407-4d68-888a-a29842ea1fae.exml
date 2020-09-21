@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="l10n" version="4">
+  <OBJECT>
+    <ID name="l10n" mc="Standard.Package" uid="738e59fa-9407-4d68-888a-a29842ea1fae"/>
+    <PID name="rcp" mc="Standard.Package" uid="ae065211-fea0-4406-be16-de73cf77ebb9"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[l10n]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="LogMessages" mc="Standard.Class" uid="9639720b-8b36-49e2-b146-f3302e3fe8ce"/>
+        <COMPID name="Messages" mc="Standard.Class" uid="b769dda9-7a82-45ee-a5c7-f0c81e68f24d"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

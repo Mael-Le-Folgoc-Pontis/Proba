@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="resource" version="4">
+  <OBJECT>
+    <ID name="resource" mc="Standard.Package" uid="2c0b88a1-bdad-4d81-8dd4-39350a56b006"/>
+    <PID name="runtime" mc="Standard.Package" uid="b49e96ae-43ea-4b59-bab5-7fead6df26ae"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[resource]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ContentResource" mc="Standard.Class" uid="18abb01d-fc33-44fc-ab9e-9b1016df37fe"/>
+        <COMPID name="Resource" mc="Standard.Class" uid="bfa00f38-6e61-4648-b19c-9559f508cde0"/>
+        <COMPID name="ResourceCache" mc="Standard.Interface" uid="1ef00d1b-a559-4217-bc13-5e323508ebde"/>
+        <COMPID name="ResourceCacheImpl" mc="Standard.Class" uid="d1d53c21-f137-4ad7-8ca3-12914d346e89"/>
+        <COMPID name="ResourceFactory" mc="Standard.Class" uid="217e10bc-ef59-4e19-b5d9-d717f8ecdf5e"/>
+        <COMPID name="ResourceManager" mc="Standard.Interface" uid="4322afc5-4d5c-44e3-bdba-05fb81f6a5a1"/>
+        <COMPID name="ResourceManagerImpl" mc="Standard.Class" uid="97261b0a-a601-4237-bc98-456914456541"/>
+        <COMPID name="loader" mc="Standard.Package" uid="922dc60d-edf2-4cff-9bf3-ac5ad0c38b4e"/>
+        <COMPID name="util" mc="Standard.Package" uid="5d3903a6-1dbd-49bc-a0c3-5f394691a44d"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="core" version="4">
+  <OBJECT>
+    <ID name="core" mc="Standard.Package" uid="5b34cfab-bbdc-46dc-be8c-62cf9c9cda9b"/>
+    <PID name="wikitext" mc="Standard.Package" uid="3245825f-a4b3-4d18-b378-20e02bd2ee34"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[core]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ant" mc="Standard.Package" uid="4d027378-39e7-4737-9ae7-730949bf479e"/>
+        <COMPID name="parser" mc="Standard.Package" uid="84ce8f01-b616-466e-b522-f9782eabcf4d"/>
+        <COMPID name="util" mc="Standard.Package" uid="8f7521ff-3123-472e-9266-48a944465ef8"/>
+        <COMPID name="validation" mc="Standard.Package" uid="fe67d162-df75-4b06-817d-0e8f6caabda8"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="framework" version="4">
+  <OBJECT>
+    <ID name="framework" mc="Standard.Package" uid="008a5070-0bdd-112e-9071-001e4fea2d8b"/>
+    <PID name="junit" mc="Standard.Package" uid="0089b1a6-0bdd-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[framework]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Assert" mc="Standard.Class" uid="008a5674-0bdd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AssertionFailedError" mc="Standard.Class" uid="008a5c78-0bdd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ComparisonCompactor" mc="Standard.Class" uid="008a62ea-0bdd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ComparisonFailure" mc="Standard.Class" uid="008a697a-0bdd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JUnit4TestAdapter" mc="Standard.Class" uid="008a7050-0bdd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JUnit4TestAdapterCache" mc="Standard.Class" uid="008a7758-0bdd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JUnit4TestCaseFacade" mc="Standard.Class" uid="008a7e92-0bdd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Protectable" mc="Standard.Interface" uid="008a845a-0bdd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Test" mc="Standard.Interface" uid="008a8b30-0bdd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TestCase" mc="Standard.Class" uid="008a930a-0bdd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TestFailure" mc="Standard.Class" uid="008a9a80-0bdd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TestListener" mc="Standard.Interface" uid="008aa106-0bdd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TestResult" mc="Standard.Class" uid="008aa94e-0bdd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TestSuite" mc="Standard.Class" uid="008ab13c-0bdd-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="editor" version="4">
+  <OBJECT>
+    <ID name="editor" mc="Standard.Package" uid="01f6fe6d-de1f-4772-8129-00e6af7fabd9"/>
+    <PID name="internal" mc="Standard.Package" uid="8dac5e70-eadd-4ac5-9e61-066073002452"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[editor]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="CMImageUtil" mc="Standard.Class" uid="bfa5d035-c2e4-4897-9db4-2a7d89622d69"/>
+        <COMPID name="DOMSelectionConvertorFactory" mc="Standard.Class" uid="a7a76b14-083e-4ba5-9fde-5e755daf102d"/>
+        <COMPID name="IHelpContextIds" mc="Standard.Interface" uid="d72d6b94-2cf9-454e-9568-f0078a8ccd67"/>
+        <COMPID name="XMLEditorPluginImageHelper" mc="Standard.Class" uid="77c9bb0c-e525-467e-b7f1-4116b104aabc"/>
+        <COMPID name="XMLEditorPluginImages" mc="Standard.Class" uid="b3107adb-1774-49a4-bc4a-a632515b05aa"/>
+        <COMPID name="propertytester" mc="Standard.Package" uid="2f56a5bf-b391-45c2-a455-a7b6a17a5a39"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

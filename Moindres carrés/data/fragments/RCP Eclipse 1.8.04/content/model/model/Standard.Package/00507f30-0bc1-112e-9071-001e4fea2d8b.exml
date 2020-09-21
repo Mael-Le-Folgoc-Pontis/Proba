@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="launch" version="4">
+  <OBJECT>
+    <ID name="launch" mc="Standard.Package" uid="00507f30-0bc1-112e-9071-001e4fea2d8b"/>
+    <PID name="views" mc="Standard.Package" uid="0049cc26-0bc1-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[launch]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="DebugElementAdapterFactory" mc="Standard.Class" uid="0050940c-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DebugElementHelper" mc="Standard.Class" uid="00509b46-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Decoration" mc="Standard.Class" uid="0050b2a2-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DecorationManager" mc="Standard.Class" uid="0050baea-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ImageImageDescriptor" mc="Standard.Class" uid="0050c35a-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LaunchView" mc="Standard.Class" uid="0050cbca-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LaunchViewBreadcrumb" mc="Standard.Class" uid="0050f046-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LaunchViewCopyToClipboardActionDelegate" mc="Standard.Class" uid="0051280e-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LaunchViewMessages" mc="Standard.Class" uid="00513114-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SourceNotFoundEditor" mc="Standard.Class" uid="00513ab0-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SourceNotFoundEditorInput" mc="Standard.Class" uid="0051446a-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="StandardDecoration" mc="Standard.Class" uid="00514e06-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TerminateAndRemoveHandler" mc="Standard.Class" uid="0051581a-0bc1-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

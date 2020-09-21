@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="xml" version="4">
+  <OBJECT>
+    <ID name="xml" mc="Standard.Package" uid="6ada9bc5-eba9-4b91-a8eb-f80e221cf03f"/>
+    <PID name="wst" mc="Standard.Package" uid="6705de63-3826-4f1b-ab2f-fcc783bbaf9a"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[xml]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="core" mc="Standard.Package" uid="4b79f588-462d-451b-a1db-86656ec18a40"/>
+        <COMPID name="ui" mc="Standard.Package" uid="068a1f6f-44b4-449b-81b3-ccfabe8e90d1"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

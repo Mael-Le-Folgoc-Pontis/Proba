@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="compiler" version="4">
+  <OBJECT>
+    <ID name="compiler" mc="Standard.Package" uid="af87afc6-2ed3-4cff-8c4c-ebbb4b2fe227"/>
+    <PID name="mvel2" mc="Standard.Package" uid="9144514c-c276-4a5b-9f46-4b3c52f6ca1f"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[compiler]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractParser" mc="Standard.Class" uid="cc9186d7-4722-461e-b4bc-8214d6ef43e4"/>
+        <COMPID name="Accessor" mc="Standard.Interface" uid="102e66cf-f2ec-4330-8fae-8512fdd74cdf"/>
+        <COMPID name="AccessorNode" mc="Standard.Interface" uid="605ca6fc-f896-423e-8b24-1fa6b95ab49a"/>
+        <COMPID name="BlankLiteral" mc="Standard.Class" uid="b0f4b471-ccbd-4292-8ad0-be5e970c6d2e"/>
+        <COMPID name="CompiledAccExpression" mc="Standard.Class" uid="6c6a3791-5d08-4e33-bdb1-775250078c88"/>
+        <COMPID name="CompiledExpression" mc="Standard.Class" uid="3fb7dd41-f9d0-4c12-a027-c3fb07dd1b88"/>
+        <COMPID name="EndWithValue" mc="Standard.Class" uid="bc4304f1-21ba-4b25-9a86-d51d47871bf6"/>
+        <COMPID name="ExecutableAccessor" mc="Standard.Class" uid="25e756f4-fa48-4d79-a230-0a6c7920e7d5"/>
+        <COMPID name="ExecutableAccessorSafe" mc="Standard.Class" uid="ee724e28-1f83-4f8a-8e6f-98f726efa6cd"/>
+        <COMPID name="ExecutableLiteral" mc="Standard.Class" uid="fa1fb3c3-396f-4e46-809a-ad16cd88163e"/>
+        <COMPID name="ExecutableStatement" mc="Standard.Interface" uid="810a4029-6102-41d7-b07c-3de74a0027d0"/>
+        <COMPID name="ExpressionCompiler" mc="Standard.Class" uid="9a1fd604-bdc7-4e00-80bc-f92c0ef3731f"/>
+        <COMPID name="PropertyVerifier" mc="Standard.Class" uid="1e99c663-226a-4302-98c1-12c5f632e439"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

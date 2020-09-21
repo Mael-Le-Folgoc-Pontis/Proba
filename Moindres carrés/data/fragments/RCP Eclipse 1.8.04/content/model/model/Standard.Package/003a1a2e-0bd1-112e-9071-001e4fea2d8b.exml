@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="text" version="4">
+  <OBJECT>
+    <ID name="text" mc="Standard.Package" uid="003a1a2e-0bd1-112e-9071-001e4fea2d8b"/>
+    <PID name="toc" mc="Standard.Package" uid="0038dbe6-0bd1-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[text]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Toc" mc="Standard.Class" uid="003a2050-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TocAnchor" mc="Standard.Class" uid="003a265e-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TocDocumentFactory" mc="Standard.Class" uid="003a2d02-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TocDocumentHandler" mc="Standard.Class" uid="003a33a6-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TocLink" mc="Standard.Class" uid="003a3a36-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TocMarkerManager" mc="Standard.Class" uid="003a412a-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TocModel" mc="Standard.Class" uid="003a4864-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TocObject" mc="Standard.Class" uid="003a4f94-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TocTopic" mc="Standard.Class" uid="003a571e-0bd1-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="sos" version="4">
+  <OBJECT>
+    <ID name="sos" mc="Standard.Package" uid="006aa914-0bbe-112e-9071-001e4fea2d8b"/>
+    <PID name="optional" mc="Standard.Package" uid="0043083c-0bbe-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[sos]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="SOS" mc="Standard.Class" uid="006ab0b2-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SOSCheckin" mc="Standard.Class" uid="006ab800-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SOSCheckout" mc="Standard.Class" uid="006abfb2-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SOSCmd" mc="Standard.Interface" uid="006ac6ce-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SOSGet" mc="Standard.Class" uid="006acebc-0bbe-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SOSLabel" mc="Standard.Class" uid="006ad6be-0bbe-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

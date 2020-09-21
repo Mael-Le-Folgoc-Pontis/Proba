@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="math" version="4">
+  <OBJECT>
+    <ID name="math" mc="Standard.Package" uid="1414ef36-80ce-40c4-b363-0c108d8a9a4a"/>
+    <PID name="common" mc="Standard.Package" uid="a53057d4-becb-49c8-a124-0d91b5f0d087"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[math]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="BigIntegerMath" mc="Standard.Class" uid="fbad78ea-ffb3-46da-b72a-4b8b43dfa348"/>
+        <COMPID name="DoubleMath" mc="Standard.Class" uid="11c8eee4-9c0f-4849-9293-e6918be7793c"/>
+        <COMPID name="IntMath" mc="Standard.Class" uid="e6f9bea4-3c6b-47d6-aed0-ffc2f42d0260"/>
+        <COMPID name="LongMath" mc="Standard.Class" uid="978dd27a-400a-4b35-aa2a-651112e6cda4"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

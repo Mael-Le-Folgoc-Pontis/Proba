@@ -1,0 +1,61 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="jxpath" version="4">
+  <OBJECT>
+    <ID name="jxpath" mc="Standard.Package" uid="5605dc9c-f600-4a17-96a6-7ff45b5b4e36"/>
+    <PID name="commons" mc="Standard.Package" uid="0009d012-0bbd-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[jxpath]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractFactory" mc="Standard.Class" uid="ed89c79b-d2ab-41af-83a6-815b39077f9f"/>
+        <COMPID name="BasicNodeSet" mc="Standard.Class" uid="4b15733b-3e2c-4526-9008-6a6a4e04d983"/>
+        <COMPID name="BasicVariables" mc="Standard.Class" uid="76510c2b-d932-4c58-940d-1d1cbdb188c1"/>
+        <COMPID name="ClassFunctions" mc="Standard.Class" uid="c4489853-bcd8-4a77-be64-84c6456858eb"/>
+        <COMPID name="CompiledExpression" mc="Standard.Interface" uid="3f5181c9-e5c5-474f-bb55-07c5f2ce3cf8"/>
+        <COMPID name="Container" mc="Standard.Interface" uid="214f7ccd-b9c7-46e2-8e78-cbc5241cb978"/>
+        <COMPID name="DynamicPropertyHandler" mc="Standard.Interface" uid="9877f389-a549-46d9-93ea-12bab305d155"/>
+        <COMPID name="ExpressionContext" mc="Standard.Interface" uid="00a3a996-7476-4328-b05b-c9fd646dc06d"/>
+        <COMPID name="ExtendedKeyManager" mc="Standard.Interface" uid="1db57db1-c8ca-4b59-a707-e3c58c3c65ca"/>
+        <COMPID name="Function" mc="Standard.Interface" uid="0d06790a-cbaf-41b3-9d49-9a66b71584d9"/>
+        <COMPID name="FunctionLibrary" mc="Standard.Class" uid="bcd0204c-550b-4b3a-b86c-6423f730a9bf"/>
+        <COMPID name="Functions" mc="Standard.Interface" uid="aa66e36f-b8e5-41de-b16f-4e2b7d2f6a42"/>
+        <COMPID name="IdentityManager" mc="Standard.Interface" uid="f793dc41-3081-4c6c-87bf-238860881973"/>
+        <COMPID name="JXPathAbstractFactoryException" mc="Standard.Class" uid="117c4b86-b4e6-48ec-87df-a74fbfd4626f"/>
+        <COMPID name="JXPathBasicBeanInfo" mc="Standard.Class" uid="aa541805-8e48-4456-b14f-b9315917e75f"/>
+        <COMPID name="JXPathBeanInfo" mc="Standard.Interface" uid="082291e1-62b1-4750-9bfc-7ec57413e006"/>
+        <COMPID name="JXPathContext" mc="Standard.Class" uid="e8510557-059a-4ef4-9c29-c46c3725fef5"/>
+        <COMPID name="JXPathContextFactory" mc="Standard.Class" uid="1bca6854-38f7-4ff1-ae97-2e75d3552aa5"/>
+        <COMPID name="JXPathContextFactoryConfigurationError" mc="Standard.Class" uid="cc9622ab-709c-414e-8189-384f986fa729"/>
+        <COMPID name="JXPathException" mc="Standard.Class" uid="4e5e0d19-3dd4-4658-a0be-4b3d426d55ac"/>
+        <COMPID name="JXPathFunctionNotFoundException" mc="Standard.Class" uid="25fad160-871e-4816-85e2-e3c8b0ee5cbb"/>
+        <COMPID name="JXPathIntrospector" mc="Standard.Class" uid="bab6c9c7-f1ca-47e6-96bb-d5cd36fd4036"/>
+        <COMPID name="JXPathInvalidAccessException" mc="Standard.Class" uid="87f7cc2f-769a-40d2-9200-68439c4dc48f"/>
+        <COMPID name="JXPathInvalidSyntaxException" mc="Standard.Class" uid="4704f42a-5d3c-4531-b820-680d4c5a7253"/>
+        <COMPID name="JXPathNotFoundException" mc="Standard.Class" uid="1c051ce6-fce2-4210-92fa-dd600e25aa4f"/>
+        <COMPID name="JXPathTypeConversionException" mc="Standard.Class" uid="a6fa4243-2a46-4945-b7f7-7b1597f80ae6"/>
+        <COMPID name="KeyManager" mc="Standard.Interface" uid="647eda12-3a9f-446a-b573-9141209850a3"/>
+        <COMPID name="MapDynamicPropertyHandler" mc="Standard.Class" uid="1737d36f-2d34-42cd-ac38-2e89acce86fd"/>
+        <COMPID name="NodeSet" mc="Standard.Interface" uid="f17a5248-9a5d-441a-b4d9-aca908a481c1"/>
+        <COMPID name="PackageFunctions" mc="Standard.Class" uid="355bd56f-2aec-4248-a365-a6ebc8b57a52"/>
+        <COMPID name="Pointer" mc="Standard.Interface" uid="73d4cddc-4037-435e-b9e9-1fbd09ff90f9"/>
+        <COMPID name="Variables" mc="Standard.Interface" uid="a5027609-31a4-428d-9734-05af1d720a5e"/>
+        <COMPID name="XMLDocumentContainer" mc="Standard.Class" uid="81e05d68-2241-4a4a-9f67-cd44353055de"/>
+        <COMPID name="functions" mc="Standard.Package" uid="53e97515-a977-4291-99fe-b979b80e0128"/>
+        <COMPID name="ri" mc="Standard.Package" uid="8e0f36aa-32a2-4a31-a209-8008c288cf45"/>
+        <COMPID name="servlet" mc="Standard.Package" uid="c4c7cdd8-516a-4a8f-959d-c9a6aa85274a"/>
+        <COMPID name="util" mc="Standard.Package" uid="11a2a223-969c-4dc5-ad2c-7319cb4466e7"/>
+        <COMPID name="xml" mc="Standard.Package" uid="8bbef639-fbc7-420a-a8e3-7cdc492b889f"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

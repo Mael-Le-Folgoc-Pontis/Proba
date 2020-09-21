@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="dom" version="4">
+  <OBJECT>
+    <ID name="dom" mc="Standard.Package" uid="e5ddde6f-dc3a-45c3-ae1b-49d3551410ca"/>
+    <PID name="model" mc="Standard.Package" uid="bf691bbf-8d11-41e9-8772-0987472e3252"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[dom]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="DOMAttributeIterator" mc="Standard.Class" uid="717b057c-bd18-43c4-bfc1-d374f2f3eb91"/>
+        <COMPID name="DOMAttributePointer" mc="Standard.Class" uid="58ad7d70-bee7-44f6-85b6-e49c6b946212"/>
+        <COMPID name="DOMNamespaceIterator" mc="Standard.Class" uid="f2f63ede-4e2e-41a9-8887-dd394115b973"/>
+        <COMPID name="DOMNodeIterator" mc="Standard.Class" uid="94c36617-e082-4157-8639-1651ba7643bf"/>
+        <COMPID name="DOMNodePointer" mc="Standard.Class" uid="9eb563d0-95e2-419e-a24b-877de90d6cd8"/>
+        <COMPID name="DOMPointerFactory" mc="Standard.Class" uid="b78126fd-5fc2-454c-a2d8-df7b46b90771"/>
+        <COMPID name="NamespacePointer" mc="Standard.Class" uid="2f7ea41a-a76a-4020-9d77-cf4771f6e2b5"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="preferences" version="4">
+  <OBJECT>
+    <ID name="preferences" mc="Standard.Package" uid="00587942-21a6-1fb1-8a9e-001e4fea2d8b"/>
+    <PID name="runtime" mc="Standard.Package" uid="00501158-21a6-1fb1-8a9e-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[preferences]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractPreferenceInitializer" mc="Standard.Class" uid="00589562-21a6-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="AbstractPreferenceStorage" mc="Standard.Class" uid="005b5b4e-21a6-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="BundleDefaultsScope" mc="Standard.Class" uid="00599e58-21a6-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ConfigurationScope" mc="Standard.Class" uid="005a2f44-21a6-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="DefaultScope" mc="Standard.Class" uid="005ac986-21a6-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="IEclipsePreferences" mc="Standard.Interface" uid="005cc092-21a6-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="IExportedPreferences" mc="Standard.Interface" uid="005c3bea-21a6-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="IPreferenceFilter" mc="Standard.Interface" uid="0058e33c-21a6-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="IPreferenceNodeVisitor" mc="Standard.Interface" uid="005bb7f6-21a6-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="IPreferencesService" mc="Standard.Interface" uid="005e254a-21a6-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="IScope" mc="Standard.Interface" uid="0058bc22-21a6-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="IScopeContext" mc="Standard.Interface" uid="005dca0a-21a6-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="InstanceScope" mc="Standard.Class" uid="00590a42-21a6-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="PreferenceFilterEntry" mc="Standard.Class" uid="005c973e-21a6-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="PreferenceModifyListener" mc="Standard.Class" uid="005c1354-21a6-1fb1-8a9e-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

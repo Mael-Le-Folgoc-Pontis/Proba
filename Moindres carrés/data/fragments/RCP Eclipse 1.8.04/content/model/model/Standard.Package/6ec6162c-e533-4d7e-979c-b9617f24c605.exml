@@ -1,0 +1,52 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="net" version="4">
+  <OBJECT>
+    <ID name="net" mc="Standard.Package" uid="6ec6162c-e533-4d7e-979c-b9617f24c605"/>
+    <PID name="commons" mc="Standard.Package" uid="7a1d6d86-ba7e-4f55-b54c-a883ddc492f4"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[net]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractWebLocation" mc="Standard.Class" uid="684e5057-27bd-4fb0-a9a8-3a5086035510"/>
+        <COMPID name="AuthenticationCredentials" mc="Standard.Class" uid="db4f194c-a867-427a-8372-d43106be4d6e"/>
+        <OBJECT>
+          <ID name="AuthenticationType" mc="Standard.Enumeration" uid="25240e62-0f9e-4d69-86a3-c02d64d7e379"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[AuthenticationType]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Extension">
+              <FOREIGNID name="JavaEnumeration" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0262-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <COMPID name="HtmlStreamTokenizer" mc="Standard.Class" uid="95be5a5f-062c-45ec-b03a-2a7ee3221d0e"/>
+        <COMPID name="HtmlTag" mc="Standard.Class" uid="cd68c742-a908-483f-adbf-25f675a047fc"/>
+        <COMPID name="IProxyProvider" mc="Standard.Interface" uid="cee05a3d-887e-451e-b2f7-cca4696dcb3a"/>
+        <COMPID name="Policy" mc="Standard.Class" uid="dc59483d-6e3b-4a8a-82b4-27bfc73b6a5e"/>
+        <COMPID name="SslCertificateException" mc="Standard.Class" uid="a5dd1d8e-9c48-499f-b17f-7b16c3893bc5"/>
+        <COMPID name="UnsupportedRequestException" mc="Standard.Class" uid="56165add-3963-45b6-8f9b-6000426ed8a1"/>
+        <COMPID name="WebLocation" mc="Standard.Class" uid="fe2eecb7-df6b-4577-98fc-5c2bd118fc5e"/>
+        <COMPID name="WebRequest" mc="Standard.Class" uid="963441ff-f3d6-4c12-8b29-d02c5fcd41a3"/>
+        <COMPID name="WebUtil" mc="Standard.Class" uid="05c8870a-d2e6-4a08-82a7-e5cc151ff98b"/>
+        <COMPID name="http" mc="Standard.Package" uid="7715a72c-70c9-4ff2-81d1-ab3d4e29680c"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

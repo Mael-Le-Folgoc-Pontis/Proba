@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="inject" version="4">
+  <OBJECT>
+    <ID name="inject" mc="Standard.Package" uid="8eae22cc-5c78-4956-86fc-a79ffd2b34b5"/>
+    <PID name="sisu" mc="Standard.Package" uid="0a5c5b50-eae1-4aa8-a519-6342fb96ace3"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[inject]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AnnotatedSource" mc="Standard.Interface" uid="ba5d56f9-5417-4f43-be58-c3e1a081c5eb"/>
+        <COMPID name="BeanLocator" mc="Standard.Interface" uid="f61ced59-ca36-4fa0-ba1f-ead8f33af512"/>
+        <COMPID name="BindingPublisher" mc="Standard.Interface" uid="2ac71877-0c32-4cbf-9cbe-1fa237338797"/>
+        <COMPID name="BindingSubscriber" mc="Standard.Interface" uid="144a4835-35ef-4bae-ad12-a36eb7eec0ba"/>
+        <COMPID name="DefaultBeanLocator" mc="Standard.Class" uid="81210f98-7d13-4e57-b348-e43f3b063e4b"/>
+        <COMPID name="DefaultRankingFunction" mc="Standard.Class" uid="729415cc-931d-4b8f-8033-a48929cb196a"/>
+        <COMPID name="DeferredClass" mc="Standard.Interface" uid="baf5d8b9-c74f-434b-8334-0d0205f83c09"/>
+        <COMPID name="DeferredProvider" mc="Standard.Interface" uid="37318a1d-8c7a-479a-ab2a-c5dd6443dc04"/>
+        <COMPID name="Guice4" mc="Standard.Class" uid="b2d4074b-d6a0-49aa-95bb-4c02e553ad05"/>
+        <COMPID name="Implementations" mc="Standard.Class" uid="902746ed-25f8-49dd-beae-2bb8a5d3bab0"/>
+        <COMPID name="InjectorBindings" mc="Standard.Class" uid="61dcbb85-76de-47ab-8d41-cf02c7c28e90"/>
+        <COMPID name="Legacy" mc="Standard.Class" uid="a9131686-d010-486e-9085-55aab33286f7"/>
+        <COMPID name="Logs" mc="Standard.Class" uid="1ff2c82e-f98d-4463-9f89-48a476e024c8"/>
+        <COMPID name="MutableBeanLocator" mc="Standard.Interface" uid="aaf8bebb-1e39-42f7-99c3-1376c7140ccd"/>
+        <COMPID name="RankingFunction" mc="Standard.Interface" uid="66e8f02a-ac20-4f59-923b-1571fb681a73"/>
+        <COMPID name="Soft" mc="Standard.Class" uid="9ea1b9a2-85ee-4461-92d9-819b66967950"/>
+        <COMPID name="Sources" mc="Standard.Class" uid="93ea2f94-6708-4676-b5b0-1bf5845a3ae0"/>
+        <COMPID name="TypeArguments" mc="Standard.Class" uid="aaedc538-5468-4bcf-a109-1a4364525839"/>
+        <COMPID name="Weak" mc="Standard.Class" uid="ca789856-eff4-4178-b602-07ebc7776efb"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="provisional" version="4">
+  <OBJECT>
+    <ID name="provisional" mc="Standard.Package" uid="00300ae8-0bd0-112e-9071-001e4fea2d8b"/>
+    <PID name="internal" mc="Standard.Package" uid="0024f752-0bd0-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[provisional]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ApiDescriptionVisitor" mc="Standard.Class" uid="0030110a-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ApiPlugin" mc="Standard.Class" uid="00301772-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Factory" mc="Standard.Class" uid="00301ed4-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IApiAccess" mc="Standard.Interface" uid="00302500-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IApiAnnotations" mc="Standard.Interface" uid="00302c6c-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IApiBaselineManager" mc="Standard.Interface" uid="00303392-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IApiDescription" mc="Standard.Interface" uid="00303a68-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IApiFilterStore" mc="Standard.Interface" uid="003041a2-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IApiJavadocTag" mc="Standard.Interface" uid="0030490e-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IApiMarkerConstants" mc="Standard.Interface" uid="003050a2-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IRequiredComponentDescription" mc="Standard.Interface" uid="0030582c-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ISession" mc="Standard.Interface" uid="00306024-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ISessionListener" mc="Standard.Interface" uid="0030683a-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ISessionManager" mc="Standard.Interface" uid="0030705a-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ITreeModel" mc="Standard.Interface" uid="003078de-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ITreeNode" mc="Standard.Interface" uid="00308194-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IVersionRange" mc="Standard.Interface" uid="00308a72-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ProfileModifiers" mc="Standard.Class" uid="0030917a-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RestrictionModifiers" mc="Standard.Class" uid="0030986e-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="VisibilityModifiers" mc="Standard.Class" uid="00309f30-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="builder" mc="Standard.Package" uid="0031b5a0-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="comparator" mc="Standard.Package" uid="0032f32a-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="descriptors" mc="Standard.Package" uid="0034463a-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="model" mc="Standard.Package" uid="0035b236-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="problems" mc="Standard.Package" uid="00374c86-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="scanner" mc="Standard.Package" uid="0038b184-0bd0-112e-9071-001e4fea2d8b"/>
+        <COMPID name="search" mc="Standard.Package" uid="003a2ba4-0bd0-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

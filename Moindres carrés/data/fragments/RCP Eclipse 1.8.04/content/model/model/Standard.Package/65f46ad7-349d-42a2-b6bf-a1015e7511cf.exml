@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="revplot" version="4">
+  <OBJECT>
+    <ID name="revplot" mc="Standard.Package" uid="65f46ad7-349d-42a2-b6bf-a1015e7511cf"/>
+    <PID name="jgit" mc="Standard.Package" uid="bf3b61ef-28ee-4cf7-8afd-022df78c66c8"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[revplot]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractPlotRenderer" mc="Standard.Class" uid="60aa8657-866e-4cdc-a6bb-0ef8c9bc64f4"/>
+        <COMPID name="PlotCommit" mc="Standard.Class" uid="5e063658-283d-4a9e-8063-ca200ea2c366"/>
+        <COMPID name="PlotCommitList" mc="Standard.Class" uid="40dc84fd-b4ef-41ae-9473-0f38f9ed8ba8"/>
+        <COMPID name="PlotLane" mc="Standard.Class" uid="d4425bce-38ef-4584-a488-e8ffd9f20eec"/>
+        <COMPID name="PlotWalk" mc="Standard.Class" uid="5a74b164-3771-4731-8505-aaf7e561df9a"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

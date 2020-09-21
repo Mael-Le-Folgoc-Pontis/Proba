@@ -1,0 +1,53 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="pattern" version="4">
+  <OBJECT>
+    <ID name="pattern" mc="Standard.Package" uid="49724f6d-223a-4e69-89eb-f629d200463f"/>
+    <PID name="classic" mc="Standard.Package" uid="099ea9e4-dcb1-486e-adcd-be4022ab5d8a"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[pattern]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Abbreviator" mc="Standard.Interface" uid="0e206262-b3d8-4fa2-b902-d6aa5bff3d72"/>
+        <COMPID name="CallerDataConverter" mc="Standard.Class" uid="8a0fb3e5-3cd2-4705-b9fa-a753598e45fa"/>
+        <COMPID name="ClassNameOnlyAbbreviator" mc="Standard.Class" uid="359fc384-1e17-4013-8d7b-c0687bd4327d"/>
+        <COMPID name="ClassOfCallerConverter" mc="Standard.Class" uid="487892ff-fb4d-46b7-8e96-d2ade779e031"/>
+        <COMPID name="ClassicConverter" mc="Standard.Class" uid="5941fdfd-bcaa-4441-af45-c2118ca89190"/>
+        <COMPID name="ContextNameConverter" mc="Standard.Class" uid="b86a288f-5c9d-4560-908c-bb43e5faac71"/>
+        <COMPID name="DateConverter" mc="Standard.Class" uid="c9258f43-7d90-4421-9ac6-b21ab580cbb7"/>
+        <COMPID name="EnsureExceptionHandling" mc="Standard.Class" uid="9c84ea31-fe41-46ff-af9a-c7e6141ae7e4"/>
+        <COMPID name="ExtendedThrowableProxyConverter" mc="Standard.Class" uid="7fc1eadf-bf20-46cb-b537-613714e98200"/>
+        <COMPID name="FileOfCallerConverter" mc="Standard.Class" uid="30ffbf8e-478d-417c-8523-6c803273c9e7"/>
+        <COMPID name="LevelConverter" mc="Standard.Class" uid="84e18b80-87f9-43f7-955c-e964542c6a39"/>
+        <COMPID name="LineOfCallerConverter" mc="Standard.Class" uid="8c1f61f8-81e2-41c6-b3c5-3b4c1a6d0752"/>
+        <COMPID name="LineSeparatorConverter" mc="Standard.Class" uid="34fe6e3b-464f-459d-9ee5-5796e7f6a1ad"/>
+        <COMPID name="LoggerConverter" mc="Standard.Class" uid="cfb98508-0620-4822-873c-6b6688070b8e"/>
+        <COMPID name="MDCConverter" mc="Standard.Class" uid="c4e6b890-6a47-49a9-b3f4-ccebcefd110b"/>
+        <COMPID name="MarkerConverter" mc="Standard.Class" uid="336e8de5-6dd2-4cca-9f84-b0207b65d6da"/>
+        <COMPID name="MessageConverter" mc="Standard.Class" uid="3e401fbc-520b-42ce-81c5-7062f22db395"/>
+        <COMPID name="MethodOfCallerConverter" mc="Standard.Class" uid="7307c500-f66b-4a3c-b490-3bdde9432aef"/>
+        <COMPID name="NamedConverter" mc="Standard.Class" uid="c8f04c32-aca4-46c8-8795-0bc8ce54f132"/>
+        <COMPID name="NopThrowableInformationConverter" mc="Standard.Class" uid="803d91a4-30e0-4674-b220-6986337cbc99"/>
+        <COMPID name="PropertyConverter" mc="Standard.Class" uid="ce4aaab5-2e43-464c-a31f-c6d64a50861f"/>
+        <COMPID name="RelativeTimeConverter" mc="Standard.Class" uid="fb4b0ed3-eeea-4f02-a4a5-8bf3377ba771"/>
+        <COMPID name="RootCauseFirstThrowableProxyConverter" mc="Standard.Class" uid="eb91297d-b038-4564-b99c-545e59811bf5"/>
+        <COMPID name="SyslogStartConverter" mc="Standard.Class" uid="856c2f15-0212-4900-af86-0925696eb9d9"/>
+        <COMPID name="TargetLengthBasedClassNameAbbreviator" mc="Standard.Class" uid="393dc173-c2d7-4ef4-af7c-e4d2779f04cf"/>
+        <COMPID name="ThreadConverter" mc="Standard.Class" uid="f0b850f9-6791-4f1c-8124-4d1c3fe5d737"/>
+        <COMPID name="ThrowableHandlingConverter" mc="Standard.Class" uid="2a37aa50-86a9-42d4-8d10-f0ade53b7ffa"/>
+        <COMPID name="ThrowableProxyConverter" mc="Standard.Class" uid="948c4309-d495-430a-b6d0-aa89785db13c"/>
+        <COMPID name="Util" mc="Standard.Class" uid="a07bd94f-a1c0-4a5b-9a6f-4f4b2056433f"/>
+        <COMPID name="color" mc="Standard.Package" uid="8fbd5141-aa05-492d-9dde-485db87cdc2b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

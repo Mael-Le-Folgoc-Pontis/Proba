@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="basic" version="4">
+  <OBJECT>
+    <ID name="basic" mc="Standard.Package" uid="ca267546-d898-495c-96de-d6b4740a14b6"/>
+    <PID name="contentmodel" mc="Standard.Package" uid="99e81de9-29fc-4f3f-8334-df89b4862d79"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[basic]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="CMAnyElementImpl" mc="Standard.Class" uid="aaf106b8-eb77-4d1b-bfeb-8fb31691a96f"/>
+        <COMPID name="CMAttributeDeclarationImpl" mc="Standard.Class" uid="3d7e80fa-1954-4539-9edd-d7fe2518bd01"/>
+        <COMPID name="CMContentImpl" mc="Standard.Class" uid="dbb0766b-e2f7-4f3d-a8d2-3c2854ce4cfa"/>
+        <COMPID name="CMDataTypeImpl" mc="Standard.Class" uid="4026c559-594d-42a6-bd63-cc268d96904b"/>
+        <COMPID name="CMDocumentImpl" mc="Standard.Class" uid="3c012f42-b1f1-4509-91ce-5fd7e28e88f4"/>
+        <COMPID name="CMElementDeclarationImpl" mc="Standard.Class" uid="1349fcaa-d94d-461e-8447-b2a10b02b0bf"/>
+        <COMPID name="CMEntityDeclarationImpl" mc="Standard.Class" uid="d557d3f6-cd6f-4b8c-9100-e7de44360a1e"/>
+        <COMPID name="CMGroupImpl" mc="Standard.Class" uid="c4d2cf69-e30f-4c82-ba04-243c838dca15"/>
+        <COMPID name="CMNamedNodeMapImpl" mc="Standard.Class" uid="30773064-e69c-47ba-ad8a-f6899da7fc2f"/>
+        <COMPID name="CMNodeImpl" mc="Standard.Class" uid="a5b8ee61-01b8-4d33-9903-c989acfe8486"/>
+        <COMPID name="CMNodeListImpl" mc="Standard.Class" uid="b6612a83-3477-4b7c-9b97-5744d85288f4"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

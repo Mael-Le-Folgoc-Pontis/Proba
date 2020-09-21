@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="model" version="4">
+  <OBJECT>
+    <ID name="model" mc="Standard.Package" uid="4a1c25ba-bd02-419b-b637-b600e49cdca3"/>
+    <PID name="core" mc="Standard.Package" uid="1174b24d-8cb0-49f4-8c06-9db5b4c9b021"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[model]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ClientDelegate" mc="Standard.Class" uid="96eb51db-d6e9-4a01-84e0-e2a820c0d58a"/>
+        <COMPID name="IModuleFile" mc="Standard.Interface" uid="557e7b37-5e3a-46d0-acd6-266324de6467"/>
+        <COMPID name="IModuleFolder" mc="Standard.Interface" uid="1506ac88-13c3-43f2-b055-cbd1cc793efd"/>
+        <COMPID name="IModuleResource" mc="Standard.Interface" uid="1f609147-01ce-4bd5-b1f6-bd464cb9f335"/>
+        <COMPID name="IModuleResourceDelta" mc="Standard.Interface" uid="38811bbb-81ca-421a-8265-65a18ccf01d3"/>
+        <COMPID name="IURLProvider" mc="Standard.Interface" uid="a4da5897-91b9-4554-938e-3829ea0e57ec"/>
+        <COMPID name="IURLProvider2" mc="Standard.Interface" uid="c97ce2fd-78f0-4ad1-9ea3-fa5aba7c2c24"/>
+        <COMPID name="InternalInitializer" mc="Standard.Class" uid="f5a79ffc-69c4-465f-937c-4950dd2dc301"/>
+        <COMPID name="LaunchableAdapterDelegate" mc="Standard.Class" uid="db3a57cc-4b82-495a-b6f7-8faf45bebd58"/>
+        <COMPID name="ModuleArtifactAdapterDelegate" mc="Standard.Class" uid="66d96699-66ff-4907-bd09-d5ba61c22b73"/>
+        <COMPID name="ModuleArtifactDelegate" mc="Standard.Class" uid="d98bc718-1931-4628-8ea4-6d52a0a646ca"/>
+        <COMPID name="ModuleDelegate" mc="Standard.Class" uid="94dfe357-98e7-464d-b357-d6a1bfe6231c"/>
+        <COMPID name="ModuleFactoryDelegate" mc="Standard.Class" uid="e7125dd7-7729-497b-ba5c-5090db42bd5a"/>
+        <COMPID name="PublishControllerDelegate" mc="Standard.Class" uid="5765cca6-dced-477c-85ec-1052cbe1c59f"/>
+        <COMPID name="PublishOperation" mc="Standard.Class" uid="228ce749-7534-4a6b-8918-32e98ff4f5f9"/>
+        <COMPID name="PublishTaskDelegate" mc="Standard.Class" uid="04ad8e5d-65eb-4d58-8be4-1c512c8d712f"/>
+        <COMPID name="PublisherDelegate" mc="Standard.Class" uid="252dfb8f-48cc-4ccb-ad7e-91238378693b"/>
+        <COMPID name="RuntimeDelegate" mc="Standard.Class" uid="c2f5def1-561a-4ecb-b9a8-eda59af811f5"/>
+        <COMPID name="RuntimeLocatorDelegate" mc="Standard.Class" uid="7081e703-a460-4690-a0c3-4acdcd2d4c47"/>
+        <COMPID name="RuntimeTargetHandlerDelegate" mc="Standard.Class" uid="9d04da72-dcc5-4239-9f6b-0b462e2f52e7"/>
+        <COMPID name="ServerBehaviourDelegate" mc="Standard.Class" uid="2ea42592-e01c-411e-91f1-13d52e6bf633"/>
+        <COMPID name="ServerDelegate" mc="Standard.Class" uid="a12f5df6-1777-4dd6-97df-9b9c05f46ee3"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="selector" version="4">
+  <OBJECT>
+    <ID name="selector" mc="Standard.Package" uid="a31ff7d8-96ee-4443-b3fa-8375aa740bf1"/>
+    <PID name="graph" mc="Standard.Package" uid="2440364e-b9d2-432e-9f81-7c4d084f26bf"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[selector]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AndDependencySelector" mc="Standard.Class" uid="b9c492f1-218d-4c35-8185-61ab4349b360"/>
+        <COMPID name="ExclusionDependencySelector" mc="Standard.Class" uid="57d824a1-bb27-4076-b78a-bf07997dfab7"/>
+        <COMPID name="OptionalDependencySelector" mc="Standard.Class" uid="47b93b7f-de1a-45de-a03b-f1c367095170"/>
+        <COMPID name="ScopeDependencySelector" mc="Standard.Class" uid="f9a398de-000b-45f5-89d6-fe354dab0c25"/>
+        <COMPID name="StaticDependencySelector" mc="Standard.Class" uid="884045fe-7d22-4111-bd67-5b18a8fa0680"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

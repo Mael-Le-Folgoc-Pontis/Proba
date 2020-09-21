@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="jasper" version="4">
+  <OBJECT>
+    <ID name="jasper" mc="Standard.Package" uid="002b83ba-0bbd-112e-9071-001e4fea2d8b"/>
+    <PID name="apache" mc="Standard.Package" uid="00858518-21b0-1fb1-8a9e-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[jasper]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Constants" mc="Standard.Class" uid="002b8b1c-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="EmbeddedServletOptions" mc="Standard.Class" uid="002b92ec-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JasperException" mc="Standard.Class" uid="002b9aee-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JspC" mc="Standard.Class" uid="002ba354-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JspCompilationContext" mc="Standard.Class" uid="002bac00-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Options" mc="Standard.Interface" uid="002bb312-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="compiler" mc="Standard.Package" uid="002c1f14-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="runtime" mc="Standard.Package" uid="0034cace-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="security" mc="Standard.Package" uid="0036542a-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="servlet" mc="Standard.Package" uid="0036dfe4-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="tagplugins" mc="Standard.Package" uid="0037b1d0-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="xmlparser" mc="Standard.Package" uid="0038f248-0bbd-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="concurrency" version="4">
+  <OBJECT>
+    <ID name="concurrency" mc="Standard.Package" uid="3b632f4b-c05b-41e0-bd2f-7cc655196955"/>
+    <PID name="util" mc="Standard.Package" uid="fbcb0581-8ae4-44bf-bed2-745c3f92a86a"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[concurrency]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="RunnableErrorForwarder" mc="Standard.Class" uid="88a13374-9733-4281-aa10-22252d58263c"/>
+        <COMPID name="WorkerThreadFactory" mc="Standard.Class" uid="b509e566-b66f-4e4d-b816-9bf09d8f4608"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,55 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="spi" version="4">
+  <OBJECT>
+    <ID name="spi" mc="Standard.Package" uid="26df0da0-52dd-4f2d-a356-ba9a41c2f9e8"/>
+    <PID name="joran" mc="Standard.Package" uid="d268d326-4382-4c77-b2d8-cce04b60231e"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[spi]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ActionException" mc="Standard.Class" uid="23509eaa-85c1-4aea-9dfb-9a8b43cb22f7"/>
+        <COMPID name="ConfigurationWatchList" mc="Standard.Class" uid="fbf0ace7-0eee-4dbe-9c2a-c2cd5c32fc6e"/>
+        <OBJECT>
+          <ID name="ConsoleTarget" mc="Standard.Enumeration" uid="c05521cd-1fd4-4f62-8b80-e4c7d9f14904"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[ConsoleTarget]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Extension">
+              <FOREIGNID name="JavaEnumeration" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0262-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <COMPID name="DefaultClass" mc="Standard.Class" uid="d411572d-7042-4487-904e-50aac93cf987"/>
+        <COMPID name="DefaultNestedComponentRegistry" mc="Standard.Class" uid="d6d15058-8ffa-4050-ab2e-c7d65fdf03c6"/>
+        <COMPID name="EventPlayer" mc="Standard.Class" uid="7ef1ce96-52d2-443b-bd79-8662d15bf1d0"/>
+        <COMPID name="HostClassAndPropertyDouble" mc="Standard.Class" uid="4b418911-9f42-477d-8e24-434b1cb31fcb"/>
+        <COMPID name="InterpretationContext" mc="Standard.Class" uid="a0ed71c5-6815-4e41-b5de-1085cc9f142e"/>
+        <COMPID name="Interpreter" mc="Standard.Class" uid="04318eb0-b491-4942-ad6a-f5f8f03cd855"/>
+        <COMPID name="JoranException" mc="Standard.Class" uid="9d9a093b-694a-4f0e-b02a-b907afce7b6f"/>
+        <COMPID name="NoAutoStart" mc="Standard.Class" uid="9ba0f8bb-1a8c-4376-9559-fd36cb7bdb0d"/>
+        <COMPID name="NoAutoStartUtil" mc="Standard.Class" uid="38146423-053d-4b5b-b615-cfa8f1458742"/>
+        <COMPID name="Pattern" mc="Standard.Class" uid="f54658a3-745e-44d4-bbde-d8b61314374a"/>
+        <COMPID name="RuleStore" mc="Standard.Interface" uid="337c9cfb-a347-44a9-97e5-288621711849"/>
+        <COMPID name="SimpleRuleStore" mc="Standard.Class" uid="8556e27a-9aca-49ba-8d34-26c937ab6504"/>
+        <COMPID name="XMLUtil" mc="Standard.Class" uid="7fea6f95-07a5-4d69-8477-7fd12b3799c5"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

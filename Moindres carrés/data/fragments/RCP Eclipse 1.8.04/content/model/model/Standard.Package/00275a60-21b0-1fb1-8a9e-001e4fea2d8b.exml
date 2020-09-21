@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="module" version="4">
+  <OBJECT>
+    <ID name="module" mc="Standard.Package" uid="00275a60-21b0-1fb1-8a9e-001e4fea2d8b"/>
+    <PID name="internal" mc="Standard.Package" uid="0080c2c6-21af-1fb1-8a9e-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[module]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="BundleConstraint" mc="Standard.Class" uid="00277626-21b0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="CompositeResolveHelper" mc="Standard.Interface" uid="0027ce3c-21b0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="CompositeResolveHelperRegistry" mc="Standard.Interface" uid="0027f4e8-21b0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="GenericCapability" mc="Standard.Class" uid="0029b7e2-21b0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="GenericConstraint" mc="Standard.Class" uid="002a4766-21b0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="GroupingChecker" mc="Standard.Class" uid="002b79ec-21b0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="MappedList" mc="Standard.Class" uid="002c1d52-21b0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="PermissionChecker" mc="Standard.Class" uid="002873dc-21b0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ResolverBundle" mc="Standard.Class" uid="00292624-21b0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ResolverConstraint" mc="Standard.Class" uid="00281b8a-21b0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ResolverExport" mc="Standard.Class" uid="002bc154-21b0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ResolverImpl" mc="Standard.Class" uid="002aff3a-21b0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ResolverImport" mc="Standard.Class" uid="002c4840-21b0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="VersionHashMap" mc="Standard.Class" uid="0028cc9c-21b0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="VersionSupplier" mc="Standard.Class" uid="002aa18e-21b0-1fb1-8a9e-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

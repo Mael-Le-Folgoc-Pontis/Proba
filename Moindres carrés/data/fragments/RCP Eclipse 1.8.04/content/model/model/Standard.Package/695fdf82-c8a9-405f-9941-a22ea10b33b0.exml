@@ -1,0 +1,52 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="internal" version="4">
+  <OBJECT>
+    <ID name="internal" mc="Standard.Package" uid="695fdf82-c8a9-405f-9941-a22ea10b33b0"/>
+    <PID name="frameworks" mc="Standard.Package" uid="c6c7d12d-cd1d-4716-a3f8-17b7c0c17f58"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[internal]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractRegistryDescriptor" mc="Standard.Class" uid="89f045a7-621a-4a96-bba4-9a794a6c5582"/>
+        <COMPID name="AdaptabilityUtility" mc="Standard.Class" uid="7b051d6d-3eb3-4c48-bbc4-754818e04b70"/>
+        <COMPID name="ConfigurationElementWrapper" mc="Standard.Class" uid="3300ef40-4a49-4586-b2be-fa9f5d579fc1"/>
+        <COMPID name="DoNotUseMeThisWillBeDeletedPost15" mc="Standard.Interface" uid="f2f86b2c-efdb-47c6-877b-a7c60e0ea114"/>
+        <COMPID name="ExceptionHelper" mc="Standard.Class" uid="d2cf954e-723d-4d62-bb06-b3f858139b9a"/>
+        <COMPID name="HashUtil" mc="Standard.Class" uid="12eb9cfc-0333-47e6-9022-908bdccf8d65"/>
+        <COMPID name="ISaveHandler" mc="Standard.Interface" uid="bce0587c-3b71-4cdb-ac58-ec4ad8b8e390"/>
+        <COMPID name="ISimpleValidateEditContext" mc="Standard.Interface" uid="9efb7b61-dab0-4816-a49b-3b33125ecb5e"/>
+        <COMPID name="IWrappedException" mc="Standard.Interface" uid="e77a2fb8-5098-4d3c-80a8-3aba672021a0"/>
+        <COMPID name="Messages" mc="Standard.Class" uid="9f772b13-8faf-4060-b349-fe273669ff75"/>
+        <COMPID name="SaveFailedException" mc="Standard.Class" uid="35b3395d-34f1-4c2c-9acb-e335b3fb4d97"/>
+        <COMPID name="SaveHandlerHeadless" mc="Standard.Class" uid="00d78879-679d-4cbc-b71a-aac20958d36f"/>
+        <COMPID name="SaveHandlerRegister" mc="Standard.Class" uid="210dd952-26d8-44e7-aef7-9b650bd9dcb3"/>
+        <COMPID name="SimpleValidateEdit" mc="Standard.Class" uid="c8251df8-1c2b-4f22-8b2e-9ccfb29a4f4b"/>
+        <COMPID name="SimpleValidateEditContextHeadless" mc="Standard.Class" uid="3a014f82-e7c3-4c13-b60c-59ca70a443b4"/>
+        <COMPID name="WTPPlugin" mc="Standard.Class" uid="5ddb021c-17f1-4a28-ab65-2de70c24370a"/>
+        <COMPID name="WTPProjectUtilities" mc="Standard.Class" uid="591bb70f-03b9-4e4d-ae6b-6fa183a5b945"/>
+        <COMPID name="WTPResourceHandler" mc="Standard.Class" uid="8c4bc644-bf14-4851-b0a0-be97dcea4d11"/>
+        <COMPID name="WrappedException" mc="Standard.Class" uid="0e0bb693-7234-45e6-9a22-3ce2760ac31a"/>
+        <COMPID name="WrappedRuntimeException" mc="Standard.Class" uid="f15ec3e8-cf21-4fff-864f-c69b9e80e565"/>
+        <COMPID name="activities" mc="Standard.Package" uid="4786bf62-5bb8-4e53-93bd-2f22f5e009ea"/>
+        <COMPID name="datamodel" mc="Standard.Package" uid="14cde85c-b8ab-4eec-8178-fa6d28a0fcbd"/>
+        <COMPID name="dialog" mc="Standard.Package" uid="8d9e100e-b5d7-43a6-9e52-7988c75c7d41"/>
+        <COMPID name="eclipse" mc="Standard.Package" uid="dab5f571-15cb-4eca-a371-a4de97e23a2c"/>
+        <COMPID name="enablement" mc="Standard.Package" uid="70197069-e595-493c-afd6-de3e962b1407"/>
+        <COMPID name="operation" mc="Standard.Package" uid="c7720002-954b-4f8e-b9f5-489d26fc0afe"/>
+        <COMPID name="operations" mc="Standard.Package" uid="e6a7ba30-a669-49ce-a35c-b1d6d21a0f52"/>
+        <COMPID name="plugin" mc="Standard.Package" uid="e0b9ff98-3316-4bb7-80f0-649064c988b9"/>
+        <COMPID name="ui" mc="Standard.Package" uid="cabd048f-e458-44a2-9c5e-547f44ba39fe"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

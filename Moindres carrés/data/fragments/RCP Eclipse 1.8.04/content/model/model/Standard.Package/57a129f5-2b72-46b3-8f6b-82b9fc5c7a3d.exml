@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="draw2d" version="4">
+  <OBJECT>
+    <ID name="draw2d" mc="Standard.Package" uid="57a129f5-2b72-46b3-8f6b-82b9fc5c7a3d"/>
+    <PID name="wb" mc="Standard.Package" uid="7da55c4c-1047-4129-b09a-e73b1ad101e4"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[draw2d]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractRelativeLocator" mc="Standard.Class" uid="c20a0a40-7e5c-482c-87e5-27fb1df84c61"/>
+        <COMPID name="Figure" mc="Standard.Class" uid="74abeb8e-c2a2-4c52-a384-f06e9d26141c"/>
+        <COMPID name="FigureUtils" mc="Standard.Class" uid="e38a3d98-a709-4d0f-96f5-efb0f7d83688"/>
+        <COMPID name="Graphics" mc="Standard.Class" uid="894254a2-70aa-4b40-a87e-5baa8a1bacab"/>
+        <COMPID name="IColorConstants" mc="Standard.Interface" uid="338851c6-6603-4f4a-9784-5d241e20e4f9"/>
+        <COMPID name="ICursorConstants" mc="Standard.Interface" uid="8bef6bd6-fcfb-4ffd-b9b7-0b040a0a0557"/>
+        <COMPID name="ILocator" mc="Standard.Interface" uid="f34392b4-9cf1-4ac4-a3f1-a3b65abb632d"/>
+        <COMPID name="IPositionConstants" mc="Standard.Interface" uid="43f72dae-3db3-4e87-aab8-2a131f472eb6"/>
+        <COMPID name="Layer" mc="Standard.Class" uid="3467abdf-b0a3-4f41-8e29-dee5e84ae8b1"/>
+        <COMPID name="Polyline" mc="Standard.Class" uid="9cba5daa-4bbe-4508-9501-08aa04b2cafb"/>
+        <COMPID name="RectangleFigure" mc="Standard.Class" uid="4a744340-efcb-47a3-98e1-74602a356dd5"/>
+        <COMPID name="RelativeLocator" mc="Standard.Class" uid="338d67ee-6b2e-4368-8a5c-99c89ee7b40c"/>
+        <COMPID name="border" mc="Standard.Package" uid="407a2704-a5a0-4709-86e9-1fa6be369d7a"/>
+        <COMPID name="events" mc="Standard.Package" uid="ef758638-c569-4ce8-a0a3-f4a206ce68aa"/>
+        <COMPID name="geometry" mc="Standard.Package" uid="3e27ce34-0942-4e07-b182-491e47abd40e"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

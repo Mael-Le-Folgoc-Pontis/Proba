@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="rcp" version="4">
+  <OBJECT>
+    <ID name="rcp" mc="Standard.Package" uid="955b7566-8d08-4564-85c5-6fdeaa18d31f"/>
+    <PID name="completion" mc="Standard.Package" uid="e950e40c-a787-4bf9-9453-2c3054f22d42"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[rcp]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AccessibleCompletionProposal" mc="Standard.Class" uid="1395c2ad-837b-4f4a-9bb1-70b059ec8e9a"/>
+        <COMPID name="AccessibleCompletionProposals" mc="Standard.Class" uid="81ec6517-03cc-4819-8bb8-9383672a40c6"/>
+        <COMPID name="CompletionRcpModule" mc="Standard.Class" uid="957236df-198e-452d-8b85-9929359cca6a"/>
+        <COMPID name="CompletionRcpPlugin" mc="Standard.Class" uid="a375f916-6e19-4ca8-9d8b-fe8393e4f2c5"/>
+        <COMPID name="CompletionRcpPreferences" mc="Standard.Class" uid="2625c602-4974-4f57-a8d3-3d38b6c3f6e8"/>
+        <COMPID name="CompletionsPreferencePage" mc="Standard.Class" uid="6ad3b0f3-c478-428d-b397-28236cf68b1a"/>
+        <COMPID name="Constants" mc="Standard.Class" uid="00d42088-19a2-4cf4-8491-98192204b773"/>
+        <COMPID name="ContentAssistEnablementBlock" mc="Standard.Class" uid="0ea6fa70-3e55-4cd5-ad9e-67dd8dd73b64"/>
+        <COMPID name="EmptyCompletionProposal" mc="Standard.Class" uid="271fe767-053f-4ede-b8e0-56500f8b29d6"/>
+        <COMPID name="EnabledCompletionProposal" mc="Standard.Class" uid="e4343cf5-5677-4879-8419-7b1f8abe59e3"/>
+        <COMPID name="JavaCompletionProposals" mc="Standard.Class" uid="837dd562-a6e2-4383-9d3b-bfe2c4045113"/>
+        <COMPID name="ProposalNameProvider" mc="Standard.Class" uid="0d4e0110-71b7-412f-bfaf-23e973ade656"/>
+        <COMPID name="l10n" mc="Standard.Package" uid="25ac4a41-e3ee-4b05-89e9-cc62bd13caa9"/>
+        <COMPID name="tips" mc="Standard.Package" uid="6e0c4ab2-6edc-400f-b742-a8f4bb071118"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

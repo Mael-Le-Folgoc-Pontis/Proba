@@ -1,0 +1,84 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="primitives" version="4">
+  <OBJECT>
+    <ID name="primitives" mc="Standard.Package" uid="0fb053bf-9f92-438d-8423-167a1752eca3"/>
+    <PID name="collections" mc="Standard.Package" uid="a284a2b1-efc0-4907-b43d-a516c9a55292"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[primitives]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractByteCollection" mc="Standard.Class" uid="5eb97592-8c6d-417a-a384-ec87c684fd05"/>
+        <COMPID name="AbstractCharCollection" mc="Standard.Class" uid="9ee4077a-b458-4b16-96a4-45e8419587ff"/>
+        <COMPID name="AbstractDoubleCollection" mc="Standard.Class" uid="f06dc48d-4c2b-45ba-8953-e34bacb21a05"/>
+        <COMPID name="AbstractFloatCollection" mc="Standard.Class" uid="6790369c-7a59-4ab0-9144-0454ea0ba0af"/>
+        <COMPID name="AbstractIntCollection" mc="Standard.Class" uid="5098bc3b-711a-4089-b487-79d14d673b00"/>
+        <COMPID name="AbstractLongCollection" mc="Standard.Class" uid="779b2289-d926-45e8-85f9-582b403a4682"/>
+        <COMPID name="AbstractShortCollection" mc="Standard.Class" uid="424ee98a-b53f-4b8e-a6fc-ff4542a79aa1"/>
+        <COMPID name="ArrayByteList" mc="Standard.Class" uid="9428da98-e4ca-42fa-a95f-a0757ec557d8"/>
+        <COMPID name="ArrayCharList" mc="Standard.Class" uid="cdc7ccf0-3083-4a51-976b-3d4d105c901f"/>
+        <COMPID name="ArrayDoubleList" mc="Standard.Class" uid="2ff2a242-ffe5-4367-b8b9-cc4db1aa706e"/>
+        <COMPID name="ArrayFloatList" mc="Standard.Class" uid="a4d4bce9-b7a6-484e-9ab3-b9e326a8f58b"/>
+        <COMPID name="ArrayIntList" mc="Standard.Class" uid="62b1e55a-8ea1-4a1b-92bc-6d353493bbb2"/>
+        <COMPID name="ArrayLongList" mc="Standard.Class" uid="17715a4a-a68d-4f63-a107-eb0f030161b3"/>
+        <COMPID name="ArrayShortList" mc="Standard.Class" uid="f0af96b6-9654-41cf-b694-42c7cfaf8c09"/>
+        <COMPID name="ArrayUnsignedByteList" mc="Standard.Class" uid="3def1e12-5f30-4136-a569-483412b18bf5"/>
+        <COMPID name="ArrayUnsignedIntList" mc="Standard.Class" uid="cdae4386-0b55-4642-b017-4688ead03820"/>
+        <COMPID name="ArrayUnsignedShortList" mc="Standard.Class" uid="8501b17f-11a4-4572-80a2-e83513caa392"/>
+        <COMPID name="ByteCollection" mc="Standard.Interface" uid="5ca6becf-8929-4241-b5b3-eff95af44784"/>
+        <COMPID name="ByteCollections" mc="Standard.Class" uid="7c514efd-1627-4e18-ae3a-e81f0df1f841"/>
+        <COMPID name="ByteIterator" mc="Standard.Interface" uid="67a9b5a2-635f-43d6-8468-9ac9833d4e50"/>
+        <COMPID name="ByteList" mc="Standard.Interface" uid="66743d32-726d-440b-a6ca-7bce4d677f00"/>
+        <COMPID name="ByteListIterator" mc="Standard.Interface" uid="31c12ee8-1d3d-4ca0-98d0-6b474b585ee9"/>
+        <COMPID name="CharCollection" mc="Standard.Interface" uid="94351d98-310f-49b5-a61d-4661ea2ecb8e"/>
+        <COMPID name="CharCollections" mc="Standard.Class" uid="2f7b86e5-028c-4692-a7d9-464e7a0d820c"/>
+        <COMPID name="CharIterator" mc="Standard.Interface" uid="eb7fc34d-ff69-4015-aa0c-4bcb6364ea5b"/>
+        <COMPID name="CharList" mc="Standard.Interface" uid="6b822aa7-a9b3-4d96-85fd-240cde5922d8"/>
+        <COMPID name="CharListIterator" mc="Standard.Interface" uid="a4fc21b6-ca1d-460a-aa0a-9a598c06ebf4"/>
+        <COMPID name="DoubleCollection" mc="Standard.Interface" uid="7c2832c6-521e-4553-8ea9-52dbacddc3c1"/>
+        <COMPID name="DoubleCollections" mc="Standard.Class" uid="01c1cd3f-4242-40ce-83c9-05f9a4ca9586"/>
+        <COMPID name="DoubleIterator" mc="Standard.Interface" uid="3baec01b-6fc1-47e3-9a73-18630f90f0e0"/>
+        <COMPID name="DoubleList" mc="Standard.Interface" uid="aab22e91-65f5-49ee-9909-5208b7a78ad8"/>
+        <COMPID name="DoubleListIterator" mc="Standard.Interface" uid="c21b0f61-321c-46fc-ae4d-86bff9d3b3b3"/>
+        <COMPID name="FloatCollection" mc="Standard.Interface" uid="a151108a-255f-41ac-b158-7d1c9304eec1"/>
+        <COMPID name="FloatCollections" mc="Standard.Class" uid="c44040e1-0e8d-41d1-9c0d-67f203de6c3c"/>
+        <COMPID name="FloatIterator" mc="Standard.Interface" uid="7ece7765-17d9-4bd9-8480-5957e57c5f6d"/>
+        <COMPID name="FloatList" mc="Standard.Interface" uid="ee071189-64da-441c-ab29-a12423d0ff4d"/>
+        <COMPID name="FloatListIterator" mc="Standard.Interface" uid="d6e4cea9-a52f-4234-85ff-10dc827d8d47"/>
+        <COMPID name="IntCollection" mc="Standard.Interface" uid="9507dad7-997c-4ddb-9766-5c09ce2a0bc4"/>
+        <COMPID name="IntCollections" mc="Standard.Class" uid="3ba2daf8-38fc-43ee-96f6-5030ef918351"/>
+        <COMPID name="IntIterator" mc="Standard.Interface" uid="d8c377a3-d0c2-4250-86cc-0a838bf081bc"/>
+        <COMPID name="IntList" mc="Standard.Interface" uid="115888eb-3984-4415-9449-a3a05eb876a6"/>
+        <COMPID name="IntListIterator" mc="Standard.Interface" uid="366bd71a-6d9e-465f-8cfb-2bc8ae09d96f"/>
+        <COMPID name="LongCollection" mc="Standard.Interface" uid="e8ef96d9-3627-4985-9ca0-1d20c8360662"/>
+        <COMPID name="LongCollections" mc="Standard.Class" uid="972afd95-7266-47b0-8bac-df2460ac7c55"/>
+        <COMPID name="LongIterator" mc="Standard.Interface" uid="8e1488be-59e9-499e-9444-1d9b02feb4bf"/>
+        <COMPID name="LongList" mc="Standard.Interface" uid="41c8b062-dff3-4383-82c3-abf6545676fb"/>
+        <COMPID name="LongListIterator" mc="Standard.Interface" uid="fc1c7295-5e83-4cd5-a6b9-171f42332741"/>
+        <COMPID name="RandomAccessByteList" mc="Standard.Class" uid="e5a5ffdf-52ac-4c3a-b63c-4e0702307b74"/>
+        <COMPID name="RandomAccessCharList" mc="Standard.Class" uid="9d712f8d-75db-4fb1-9745-521b8651faa6"/>
+        <COMPID name="RandomAccessDoubleList" mc="Standard.Class" uid="c4baf6b7-fbe8-45eb-964a-7fe170c49e93"/>
+        <COMPID name="RandomAccessFloatList" mc="Standard.Class" uid="9ea18212-f712-44f5-80b0-402833c4cd69"/>
+        <COMPID name="RandomAccessIntList" mc="Standard.Class" uid="9d717390-ea94-42cd-bfb6-55f85c8a551d"/>
+        <COMPID name="RandomAccessLongList" mc="Standard.Class" uid="a3ed32d2-5514-45b4-a0c2-50b8e4525bc1"/>
+        <COMPID name="RandomAccessShortList" mc="Standard.Class" uid="fa5bf74b-29c2-4c21-babb-60db2ee495d7"/>
+        <COMPID name="ShortCollection" mc="Standard.Interface" uid="19e42ad3-64ae-4c5d-9769-f3ad7f26a938"/>
+        <COMPID name="ShortCollections" mc="Standard.Class" uid="7dd7c9d1-bd2d-4862-8420-85b7a39b2f9e"/>
+        <COMPID name="ShortIterator" mc="Standard.Interface" uid="2d7fa347-590c-44b6-a1c8-dbc479eba66b"/>
+        <COMPID name="ShortList" mc="Standard.Interface" uid="fc6b77ee-f105-4546-8977-ae60e7187c6b"/>
+        <COMPID name="ShortListIterator" mc="Standard.Interface" uid="1a3aba4c-7546-4a60-a16a-f06fbd8c243e"/>
+        <COMPID name="adapters" mc="Standard.Package" uid="2f6248d5-3a49-45a8-bdf2-adbfa7d5bc4b"/>
+        <COMPID name="decorators" mc="Standard.Package" uid="d95b9cd7-a802-4ddc-a34f-084bbee38830"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

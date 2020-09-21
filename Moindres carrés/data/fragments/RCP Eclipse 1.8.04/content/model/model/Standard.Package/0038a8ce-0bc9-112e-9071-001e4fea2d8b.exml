@@ -1,0 +1,97 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="util" version="4">
+  <OBJECT>
+    <ID name="util" mc="Standard.Package" uid="0038a8ce-0bc9-112e-9071-001e4fea2d8b"/>
+    <PID name="core" mc="Standard.Package" uid="0010ffd6-0bc9-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[util]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ASTNodeFinder" mc="Standard.Class" uid="0038b026-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Annotation" mc="Standard.Class" uid="0038b6ac-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AnnotationComponent" mc="Standard.Class" uid="0038c0e8-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AnnotationComponentValue" mc="Standard.Class" uid="0038c80e-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AnnotationDefaultAttribute" mc="Standard.Class" uid="0038cf02-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BindingKeyParser" mc="Standard.Class" uid="0038d68c-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BindingKeyResolver" mc="Standard.Class" uid="0038ef5a-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BootstrapMethodsAttribute" mc="Standard.Class" uid="0038f748-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BootstrapMethodsEntry" mc="Standard.Class" uid="0038ff90-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CharArrayBuffer" mc="Standard.Class" uid="003907d8-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ClassFileAttribute" mc="Standard.Class" uid="00391048-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ClassFileReader" mc="Standard.Class" uid="003918a4-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ClassFileStruct" mc="Standard.Class" uid="00392178-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CodeAttribute" mc="Standard.Class" uid="00392a92-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CodeSnippetParsingUtil" mc="Standard.Class" uid="00393398-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CommentRecorderParser" mc="Standard.Class" uid="00393cf8-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ConstantPool" mc="Standard.Class" uid="00394680-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ConstantPoolEntry" mc="Standard.Class" uid="00395094-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ConstantPoolEntry2" mc="Standard.Class" uid="00395aa8-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ConstantValueAttribute" mc="Standard.Class" uid="003964f8-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DOMFinder" mc="Standard.Class" uid="00396f2a-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DefaultBytecodeVisitor" mc="Standard.Class" uid="003979de-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DefaultStackMapFrame" mc="Standard.Class" uid="003984ba-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Disassembler" mc="Standard.Class" uid="00398f82-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="EnclosingMethodAttribute" mc="Standard.Class" uid="00399acc-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ExceptionAttribute" mc="Standard.Class" uid="0039a602-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ExceptionTableEntry" mc="Standard.Class" uid="0039b1a6-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ExtendedAnnotation" mc="Standard.Class" uid="cabf6676-610f-4662-87e1-275ae902b59d"/>
+        <COMPID name="FieldInfo" mc="Standard.Class" uid="0039bd68-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HandleFactory" mc="Standard.Class" uid="0039c952-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HashSetOfArray" mc="Standard.Class" uid="0039d58c-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HashSetOfCharArrayArray" mc="Standard.Class" uid="0039e270-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HashtableOfArrayToObject" mc="Standard.Class" uid="0039eedc-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ICacheEnumeration" mc="Standard.Interface" uid="0039f526-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ILRUCacheable" mc="Standard.Interface" uid="0039fc2e-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="InnerClassesAttribute" mc="Standard.Class" uid="003a0926-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="InnerClassesAttributeEntry" mc="Standard.Class" uid="003a1600-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaElementFinder" mc="Standard.Class" uid="003a237a-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="KeyKind" mc="Standard.Class" uid="003a30ea-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="KeyToSignature" mc="Standard.Class" uid="003a3e46-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LRUCache" mc="Standard.Class" uid="003a4c10-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LineNumberAttribute" mc="Standard.Class" uid="003a715e-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LocalVariableAttribute" mc="Standard.Class" uid="003a800e-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LocalVariableReferenceInfo" mc="Standard.Class" uid="ac043f1d-e520-4528-aeda-551ad623e885"/>
+        <COMPID name="LocalVariableTableEntry" mc="Standard.Class" uid="003a8e78-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LocalVariableTypeAttribute" mc="Standard.Class" uid="003a9cce-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LocalVariableTypeTableEntry" mc="Standard.Class" uid="003aaba6-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MementoTokenizer" mc="Standard.Class" uid="003ababa-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Messages" mc="Standard.Class" uid="003ac9a6-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MethodInfo" mc="Standard.Class" uid="003ad900-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MethodParametersAttribute" mc="Standard.Class" uid="347612a6-ad56-45ff-993e-10cb59567f64"/>
+        <COMPID name="ParameterAnnotation" mc="Standard.Class" uid="003ae896-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PublicScanner" mc="Standard.Class" uid="003af82c-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RecordedParsingInformation" mc="Standard.Class" uid="003b0826-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ReferenceInfoAdapter" mc="Standard.Class" uid="003b1898-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ResourceCompilationUnit" mc="Standard.Class" uid="003b28ce-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RuntimeInvisibleAnnotationsAttribute" mc="Standard.Class" uid="003b3968-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RuntimeInvisibleParameterAnnotationsAttribute" mc="Standard.Class" uid="003b4a2a-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RuntimeInvisibleTypeAnnotationsAttribute" mc="Standard.Class" uid="0c35538d-e184-494e-90b9-6af1b681c83a"/>
+        <COMPID name="RuntimeVisibleAnnotationsAttribute" mc="Standard.Class" uid="003b5b00-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RuntimeVisibleParameterAnnotationsAttribute" mc="Standard.Class" uid="003b6c30-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RuntimeVisibleTypeAnnotationsAttribute" mc="Standard.Class" uid="9c821dbd-768c-47cf-b270-303dc9c132be"/>
+        <COMPID name="SignatureAttribute" mc="Standard.Class" uid="003b7dd8-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SimpleDocument" mc="Standard.Class" uid="003b8f26-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SimpleWordSet" mc="Standard.Class" uid="003ba100-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SourceFileAttribute" mc="Standard.Class" uid="003bb37a-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="StackMapAttribute" mc="Standard.Class" uid="003bc5a4-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="StackMapFrame" mc="Standard.Class" uid="003bd800-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="StackMapTableAttribute" mc="Standard.Class" uid="003bea70-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ToStringSorter" mc="Standard.Class" uid="003bfcea-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Util" mc="Standard.Class" uid="003c0ff0-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="VerificationInfo" mc="Standard.Class" uid="003c376e-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WeakHashSet" mc="Standard.Class" uid="003c4aba-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WeakHashSetOfCharArray" mc="Standard.Class" uid="003c6f40-0bc9-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

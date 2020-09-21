@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="resource" version="4">
+  <OBJECT>
+    <ID name="resource" mc="Standard.Package" uid="6751719e-1a4b-11e0-8090-00137279a832"/>
+    <PID name="ecore" mc="Standard.Package" uid="5ad1ddcc-1a4b-11e0-8090-00137279a832"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[resource]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ContentHandler" mc="Standard.Interface" uid="6751719f-1a4b-11e0-8090-00137279a832"/>
+        <COMPID name="Resource" mc="Standard.Interface" uid="5f5fd1ab-9b63-11e1-8baf-001ec947ccaf"/>
+        <COMPID name="ResourceSet" mc="Standard.Interface" uid="5f5b0d01-9b63-11e1-8baf-001ec947ccaf"/>
+        <COMPID name="URIConverter" mc="Standard.Interface" uid="67648469-1a4b-11e0-8090-00137279a832"/>
+        <COMPID name="URIHandler" mc="Standard.Interface" uid="67648468-1a4b-11e0-8090-00137279a832"/>
+        <COMPID name="impl" mc="Standard.Package" uid="675171a1-1a4b-11e0-8090-00137279a832"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

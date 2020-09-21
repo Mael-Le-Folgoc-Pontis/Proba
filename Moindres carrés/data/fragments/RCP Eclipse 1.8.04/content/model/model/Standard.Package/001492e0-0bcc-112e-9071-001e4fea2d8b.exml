@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="handler" version="4">
+  <OBJECT>
+    <ID name="handler" mc="Standard.Package" uid="001492e0-0bcc-112e-9071-001e4fea2d8b"/>
+    <PID name="server" mc="Standard.Package" uid="0011a33c-0bcc-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[handler]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractHandler" mc="Standard.Class" uid="001498e4-0bcc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AbstractHandlerContainer" mc="Standard.Class" uid="00149f38-0bcc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AllowSymLinkAliasChecker" mc="Standard.Class" uid="6db46cf7-03c9-43b1-acf7-afb606aba386"/>
+        <COMPID name="AsyncDelayHandler" mc="Standard.Class" uid="ca0cff51-e841-4b81-bf8b-1546f7add240"/>
+        <COMPID name="ConnectHandler" mc="Standard.Class" uid="0014a5c8-0bcc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ContextHandler" mc="Standard.Class" uid="0014be46-0bcc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ContextHandlerCollection" mc="Standard.Class" uid="0014d8d6-0bcc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DebugHandler" mc="Standard.Class" uid="0014dfa2-0bcc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DefaultHandler" mc="Standard.Class" uid="0014e6d2-0bcc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ErrorHandler" mc="Standard.Class" uid="0014ee34-0bcc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="GzipHandler" mc="Standard.Class" uid="0014f596-0bcc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HandlerCollection" mc="Standard.Class" uid="0014fd66-0bcc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HandlerList" mc="Standard.Class" uid="0015059a-0bcc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HandlerWrapper" mc="Standard.Class" uid="00150d92-0bcc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HotSwapHandler" mc="Standard.Class" uid="001515ee-0bcc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IPAccessHandler" mc="Standard.Class" uid="00151e86-0bcc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IdleTimeoutHandler" mc="Standard.Class" uid="fbc7221d-9c5a-4443-8a61-9d452d318c74"/>
+        <COMPID name="MovedContextHandler" mc="Standard.Class" uid="0015270a-0bcc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ProxyHandler" mc="Standard.Class" uid="001535d8-0bcc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RequestLogHandler" mc="Standard.Class" uid="00153f56-0bcc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ResourceHandler" mc="Standard.Class" uid="001548ca-0bcc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ScopedHandler" mc="Standard.Class" uid="0015525c-0bcc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SecuredRedirectHandler" mc="Standard.Class" uid="f705a924-4098-4584-a1ae-acb2494967e4"/>
+        <COMPID name="ShutdownHandler" mc="Standard.Class" uid="00155bee-0bcc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="StatisticsHandler" mc="Standard.Class" uid="001565da-0bcc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="jmx" mc="Standard.Package" uid="001639e2-0bcc-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="translators" version="4">
+  <OBJECT>
+    <ID name="translators" mc="Standard.Package" uid="85ea0c52-5155-461f-9acb-ee0a67dfe2e8"/>
+    <PID name="pom" mc="Standard.Package" uid="f77d9a5d-34c1-4268-aa31-28567cd8c3ba"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[translators]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ListAdapter" mc="Standard.Class" uid="bc2d3029-46fe-45a2-a53c-32029e6d6aff"/>
+        <COMPID name="ModelObjectAdapter" mc="Standard.Class" uid="5f6912c6-a0b1-4e20-961f-2f7f96803b8e"/>
+        <COMPID name="PropertiesAdapter" mc="Standard.Class" uid="5cb28600-4ddb-4255-94da-2fd869140c6a"/>
+        <COMPID name="SSESyncResource" mc="Standard.Class" uid="9c0a72a1-1357-41bc-9802-455058f1a1d1"/>
+        <COMPID name="TranslatorAdapter" mc="Standard.Class" uid="8c05fe3f-4388-41f0-ab53-2ff56b9650c7"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

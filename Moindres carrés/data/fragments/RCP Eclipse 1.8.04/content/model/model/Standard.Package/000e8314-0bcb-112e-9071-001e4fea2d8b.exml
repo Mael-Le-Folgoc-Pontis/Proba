@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="cleanup" version="4">
+  <OBJECT>
+    <ID name="cleanup" mc="Standard.Package" uid="000e8314-0bcb-112e-9071-001e4fea2d8b"/>
+    <PID name="preferences" mc="Standard.Package" uid="00057a1c-0bcb-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[cleanup]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractCleanUpTabPage" mc="Standard.Class" uid="000e8a12-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CleanUpConfigurationBlock" mc="Standard.Class" uid="000e902a-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CleanUpMessages" mc="Standard.Class" uid="000e96a6-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CleanUpModifyDialog" mc="Standard.Class" uid="000e9d90-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CleanUpPreview" mc="Standard.Class" uid="000ea42a-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CleanUpProfileManager" mc="Standard.Class" uid="000eab32-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CleanUpProfileVersioner" mc="Standard.Class" uid="000eb276-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CleanUpTabPage" mc="Standard.Class" uid="000eb9b0-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CodeFormatingTabPage" mc="Standard.Class" uid="000ec14e-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CodeStyleTabPage" mc="Standard.Class" uid="000ecd4c-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ContributedCleanUpTabPage" mc="Standard.Class" uid="000ed558-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DefaultCleanUpOptionsInitializer" mc="Standard.Class" uid="000eddb4-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MemberAccessesTabPage" mc="Standard.Class" uid="000ee64c-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MissingCodeTabPage" mc="Standard.Class" uid="000eeeb2-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SaveActionCleanUpOptionsInitializer" mc="Standard.Class" uid="000ef7a4-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="UnnecessaryCodeTabPage" mc="Standard.Class" uid="000f00c8-0bcb-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

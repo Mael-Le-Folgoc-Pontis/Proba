@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="gradle" version="4">
+  <OBJECT>
+    <ID name="gradle" mc="Standard.Package" uid="925d5c7b-c263-4617-8b8b-b3d24c877f7f"/>
+    <PID name="model" mc="Standard.Package" uid="2577379c-539f-4f9d-84f0-2f9d2dce2e26"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[gradle]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="BasicGradleProject" mc="Standard.Interface" uid="39251f75-8f6d-4400-b30a-4df810cd3a14"/>
+        <COMPID name="BuildInvocations" mc="Standard.Interface" uid="dadc1fa2-e1f0-4dc1-a939-1fc1f26fce28"/>
+        <COMPID name="GradleBuild" mc="Standard.Interface" uid="b9b19e5e-d714-4733-aaa3-1abcaeafaa82"/>
+        <COMPID name="GradlePublication" mc="Standard.Interface" uid="6a9d79d1-584c-4052-a592-83e50baa206a"/>
+        <COMPID name="GradleScript" mc="Standard.Interface" uid="e90ed9e2-9889-4a07-b01c-2430725a6ddc"/>
+        <COMPID name="ProjectPublications" mc="Standard.Interface" uid="5efc46fc-9e78-486d-9169-d81391b091cc"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

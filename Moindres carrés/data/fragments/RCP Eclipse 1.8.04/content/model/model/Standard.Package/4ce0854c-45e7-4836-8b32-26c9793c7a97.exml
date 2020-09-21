@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="events" version="4">
+  <OBJECT>
+    <ID name="events" mc="Standard.Package" uid="4ce0854c-45e7-4836-8b32-26c9793c7a97"/>
+    <PID name="protocol" mc="Standard.Package" uid="be0eb8a3-1483-4091-b865-29fc0ace1a22"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[events]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="InternalFailureResult" mc="Standard.Interface" uid="8cc65a9c-cced-4d5c-bbed-1667c500e6d9"/>
+        <COMPID name="InternalJvmTestDescriptor" mc="Standard.Interface" uid="c99c625d-2137-4890-a42c-e1e739c572f5"/>
+        <COMPID name="InternalOperationDescriptor" mc="Standard.Interface" uid="27069680-9249-43fe-b891-2a910a5b91c5"/>
+        <COMPID name="InternalOperationFinishedProgressEvent" mc="Standard.Interface" uid="397865e4-7fb8-4531-962a-dcfbed8544ff"/>
+        <COMPID name="InternalOperationResult" mc="Standard.Interface" uid="e0f18b96-c4d5-42ac-aecd-93196f28a549"/>
+        <COMPID name="InternalOperationStartedProgressEvent" mc="Standard.Interface" uid="91f8fa8c-c442-4513-babd-795d9744b79a"/>
+        <COMPID name="InternalProgressEvent" mc="Standard.Interface" uid="c99870b3-c0b8-437c-9a51-01469ae41747"/>
+        <COMPID name="InternalSuccessResult" mc="Standard.Interface" uid="1cde22a6-aa30-40f6-9d96-98db82408f0c"/>
+        <COMPID name="InternalTaskDescriptor" mc="Standard.Interface" uid="1df69ee0-4049-4d37-8555-1c958fb740a9"/>
+        <COMPID name="InternalTaskFailureResult" mc="Standard.Interface" uid="1f5e71a4-abea-4e4b-9db9-37db8991d7ef"/>
+        <COMPID name="InternalTaskResult" mc="Standard.Interface" uid="d086d078-59fb-43e0-b2e8-c3aa6958940a"/>
+        <COMPID name="InternalTaskSkippedResult" mc="Standard.Interface" uid="0abf74b1-a6d2-4d1e-accc-f45216b5094e"/>
+        <COMPID name="InternalTaskSuccessResult" mc="Standard.Interface" uid="f673fda6-8c4f-4fdf-90d5-b0aa51686cb4"/>
+        <COMPID name="InternalTestDescriptor" mc="Standard.Interface" uid="04c263eb-7309-482a-9050-a10db8c7d903"/>
+        <COMPID name="InternalTestFailureResult" mc="Standard.Interface" uid="37b37e17-6b5f-487b-bb8f-c28e59aded98"/>
+        <COMPID name="InternalTestFinishedProgressEvent" mc="Standard.Interface" uid="5f8c8710-413e-46a2-b6e1-1f81a7e1c1d9"/>
+        <COMPID name="InternalTestProgressEvent" mc="Standard.Interface" uid="7a25461e-a1a6-431e-a494-f1c4ff7e0573"/>
+        <COMPID name="InternalTestResult" mc="Standard.Interface" uid="6dbc044e-3cf0-416a-ad97-f395630c538b"/>
+        <COMPID name="InternalTestSkippedResult" mc="Standard.Interface" uid="1ffdc951-180a-4db9-a67a-d9d21c6f4892"/>
+        <COMPID name="InternalTestStartedProgressEvent" mc="Standard.Interface" uid="47457ca1-bad5-4ded-80ba-78301f1215ac"/>
+        <COMPID name="InternalTestSuccessResult" mc="Standard.Interface" uid="96c0ecf2-4d80-466a-b466-f38fd5f138ac"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

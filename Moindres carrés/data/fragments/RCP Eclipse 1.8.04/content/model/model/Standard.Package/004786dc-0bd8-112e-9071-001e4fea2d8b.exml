@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="framelist" version="4">
+  <OBJECT>
+    <ID name="framelist" mc="Standard.Package" uid="004786dc-0bd8-112e-9071-001e4fea2d8b"/>
+    <PID name="navigator" mc="Standard.Package" uid="00331fd0-0bd8-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[framelist]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="BackAction" mc="Standard.Class" uid="00478d30-0bd8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ForwardAction" mc="Standard.Class" uid="0047937a-0bd8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Frame" mc="Standard.Class" uid="004799ce-0bd8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FrameAction" mc="Standard.Class" uid="0047a040-0bd8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FrameList" mc="Standard.Class" uid="0047a6e4-0bd8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="GoIntoAction" mc="Standard.Class" uid="0047b4d6-0bd8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IFrameSource" mc="Standard.Interface" uid="0047c214-0bd8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TreeFrame" mc="Standard.Class" uid="0047c9e4-0bd8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TreeViewerFrameSource" mc="Standard.Class" uid="0047d146-0bd8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="UpAction" mc="Standard.Class" uid="0047d8f8-0bd8-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

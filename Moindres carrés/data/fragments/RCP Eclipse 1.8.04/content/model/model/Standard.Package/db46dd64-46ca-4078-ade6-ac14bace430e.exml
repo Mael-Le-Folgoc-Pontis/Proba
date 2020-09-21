@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="conversion" version="4">
+  <OBJECT>
+    <ID name="conversion" mc="Standard.Package" uid="db46dd64-46ca-4078-ade6-ac14bace430e"/>
+    <PID name="mvel2" mc="Standard.Package" uid="9144514c-c276-4a5b-9f46-4b3c52f6ca1f"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[conversion]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ArrayCH" mc="Standard.Class" uid="165b0511-0ed1-463a-b20b-06ee52a484d5"/>
+        <COMPID name="BigDecimalCH" mc="Standard.Class" uid="b1e2c5bc-8eaf-416a-a2c9-81b2f8e12e9c"/>
+        <COMPID name="BigIntegerCH" mc="Standard.Class" uid="2280a70a-a4d2-4d6b-a12e-7093a1ad620a"/>
+        <COMPID name="BooleanCH" mc="Standard.Class" uid="52230ecc-fbd5-4379-ad8c-68f18f89548f"/>
+        <COMPID name="ByteCH" mc="Standard.Class" uid="86f37bf8-c7a8-455d-9d29-c4e7be0020fa"/>
+        <COMPID name="CharArrayCH" mc="Standard.Class" uid="cc4aab2d-55b8-494e-aaca-462ba2322d06"/>
+        <COMPID name="CharCH" mc="Standard.Class" uid="f2b98caa-e32f-4c80-b1df-e44881b882b9"/>
+        <COMPID name="Converter" mc="Standard.Interface" uid="e1302ac7-5ea2-4059-8b49-b6213f2626f8"/>
+        <COMPID name="DoubleCH" mc="Standard.Class" uid="d0ac838d-8d21-474a-8af6-23d1b0461be1"/>
+        <COMPID name="FloatCH" mc="Standard.Class" uid="56cd7bfe-127d-41aa-9786-aa9ce5f973a9"/>
+        <COMPID name="IntArrayCH" mc="Standard.Class" uid="ab79bba7-ba0b-4f52-8d87-9d8f741cdbfb"/>
+        <COMPID name="IntegerCH" mc="Standard.Class" uid="cd419234-8b45-4f64-9850-bfb0c7027cb3"/>
+        <COMPID name="ListCH" mc="Standard.Class" uid="e8fb76ea-6460-4429-9316-8b22876af58d"/>
+        <COMPID name="LongCH" mc="Standard.Class" uid="dc8ac0a5-4c60-46b1-9301-4ce723a64aa5"/>
+        <COMPID name="ObjectCH" mc="Standard.Class" uid="345ac883-45ef-4b15-944d-d7e1db021569"/>
+        <COMPID name="PrimArrayHandler" mc="Standard.Class" uid="a6288835-440d-4461-8274-a9f846dfdcc8"/>
+        <COMPID name="PrimIntArrayCH" mc="Standard.Class" uid="414fa0fe-c0a5-4359-adf4-ac333afe034f"/>
+        <COMPID name="SetCH" mc="Standard.Class" uid="58a02fe4-a0c1-4955-93ee-efdcd165e29f"/>
+        <COMPID name="ShortCH" mc="Standard.Class" uid="3fe4ee5b-7737-463c-92b4-267352012019"/>
+        <COMPID name="StringArrayCH" mc="Standard.Class" uid="bdd51dcf-1323-4136-b5d0-2b1500e485e4"/>
+        <COMPID name="StringCH" mc="Standard.Class" uid="fecc0b96-aeee-4ff0-b76c-fc499fb48280"/>
+        <COMPID name="UnitConversion" mc="Standard.Class" uid="030892e2-b8c8-4282-8b3d-83b0f96b4100"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

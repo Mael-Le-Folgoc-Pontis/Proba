@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="dispatch" version="4">
+  <OBJECT>
+    <ID name="dispatch" mc="Standard.Package" uid="4488f0d5-241a-4ce4-96cc-7fc4e10d05d2"/>
+    <PID name="messaging" mc="Standard.Package" uid="10b55101-6368-4184-9269-bd97192ee5a7"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[dispatch]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Dispatch" mc="Standard.Interface" uid="722427b3-7dac-4577-b2f7-f15e8ab67907"/>
+        <COMPID name="MethodInvocation" mc="Standard.Class" uid="f57738bd-a277-41c2-ba76-86f3e5f77719"/>
+        <COMPID name="ProxyDispatchAdapter" mc="Standard.Class" uid="50c94b04-6ab7-4029-8ea7-1d27b8b1e8d8"/>
+        <COMPID name="ReflectionDispatch" mc="Standard.Class" uid="8905e2a0-1dc8-41ca-a89a-a2b06dcc1306"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

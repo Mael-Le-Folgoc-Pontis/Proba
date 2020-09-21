@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="event" version="4">
+  <OBJECT>
+    <ID name="event" mc="Standard.Package" uid="31c248e0-3064-47c3-95e4-30ef0f85a658"/>
+    <PID name="builder" mc="Standard.Package" uid="3327a68e-9c75-4965-9bd1-178eab1e8223"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[event]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AcronymEvent" mc="Standard.Class" uid="50b1e413-2bc1-42f4-8bbf-2bb188ea5e0e"/>
+        <COMPID name="BeginBlockEvent" mc="Standard.Class" uid="6a18efd0-1e3f-419d-8b85-aed008422ebc"/>
+        <COMPID name="BeginDocumentEvent" mc="Standard.Class" uid="8dcc5210-083f-4f81-a638-1bd0298c877f"/>
+        <COMPID name="BeginHeadingEvent" mc="Standard.Class" uid="8c5e7668-7bf6-42ff-a151-d92e02c0462b"/>
+        <COMPID name="BeginSpanEvent" mc="Standard.Class" uid="4544439e-24a4-4fcb-a0b3-d3b99ac039a9"/>
+        <COMPID name="CharactersEvent" mc="Standard.Class" uid="ab2d2768-a97c-4a13-a3a0-7963a2388c3a"/>
+        <COMPID name="CharactersUnescapedEvent" mc="Standard.Class" uid="20054af0-f1a4-44e2-a8a0-da23ce94da12"/>
+        <COMPID name="DocumentBuilderEvent" mc="Standard.Class" uid="dbd9b118-15a5-493a-b9aa-ded0f1edd2ae"/>
+        <COMPID name="DocumentBuilderEvents" mc="Standard.Class" uid="da50520f-b885-41c2-a523-c74c92df47a2"/>
+        <COMPID name="EndBlockEvent" mc="Standard.Class" uid="8fc703a1-646a-4083-8baa-292a1359f2f3"/>
+        <COMPID name="EndDocumentEvent" mc="Standard.Class" uid="237906b5-629d-4b24-aca4-21527cb4a0f3"/>
+        <COMPID name="EndHeadingEvent" mc="Standard.Class" uid="f3d97224-8d7d-4564-bea3-c481130a7a40"/>
+        <COMPID name="EndSpanEvent" mc="Standard.Class" uid="3a013bed-b8a4-46e5-99e6-176dd4250750"/>
+        <COMPID name="EntityReferenceEvent" mc="Standard.Class" uid="d3454f5e-bf4a-4991-96a0-ac20f15db595"/>
+        <COMPID name="HorizontalRuleEvent" mc="Standard.Class" uid="a0121bae-0c34-41d0-8a88-cc1af3e666c0"/>
+        <COMPID name="ImageEvent" mc="Standard.Class" uid="3b9d5414-3f55-4c12-ba1c-36e857a368ed"/>
+        <COMPID name="ImageLinkEvent" mc="Standard.Class" uid="22870fda-5a20-40cc-8097-9ee90342ba17"/>
+        <COMPID name="LineBreakEvent" mc="Standard.Class" uid="6a8bf7c0-cf51-4a51-882b-063ccf6cde0f"/>
+        <COMPID name="LinkEvent" mc="Standard.Class" uid="88943726-6b69-4da5-9987-2902bcb8cfb4"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

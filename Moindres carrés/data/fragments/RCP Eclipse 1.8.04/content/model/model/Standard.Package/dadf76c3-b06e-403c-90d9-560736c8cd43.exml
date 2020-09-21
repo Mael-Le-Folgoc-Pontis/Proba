@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="command" version="4">
+  <OBJECT>
+    <ID name="command" mc="Standard.Package" uid="dadf76c3-b06e-403c-90d9-560736c8cd43"/>
+    <PID name="gef" mc="Standard.Package" uid="2b3c44da-ec66-43ec-99e5-62a12d9ee0e9"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[command]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="CompoundEditCommand" mc="Standard.Class" uid="a882bbcc-b749-4bfc-84f4-2d7276ff653d"/>
+        <COMPID name="EditCommand" mc="Standard.Class" uid="3f60f38d-f0df-480e-a802-1058f0226e82"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

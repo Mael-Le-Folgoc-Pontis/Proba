@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="bean" version="4">
+  <OBJECT>
+    <ID name="bean" mc="Standard.Package" uid="0069fd10-0b36-48a6-9b9d-a48b07264a70"/>
+    <PID name="sisu" mc="Standard.Package" uid="0a5c5b50-eae1-4aa8-a519-6342fb96ace3"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[bean]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="BeanBinder" mc="Standard.Interface" uid="6c92cf27-cb96-4f62-9bdf-26b004b89651"/>
+        <COMPID name="BeanListener" mc="Standard.Class" uid="1f391df3-e172-430a-913a-84788e29eb70"/>
+        <COMPID name="BeanManager" mc="Standard.Interface" uid="9ba6f8a6-ffc1-442a-add7-975a08ca6c25"/>
+        <COMPID name="BeanProperties" mc="Standard.Class" uid="d0c8e18f-5533-46a0-863b-6f24249cf067"/>
+        <COMPID name="BeanProperty" mc="Standard.Interface" uid="10e18abc-61c9-46e5-87ec-e6427f0aa66a"/>
+        <COMPID name="BeanScheduler" mc="Standard.Class" uid="813e7f90-e430-48ff-9f3f-3173ecbb868a"/>
+        <COMPID name="DeclaredMembers" mc="Standard.Class" uid="1ab1f09b-6f8c-4d80-b9ec-a927901077bf"/>
+        <COMPID name="IgnoreSetters" mc="Standard.Class" uid="0f40e7ec-1f00-45dd-8690-5351814b8aed"/>
+        <COMPID name="LifecycleManager" mc="Standard.Class" uid="8aa9a74a-339c-489b-bf22-db1719e2bb9c"/>
+        <COMPID name="LifecycleModule" mc="Standard.Class" uid="1ef7f1bd-119b-4320-b2f4-284139c31ee2"/>
+        <COMPID name="PropertyBinder" mc="Standard.Interface" uid="1b746f3a-8d63-4352-a750-29865243b468"/>
+        <COMPID name="PropertyBinding" mc="Standard.Interface" uid="d273780c-7e58-4f16-a49b-5b75b7e5255e"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

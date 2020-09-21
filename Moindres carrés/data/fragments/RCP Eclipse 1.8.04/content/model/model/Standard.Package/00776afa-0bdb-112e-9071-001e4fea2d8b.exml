@@ -1,0 +1,73 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="tools" version="4">
+  <OBJECT>
+    <ID name="tools" mc="Standard.Package" uid="00776afa-0bdb-112e-9071-001e4fea2d8b"/>
+    <PID name="sat4j" mc="Standard.Package" uid="001eadc0-d4f0-111c-bc9b-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[tools]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractClauseSelectorSolver" mc="Standard.Class" uid="bf3270c4-c855-4f9f-9af6-6f49cf683a79"/>
+        <COMPID name="AbstractMinimalModel" mc="Standard.Class" uid="773bb666-d5ee-4891-9b1a-0920cd3aca48"/>
+        <COMPID name="AbstractOutputSolver" mc="Standard.Class" uid="007771a8-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AllMUSes" mc="Standard.Class" uid="47fabd76-80d3-494b-b3f1-869507d7df78"/>
+        <COMPID name="Backbone" mc="Standard.Class" uid="54d7001c-eaf6-40c3-ac4d-9bf5a2c7f998"/>
+        <COMPID name="CheckMUSSolutionListener" mc="Standard.Class" uid="8badf9cd-5357-4cc0-8241-a31354276f73"/>
+        <COMPID name="ClausalCardinalitiesDecorator" mc="Standard.Class" uid="5a3eb303-1a70-4085-bead-8cce88fd0171"/>
+        <COMPID name="ConflictDepthTracing" mc="Standard.Class" uid="a0dd19ed-ba15-4b4e-9574-dcf73db2b3aa"/>
+        <COMPID name="ConflictLevelTracing" mc="Standard.Class" uid="007777ac-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DecisionLevelTracing" mc="Standard.Class" uid="0077854e-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DecisionTracing" mc="Standard.Class" uid="00778bde-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DimacsArrayReader" mc="Standard.Class" uid="007792d2-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DimacsOutputSolver" mc="Standard.Class" uid="00779a02-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DimacsStringSolver" mc="Standard.Class" uid="0077a132-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DotSearchTracing" mc="Standard.Class" uid="0077a8d0-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ExtendedDimacsArrayReader" mc="Standard.Class" uid="0077b0a0-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FileBasedVisualizationTool" mc="Standard.Class" uid="8aceae28-7327-4af2-b484-cc2489672ab2"/>
+        <COMPID name="FullClauseSelectorSolver" mc="Standard.Class" uid="94cb7125-ea40-42a5-ad21-5070c0693f41"/>
+        <COMPID name="GateTranslator" mc="Standard.Class" uid="0077b870-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="GroupClauseSelectorSolver" mc="Standard.Class" uid="377e8699-c6b7-4f22-97d6-8e02df2fc132"/>
+        <COMPID name="HeuristicsTracing" mc="Standard.Class" uid="d125b568-7da5-43cb-b689-a3a793fed198"/>
+        <COMPID name="IVisualizationTool" mc="Standard.Interface" uid="1262b5fd-57da-4673-a15f-d2ebd9982546"/>
+        <COMPID name="LBDTracing" mc="Standard.Class" uid="0c0a2e90-9ded-4fba-9d00-36799a9de7e9"/>
+        <COMPID name="LearnedClauseSizeTracing" mc="Standard.Class" uid="0077c0b8-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LearnedClausesSizeTracing" mc="Standard.Class" uid="8935da3b-a70a-491d-b416-031095a9109b"/>
+        <COMPID name="LearnedTracing" mc="Standard.Class" uid="30519206-e341-4356-8793-4f80018c2a2f"/>
+        <COMPID name="LexicoDecorator" mc="Standard.Class" uid="0077c950-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ManyCore" mc="Standard.Class" uid="0077d1ca-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Minimal4CardinalityModel" mc="Standard.Class" uid="0077dab2-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Minimal4InclusionModel" mc="Standard.Class" uid="0077e3cc-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ModelIterator" mc="Standard.Class" uid="0077ece6-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ModelIteratorToSATAdapter" mc="Standard.Class" uid="2fb6ef23-8d79-42ea-99c4-1707f3b61580"/>
+        <COMPID name="MultiTracing" mc="Standard.Class" uid="f79fc1ef-dbe4-41c2-ac31-8ca98e818c36"/>
+        <COMPID name="NegationDecorator" mc="Standard.Class" uid="575abe90-cd96-4da6-b10c-82e7a2cbc753"/>
+        <COMPID name="OptToSatAdapter" mc="Standard.Class" uid="0077f65a-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="OutcomeListener" mc="Standard.Interface" uid="b12c8a58-6f56-47bb-9a46-dd3750641a42"/>
+        <COMPID name="RemiUtils" mc="Standard.Class" uid="00780744-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RupSearchListener" mc="Standard.Class" uid="d930b364-07ac-4392-918f-42f4418b4b3f"/>
+        <COMPID name="SearchEnumeratorListener" mc="Standard.Class" uid="b06cf1c0-24c5-4bfb-a454-e9aafc146b31"/>
+        <COMPID name="SearchListenerAdapter" mc="Standard.Class" uid="cff8cc5e-d4e3-4cfa-b26b-3f6dd4abbb06"/>
+        <COMPID name="SearchMinOneListener" mc="Standard.Class" uid="e5ebe508-dbe8-4015-90f1-46ef2885e327"/>
+        <COMPID name="SingleSolutionDetector" mc="Standard.Class" uid="00781b6c-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SolutionCounter" mc="Standard.Class" uid="007826b6-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SolutionFoundListener" mc="Standard.Interface" uid="edf7e337-040b-4350-b05b-959dada5a26c"/>
+        <COMPID name="SolverDecorator" mc="Standard.Class" uid="00783156-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SpeedTracing" mc="Standard.Class" uid="904d2100-dd21-48a3-8c43-3b8e714a8f50"/>
+        <COMPID name="StatisticsSolver" mc="Standard.Class" uid="28bd8102-db1b-44df-8867-2b76aee3b6a6"/>
+        <COMPID name="TextOutputTracing" mc="Standard.Class" uid="00783c14-0bdb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="encoding" mc="Standard.Package" uid="1d1e7852-ae0f-4013-a2c6-c8cf725a9e0a"/>
+        <COMPID name="xplain" mc="Standard.Package" uid="0078b0ae-0bdb-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

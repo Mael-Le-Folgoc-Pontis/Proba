@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="format" version="4">
+  <OBJECT>
+    <ID name="format" mc="Standard.Package" uid="7bf1a9b9-ab38-4696-9bf7-0cf8b59aeff7"/>
+    <PID name="internal" mc="Standard.Package" uid="94ec56ce-4e15-411a-84a2-88c38d75dcef"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[format]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractStructuredFormatProcessor" mc="Standard.Class" uid="49ed8d23-6f9d-49e3-9bc6-5abf190dd57c"/>
+        <COMPID name="IFormattingDelegate" mc="Standard.Interface" uid="f3f6e614-3d6b-470e-8321-0094c0c538d7"/>
+        <COMPID name="IStructuredFormatContraints" mc="Standard.Interface" uid="78118849-9853-4d5a-9043-754de2cca37b"/>
+        <COMPID name="IStructuredFormatPreferences" mc="Standard.Interface" uid="cf754790-bbe3-4267-8ba8-4d047f00264d"/>
+        <COMPID name="IStructuredFormatProcessor" mc="Standard.Interface" uid="b0465a9f-b837-4ff2-8ce4-c921d05050fd"/>
+        <COMPID name="IStructuredFormatter" mc="Standard.Interface" uid="d2869027-9992-4788-a59e-fa85b4947b4d"/>
+        <COMPID name="StructuredFormatContraints" mc="Standard.Class" uid="ce6c92e8-0ed9-4b82-973c-f0044c1fee07"/>
+        <COMPID name="StructuredFormatPreferences" mc="Standard.Class" uid="04032f07-2bfb-4329-a652-b065fb86eb92"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

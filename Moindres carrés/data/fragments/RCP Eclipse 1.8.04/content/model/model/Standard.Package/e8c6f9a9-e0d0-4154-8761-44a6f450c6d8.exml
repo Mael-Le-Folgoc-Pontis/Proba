@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="v" version="4">
+  <OBJECT>
+    <ID name="v" mc="Standard.Package" uid="e8c6f9a9-e0d0-4154-8761-44a6f450c6d8"/>
+    <PID name="cwt" mc="Standard.Package" uid="0f610233-8f2a-4b40-a873-24034746e56b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[v]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="IControlPainter" mc="Standard.Interface" uid="4ce65418-856f-4d09-b053-e65565207ac8"/>
+        <COMPID name="VButton" mc="Standard.Class" uid="bb819b25-afae-4660-8c21-229f6faaa22a"/>
+        <COMPID name="VButtonPainter" mc="Standard.Class" uid="438244ae-760c-43cc-99b4-47a8b0ac81f1"/>
+        <COMPID name="VCanvas" mc="Standard.Class" uid="379f1eda-394b-4516-b85c-b22520219153"/>
+        <COMPID name="VControl" mc="Standard.Class" uid="8e363e87-3078-412c-b014-8af1a7b35d5a"/>
+        <COMPID name="VControlPainter" mc="Standard.Class" uid="ebf937b9-3a2d-47bf-bb57-ab7ef3155cc8"/>
+        <COMPID name="VGridLayout" mc="Standard.Class" uid="60c36656-8fa3-446b-910f-6e0fa8d3da9b"/>
+        <COMPID name="VLabel" mc="Standard.Class" uid="f2aa4b32-1747-4de3-b234-cfb0c423c5d4"/>
+        <COMPID name="VLabelPainter" mc="Standard.Class" uid="7b650a47-e594-4ebd-96ac-5e3a1924366a"/>
+        <COMPID name="VLayout" mc="Standard.Class" uid="f3540df4-093c-4ca2-89d0-c4dd30f5ef26"/>
+        <COMPID name="VNative" mc="Standard.Class" uid="a7403379-a801-4592-aeb5-6698b87872d9"/>
+        <COMPID name="VPanel" mc="Standard.Class" uid="0611c912-6a65-43b1-b08a-0a2754cbfd2c"/>
+        <COMPID name="VPanelPainter" mc="Standard.Class" uid="6007aca8-de9c-4268-8002-b8e78885738a"/>
+        <COMPID name="VSimpleLayout" mc="Standard.Class" uid="29b2b31d-1ba0-4e6b-9eea-e979a29f508d"/>
+        <COMPID name="VSpacer" mc="Standard.Class" uid="5ed8b999-40fd-425e-816c-9fb7f83558d6"/>
+        <COMPID name="VStackLayout" mc="Standard.Class" uid="8c297a83-9c6c-41b6-bdd4-84773162067d"/>
+        <COMPID name="VTracker" mc="Standard.Class" uid="58bd7255-22b7-4fde-ac78-b14896d1c788"/>
+        <COMPID name="VWidget" mc="Standard.Interface" uid="fdea6f18-f236-4c16-a066-c722b2fb2915"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

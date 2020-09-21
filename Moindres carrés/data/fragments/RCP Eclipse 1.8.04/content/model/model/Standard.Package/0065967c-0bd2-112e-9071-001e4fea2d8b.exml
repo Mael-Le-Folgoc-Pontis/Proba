@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="views" version="4">
+  <OBJECT>
+    <ID name="views" mc="Standard.Package" uid="0065967c-0bd2-112e-9071-001e4fea2d8b"/>
+    <PID name="basic" mc="Standard.Package" uid="0064b356-0bd2-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[views]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="CollapseAllAction" mc="Standard.Class" uid="00659c94-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ExpandAllAction" mc="Standard.Class" uid="0065a2a2-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="INavigate" mc="Standard.Interface" uid="0065a8a6-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RemoveAllMatchesAction" mc="Standard.Class" uid="0065afa4-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RemoveMatchAction" mc="Standard.Class" uid="0065b616-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RemoveSelectedMatchesAction" mc="Standard.Class" uid="0065bcf6-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SetLayoutAction" mc="Standard.Class" uid="0065c3fe-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ShowNextResultAction" mc="Standard.Class" uid="0065caf2-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ShowPreviousResultAction" mc="Standard.Class" uid="0065d2b8-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TableViewerNavigator" mc="Standard.Class" uid="0065da56-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TreeViewerNavigator" mc="Standard.Class" uid="0065e1f4-0bd2-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

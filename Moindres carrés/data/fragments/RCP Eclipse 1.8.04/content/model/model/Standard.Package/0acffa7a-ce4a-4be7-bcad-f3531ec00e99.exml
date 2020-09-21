@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="builder" version="4">
+  <OBJECT>
+    <ID name="builder" mc="Standard.Package" uid="0acffa7a-ce4a-4be7-bcad-f3531ec00e99"/>
+    <PID name="forms" mc="Standard.Package" uid="3e3feffd-ea25-43c6-9cc6-65e447bb18f2"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[builder]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractBuilder" mc="Standard.Class" uid="d510f536-1493-49eb-b07f-fbaa299b9a29"/>
+        <COMPID name="AbstractButtonPanelBuilder" mc="Standard.Class" uid="b08bd934-0bbc-4b0d-bf63-641fbf6200fe"/>
+        <COMPID name="AbstractFormBuilder" mc="Standard.Class" uid="33026619-d07e-43ce-b349-3fa12a5622ca"/>
+        <COMPID name="ButtonBarBuilder" mc="Standard.Class" uid="e20a4124-4733-4738-9bc8-ae6e7730b076"/>
+        <COMPID name="ButtonStackBuilder" mc="Standard.Class" uid="3970c702-dd00-4c63-aaee-e374bd871f9f"/>
+        <COMPID name="DefaultFormBuilder" mc="Standard.Class" uid="22cb984a-8552-4deb-86b4-93770cac85c2"/>
+        <COMPID name="I15dPanelBuilder" mc="Standard.Class" uid="10c1e6e5-470f-4747-ac81-75d07f806c4d"/>
+        <COMPID name="ListViewBuilder" mc="Standard.Class" uid="6df102dd-3494-4972-bdbd-acd90778c86c"/>
+        <COMPID name="PanelBuilder" mc="Standard.Class" uid="50e23eb4-3de8-41ac-b022-0753c3bb0ecb"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

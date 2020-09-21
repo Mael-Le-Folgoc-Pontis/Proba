@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="xml" version="4">
+  <OBJECT>
+    <ID name="xml" mc="Standard.Package" uid="00dec68c-1202-4dd4-bf1c-9e82bc1e876e"/>
+    <PID name="log4j" mc="Standard.Package" uid="ed6a544b-48f0-4c81-b6a9-45e027c242cd"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[xml]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="DOMConfigurator" mc="Standard.Class" uid="f8185824-55d6-47ad-9aab-e96d0306926e"/>
+        <COMPID name="Log4jEntityResolver" mc="Standard.Class" uid="751ddee1-c69a-46d2-919c-497aab028dba"/>
+        <COMPID name="SAXErrorHandler" mc="Standard.Class" uid="3b8d0c2c-e0d4-4066-9f33-dea989d2feba"/>
+        <COMPID name="UnrecognizedElementHandler" mc="Standard.Interface" uid="0cc9881b-fb52-438b-b2bd-f53ca9af716e"/>
+        <COMPID name="XMLLayout" mc="Standard.Class" uid="2d26e349-4cc8-4a45-8925-b621ffd06ec5"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

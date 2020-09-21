@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="metadata" version="4">
+  <OBJECT>
+    <ID name="metadata" mc="Standard.Package" uid="339a2131-7604-42bb-ae08-2e63f21294cf"/>
+    <PID name="legacy" mc="Standard.Package" uid="641cf95e-b7af-4d0e-a8f2-338e8845f561"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[metadata]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractArtifactMetadata" mc="Standard.Class" uid="4f613f3b-dc6f-469a-9640-8b267bd76ebe"/>
+        <COMPID name="ArtifactMetadata" mc="Standard.Interface" uid="e83f2bd9-4dcd-4966-9794-bd42258d99ae"/>
+        <COMPID name="ArtifactMetadataRetrievalException" mc="Standard.Class" uid="c7c9c874-73b0-4fe8-910a-0d9dc9a9cd12"/>
+        <COMPID name="ArtifactMetadataSource" mc="Standard.Interface" uid="f1da9256-c40f-442c-a823-5629199e6755"/>
+        <COMPID name="DefaultMetadataResolutionRequest" mc="Standard.Class" uid="0c028e4d-f63a-4bdc-bcec-deb79f08f4cc"/>
+        <COMPID name="MetadataResolutionRequest" mc="Standard.Interface" uid="5c1bec11-74a0-44bf-a51b-2cb1fa3ddf68"/>
+        <COMPID name="ResolutionGroup" mc="Standard.Class" uid="b83a6ba6-94dc-45fc-bdc0-2a07d351538c"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

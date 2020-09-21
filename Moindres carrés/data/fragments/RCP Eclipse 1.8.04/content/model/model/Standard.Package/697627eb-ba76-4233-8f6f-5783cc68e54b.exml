@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="document" version="4">
+  <OBJECT>
+    <ID name="document" mc="Standard.Package" uid="697627eb-ba76-4233-8f6f-5783cc68e54b"/>
+    <PID name="search" mc="Standard.Package" uid="c7bd5619-309b-4014-896e-815b6d74b821"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[document]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ComponentDeclarationEntry" mc="Standard.Class" uid="47ae0d06-68ab-41fa-9b90-b9e1b2d24a12"/>
+        <COMPID name="ComponentReferenceEntry" mc="Standard.Class" uid="be5fb1c8-49c3-4c37-acc3-29bacc52001e"/>
+        <COMPID name="Entry" mc="Standard.Class" uid="93018107-a946-49f3-99fa-4fd82c403ee4"/>
+        <COMPID name="FileReferenceEntry" mc="Standard.Class" uid="73c178bf-6195-41f2-9385-6172fcc5fe49"/>
+        <COMPID name="SearchDocument" mc="Standard.Class" uid="c5603eda-adb7-4083-8fd4-c591d0f39086"/>
+        <COMPID name="SearchDocumentSet" mc="Standard.Class" uid="8fbf7532-261d-4968-85f7-a5ba70eadd30"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

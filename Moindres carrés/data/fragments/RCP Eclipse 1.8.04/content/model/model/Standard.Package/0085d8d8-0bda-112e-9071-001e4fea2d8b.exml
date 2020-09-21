@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="properties" version="4">
+  <OBJECT>
+    <ID name="properties" mc="Standard.Package" uid="0085d8d8-0bda-112e-9071-001e4fea2d8b"/>
+    <PID name="views" mc="Standard.Package" uid="004caa22-21af-1fb1-8a9e-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[properties]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ColorPropertyDescriptor" mc="Standard.Class" uid="0085e616-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ComboBoxLabelProvider" mc="Standard.Class" uid="0085ec60-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ComboBoxPropertyDescriptor" mc="Standard.Class" uid="0085f322-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FilePropertySource" mc="Standard.Class" uid="00860a2e-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IPropertyDescriptor" mc="Standard.Interface" uid="00862d7e-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IPropertySheetEntry" mc="Standard.Interface" uid="008634ae-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IPropertySheetEntryListener" mc="Standard.Interface" uid="00863c60-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IPropertySheetPage" mc="Standard.Interface" uid="008643e0-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IPropertySource" mc="Standard.Interface" uid="00864b56-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IPropertySource2" mc="Standard.Interface" uid="00865330-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IPropertySourceProvider" mc="Standard.Interface" uid="00865b3c-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IResourcePropertyConstants" mc="Standard.Interface" uid="00866334-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="NewPropertySheetHandler" mc="Standard.Class" uid="00866b72-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PinPropertySheetAction" mc="Standard.Class" uid="008673b0-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PropertyColumnLabelProvider" mc="Standard.Class" uid="00867bd0-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PropertyDescriptor" mc="Standard.Class" uid="00868472-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PropertyEditingSupport" mc="Standard.Class" uid="00868d46-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PropertySheet" mc="Standard.Class" uid="008695fc-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PropertySheetEntry" mc="Standard.Class" uid="0086b1ea-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PropertySheetPage" mc="Standard.Class" uid="0086bbae-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PropertySheetSorter" mc="Standard.Class" uid="0086cb94-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PropertyShowInContext" mc="Standard.Class" uid="0086e02a-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ResourcePropertySource" mc="Standard.Class" uid="0086ea7a-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TextPropertyDescriptor" mc="Standard.Class" uid="0086f542-0bda-112e-9071-001e4fea2d8b"/>
+        <COMPID name="tabbed" mc="Standard.Package" uid="008914ee-0bda-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

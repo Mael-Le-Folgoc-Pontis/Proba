@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="repo" version="4">
+  <OBJECT>
+    <ID name="repo" mc="Standard.Package" uid="00076a16-0bd4-112e-9071-001e4fea2d8b"/>
+    <PID name="ui" mc="Standard.Package" uid="008e9932-0bd3-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[repo]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AddToBranchAction" mc="Standard.Class" uid="0007702e-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CVSRepoViewAction" mc="Standard.Class" uid="00077678-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CVSRepositoryPropertiesPage" mc="Standard.Class" uid="00077c9a-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CopyRepositoryNameAction" mc="Standard.Class" uid="000790f4-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="NewCVSRepositoryAction" mc="Standard.Class" uid="000797e8-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="NewDateTagAction" mc="Standard.Class" uid="00079f36-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PasteConnectionStringAction" mc="Standard.Class" uid="0007a6a2-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RefreshRemoteProjectSelectionPage" mc="Standard.Class" uid="0007ae5e-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RefreshRemoteProjectWizard" mc="Standard.Class" uid="0007bc1e-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RefreshTagsAction" mc="Standard.Class" uid="0007c40c-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RemoteViewPart" mc="Standard.Class" uid="0007cc5e-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RemoveDateTagAction" mc="Standard.Class" uid="0007dab4-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RemoveRootAction" mc="Standard.Class" uid="0007e37e-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RepositoriesFilter" mc="Standard.Class" uid="0007ec66-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RepositoriesFilterAction" mc="Standard.Class" uid="0007f558-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RepositoriesFilterDialog" mc="Standard.Class" uid="0007feb8-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RepositoriesSortingActionGroup" mc="Standard.Class" uid="00080836-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RepositoriesView" mc="Standard.Class" uid="000811be-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RepositoriesViewContentHandler" mc="Standard.Class" uid="000829c4-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RepositoryComparator" mc="Standard.Class" uid="0008340a-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RepositoryEncodingPropertyPage" mc="Standard.Class" uid="00083e3c-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RepositoryManager" mc="Standard.Class" uid="00084eea-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RepositoryRoot" mc="Standard.Class" uid="0008598a-0bd4-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="fraction" version="4">
+  <OBJECT>
+    <ID name="fraction" mc="Standard.Package" uid="1ee2e263-334b-46cc-86c9-77c0ec8e4f30"/>
+    <PID name="math" mc="Standard.Package" uid="6f81fdc4-2ff0-400d-8d89-7999bec4c6cd"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[fraction]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractFormat" mc="Standard.Class" uid="9004c619-8706-48d6-9714-657b78b24265"/>
+        <COMPID name="BigFraction" mc="Standard.Class" uid="80de1d43-2d34-4b3c-8ae8-cb508bfcdddf"/>
+        <COMPID name="BigFractionField" mc="Standard.Class" uid="937169b1-2cc2-411f-8ac7-fcf3186d3223"/>
+        <COMPID name="BigFractionFormat" mc="Standard.Class" uid="14d08266-862f-4633-aef8-96bcfa8b4d00"/>
+        <COMPID name="Fraction" mc="Standard.Class" uid="3bf82b6b-34ea-4877-aab6-529f307368c6"/>
+        <COMPID name="FractionConversionException" mc="Standard.Class" uid="ec4b2496-54eb-46aa-a987-6f96f4c62184"/>
+        <COMPID name="FractionField" mc="Standard.Class" uid="e8610a01-149c-47f3-9a09-673bb663cf35"/>
+        <COMPID name="FractionFormat" mc="Standard.Class" uid="8ae50956-bc25-4338-8d6e-3fad92d75efa"/>
+        <COMPID name="ProperBigFractionFormat" mc="Standard.Class" uid="172ace31-3de9-4ec6-ad95-5beeee3f7f98"/>
+        <COMPID name="ProperFractionFormat" mc="Standard.Class" uid="0510c56b-4f36-4646-8b08-24987796f43f"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

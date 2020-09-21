@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="service" version="4">
+  <OBJECT>
+    <ID name="service" mc="Standard.Package" uid="2dac8d0c-dcc0-4044-aa9a-81a1bbc04d5c"/>
+    <PID name="osgi" mc="Standard.Package" uid="2689fe9a-e6a7-4f7e-befd-5f92bdc08180"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[service]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="cm" mc="Standard.Package" uid="3aa36fba-8be2-4002-a49d-65cc235f6ef2"/>
+        <COMPID name="component" mc="Standard.Package" uid="a636ff1a-7e5e-4a10-ac67-3c0b934785fc"/>
+        <COMPID name="device" mc="Standard.Package" uid="00353610-4c78-48bd-841d-6e9ebbf2811d"/>
+        <COMPID name="event" mc="Standard.Package" uid="9f2178c4-cf43-4ace-8c57-b7de0e6b98cd"/>
+        <COMPID name="http" mc="Standard.Package" uid="e67715f1-d023-4fce-93c5-9cbbaeb0a352"/>
+        <COMPID name="io" mc="Standard.Package" uid="5000583d-c3e9-42d3-811f-bcdd06fb8813"/>
+        <COMPID name="log" mc="Standard.Package" uid="6e8bd521-7e42-4ae0-86b0-45b976adbdc0"/>
+        <COMPID name="metatype" mc="Standard.Package" uid="8bc0f431-4c06-43b5-b5e5-17a3bb7e6ce4"/>
+        <COMPID name="provisioning" mc="Standard.Package" uid="c82a2abe-62bb-4021-ab82-9ba554f6c4d3"/>
+        <COMPID name="upnp" mc="Standard.Package" uid="db26bff3-ef6b-4e5d-8b4a-e01bb02ef5b7"/>
+        <COMPID name="useradmin" mc="Standard.Package" uid="14f1da6e-c308-4898-99f5-e2cb39bc7d03"/>
+        <COMPID name="wireadmin" mc="Standard.Package" uid="85eb7ba7-c060-44c7-81cb-98b7bb35af7e"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

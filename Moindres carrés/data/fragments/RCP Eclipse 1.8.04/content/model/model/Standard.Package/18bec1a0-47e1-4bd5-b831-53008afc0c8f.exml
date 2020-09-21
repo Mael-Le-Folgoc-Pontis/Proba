@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="reflect" version="4">
+  <OBJECT>
+    <ID name="reflect" mc="Standard.Package" uid="18bec1a0-47e1-4bd5-b831-53008afc0c8f"/>
+    <PID name="internal" mc="Standard.Package" uid="5ea5b133-6a31-4f3e-b28f-58c3b401e031"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[reflect]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="DirectInstantiator" mc="Standard.Class" uid="e56562f9-f783-4d0c-8376-6838f821af89"/>
+        <COMPID name="Instantiator" mc="Standard.Interface" uid="d3b1e748-b3a8-429d-8de8-5b044ac8ca8c"/>
+        <COMPID name="JavaMethod" mc="Standard.Class" uid="58841d6f-d4df-4b4a-8240-fed12cc9572e"/>
+        <COMPID name="JavaReflectionUtil" mc="Standard.Class" uid="9ea8e87f-9ccd-419d-bb14-26676e898798"/>
+        <COMPID name="NoSuchMethodException" mc="Standard.Class" uid="06240ed7-295d-4578-9f4e-9a84d45e992b"/>
+        <COMPID name="NoSuchPropertyException" mc="Standard.Class" uid="0ac53777-ef41-426d-b286-17f32dc193a5"/>
+        <COMPID name="ObjectInstantiationException" mc="Standard.Class" uid="11825be1-0af6-4fd1-8a67-27079f456748"/>
+        <COMPID name="PropertyAccessor" mc="Standard.Interface" uid="77060d01-9716-402e-8c3b-a00f61a93501"/>
+        <COMPID name="PropertyMutator" mc="Standard.Interface" uid="2a16dc0a-8620-401c-b1b5-2e0f785806cc"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

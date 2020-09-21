@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="integration" version="4">
+  <OBJECT>
+    <ID name="integration" mc="Standard.Package" uid="f42b241b-b685-4e3f-ad17-a3d1736da56c"/>
+    <PID name="emfworkbench" mc="Standard.Package" uid="8e64d4bd-53fd-4bd3-a953-7ae2d53aeb36"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[integration]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractEditModelCommand" mc="Standard.Class" uid="e1762825-9c90-4a3c-85f8-bf2efdca6aba"/>
+        <COMPID name="ComposedAccessorKey" mc="Standard.Class" uid="ab84427c-1f20-40d4-a0f8-cfc60963adb7"/>
+        <COMPID name="ComposedEditModel" mc="Standard.Class" uid="3eb7de36-281d-4ab0-80ca-193b1df2993c"/>
+        <COMPID name="CompoundingCommandStack" mc="Standard.Class" uid="e18c5719-89f4-45c0-bada-5754f0967792"/>
+        <COMPID name="DynamicAdapterFactory" mc="Standard.Class" uid="029fe02b-9141-4db2-9f31-a979a356f3b4"/>
+        <COMPID name="EMFWorkbenchEditPlugin" mc="Standard.Class" uid="1c790482-fae9-4265-b461-7748ceb1fc87"/>
+        <COMPID name="EditModel" mc="Standard.Class" uid="b13620e9-49d9-4a1b-bb17-8ea83de94a2f"/>
+        <COMPID name="EditModelCommand" mc="Standard.Class" uid="01e12e60-5f00-41b1-8bad-e1c5e42b517b"/>
+        <COMPID name="EditModelEvent" mc="Standard.Class" uid="fae1a1eb-07f1-477c-b750-6db73def4834"/>
+        <COMPID name="EditModelFactory" mc="Standard.Class" uid="9ca4b396-6d8a-4b3c-809e-3923b5c031ce"/>
+        <COMPID name="EditModelListener" mc="Standard.Interface" uid="79c1958e-7af3-4ca0-9a00-01bae99de53a"/>
+        <COMPID name="EditModelNature" mc="Standard.Class" uid="a43fb9f8-a275-42ec-bfe3-75d58be2016c"/>
+        <COMPID name="IEditModelFactory" mc="Standard.Interface" uid="a901df47-1372-420e-95fe-6cdcda14a02f"/>
+        <COMPID name="LooseComposedEditModel" mc="Standard.Class" uid="f53ac717-3d01-4dda-8ce6-8896056fcc63"/>
+        <COMPID name="ModelModifier" mc="Standard.Class" uid="037ebc11-8755-4632-8ff5-463024ea4109"/>
+        <COMPID name="ModifierHelper" mc="Standard.Class" uid="5014e04e-1108-4e34-a067-161c86f4ea3c"/>
+        <COMPID name="ModifierHelperChainer" mc="Standard.Class" uid="19bca7e9-f08a-42d2-91b1-1678448aa796"/>
+        <COMPID name="ModifierHelperFactory" mc="Standard.Interface" uid="2fa7897b-81ba-40aa-b799-4f3184ccc158"/>
+        <COMPID name="ModifierHelperRegistry" mc="Standard.Class" uid="0af372b1-f032-4a30-9913-9d338e6ea5a3"/>
+        <COMPID name="OwnerProvider" mc="Standard.Interface" uid="ca9e2f45-c8f7-48b6-8592-98a7d7f7badb"/>
+        <COMPID name="ProjectResourceSetEditImpl" mc="Standard.Class" uid="15f7f753-6dbd-46ec-b1b8-7d632c13eff9"/>
+        <COMPID name="ResourceSetWorkbenchEditSynchronizer" mc="Standard.Class" uid="fe97364b-ad8a-47b8-9985-7b05b18b9ec7"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

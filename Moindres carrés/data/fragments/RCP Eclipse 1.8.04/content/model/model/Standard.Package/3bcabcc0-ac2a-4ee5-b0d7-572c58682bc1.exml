@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="wizards" version="4">
+  <OBJECT>
+    <ID name="wizards" mc="Standard.Package" uid="3bcabcc0-ac2a-4ee5-b0d7-572c58682bc1"/>
+    <PID name="provisional" mc="Standard.Package" uid="79b78909-6761-4f0b-920d-a579ebd9ecfb"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[wizards]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="GitRepositoryInfo" mc="Standard.Class" uid="60ed7160-8a1f-4664-8e1b-6ba84b1ef583"/>
+        <COMPID name="IRepositorySearchResult" mc="Standard.Interface" uid="023809d9-0a96-4c93-a698-873956199e58"/>
+        <COMPID name="IRepositoryServerProvider" mc="Standard.Interface" uid="15bffc08-17d2-4817-baf2-7a89a1778899"/>
+        <COMPID name="NoRepositoryInfoException" mc="Standard.Class" uid="82bc0fc2-5181-444b-b237-685643dc6145"/>
+        <COMPID name="NoRepositoryServerInfoException" mc="Standard.Class" uid="4a77c094-dee1-4625-8be8-6f08317b877d"/>
+        <COMPID name="RepositoryServerInfo" mc="Standard.Class" uid="9a9f5c5a-c2cb-4a94-958c-df3f9f0ae770"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

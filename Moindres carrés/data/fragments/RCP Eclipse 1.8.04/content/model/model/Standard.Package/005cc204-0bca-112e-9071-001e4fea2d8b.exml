@@ -1,0 +1,72 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="launching" version="4">
+  <OBJECT>
+    <ID name="launching" mc="Standard.Package" uid="005cc204-0bca-112e-9071-001e4fea2d8b"/>
+    <PID name="internal" mc="Standard.Package" uid="00767f28-0bc8-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[launching]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractRuntimeClasspathEntry" mc="Standard.Class" uid="005cc86c-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ClasspathContainerSourceContainerTypeDelegate" mc="Standard.Class" uid="005ccec0-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ClasspathVariableSourceContainerTypeDelegate" mc="Standard.Class" uid="005cd500-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CompositeId" mc="Standard.Class" uid="005cdbb8-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DefaultEntryResolver" mc="Standard.Class" uid="005ce2a2-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DefaultProjectClasspathEntry" mc="Standard.Class" uid="005ce978-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="EECompilationParticipant" mc="Standard.Class" uid="005cf0bc-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="EEVMInstall" mc="Standard.Class" uid="005cf832-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="EEVMType" mc="Standard.Class" uid="005cff94-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JREContainer" mc="Standard.Class" uid="005d0778-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JREContainerInitializer" mc="Standard.Class" uid="005d2b0e-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JREPreferenceModifyListener" mc="Standard.Class" uid="005d336a-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JRERuntimeClasspathEntryResolver" mc="Standard.Class" uid="005d41de-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaAppletLaunchConfigurationDelegate" mc="Standard.Class" uid="005d4a94-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaClasspathVariablesInitializer" mc="Standard.Class" uid="005d5372-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaFxLibraryResolver" mc="Standard.Class" uid="09a85cef-f9a8-4e29-a42f-5d101e740c21"/>
+        <COMPID name="JavaLaunchableTester" mc="Standard.Class" uid="005d5c96-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaMigrationDelegate" mc="Standard.Class" uid="005d65ec-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaProjectSourceContainerTypeDelegate" mc="Standard.Class" uid="005d6f6a-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaRemoteApplicationLaunchConfigurationDelegate" mc="Standard.Class" uid="005d7974-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaSourceLookupDirector" mc="Standard.Class" uid="005d8356-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaSourceLookupUtil" mc="Standard.Class" uid="005d8d2e-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LaunchingMessages" mc="Standard.Class" uid="005d977e-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LaunchingPlugin" mc="Standard.Class" uid="005da200-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LaunchingPreferenceInitializer" mc="Standard.Class" uid="005db876-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LibraryInfo" mc="Standard.Class" uid="005dc352-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MacInstalledJREs" mc="Standard.Class" uid="005dce6a-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PListParser" mc="Standard.Class" uid="005ddfe0-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PackageFragmentRootSourceContainerTypeDelegate" mc="Standard.Class" uid="005deb7a-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ProjectClasspathVariableResolver" mc="Standard.Class" uid="005df6ec-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RuntimeClasspathEntry" mc="Standard.Class" uid="005e02b8-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RuntimeClasspathEntryListComparator" mc="Standard.Class" uid="005e0ee8-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RuntimeClasspathEntryResolver" mc="Standard.Class" uid="005e1ae6-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RuntimeClasspathProvider" mc="Standard.Class" uid="005e2770-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SocketAttachConnector" mc="Standard.Class" uid="005e344a-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SocketListenConnector" mc="Standard.Class" uid="005e4124-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SocketListenConnectorProcess" mc="Standard.Class" uid="005e4dfe-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Standard11xVM" mc="Standard.Class" uid="005e6140-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Standard11xVMRunner" mc="Standard.Class" uid="005e6e74-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Standard11xVMType" mc="Standard.Class" uid="005e7c48-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="StandardVM" mc="Standard.Class" uid="005e8a30-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="StandardVMDebugger" mc="Standard.Class" uid="005e980e-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="StandardVMRunner" mc="Standard.Class" uid="005eac36-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="StandardVMType" mc="Standard.Class" uid="005eba64-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="VMDefinitionsContainer" mc="Standard.Class" uid="005ec93c-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="VMListener" mc="Standard.Class" uid="005ed7e2-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="VariableClasspathEntry" mc="Standard.Class" uid="005ee6c4-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="VariableClasspathResolver" mc="Standard.Class" uid="005ef5ec-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="environments" mc="Standard.Package" uid="00601206-0bca-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

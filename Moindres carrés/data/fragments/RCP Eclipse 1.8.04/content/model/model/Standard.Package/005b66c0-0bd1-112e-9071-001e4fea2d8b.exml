@@ -1,0 +1,72 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="correction" version="4">
+  <OBJECT>
+    <ID name="correction" mc="Standard.Package" uid="005b66c0-0bd1-112e-9071-001e4fea2d8b"/>
+    <PID name="ui" mc="Standard.Package" uid="00559196-0bd1-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[correction]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractManifestMarkerResolution" mc="Standard.Class" uid="005b6d14-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AbstractPDEMarkerResolution" mc="Standard.Class" uid="005b73ea-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AbstractXMLMarkerResolution" mc="Standard.Class" uid="005b7a52-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AddActivationHeaderResolution" mc="Standard.Class" uid="005b80ba-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AddBuildEntryResolution" mc="Standard.Class" uid="005b8786-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AddBundleClassPathMarkerResolution" mc="Standard.Class" uid="005b8e8e-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AddBundleManifestVersionResolution" mc="Standard.Class" uid="005b9596-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AddDefaultExecutionEnvironmentResolution" mc="Standard.Class" uid="005b9d02-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AddExportPackageMarkerResolution" mc="Standard.Class" uid="005ba4a0-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AddNewExtensionPointResolution" mc="Standard.Class" uid="005bac66-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AddNewExtensionResolution" mc="Standard.Class" uid="005bb468-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AddSingletonToSymbolicName" mc="Standard.Class" uid="005bbc9c-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AddSourceBuildEntryResolution" mc="Standard.Class" uid="005bc4bc-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AppendSeperatorBuildEntryResolution" mc="Standard.Class" uid="005bcd54-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BuildEntryMarkerResolution" mc="Standard.Class" uid="005bd61e-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ChooseClassXMLResolution" mc="Standard.Class" uid="005bdef2-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ChooseManifestClassResolution" mc="Standard.Class" uid="005be82a-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CreateClassXMLResolution" mc="Standard.Class" uid="005bf1b2-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CreateJREBundleHeaderResolution" mc="Standard.Class" uid="005bfb1c-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CreateManifestClassResolution" mc="Standard.Class" uid="005c04ea-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DeletePluginBaseResolution" mc="Standard.Class" uid="005c0f4e-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ExternalizeResolution" mc="Standard.Class" uid="005c194e-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ExternalizeStringsResolution" mc="Standard.Class" uid="005c23b2-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MultiFixResolution" mc="Standard.Class" uid="005c2e52-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="NoLineTerminationResolution" mc="Standard.Class" uid="005c38e8-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="OptionalImportPackageResolution" mc="Standard.Class" uid="005c43e2-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="OptionalRequireBundleResolution" mc="Standard.Class" uid="005c4f2c-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="OrganizeExportPackageResolution" mc="Standard.Class" uid="005c5a58-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="OrganizeImportPackageResolution" mc="Standard.Class" uid="005c65e8-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="OrganizeRequireBundleResolution" mc="Standard.Class" uid="005c71aa-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PomVersionMarkerResolution" mc="Standard.Class" uid="7a65242f-9e89-44ef-8683-ddddbef298e9"/>
+        <COMPID name="RemoveBuildEntryResolution" mc="Standard.Class" uid="005c7d62-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RemoveExportPackageResolution" mc="Standard.Class" uid="005c89f6-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RemoveImportExportServicesResolution" mc="Standard.Class" uid="005c966c-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RemoveImportPackageResolution" mc="Standard.Class" uid="005ca328-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RemoveInternalDirectiveEntryResolution" mc="Standard.Class" uid="005cafee-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RemoveLazyLoadingDirectiveResolution" mc="Standard.Class" uid="005cbd18-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RemoveNodeXMLResolution" mc="Standard.Class" uid="005cca4c-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RemoveRequireBundleResolution" mc="Standard.Class" uid="005cd776-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RemoveSeperatorBuildEntryResolution" mc="Standard.Class" uid="005ce536-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RemoveStaticProjectReferences" mc="Standard.Class" uid="005cf300-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RemoveUnknownExecEnvironments" mc="Standard.Class" uid="005d00ca-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RenameProvidePackageResolution" mc="Standard.Class" uid="005d0f0c-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ReplaceBuildEntryResolution" mc="Standard.Class" uid="005d1d76-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ResolutionGenerator" mc="Standard.Class" uid="005d2bcc-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="UnsupportedSingletonDirectiveResolution" mc="Standard.Class" uid="005d3a90-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="UpdateActivationResolution" mc="Standard.Class" uid="005d4a30-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="UpdateClasspathResolution" mc="Standard.Class" uid="005d5958-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="java" mc="Standard.Package" uid="005e973c-0bd1-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

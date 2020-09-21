@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="validation" version="4">
+  <OBJECT>
+    <ID name="validation" mc="Standard.Package" uid="415a3232-78f6-47b2-b074-9e4739bed072"/>
+    <PID name="project" mc="Standard.Package" uid="abe9d0b1-82ff-4610-abaf-ca999e712a09"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[validation]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="DefaultModelValidator" mc="Standard.Class" uid="6468b835-32b0-482f-b2ea-e0ef07eda183"/>
+        <COMPID name="ModelValidationResult" mc="Standard.Class" uid="6853e303-54a4-45c2-8fb5-e90b8bb0b732"/>
+        <COMPID name="ModelValidator" mc="Standard.Interface" uid="7bc6b784-7234-4d6a-94bc-452ead639454"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

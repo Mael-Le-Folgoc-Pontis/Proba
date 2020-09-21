@@ -1,0 +1,51 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="internal" version="4">
+  <OBJECT>
+    <ID name="internal" mc="Standard.Package" uid="38ef3df5-9e00-4c25-b0c3-6ba70e3ba1b4"/>
+    <PID name="core" mc="Standard.Package" uid="7418e934-bc68-481c-87d6-61b17a7b55d3"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[internal]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ActionDefinition" mc="Standard.Class" uid="c455de19-a912-426b-987c-8ff88221425b"/>
+        <COMPID name="Category" mc="Standard.Class" uid="7706b935-f162-4804-97d3-c07b4389a842"/>
+        <COMPID name="Constraint" mc="Standard.Class" uid="041ef135-76f4-444e-b6c0-63e7399ffe17"/>
+        <COMPID name="DefaultFacetsExtensionPoint" mc="Standard.Class" uid="b773f43e-f39a-49ae-acd7-2ac20cb4410b"/>
+        <COMPID name="FacetCorePlugin" mc="Standard.Class" uid="74adbf86-62dc-4233-b269-8adf2dc9898c"/>
+        <COMPID name="FacetedProject" mc="Standard.Class" uid="b085bdd0-6d6c-4de6-aa4d-5f043d263b5a"/>
+        <COMPID name="FacetedProjectAdapter" mc="Standard.Class" uid="7ab4d2a3-2ee1-4abb-aac7-4a3023ed407c"/>
+        <COMPID name="FacetedProjectFrameworkImpl" mc="Standard.Class" uid="769eca75-fe9e-4aa0-a0c0-378a53e579e5"/>
+        <COMPID name="FacetedProjectNature" mc="Standard.Class" uid="dfb9956d-c25a-499b-9d26-e06e718c584d"/>
+        <COMPID name="FacetedProjectPropertyTester" mc="Standard.Class" uid="672962a7-7427-4fb5-9ea6-895d831f430e"/>
+        <COMPID name="FacetedProjectTemplate" mc="Standard.Class" uid="0d062dbe-68a8-4418-a98c-bdba8ac0444a"/>
+        <COMPID name="FacetedProjectTemplatesExtensionPoint" mc="Standard.Class" uid="95d8d4fe-592b-4c67-b001-9789964d16de"/>
+        <COMPID name="FacetedProjectValidationBuilder" mc="Standard.Class" uid="34c2598a-ef23-43b5-99f5-28c4fb2d7457"/>
+        <COMPID name="FacetedProjectWorkingCopy" mc="Standard.Class" uid="0b282fd1-b800-4aa7-a1b6-710b36f2d5b4"/>
+        <COMPID name="Group" mc="Standard.Class" uid="957fbbcf-1afb-4f60-82d4-edaf2cb1db86"/>
+        <COMPID name="PresetsExtensionPoint" mc="Standard.Class" uid="1872d098-8b37-46e8-8b73-616eb657b34b"/>
+        <COMPID name="ProblemLog" mc="Standard.Class" uid="72eea8ab-4137-4d29-9f07-97b70e36fe3a"/>
+        <COMPID name="ProjectFacet" mc="Standard.Class" uid="a05aa905-5878-4f2d-93df-40c11a3f3e33"/>
+        <COMPID name="ProjectFacetAliasesExtensionPoint" mc="Standard.Class" uid="a14809d6-90af-4e07-8508-75f9a38b31b4"/>
+        <COMPID name="ProjectFacetDetectorsExtensionPoint" mc="Standard.Class" uid="a362df68-0aaf-4eb0-8984-c0675321fdbb"/>
+        <COMPID name="ProjectFacetGroupsExtensionPoint" mc="Standard.Class" uid="3602058f-1939-420e-a6a0-92a5a8c166be"/>
+        <COMPID name="ProjectFacetPreferences" mc="Standard.Class" uid="236e40ae-572e-44bc-bd40-a080573b9cb3"/>
+        <COMPID name="ProjectFacetPreferencesGroup" mc="Standard.Class" uid="6e59e7dd-06db-4b89-a59f-668b3cb0bc05"/>
+        <COMPID name="ProjectFacetRef" mc="Standard.Class" uid="2b7eefbc-3002-4766-a964-1d1ef8c2803c"/>
+        <COMPID name="ProjectFacetVersion" mc="Standard.Class" uid="130f5ca6-75c9-4f11-b876-a1b2e9a84bc7"/>
+        <COMPID name="RuntimeComponentTypeRef" mc="Standard.Class" uid="9b56f587-e15f-4dfd-90a6-d1ef0ccad95e"/>
+        <COMPID name="UserPreset" mc="Standard.Class" uid="2accb16a-7e4d-4a4b-9306-1f78cc4de93b"/>
+        <COMPID name="ValidationProblem" mc="Standard.Class" uid="1389fb79-804e-47aa-8eb5-e2dea2387e92"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

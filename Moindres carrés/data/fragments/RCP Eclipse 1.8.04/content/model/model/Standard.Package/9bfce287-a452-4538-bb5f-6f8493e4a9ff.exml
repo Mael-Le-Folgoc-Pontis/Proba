@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="gef" version="4">
+  <OBJECT>
+    <ID name="gef" mc="Standard.Package" uid="9bfce287-a452-4538-bb5f-6f8493e4a9ff"/>
+    <PID name="java6" mc="Standard.Package" uid="c664da00-83cb-468b-9ec4-0b349808064e"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[gef]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="GroupLayoutEditPolicy" mc="Standard.Class" uid="b384c80d-8be7-4f35-875e-b27fa133811d"/>
+        <COMPID name="GroupSelectionEditPolicy" mc="Standard.Class" uid="c039aa8b-346b-4b8e-b60e-9dadfa8ec547"/>
+        <COMPID name="LayoutEditPolicyFactory2" mc="Standard.Class" uid="90afa0bb-22fd-4c41-8ad4-80b3b306e94b"/>
+        <COMPID name="SwingGroupLayoutEditPolicy2" mc="Standard.Class" uid="0278c017-722b-40b6-a793-db8376275a62"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

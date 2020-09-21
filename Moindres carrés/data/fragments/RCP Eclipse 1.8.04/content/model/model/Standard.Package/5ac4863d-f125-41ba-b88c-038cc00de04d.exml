@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="imports" version="4">
+  <OBJECT>
+    <ID name="imports" mc="Standard.Package" uid="5ac4863d-f125-41ba-b88c-038cc00de04d"/>
+    <PID name="rewrite" mc="Standard.Package" uid="0023ac94-0bc9-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[imports]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ConflictIdentifier" mc="Standard.Class" uid="7585875d-59f2-4f22-967e-2ec0a7bbdd26"/>
+        <COMPID name="ImportName" mc="Standard.Class" uid="eb70e934-aa89-4c81-9e63-d96277f1827c"/>
+        <COMPID name="ImportRewriteAnalyzer" mc="Standard.Class" uid="42c3ea27-763e-44df-aa8f-18a6d390a40f"/>
+        <COMPID name="ImportRewriteConfiguration" mc="Standard.Class" uid="09f5373a-8488-4bab-ab56-f73d91b8202d"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

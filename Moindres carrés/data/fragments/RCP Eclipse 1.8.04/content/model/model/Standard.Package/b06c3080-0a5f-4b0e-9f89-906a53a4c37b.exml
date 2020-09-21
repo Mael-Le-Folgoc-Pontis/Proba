@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="shared" version="4">
+  <OBJECT>
+    <ID name="shared" mc="Standard.Package" uid="b06c3080-0a5f-4b0e-9f89-906a53a4c37b"/>
+    <PID name="commands" mc="Standard.Package" uid="c60156f6-7631-4f64-9ab2-5fb870f8141b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[shared]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbortRebaseCommand" mc="Standard.Class" uid="9772a9d7-ab34-4ae5-9afe-e5d476a20958"/>
+        <COMPID name="AbstractRebaseCommandHandler" mc="Standard.Class" uid="4957263c-3336-470d-82d4-2366de0b2a79"/>
+        <COMPID name="AbstractSharedCommandHandler" mc="Standard.Class" uid="79915e92-49a4-49b4-85b3-1f5fe4ede952"/>
+        <COMPID name="ContinueRebaseCommand" mc="Standard.Class" uid="b7ad7409-a338-41fb-82ba-d408d2d1eadb"/>
+        <COMPID name="FetchChangeFromGerritCommand" mc="Standard.Class" uid="ea24b037-8a16-41a6-84ca-7e92c2f907d7"/>
+        <COMPID name="ProcessStepsRebaseCommand" mc="Standard.Class" uid="90b3b18f-1cde-4111-966a-ce1d388c3bc2"/>
+        <COMPID name="PushHeadToGerritCommand" mc="Standard.Class" uid="90fc302b-358f-4630-bbc2-b187b1b9fb05"/>
+        <COMPID name="RebaseCurrentRefCommand" mc="Standard.Class" uid="435af632-21de-48f0-82cd-b2e3bc99f75a"/>
+        <COMPID name="SkipRebaseCommand" mc="Standard.Class" uid="73dc167f-a51f-414d-b67b-1ef547bcf3eb"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

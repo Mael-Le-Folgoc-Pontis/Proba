@@ -1,0 +1,56 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="protocol" version="4">
+  <OBJECT>
+    <ID name="protocol" mc="Standard.Package" uid="a683e93f-0d37-4916-94c7-452ac51d0363"/>
+    <PID name="http" mc="Standard.Package" uid="69579971-0298-4981-9fc7-48c3562d4504"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[protocol]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="BasicHttpContext" mc="Standard.Class" uid="d240af57-585c-489f-9816-28f2278bae76"/>
+        <COMPID name="BasicHttpProcessor" mc="Standard.Class" uid="f9464dac-3d77-4093-b75d-02d1a96e8791"/>
+        <COMPID name="DefaultedHttpContext" mc="Standard.Class" uid="0315d71d-bd0b-4b8a-8b5e-f4e7419f1175"/>
+        <COMPID name="ExecutionContext" mc="Standard.Interface" uid="41415ebb-4085-4b61-9ce2-fa57f10a30da"/>
+        <COMPID name="HTTP" mc="Standard.Class" uid="6dc06362-0630-4f48-adb8-92f404a44738"/>
+        <COMPID name="HttpContext" mc="Standard.Interface" uid="5cd329f8-f1ec-4ab3-b82a-369667132dd7"/>
+        <COMPID name="HttpCoreContext" mc="Standard.Class" uid="a6728d5a-6e2f-46b5-abfc-3d7693a7f8c6"/>
+        <COMPID name="HttpDateGenerator" mc="Standard.Class" uid="9ab41cf8-bf79-4448-ad01-b4bbe6699f24"/>
+        <COMPID name="HttpExpectationVerifier" mc="Standard.Interface" uid="48e6e7ca-333f-4c90-a3b9-0dc19235f81c"/>
+        <COMPID name="HttpProcessor" mc="Standard.Interface" uid="73bf649a-a0a3-44b4-ba90-034f11d1e015"/>
+        <COMPID name="HttpProcessorBuilder" mc="Standard.Class" uid="5ec21a6a-5606-43f2-8c94-a1b3ce5ceaf0"/>
+        <COMPID name="HttpRequestExecutor" mc="Standard.Class" uid="8ea02e39-393d-473f-9c0a-3f924c1b6293"/>
+        <COMPID name="HttpRequestHandler" mc="Standard.Interface" uid="969b71b1-62e8-4bf1-896d-c67693c4c007"/>
+        <COMPID name="HttpRequestHandlerMapper" mc="Standard.Interface" uid="c62c3232-661a-4e6b-a834-69ef0c6ea302"/>
+        <COMPID name="HttpRequestHandlerRegistry" mc="Standard.Class" uid="aca8ea57-9513-4add-b2ec-87d80fb39082"/>
+        <COMPID name="HttpRequestHandlerResolver" mc="Standard.Interface" uid="d28d7026-b50b-4052-8ee7-ae9eb48125bc"/>
+        <COMPID name="HttpRequestInterceptorList" mc="Standard.Interface" uid="76ef11e0-d38d-4604-b8fc-fe51b13fceeb"/>
+        <COMPID name="HttpResponseInterceptorList" mc="Standard.Interface" uid="424d7879-33c0-4cbd-b384-b8320120c928"/>
+        <COMPID name="HttpService" mc="Standard.Class" uid="5ef5356a-57e4-4707-9ba8-2234f2397cb2"/>
+        <COMPID name="ImmutableHttpProcessor" mc="Standard.Class" uid="96b89531-5456-4952-aef4-6619ae0e0fb9"/>
+        <COMPID name="RequestConnControl" mc="Standard.Class" uid="3a813cb8-7d7b-4a43-962e-63289888e4dd"/>
+        <COMPID name="RequestContent" mc="Standard.Class" uid="13914122-00a3-4bc5-bf99-9f3da33ede51"/>
+        <COMPID name="RequestDate" mc="Standard.Class" uid="65b89e28-67cc-4362-8196-c47bcc41ad1a"/>
+        <COMPID name="RequestExpectContinue" mc="Standard.Class" uid="c81c762f-a756-4b4d-a6f2-e539cea45365"/>
+        <COMPID name="RequestTargetHost" mc="Standard.Class" uid="ca56d0ca-f960-4f3c-bd13-d1e333b520ad"/>
+        <COMPID name="RequestUserAgent" mc="Standard.Class" uid="c468beb7-7d2d-4b75-a7d3-a8a7e43233d2"/>
+        <COMPID name="ResponseConnControl" mc="Standard.Class" uid="700e42a7-4b65-4fe9-a9bc-5de772f1582a"/>
+        <COMPID name="ResponseContent" mc="Standard.Class" uid="e7015be7-8a20-416b-ab5e-91743b0c7cb4"/>
+        <COMPID name="ResponseDate" mc="Standard.Class" uid="1843435a-e8be-4bd1-b8fd-0ffac0afed4b"/>
+        <COMPID name="ResponseServer" mc="Standard.Class" uid="87c1dbfd-5343-49c6-926f-85f8448fa866"/>
+        <COMPID name="SyncBasicHttpContext" mc="Standard.Class" uid="be878fff-5353-46f5-8fe8-f28c5ca966ac"/>
+        <COMPID name="UriHttpRequestHandlerMapper" mc="Standard.Class" uid="9cecd1c0-0c72-40a9-945f-c9c24bb5a4c3"/>
+        <COMPID name="UriPatternMatcher" mc="Standard.Class" uid="468b82c9-b9d5-4caf-ab69-ec296620263e"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="execution" version="4">
+  <OBJECT>
+    <ID name="execution" mc="Standard.Package" uid="8eb00e14-a61a-4b54-95e1-9212b03ce818"/>
+    <PID name="maven" mc="Standard.Package" uid="173ccbb1-ee67-4028-9140-8289e1158a15"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[execution]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractExecutionListener" mc="Standard.Class" uid="71f4e07a-e32c-4b43-83de-47c81b198efe"/>
+        <COMPID name="BuildFailure" mc="Standard.Class" uid="9d8a6cbf-e2d5-4a35-aec6-d18ace5ca868"/>
+        <COMPID name="BuildSuccess" mc="Standard.Class" uid="4593b2d2-cb83-4cbf-9f5c-d74ebc9759d2"/>
+        <COMPID name="BuildSummary" mc="Standard.Class" uid="39bada3d-42cf-42e4-96a9-1ac72cee033b"/>
+        <COMPID name="DefaultMavenExecutionRequest" mc="Standard.Class" uid="9e601ad6-036a-4414-b896-74908c73fb6a"/>
+        <COMPID name="DefaultMavenExecutionRequestPopulator" mc="Standard.Class" uid="bc107472-9848-49ed-b5dc-50cd193a778d"/>
+        <COMPID name="DefaultMavenExecutionResult" mc="Standard.Class" uid="3731be94-18cc-458a-baea-9bdb61b89567"/>
+        <COMPID name="DefaultRuntimeInformation" mc="Standard.Class" uid="9dfa1595-1cfd-41bd-82e1-fab946c56839"/>
+        <COMPID name="ExecutionEvent" mc="Standard.Interface" uid="fd9d2c92-b5aa-4315-885d-6c805676879d"/>
+        <COMPID name="ExecutionListener" mc="Standard.Interface" uid="61f16c94-1d8e-42de-a44d-964672b0ac69"/>
+        <COMPID name="MavenExecutionRequest" mc="Standard.Interface" uid="5311955e-276a-445d-aa30-92f18244a5e5"/>
+        <COMPID name="MavenExecutionRequestPopulationException" mc="Standard.Class" uid="5f11202a-53d7-415a-ae9c-8d38a10773f9"/>
+        <COMPID name="MavenExecutionRequestPopulator" mc="Standard.Interface" uid="b171b32d-7993-408c-bfc6-110eef775f6c"/>
+        <COMPID name="MavenExecutionResult" mc="Standard.Interface" uid="980f458e-bd87-4e4b-94cd-9caafdcdec1b"/>
+        <COMPID name="MavenSession" mc="Standard.Class" uid="410a7ea7-70d5-4689-bcf7-5d0799f404d5"/>
+        <COMPID name="MojoExecutionEvent" mc="Standard.Class" uid="3fc0999f-887c-441e-8d25-a151ad3d2c42"/>
+        <COMPID name="MojoExecutionListener" mc="Standard.Interface" uid="56f65d61-79c0-4e15-84fc-4578b45bbc27"/>
+        <COMPID name="ProjectDependencyGraph" mc="Standard.Interface" uid="f1800176-92fa-4a47-8387-162c8c52d854"/>
+        <COMPID name="ProjectExecutionEvent" mc="Standard.Class" uid="852c90ce-9c5a-4619-a5e2-fc16567b66f9"/>
+        <COMPID name="ProjectExecutionListener" mc="Standard.Interface" uid="900319fd-3d08-4796-b08d-e2c0f721ab23"/>
+        <COMPID name="ReactorManager" mc="Standard.Class" uid="2dc47f2a-eeec-49a7-a276-0d2984288e34"/>
+        <COMPID name="RuntimeInformation" mc="Standard.Interface" uid="32c7df75-feef-4b0d-99ae-5f8867f58e1e"/>
+        <COMPID name="scope" mc="Standard.Package" uid="158c5b1d-e21e-46d9-97d3-0f9b683f9632"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

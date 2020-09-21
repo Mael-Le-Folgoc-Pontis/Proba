@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="internal" version="4">
+  <OBJECT>
+    <ID name="internal" mc="Standard.Package" uid="6531757f-977a-4989-aad4-676772bfa0a3"/>
+    <PID name="refactoring" mc="Standard.Package" uid="25ec1558-7b97-44db-b4e3-ddd70267b878"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[internal]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Activator" mc="Standard.Class" uid="d5964326-414f-43f8-abfc-611a4faf33f3"/>
+        <COMPID name="RefactoringImages" mc="Standard.Class" uid="408a1a2b-e610-4f21-a8b6-a2568eef3061"/>
+        <COMPID name="SaveDirtyFilesDialog" mc="Standard.Class" uid="bbdbc488-4362-4103-b1a8-c839f083150a"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="traverser" version="4">
+  <OBJECT>
+    <ID name="traverser" mc="Standard.Package" uid="46cce483-ced5-47db-a1dc-53aad120c582"/>
+    <PID name="graph" mc="Standard.Package" uid="2440364e-b9d2-432e-9f81-7c4d084f26bf"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[traverser]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AndDependencyTraverser" mc="Standard.Class" uid="351362ee-2db0-410d-bf85-61cbbd3dfd36"/>
+        <COMPID name="FatArtifactTraverser" mc="Standard.Class" uid="f6bdf21d-0feb-4fba-ba85-3e926260fca1"/>
+        <COMPID name="StaticDependencyTraverser" mc="Standard.Class" uid="b6525357-0a6d-4c8d-b26e-138ef790dc17"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

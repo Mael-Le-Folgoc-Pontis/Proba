@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="launch" version="4">
+  <OBJECT>
+    <ID name="launch" mc="Standard.Package" uid="9931c771-4481-450a-ad9d-81f21a31b5af"/>
+    <PID name="sisu" mc="Standard.Package" uid="0a5c5b50-eae1-4aa8-a519-6342fb96ace3"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[launch]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="BundleModule" mc="Standard.Class" uid="019da218-fe50-4b5d-8640-76ac73afe32d"/>
+        <COMPID name="BundlePlan" mc="Standard.Interface" uid="70c5b17c-7540-473a-af59-e7bf9c0022ce"/>
+        <COMPID name="InjectedTest" mc="Standard.Class" uid="174fd9c7-4b6b-48a4-a57a-a645cd05367e"/>
+        <COMPID name="InjectedTestCase" mc="Standard.Class" uid="0c3bc888-b004-4ef7-b4f9-46d1b4c76002"/>
+        <COMPID name="Main" mc="Standard.Class" uid="ba8dbc26-f379-43e4-ad14-cfe9e9584b08"/>
+        <COMPID name="SisuBundlePlan" mc="Standard.Class" uid="e67631a0-0832-44d8-bb5b-e8dd452887de"/>
+        <COMPID name="SisuExtender" mc="Standard.Class" uid="f91634af-0aa8-4cb6-a122-df4cf3d58587"/>
+        <COMPID name="SisuExtensions" mc="Standard.Class" uid="50a12e13-b615-4013-ad81-75e60abb6561"/>
+        <COMPID name="SisuTracker" mc="Standard.Class" uid="bb2b9cc4-1510-47e6-9335-a542adf3da16"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

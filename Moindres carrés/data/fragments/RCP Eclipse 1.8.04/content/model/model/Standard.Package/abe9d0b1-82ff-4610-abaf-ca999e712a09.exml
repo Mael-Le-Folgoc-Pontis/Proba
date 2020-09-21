@@ -1,0 +1,64 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="project" version="4">
+  <OBJECT>
+    <ID name="project" mc="Standard.Package" uid="abe9d0b1-82ff-4610-abaf-ca999e712a09"/>
+    <PID name="maven" mc="Standard.Package" uid="173ccbb1-ee67-4028-9140-8289e1158a15"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[project]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="DefaultDependencyResolutionRequest" mc="Standard.Class" uid="75ede427-bdda-4013-80e3-4e515e454e67"/>
+        <COMPID name="DefaultMavenProjectBuilder" mc="Standard.Class" uid="08c59540-b6e2-45fb-8cc7-847ba64a6b2d"/>
+        <COMPID name="DefaultMavenProjectHelper" mc="Standard.Class" uid="f999db74-00bc-40a2-99b1-45337365a603"/>
+        <COMPID name="DefaultModelBuildingListener" mc="Standard.Class" uid="e0118b9f-6bfa-49bf-b0e3-8ccc5acd53c2"/>
+        <COMPID name="DefaultProjectBuilder" mc="Standard.Class" uid="f51ae026-6a6a-4a2e-a5dd-5f581b6fbf5c"/>
+        <COMPID name="DefaultProjectBuilderConfiguration" mc="Standard.Class" uid="b5ff548b-84da-4539-9a59-208202b8978e"/>
+        <COMPID name="DefaultProjectBuildingHelper" mc="Standard.Class" uid="c03b8bad-7fc5-4249-ba64-31a17ae613a2"/>
+        <COMPID name="DefaultProjectBuildingRequest" mc="Standard.Class" uid="6bedb78d-25c8-4239-b55f-a1b3ef71d305"/>
+        <COMPID name="DefaultProjectDependenciesResolver" mc="Standard.Class" uid="da5b95cd-dae2-4346-94f3-808a403d23de"/>
+        <COMPID name="DefaultProjectRealmCache" mc="Standard.Class" uid="d92f70ca-e32f-4342-9c55-4e3c295a065b"/>
+        <COMPID name="DependencyResolutionException" mc="Standard.Class" uid="0de2ea46-0fba-447c-902a-4bdcb2f00690"/>
+        <COMPID name="DependencyResolutionRequest" mc="Standard.Interface" uid="fe9548b0-63a2-4436-8be6-015f70c179ed"/>
+        <COMPID name="DependencyResolutionResult" mc="Standard.Interface" uid="e455246d-fb9b-43e5-a701-792e9e5e7d15"/>
+        <COMPID name="DuplicateArtifactAttachmentException" mc="Standard.Class" uid="c8474ac2-6eab-4748-ae81-5dcb7e7d1573"/>
+        <COMPID name="DuplicateProjectException" mc="Standard.Class" uid="3d73a970-d4a2-4721-83ca-4270b31a3d27"/>
+        <COMPID name="ExtensionDescriptor" mc="Standard.Class" uid="9167340f-68db-4e5e-a5c8-7bf67826e671"/>
+        <COMPID name="ExtensionDescriptorBuilder" mc="Standard.Class" uid="e4900755-e982-4e08-9af7-ce100be8f88a"/>
+        <COMPID name="InvalidProjectModelException" mc="Standard.Class" uid="359d8046-da45-460b-a738-b52fe7083ed3"/>
+        <COMPID name="InvalidProjectVersionException" mc="Standard.Class" uid="670922c9-8b39-4c2a-b132-4bfa103b5050"/>
+        <COMPID name="MavenProject" mc="Standard.Class" uid="79c1c3ad-05be-43a7-a971-554bc40a68d3"/>
+        <COMPID name="MavenProjectBuilder" mc="Standard.Interface" uid="363821ba-76b3-4a0a-b1cd-651b2a3f7a27"/>
+        <COMPID name="MavenProjectHelper" mc="Standard.Interface" uid="56baf773-6b28-4e35-81fd-fb4a76945d4a"/>
+        <COMPID name="MissingRepositoryElementException" mc="Standard.Class" uid="c51af488-67f1-4227-81c3-83316a591333"/>
+        <COMPID name="ModelUtils" mc="Standard.Class" uid="3df19c8a-624f-4e45-bce7-e392e97c9223"/>
+        <COMPID name="ProjectBuilder" mc="Standard.Interface" uid="a175e0db-12f3-44e4-ace1-298f0a99b0cc"/>
+        <COMPID name="ProjectBuilderConfiguration" mc="Standard.Interface" uid="f65ba869-f236-4788-a731-0cd0a8ae9be1"/>
+        <COMPID name="ProjectBuildingException" mc="Standard.Class" uid="62001ef0-6fde-410e-bfa3-ce76eda389a7"/>
+        <COMPID name="ProjectBuildingHelper" mc="Standard.Interface" uid="dbd51024-d3ca-449a-8068-1dfd56e7db98"/>
+        <COMPID name="ProjectBuildingRequest" mc="Standard.Interface" uid="eedc7e86-7d24-4fd0-b525-8104112d147c"/>
+        <COMPID name="ProjectBuildingResult" mc="Standard.Interface" uid="f165c5f5-9719-43e9-ab1c-346b46704dba"/>
+        <COMPID name="ProjectDependenciesResolver" mc="Standard.Interface" uid="73e6d058-9c4d-402a-bcbf-92ebf0d7e6d1"/>
+        <COMPID name="ProjectModelResolver" mc="Standard.Class" uid="1d601fc3-17dd-40e3-9a48-b39ea822da96"/>
+        <COMPID name="ProjectRealmCache" mc="Standard.Interface" uid="eebb64b8-9f9b-4926-a662-77321211f13d"/>
+        <COMPID name="ProjectSorter" mc="Standard.Class" uid="668763de-b35e-4f18-a557-55e0de6f8b2a"/>
+        <COMPID name="ProjectUtils" mc="Standard.Class" uid="dfb3860c-9820-47af-8418-8f5cc9109b9e"/>
+        <COMPID name="RepositorySessionDecorator" mc="Standard.Interface" uid="831765cb-6e4a-49b9-8971-0a4274e7a655"/>
+        <COMPID name="artifact" mc="Standard.Package" uid="3abf5add-b02a-4777-8832-8fc8a45efd10"/>
+        <COMPID name="inheritance" mc="Standard.Package" uid="78630f78-6946-4fee-b346-faddd63d8bf5"/>
+        <COMPID name="interpolation" mc="Standard.Package" uid="4937d992-e0a5-4b61-b442-0948f4d7cfae"/>
+        <COMPID name="path" mc="Standard.Package" uid="a6640c9d-5feb-45d1-83ea-799f7b82d376"/>
+        <COMPID name="validation" mc="Standard.Package" uid="415a3232-78f6-47b2-b074-9e4739bed072"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

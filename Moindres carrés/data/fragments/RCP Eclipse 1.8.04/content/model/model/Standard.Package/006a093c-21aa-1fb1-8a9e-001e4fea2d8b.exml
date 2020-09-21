@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="swt" version="4">
+  <OBJECT>
+    <ID name="swt" mc="Standard.Package" uid="006a093c-21aa-1fb1-8a9e-001e4fea2d8b"/>
+    <PID name="provisional" mc="Standard.Package" uid="0068b4b0-21aa-1fb1-8a9e-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[swt]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="CompositeUpdater" mc="Standard.Class" uid="006b1084-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ControlUpdater" mc="Standard.Class" uid="006a25a2-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="MenuUpdater" mc="Standard.Class" uid="006a6c60-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="SWTUtil" mc="Standard.Class" uid="006ab3f0-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="TableUpdater" mc="Standard.Class" uid="006bc31c-21aa-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="WorkQueue" mc="Standard.Class" uid="006b978e-21aa-1fb1-8a9e-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

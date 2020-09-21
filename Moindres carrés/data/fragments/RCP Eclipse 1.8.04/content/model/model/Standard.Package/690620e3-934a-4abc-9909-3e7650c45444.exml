@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="repositories" version="4">
+  <OBJECT>
+    <ID name="repositories" mc="Standard.Package" uid="690620e3-934a-4abc-9909-3e7650c45444"/>
+    <PID name="commons" mc="Standard.Package" uid="b6e147f5-e463-4dab-9dfe-8ee79bc39421"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[repositories]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="core" mc="Standard.Package" uid="7b2d0663-1cf6-485a-b36f-5abdd23aec39"/>
+        <COMPID name="http" mc="Standard.Package" uid="29e50ec1-e4ff-4c55-9de3-826ada4c3d3c"/>
+        <COMPID name="ui" mc="Standard.Package" uid="6f900284-e2a7-46cd-a311-001bd46654f0"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

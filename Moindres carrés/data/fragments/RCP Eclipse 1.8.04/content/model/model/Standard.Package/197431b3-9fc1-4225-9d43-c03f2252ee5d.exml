@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="parser" version="4">
+  <OBJECT>
+    <ID name="parser" mc="Standard.Package" uid="197431b3-9fc1-4225-9d43-c03f2252ee5d"/>
+    <PID name="ri" mc="Standard.Package" uid="8e0f36aa-32a2-4a31-a209-8008c288cf45"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[parser]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ParseException" mc="Standard.Class" uid="4bc9407b-9437-4d45-87f5-f1dc7be484f1"/>
+        <COMPID name="SimpleCharStream" mc="Standard.Class" uid="2c61d5ad-0f20-445d-a3f6-30b2fb6aafa5"/>
+        <COMPID name="Token" mc="Standard.Class" uid="c3e59b28-37e1-49e4-818f-ebbf693ab444"/>
+        <COMPID name="TokenMgrError" mc="Standard.Class" uid="eed334f2-fed6-49eb-b124-13c717c56187"/>
+        <COMPID name="XPathParser" mc="Standard.Class" uid="703ded44-dd46-44ae-8df6-911574d97794"/>
+        <COMPID name="XPathParserConstants" mc="Standard.Interface" uid="7d7ddfc5-24f4-44d8-8819-60a4d04a0dea"/>
+        <COMPID name="XPathParserTokenManager" mc="Standard.Class" uid="12410f94-f864-44c5-891e-87bc5247900b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

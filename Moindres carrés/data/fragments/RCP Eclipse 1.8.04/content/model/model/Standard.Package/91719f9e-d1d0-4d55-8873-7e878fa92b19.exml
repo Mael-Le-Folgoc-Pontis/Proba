@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="core" version="4">
+  <OBJECT>
+    <ID name="core" mc="Standard.Package" uid="91719f9e-d1d0-4d55-8873-7e878fa92b19"/>
+    <PID name="commons" mc="Standard.Package" uid="b6e147f5-e463-4dab-9dfe-8ee79bc39421"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[core]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="CommonsCorePlugin" mc="Standard.Class" uid="2760303d-6208-4313-ad62-cea87f783685"/>
+        <COMPID name="ErrorReporterManager" mc="Standard.Class" uid="e1386a35-378c-4a11-9113-5203f9240198"/>
+        <COMPID name="Html2TextReader" mc="Standard.Class" uid="3042a855-31ce-4d33-865c-5f72c8366224"/>
+        <COMPID name="ICommonsCoreConstants" mc="Standard.Interface" uid="fb20c0e9-0b09-4570-b6e8-980154d68ac8"/>
+        <COMPID name="Messages" mc="Standard.Class" uid="efbeb125-b6b1-4c17-bec2-71c42739aa87"/>
+        <COMPID name="SingleCharReader" mc="Standard.Class" uid="13dfa1a0-bdad-4642-bb6e-6c3d8ec6f6e8"/>
+        <COMPID name="SubstitutionTextReader" mc="Standard.Class" uid="06139ac3-9a82-4d1f-81d5-f730ecc60d53"/>
+        <COMPID name="XmlStringConverter" mc="Standard.Class" uid="fc5fb5d9-d5b4-4440-a233-b2df8d1e8200"/>
+        <COMPID name="ZipFileUtil" mc="Standard.Class" uid="4e81e417-6c10-4142-b810-cdeffcf7ab1e"/>
+        <COMPID name="operations" mc="Standard.Package" uid="8d8f8bb1-a23c-497f-b78a-ecbd361155d2"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

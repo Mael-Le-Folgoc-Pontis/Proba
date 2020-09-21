@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="resolver" version="4">
+  <OBJECT>
+    <ID name="resolver" mc="Standard.Package" uid="008b6398-21af-1fb1-8a9e-001e4fea2d8b"/>
+    <PID name="internal" mc="Standard.Package" uid="0080c2c6-21af-1fb1-8a9e-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[resolver]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="BaseDescriptionImpl" mc="Standard.Class" uid="008ea04e-21af-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="BundleDescriptionImpl" mc="Standard.Class" uid="0096eb28-21af-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="BundleSpecificationImpl" mc="Standard.Class" uid="009531ac-21af-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ComputeNodeOrder" mc="Standard.Class" uid="008de1cc-21af-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ExportPackageDescriptionImpl" mc="Standard.Class" uid="009685de-21af-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="GenericDescriptionImpl" mc="Standard.Class" uid="009334e2-21af-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="GenericSpecificationImpl" mc="Standard.Class" uid="00940584-21af-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="HostSpecificationImpl" mc="Standard.Class" uid="00949ca6-21af-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ImportPackageSpecificationImpl" mc="Standard.Class" uid="008b7fcc-21af-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="NativeCodeDescriptionImpl" mc="Standard.Class" uid="008c0da2-21af-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="NativeCodeSpecificationImpl" mc="Standard.Class" uid="0091c486-21af-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ReadOnlyState" mc="Standard.Class" uid="0000434e-21b0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ResolverErrorImpl" mc="Standard.Class" uid="008fb2ea-21af-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="StateBuilder" mc="Standard.Class" uid="0093954a-21af-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="StateHelperImpl" mc="Standard.Class" uid="00900eac-21af-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="StateImpl" mc="Standard.Class" uid="0092b990-21af-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="StateMsg" mc="Standard.Class" uid="009134d0-21af-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="StateObjectFactoryImpl" mc="Standard.Class" uid="008d57ca-21af-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="SystemState" mc="Standard.Class" uid="008cc6ac-21af-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="UserState" mc="Standard.Class" uid="009878e4-21af-1fb1-8a9e-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

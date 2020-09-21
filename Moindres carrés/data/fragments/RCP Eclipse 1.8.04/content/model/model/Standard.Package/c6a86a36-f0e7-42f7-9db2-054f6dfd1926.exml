@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="transformer" version="4">
+  <OBJECT>
+    <ID name="transformer" mc="Standard.Package" uid="c6a86a36-f0e7-42f7-9db2-054f6dfd1926"/>
+    <PID name="graph" mc="Standard.Package" uid="2440364e-b9d2-432e-9f81-7c4d084f26bf"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[transformer]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ChainedDependencyGraphTransformer" mc="Standard.Class" uid="dab40293-84bf-4a15-a619-ca7577abedde"/>
+        <COMPID name="ConflictIdSorter" mc="Standard.Class" uid="54c27355-1ede-489f-aded-20f56aff0f62"/>
+        <COMPID name="ConflictMarker" mc="Standard.Class" uid="57fb9126-198b-4e97-b7df-525f65ff1f7c"/>
+        <COMPID name="ConflictResolver" mc="Standard.Class" uid="80e7d54b-e76a-4c3f-b9e0-00327fb14252"/>
+        <COMPID name="JavaDependencyContextRefiner" mc="Standard.Class" uid="f85ddf12-01ab-4521-a902-e47efc7e6eea"/>
+        <COMPID name="JavaScopeDeriver" mc="Standard.Class" uid="a51fd423-0e8f-49d7-8fe1-fc39f87d708d"/>
+        <COMPID name="JavaScopeSelector" mc="Standard.Class" uid="9b30469f-212d-45d4-9026-7656763ebdf0"/>
+        <COMPID name="NearestVersionSelector" mc="Standard.Class" uid="a5d4c933-31e7-4b11-81a4-51c976f59a0c"/>
+        <COMPID name="NoopDependencyGraphTransformer" mc="Standard.Class" uid="8000d621-2062-4343-a277-ed5c249e8f45"/>
+        <COMPID name="SimpleOptionalitySelector" mc="Standard.Class" uid="07c4f36d-faf3-4f0a-8ceb-1af78952a359"/>
+        <COMPID name="TransformationContextKeys" mc="Standard.Class" uid="8bb49d76-6f58-4b0f-9ebe-468930fcd664"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

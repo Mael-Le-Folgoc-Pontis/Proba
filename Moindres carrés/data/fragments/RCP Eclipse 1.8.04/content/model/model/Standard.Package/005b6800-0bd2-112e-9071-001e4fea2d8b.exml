@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="text" version="4">
+  <OBJECT>
+    <ID name="text" mc="Standard.Package" uid="005b6800-0bd2-112e-9071-001e4fea2d8b"/>
+    <PID name="ui" mc="Standard.Package" uid="0058deb4-0bd2-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[text]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="BasicElementLabels" mc="Standard.Class" uid="005b6e22-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DecoratingFileSearchLabelProvider" mc="Standard.Class" uid="005b746c-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="EditorOpener" mc="Standard.Class" uid="005b7ad4-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FileLabelProvider" mc="Standard.Class" uid="005b8132-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FileMatch" mc="Standard.Class" uid="005b87ea-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FileSearchPage" mc="Standard.Class" uid="005b8ee8-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FileSearchQuery" mc="Standard.Class" uid="005ba3c4-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FileSearchResult" mc="Standard.Class" uid="005bb8b4-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FileTableContentProvider" mc="Standard.Class" uid="005bc066-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FileTreeContentProvider" mc="Standard.Class" uid="005bc7fa-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IFileSearchContentProvider" mc="Standard.Interface" uid="005bcdf4-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LineElement" mc="Standard.Class" uid="005bd68c-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="NewTextSearchActionGroup" mc="Standard.Class" uid="005bde84-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ReplaceAction" mc="Standard.Class" uid="005be6ea-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ReplaceConfigurationPage" mc="Standard.Class" uid="005bfcfc-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ReplaceRefactoring" mc="Standard.Class" uid="005c05d0-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SearchResultUpdater" mc="Standard.Class" uid="005c2a1a-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SortAction" mc="Standard.Class" uid="005c3370-0bd2-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TextSearchPage" mc="Standard.Class" uid="005c3cc6-0bd2-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="formatter" version="4">
+  <OBJECT>
+    <ID name="formatter" mc="Standard.Package" uid="acafff91-0710-4edf-bb84-2fa94db2e84d"/>
+    <PID name="internal" mc="Standard.Package" uid="e9152071-ab45-4e26-8cf6-708827cd7d86"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[formatter]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="DefaultXMLPartitionFormatter" mc="Standard.Class" uid="e6172852-c440-4104-8c15-dbb504beb9bb"/>
+        <COMPID name="XMLFormatterFormatProcessor" mc="Standard.Class" uid="52f66512-9c33-4287-aadf-3dd025213dce"/>
+        <COMPID name="XMLFormattingConstraints" mc="Standard.Class" uid="fe201b7d-2cca-4eb2-b015-59f69471aa6c"/>
+        <COMPID name="XMLFormattingPreferences" mc="Standard.Class" uid="f2a512ce-9a3e-4abb-8cd7-e35792e5c700"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

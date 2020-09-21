@@ -1,0 +1,81 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="sync" version="4">
+  <OBJECT>
+    <ID name="sync" mc="Standard.Package" uid="627b3ef9-504b-40b2-af81-a6fd478d7072"/>
+    <PID name="setup" mc="Standard.Package" uid="6a6ae1bc-e3c1-4aa8-ad3a-67deb1afa397"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[sync]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="RemoteData" mc="Standard.Interface" uid="8bbd2e5b-9248-4173-825f-bb71d708af18"/>
+        <COMPID name="SyncAction" mc="Standard.Interface" uid="061c8576-e58a-4909-8d18-dc362142a40e"/>
+        <OBJECT>
+          <ID name="SyncActionType" mc="Standard.Enumeration" uid="3c752c1f-cdd0-41a6-ac75-72fb0950ab80"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[SyncActionType]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Extension">
+              <FOREIGNID name="JavaEnumeration" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0262-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <COMPID name="SyncDelta" mc="Standard.Interface" uid="4d481e90-22e3-4dd6-8772-8882ea143100"/>
+        <OBJECT>
+          <ID name="SyncDeltaType" mc="Standard.Enumeration" uid="7608e430-a616-45ca-ac58-53c654a09a5b"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[SyncDeltaType]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Extension">
+              <FOREIGNID name="JavaEnumeration" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0262-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <COMPID name="SyncFactory" mc="Standard.Interface" uid="5246c88a-27ea-4ec0-b89e-760264cd7449"/>
+        <COMPID name="SyncPackage" mc="Standard.Interface" uid="284d660e-1066-4ee6-a994-8f3ea5e63aaf"/>
+        <OBJECT>
+          <ID name="SyncPolicy" mc="Standard.Enumeration" uid="84b096ce-ce51-417c-a004-bece14636831"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[SyncPolicy]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Extension">
+              <FOREIGNID name="JavaEnumeration" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0262-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <COMPID name="impl" mc="Standard.Package" uid="c2bb0aad-104e-447a-ad94-9af229e7d223"/>
+        <COMPID name="util" mc="Standard.Package" uid="63210b60-3d46-410a-ac88-e9d3c212eafe"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

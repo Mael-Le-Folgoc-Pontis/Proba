@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="flow" version="4">
+  <OBJECT>
+    <ID name="flow" mc="Standard.Package" uid="00011260-0bc9-112e-9071-001e4fea2d8b"/>
+    <PID name="compiler" mc="Standard.Package" uid="0083bd82-0bc8-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[flow]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ConditionalFlowInfo" mc="Standard.Class" uid="00011918-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ExceptionHandlingFlowContext" mc="Standard.Class" uid="00011f9e-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ExceptionInferenceFlowContext" mc="Standard.Class" uid="afc4eb85-a626-4e81-ac90-cb6d02d7ca5e"/>
+        <COMPID name="FinallyFlowContext" mc="Standard.Class" uid="0001267e-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FlowContext" mc="Standard.Class" uid="00012d86-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FlowInfo" mc="Standard.Class" uid="00013484-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="InitializationFlowContext" mc="Standard.Class" uid="00013bf0-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="InsideSubRoutineFlowContext" mc="Standard.Class" uid="0001438e-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LabelFlowContext" mc="Standard.Class" uid="00014b2c-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LoopingFlowContext" mc="Standard.Class" uid="00015338-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="NullInfoRegistry" mc="Standard.Class" uid="00016c4c-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SwitchFlowContext" mc="Standard.Class" uid="000174bc-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TryFlowContext" mc="Standard.Class" uid="ba70a634-d537-4b6c-8b22-41f430679d9c"/>
+        <COMPID name="UnconditionalFlowInfo" mc="Standard.Class" uid="00017d54-0bc9-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

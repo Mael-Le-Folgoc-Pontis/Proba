@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="model" version="4">
+  <OBJECT>
+    <ID name="model" mc="Standard.Package" uid="cdc04bca-11bc-42cb-9509-def7983dcc9f"/>
+    <PID name="synchronize" mc="Standard.Package" uid="2bb806bc-71a6-47e7-b961-c53fcf8da707"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[model]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="GitModelBlob" mc="Standard.Class" uid="0198b6b0-2de8-49d8-8f7a-b513cb3b25d8"/>
+        <COMPID name="GitModelCache" mc="Standard.Class" uid="90cb27e1-418a-48f2-a8db-8162c7f2a50a"/>
+        <COMPID name="GitModelCacheFile" mc="Standard.Class" uid="36214603-b623-4488-b352-2e99605400a2"/>
+        <COMPID name="GitModelCacheTree" mc="Standard.Class" uid="2db022ec-37e9-4b8b-962d-156de4796a9b"/>
+        <COMPID name="GitModelCommit" mc="Standard.Class" uid="b73f388c-c0c2-401b-9a25-8a79e6f76c7d"/>
+        <COMPID name="GitModelObject" mc="Standard.Class" uid="bde9223e-7ce1-4eec-a1f7-8aaea87d28ca"/>
+        <COMPID name="GitModelObjectContainer" mc="Standard.Class" uid="7d419467-f1cc-48bf-a40b-ad5841c2982b"/>
+        <COMPID name="GitModelRepository" mc="Standard.Class" uid="7ff02aa8-e260-4f94-b36a-150d8f6c5ee6"/>
+        <COMPID name="GitModelRoot" mc="Standard.Class" uid="6bc1e57d-d3ba-4fd7-8ff4-664e7386ef3e"/>
+        <COMPID name="GitModelTree" mc="Standard.Class" uid="b9e61e8c-3ed7-4fbd-9546-cbd6f3206bdc"/>
+        <COMPID name="GitModelWorkingFile" mc="Standard.Class" uid="68af11d8-7139-444e-bcf0-7904fde64882"/>
+        <COMPID name="GitModelWorkingTree" mc="Standard.Class" uid="05760032-55e5-48f9-b9fd-140e88c8589e"/>
+        <COMPID name="HasProjects" mc="Standard.Interface" uid="d8f35a63-b9c7-4131-a393-34f37f901971"/>
+        <COMPID name="SupportedContextActionsHelper" mc="Standard.Class" uid="3cc5bde6-cbad-4130-bbc5-d1b8e4c092f9"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

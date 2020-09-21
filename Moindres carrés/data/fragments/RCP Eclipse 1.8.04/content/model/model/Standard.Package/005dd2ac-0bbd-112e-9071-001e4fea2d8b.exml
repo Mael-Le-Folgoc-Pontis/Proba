@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ngram" version="4">
+  <OBJECT>
+    <ID name="ngram" mc="Standard.Package" uid="005dd2ac-0bbd-112e-9071-001e4fea2d8b"/>
+    <PID name="analysis" mc="Standard.Package" uid="003a6222-0bbd-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[ngram]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="EdgeNGramTokenFilter" mc="Standard.Class" uid="005dd950-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="EdgeNGramTokenizer" mc="Standard.Class" uid="005de9e0-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="NGramTokenFilter" mc="Standard.Class" uid="005df89a-0bbd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="NGramTokenizer" mc="Standard.Class" uid="005e006a-0bbd-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

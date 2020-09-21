@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="classloader" version="4">
+  <OBJECT>
+    <ID name="classloader" mc="Standard.Package" uid="b91e3aa5-e21b-431c-9d99-6184fb7d9685"/>
+    <PID name="internal" mc="Standard.Package" uid="5ea5b133-6a31-4f3e-b28f-58c3b401e031"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[classloader]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ClassLoaderHierarchy" mc="Standard.Interface" uid="358d37f8-2e80-4609-b684-2e97cbcee7cf"/>
+        <COMPID name="ClassLoaderSpec" mc="Standard.Class" uid="121ed0b0-97f5-4801-95ae-7f39f3b057e2"/>
+        <COMPID name="ClassLoaderVisitor" mc="Standard.Class" uid="26574572-6b58-4ed4-8fb8-cf054bf8d6ce"/>
+        <COMPID name="ClasspathUtil" mc="Standard.Class" uid="c7c12f68-569b-4def-873f-5d27210c4889"/>
+        <COMPID name="FilteringClassLoader" mc="Standard.Class" uid="1b50f437-0a59-46c0-85ff-12d6a1f3e5e4"/>
+        <COMPID name="MultiParentClassLoader" mc="Standard.Class" uid="da0cd5bc-ec5b-4dd8-a27c-79c41bfebfc0"/>
+        <COMPID name="MutableURLClassLoader" mc="Standard.Class" uid="023f5a85-b26d-4a54-92ca-6eab4c23b0c5"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

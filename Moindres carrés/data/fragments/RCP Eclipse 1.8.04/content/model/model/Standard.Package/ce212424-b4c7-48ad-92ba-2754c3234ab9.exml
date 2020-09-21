@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="customize" version="4">
+  <OBJECT>
+    <ID name="customize" mc="Standard.Package" uid="ce212424-b4c7-48ad-92ba-2754c3234ab9"/>
+    <PID name="swing" mc="Standard.Package" uid="9830b5a7-65f5-42f6-9ec2-f443714086a1"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[customize]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AwtComponentDialog" mc="Standard.Class" uid="45b3d85e-5ec6-4159-96ec-be816d4c1166"/>
+        <COMPID name="CustomizerSupport" mc="Standard.Class" uid="e6d1617b-e860-4e36-88a0-392246d799b0"/>
+        <COMPID name="JavaInfoState" mc="Standard.Class" uid="117b6ea0-6baf-4e97-b6d0-9bc29fc9ccdb"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

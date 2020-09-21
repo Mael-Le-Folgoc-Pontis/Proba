@@ -1,0 +1,52 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="runtime" version="4">
+  <OBJECT>
+    <ID name="runtime" mc="Standard.Package" uid="000748c4-21a7-1fb1-8a9e-001e4fea2d8b"/>
+    <PID name="internal" mc="Standard.Package" uid="008cece0-21a6-1fb1-8a9e-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[runtime]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Activator" mc="Standard.Class" uid="0011fe90-21a7-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="AdapterManager" mc="Standard.Class" uid="000764a8-21a7-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="AuthorizationHandler" mc="Standard.Class" uid="000d4af8-21a7-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="CommonMessages" mc="Standard.Class" uid="00078c08-21a7-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="CompatibilityHelper" mc="Standard.Class" uid="000b2872-21a7-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="DataArea" mc="Standard.Class" uid="0009539e-21a7-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="DevClassPathHelper" mc="Standard.Class" uid="0009ba6e-21a7-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="FindSupport" mc="Standard.Class" uid="000e1280-21a7-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="IAdapterFactoryExt" mc="Standard.Interface" uid="0009e14c-21a7-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="IAdapterManagerProvider" mc="Standard.Interface" uid="0010aea0-21a7-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="IRuntimeConstants" mc="Standard.Interface" uid="00117254-21a7-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="InternalPlatform" mc="Standard.Class" uid="0008d8ba-21a7-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="LocalizationUtils" mc="Standard.Class" uid="000a6e46-21a7-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="Log" mc="Standard.Class" uid="0010dc5e-21a7-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="Messages" mc="Standard.Class" uid="000a9830-21a7-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="MetaDataKeeper" mc="Standard.Class" uid="0011cf7e-21a7-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="PerformanceStatsProcessor" mc="Standard.Class" uid="000a0a6e-21a7-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="PlatformActivator" mc="Standard.Class" uid="000c1dea-21a7-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="PlatformLogWriter" mc="Standard.Class" uid="000e70ae-21a7-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="PlatformURLConfigConnection" mc="Standard.Class" uid="0010195e-21a7-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="PlatformURLConverter" mc="Standard.Class" uid="0012baf6-21a7-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="PlatformURLFragmentConnection" mc="Standard.Class" uid="000cb16a-21a7-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="PlatformURLMetaConnection" mc="Standard.Class" uid="000b84ac-21a7-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="PlatformURLPluginConnection" mc="Standard.Class" uid="00084242-21a7-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="PrintStackUtil" mc="Standard.Class" uid="00081a24-21a7-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="Product" mc="Standard.Class" uid="000f13a6-21a7-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ReferenceHashSet" mc="Standard.Class" uid="000f75e4-21a7-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ResourceTranslator" mc="Standard.Class" uid="000db164-21a7-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="RuntimeLog" mc="Standard.Class" uid="0011a08a-21a7-1fb1-8a9e-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

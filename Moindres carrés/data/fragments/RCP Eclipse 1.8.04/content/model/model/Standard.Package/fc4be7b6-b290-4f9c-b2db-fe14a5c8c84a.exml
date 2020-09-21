@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="util" version="4">
+  <OBJECT>
+    <ID name="util" mc="Standard.Package" uid="fc4be7b6-b290-4f9c-b2db-fe14a5c8c84a"/>
+    <PID name="compatibility" mc="Standard.Package" uid="27ce2933-702d-46c7-be0e-7f5feaa60c3e"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[util]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="CacheManager" mc="Standard.Class" uid="843ebed8-4e0d-446c-aa91-d6ac9e3ad9bf"/>
+        <COMPID name="DefaultSaxErrorHandler" mc="Standard.Class" uid="3008c237-b1a1-49d0-9bf8-083fe5fc05eb"/>
+        <COMPID name="IOWithCauseException" mc="Standard.Class" uid="4b4b3ec3-f99e-4c03-b334-989df0c23fde"/>
+        <COMPID name="TransportUtil" mc="Standard.Class" uid="09b8ea54-e9b5-4d8c-9f31-3ab561b520dd"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

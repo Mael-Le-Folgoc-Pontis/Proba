@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="validation" version="4">
+  <OBJECT>
+    <ID name="validation" mc="Standard.Package" uid="aa13bfb1-b588-4a23-9c69-12e283c3310a"/>
+    <PID name="internal" mc="Standard.Package" uid="8dac5e70-eadd-4ac5-9e61-066073002452"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[validation]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="DelegatingSourceValidator" mc="Standard.Class" uid="9749f839-6a20-4370-9998-6ee04f0caa84"/>
+        <COMPID name="DelegatingSourceValidatorForXML" mc="Standard.Class" uid="49b99279-8de1-4166-bac2-cacc7c78a9ad"/>
+        <COMPID name="MarkupValidator" mc="Standard.Class" uid="690a1448-7674-40ab-b650-2584e91f1e00"/>
+        <COMPID name="XMLValidationUIMessages" mc="Standard.Class" uid="26e5921c-2e7a-4f1d-ac35-ba6c676df51f"/>
+        <COMPID name="core" mc="Standard.Package" uid="1eb80b28-2d3a-4eef-bb17-6a050c52ac76"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

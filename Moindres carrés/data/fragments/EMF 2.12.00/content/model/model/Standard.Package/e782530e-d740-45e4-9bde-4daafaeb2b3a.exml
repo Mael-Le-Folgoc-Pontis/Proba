@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="resource" version="4">
+  <OBJECT>
+    <ID name="resource" mc="Standard.Package" uid="e782530e-d740-45e4-9bde-4daafaeb2b3a"/>
+    <PID name="provider" mc="Standard.Package" uid="ef3c07c6-da10-4345-bdff-7d09186f1a4b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[resource]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ResourceItemProvider" mc="Standard.Class" uid="580c63ca-d20e-4f54-a3e7-b34785d5f783"/>
+        <COMPID name="ResourceItemProviderAdapterFactory" mc="Standard.Class" uid="34eb1066-33cb-4d8b-883f-43ed67662631"/>
+        <COMPID name="ResourceSetItemProvider" mc="Standard.Class" uid="49a377eb-22b6-4a14-ae3a-22caf1626b06"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

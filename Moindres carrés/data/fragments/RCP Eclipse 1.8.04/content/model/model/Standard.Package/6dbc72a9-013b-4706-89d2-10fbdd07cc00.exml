@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="downloader" version="4">
+  <OBJECT>
+    <ID name="downloader" mc="Standard.Package" uid="6dbc72a9-013b-4706-89d2-10fbdd07cc00"/>
+    <PID name="archetype" mc="Standard.Package" uid="15754755-ea04-4072-b80d-c868ad13cd6a"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[downloader]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="DefaultDownloader" mc="Standard.Class" uid="926d4884-1df3-431f-bcf2-4366198e020c"/>
+        <COMPID name="DownloadException" mc="Standard.Class" uid="693c059e-ade4-47d7-af20-17179f17090e"/>
+        <COMPID name="DownloadNotFoundException" mc="Standard.Class" uid="dc45e798-ae60-4fb1-8b21-d4113d2a6602"/>
+        <COMPID name="Downloader" mc="Standard.Interface" uid="a6188291-e347-4ef6-ab2d-1787f353a1fe"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="palette" version="4">
+  <OBJECT>
+    <ID name="palette" mc="Standard.Package" uid="a11469ba-30be-47fa-9c65-bcb1666b202f"/>
+    <PID name="controls" mc="Standard.Package" uid="603d5690-7814-470d-bdaa-f744e5bb9385"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[palette]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="DefaultPalettePreferences" mc="Standard.Class" uid="b1a95f53-d555-4c85-a85f-db338be746bd"/>
+        <COMPID name="HtmlPaletteTooltipProvider" mc="Standard.Class" uid="9c9560a6-ff4a-424d-87d6-4e4f710ad604"/>
+        <COMPID name="ICategory" mc="Standard.Interface" uid="00b774e9-5963-471f-b724-66833329e457"/>
+        <COMPID name="IEntry" mc="Standard.Interface" uid="42d1156b-4ae7-4e99-9ca7-a90f5eec5a41"/>
+        <COMPID name="IPalette" mc="Standard.Interface" uid="75ac2200-0a63-42ac-bf35-7576e7df3ae6"/>
+        <COMPID name="IPalettePreferences" mc="Standard.Interface" uid="29b4d729-8e52-4f98-9e42-a2826486a89f"/>
+        <COMPID name="JustifyPaletteTooltipProvider" mc="Standard.Class" uid="cd9deede-a4ba-4cae-9850-46f438b83d78"/>
+        <COMPID name="PaletteComposite" mc="Standard.Class" uid="7bb77654-3eee-4d82-b3a0-e65d00f8d624"/>
+        <COMPID name="SimplePaletteTooltipProvider" mc="Standard.Class" uid="2161559d-620a-48c3-9bfc-5be79f1ec9bb"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="events" version="4">
+  <OBJECT>
+    <ID name="events" mc="Standard.Package" uid="ef758638-c569-4ce8-a0a3-f4a206ce68aa"/>
+    <PID name="draw2d" mc="Standard.Package" uid="57a129f5-2b72-46b3-8f6b-82b9fc5c7a3d"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[events]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="IAncestorListener" mc="Standard.Interface" uid="fbbf51c0-7833-42df-873d-5cb4ecdffb8a"/>
+        <COMPID name="IFigureListener" mc="Standard.Interface" uid="78f62746-392f-430e-bfef-778b1e97021e"/>
+        <COMPID name="IMouseListener" mc="Standard.Interface" uid="0e64d7eb-75f3-4e9f-8c4b-e61552d9d0d5"/>
+        <COMPID name="IMouseMoveListener" mc="Standard.Interface" uid="873fc8d6-a8bf-4efd-8429-6563a1e92434"/>
+        <COMPID name="IMouseTrackListener" mc="Standard.Interface" uid="4ad560db-5176-4f3f-918e-8fa06df762ec"/>
+        <COMPID name="MouseEvent" mc="Standard.Class" uid="b9ae5511-d4ac-4eb4-872e-e548f9d5a185"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

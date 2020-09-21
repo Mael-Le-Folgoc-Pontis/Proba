@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="multi" version="4">
+  <OBJECT>
+    <ID name="multi" mc="Standard.Package" uid="466900fb-66bd-47a0-a02d-3ac3dabe421b"/>
+    <PID name="editor" mc="Standard.Package" uid="7ba225bc-30f5-4b76-acd8-b6a7c0ac3c83"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[multi]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="DesignerEditor" mc="Standard.Class" uid="cdb627ae-3a6e-4c4c-a94c-dd751c672e36"/>
+        <COMPID name="DesignerEditorContributor" mc="Standard.Class" uid="815ec7f3-a77b-471d-9da5-5e27eb5bb172"/>
+        <COMPID name="MultiMode" mc="Standard.Class" uid="7e4a47e1-f6f6-4467-adc0-1289627e0525"/>
+        <COMPID name="SourcePage" mc="Standard.Class" uid="5f7e346a-55b6-466d-bb6e-9b92c872e327"/>
+        <COMPID name="VisitedLinesHighlighter" mc="Standard.Class" uid="660e7fd6-f702-4c43-97ce-3823aa414982"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

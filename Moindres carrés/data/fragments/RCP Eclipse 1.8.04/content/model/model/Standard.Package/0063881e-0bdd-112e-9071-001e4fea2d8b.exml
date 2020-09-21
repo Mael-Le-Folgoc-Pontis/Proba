@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="connect" version="4">
+  <OBJECT>
+    <ID name="connect" mc="Standard.Package" uid="0063881e-0bdd-112e-9071-001e4fea2d8b"/>
+    <PID name="jdi" mc="Standard.Package" uid="00603a92-0bdd-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[connect]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AttachingConnector" mc="Standard.Interface" uid="00638e72-0bdd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Connector" mc="Standard.Interface" uid="00639548-0bdd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IllegalConnectorArgumentsException" mc="Standard.Class" uid="0063bd3e-0bdd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LaunchingConnector" mc="Standard.Interface" uid="0063c3ec-0bdd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ListeningConnector" mc="Standard.Interface" uid="0063cab8-0bdd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Transport" mc="Standard.Interface" uid="0063d2ec-0bdd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TransportTimeoutException" mc="Standard.Class" uid="0063d986-0bdd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="VMStartException" mc="Standard.Class" uid="0063e07a-0bdd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="spi" mc="Standard.Package" uid="0064a776-0bdd-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

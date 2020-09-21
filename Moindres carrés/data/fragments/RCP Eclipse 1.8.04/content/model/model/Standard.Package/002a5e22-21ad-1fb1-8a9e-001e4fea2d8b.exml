@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="progress" version="4">
+  <OBJECT>
+    <ID name="progress" mc="Standard.Package" uid="002a5e22-21ad-1fb1-8a9e-001e4fea2d8b"/>
+    <PID name="internal" mc="Standard.Package" uid="0015be4a-21ac-1fb1-8a9e-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[progress]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractProgressViewer" mc="Standard.Class" uid="00317e14-21ad-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="AnimationItem" mc="Standard.Class" uid="00328016-21ad-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="AnimationManager" mc="Standard.Class" uid="002bec38-21ad-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="BlockedJobsDialog" mc="Standard.Class" uid="00338ad8-21ad-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="DetailedProgressViewer" mc="Standard.Class" uid="00322148-21ad-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ErrorInfo" mc="Standard.Class" uid="00350cc8-21ad-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="FinishedJobs" mc="Standard.Class" uid="002ba6d8-21ad-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="IProgressUpdateCollector" mc="Standard.Interface" uid="0034ad64-21ad-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="JobInfo" mc="Standard.Class" uid="002e61fc-21ad-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="JobTreeElement" mc="Standard.Class" uid="002c141a-21ad-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="JobsViewPreferenceDialog" mc="Standard.Class" uid="003661c2-21ad-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ProgressAnimationItem" mc="Standard.Class" uid="002c3c7e-21ad-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ProgressCanvasViewer" mc="Standard.Class" uid="0036c6e4-21ad-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ProgressContentProvider" mc="Standard.Class" uid="003064b6-21ad-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ProgressInfoItem" mc="Standard.Class" uid="002fe2f2-21ad-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ProgressLabelProvider" mc="Standard.Class" uid="002e36d2-21ad-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ProgressManager" mc="Standard.Class" uid="0034080a-21ad-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ProgressManagerUtil" mc="Standard.Class" uid="002f76f0-21ad-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ProgressMessages" mc="Standard.Class" uid="002d7de6-21ad-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ProgressMonitorJobsDialog" mc="Standard.Class" uid="0032fc58-21ad-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ProgressRegion" mc="Standard.Class" uid="00357078-21ad-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ProgressView" mc="Standard.Class" uid="0031ab1e-21ad-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ProgressViewerContentProvider" mc="Standard.Class" uid="00335bee-21ad-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ProgressViewerLabelProvider" mc="Standard.Class" uid="0034dca8-21ad-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="StatusAdapterHelper" mc="Standard.Class" uid="00311fbe-21ad-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="TaskInfo" mc="Standard.Class" uid="0030c1a4-21ad-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="WorkbenchSiteProgressService" mc="Standard.Class" uid="002afb0c-21ad-1fb1-8a9e-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

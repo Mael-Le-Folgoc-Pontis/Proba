@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="laf" version="4">
+  <OBJECT>
+    <ID name="laf" mc="Standard.Package" uid="b48cd6b2-e19f-4236-99ac-889c879dfdec"/>
+    <PID name="preferences" mc="Standard.Package" uid="10ff8b24-c21c-4a8e-9e77-f3fc87811605"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[laf]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="IPreferenceConstants" mc="Standard.Interface" uid="98f4b15e-3e15-4aa5-a484-fff0905647bc"/>
+        <COMPID name="LafPreferencePage" mc="Standard.Class" uid="b0676a4f-5eb6-4d64-87c8-26a083885078"/>
+        <COMPID name="PreferenceInitializer" mc="Standard.Class" uid="cd993fea-3a09-4306-af8b-93312f8f6d11"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

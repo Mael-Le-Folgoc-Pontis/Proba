@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="rcp" version="4">
+  <OBJECT>
+    <ID name="rcp" mc="Standard.Package" uid="f322e857-552b-4b4a-b7d7-91a4ec142dd0"/>
+    <PID name="coordinates" mc="Standard.Package" uid="947efbd6-4947-41ba-9943-3e707aeb1d68"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[rcp]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="CoordinateEvents" mc="Standard.Class" uid="961b8fa4-87ef-4199-9528-f86d3b174999"/>
+        <COMPID name="DependencyInfos" mc="Standard.Class" uid="8ebb6270-a011-41ad-b3f5-63abff3d0306"/>
+        <COMPID name="EclipseProjectCoordinateAdvisorService" mc="Standard.Class" uid="27e12e66-d209-41fe-96e2-21a9ed6cda01"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

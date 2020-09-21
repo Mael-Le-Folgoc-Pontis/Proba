@@ -1,0 +1,52 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="sourcelookup" version="4">
+  <OBJECT>
+    <ID name="sourcelookup" mc="Standard.Package" uid="0037da48-0bc1-112e-9071-001e4fea2d8b"/>
+    <PID name="ui" mc="Standard.Package" uid="0011cbfa-0bc1-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[sourcelookup]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AddContainerAction" mc="Standard.Class" uid="0037e13c-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AddSourceContainerDialog" mc="Standard.Class" uid="0037e86c-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BasicContainerContentProvider" mc="Standard.Class" uid="0037ef9c-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DownAction" mc="Standard.Class" uid="0037f6cc-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="EditContainerAction" mc="Standard.Class" uid="0037fe56-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="EditSourceLookupPathAction" mc="Standard.Class" uid="00380626-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LookupSourceAction" mc="Standard.Class" uid="00380e32-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Prompter" mc="Standard.Class" uid="0038165c-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RemoveAction" mc="Standard.Class" uid="00381eb8-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ResolveDuplicatesHandler" mc="Standard.Class" uid="00382714-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RestoreDefaultAction" mc="Standard.Class" uid="00382ffc-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SourceContainerAction" mc="Standard.Class" uid="00383902-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SourceContainerAdapterFactory" mc="Standard.Class" uid="00384212-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SourceContainerLabelProvider" mc="Standard.Class" uid="00384b86-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SourceContainerViewer" mc="Standard.Class" uid="00385536-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SourceContainerWorkbenchAdapter" mc="Standard.Class" uid="00386580-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SourceElementAdapterFactory" mc="Standard.Class" uid="00386f80-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SourceElementLabelProvider" mc="Standard.Class" uid="0038798a-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SourceElementWorkbenchAdapter" mc="Standard.Class" uid="00388402-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SourceLookupFacility" mc="Standard.Class" uid="00388ec0-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SourceLookupManager" mc="Standard.Class" uid="00389956-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SourceLookupPanel" mc="Standard.Class" uid="0038a4e6-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SourceLookupResult" mc="Standard.Class" uid="0038b01c-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SourceLookupService" mc="Standard.Class" uid="0038bb2a-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SourceLookupUIMessages" mc="Standard.Class" uid="0038c6b0-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SourceLookupUIUtils" mc="Standard.Class" uid="0038d27c-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="UpAction" mc="Standard.Class" uid="0038de48-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WorkingSetSourceContainerType" mc="Standard.Class" uid="0038ea8c-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="browsers" mc="Standard.Package" uid="003a0be2-0bc1-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

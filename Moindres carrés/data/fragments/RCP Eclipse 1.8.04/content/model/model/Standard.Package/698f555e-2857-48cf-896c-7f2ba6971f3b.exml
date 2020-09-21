@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="util" version="4">
+  <OBJECT>
+    <ID name="util" mc="Standard.Package" uid="698f555e-2857-48cf-896c-7f2ba6971f3b"/>
+    <PID name="internal" mc="Standard.Package" uid="8de19d9c-309f-4c7f-968c-e82cba2f8859"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[util]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Assert" mc="Standard.Class" uid="ba885309-5122-41c4-bfa4-3eb91037308c"/>
+        <COMPID name="EditorUtility" mc="Standard.Class" uid="f10c70c2-1050-409b-92e6-799d64f0e68e"/>
+        <COMPID name="PixelConverter" mc="Standard.Class" uid="1f54df86-ef4f-47ed-bccb-a4e5aa87e07f"/>
+        <COMPID name="PlatformStatusLineUtil" mc="Standard.Class" uid="062447a8-5849-403b-a223-5e8cc360be94"/>
+        <COMPID name="RegistryReader" mc="Standard.Class" uid="1ae2df90-df85-46c3-9629-4ce3f311e284"/>
+        <COMPID name="SWTUtil" mc="Standard.Class" uid="5e3b07e3-c660-4cb0-9c08-476b848a7579"/>
+        <COMPID name="Sorter" mc="Standard.Class" uid="12e0c465-1a46-47b5-875a-633234d3c955"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

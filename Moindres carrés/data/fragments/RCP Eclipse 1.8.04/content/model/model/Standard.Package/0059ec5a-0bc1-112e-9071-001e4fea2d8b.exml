@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="modules" version="4">
+  <OBJECT>
+    <ID name="modules" mc="Standard.Package" uid="0059ec5a-0bc1-112e-9071-001e4fea2d8b"/>
+    <PID name="views" mc="Standard.Package" uid="0049cc26-0bc1-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[modules]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="IHelpContextIdProvider" mc="Standard.Interface" uid="0059f330-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ModulesView" mc="Standard.Class" uid="0059fa38-0bc1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ModulesViewMessages" mc="Standard.Class" uid="005a0118-0bc1-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

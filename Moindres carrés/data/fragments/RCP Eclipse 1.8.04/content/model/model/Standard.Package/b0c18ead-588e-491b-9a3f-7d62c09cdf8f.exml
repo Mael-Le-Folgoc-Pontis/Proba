@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="phrase" version="4">
+  <OBJECT>
+    <ID name="phrase" mc="Standard.Package" uid="b0c18ead-588e-491b-9a3f-7d62c09cdf8f"/>
+    <PID name="core" mc="Standard.Package" uid="69bf6bb2-5767-4271-b67c-3f5be89fe703"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[phrase]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="EscapeTextilePhraseModifier" mc="Standard.Class" uid="ac2e42f9-c8a3-4182-849c-44776d4df10c"/>
+        <COMPID name="HyperlinkPhraseModifier" mc="Standard.Class" uid="553a416c-e6b7-4c69-9d67-42d1f0ca85b8"/>
+        <COMPID name="ImageTextilePhraseModifier" mc="Standard.Class" uid="f2055e55-e0f7-4b34-81e8-990cbef5dc70"/>
+        <COMPID name="SimpleTextilePhraseModifier" mc="Standard.Class" uid="d6923943-22bb-4c54-b73a-cdfab0fbfe86"/>
+        <COMPID name="TagEscapeTextilePhraseModifier" mc="Standard.Class" uid="9466fae8-672e-40c5-bd64-bf291169a970"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="discovery" version="4">
+  <OBJECT>
+    <ID name="discovery" mc="Standard.Package" uid="992a8916-cb4b-47d9-bb9a-5ba93187a51f"/>
+    <PID name="internal" mc="Standard.Package" uid="255895cd-535f-42c3-b613-ea060e9ce35a"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[discovery]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="DiscoveryActivator" mc="Standard.Class" uid="afc858d6-7e67-40cd-938c-de971d025c81"/>
+        <COMPID name="InstallCatalogItemMavenDiscoveryProposal" mc="Standard.Class" uid="3a3ffedb-6205-42c1-9234-f5698ddc15a0"/>
+        <COMPID name="MavenDiscovery" mc="Standard.Class" uid="abfc9434-743c-48c4-8cea-ffa8ed5618a3"/>
+        <COMPID name="MavenDiscoveryIcons" mc="Standard.Class" uid="c875d5e4-1157-4f2b-bed6-43daa987dd62"/>
+        <COMPID name="MavenDiscoveryLauncher" mc="Standard.Class" uid="59cff99e-75d4-47a5-8c65-340402aa148c"/>
+        <COMPID name="MavenDiscoveryService" mc="Standard.Class" uid="a48d4d8c-049d-41f5-8fba-14f1927752e0"/>
+        <COMPID name="Messages" mc="Standard.Class" uid="4f62c3b9-f702-4b8b-950b-a70e368b3669"/>
+        <COMPID name="handlers" mc="Standard.Package" uid="36d21fb8-0e43-4119-bb86-ac3c059ee320"/>
+        <COMPID name="markers" mc="Standard.Package" uid="208da01e-99b0-44f7-8118-1071c261cf6f"/>
+        <COMPID name="operation" mc="Standard.Package" uid="0e53d6ee-b37a-4837-b2bd-2586a295030a"/>
+        <COMPID name="preferences" mc="Standard.Package" uid="7f5f7ecb-41ef-45a3-9d40-89006fdeebdd"/>
+        <COMPID name="startup" mc="Standard.Package" uid="09e20c5d-2a7b-4a79-96ec-430f27fc4265"/>
+        <COMPID name="strategy" mc="Standard.Package" uid="844a0100-4a8d-41b3-8b21-11d97b1c08f7"/>
+        <COMPID name="wizards" mc="Standard.Package" uid="face6f73-17f8-45d6-acf8-94ae4e7d57ae"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="categoryexplorer" version="4">
+  <OBJECT>
+    <ID name="categoryexplorer" mc="Standard.Package" uid="b6141a07-7406-4f2a-ae37-43e219fcd2d9"/>
+    <PID name="viewer" mc="Standard.Package" uid="fee295e1-879b-4baf-8c14-4e98897e1c53"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[categoryexplorer]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="CategoryAbstractCellEditor" mc="Standard.Class" uid="73d3997c-bd92-4b6d-a0e5-a7e387368296"/>
+        <COMPID name="CategoryElement" mc="Standard.Class" uid="a6d2c089-e84c-4ced-b119-18be60cb4842"/>
+        <COMPID name="CategoryExplorerLogRecordFilter" mc="Standard.Class" uid="2fc91513-1584-4e04-87ab-dc0fc38f3c64"/>
+        <COMPID name="CategoryExplorerModel" mc="Standard.Class" uid="a745e9b1-cbca-4356-8a61-f3dd7cf230ea"/>
+        <COMPID name="CategoryExplorerTree" mc="Standard.Class" uid="1c13a9d9-fb33-4eec-b052-68c913f00aa4"/>
+        <COMPID name="CategoryImmediateEditor" mc="Standard.Class" uid="85251d6f-d3c9-4897-a755-3cdf87edfbd8"/>
+        <COMPID name="CategoryNode" mc="Standard.Class" uid="77d1a4b4-2ed5-4297-94a4-a40aaa4faf21"/>
+        <COMPID name="CategoryNodeEditor" mc="Standard.Class" uid="e2e3cbb0-be6b-40ce-8d4d-7efbc056a8fd"/>
+        <COMPID name="CategoryNodeEditorRenderer" mc="Standard.Class" uid="71f86268-fc6a-49e9-962f-2dd88ca85849"/>
+        <COMPID name="CategoryNodeRenderer" mc="Standard.Class" uid="042798c7-8ef6-4bd7-96ba-ba1244a56e03"/>
+        <COMPID name="CategoryPath" mc="Standard.Class" uid="592746d7-82f3-43e3-b5bc-94ea14954210"/>
+        <COMPID name="TreeModelAdapter" mc="Standard.Class" uid="24a1cf7c-3eb0-40d6-8ba7-9827ca491fde"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

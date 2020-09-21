@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="data" version="4">
+  <OBJECT>
+    <ID name="data" mc="Standard.Package" uid="14df7c82-3bf6-4917-ae67-5d1b65ef82da"/>
+    <PID name="core" mc="Standard.Package" uid="ca7b9d75-150f-45c7-bd8e-1dc0cce666a2"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[data]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractTaskAttachmentHandler" mc="Standard.Class" uid="4415ba0f-f6ef-4bbc-8e96-9f28659f29cb"/>
+        <COMPID name="AbstractTaskAttachmentSource" mc="Standard.Class" uid="2ef4c84d-accd-4a15-aeb1-0509fcae16cd"/>
+        <COMPID name="AbstractTaskDataHandler" mc="Standard.Class" uid="82a7395c-a1c4-4504-980f-1988a8068340"/>
+        <COMPID name="AbstractTaskSchema" mc="Standard.Class" uid="7698d49c-e439-428e-9b69-043b5cce4b2a"/>
+        <COMPID name="DefaultTaskSchema" mc="Standard.Class" uid="d4e77a58-b1f3-4e4b-b36f-0d3efd7bfe71"/>
+        <COMPID name="ITaskAttributeDiff" mc="Standard.Interface" uid="7ff291a8-c4b2-4415-8390-591c7ceef3a7"/>
+        <COMPID name="ITaskDataDiff" mc="Standard.Interface" uid="0f485d9d-cfd2-4c49-bb72-4b38cc857e72"/>
+        <COMPID name="ITaskDataManager" mc="Standard.Interface" uid="d351bd2e-c0ea-4958-9b9e-1c925deb6ca3"/>
+        <COMPID name="ITaskDataWorkingCopy" mc="Standard.Interface" uid="21859d49-8842-48a0-878b-b3bb7cb1fc1a"/>
+        <COMPID name="TaskAttachmentMapper" mc="Standard.Class" uid="330e93fb-c900-4754-8ee9-e2994437a6e9"/>
+        <COMPID name="TaskAttachmentModel" mc="Standard.Class" uid="eaea8686-3df2-4e29-91a8-05332b01c90a"/>
+        <COMPID name="TaskAttachmentPartSource" mc="Standard.Class" uid="992d84e4-39fe-47c0-826d-327cb2e7b114"/>
+        <COMPID name="TaskAttribute" mc="Standard.Class" uid="d6d5c521-acb8-430f-ac80-2351d5ac49e2"/>
+        <COMPID name="TaskAttributeMapper" mc="Standard.Class" uid="36f8f303-d657-4894-b272-a16a29d7e01b"/>
+        <COMPID name="TaskAttributeMetaData" mc="Standard.Class" uid="28f1e84f-ec1d-435d-8f1e-628e625eb7fb"/>
+        <COMPID name="TaskCommentMapper" mc="Standard.Class" uid="99373f23-edd6-4d0c-8acf-01aa4dd1ea15"/>
+        <COMPID name="TaskData" mc="Standard.Class" uid="d3d7f9d5-e4c4-4be4-b499-a7690dd61634"/>
+        <COMPID name="TaskDataCollector" mc="Standard.Class" uid="3b87eec8-b3ff-462d-a80a-18ec993ef900"/>
+        <COMPID name="TaskDataModel" mc="Standard.Class" uid="4ff1bd6f-e086-43c9-80ec-aa825bca6b45"/>
+        <COMPID name="TaskDataModelEvent" mc="Standard.Class" uid="8875fda4-2c0f-4224-8e11-ae0ef6be19d6"/>
+        <COMPID name="TaskDataModelListener" mc="Standard.Class" uid="5f8aca15-0ccc-4dac-a63a-fd88a10bfe63"/>
+        <COMPID name="TaskHistory" mc="Standard.Class" uid="27ea315d-0de7-49e1-99d0-7ad1e19ac53f"/>
+        <COMPID name="TaskMapper" mc="Standard.Class" uid="791d9da0-bcde-4f2b-9e90-534704d48d1d"/>
+        <COMPID name="TaskOperation" mc="Standard.Class" uid="ff7e1a19-d772-41f7-bcc7-cf399051424d"/>
+        <COMPID name="TaskRelation" mc="Standard.Class" uid="102e41ad-64b3-4fcd-bc66-b94401baa957"/>
+        <COMPID name="TaskRevision" mc="Standard.Class" uid="6c6bde40-16cb-4a68-b2fe-349ffc4d5f34"/>
+        <COMPID name="UnsubmittedTaskAttachment" mc="Standard.Class" uid="815494cf-beaa-474f-81d0-a427b45cbb1a"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

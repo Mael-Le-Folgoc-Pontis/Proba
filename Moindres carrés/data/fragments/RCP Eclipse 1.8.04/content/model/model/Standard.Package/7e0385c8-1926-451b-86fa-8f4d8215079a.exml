@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="preferences" version="4">
+  <OBJECT>
+    <ID name="preferences" mc="Standard.Package" uid="7e0385c8-1926-451b-86fa-8f4d8215079a"/>
+    <PID name="monitoring" mc="Standard.Package" uid="a54b5c5b-32c3-49ed-9555-9007abdf564e"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[preferences]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="FilterInputDialog" mc="Standard.Class" uid="5c74398c-7cef-4eb2-8694-c8e63abbaf09"/>
+        <COMPID name="FilterListEditor" mc="Standard.Class" uid="a0c50f52-fabe-4668-bd8e-a0879170a41a"/>
+        <COMPID name="Messages" mc="Standard.Class" uid="c6dc091f-d7d0-4d76-984e-30653add0533"/>
+        <COMPID name="MonitoringPreferenceInitializer" mc="Standard.Class" uid="10795a61-a375-49c5-b4e3-c5b13eefb40f"/>
+        <COMPID name="MonitoringPreferenceListener" mc="Standard.Class" uid="2a64104d-028d-4379-a204-a188851699c8"/>
+        <COMPID name="MonitoringPreferencePage" mc="Standard.Class" uid="9bceb33e-893a-4bb1-8327-cf5d4a7a16bf"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

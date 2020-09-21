@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="event" version="4">
+  <OBJECT>
+    <ID name="event" mc="Standard.Package" uid="896fa382-05ea-4473-a31b-69e35267331e"/>
+    <PID name="app" mc="Standard.Package" uid="d748fa14-3c57-4fef-b63b-b9ffed2a6921"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[event]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="EventCartridge" mc="Standard.Class" uid="93e9ad39-e29f-4a23-b59f-658a3507465d"/>
+        <COMPID name="EventHandler" mc="Standard.Interface" uid="09b21c18-e156-411f-ba8d-714454291b20"/>
+        <COMPID name="EventHandlerMethodExecutor" mc="Standard.Interface" uid="a3d1b2b5-2e15-44d1-8113-9160d12dd3b1"/>
+        <COMPID name="EventHandlerUtil" mc="Standard.Class" uid="eae539e5-c489-4017-9035-21f35dfcd181"/>
+        <COMPID name="IncludeEventHandler" mc="Standard.Interface" uid="b0fbb54f-ab9b-4576-9ff8-49156d5fa4ea"/>
+        <COMPID name="InvalidReferenceEventHandler" mc="Standard.Interface" uid="ef988b21-9491-446f-9d93-3e51ffbb71bd"/>
+        <COMPID name="MethodExceptionEventHandler" mc="Standard.Interface" uid="0dbf019d-4f6a-422b-b985-d2c4ff25566a"/>
+        <COMPID name="NullSetEventHandler" mc="Standard.Interface" uid="298ffa1b-60ba-4b84-810b-e8f4d14df8c7"/>
+        <COMPID name="ReferenceInsertionEventHandler" mc="Standard.Interface" uid="e084a876-0ec9-4157-a698-47d1a18322ac"/>
+        <COMPID name="implement" mc="Standard.Package" uid="cbe9ce8a-d323-4106-acc6-25d475bb1dd0"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

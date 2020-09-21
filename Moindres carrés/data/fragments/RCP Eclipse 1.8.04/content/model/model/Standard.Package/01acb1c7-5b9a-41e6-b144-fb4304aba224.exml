@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="triangulation" version="4">
+  <OBJECT>
+    <ID name="triangulation" mc="Standard.Package" uid="01acb1c7-5b9a-41e6-b144-fb4304aba224"/>
+    <PID name="util" mc="Standard.Package" uid="1f33d072-3ada-41f2-971c-86c678bbd9db"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[triangulation]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="GraphElimination" mc="Standard.Class" uid="77b13a2f-3dbb-4ea6-8cd9-dc4e72105df2"/>
+        <COMPID name="IEliminationHeuristic" mc="Standard.Interface" uid="37715898-8e59-4e15-93ee-2620b5b4d9f7"/>
+        <COMPID name="MinDegree" mc="Standard.Class" uid="64b0ff94-0a07-4b2d-a328-e6c939fcd2b5"/>
+        <COMPID name="MinFillIn" mc="Standard.Class" uid="1dd6db24-ea35-4b54-91f4-75eda424cc2d"/>
+        <COMPID name="QuotientGraph" mc="Standard.Class" uid="672ba161-f7d6-442a-900a-4ea106d6274a"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

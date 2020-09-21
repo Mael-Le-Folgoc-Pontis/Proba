@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="deployer" version="4">
+  <OBJECT>
+    <ID name="deployer" mc="Standard.Package" uid="647063af-6a81-4604-85af-257801432265"/>
+    <PID name="artifact" mc="Standard.Package" uid="4807b9b0-1b36-4ff1-805d-58d14cc0fd37"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[deployer]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ArtifactDeployer" mc="Standard.Interface" uid="bac89f57-06c3-4ce9-ba1e-f1b229b903c7"/>
+        <COMPID name="ArtifactDeploymentException" mc="Standard.Class" uid="69bb6e19-c4fd-491c-813a-c1f5c53a2cbe"/>
+        <COMPID name="DefaultArtifactDeployer" mc="Standard.Class" uid="b9054d9b-7e03-4a0a-891b-fca3bb2b3a3d"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

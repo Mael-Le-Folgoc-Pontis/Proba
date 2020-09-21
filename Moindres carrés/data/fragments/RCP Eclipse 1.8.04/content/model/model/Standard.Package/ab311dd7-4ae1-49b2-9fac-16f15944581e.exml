@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="policies" version="4">
+  <OBJECT>
+    <ID name="policies" mc="Standard.Package" uid="ab311dd7-4ae1-49b2-9fac-16f15944581e"/>
+    <PID name="tree" mc="Standard.Package" uid="d0be82c1-1e9b-467b-ab88-4201398c4ebd"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[policies]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AutoExpandEditPolicy" mc="Standard.Class" uid="805e944d-6e47-4b12-a143-1e150d36f0d3"/>
+        <COMPID name="SelectionEditPolicy" mc="Standard.Class" uid="9e8eb42b-9f7b-4826-8abc-b3156ae17c7b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

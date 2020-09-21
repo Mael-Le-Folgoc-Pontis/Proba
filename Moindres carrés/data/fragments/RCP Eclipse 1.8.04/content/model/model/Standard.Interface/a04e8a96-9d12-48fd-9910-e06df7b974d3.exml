@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ILayoutRequestValidator" version="4">
+  <OBJECT>
+    <ID name="ILayoutRequestValidator" mc="Standard.Interface" uid="a04e8a96-9d12-48fd-9910-e06df7b974d3"/>
+    <PID name="policies" mc="Standard.Package" uid="fe7ea278-4151-42b0-a973-cfc1e654807c"/>
+    <ATTRIBUTES>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">true</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[ILayoutRequestValidator]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="LayoutRequestValidatorStubFalse" mc="Standard.Class" uid="da1de7c7-5ce4-47f9-a304-9830824026f2"/>
+        <COMPID name="LayoutRequestValidatorStubTrue" mc="Standard.Class" uid="6d312d50-a5ff-4899-babf-a1179dc6d36d"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaInterface" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0267-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

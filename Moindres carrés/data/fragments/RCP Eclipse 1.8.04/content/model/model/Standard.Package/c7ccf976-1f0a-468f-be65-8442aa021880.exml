@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="fields" version="4">
+  <OBJECT>
+    <ID name="fields" mc="Standard.Package" uid="c7ccf976-1f0a-468f-be65-8442aa021880"/>
+    <PID name="border" mc="Standard.Package" uid="9ad52efe-6e6d-4728-8753-ed1e22df4dea"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[fields]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractBorderField" mc="Standard.Class" uid="bb0649b5-5ebb-47d8-b974-cefd9bf07574"/>
+        <COMPID name="BooleanField" mc="Standard.Class" uid="8941b632-726b-4e7d-9b97-e1fe25dce7cf"/>
+        <COMPID name="BorderField" mc="Standard.Class" uid="215ac68f-f477-4939-9893-9ddb19930047"/>
+        <COMPID name="ColorField" mc="Standard.Class" uid="297903f2-1e2e-4154-bf1c-9fba0e10cb95"/>
+        <COMPID name="ComboField" mc="Standard.Class" uid="926cfc71-d41a-49c7-955e-67e4d6cd8bc7"/>
+        <COMPID name="IntegerField" mc="Standard.Class" uid="ae86e269-f49e-4304-81a1-3411f5a27569"/>
+        <COMPID name="RadioField" mc="Standard.Class" uid="59099256-50c6-4639-8b07-c48db3778f54"/>
+        <COMPID name="TextField" mc="Standard.Class" uid="82ec80e4-f6a3-4a86-9077-9042e4b083a6"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

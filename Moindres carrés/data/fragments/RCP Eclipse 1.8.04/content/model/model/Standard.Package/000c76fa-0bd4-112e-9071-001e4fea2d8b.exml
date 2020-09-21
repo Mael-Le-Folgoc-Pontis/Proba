@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="tags" version="4">
+  <OBJECT>
+    <ID name="tags" mc="Standard.Package" uid="000c76fa-0bd4-112e-9071-001e4fea2d8b"/>
+    <PID name="ui" mc="Standard.Package" uid="008e9932-0bd3-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[tags]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="BranchPromptDialog" mc="Standard.Class" uid="000c7cf4-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CVSFileElement" mc="Standard.Class" uid="000c833e-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CVSFolderElement" mc="Standard.Class" uid="000c89b0-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FilteredTagList" mc="Standard.Class" uid="000c900e-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LocalProjectTagSource" mc="Standard.Class" uid="000c96d0-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MultiFolderTagSource" mc="Standard.Class" uid="000c9dce-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SingleFileTagSource" mc="Standard.Class" uid="000ca4b8-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SingleFolderTagSource" mc="Standard.Class" uid="000cac1a-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TagAsVersionDialog" mc="Standard.Class" uid="000cb41c-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TagConfigurationDialog" mc="Standard.Class" uid="000cbbb0-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TagContentAssistProcessor" mc="Standard.Class" uid="000ccfb0-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TagElement" mc="Standard.Class" uid="000cd7da-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TagRefreshButtonArea" mc="Standard.Class" uid="000ce036-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TagRootElement" mc="Standard.Class" uid="000ce87e-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TagSelectionArea" mc="Standard.Class" uid="000cf134-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TagSelectionDialog" mc="Standard.Class" uid="000cfa1c-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TagSelectionWizardPage" mc="Standard.Class" uid="000d0304-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TagSource" mc="Standard.Class" uid="000d0c64-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TagSourceResourceAdapter" mc="Standard.Class" uid="000d1c40-0bd4-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TagSourceWorkbenchAdapter" mc="Standard.Class" uid="000d2618-0bd4-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

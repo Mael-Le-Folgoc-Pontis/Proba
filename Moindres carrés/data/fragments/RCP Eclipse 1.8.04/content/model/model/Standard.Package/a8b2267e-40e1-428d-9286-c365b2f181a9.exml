@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="console" version="4">
+  <OBJECT>
+    <ID name="console" mc="Standard.Package" uid="a8b2267e-40e1-428d-9286-c365b2f181a9"/>
+    <PID name="logging" mc="Standard.Package" uid="c8b24b6e-96dd-4a54-bc11-0100c2ed3ecd"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[console]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ConsoleLogger" mc="Standard.Class" uid="4cd80876-d309-42b3-a5e4-805221dbb9a9"/>
+        <COMPID name="ConsoleLoggerManager" mc="Standard.Class" uid="f85f1697-8c9c-4d03-a388-e35ed39aa7ac"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

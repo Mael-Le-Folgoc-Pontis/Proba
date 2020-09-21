@@ -1,0 +1,90 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="base" version="4">
+  <OBJECT>
+    <ID name="base" mc="Standard.Package" uid="658cdd39-2fcd-46a3-aa57-8e4e02623540"/>
+    <PID name="common" mc="Standard.Package" uid="a53057d4-becb-49c8-a124-0d91b5f0d087"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[base]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Ascii" mc="Standard.Class" uid="4b6401c2-dbe7-495d-a046-ff1076359aeb"/>
+        <OBJECT>
+          <ID name="CaseFormat" mc="Standard.Enumeration" uid="994412aa-2675-4090-aa64-81f3ce620ad7"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[CaseFormat]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Extension">
+              <FOREIGNID name="JavaEnumeration" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0262-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <COMPID name="CharMatcher" mc="Standard.Class" uid="f0937655-cf9a-4f9a-90bb-4efac57d7dd2"/>
+        <COMPID name="Charsets" mc="Standard.Class" uid="cc88a2d6-f93c-45a7-ad50-2f925c1cd2c1"/>
+        <COMPID name="Converter" mc="Standard.Class" uid="849ed66d-36e3-4798-9e48-47547f69a73e"/>
+        <COMPID name="Defaults" mc="Standard.Class" uid="52088baf-5e23-4bdb-a574-bf96d5623d04"/>
+        <COMPID name="Enums" mc="Standard.Class" uid="be560e7f-a735-4728-aeff-59fbea4d5358"/>
+        <COMPID name="Equivalence" mc="Standard.Class" uid="1f10d52c-20a0-44ec-8289-32fb9fc71f76"/>
+        <COMPID name="Equivalences" mc="Standard.Class" uid="67a07b5a-923e-4727-9ff2-3402df499edc"/>
+        <COMPID name="FinalizablePhantomReference" mc="Standard.Class" uid="46ab3ffb-faea-44b9-844d-cdfdd7f0386f"/>
+        <COMPID name="FinalizableReference" mc="Standard.Interface" uid="f10fc1f9-6569-4b2e-a17c-2676df75a217"/>
+        <COMPID name="FinalizableReferenceQueue" mc="Standard.Class" uid="779678c9-3fdc-4416-aab1-26f566201d95"/>
+        <COMPID name="FinalizableSoftReference" mc="Standard.Class" uid="1f3c0e9e-93f9-4d16-b58e-40ce60ef4281"/>
+        <COMPID name="FinalizableWeakReference" mc="Standard.Class" uid="09789a92-c9e4-4c26-a808-e5f10e77fbb2"/>
+        <COMPID name="Function" mc="Standard.Interface" uid="604a6b18-f1db-4786-aa52-1a78f66bba31"/>
+        <COMPID name="Functions" mc="Standard.Class" uid="c27486a7-c665-4e6c-b1ba-7ea1b65fac1a"/>
+        <COMPID name="Joiner" mc="Standard.Class" uid="ee8a4191-0595-4830-93b3-84d668f9c623"/>
+        <COMPID name="MoreObjects" mc="Standard.Class" uid="62b8a941-45f8-4c60-8bd1-04007efd00e5"/>
+        <COMPID name="Objects" mc="Standard.Class" uid="f7c56a85-69d5-40f5-8abc-1ad013af73e4"/>
+        <COMPID name="Optional" mc="Standard.Class" uid="9fe34140-f2b9-47eb-b3dc-46a87af85d3d"/>
+        <COMPID name="Preconditions" mc="Standard.Class" uid="66122d09-979d-4217-9049-b0330b744fd5"/>
+        <COMPID name="Predicate" mc="Standard.Interface" uid="2cabbadf-2f2f-4f12-a005-fcc593ab637f"/>
+        <COMPID name="Predicates" mc="Standard.Class" uid="ca0de87f-59e6-41d3-9e85-68310b5b22b4"/>
+        <COMPID name="Splitter" mc="Standard.Class" uid="a70bab81-b864-4706-a06b-6973f5a66415"/>
+        <OBJECT>
+          <ID name="StandardSystemProperty" mc="Standard.Enumeration" uid="514d8b3e-fcee-4927-8762-6890eb7c7bb2"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[StandardSystemProperty]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Extension">
+              <FOREIGNID name="JavaEnumeration" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0262-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <COMPID name="Stopwatch" mc="Standard.Class" uid="4f0a60b3-15ed-4606-9a75-a7c3650652e7"/>
+        <COMPID name="Strings" mc="Standard.Class" uid="e3e64baf-ac76-486a-b7df-e794c5263103"/>
+        <COMPID name="Supplier" mc="Standard.Interface" uid="73818fca-7d4b-4c85-a7e6-3ccf53ba36d4"/>
+        <COMPID name="Suppliers" mc="Standard.Class" uid="b23f0dc9-4e03-44f7-8ae3-9bacb995e755"/>
+        <COMPID name="Throwables" mc="Standard.Class" uid="e655c5eb-03c9-4047-8ae9-155f3ff7660b"/>
+        <COMPID name="Ticker" mc="Standard.Class" uid="7676f197-b245-4058-9cd9-8f6783d789ab"/>
+        <COMPID name="Utf8" mc="Standard.Class" uid="e2c62bf4-ca61-4361-bd76-fc0e4bb70e3b"/>
+        <COMPID name="Verify" mc="Standard.Class" uid="ea4cf6fe-5740-4f4a-b3d0-a5a73e0c9b54"/>
+        <COMPID name="VerifyException" mc="Standard.Class" uid="2ec712d9-bd00-471a-834d-c6e6d8683976"/>
+        <COMPID name="internal" mc="Standard.Package" uid="d7b25716-006f-4a0c-be99-4ce602c38eca"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="provider" version="4">
+  <OBJECT>
+    <ID name="provider" mc="Standard.Package" uid="9ff3c12f-0f90-486b-89e4-39c6296952d7"/>
+    <PID name="resources" mc="Standard.Package" uid="a59a0382-ba8f-4f31-9eb4-231ac1c6ab07"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[provider]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="EclipseProjectFactoryItemProvider" mc="Standard.Class" uid="dd261c61-6292-47fe-85f1-099d8f2224cf"/>
+        <COMPID name="MavenProjectFactoryItemProvider" mc="Standard.Class" uid="8d920095-3b52-408f-8a1d-ce7898aa1ace"/>
+        <COMPID name="ProjectFactoryItemProvider" mc="Standard.Class" uid="ffabce42-18f2-4890-bcb0-2336ae88520e"/>
+        <COMPID name="ResourcesEditPlugin" mc="Standard.Class" uid="9ceee91e-c0d4-49b2-b081-1f136c2f19c7"/>
+        <COMPID name="ResourcesItemProviderAdapterFactory" mc="Standard.Class" uid="50eb182c-15a2-4b68-8bb6-f16bb54e7ff9"/>
+        <COMPID name="SourceLocatorItemProvider" mc="Standard.Class" uid="43bc95b8-e458-4526-bc22-c08d6faac7b4"/>
+        <COMPID name="XMLProjectFactoryItemProvider" mc="Standard.Class" uid="f6b5b43e-7ac7-40b6-a73f-7b80d1fdf86f"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

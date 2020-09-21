@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="sync" version="4">
+  <OBJECT>
+    <ID name="sync" mc="Standard.Package" uid="e5a91cd3-62b1-49ba-a52b-0c05e8fb67f1"/>
+    <PID name="internal" mc="Standard.Package" uid="d483a84b-d3a5-488f-9e57-cee3fc5ed5de"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[sync]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="DataProvider" mc="Standard.Interface" uid="2a57408a-3cb7-4fea-90fc-e17b99bb31bf"/>
+        <COMPID name="LocalDataProvider" mc="Standard.Class" uid="dea71a47-37fe-4607-9bd3-e4786dd4ca36"/>
+        <COMPID name="RemoteDataProvider" mc="Standard.Class" uid="36fbbb60-73e2-4a65-809f-aef1168cde9d"/>
+        <COMPID name="SetupSyncPlugin" mc="Standard.Class" uid="f54f840e-fe65-402f-8b2d-259d10b9a9c4"/>
+        <COMPID name="Snapshot" mc="Standard.Class" uid="4f6b9b28-0d1a-45ea-9dcd-396c73aeeb2b"/>
+        <COMPID name="SyncUtil" mc="Standard.Class" uid="5d09b698-1869-4272-a27a-46757f45fc31"/>
+        <COMPID name="Synchronization" mc="Standard.Class" uid="e98d6b96-f6a3-4e06-8f46-df68731487b2"/>
+        <COMPID name="Synchronizer" mc="Standard.Class" uid="3d04e11f-386a-4f37-80b9-75d366b9d0c0"/>
+        <COMPID name="SynchronizerAdapter" mc="Standard.Class" uid="0c35f0c5-904b-4273-95bf-ce0c94eada11"/>
+        <COMPID name="SynchronizerCredentials" mc="Standard.Class" uid="7b059a1d-96be-47b8-8601-ab11f01c492e"/>
+        <COMPID name="SynchronizerException" mc="Standard.Class" uid="242a4485-01e4-49f4-b3ba-405ffffc5435"/>
+        <COMPID name="SynchronizerJob" mc="Standard.Class" uid="bf57199b-79c3-4f79-89e4-0840fb199432"/>
+        <COMPID name="SynchronizerListener" mc="Standard.Interface" uid="54bd210a-228b-4e6c-b47f-b8d5b247e1a2"/>
+        <COMPID name="SynchronizerService" mc="Standard.Class" uid="1f3bab9c-48e3-417b-a5da-4c8a26e19912"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

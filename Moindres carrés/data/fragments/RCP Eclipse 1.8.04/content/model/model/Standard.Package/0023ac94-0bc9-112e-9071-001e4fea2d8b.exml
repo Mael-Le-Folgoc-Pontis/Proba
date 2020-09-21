@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="rewrite" version="4">
+  <OBJECT>
+    <ID name="rewrite" mc="Standard.Package" uid="0023ac94-0bc9-112e-9071-001e4fea2d8b"/>
+    <PID name="dom" mc="Standard.Package" uid="00229a20-0bc9-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[rewrite]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ASTRewriteAnalyzer" mc="Standard.Class" uid="0023b310-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ASTRewriteFlattener" mc="Standard.Class" uid="0023d4a8-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ASTRewriteFormatter" mc="Standard.Class" uid="22876b99-3f15-4252-bf33-4f15df5f4a14"/>
+        <COMPID name="ImportRewriteAnalyzer" mc="Standard.Class" uid="00242a5c-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LineCommentEndOffsets" mc="Standard.Class" uid="00245c8e-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LineInformation" mc="Standard.Class" uid="00246418-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ListRewriteEvent" mc="Standard.Class" uid="00246bca-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="NodeInfoStore" mc="Standard.Class" uid="00247368-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="NodeRewriteEvent" mc="Standard.Class" uid="0024a6ee-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RewriteEvent" mc="Standard.Class" uid="0024af40-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RewriteEventStore" mc="Standard.Class" uid="0024b7c4-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SourceModifier" mc="Standard.Class" uid="002507ba-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TokenScanner" mc="Standard.Class" uid="002510a2-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TrackedNodePosition" mc="Standard.Class" uid="002519bc-0bc9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="imports" mc="Standard.Package" uid="5ac4863d-f125-41ba-b88c-038cc00de04d"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

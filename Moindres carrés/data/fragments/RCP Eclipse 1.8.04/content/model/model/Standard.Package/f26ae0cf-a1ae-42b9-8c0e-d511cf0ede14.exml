@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="reflect" version="4">
+  <OBJECT>
+    <ID name="reflect" mc="Standard.Package" uid="f26ae0cf-a1ae-42b9-8c0e-d511cf0ede14"/>
+    <PID name="common" mc="Standard.Package" uid="a53057d4-becb-49c8-a124-0d91b5f0d087"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[reflect]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractInvocationHandler" mc="Standard.Class" uid="e4fa0d72-fc77-433b-9d7e-c9306a9fd1b4"/>
+        <COMPID name="ClassPath" mc="Standard.Class" uid="45a3c24a-f7ee-4c0f-96dd-ae7ebe5f53d7"/>
+        <COMPID name="ImmutableTypeToInstanceMap" mc="Standard.Class" uid="11b96d0d-9d9a-4a29-9487-39d0c5d3bbd4"/>
+        <COMPID name="Invokable" mc="Standard.Class" uid="c365bf30-3009-49b5-9a7c-471e33c54a50"/>
+        <COMPID name="MutableTypeToInstanceMap" mc="Standard.Class" uid="965b8ab9-a883-4278-ad0e-5d61db4e1e93"/>
+        <COMPID name="Parameter" mc="Standard.Class" uid="636300b1-9411-4979-a790-402beab2f19e"/>
+        <COMPID name="Reflection" mc="Standard.Class" uid="23cdc006-601e-423b-82bb-1a7eddf8662f"/>
+        <COMPID name="TypeParameter" mc="Standard.Class" uid="4d5ba92f-297b-4187-9f08-3cc1c14c2e19"/>
+        <COMPID name="TypeResolver" mc="Standard.Class" uid="f41653cd-f5a5-488e-be5c-8e7c8ccd056b"/>
+        <COMPID name="TypeToInstanceMap" mc="Standard.Interface" uid="69ecf32d-493b-47a0-93e7-f14f10967083"/>
+        <COMPID name="TypeToken" mc="Standard.Class" uid="5cfdfd65-4318-4306-9cef-1667e09a0afc"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="mime" version="4">
+  <OBJECT>
+    <ID name="mime" mc="Standard.Package" uid="f1b46ff9-6620-48a2-9e9a-1bc6ece6ed73"/>
+    <PID name="entity" mc="Standard.Package" uid="b275a5f7-aa6d-42aa-b9ab-f8dcf1420766"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[mime]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="FormBodyPart" mc="Standard.Class" uid="af4c57c6-c077-468f-8671-37eca18bde9a"/>
+        <COMPID name="Header" mc="Standard.Class" uid="4e3aaaa1-d70e-4e4d-8d79-672739149247"/>
+        <COMPID name="HttpMultipart" mc="Standard.Class" uid="e5653709-dfe9-4fbf-91c6-9e30a532ff20"/>
+        <OBJECT>
+          <ID name="HttpMultipartMode" mc="Standard.Enumeration" uid="62270599-e0a8-449e-a3ca-22a00e27f8ab"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[HttpMultipartMode]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Extension">
+              <FOREIGNID name="JavaEnumeration" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0262-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <COMPID name="MIME" mc="Standard.Class" uid="dbffbcc6-efac-4d4d-b2ca-17400c54754f"/>
+        <COMPID name="MinimalField" mc="Standard.Class" uid="7dd28dbe-ce06-487e-8d9a-63a73720d3c2"/>
+        <COMPID name="MultipartEntity" mc="Standard.Class" uid="8faa79eb-1d27-479a-af57-319972c2d7db"/>
+        <COMPID name="MultipartEntityBuilder" mc="Standard.Class" uid="a86e1094-a32d-477d-a627-c4cde7d248de"/>
+        <COMPID name="content" mc="Standard.Package" uid="106dd951-0094-4021-b2e0-5bb1558908af"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

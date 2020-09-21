@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="plugin" version="4">
+  <OBJECT>
+    <ID name="plugin" mc="Standard.Package" uid="dc27ddb7-62ce-4d21-ba14-a122dff83296"/>
+    <PID name="model" mc="Standard.Package" uid="500c90ee-6ac5-42ec-b991-b53e6c90255b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[plugin]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="DefaultLifecycleBindingsInjector" mc="Standard.Class" uid="e3e94bc9-dcd9-44b9-99aa-e8927c23f6ee"/>
+        <COMPID name="DefaultPluginConfigurationExpander" mc="Standard.Class" uid="9eed7bf5-4323-43ca-8484-5525f9946777"/>
+        <COMPID name="DefaultReportConfigurationExpander" mc="Standard.Class" uid="f13e3c5c-edb4-4b6a-be00-6e9771d921f8"/>
+        <COMPID name="DefaultReportingConverter" mc="Standard.Class" uid="210c8982-2479-434a-a5da-e0c8589bd048"/>
+        <COMPID name="LifecycleBindingsInjector" mc="Standard.Interface" uid="ad2676d3-a717-41b3-9b6b-6d95b8c24e69"/>
+        <COMPID name="PluginConfigurationExpander" mc="Standard.Interface" uid="b8735aaf-a3d0-4990-88a5-33271cb8b2c7"/>
+        <COMPID name="ReportConfigurationExpander" mc="Standard.Interface" uid="6a014042-4d2b-40f3-9524-6037a2cdf92b"/>
+        <COMPID name="ReportingConverter" mc="Standard.Interface" uid="1f7dfe89-eb31-4b0a-82e3-24df050ae854"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

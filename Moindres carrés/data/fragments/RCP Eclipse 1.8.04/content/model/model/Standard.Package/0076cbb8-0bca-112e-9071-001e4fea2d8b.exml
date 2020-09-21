@@ -1,0 +1,52 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="filters" version="4">
+  <OBJECT>
+    <ID name="filters" mc="Standard.Package" uid="0076cbb8-0bca-112e-9071-001e4fea2d8b"/>
+    <PID name="ui" mc="Standard.Package" uid="006159f4-0bca-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[filters]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AnnotationFilter" mc="Standard.Class" uid="0076d1d0-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ClassFilter" mc="Standard.Class" uid="0076d842-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ClosedProjectFilter" mc="Standard.Class" uid="0076de78-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ContainedLibraryFilter" mc="Standard.Class" uid="0076e562-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CustomFiltersDialog" mc="Standard.Class" uid="0076ec4c-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="EmptyInnerPackageFilter" mc="Standard.Class" uid="0076f322-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="EmptyLibraryContainerFilter" mc="Standard.Class" uid="0076fa5c-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="EmptyPackageFilter" mc="Standard.Class" uid="007701c8-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="EnumFilter" mc="Standard.Class" uid="0077092a-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FieldsFilter" mc="Standard.Class" uid="0077110e-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FilterDescriptor" mc="Standard.Class" uid="0077192e-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FilterMessages" mc="Standard.Class" uid="00772158-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ImportDeclarationFilter" mc="Standard.Class" uid="007729c8-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="InnerClassFilesFilter" mc="Standard.Class" uid="007732ce-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="InterfaceFilter" mc="Standard.Class" uid="00773b70-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaFileFilter" mc="Standard.Class" uid="0077449e-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LibraryFilter" mc="Standard.Class" uid="00774dea-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LocalTypesFilter" mc="Standard.Class" uid="00775736-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="NamePatternFilter" mc="Standard.Class" uid="007760e6-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="NoPackageContainingFoldersFilter" mc="Standard.Class" uid="00776abe-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="NonJavaElementFilter" mc="Standard.Class" uid="007774a0-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="NonJavaProjectsFilter" mc="Standard.Class" uid="00777efa-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="NonPublicFilter" mc="Standard.Class" uid="007789d6-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="NonPublicTypeFilter" mc="Standard.Class" uid="0077944e-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="NonSharedProjectFilter" mc="Standard.Class" uid="00779f34-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="OutputFolderFilter" mc="Standard.Class" uid="0077aa4c-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PackageDeclarationFilter" mc="Standard.Class" uid="0077b550-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="StaticsFilter" mc="Standard.Class" uid="0077c11c-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SyntheticMembersFilter" mc="Standard.Class" uid="0077cce8-0bca-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

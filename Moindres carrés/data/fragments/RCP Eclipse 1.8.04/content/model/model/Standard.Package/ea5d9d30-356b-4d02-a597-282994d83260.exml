@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="assistant" version="4">
+  <OBJECT>
+    <ID name="assistant" mc="Standard.Package" uid="ea5d9d30-356b-4d02-a597-282994d83260"/>
+    <PID name="actions" mc="Standard.Package" uid="d631bf07-aeca-4d5a-81d2-03a7f37aa754"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[assistant]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="LayoutAssistantAction" mc="Standard.Class" uid="c45b8598-27dd-4034-ad31-bd362316c3db"/>
+        <COMPID name="LayoutAssistantWindow" mc="Standard.Class" uid="903b2b47-d243-46a1-9fe3-49f27cfc4f28"/>
+        <COMPID name="ShellLocationTracker" mc="Standard.Class" uid="8d7d309f-4bbb-4621-816d-937a00dcb554"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

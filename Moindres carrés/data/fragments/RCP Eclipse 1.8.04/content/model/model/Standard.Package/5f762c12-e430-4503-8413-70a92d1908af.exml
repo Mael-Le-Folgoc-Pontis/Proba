@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="core" version="4">
+  <OBJECT>
+    <ID name="core" mc="Standard.Package" uid="5f762c12-e430-4503-8413-70a92d1908af"/>
+    <PID name="jdt" mc="Standard.Package" uid="9edb46eb-7b3b-4e1a-9705-bf2ec6aef8c4"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[core]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="CodeUtils" mc="Standard.Class" uid="3ba2df35-de47-4900-9fcc-2e8ab2ad8459"/>
+        <COMPID name="IProjectClasspathListener" mc="Standard.Interface" uid="fca3ad64-054b-4657-8abd-72c0859fec96"/>
+        <COMPID name="JavaDocUtils" mc="Standard.Class" uid="db110c2a-968f-4068-851a-ac5377be9bcc"/>
+        <COMPID name="JavadocContentAccess" mc="Standard.Class" uid="b7b2f7d4-8449-4df9-a694-1503f81ef775"/>
+        <COMPID name="ProjectUtils" mc="Standard.Class" uid="063e5dd2-1d20-44c3-a207-f61cb0388e85"/>
+        <COMPID name="SubtypesScope" mc="Standard.Class" uid="f03eba76-fea9-487f-b6ff-3d3296d824a8"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,56 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="launcher" version="4">
+  <OBJECT>
+    <ID name="launcher" mc="Standard.Package" uid="003127a2-0bca-112e-9071-001e4fea2d8b"/>
+    <PID name="ui" mc="Standard.Package" uid="001ad2fe-0bca-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[launcher]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractJavaClasspathTab" mc="Standard.Class" uid="00312e3c-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AbstractJavaMainTab" mc="Standard.Class" uid="00313490-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AppletLaunchConfigurationUtils" mc="Standard.Class" uid="003140b6-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AppletSelectionDialog" mc="Standard.Class" uid="0031476e-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AppletWorkingDirectoryBlock" mc="Standard.Class" uid="00316172-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ArchiveFileFilter" mc="Standard.Class" uid="00316898-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DebugTypeSelectionDialog" mc="Standard.Class" uid="00317054-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DefineSystemLibraryQuickFix" mc="Standard.Class" uid="003190e8-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ExecutionEnvironmentSelector" mc="Standard.Class" uid="00319890-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IClasspathViewer" mc="Standard.Interface" uid="00319e62-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IEntriesChangedListener" mc="Standard.Interface" uid="0031a524-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JREResolution" mc="Standard.Class" uid="0031ad6c-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaAppletTabGroup" mc="Standard.Class" uid="0031b55a-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaWorkingDirectoryBlock" mc="Standard.Class" uid="0031bda2-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JreResolutionGenerator" mc="Standard.Class" uid="0031c612-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LauncherMessages" mc="Standard.Class" uid="0031ce96-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LocalJavaApplicationTabGroup" mc="Standard.Class" uid="0031d77e-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MainMethodSearchEngine" mc="Standard.Class" uid="0031e098-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="NameValuePairDialog" mc="Standard.Class" uid="0031f088-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="OpenPreferencePageResolution" mc="Standard.Class" uid="0031fa10-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ProjectClasspathArgumentSelector" mc="Standard.Class" uid="0032038e-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RemoteJavaApplicationTabGroup" mc="Standard.Class" uid="00320d7a-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RuntimeClasspathAdvancedDialog" mc="Standard.Class" uid="00321798-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RuntimeClasspathEntryLabelProvider" mc="Standard.Class" uid="003221c0-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RuntimeClasspathViewer" mc="Standard.Class" uid="00322c2e-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SelectDefaultSystemLibraryQuickFix" mc="Standard.Class" uid="00323c96-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SelectSystemLibraryQuickFix" mc="Standard.Class" uid="0032477c-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SharedJavaMainTab" mc="Standard.Class" uid="00325280-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SourceElementLabelProvider" mc="Standard.Class" uid="00325d8e-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SourceElementQualifierProvider" mc="Standard.Class" uid="0032691e-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SourceLookupBlock" mc="Standard.Class" uid="003274e0-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="VMArgumentsBlock" mc="Standard.Class" uid="00328098-0bca-112e-9071-001e4fea2d8b"/>
+        <COMPID name="VMConnectTimeoutStatusHandler" mc="Standard.Class" uid="00328cf0-0bca-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

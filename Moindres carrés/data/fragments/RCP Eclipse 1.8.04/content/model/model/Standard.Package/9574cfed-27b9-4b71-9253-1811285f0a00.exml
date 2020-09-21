@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="markers" version="4">
+  <OBJECT>
+    <ID name="markers" mc="Standard.Package" uid="9574cfed-27b9-4b71-9253-1811285f0a00"/>
+    <PID name="internal" mc="Standard.Package" uid="5a6dc0a8-cf6b-4224-a3a9-4a2fca584793"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[markers]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ArtifactNotFoundProblemInfo" mc="Standard.Class" uid="892493c2-6e77-448c-ab34-d65cfac8417b"/>
+        <COMPID name="IEditorMarkerService" mc="Standard.Interface" uid="a4b4cf7e-3aee-480b-994c-115be16ef8ad"/>
+        <COMPID name="IMarkerLocationService" mc="Standard.Interface" uid="ef670181-966a-408c-b1eb-11a9e127becc"/>
+        <COMPID name="IMavenMarkerManager" mc="Standard.Interface" uid="f8408136-8a94-411a-96f4-fd624aef17ae"/>
+        <COMPID name="MarkerUtils" mc="Standard.Class" uid="5b0dacef-978b-4110-b723-4c4f99faeb1e"/>
+        <COMPID name="MavenMarkerManager" mc="Standard.Class" uid="b2333928-2caa-4edf-a1dd-e88d92d7525b"/>
+        <COMPID name="MavenProblemInfo" mc="Standard.Class" uid="9cdc4a89-601e-42e2-bf6f-46f5e5dbe137"/>
+        <COMPID name="SourceLocation" mc="Standard.Class" uid="136dce18-c64b-4308-9057-11b39502cc11"/>
+        <COMPID name="SourceLocationHelper" mc="Standard.Class" uid="255a73d9-5fe9-451d-a6a9-73b1e186bf1c"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

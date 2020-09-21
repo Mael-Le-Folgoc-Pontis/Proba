@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="util" version="4">
+  <OBJECT>
+    <ID name="util" mc="Standard.Package" uid="fc976d92-aa21-4f81-8fd9-2ef40f1286dc"/>
+    <PID name="internal" mc="Standard.Package" uid="fed72978-bb15-4d8f-baa5-a833797392d0"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[util]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="DTDBatchNodeDelete" mc="Standard.Class" uid="dfdd9aee-f3e4-4e57-80ab-f2b6b0273def"/>
+        <COMPID name="DTDExternalReferenceRemover" mc="Standard.Class" uid="fa398e82-776d-432a-8527-29dba10672f1"/>
+        <COMPID name="DTDModelUpdater" mc="Standard.Class" uid="6e16adb0-c1fb-4a39-af48-61881c9852b4"/>
+        <COMPID name="DTDNotationReferenceRemover" mc="Standard.Class" uid="2a70e0be-05c6-4671-9fbf-28ec4ef35663"/>
+        <COMPID name="DTDReferenceUpdater" mc="Standard.Class" uid="ea1ad37d-66af-4256-8a4e-cb3e298ce042"/>
+        <COMPID name="DTDUniqueNameHelper" mc="Standard.Class" uid="7e42da88-b88f-4852-b0a4-9259049668a5"/>
+        <COMPID name="DTDVisitor" mc="Standard.Class" uid="bbedac10-7964-4726-a7da-7cb635192760"/>
+        <COMPID name="LabelValuePair" mc="Standard.Class" uid="4e36fdcb-4d58-497c-99ec-c0fc8098efcd"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

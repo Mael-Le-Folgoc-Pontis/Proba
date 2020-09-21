@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="contentassist" version="4">
+  <OBJECT>
+    <ID name="contentassist" mc="Standard.Package" uid="006c118c-0bd1-112e-9071-001e4fea2d8b"/>
+    <PID name="editor" mc="Standard.Package" uid="00619e46-0bd1-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[contentassist]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ManifestContentAssistProcessor" mc="Standard.Class" uid="006c179a-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TypeCompletionProposal" mc="Standard.Class" uid="006c1dbc-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TypeContentProposal" mc="Standard.Class" uid="006c382e-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TypeContentProposalListener" mc="Standard.Class" uid="006c3ef0-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TypeContentProposalProvider" mc="Standard.Class" uid="006c458a-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TypeFieldAssistDisposer" mc="Standard.Class" uid="006c59bc-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TypePackageCompletionProcessor" mc="Standard.Class" uid="006c60ce-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TypeProposalLabelProvider" mc="Standard.Class" uid="006c6db2-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="VirtualSchemaObject" mc="Standard.Class" uid="006c751e-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="XMLCompletionProposal" mc="Standard.Class" uid="006c7cbc-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="XMLContentAssistProcessor" mc="Standard.Class" uid="006c84be-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="XMLContentAssistText" mc="Standard.Class" uid="006c8cca-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="XMLElementProposalComparator" mc="Standard.Class" uid="006c9512-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="XMLElementProposalComputer" mc="Standard.Class" uid="006c9d82-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="XMLInsertionComputer" mc="Standard.Class" uid="006ca64c-0bd1-112e-9071-001e4fea2d8b"/>
+        <COMPID name="display" mc="Standard.Package" uid="006e1f68-0bd1-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

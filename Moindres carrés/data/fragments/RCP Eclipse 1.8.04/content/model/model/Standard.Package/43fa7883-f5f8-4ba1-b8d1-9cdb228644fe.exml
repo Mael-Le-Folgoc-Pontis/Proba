@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="configuration" version="4">
+  <OBJECT>
+    <ID name="configuration" mc="Standard.Package" uid="43fa7883-f5f8-4ba1-b8d1-9cdb228644fe"/>
+    <PID name="cli" mc="Standard.Package" uid="e913f98a-aa5a-431d-8f87-bcd045cc9736"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[configuration]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ConfigurationProcessor" mc="Standard.Interface" uid="75d37252-ac42-497b-b6c8-25b7f09dd9d8"/>
+        <COMPID name="SettingsXmlConfigurationProcessor" mc="Standard.Class" uid="aabf88ae-3564-49de-91a0-3805818a5d63"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="models" version="4">
+  <OBJECT>
+    <ID name="models" mc="Standard.Package" uid="bdc232d5-d4e6-4c5f-a2de-1993b05c82a2"/>
+    <PID name="xs" mc="Standard.Package" uid="3710217b-443b-4d36-9a89-27b4bddb95aa"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[models]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="CMBuilder" mc="Standard.Class" uid="b8174bab-aeb5-4b4a-9f95-6964b72e4e55"/>
+        <COMPID name="CMNodeFactory" mc="Standard.Class" uid="1965b1a6-ec28-4c49-96fa-b7af2123d876"/>
+        <COMPID name="XSAllCM" mc="Standard.Class" uid="1274e6e7-c9c3-4cfd-a853-c364b438d966"/>
+        <COMPID name="XSCMBinOp" mc="Standard.Class" uid="eefcea26-fda9-4831-b2f0-c556cf862e7d"/>
+        <COMPID name="XSCMLeaf" mc="Standard.Class" uid="2ef2cc45-216a-4f54-a4f0-1e4e2231b0bd"/>
+        <COMPID name="XSCMRepeatingLeaf" mc="Standard.Class" uid="b1abe549-6f27-45e8-8c17-b56108223d2a"/>
+        <COMPID name="XSCMUniOp" mc="Standard.Class" uid="5a45d7f3-a656-4284-b238-7b4b1b0b530b"/>
+        <COMPID name="XSCMValidator" mc="Standard.Interface" uid="901992f2-3b8a-4968-82d6-be10c1bbeb0f"/>
+        <COMPID name="XSDFACM" mc="Standard.Class" uid="118d430a-7c92-4f54-b525-04e0cddc66a8"/>
+        <COMPID name="XSEmptyCM" mc="Standard.Class" uid="ebfea699-77c6-43fb-9fb1-ef34d1aadec4"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

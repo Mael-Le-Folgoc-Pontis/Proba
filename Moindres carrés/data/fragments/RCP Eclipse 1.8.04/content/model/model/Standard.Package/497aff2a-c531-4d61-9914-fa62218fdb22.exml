@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="locale" version="4">
+  <OBJECT>
+    <ID name="locale" mc="Standard.Package" uid="497aff2a-c531-4d61-9914-fa62218fdb22"/>
+    <PID name="beanutils" mc="Standard.Package" uid="2d34d6e3-423d-4ca3-a197-ae9edb436c07"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[locale]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="BaseLocaleConverter" mc="Standard.Class" uid="c9402c65-130e-48f1-b332-4cf3df729522"/>
+        <COMPID name="LocaleBeanUtils" mc="Standard.Class" uid="31101e10-16a5-4005-a2cc-0b5b40aa4eab"/>
+        <COMPID name="LocaleBeanUtilsBean" mc="Standard.Class" uid="000f205d-b843-4794-84a4-34b2d5d2578a"/>
+        <COMPID name="LocaleConvertUtils" mc="Standard.Class" uid="caae4b61-a3dd-433d-93fb-05dfc734dcc0"/>
+        <COMPID name="LocaleConvertUtilsBean" mc="Standard.Class" uid="eed91774-cb3a-4579-9c52-77887d9d25a2"/>
+        <COMPID name="LocaleConverter" mc="Standard.Interface" uid="74fb2f9d-3837-47b1-a379-84c8d768aaa5"/>
+        <COMPID name="converters" mc="Standard.Package" uid="dca01526-25d8-44ec-b5e9-2f465c126de2"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="workingsets" version="4">
+  <OBJECT>
+    <ID name="workingsets" mc="Standard.Package" uid="7023455c-5cd1-4516-966c-d14c92416cd9"/>
+    <PID name="oomph" mc="Standard.Package" uid="20106332-b188-45ff-af40-2d5b786a9692"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[workingsets]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ExclusionPredicate" mc="Standard.Interface" uid="97e2c795-6f12-4fcb-addd-fed3b6c6630e"/>
+        <COMPID name="InclusionPredicate" mc="Standard.Interface" uid="5f35abee-2a28-4a0d-9fee-f5921a330479"/>
+        <COMPID name="WorkingSet" mc="Standard.Interface" uid="39c45013-7d05-44d5-8fb6-88053c76c143"/>
+        <COMPID name="WorkingSetGroup" mc="Standard.Interface" uid="1c366eeb-063c-45e5-b709-c22dd76d13f0"/>
+        <COMPID name="WorkingSetsFactory" mc="Standard.Interface" uid="ce28f7d7-fb0d-466c-985c-fb0a984036b0"/>
+        <COMPID name="WorkingSetsPackage" mc="Standard.Interface" uid="04ca8fd0-5729-4752-8792-497d0e17974d"/>
+        <COMPID name="impl" mc="Standard.Package" uid="a107822e-9722-4a8d-aac7-156fbe1ba74f"/>
+        <COMPID name="presentation" mc="Standard.Package" uid="c8b77992-1347-491d-adbe-36cb1b64f109"/>
+        <COMPID name="provider" mc="Standard.Package" uid="7205d2ea-bca1-42a5-8f77-42b08e2ab8df"/>
+        <COMPID name="util" mc="Standard.Package" uid="38fca133-6cfc-49f5-aa00-a1fb6d8faf43"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

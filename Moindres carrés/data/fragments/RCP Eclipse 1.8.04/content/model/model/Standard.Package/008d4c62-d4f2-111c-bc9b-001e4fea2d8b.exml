@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="sdk" version="4">
+  <OBJECT>
+    <ID name="sdk" mc="Standard.Package" uid="008d4c62-d4f2-111c-bc9b-001e4fea2d8b"/>
+    <PID name="ui" mc="Standard.Package" uid="00471ad0-d4f2-111c-bc9b-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[sdk]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="IProvSDKHelpContextIds" mc="Standard.Interface" uid="005cafe4-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="InstallNewSoftwareHandler" mc="Standard.Class" uid="005c9df6-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="ProvSDKMessages" mc="Standard.Class" uid="0059e2a0-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="ProvSDKUIActivator" mc="Standard.Class" uid="005a080c-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="RevertProfilePageExtensionFactory" mc="Standard.Class" uid="0059f560-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="RevertProfilePageWithCompare" mc="Standard.Class" uid="005c7b0a-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="SDKPolicy" mc="Standard.Class" uid="005a1b30-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="SimpleLicenseManager" mc="Standard.Class" uid="005a42e0-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="UpdateHandler" mc="Standard.Class" uid="005a2f3a-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="prefs" mc="Standard.Package" uid="005c3398-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="scheduler" mc="Standard.Package" uid="008ed870-d4f2-111c-bc9b-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

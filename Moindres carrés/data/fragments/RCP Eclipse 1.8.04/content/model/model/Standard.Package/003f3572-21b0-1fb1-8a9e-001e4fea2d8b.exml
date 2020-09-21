@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="framework" version="4">
+  <OBJECT>
+    <ID name="framework" mc="Standard.Package" uid="003f3572-21b0-1fb1-8a9e-001e4fea2d8b"/>
+    <PID name="osgi" mc="Standard.Package" uid="0052e694-21af-1fb1-8a9e-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[framework]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="adaptor" mc="Standard.Package" uid="00700486-21b0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="console" mc="Standard.Package" uid="006da3c6-21b0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="debug" mc="Standard.Package" uid="0041dc8c-21b0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="eventmgr" mc="Standard.Package" uid="00443fa4-21b0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="internal" mc="Standard.Package" uid="004934be-21b0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="log" mc="Standard.Package" uid="00404412-21b0-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="util" mc="Standard.Package" uid="0075763c-21b0-1fb1-8a9e-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ui" version="4">
+  <OBJECT>
+    <ID name="ui" mc="Standard.Package" uid="dd53799c-5d7c-4d71-aa2d-749de6e0ea22"/>
+    <PID name="java" mc="Standard.Package" uid="a3a666d0-a6d9-4d9f-801f-8e4c1a8863e2"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[ui]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractJavaContextComputationStrategy" mc="Standard.Class" uid="8faf8d19-2500-4c5f-88db-d722330bca8f"/>
+        <COMPID name="ActiveFoldingEditorTracker" mc="Standard.Class" uid="d1679c52-ac9c-4f2e-b472-fd9d8619447b"/>
+        <COMPID name="InterestUpdateDeltaListener" mc="Standard.Class" uid="d17f5d67-ad8d-41c0-96b4-50e3b7cc0554"/>
+        <COMPID name="JavaDebugStructureBridge" mc="Standard.Class" uid="9c098111-ecd9-4106-b225-c1d4ad2a64ce"/>
+        <COMPID name="JavaDeclarationsFilter" mc="Standard.Class" uid="3afbdda0-274f-4154-a305-ac4089ac00dc"/>
+        <COMPID name="JavaEditingMonitor" mc="Standard.Class" uid="6d84aa55-3170-458e-8e7b-2648d48d6b43"/>
+        <COMPID name="JavaStackTraceContextComputationStrategy" mc="Standard.Class" uid="4c0dd7e0-2221-408f-8853-6d47192f11e7"/>
+        <COMPID name="JavaStructureBridge" mc="Standard.Class" uid="2a290596-fb36-410d-a76c-c6acaad08423"/>
+        <COMPID name="JavaUiBridge" mc="Standard.Class" uid="f3a6fe54-bd95-4a90-bfab-e4a79e9a95e6"/>
+        <COMPID name="JavaUiBridgePlugin" mc="Standard.Class" uid="5f3471bf-4cf3-44b8-9c8c-be90d943243a"/>
+        <COMPID name="JavaUiUtil" mc="Standard.Class" uid="75329d05-15f2-4132-83f1-f80c8e7cc203"/>
+        <COMPID name="LandmarkMarkerManager" mc="Standard.Class" uid="c95f3d8d-6418-4a64-b0c0-e80f43a7c0f4"/>
+        <COMPID name="Messages" mc="Standard.Class" uid="733126cb-9ef3-45a8-be66-4aa0adcaa609"/>
+        <COMPID name="TypeHistoryManager" mc="Standard.Class" uid="e7713039-6a9b-4e10-a643-39c1c7bf0dfe"/>
+        <COMPID name="actions" mc="Standard.Package" uid="2dfb4475-0fb4-411e-bb00-241ba2f6f4c1"/>
+        <COMPID name="editor" mc="Standard.Package" uid="abdb1709-c2c2-459b-b6ac-087aab863813"/>
+        <COMPID name="junit" mc="Standard.Package" uid="48bb676d-b308-4ae6-a11c-733e6fe7b4d2"/>
+        <COMPID name="search" mc="Standard.Package" uid="31b41ec3-4a1c-4ba7-9700-90d680ab8565"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

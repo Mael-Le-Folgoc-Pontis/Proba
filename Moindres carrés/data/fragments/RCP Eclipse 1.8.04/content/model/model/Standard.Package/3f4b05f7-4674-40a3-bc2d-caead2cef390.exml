@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="panel" version="4">
+  <OBJECT>
+    <ID name="panel" mc="Standard.Package" uid="3f4b05f7-4674-40a3-bc2d-caead2cef390"/>
+    <PID name="wizards" mc="Standard.Package" uid="bad8f2d1-5748-4cd1-9baa-90b367d859fe"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[panel]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="NewJPanelWizard" mc="Standard.Class" uid="ed383502-9a0e-438f-82a5-9390b11595b3"/>
+        <COMPID name="NewJPanelWizardPage" mc="Standard.Class" uid="89fff213-b298-419f-ae11-27af41cb1428"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

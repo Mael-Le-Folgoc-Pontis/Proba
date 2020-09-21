@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="incremental" version="4">
+  <OBJECT>
+    <ID name="incremental" mc="Standard.Package" uid="5f6c7ad2-a2fe-4a01-97eb-6ba5e1971438"/>
+    <PID name="build" mc="Standard.Package" uid="72cad0c9-4a70-4284-bc99-463d383058ef"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[incremental]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="BuildContext" mc="Standard.Interface" uid="6378b94b-b03f-4ea4-ade3-8ef5e5835a3e"/>
+        <COMPID name="DefaultBuildContext" mc="Standard.Class" uid="e9971ceb-f028-47f4-a721-9d79e61837ab"/>
+        <COMPID name="EmptyScanner" mc="Standard.Class" uid="93fd9d7c-0252-4e6c-8223-cd52cf43c761"/>
+        <COMPID name="ThreadBuildContext" mc="Standard.Class" uid="020f8200-ba1b-4917-b7b7-6ed7adeef6a0"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

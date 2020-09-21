@@ -1,0 +1,64 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="rules" version="4">
+  <OBJECT>
+    <ID name="rules" mc="Standard.Package" uid="a9bc8025-a1f1-4a63-af04-f2cb2019f568"/>
+    <PID name="description" mc="Standard.Package" uid="136a19fe-0ebb-473a-a136-e3f265617ba2"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[rules]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractDesignerRule" mc="Standard.Class" uid="1c1948ca-a5bc-456b-9ae8-b1499ff3365e"/>
+        <COMPID name="ConfigurableObjectListParameterRule" mc="Standard.Class" uid="6d323c20-74a9-49ca-99ad-e43b95b26e65"/>
+        <COMPID name="ConfigurableObjectParameterRule" mc="Standard.Class" uid="b0cb0bc7-7a94-4df8-b7ad-968f5f7a1188"/>
+        <COMPID name="ConfigurablePropertyRule" mc="Standard.Class" uid="03f7a4c8-fff9-4062-b84e-1228f98e0246"/>
+        <COMPID name="ConstructorRule" mc="Standard.Class" uid="040d96e5-b972-49f1-8b6f-4530de1c1f65"/>
+        <COMPID name="CreationTagRule" mc="Standard.Class" uid="57f1dc6c-6593-4c42-badd-3d43691244a9"/>
+        <COMPID name="CreationTypeParametersRule" mc="Standard.Class" uid="108fd6ff-0321-4e09-a6f8-5215b8826675"/>
+        <COMPID name="ExposingRulesRule" mc="Standard.Class" uid="a005a50e-63cb-47a0-8ea7-a2d6903f562f"/>
+        <COMPID name="MethodOrderDefaultRule" mc="Standard.Class" uid="fc590cd7-65dc-4e30-8798-dc8e91975369"/>
+        <COMPID name="MethodOrderMethodRule" mc="Standard.Class" uid="193c5efb-c3d8-410b-b5b5-8dd97773778a"/>
+        <COMPID name="MethodOrderMethodsRule" mc="Standard.Class" uid="fe4b8926-0946-44a4-b451-4563c175afe1"/>
+        <COMPID name="MethodOrderMethodsSignatureRule" mc="Standard.Class" uid="f7b00afe-331b-4828-a1ea-99eb9f67d491"/>
+        <COMPID name="MethodPropertyRule" mc="Standard.Class" uid="865c3557-5c07-43c2-98c6-483eff54c492"/>
+        <COMPID name="MethodRule" mc="Standard.Class" uid="1ba38aad-7d16-4ca0-b5d2-bbb391324099"/>
+        <COMPID name="MethodSinglePropertyRule" mc="Standard.Class" uid="03375d67-3973-4929-86cc-af9fe8e0beb4"/>
+        <COMPID name="MethodTagRule" mc="Standard.Class" uid="f3b1cb83-1cde-4be9-8899-d6061996cb16"/>
+        <COMPID name="MethodsOperationRule" mc="Standard.Class" uid="dd38eaf7-ff8a-4af4-9760-df8ecb89a22a"/>
+        <COMPID name="ModelClassRule" mc="Standard.Class" uid="fbe573e7-13db-4b9d-ab42-6cc50b5d2ed6"/>
+        <COMPID name="MorphingNoInheritRule" mc="Standard.Class" uid="8d09cb4a-3664-4009-b705-26b5ce4e1a08"/>
+        <COMPID name="MorphingTargetRule" mc="Standard.Class" uid="5386a35a-1e4d-431d-ad23-003c1326a129"/>
+        <COMPID name="ObjectCreateRule" mc="Standard.Class" uid="671aa0ff-33a1-444b-b9f6-5b76fe7f1059"/>
+        <COMPID name="ParameterEditorRule" mc="Standard.Class" uid="43e52ed4-fd17-4751-ae8c-ef1824386cec"/>
+        <COMPID name="ParameterTagRule" mc="Standard.Class" uid="d21dd892-fa0d-4a2b-b13b-c6a59152a3d9"/>
+        <COMPID name="PropertyAccessRule" mc="Standard.Class" uid="72504bc8-61aa-46f9-97f7-6499d80f5f4c"/>
+        <COMPID name="PropertyCategoryRule" mc="Standard.Class" uid="e5b9e521-3cd1-498b-8512-69c4edb3fde1"/>
+        <COMPID name="PropertyDefaultRule" mc="Standard.Class" uid="8b9badd9-bba4-48ba-89a8-82eb64a0e58f"/>
+        <COMPID name="PropertyEditorRule" mc="Standard.Class" uid="385eb28f-291d-437b-87af-087da84e8f40"/>
+        <COMPID name="PropertyGetterRule" mc="Standard.Class" uid="1c7b968d-1598-44d5-b994-c08c3a6d7b4c"/>
+        <COMPID name="PropertyTagRule" mc="Standard.Class" uid="1aeea2fd-329b-4624-a024-699e8b0458f9"/>
+        <COMPID name="PublicFieldPropertiesRule" mc="Standard.Class" uid="a3cb5a68-38a0-4fbb-859e-30bddf21c400"/>
+        <COMPID name="SetClassPropertyRule" mc="Standard.Class" uid="9684a792-1200-48dc-bcc9-0fd5a916a49c"/>
+        <COMPID name="SetListedPropertiesRule" mc="Standard.Class" uid="6fc18585-bd59-4ffa-ad80-8b4ae32e694a"/>
+        <COMPID name="StandardBeanPropertiesAdvancedRule" mc="Standard.Class" uid="bccf09c1-678c-476e-a433-e633b0053142"/>
+        <COMPID name="StandardBeanPropertiesFlaggedRule" mc="Standard.Class" uid="0b76043f-85b4-4037-ac4f-5ab76878c095"/>
+        <COMPID name="StandardBeanPropertiesHiddenRule" mc="Standard.Class" uid="0e8812c5-7e2c-42ba-9bdb-0245b4df6125"/>
+        <COMPID name="StandardBeanPropertiesNoDefaultValueRule" mc="Standard.Class" uid="8f24eb35-94b1-4548-96ea-b2b6bd69cf8c"/>
+        <COMPID name="StandardBeanPropertiesNormalRule" mc="Standard.Class" uid="f12ee720-4e4d-4571-8389-5dd607ae616a"/>
+        <COMPID name="StandardBeanPropertiesPreferredRule" mc="Standard.Class" uid="7577efdd-93e5-4dd3-a5a8-a3dd53767672"/>
+        <COMPID name="StandardBeanPropertiesRule" mc="Standard.Class" uid="a417f056-a7c9-4345-8a3a-f715a54e15b6"/>
+        <COMPID name="StandardBeanPropertyTagRule" mc="Standard.Class" uid="5bc3a791-3042-48f6-9880-6db987bca722"/>
+        <COMPID name="ToolkitRule" mc="Standard.Class" uid="a1cc7446-3a18-4ea2-b91e-3eca7e2fd46a"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="helpers" version="4">
+  <OBJECT>
+    <ID name="helpers" mc="Standard.Package" uid="1cf65c59-2074-4334-84eb-8ef38598f3a1"/>
+    <PID name="policy" mc="Standard.Package" uid="8431fa6b-c77e-459c-8773-253a6f82c308"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[helpers]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="BroadcastListenerHelper" mc="Standard.Class" uid="b1825020-9c41-4b5f-97da-453f468ce714"/>
+        <COMPID name="SelectionEditPolicyRefreshHelper" mc="Standard.Class" uid="8ac90984-d049-4ee0-9392-f80dad446c56"/>
+        <COMPID name="SelectionListenerHelper" mc="Standard.Class" uid="04b11350-05e7-4b31-8cab-bfa94cdbf015"/>
+        <COMPID name="SelectionPolicyDecorationHelper" mc="Standard.Class" uid="2884f1b6-abe8-465d-ace2-8e46af2e40d9"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="datatransfer" version="4">
+  <OBJECT>
+    <ID name="datatransfer" mc="Standard.Package" uid="008ea904-0bd9-112e-9071-001e4fea2d8b"/>
+    <PID name="wizards" mc="Standard.Package" uid="000c989c-21ad-1fb1-8a9e-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[datatransfer]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ArchiveFileExportOperation" mc="Standard.Class" uid="008eb39a-0bd9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ArchiveFileManipulations" mc="Standard.Class" uid="008eba20-0bd9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="DataTransferMessages" mc="Standard.Class" uid="008ec088-0bd9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FileSystemExportOperation" mc="Standard.Class" uid="008ec6f0-0bd9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="FileSystemExporter" mc="Standard.Class" uid="008ecdc6-0bd9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IDataTransferHelpContextIds" mc="Standard.Interface" uid="008ed41a-0bd9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IFileExporter" mc="Standard.Interface" uid="008edb5e-0bd9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ILeveledImportStructureProvider" mc="Standard.Interface" uid="008ee298-0bd9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MinimizedFileSystemElement" mc="Standard.Class" uid="008eea04-0bd9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TarEntry" mc="Standard.Class" uid="008ef120-0bd9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TarException" mc="Standard.Class" uid="008ef88c-0bd9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TarFile" mc="Standard.Class" uid="008f0020-0bd9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TarFileExporter" mc="Standard.Class" uid="008f07b4-0bd9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TarInputStream" mc="Standard.Class" uid="008f0fd4-0bd9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TarLeveledStructureProvider" mc="Standard.Class" uid="008f17fe-0bd9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TarOutputStream" mc="Standard.Class" uid="008f203c-0bd9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WizardArchiveFileResourceExportPage1" mc="Standard.Class" uid="008f28de-0bd9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WizardArchiveFileResourceImportPage1" mc="Standard.Class" uid="008f31b2-0bd9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WizardFileSystemResourceExportPage1" mc="Standard.Class" uid="008f3ab8-0bd9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WizardFileSystemResourceImportPage1" mc="Standard.Class" uid="008f43fa-0bd9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WizardProjectsImportPage" mc="Standard.Class" uid="008f4d6e-0bd9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ZipFileExporter" mc="Standard.Class" uid="008f6362-0bd9-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ZipLeveledStructureProvider" mc="Standard.Class" uid="008f6cf4-0bd9-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

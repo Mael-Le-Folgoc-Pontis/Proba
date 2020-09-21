@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="escape" version="4">
+  <OBJECT>
+    <ID name="escape" mc="Standard.Package" uid="8784c2e3-f25a-43af-a713-e89d97ec80bc"/>
+    <PID name="common" mc="Standard.Package" uid="a53057d4-becb-49c8-a124-0d91b5f0d087"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[escape]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ArrayBasedCharEscaper" mc="Standard.Class" uid="0764ccad-ca6b-4a67-b0a5-96e7228e1232"/>
+        <COMPID name="ArrayBasedEscaperMap" mc="Standard.Class" uid="90b36080-325b-457d-ad17-3ab7bf0171a3"/>
+        <COMPID name="ArrayBasedUnicodeEscaper" mc="Standard.Class" uid="3d5c0160-252a-4bb3-b86f-a1a6d78df8ba"/>
+        <COMPID name="CharEscaper" mc="Standard.Class" uid="d3c2a37d-5bc5-4d56-a3b0-03294ec1cf6d"/>
+        <COMPID name="CharEscaperBuilder" mc="Standard.Class" uid="9815b1bc-ee6b-4308-8c47-fc3ff086c1a1"/>
+        <COMPID name="Escaper" mc="Standard.Class" uid="27e2950e-0a88-415f-b441-eee55e9f9f36"/>
+        <COMPID name="Escapers" mc="Standard.Class" uid="b5d3283f-e27c-4a7d-8e77-1633bbb78f22"/>
+        <COMPID name="UnicodeEscaper" mc="Standard.Class" uid="934a6348-88b5-422a-84d4-cf5f5ec5392d"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

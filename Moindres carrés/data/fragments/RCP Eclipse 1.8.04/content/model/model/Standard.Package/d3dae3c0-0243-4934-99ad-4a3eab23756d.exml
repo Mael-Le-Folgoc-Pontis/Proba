@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="params" version="4">
+  <OBJECT>
+    <ID name="params" mc="Standard.Package" uid="d3dae3c0-0243-4934-99ad-4a3eab23756d"/>
+    <PID name="conn" mc="Standard.Package" uid="99a18589-0db3-4e68-b189-836df1bd39fe"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[params]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ConnConnectionPNames" mc="Standard.Interface" uid="360b1196-e12f-491d-b664-e1c7e4c92e95"/>
+        <COMPID name="ConnConnectionParamBean" mc="Standard.Class" uid="2d1a4f2f-a9da-4691-8eaf-dae2aafdd9bd"/>
+        <COMPID name="ConnManagerPNames" mc="Standard.Interface" uid="2782ee88-66d8-4b04-b4fc-ba0bfb42ce38"/>
+        <COMPID name="ConnManagerParamBean" mc="Standard.Class" uid="529a3560-b5f0-4f78-97f5-2871eda6e8ff"/>
+        <COMPID name="ConnManagerParams" mc="Standard.Class" uid="0cd705d2-a61e-46ec-ad19-71ea260a997c"/>
+        <COMPID name="ConnPerRoute" mc="Standard.Interface" uid="cbc9a1f3-5237-4d31-ba7b-6dae91ef6422"/>
+        <COMPID name="ConnPerRouteBean" mc="Standard.Class" uid="ddc489e7-9e24-45c3-b0fa-4304fb3b066d"/>
+        <COMPID name="ConnRoutePNames" mc="Standard.Interface" uid="8ec90159-d872-419f-8ae0-a1190c06ebff"/>
+        <COMPID name="ConnRouteParamBean" mc="Standard.Class" uid="f4f7f59d-0c8f-4536-9b69-7fc9c0473a7e"/>
+        <COMPID name="ConnRouteParams" mc="Standard.Class" uid="acdf6ff7-8222-4bc2-ad8c-b8b6f6aee3ab"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="basic" version="4">
+  <OBJECT>
+    <ID name="basic" mc="Standard.Package" uid="000e1974-0bc8-112e-9071-001e4fea2d8b"/>
+    <PID name="jsp" mc="Standard.Package" uid="0008f430-0bc8-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[basic]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="err_jsp" mc="Standard.Class" uid="000e1fb4-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="header_jsp" mc="Standard.Class" uid="000e269e-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="help_jsp" mc="Standard.Class" uid="000e2dc4-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="indexToolbar_jsp" mc="Standard.Class" uid="000e34ae-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="indexView_jsp" mc="Standard.Class" uid="000e3c06-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="index_jsp" mc="Standard.Class" uid="000e4386-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="livehelp_005fjs_jsp" mc="Standard.Class" uid="000e4b06-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="searchToolbar_jsp" mc="Standard.Class" uid="000e52f4-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="searchView_jsp" mc="Standard.Class" uid="000e5b1e-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="tabs_jsp" mc="Standard.Class" uid="000e633e-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="tocToolbar_jsp" mc="Standard.Class" uid="000e6bcc-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="tocView_jsp" mc="Standard.Class" uid="000e7482-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="toolbar_jsp" mc="Standard.Class" uid="000e7d38-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="view_jsp" mc="Standard.Class" uid="000e8846-0bc8-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

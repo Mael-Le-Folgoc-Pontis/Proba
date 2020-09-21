@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="mapping" version="4">
+  <OBJECT>
+    <ID name="mapping" mc="Standard.Package" uid="86eaae80-4e44-48ce-b3d1-1b21fa83b6b2"/>
+    <PID name="lifecycle" mc="Standard.Package" uid="7d82266f-ff6e-427c-9f9d-d955cfa03a1b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[mapping]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="DefaultLifecycleMapping" mc="Standard.Class" uid="825b7c5b-4350-4438-a50b-c50a944c4a4f"/>
+        <COMPID name="Lifecycle" mc="Standard.Class" uid="ed4d04e5-8beb-424d-8e33-7a1039a837a8"/>
+        <COMPID name="LifecycleMapping" mc="Standard.Interface" uid="998ad058-8c54-4f65-9ece-0fe55f9344a8"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

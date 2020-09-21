@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="popup" version="4">
+  <OBJECT>
+    <ID name="popup" mc="Standard.Package" uid="a50b7bab-3826-415b-abc4-8bf63fc33e84"/>
+    <PID name="ui" mc="Standard.Package" uid="8575fff5-7180-4fe9-9ca1-109ce5e2fa7c"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[popup]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Messages" mc="Standard.Class" uid="46085707-3822-4798-93a7-68b6c4eb5d5c"/>
+        <COMPID name="NotificationPopup" mc="Standard.Class" uid="683b6f11-6de7-40e6-a893-d40a272337bc"/>
+        <COMPID name="PopupNotificationSink" mc="Standard.Class" uid="b4242ab1-67ad-4dc5-8bdc-3a922fcb1508"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="cli" version="4">
+  <OBJECT>
+    <ID name="cli" mc="Standard.Package" uid="e913f98a-aa5a-431d-8f87-bcd045cc9736"/>
+    <PID name="maven" mc="Standard.Package" uid="173ccbb1-ee67-4028-9140-8289e1158a15"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[cli]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="CLIManager" mc="Standard.Class" uid="85f8e058-cfb1-4995-8226-1e608f1e6b2b"/>
+        <COMPID name="CLIReportingUtils" mc="Standard.Class" uid="74e862ec-feba-4c89-9b8a-8b9539d4baad"/>
+        <COMPID name="CliRequest" mc="Standard.Class" uid="77143751-a21f-4e0e-8226-35117e5f1dfd"/>
+        <COMPID name="MavenCli" mc="Standard.Class" uid="db5cb738-36a9-4207-9464-e903b819cad4"/>
+        <COMPID name="configuration" mc="Standard.Package" uid="43fa7883-f5f8-4ba1-b8d1-9cdb228644fe"/>
+        <COMPID name="event" mc="Standard.Package" uid="f18d9f44-2781-4d15-ae10-fcd3d1088e4e"/>
+        <COMPID name="internal" mc="Standard.Package" uid="23ceba92-b88f-48bc-92df-ad475721130c"/>
+        <COMPID name="logging" mc="Standard.Package" uid="7779e1c3-b536-4053-91ef-365464d9dbff"/>
+        <COMPID name="transfer" mc="Standard.Package" uid="f82f06c5-9aaf-4ed7-95d2-19df58e2a07b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

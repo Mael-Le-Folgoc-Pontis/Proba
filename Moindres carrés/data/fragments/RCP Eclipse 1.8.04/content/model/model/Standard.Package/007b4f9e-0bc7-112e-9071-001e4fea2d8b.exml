@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="remote" version="4">
+  <OBJECT>
+    <ID name="remote" mc="Standard.Package" uid="007b4f9e-0bc7-112e-9071-001e4fea2d8b"/>
+    <PID name="base" mc="Standard.Package" uid="0079b5a8-0bc7-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[remote]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="DefaultPreferenceFileHandler" mc="Standard.Class" uid="007b55e8-0bc7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="HttpsUtility" mc="Standard.Class" uid="007b5c82-0bc7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PreferenceFileHandler" mc="Standard.Class" uid="007b634e-0bc7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RemoteContentLocator" mc="Standard.Class" uid="007b6a4c-0bc7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RemoteContextProvider" mc="Standard.Class" uid="007b717c-0bc7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RemoteExtensionProvider" mc="Standard.Class" uid="007b78de-0bc7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RemoteHelp" mc="Standard.Class" uid="007b807c-0bc7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RemoteHelpInputStream" mc="Standard.Class" uid="007b884c-0bc7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RemoteIC" mc="Standard.Class" uid="007b904e-0bc7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RemoteIndexParser" mc="Standard.Class" uid="007b988c-0bc7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RemoteIndexProvider" mc="Standard.Class" uid="007ba0e8-0bc7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RemoteSearchManager" mc="Standard.Class" uid="007ba98a-0bc7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RemoteSearchParser" mc="Standard.Class" uid="007bb272-0bc7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RemoteStatusData" mc="Standard.Class" uid="007bbb78-0bc7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RemoteTocParser" mc="Standard.Class" uid="007bd57c-0bc7-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RemoteTocProvider" mc="Standard.Class" uid="007bdef0-0bc7-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="manager" version="4">
+  <OBJECT>
+    <ID name="manager" mc="Standard.Package" uid="ec9632dc-8edc-4480-a220-863ddba8e462"/>
+    <PID name="artifact" mc="Standard.Package" uid="4807b9b0-1b36-4ff1-805d-58d14cc0fd37"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[manager]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="DefaultWagonManager" mc="Standard.Class" uid="b7ed411a-04b3-4206-93c5-f96898da41ff"/>
+        <COMPID name="WagonConfigurationException" mc="Standard.Class" uid="b8e66bee-f2a6-480c-8bff-4dfa916db5d7"/>
+        <COMPID name="WagonManager" mc="Standard.Interface" uid="9ace6be4-b638-4f2c-9217-602a62943180"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="handlers" version="4">
+  <OBJECT>
+    <ID name="handlers" mc="Standard.Package" uid="00472be2-0bd6-112e-9071-001e4fea2d8b"/>
+    <PID name="cheatsheets" mc="Standard.Package" uid="0027b884-0bd6-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[handlers]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="DialogIntegerValueConverter" mc="Standard.Class" uid="00473330-0bd6-112e-9071-001e4fea2d8b"/>
+        <COMPID name="OpenCheatSheetHandler" mc="Standard.Class" uid="0047395c-0bd6-112e-9071-001e4fea2d8b"/>
+        <COMPID name="OpenCheatSheetURLHandler" mc="Standard.Class" uid="00473fc4-0bd6-112e-9071-001e4fea2d8b"/>
+        <COMPID name="OpenInputDialogHandler" mc="Standard.Class" uid="00474654-0bd6-112e-9071-001e4fea2d8b"/>
+        <COMPID name="OpenMessageDialogHandler" mc="Standard.Class" uid="00474d20-0bd6-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

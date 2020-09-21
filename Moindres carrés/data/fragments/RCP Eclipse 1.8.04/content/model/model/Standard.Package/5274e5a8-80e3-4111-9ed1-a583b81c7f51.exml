@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="wizards" version="4">
+  <OBJECT>
+    <ID name="wizards" mc="Standard.Package" uid="5274e5a8-80e3-4111-9ed1-a583b81c7f51"/>
+    <PID name="ui" mc="Standard.Package" uid="d60ba454-ca37-481d-af17-68708f704e3c"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[wizards]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractRepositoryQueryPage" mc="Standard.Class" uid="0e4b8f3b-012d-4ec1-b580-f85aaafc54cb"/>
+        <COMPID name="AbstractRepositoryQueryPage2" mc="Standard.Class" uid="81da10e3-c09d-4fc6-adc2-2e0f69fce3b9"/>
+        <COMPID name="AbstractRepositorySettingsPage" mc="Standard.Class" uid="7cedb3cb-5c2b-4b3f-bfe5-c380aabec16b"/>
+        <COMPID name="AbstractTaskRepositoryPage" mc="Standard.Class" uid="19569db6-6989-423f-8da7-c62546f3d5de"/>
+        <COMPID name="AbstractTaskRepositoryPageContribution" mc="Standard.Class" uid="77c371ff-3821-4deb-8fd4-79b5f8674d0b"/>
+        <COMPID name="ITaskRepositoryPage" mc="Standard.Interface" uid="e1f46071-36aa-45fd-9f19-4a83ee50fff4"/>
+        <COMPID name="ITaskSearchPage" mc="Standard.Interface" uid="ef0edfa2-fe6a-42d4-8669-351c38841cdf"/>
+        <COMPID name="ITaskSearchPageContainer" mc="Standard.Interface" uid="c9c73d41-a6f1-4e5b-b9ac-bf4fe55c8a9c"/>
+        <COMPID name="NewTaskWizard" mc="Standard.Class" uid="7b67eac6-16a9-452a-bbe5-0f2359425a37"/>
+        <COMPID name="NewWebTaskWizard" mc="Standard.Class" uid="14a4e1b5-3367-47a2-b2fc-659ed1abd54b"/>
+        <COMPID name="RepositoryQueryWizard" mc="Standard.Class" uid="702a1d94-8a5e-4475-a2bc-834e09a7fe47"/>
+        <COMPID name="TaskAttachmentPage" mc="Standard.Class" uid="2c3031a6-7a9e-43fd-94e0-2630a5e5154b"/>
+        <COMPID name="TaskRepositoryWizardDialog" mc="Standard.Class" uid="e67bc0c6-e583-41ef-bab7-b31fe40ed59a"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

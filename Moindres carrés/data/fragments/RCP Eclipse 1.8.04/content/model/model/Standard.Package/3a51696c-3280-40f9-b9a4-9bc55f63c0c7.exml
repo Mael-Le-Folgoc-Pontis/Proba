@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="net" version="4">
+  <OBJECT>
+    <ID name="net" mc="Standard.Package" uid="3a51696c-3280-40f9-b9a4-9bc55f63c0c7"/>
+    <PID name="commons" mc="Standard.Package" uid="b6e147f5-e463-4dab-9dfe-8ee79bc39421"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[net]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AuthenticatedProxy" mc="Standard.Class" uid="913455c8-fc63-4dd4-b909-e64f02aab084"/>
+        <COMPID name="CloneableHostConfiguration" mc="Standard.Class" uid="e562ff60-c782-4863-8fe0-1bb921b01eba"/>
+        <COMPID name="CommonsNetPlugin" mc="Standard.Class" uid="2a1eb0d5-1d9f-40e3-bfbb-cdf638c0da7b"/>
+        <COMPID name="ICancellable" mc="Standard.Interface" uid="e528a338-0e72-4887-9d12-85d3946c4933"/>
+        <COMPID name="InfiniteSubProgressMonitor" mc="Standard.Class" uid="7139a532-7567-4502-b29a-494264cd16bb"/>
+        <COMPID name="Messages" mc="Standard.Class" uid="e22a6ed5-f1f6-46a1-b839-a17bac33de7f"/>
+        <COMPID name="MonitoredRequest" mc="Standard.Class" uid="1d7b3875-533d-4892-bc13-9f56aa0bab9b"/>
+        <COMPID name="PollingInputStream" mc="Standard.Class" uid="7efcee3d-b59c-4a29-acec-1d1984fda448"/>
+        <COMPID name="PollingOutputStream" mc="Standard.Class" uid="676737d0-92e9-4f42-a746-cc30f93f16d7"/>
+        <COMPID name="PollingProtocolSocketFactory" mc="Standard.Class" uid="4eacaf70-802a-4fca-9965-5b021b6c58ce"/>
+        <COMPID name="PollingSslProtocolSocketFactory" mc="Standard.Class" uid="675e53a6-b985-48dd-847b-b7f7792c8685"/>
+        <COMPID name="ProgressMonitorInputStream" mc="Standard.Class" uid="41773411-476d-4be7-a27d-2bc8dff3ff2b"/>
+        <COMPID name="TimeoutInputStream" mc="Standard.Class" uid="c9ac7c52-9d15-48a6-ae20-4ef4a78d4b5b"/>
+        <COMPID name="TimeoutOutputStream" mc="Standard.Class" uid="014c9a4a-e18f-452d-8e20-8cde4e43eacd"/>
+        <COMPID name="TrustAllTrustManager" mc="Standard.Class" uid="2d119884-b63d-464b-80a9-abee7b4a93df"/>
+        <COMPID name="http" mc="Standard.Package" uid="2b4da4b1-9526-4205-8d2e-ac468c19a954"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="internal" version="4">
+  <OBJECT>
+    <ID name="internal" mc="Standard.Package" uid="6410f135-4a30-40ea-8f19-ee6525186a15"/>
+    <PID name="scope" mc="Standard.Package" uid="158c5b1d-e21e-46d9-97d3-0f9b683f9632"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[internal]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="MojoExecutionScope" mc="Standard.Class" uid="71f305d5-8d9f-42c3-bda4-978df5d1438e"/>
+        <COMPID name="MojoExecutionScopeCoreModule" mc="Standard.Class" uid="fefbbeca-f0ca-4695-81aa-40d97834dea7"/>
+        <COMPID name="MojoExecutionScopeModule" mc="Standard.Class" uid="a365bc52-10db-4e48-b44f-156213f7e92f"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

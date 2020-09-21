@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="auth" version="4">
+  <OBJECT>
+    <ID name="auth" mc="Standard.Package" uid="79364a56-1654-4ad0-a72a-d57d1d66decd"/>
+    <PID name="impl" mc="Standard.Package" uid="8b43a0c1-4371-4adf-a277-286d14fe5306"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[auth]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AuthSchemeBase" mc="Standard.Class" uid="17b523bf-ed15-4674-ab76-c8a21313a6dc"/>
+        <COMPID name="BasicScheme" mc="Standard.Class" uid="ec8c3da0-e3f7-46e0-a966-7a21e3903ab7"/>
+        <COMPID name="BasicSchemeFactory" mc="Standard.Class" uid="cd7879dc-e566-40db-958a-a259aa77040d"/>
+        <COMPID name="DigestScheme" mc="Standard.Class" uid="f28d130d-c329-439c-8bc4-3b7b4d2d4045"/>
+        <COMPID name="DigestSchemeFactory" mc="Standard.Class" uid="cc163828-1ffe-472d-a677-eb3365fd15b1"/>
+        <COMPID name="GGSSchemeBase" mc="Standard.Class" uid="cce2d17f-eaa9-4d1e-ac81-010d44d45ce6"/>
+        <COMPID name="HttpAuthenticator" mc="Standard.Class" uid="3de3301a-10cf-4b09-ad69-486a5ed613af"/>
+        <COMPID name="KerberosScheme" mc="Standard.Class" uid="98449c8a-4797-434d-a8f7-79a8cb0de9fa"/>
+        <COMPID name="KerberosSchemeFactory" mc="Standard.Class" uid="f8aefb27-ea6d-4b1f-9eee-7c455ba748f3"/>
+        <COMPID name="NTLMEngine" mc="Standard.Interface" uid="deef2836-e05d-4f12-9aae-029e6b8aec7a"/>
+        <COMPID name="NTLMEngineException" mc="Standard.Class" uid="26ddf5d8-d4eb-4f84-bfb9-f09745af90ec"/>
+        <COMPID name="NTLMScheme" mc="Standard.Class" uid="6b97dbe1-f6ca-4567-ad09-e2ef904a41e2"/>
+        <COMPID name="NTLMSchemeFactory" mc="Standard.Class" uid="186e1d6e-077a-4120-be9a-a49e77dc3e6c"/>
+        <COMPID name="NegotiateScheme" mc="Standard.Class" uid="36ceec14-e652-4d41-bc39-765eccd9f8b5"/>
+        <COMPID name="NegotiateSchemeFactory" mc="Standard.Class" uid="fc2c1fb4-6df7-40b9-8e9e-2b3399803283"/>
+        <COMPID name="RFC2617Scheme" mc="Standard.Class" uid="4260e236-aa4e-47aa-960f-153e498534e7"/>
+        <COMPID name="SPNegoScheme" mc="Standard.Class" uid="8841d0f2-0f63-4fbe-ba2d-464646ba790e"/>
+        <COMPID name="SPNegoSchemeFactory" mc="Standard.Class" uid="f6d61eb0-37a5-46d6-a367-8e643c87cce8"/>
+        <COMPID name="SpnegoTokenGenerator" mc="Standard.Interface" uid="d71e434c-681f-4b41-b06f-18761c4ea4f5"/>
+        <COMPID name="UnsupportedDigestAlgorithmException" mc="Standard.Class" uid="b37af6ec-1c81-4910-959b-a4873bbba06e"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

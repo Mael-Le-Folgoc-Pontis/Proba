@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="entity" version="4">
+  <OBJECT>
+    <ID name="entity" mc="Standard.Package" uid="b275a5f7-aa6d-42aa-b9ab-f8dcf1420766"/>
+    <PID name="http" mc="Standard.Package" uid="69579971-0298-4981-9fc7-48c3562d4504"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[entity]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractHttpEntity" mc="Standard.Class" uid="a3eb0863-2bee-4cf6-990d-0a6505ffc723"/>
+        <COMPID name="BasicHttpEntity" mc="Standard.Class" uid="ab4e3668-1885-4530-bbdb-9745718ca192"/>
+        <COMPID name="BufferedHttpEntity" mc="Standard.Class" uid="52e0487a-4c50-430e-a505-4abb3d853b73"/>
+        <COMPID name="ByteArrayEntity" mc="Standard.Class" uid="7798dee9-e0ca-42cd-bc96-aafe1d4c125a"/>
+        <COMPID name="ContentLengthStrategy" mc="Standard.Interface" uid="04a3904e-8735-4bcc-b228-ff9b40768a45"/>
+        <COMPID name="ContentProducer" mc="Standard.Interface" uid="e2633415-54a3-4e5f-857f-c4a2502f0d5d"/>
+        <COMPID name="ContentType" mc="Standard.Class" uid="f1396589-f947-410a-b87f-5f0afecdc954"/>
+        <COMPID name="EntityTemplate" mc="Standard.Class" uid="38f9aeea-fe70-4f22-ad47-1ddd3c8510d9"/>
+        <COMPID name="FileEntity" mc="Standard.Class" uid="fc73d425-ae39-4d63-8638-67a9eab4fdbc"/>
+        <COMPID name="HttpEntityWrapper" mc="Standard.Class" uid="38ef4ec4-0e72-4c64-92fc-ebf77f78eda6"/>
+        <COMPID name="InputStreamEntity" mc="Standard.Class" uid="933b0fc5-f314-4f14-b22b-6a952b259817"/>
+        <COMPID name="SerializableEntity" mc="Standard.Class" uid="7e07ead5-076f-4cfa-b003-e210529fcc03"/>
+        <COMPID name="StringEntity" mc="Standard.Class" uid="ddb7e66f-f224-4d7a-abb9-3bb5f0763841"/>
+        <COMPID name="mime" mc="Standard.Package" uid="f1b46ff9-6620-48a2-9e9a-1bc6ece6ed73"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

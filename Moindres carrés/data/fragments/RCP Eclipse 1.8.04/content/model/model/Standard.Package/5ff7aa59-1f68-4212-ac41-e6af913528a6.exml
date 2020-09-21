@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="core" version="4">
+  <OBJECT>
+    <ID name="core" mc="Standard.Package" uid="5ff7aa59-1f68-4212-ac41-e6af913528a6"/>
+    <PID name="internal" mc="Standard.Package" uid="48697543-75d3-4cda-9f94-2fd82bed0315"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[core]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AgentAnalyzer" mc="Standard.Class" uid="92d212b6-479f-4b56-819d-f76c602d88a4"/>
+        <COMPID name="AgentImpl" mc="Standard.Class" uid="41ca540e-3aa1-47c2-a1f2-906935bd6d7f"/>
+        <COMPID name="AgentManagerElementImpl" mc="Standard.Class" uid="47040eb4-fbb1-4810-ac6c-e408d97038ef"/>
+        <COMPID name="AgentManagerImpl" mc="Standard.Class" uid="b72b5f8f-439b-4dd9-ae5a-0c5e3045f97b"/>
+        <COMPID name="BundleLocationVariableResolver" mc="Standard.Class" uid="1a05443a-bd85-461e-93ff-74a5bdea7b01"/>
+        <COMPID name="BundlePoolImpl" mc="Standard.Class" uid="351bd658-503b-4daf-917d-8859af2e568f"/>
+        <COMPID name="CacheUsageConfirmer" mc="Standard.Class" uid="5c4dfb8f-c172-4632-b74e-ff8f0693fcaa"/>
+        <COMPID name="CachingRepositoryManager" mc="Standard.Class" uid="e72690db-ef4c-4867-92cb-ec944c35e6e9"/>
+        <COMPID name="CachingTransport" mc="Standard.Class" uid="e8dbb62a-70f4-4c76-bf23-715b64008f82"/>
+        <COMPID name="LazyProfile" mc="Standard.Class" uid="1dabf25a-b6aa-4317-87b0-de22ebff3fd2"/>
+        <COMPID name="LazyProfileRegistry" mc="Standard.Class" uid="87dca550-4050-48f4-84f6-d66e3171e3aa"/>
+        <COMPID name="LazyProfileRegistryComponent" mc="Standard.Class" uid="3547b603-a774-4960-8540-c19b0a62d0f3"/>
+        <COMPID name="P2CorePlugin" mc="Standard.Class" uid="668d647b-ef3f-4164-aa98-5412b9d09b0a"/>
+        <COMPID name="P2Index" mc="Standard.Interface" uid="0fff7dbe-d5fb-4767-974e-fea2a343205e"/>
+        <COMPID name="P2IndexImpl" mc="Standard.Class" uid="53285b75-c1eb-4015-9639-c071f2df9c18"/>
+        <COMPID name="PersistentMap" mc="Standard.Class" uid="b30947e1-42fc-4a0e-9820-49627218c1da"/>
+        <COMPID name="ProfileCreatorImpl" mc="Standard.Class" uid="3c2c48b6-ecdd-4b1e-89bc-e8d26469a2a1"/>
+        <COMPID name="ProfileImpl" mc="Standard.Class" uid="d08313e8-8ef6-49b3-b2d4-6aa3c844f0bc"/>
+        <COMPID name="ProfileReferencer" mc="Standard.Interface" uid="aa313223-a515-4ff8-a49f-cc3d2f9407f0"/>
+        <COMPID name="ProfileReferencerImpl" mc="Standard.Class" uid="bb8f7ea6-496c-4f8e-a47f-4dc7ceb4bfc0"/>
+        <COMPID name="ProfileTransactionImpl" mc="Standard.Class" uid="5d85ad4f-8402-40c8-bec9-8d95e920070a"/>
+        <COMPID name="RootAnalyzer" mc="Standard.Class" uid="88fb5328-e391-4ba3-9084-9d800ecfbbe4"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

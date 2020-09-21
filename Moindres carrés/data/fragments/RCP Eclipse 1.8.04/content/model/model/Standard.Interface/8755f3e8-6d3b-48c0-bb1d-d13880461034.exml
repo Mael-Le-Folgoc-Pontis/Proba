@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="IAbsoluteLayoutCommands" version="4">
+  <OBJECT>
+    <ID name="IAbsoluteLayoutCommands" mc="Standard.Interface" uid="8755f3e8-6d3b-48c0-bb1d-d13880461034"/>
+    <PID name="snapping" mc="Standard.Package" uid="57a57cea-945b-4b95-8085-3cbc5e6faab3"/>
+    <ATTRIBUTES>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">true</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[IAbsoluteLayoutCommands]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbsoluteLayoutCommandsStub" mc="Standard.Class" uid="74345db1-81ee-4ce4-b48d-4d74c62f0db5"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaInterface" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0267-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

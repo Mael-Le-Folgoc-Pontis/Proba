@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="core" version="4">
+  <OBJECT>
+    <ID name="core" mc="Standard.Package" uid="7b2d0663-1cf6-485a-b36f-5abdd23aec39"/>
+    <PID name="repositories" mc="Standard.Package" uid="690620e3-934a-4abc-9909-3e7650c45444"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[core]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="CredentialsFactory" mc="Standard.Class" uid="54c13b88-786b-4259-9680-aa6b569f0cc5"/>
+        <COMPID name="InMemoryCredentialsStore" mc="Standard.Class" uid="34988d4f-fbf7-4708-a1a4-ea2f6c8d3c80"/>
+        <COMPID name="LocationService" mc="Standard.Class" uid="fc513d47-2d7c-4f4a-bccd-04f780464d39"/>
+        <COMPID name="RepositoriesCoreInternal" mc="Standard.Class" uid="d8e6ba54-98d1-45c7-bde9-beead9854f01"/>
+        <COMPID name="SecureCredentialsStore" mc="Standard.Class" uid="bb24edae-e4ac-47be-b6a8-c9098e503648"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

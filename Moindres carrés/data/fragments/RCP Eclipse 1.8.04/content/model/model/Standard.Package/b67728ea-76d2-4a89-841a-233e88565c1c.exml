@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="views" version="4">
+  <OBJECT>
+    <ID name="views" mc="Standard.Package" uid="b67728ea-76d2-4a89-841a-233e88565c1c"/>
+    <PID name="core" mc="Standard.Package" uid="bf3fc5d5-549c-4481-8650-25d40d3540f4"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[views]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractExtractableDesignView" mc="Standard.Class" uid="1cf4e4cd-223a-43c2-98c4-e8aecd8f6a2a"/>
+        <COMPID name="IDesignCompositeProvider" mc="Standard.Interface" uid="167294d4-c271-4517-ac8a-200aa5141767"/>
+        <COMPID name="PaletteView" mc="Standard.Class" uid="1e16c0d1-f522-42b9-ac25-a38ffbf12c7e"/>
+        <COMPID name="StructureView" mc="Standard.Class" uid="ddaffb15-dc8c-4b07-ba99-288196ab1b54"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

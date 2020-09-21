@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ui" version="4">
+  <OBJECT>
+    <ID name="ui" mc="Standard.Package" uid="d7e20bb8-a809-424a-871f-6607a58074e5"/>
+    <PID name="debug" mc="Standard.Package" uid="d747e6bb-5b9d-4a39-b590-7f23f1b2347f"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[ui]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="BreakpointsContextContributor" mc="Standard.Class" uid="b6b6f644-fa28-40e1-be05-e7fd7115fe63"/>
+        <COMPID name="BreakpointsContextUtil" mc="Standard.Class" uid="22bb313d-78a8-4570-a100-7edec9b3978e"/>
+        <COMPID name="BreakpointsInterestFilter" mc="Standard.Class" uid="783f1ef5-6833-4cd9-99a6-c6817a134614"/>
+        <COMPID name="BreakpointsListener" mc="Standard.Class" uid="63aa33e1-a7f6-490d-9665-788867e4b4d4"/>
+        <COMPID name="BreakpointsPreferencePage" mc="Standard.Class" uid="0c45e351-fc3b-4508-9bfd-d436824ba1a5"/>
+        <COMPID name="BreakpointsStateUtil" mc="Standard.Class" uid="3661a2a3-5bc6-4476-b352-760aadf3a03f"/>
+        <COMPID name="BreakpointsStructureBridge" mc="Standard.Class" uid="67315635-4733-493c-ba41-446b169d23d8"/>
+        <COMPID name="DebugUiPlugin" mc="Standard.Class" uid="f406387a-94ed-4334-92e6-463499862067"/>
+        <COMPID name="FocusBreakpointsViewAction" mc="Standard.Class" uid="3eda0ba4-b2b0-48b6-a004-ce45e77b631a"/>
+        <COMPID name="FocusDebugViewAction" mc="Standard.Class" uid="26b3318b-e30a-4f42-a55a-e5db5525f0ef"/>
+        <COMPID name="Messages" mc="Standard.Class" uid="e1984815-89b8-47cf-9613-b274911c5cc1"/>
+        <COMPID name="cnf" mc="Standard.Package" uid="ce2b5d94-2417-452b-bcd5-78324a21d9ef"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

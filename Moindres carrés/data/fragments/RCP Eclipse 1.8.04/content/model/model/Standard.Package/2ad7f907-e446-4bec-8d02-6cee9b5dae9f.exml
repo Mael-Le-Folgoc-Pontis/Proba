@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="execution" version="4">
+  <OBJECT>
+    <ID name="execution" mc="Standard.Package" uid="2ad7f907-e446-4bec-8d02-6cee9b5dae9f"/>
+    <PID name="view" mc="Standard.Package" uid="d900a768-780c-4ab9-9f30-44a4fb82743c"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[execution]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="CancelBuildExecutionAction" mc="Standard.Class" uid="f8d6a8f4-5780-4c92-b77a-b39c0531b4f7"/>
+        <COMPID name="ExecutionPage" mc="Standard.Class" uid="1873fbe5-3ba5-4e34-ba7a-d0e33ec9e65c"/>
+        <COMPID name="ExecutionProgressListener" mc="Standard.Class" uid="f89c602b-813a-487f-a862-9cec4c82eaf1"/>
+        <COMPID name="ExecutionShowingLaunchRequestListener" mc="Standard.Class" uid="d4229b54-e441-408a-b0d5-f3e0cf8610f3"/>
+        <COMPID name="ExecutionViewMessages" mc="Standard.Class" uid="29da759a-be84-4163-b7fa-672a8e27638c"/>
+        <COMPID name="ExecutionViewState" mc="Standard.Class" uid="a1b90aef-4c7c-4c44-8704-64a12646c0a9"/>
+        <COMPID name="ExecutionsView" mc="Standard.Class" uid="81316723-4023-4eb5-a5ea-24964c83f02c"/>
+        <COMPID name="FailureDialog" mc="Standard.Class" uid="97b779dd-ec9b-4ce3-b00b-570c2305284c"/>
+        <COMPID name="OpenTestSourceFileAction" mc="Standard.Class" uid="0c84c5d4-d9eb-4d9f-afd9-024cfae8df2c"/>
+        <COMPID name="OpenTestSourceFileJob" mc="Standard.Class" uid="d02aefff-7894-4d20-8103-f18b4b96a7ec"/>
+        <COMPID name="OperationDescriptorRenderer" mc="Standard.Class" uid="c64d9aa5-57f4-40da-92f5-b1564f08f64f"/>
+        <COMPID name="OperationItem" mc="Standard.Class" uid="40557c74-df0d-4f09-9b20-81759afeba57"/>
+        <COMPID name="OperationItemChildrenListProperty" mc="Standard.Class" uid="5cc99469-cf81-48c3-80ac-572d129d7c01"/>
+        <COMPID name="OperationItemRenderer" mc="Standard.Class" uid="42e0aa68-504f-4ff1-8cc2-5698ada5820a"/>
+        <COMPID name="RemoveAllTerminatedExecutionPagesAction" mc="Standard.Class" uid="f1675d6c-c806-4c07-a5b9-87892f6b3ad2"/>
+        <COMPID name="RemoveTerminatedExecutionPageAction" mc="Standard.Class" uid="c50b6a22-9837-457b-94d8-d02f3e3a3df9"/>
+        <COMPID name="RerunBuildExecutionAction" mc="Standard.Class" uid="75db9c0e-2f71-4e7d-9ced-e3677aefe9ca"/>
+        <COMPID name="RerunFailedTestsAction" mc="Standard.Class" uid="1a24837e-1aa1-45d2-8a79-356b5b711a75"/>
+        <COMPID name="RunTestAction" mc="Standard.Class" uid="0eaf83ba-5375-447b-b401-5f5d0081f21a"/>
+        <COMPID name="ShowFailureAction" mc="Standard.Class" uid="006d5503-9a87-4f3e-9d98-edf6dd5b0adf"/>
+        <COMPID name="SwitchToConsoleViewAction" mc="Standard.Class" uid="ca96865b-e58b-4a68-9e30-cc85d36385e6"/>
+        <COMPID name="ToggleShowTreeHeaderAction" mc="Standard.Class" uid="d05ba7e4-a82f-4471-ab64-6d89744b37d1"/>
+        <COMPID name="UpdateDurationJob" mc="Standard.Class" uid="1346ed5e-c9f4-45c5-8a50-69843cc21d93"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

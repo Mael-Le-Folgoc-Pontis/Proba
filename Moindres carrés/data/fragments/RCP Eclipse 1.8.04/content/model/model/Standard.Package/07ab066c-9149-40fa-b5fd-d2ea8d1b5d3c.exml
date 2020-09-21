@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="catalog" version="4">
+  <OBJECT>
+    <ID name="catalog" mc="Standard.Package" uid="07ab066c-9149-40fa-b5fd-d2ea8d1b5d3c"/>
+    <PID name="internal" mc="Standard.Package" uid="e9152071-ab45-4e26-8cf6-708827cd7d86"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[catalog]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Catalog" mc="Standard.Class" uid="32288eac-7888-4f69-897d-83a3568f7cd3"/>
+        <COMPID name="CatalogContributorRegistryReader" mc="Standard.Class" uid="e7965b0f-1dc6-4a2b-a216-efc911ed781d"/>
+        <COMPID name="CatalogElement" mc="Standard.Class" uid="de4cb180-32b9-41b3-ad7a-103ed3877050"/>
+        <COMPID name="CatalogEntry" mc="Standard.Class" uid="1f3ebf00-ac5a-4d6e-a0fd-b550f96b505d"/>
+        <COMPID name="CatalogEvent" mc="Standard.Class" uid="9cd04810-bf05-479d-bf03-b242e193084c"/>
+        <COMPID name="CatalogReader" mc="Standard.Class" uid="3cc6865b-82e1-494e-9118-cb06e2c0217f"/>
+        <COMPID name="CatalogSet" mc="Standard.Class" uid="e74774a4-cae5-4317-8d83-7d5b39be7f21"/>
+        <COMPID name="CatalogWriter" mc="Standard.Class" uid="e2b9d434-2478-4da0-9100-d06cd3192d8c"/>
+        <COMPID name="DelegateCatalog" mc="Standard.Class" uid="00425f71-5722-4b5c-b104-fec9932a227b"/>
+        <COMPID name="NextCatalog" mc="Standard.Class" uid="be852aa8-6f58-4281-9267-2c8f02fbb2b3"/>
+        <COMPID name="OASISCatalogConstants" mc="Standard.Interface" uid="69259650-fa25-431e-b5e7-841e8d7ab8d2"/>
+        <COMPID name="RewriteEntry" mc="Standard.Class" uid="b6678bb3-c307-4efe-995e-829a8e83a4e2"/>
+        <COMPID name="SuffixEntry" mc="Standard.Class" uid="0406a226-6c8c-45d2-99f5-50a657c03149"/>
+        <COMPID name="TypedCatalogElement" mc="Standard.Class" uid="acd60163-60c5-42b5-8842-34e9564895f3"/>
+        <COMPID name="XMLCatalogURIResolverExtension" mc="Standard.Class" uid="ddef8b31-3667-436b-83bd-a876e99de02f"/>
+        <COMPID name="provisional" mc="Standard.Package" uid="c74707aa-7642-4057-8bf7-73eed7d1d149"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

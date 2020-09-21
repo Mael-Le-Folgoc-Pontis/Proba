@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="observable" version="4">
+  <OBJECT>
+    <ID name="observable" mc="Standard.Package" uid="00611296-21a7-1fb1-8a9e-001e4fea2d8b"/>
+    <PID name="databinding" mc="Standard.Package" uid="0016542c-21a7-1fb1-8a9e-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[observable]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Activator" mc="Standard.Class" uid="00734236-21a7-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ConstantObservableValue" mc="Standard.Class" uid="0071b9ac-21a7-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="DelayedObservableValue" mc="Standard.Class" uid="006d944e-21a7-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="EmptyObservableList" mc="Standard.Class" uid="006ebcf2-21a7-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="EmptyObservableSet" mc="Standard.Class" uid="0061d2c6-21a7-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="IStalenessConsumer" mc="Standard.Interface" uid="006e92cc-21a7-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="MapEntryObservableValue" mc="Standard.Class" uid="0071140c-21a7-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="Queue" mc="Standard.Class" uid="006134ba-21a7-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="StalenessObservableValue" mc="Standard.Class" uid="006c1178-21a7-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="StalenessTracker" mc="Standard.Class" uid="00728922-21a7-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="UnmodifiableObservableList" mc="Standard.Class" uid="006fee88-21a7-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="UnmodifiableObservableMap" mc="Standard.Class" uid="006f5c48-21a7-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="UnmodifiableObservableSet" mc="Standard.Class" uid="00708140-21a7-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="UnmodifiableObservableValue" mc="Standard.Class" uid="006d0196-21a7-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="Util" mc="Standard.Class" uid="00725d26-21a7-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="masterdetail" mc="Standard.Package" uid="00646644-21a7-1fb1-8a9e-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

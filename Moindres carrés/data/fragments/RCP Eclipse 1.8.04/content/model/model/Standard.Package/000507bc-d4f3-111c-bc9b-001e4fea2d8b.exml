@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="spi" version="4">
+  <OBJECT>
+    <ID name="spi" mc="Standard.Package" uid="000507bc-d4f3-111c-bc9b-001e4fea2d8b"/>
+    <PID name="artifact" mc="Standard.Package" uid="0003cf14-d4f3-111c-bc9b-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[spi]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractArtifactRepository" mc="Standard.Class" uid="00051216-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="ArtifactDescriptor" mc="Standard.Class" uid="00054b78-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="ArtifactRepositoryFactory" mc="Standard.Class" uid="000537c8-d4f3-111c-bc9b-001e4fea2d8b"/>
+        <COMPID name="ProcessingStepDescriptor" mc="Standard.Class" uid="000524ea-d4f3-111c-bc9b-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

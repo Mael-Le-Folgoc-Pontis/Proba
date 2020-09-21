@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="xpp3" version="4">
+  <OBJECT>
+    <ID name="xpp3" mc="Standard.Package" uid="8d19b0fc-fa57-4afd-8042-c6e6d6caa797"/>
+    <PID name="io" mc="Standard.Package" uid="e9043b95-9164-466f-ac66-7f01b0c28271"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[xpp3]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="MavenXpp3Reader" mc="Standard.Class" uid="66e561d0-3081-4e8d-b555-d29e1e397c4c"/>
+        <COMPID name="MavenXpp3ReaderEx" mc="Standard.Class" uid="9dd22584-6c9c-41bc-9200-125c55efedec"/>
+        <COMPID name="MavenXpp3Writer" mc="Standard.Class" uid="b2f36305-eaf2-4f6d-b219-81e2c40c0837"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

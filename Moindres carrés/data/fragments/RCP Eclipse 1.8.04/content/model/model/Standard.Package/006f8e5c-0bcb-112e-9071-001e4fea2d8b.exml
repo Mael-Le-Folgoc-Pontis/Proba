@@ -1,0 +1,77 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="buildpaths" version="4">
+  <OBJECT>
+    <ID name="buildpaths" mc="Standard.Package" uid="006f8e5c-0bcb-112e-9071-001e4fea2d8b"/>
+    <PID name="wizards" mc="Standard.Package" uid="006cc3ac-0bcb-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[buildpaths]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AccessRuleEntryDialog" mc="Standard.Class" uid="006f95a0-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AccessRulesDialog" mc="Standard.Class" uid="006fa18a-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AccessRulesLabelProvider" mc="Standard.Class" uid="006fade2-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AddSourceFolderWizard" mc="Standard.Class" uid="006fb44a-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AddSourceFolderWizardPage" mc="Standard.Class" uid="006fbb16-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ArchiveFileFilter" mc="Standard.Class" uid="006fcdea-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BuildPathBasePage" mc="Standard.Class" uid="006fd52e-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BuildPathSupport" mc="Standard.Class" uid="006fdc54-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BuildPathWizard" mc="Standard.Class" uid="006ff1f8-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="BuildPathsBlock" mc="Standard.Class" uid="006ff9dc-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CPListElement" mc="Standard.Class" uid="00700e36-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CPListElementAttribute" mc="Standard.Class" uid="00701642-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CPListElementSorter" mc="Standard.Class" uid="00701ed0-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CPListLabelProvider" mc="Standard.Class" uid="00702772-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CPUserLibraryElement" mc="Standard.Class" uid="0070305a-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CPVariableElement" mc="Standard.Class" uid="00703f50-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CPVariableElementLabelProvider" mc="Standard.Class" uid="00704856-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ClasspathAttributeConfigurationDescriptors" mc="Standard.Class" uid="007051e8-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ClasspathContainerDefaultPage" mc="Standard.Class" uid="0070693a-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ClasspathContainerDescriptor" mc="Standard.Class" uid="00707312-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ClasspathContainerSelectionPage" mc="Standard.Class" uid="00707cf4-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ClasspathContainerWizard" mc="Standard.Class" uid="007094c8-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ClasspathFixSelectionDialog" mc="Standard.Class" uid="00709f40-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ClasspathOrderingWorkbookPage" mc="Standard.Class" uid="0070be58-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="CreateMultipleSourceFoldersDialog" mc="Standard.Class" uid="0070c934-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="EditFilterWizard" mc="Standard.Class" uid="0070da46-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="EditVariableEntryDialog" mc="Standard.Class" uid="0070e590-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ExclusionInclusionDialog" mc="Standard.Class" uid="0070f6b6-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ExclusionInclusionEntryDialog" mc="Standard.Class" uid="0071160a-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ExternalAnnotationsAttachmentBlock" mc="Standard.Class" uid="80d08cb2-a77f-45a2-972c-3da572d37ebd"/>
+        <COMPID name="ExternalAnnotationsAttachmentDialog" mc="Standard.Class" uid="43436356-2327-441f-88ef-98b44a868770"/>
+        <COMPID name="ExternalAnnotationsAttributeConfiguration" mc="Standard.Class" uid="386d845e-1934-4260-a14c-7ef356daff41"/>
+        <COMPID name="FolderSelectionDialog" mc="Standard.Class" uid="007127da-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JARFileSelectionDialog" mc="Standard.Class" uid="007133c4-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavadocAttributeConfiguration" mc="Standard.Class" uid="00718716-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavadocLocationDialog" mc="Standard.Class" uid="00719396-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LibrariesWorkbookPage" mc="Standard.Class" uid="0071a052-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MultipleFolderSelectionDialog" mc="Standard.Class" uid="0071b2e0-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="NativeLibAttributeConfiguration" mc="Standard.Class" uid="0071c050-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="NativeLibrariesDialog" mc="Standard.Class" uid="0071cd5c-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="NewContainerDialog" mc="Standard.Class" uid="0071dad6-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="NewVariableEntryDialog" mc="Standard.Class" uid="00720236-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="OutputLocationDialog" mc="Standard.Class" uid="00721636-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ProjectsWorkbookPage" mc="Standard.Class" uid="00722a36-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SetFilterWizardPage" mc="Standard.Class" uid="00723ea4-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SourceAttachmentBlock" mc="Standard.Class" uid="00726122-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SourceAttachmentDialog" mc="Standard.Class" uid="007275d6-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SourceContainerWorkbookPage" mc="Standard.Class" uid="00728544-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="UserLibraryMarkerResolutionGenerator" mc="Standard.Class" uid="0072a0b0-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="UserLibraryWizardPage" mc="Standard.Class" uid="0072cbd0-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="VariableBlock" mc="Standard.Class" uid="0072e174-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="VariableCreationDialog" mc="Standard.Class" uid="0072fd58-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="VariablePathDialogField" mc="Standard.Class" uid="00731374-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="newsourcepage" mc="Standard.Package" uid="00754df6-0bcb-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

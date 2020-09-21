@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="mapping" version="4">
+  <OBJECT>
+    <ID name="mapping" mc="Standard.Package" uid="72635737-0610-4ecf-870c-a391ec9646b8"/>
+    <PID name="synchronize" mc="Standard.Package" uid="2bb806bc-71a6-47e7-b961-c53fcf8da707"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[mapping]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="GitChangeSetContentProvider" mc="Standard.Class" uid="11c6af50-1638-4418-ac88-999f6c689633"/>
+        <COMPID name="GitChangeSetDropAdapterAssistant" mc="Standard.Class" uid="94c30d49-9eeb-4647-9f1f-9717bc97391b"/>
+        <COMPID name="GitChangeSetLabelProvider" mc="Standard.Class" uid="7bbd3c51-7cd0-4a75-9b76-e288dac2ea42"/>
+        <COMPID name="GitChangeSetSorter" mc="Standard.Class" uid="4a3860bd-b2ef-4bc2-92fc-df11ada60d4f"/>
+        <COMPID name="GitModelWorkbenchAdapter" mc="Standard.Class" uid="50118f59-9a3d-4657-96d2-3579be0724a9"/>
+        <COMPID name="GitObjectMapping" mc="Standard.Class" uid="9a04c6b7-865a-4885-a6f5-f773fe5d5b9c"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

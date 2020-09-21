@@ -1,0 +1,145 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="text" version="4">
+  <OBJECT>
+    <ID name="text" mc="Standard.Package" uid="00596118-21b1-1fb1-8a9e-001e4fea2d8b"/>
+    <PID name="icu" mc="Standard.Package" uid="0059052e-21b1-1fb1-8a9e-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[text]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AlphabeticIndex" mc="Standard.Class" uid="005e02f4-0bdc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ArabicShaping" mc="Standard.Class" uid="0083eb0e-21b1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ArabicShapingException" mc="Standard.Class" uid="0088eb04-21b1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="Bidi" mc="Standard.Class" uid="0095d882-21b1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="BidiClassifier" mc="Standard.Class" uid="0093a8aa-21b1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="BidiRun" mc="Standard.Class" uid="0090da1c-21b1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="BreakIterator" mc="Standard.Class" uid="00091cda-21b2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="CanonicalIterator" mc="Standard.Class" uid="007f8b86-21b1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="CharsetDetector" mc="Standard.Class" uid="0083b422-21b1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="CharsetMatch" mc="Standard.Class" uid="000eda4e-21b2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ChineseDateFormat" mc="Standard.Class" uid="0092af0e-21b1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ChineseDateFormatSymbols" mc="Standard.Class" uid="006f908c-21b1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="CollationElementIterator" mc="Standard.Class" uid="00636870-21b1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="CollationKey" mc="Standard.Class" uid="000b9fc8-21b2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="Collator" mc="Standard.Class" uid="00025fda-21b2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="CompactDecimalFormat" mc="Standard.Class" uid="007e7ae8-0bdc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ComposedCharIter" mc="Standard.Class" uid="00613b2c-21b1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="CurrencyDisplayNames" mc="Standard.Class" uid="000aa9e2-21b2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="CurrencyMetaInfo" mc="Standard.Class" uid="00765ee4-21b1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="CurrencyPluralInfo" mc="Standard.Class" uid="00795810-21b1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="DateFormat" mc="Standard.Class" uid="007d686a-21b1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="DateFormatSymbols" mc="Standard.Class" uid="001369b0-21b2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="DateIntervalFormat" mc="Standard.Class" uid="006b5c56-21b1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="DateIntervalInfo" mc="Standard.Class" uid="008bda08-21b1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="DateTimePatternGenerator" mc="Standard.Class" uid="0022d3aa-21b2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="DecimalFormat" mc="Standard.Class" uid="00681c62-21b1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="DecimalFormatSymbols" mc="Standard.Class" uid="003234da-21b2-1fb1-8a9e-001e4fea2d8b"/>
+        <OBJECT>
+          <ID name="DisplayContext" mc="Standard.Enumeration" uid="00885810-0bdc-112e-9071-001e4fea2d8b"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[DisplayContext]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="OwnedElement">
+              <OBJECT>
+                <ID name="Type" mc="Standard.Enumeration" uid="2d462b77-6898-48e5-930a-98ca273a85cd"/>
+                <ATTRIBUTES>
+                  <ATT name="IsElementary">true</ATT>
+                  <ATT name="IsAbstract">false</ATT>
+                  <ATT name="IsLeaf">false</ATT>
+                  <ATT name="IsRoot">false</ATT>
+                  <ATT name="Visibility">Public</ATT>
+                  <ATT name="Name"><![CDATA[Type]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Extension">
+                    <FOREIGNID name="JavaEnumeration" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0262-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Extension">
+              <FOREIGNID name="JavaEnumeration" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0262-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <COMPID name="DurationFormat" mc="Standard.Class" uid="0096f596-21b1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="FilteredBreakIteratorBuilder" mc="Standard.Class" uid="7d48c44e-6a5f-490b-99dc-61e14620e00a"/>
+        <COMPID name="FilteredNormalizer2" mc="Standard.Class" uid="0078f4b0-21b1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="GeneralMeasureFormat" mc="Standard.Class" uid="a209744a-dfc5-48f2-b779-3d1127253240"/>
+        <COMPID name="IDNA" mc="Standard.Class" uid="00671448-21b1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="IdentifierInfo" mc="Standard.Class" uid="4cd1f8ca-392a-4972-88d6-a9849aa60799"/>
+        <COMPID name="ListFormatter" mc="Standard.Class" uid="008afea8-0bdc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="LocaleDisplayNames" mc="Standard.Class" uid="005b86dc-21b1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="MeasureFormat" mc="Standard.Class" uid="00717438-21b1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="MessageFormat" mc="Standard.Class" uid="007ff7ec-21b1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="MessagePattern" mc="Standard.Class" uid="008d7caa-0bdc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="MessagePatternUtil" mc="Standard.Class" uid="008dc1ba-0bdc-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Normalizer" mc="Standard.Class" uid="0016a454-21b2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="Normalizer2" mc="Standard.Class" uid="0034ca1a-21b2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="NumberFormat" mc="Standard.Class" uid="000613aa-21b2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="NumberingSystem" mc="Standard.Class" uid="001480d4-21b2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="PluralFormat" mc="Standard.Class" uid="005af7a8-21b1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="PluralRanges" mc="Standard.Class" uid="abd687b0-4542-4237-a6c6-9e7040f76791"/>
+        <COMPID name="PluralRules" mc="Standard.Class" uid="001ddbfc-21b2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="PluralSamples" mc="Standard.Class" uid="cba6146d-9d3c-4108-9b85-99d28952caec"/>
+        <COMPID name="RawCollationKey" mc="Standard.Class" uid="00884e06-21b1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="RbnfLenientScanner" mc="Standard.Interface" uid="00205634-21b2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="RbnfLenientScannerProvider" mc="Standard.Interface" uid="008e01c0-21b1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="RbnfScannerProviderImpl" mc="Standard.Class" uid="0065ae46-21b1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="RelativeDateTimeFormatter" mc="Standard.Class" uid="b1f13f5b-4094-48b8-9e59-13638ab3aa13"/>
+        <COMPID name="Replaceable" mc="Standard.Interface" uid="00746d82-21b1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ReplaceableString" mc="Standard.Class" uid="00982d4e-21b1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="RuleBasedBreakIterator" mc="Standard.Class" uid="000377e4-21b2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="RuleBasedCollator" mc="Standard.Class" uid="0032caa8-21b2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="RuleBasedNumberFormat" mc="Standard.Class" uid="006c92ec-21b1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="RuleBasedTransliterator" mc="Standard.Class" uid="0020f166-21b2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ScientificFormatHelper" mc="Standard.Class" uid="715063ad-3405-463f-a649-7fa3a68c9439"/>
+        <COMPID name="SearchIterator" mc="Standard.Class" uid="00826e50-21b1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="SelectFormat" mc="Standard.Class" uid="00951d48-21b1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="SimpleDateFormat" mc="Standard.Class" uid="00042432-21b2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="SpoofChecker" mc="Standard.Class" uid="001d3ddc-0bdd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="StringCharacterIterator" mc="Standard.Class" uid="0020a364-21b2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="StringPrep" mc="Standard.Class" uid="008cd656-21b1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="StringPrepParseException" mc="Standard.Class" uid="00905b64-21b1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="StringSearch" mc="Standard.Class" uid="006d9192-21b1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="StringTransform" mc="Standard.Interface" uid="00702524-21b1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="SymbolTable" mc="Standard.Interface" uid="000e158c-21b2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="TimeUnitFormat" mc="Standard.Class" uid="008117ee-21b1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="TimeZoneFormat" mc="Standard.Class" uid="0022ef98-0bdd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="TimeZoneNames" mc="Standard.Class" uid="00235a64-0bdd-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Transform" mc="Standard.Interface" uid="005cee96-21b1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="Transliterator" mc="Standard.Class" uid="00895d14-21b1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="UCharacterIterator" mc="Standard.Class" uid="008d9ee2-21b1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="UFieldPosition" mc="Standard.Class" uid="88e7ab26-e78d-4cba-afc5-942f80c97d07"/>
+        <COMPID name="UFormat" mc="Standard.Class" uid="0031a0f6-21b2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="UForwardCharacterIterator" mc="Standard.Interface" uid="006b3104-21b1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="UTF16" mc="Standard.Class" uid="00945fa2-21b1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="UnicodeCompressor" mc="Standard.Class" uid="001656e8-21b2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="UnicodeDecompressor" mc="Standard.Class" uid="006d3382-21b1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="UnicodeFilter" mc="Standard.Class" uid="00909ac0-21b1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="UnicodeMatcher" mc="Standard.Interface" uid="00782c74-21b1-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="UnicodeSet" mc="Standard.Class" uid="000f2472-21b2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="UnicodeSetIterator" mc="Standard.Class" uid="00158c68-21b2-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="UnicodeSetSpanner" mc="Standard.Class" uid="9a51ae3b-59c4-44c0-9058-afedd9165810"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

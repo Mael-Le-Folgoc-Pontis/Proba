@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="workingsets" version="4">
+  <OBJECT>
+    <ID name="workingsets" mc="Standard.Package" uid="007b8310-0bcb-112e-9071-001e4fea2d8b"/>
+    <PID name="ui" mc="Standard.Package" uid="006159f4-0bca-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[workingsets]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractWorkingSetWizardPage" mc="Standard.Class" uid="007b891e-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ClearWorkingSetAction" mc="Standard.Class" uid="007b958a-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ConfigureWorkingSetAction" mc="Standard.Class" uid="007b9bb6-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ConfigureWorkingSetAssignementAction" mc="Standard.Class" uid="007ba25a-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="EditWorkingSetAction" mc="Standard.Class" uid="007bec88-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="EditorTracker" mc="Standard.Class" uid="007bf35e-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IWorkingSetActionGroup" mc="Standard.Interface" uid="007bf958-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IWorkingSetIDs" mc="Standard.Interface" uid="007c001a-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaWorkingSetElementAdapter" mc="Standard.Class" uid="007c07c2-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaWorkingSetPage" mc="Standard.Class" uid="007c0f38-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaWorkingSetUpdater" mc="Standard.Class" uid="007c1e7e-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="Mementos" mc="Standard.Class" uid="007c3422-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="OthersWorkingSetUpdater" mc="Standard.Class" uid="007c3c6a-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="RemoveWorkingSetElementAction" mc="Standard.Class" uid="007c56dc-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="SelectWorkingSetAction" mc="Standard.Class" uid="007c5f7e-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ViewAction" mc="Standard.Class" uid="007c68d4-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="ViewActionGroup" mc="Standard.Class" uid="007c71c6-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WorkingSetComparator" mc="Standard.Class" uid="007c7b26-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WorkingSetConfigurationDialog" mc="Standard.Class" uid="007c84a4-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WorkingSetFilter" mc="Standard.Class" uid="007c9c00-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WorkingSetFilterActionGroup" mc="Standard.Class" uid="007cb38e-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WorkingSetMenuContributionItem" mc="Standard.Class" uid="007cbdb6-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WorkingSetMessages" mc="Standard.Class" uid="007cc7c0-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WorkingSetModel" mc="Standard.Class" uid="007cd256-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="WorkingSetShowActionGroup" mc="Standard.Class" uid="007cf8d0-0bcb-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

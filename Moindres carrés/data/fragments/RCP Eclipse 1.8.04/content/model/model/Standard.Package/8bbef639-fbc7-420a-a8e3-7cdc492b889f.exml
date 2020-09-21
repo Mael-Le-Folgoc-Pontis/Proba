@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="xml" version="4">
+  <OBJECT>
+    <ID name="xml" mc="Standard.Package" uid="8bbef639-fbc7-420a-a8e3-7cdc492b889f"/>
+    <PID name="jxpath" mc="Standard.Package" uid="5605dc9c-f600-4a17-96a6-7ff45b5b4e36"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[xml]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="DOMParser" mc="Standard.Class" uid="f3b5e072-4c85-4a67-a55a-162c99bab688"/>
+        <COMPID name="DocumentContainer" mc="Standard.Class" uid="4ca17ecd-4e7d-4f5c-b6bf-9258286b2c0a"/>
+        <COMPID name="JDOMParser" mc="Standard.Class" uid="786a51c7-f10d-4c4c-b40c-59c9f78384c5"/>
+        <COMPID name="XMLParser" mc="Standard.Interface" uid="9bf93837-92e7-4a26-8b4b-3a1961d2fcda"/>
+        <COMPID name="XMLParser2" mc="Standard.Class" uid="7a085a6f-9c4b-47ef-a378-b6b99cca3963"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

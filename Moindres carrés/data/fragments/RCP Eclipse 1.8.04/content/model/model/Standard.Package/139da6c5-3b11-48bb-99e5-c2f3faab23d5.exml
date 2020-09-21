@@ -1,0 +1,51 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="client" version="4">
+  <OBJECT>
+    <ID name="client" mc="Standard.Package" uid="139da6c5-3b11-48bb-99e5-c2f3faab23d5"/>
+    <PID name="http" mc="Standard.Package" uid="69579971-0298-4981-9fc7-48c3562d4504"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[client]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AuthCache" mc="Standard.Interface" uid="9d3bd54d-09b1-41c3-9287-adfcc10b720f"/>
+        <COMPID name="AuthenticationHandler" mc="Standard.Interface" uid="b4390bd5-7d9e-48b7-b5ec-9490f9666276"/>
+        <COMPID name="AuthenticationStrategy" mc="Standard.Interface" uid="bc870cdc-7769-4df3-89ad-08219211334a"/>
+        <COMPID name="BackoffManager" mc="Standard.Interface" uid="07aacd3b-3da2-4af0-b606-f4fc0c253e11"/>
+        <COMPID name="CircularRedirectException" mc="Standard.Class" uid="65987f22-47bc-43bb-8a2a-41df3749ff67"/>
+        <COMPID name="ClientProtocolException" mc="Standard.Class" uid="4e76a88b-2e12-4ff8-a179-436e68e956c4"/>
+        <COMPID name="ConnectionBackoffStrategy" mc="Standard.Interface" uid="6f9111f8-7871-42dc-a090-cee3dfc17cf4"/>
+        <COMPID name="CookieStore" mc="Standard.Interface" uid="241cedbd-4738-4288-9f4f-6a9e8b27cc43"/>
+        <COMPID name="CredentialsProvider" mc="Standard.Interface" uid="63317cc5-e3d9-4258-9097-d024fb6eb14e"/>
+        <COMPID name="HttpClient" mc="Standard.Interface" uid="c476cb85-6ddf-42b3-9eae-7b7e34c50e64"/>
+        <COMPID name="HttpRequestRetryHandler" mc="Standard.Interface" uid="e9f416bd-4861-4e08-a5c7-42699f9b79d4"/>
+        <COMPID name="HttpResponseException" mc="Standard.Class" uid="3013eea6-3d38-4d1e-a049-40e82f26f062"/>
+        <COMPID name="NonRepeatableRequestException" mc="Standard.Class" uid="d51b1e74-e9a0-4909-9a58-fc949f7a5310"/>
+        <COMPID name="RedirectException" mc="Standard.Class" uid="cf0b8ced-4d26-48b8-9407-be5b1b5ac8bb"/>
+        <COMPID name="RedirectHandler" mc="Standard.Interface" uid="187d2628-4a7e-4519-bd8d-23fcac508ddf"/>
+        <COMPID name="RedirectStrategy" mc="Standard.Interface" uid="ac08cc25-1fcd-4678-9ff7-1feb383f6d13"/>
+        <COMPID name="RequestDirector" mc="Standard.Interface" uid="77b471d0-2b1b-4fb1-a814-b734b9d75e92"/>
+        <COMPID name="ResponseHandler" mc="Standard.Interface" uid="97fe4e97-9920-46be-9f2b-91ec1133e74f"/>
+        <COMPID name="ServiceUnavailableRetryStrategy" mc="Standard.Interface" uid="f7c795f3-c788-4617-89bc-f647cb21948b"/>
+        <COMPID name="UserTokenHandler" mc="Standard.Interface" uid="4b6832dc-43e7-4084-beae-9dc311d32ec5"/>
+        <COMPID name="cache" mc="Standard.Package" uid="097cdf88-8099-46ff-b952-a173dfa89674"/>
+        <COMPID name="config" mc="Standard.Package" uid="c4548d80-b2bd-4ac0-beaa-8be4a4eb5674"/>
+        <COMPID name="entity" mc="Standard.Package" uid="189f654f-5f3a-4dff-9962-d5be1b8123fa"/>
+        <COMPID name="fluent" mc="Standard.Package" uid="b17ea71d-b251-4faa-9ad3-a255055ce737"/>
+        <COMPID name="methods" mc="Standard.Package" uid="2542a820-b947-4b9f-82a2-077eda4375ff"/>
+        <COMPID name="params" mc="Standard.Package" uid="09b62cee-f15d-4cc1-84f3-088c79607730"/>
+        <COMPID name="protocol" mc="Standard.Package" uid="10c689fb-8c6b-4003-aafb-5cd5ca671eac"/>
+        <COMPID name="utils" mc="Standard.Package" uid="78f7e5b9-2c32-4967-a698-d3074a1a3070"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="internal" version="4">
+  <OBJECT>
+    <ID name="internal" mc="Standard.Package" uid="bb8eda31-0c49-4b26-9dc4-77c278256e00"/>
+    <PID name="extension" mc="Standard.Package" uid="fc2428fb-0f7b-4b11-b599-d749a485c370"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[internal]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="CoreExports" mc="Standard.Class" uid="fb5479cb-5468-4638-a499-3cb671ee1cdb"/>
+        <COMPID name="CoreExportsProvider" mc="Standard.Class" uid="1eacd656-980f-4557-b6c5-b720d86465a5"/>
+        <COMPID name="CoreExtensionEntry" mc="Standard.Class" uid="e79800be-2e87-498f-a414-dba629d5edce"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

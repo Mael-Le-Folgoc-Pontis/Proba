@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="names" version="4">
+  <OBJECT>
+    <ID name="names" mc="Standard.Package" uid="694f31e5-522f-4dab-a766-0304b30f9628"/>
+    <PID name="utils" mc="Standard.Package" uid="4a3c717d-586c-43a8-abdd-03a5b9f1c1de"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[names]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="IAnnotation" mc="Standard.Interface" uid="8f42431c-0065-4368-b179-2e1fb4b4d03e"/>
+        <COMPID name="IFieldName" mc="Standard.Interface" uid="4c497bdb-614a-45c6-a340-28f5487de1b8"/>
+        <COMPID name="IMethodName" mc="Standard.Interface" uid="772ed53a-0797-47d8-baed-34ce26cec6e8"/>
+        <COMPID name="IName" mc="Standard.Interface" uid="3a686463-704e-498d-9ce4-e812024d1433"/>
+        <COMPID name="IPackageName" mc="Standard.Interface" uid="fa6691bc-dffc-4609-8474-ccdb51d7502d"/>
+        <COMPID name="ITypeName" mc="Standard.Interface" uid="ea9f1f33-2b26-4d2f-807f-650f82cdd64b"/>
+        <COMPID name="IVariableName" mc="Standard.Interface" uid="627824c1-a1aa-4bdf-9802-c4074e1872cc"/>
+        <COMPID name="Names" mc="Standard.Class" uid="d207a2af-9064-4c5d-9f19-12c65448db2c"/>
+        <COMPID name="VmAnnotation" mc="Standard.Class" uid="ae73319f-1e9f-4bce-bb25-680a72511c06"/>
+        <COMPID name="VmFieldName" mc="Standard.Class" uid="ea193d26-d2e5-4753-bbd0-1299323359d6"/>
+        <COMPID name="VmMethodName" mc="Standard.Class" uid="9249c800-afae-46af-a043-d584f7b4ab77"/>
+        <COMPID name="VmPackageName" mc="Standard.Class" uid="c1be6954-c55f-4787-8cf9-00aca41569b3"/>
+        <COMPID name="VmTypeName" mc="Standard.Class" uid="f6b9bc89-a248-4e08-8a03-2b6a681a106b"/>
+        <COMPID name="VmVariableName" mc="Standard.Class" uid="02d5e01f-4570-4ce2-b2f5-d6ceb6b5ea3c"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

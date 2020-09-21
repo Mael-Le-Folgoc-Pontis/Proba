@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="resolution" version="4">
+  <OBJECT>
+    <ID name="resolution" mc="Standard.Package" uid="e7a897f8-5fcd-4a5b-94b2-832be38eed03"/>
+    <PID name="aether" mc="Standard.Package" uid="838241ca-6249-4205-8716-7762cb313d96"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[resolution]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ArtifactDescriptorException" mc="Standard.Class" uid="4f72a03d-e968-482d-8487-852bc74742a3"/>
+        <COMPID name="ArtifactDescriptorPolicy" mc="Standard.Interface" uid="05960f21-7d47-4b6a-bbd0-f2eaa3bc8259"/>
+        <COMPID name="ArtifactDescriptorPolicyRequest" mc="Standard.Class" uid="67d7aa6d-fcb8-4b2e-994e-0f82fa23291f"/>
+        <COMPID name="ArtifactDescriptorRequest" mc="Standard.Class" uid="0bff59d0-4be2-4a89-88e6-9a0b60549d19"/>
+        <COMPID name="ArtifactDescriptorResult" mc="Standard.Class" uid="30d635ec-6db7-4d4b-a96d-bf977ea2a714"/>
+        <COMPID name="ArtifactRequest" mc="Standard.Class" uid="6f8c5b0d-b325-4b11-9bb2-0ecdbf3e4a9e"/>
+        <COMPID name="ArtifactResolutionException" mc="Standard.Class" uid="fe271a90-7658-468e-a35c-e25d20746f9e"/>
+        <COMPID name="ArtifactResult" mc="Standard.Class" uid="c8e380ae-3d22-489d-bfb4-55e086b14a30"/>
+        <COMPID name="DependencyRequest" mc="Standard.Class" uid="cbc08f09-bb0f-486f-9566-8552017af346"/>
+        <COMPID name="DependencyResolutionException" mc="Standard.Class" uid="197b9838-1a6e-44f6-9044-427fac29eab6"/>
+        <COMPID name="DependencyResult" mc="Standard.Class" uid="ddfd1fd1-f314-4c35-aa99-2edd138babf3"/>
+        <COMPID name="MetadataRequest" mc="Standard.Class" uid="7de1aee0-8a79-41ff-9909-76b459b51207"/>
+        <COMPID name="MetadataResult" mc="Standard.Class" uid="57e0f6cd-1617-48fc-84d8-f9313547219c"/>
+        <COMPID name="ResolutionErrorPolicy" mc="Standard.Interface" uid="15280147-080a-4315-b207-c8e770c9cbc9"/>
+        <COMPID name="ResolutionErrorPolicyRequest" mc="Standard.Class" uid="3e9515e2-4ff2-443f-8176-814a88b91b0e"/>
+        <COMPID name="VersionRangeRequest" mc="Standard.Class" uid="589ca6fb-bcee-4387-82e2-33915f9ae0a8"/>
+        <COMPID name="VersionRangeResolutionException" mc="Standard.Class" uid="9c97097c-0e7b-4227-9b6a-f530fb404bb4"/>
+        <COMPID name="VersionRangeResult" mc="Standard.Class" uid="7a5f106d-0573-4c77-903f-50fe9f8c0493"/>
+        <COMPID name="VersionRequest" mc="Standard.Class" uid="53556fa2-f654-4e0a-825d-f47834be9dc0"/>
+        <COMPID name="VersionResolutionException" mc="Standard.Class" uid="40fe2caa-43d6-488a-b7ec-095b5d0ce43f"/>
+        <COMPID name="VersionResult" mc="Standard.Class" uid="05ea33fd-27c1-443b-89b5-faba61fdf2ad"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

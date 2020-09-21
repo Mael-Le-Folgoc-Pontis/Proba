@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="identity" version="4">
+  <OBJECT>
+    <ID name="identity" mc="Standard.Package" uid="e6693baa-bbb0-4a0e-adc1-c8c55a0d52f8"/>
+    <PID name="xs" mc="Standard.Package" uid="3710217b-443b-4d36-9a89-27b4bddb95aa"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[identity]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Field" mc="Standard.Class" uid="d0923d97-5994-48b3-ba42-1c0cceb6011a"/>
+        <COMPID name="FieldActivator" mc="Standard.Interface" uid="7c370787-8fc6-418b-8567-c4ec05846dec"/>
+        <COMPID name="IdentityConstraint" mc="Standard.Class" uid="1343983e-6d9c-4ccd-8a6f-3940e1d249e2"/>
+        <COMPID name="KeyRef" mc="Standard.Class" uid="dbe05ba9-65b5-4e2c-b840-c1b6238c9ddf"/>
+        <COMPID name="Selector" mc="Standard.Class" uid="e60de06f-cdbf-4440-b399-1246c9aa0f6e"/>
+        <COMPID name="UniqueOrKey" mc="Standard.Class" uid="4aa02283-80ca-440c-b85f-07280825567d"/>
+        <COMPID name="ValueStore" mc="Standard.Interface" uid="a3f534cb-f596-44c8-9155-7a87a435673f"/>
+        <COMPID name="XPathMatcher" mc="Standard.Class" uid="306d802f-818a-446f-9058-87313786908c"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

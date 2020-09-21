@@ -1,0 +1,57 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="compiler" version="4">
+  <OBJECT>
+    <ID name="compiler" mc="Standard.Package" uid="8482be2c-6af2-4ae4-ab2a-be8287eb64ba"/>
+    <PID name="ri" mc="Standard.Package" uid="8e0f36aa-32a2-4a31-a209-8008c288cf45"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[compiler]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Constant" mc="Standard.Class" uid="1f36fa39-c243-4f45-bebf-34aae9e10dfb"/>
+        <COMPID name="CoreFunction" mc="Standard.Class" uid="8a580829-8afd-49c3-ada4-c0ac1a14d03e"/>
+        <COMPID name="CoreOperation" mc="Standard.Class" uid="54d3adfe-b8cf-4e36-9f0e-ec5e8b1f2d46"/>
+        <COMPID name="CoreOperationAdd" mc="Standard.Class" uid="1321ce87-1d4c-4237-8b3d-ce57163960dd"/>
+        <COMPID name="CoreOperationAnd" mc="Standard.Class" uid="ae13b806-caaf-46da-9357-b6c27fcc6437"/>
+        <COMPID name="CoreOperationCompare" mc="Standard.Class" uid="9b53f8a5-c144-4af0-9a8d-46e0692c60fd"/>
+        <COMPID name="CoreOperationDivide" mc="Standard.Class" uid="e9c751d6-b822-493c-808c-ab786b7c2d6b"/>
+        <COMPID name="CoreOperationEqual" mc="Standard.Class" uid="6cd7240b-a70f-414d-8141-6ba4d2971539"/>
+        <COMPID name="CoreOperationGreaterThan" mc="Standard.Class" uid="cf704baf-a595-4a13-96b2-288447367959"/>
+        <COMPID name="CoreOperationGreaterThanOrEqual" mc="Standard.Class" uid="19b31891-55a9-41a2-9bd6-1b612b96b7a0"/>
+        <COMPID name="CoreOperationLessThan" mc="Standard.Class" uid="2c9506f1-1d74-4a5b-87a5-a1757e98b781"/>
+        <COMPID name="CoreOperationLessThanOrEqual" mc="Standard.Class" uid="6975c592-5c5a-4684-8bc5-8857922375d7"/>
+        <COMPID name="CoreOperationMod" mc="Standard.Class" uid="120366ff-0c7d-4d0c-a1b0-3830782bee1b"/>
+        <COMPID name="CoreOperationMultiply" mc="Standard.Class" uid="d3b0fdca-edb5-4d27-b4ab-332a7596baf9"/>
+        <COMPID name="CoreOperationNegate" mc="Standard.Class" uid="1a67b197-3475-4b0e-a92b-505a9e8ac390"/>
+        <COMPID name="CoreOperationNotEqual" mc="Standard.Class" uid="d68320ae-cf2c-4c15-9859-b9bcf3c999ea"/>
+        <COMPID name="CoreOperationOr" mc="Standard.Class" uid="35cdc47a-7a6b-4e16-8e8e-5c2da96e8eae"/>
+        <COMPID name="CoreOperationRelationalExpression" mc="Standard.Class" uid="3f523f84-02fd-4d2f-b037-af4a0ca76cb2"/>
+        <COMPID name="CoreOperationSubtract" mc="Standard.Class" uid="cbb8a1d0-153d-4594-a8f0-3bea6d3a91f7"/>
+        <COMPID name="CoreOperationUnion" mc="Standard.Class" uid="3f1239a8-7a5b-4a74-bd6a-6f2adb6c1dc4"/>
+        <COMPID name="Expression" mc="Standard.Class" uid="5fa81711-ac2d-49f4-86ab-191d75d3db9c"/>
+        <COMPID name="ExpressionPath" mc="Standard.Class" uid="07597aec-d428-481e-b66b-7fcf449174b2"/>
+        <COMPID name="ExtensionFunction" mc="Standard.Class" uid="23b67092-5815-40d0-93d2-cce8c9120a75"/>
+        <COMPID name="LocationPath" mc="Standard.Class" uid="a742bcbc-5466-42d7-b306-ee9e87e3a736"/>
+        <COMPID name="NameAttributeTest" mc="Standard.Class" uid="83a1f324-5fa0-494c-a4c0-85b0952b674d"/>
+        <COMPID name="NodeNameTest" mc="Standard.Class" uid="4ff186b2-3874-4c14-b83b-1361ca5f6ccf"/>
+        <COMPID name="NodeTest" mc="Standard.Class" uid="822687d4-8488-4578-88d2-0b158db799d2"/>
+        <COMPID name="NodeTypeTest" mc="Standard.Class" uid="b700a72a-87d3-4bd7-bb23-f12237720954"/>
+        <COMPID name="Operation" mc="Standard.Class" uid="1a0b7c19-efc7-4a79-af55-8eceed7fa26c"/>
+        <COMPID name="Path" mc="Standard.Class" uid="b03b0115-7e5a-4277-8491-b0ef9bd90b1e"/>
+        <COMPID name="ProcessingInstructionTest" mc="Standard.Class" uid="3d0ba3e7-e7d0-4c37-b57b-e26fe45fb024"/>
+        <COMPID name="Step" mc="Standard.Class" uid="63f2ea52-a64f-4f2a-a41e-bc25a9853306"/>
+        <COMPID name="TreeCompiler" mc="Standard.Class" uid="0ac06e66-f27a-4375-a80d-94d4a55fcede"/>
+        <COMPID name="VariableReference" mc="Standard.Class" uid="fd8ef595-a110-4dc0-8309-5856022b4b51"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

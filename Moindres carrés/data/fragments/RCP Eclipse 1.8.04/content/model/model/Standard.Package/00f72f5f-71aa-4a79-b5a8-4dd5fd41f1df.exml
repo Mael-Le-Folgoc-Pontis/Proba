@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="repository" version="4">
+  <OBJECT>
+    <ID name="repository" mc="Standard.Package" uid="00f72f5f-71aa-4a79-b5a8-4dd5fd41f1df"/>
+    <PID name="artifact" mc="Standard.Package" uid="4807b9b0-1b36-4ff1-805d-58d14cc0fd37"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[repository]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ArtifactRepository" mc="Standard.Interface" uid="750a7f9f-ddae-4634-a379-deb892685618"/>
+        <COMPID name="ArtifactRepositoryFactory" mc="Standard.Interface" uid="d353b313-80eb-4b18-a604-45d1be0342d6"/>
+        <COMPID name="ArtifactRepositoryPolicy" mc="Standard.Class" uid="1b2e1b1c-2994-45f2-ab78-5990756b9be2"/>
+        <COMPID name="Authentication" mc="Standard.Class" uid="0e18fdea-2e33-4d32-b163-c57010d566a0"/>
+        <COMPID name="DefaultArtifactRepository" mc="Standard.Class" uid="7f8bce47-68a3-4c31-9062-2da328c35110"/>
+        <COMPID name="DefaultArtifactRepositoryFactory" mc="Standard.Class" uid="49ebff2a-5cc3-4cf6-b4f4-9c54d9e8686b"/>
+        <COMPID name="DefaultRepositoryRequest" mc="Standard.Class" uid="85eed45f-0ff0-4e30-b787-3352317e6b17"/>
+        <COMPID name="LegacyLocalRepositoryManager" mc="Standard.Class" uid="6e81de45-4526-497f-955b-e7d9dfba80ef"/>
+        <COMPID name="MavenArtifactRepository" mc="Standard.Class" uid="ccf26461-2508-48eb-b4c6-519e89053f1a"/>
+        <COMPID name="RepositoryCache" mc="Standard.Interface" uid="9c53a469-c929-41f9-9367-03cc82df235b"/>
+        <COMPID name="RepositoryRequest" mc="Standard.Interface" uid="80759307-ec8f-496a-9fb1-ad6571a45e35"/>
+        <COMPID name="layout" mc="Standard.Package" uid="65535e5e-3e59-4a8e-ad07-681c62ac218f"/>
+        <COMPID name="metadata" mc="Standard.Package" uid="04242ae0-2a5a-4a54-9e38-0726e3a594f1"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

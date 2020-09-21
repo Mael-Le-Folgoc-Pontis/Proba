@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="block" version="4">
+  <OBJECT>
+    <ID name="block" mc="Standard.Package" uid="037de1e9-060f-44a7-8179-4a9687359455"/>
+    <PID name="core" mc="Standard.Package" uid="d917b643-68de-4c19-9c97-66bfcebc7f77"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[block]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractTableOfContentsBlock" mc="Standard.Class" uid="3c1e5f2c-d405-44e2-ae72-4b79e71f81d7"/>
+        <COMPID name="CommentBlock" mc="Standard.Class" uid="416a2e9e-87ce-4d46-8fe0-e69ad407c509"/>
+        <COMPID name="EscapeBlock" mc="Standard.Class" uid="34c916db-a344-48b6-88f7-ddc068de91c0"/>
+        <COMPID name="HeadingBlock" mc="Standard.Class" uid="b28135ce-592e-4ad1-bd59-43bf35909819"/>
+        <COMPID name="ListBlock" mc="Standard.Class" uid="1b7a8876-1a78-4929-95a6-d8d9ab9b11c8"/>
+        <COMPID name="ParagraphBlock" mc="Standard.Class" uid="28a80955-52a5-4591-b315-d39602d0113c"/>
+        <COMPID name="PreformattedBlock" mc="Standard.Class" uid="c96d385c-e90e-4495-b09d-105ed3264049"/>
+        <COMPID name="SourceBlock" mc="Standard.Class" uid="5750e2a3-caad-4b94-859b-9e63ce4b6c8c"/>
+        <COMPID name="TableBlock" mc="Standard.Class" uid="59360daf-dfa4-4d7f-ac73-74f7aa4f40f8"/>
+        <COMPID name="TableOfContentsBlock" mc="Standard.Class" uid="80afdf68-14e0-40b0-8297-bec4c373c332"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

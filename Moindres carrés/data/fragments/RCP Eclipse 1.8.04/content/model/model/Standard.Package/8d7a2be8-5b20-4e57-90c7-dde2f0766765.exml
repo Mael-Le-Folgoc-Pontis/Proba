@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="animation" version="4">
+  <OBJECT>
+    <ID name="animation" mc="Standard.Package" uid="8d7a2be8-5b20-4e57-90c7-dde2f0766765"/>
+    <PID name="cwt" mc="Standard.Package" uid="0f610233-8f2a-4b40-a873-24034746e56b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[animation]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AnimationRunner" mc="Standard.Class" uid="c429ac96-28ab-447b-896f-5ae085138bb5"/>
+        <COMPID name="ScrollingSmoother" mc="Standard.Class" uid="93e3b6c4-94ab-4a00-9295-1511f16deec2"/>
+        <COMPID name="effects" mc="Standard.Package" uid="8ce6e9bf-f70c-4976-a8b3-7a74720c5d96"/>
+        <COMPID name="movement" mc="Standard.Package" uid="9e01e455-e97a-4190-902e-eea43670b29a"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

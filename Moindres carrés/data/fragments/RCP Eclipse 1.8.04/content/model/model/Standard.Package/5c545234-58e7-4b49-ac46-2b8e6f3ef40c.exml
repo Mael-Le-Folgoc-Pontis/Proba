@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="contentoutline" version="4">
+  <OBJECT>
+    <ID name="contentoutline" mc="Standard.Package" uid="5c545234-58e7-4b49-ac46-2b8e6f3ef40c"/>
+    <PID name="internal" mc="Standard.Package" uid="8de19d9c-309f-4c7f-968c-e82cba2f8859"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[contentoutline]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ConfigurableContentOutlinePage" mc="Standard.Class" uid="fc663d03-079c-4922-aaf0-9e9b597f5ed5"/>
+        <COMPID name="IJFaceNodeAdapter" mc="Standard.Interface" uid="eccb2228-0067-4ec0-a76c-38d7c6668afe"/>
+        <COMPID name="IJFaceNodeAdapterFactory" mc="Standard.Interface" uid="fd795a34-3509-4264-8503-a029d8731516"/>
+        <COMPID name="PropertyChangeUpdateAction" mc="Standard.Class" uid="2524604d-b957-4bc0-8d75-47a9918b39d0"/>
+        <COMPID name="PropertyChangeUpdateActionContributionItem" mc="Standard.Class" uid="4186802c-cd15-4e2b-b864-32dcdae5bcd2"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="navigator" version="4">
+  <OBJECT>
+    <ID name="navigator" mc="Standard.Package" uid="00003ec6-0bcb-112e-9071-001e4fea2d8b"/>
+    <PID name="ui" mc="Standard.Package" uid="006159f4-0bca-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[navigator]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="CommonLayoutActionGroup" mc="Standard.Class" uid="000044ca-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="IExtensionStateConstants" mc="Standard.Interface" uid="000050f0-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaDropAdapterAssistant" mc="Standard.Class" uid="00005df2-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaFileLinkHelper" mc="Standard.Class" uid="0000646e-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaNavigatorActionProvider" mc="Standard.Class" uid="00006ad6-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaNavigatorContentProvider" mc="Standard.Class" uid="000071ac-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaNavigatorLabelProvider" mc="Standard.Class" uid="000078c8-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaNavigatorRefactorActionProvider" mc="Standard.Class" uid="00008048-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaNavigatorViewActionProvider" mc="Standard.Class" uid="00008778-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="NonEssentialElementsFilter" mc="Standard.Class" uid="00008f2a-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="NonEssentialEmptyInnerPackageFilter" mc="Standard.Class" uid="00009704-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="NonEssentialEmptyPackageFilter" mc="Standard.Class" uid="00009ed4-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="OpenAndExpand" mc="Standard.Class" uid="0000a730-0bcb-112e-9071-001e4fea2d8b"/>
+        <COMPID name="PackageExplorerOpenActionProvider" mc="Standard.Class" uid="0000afaa-0bcb-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

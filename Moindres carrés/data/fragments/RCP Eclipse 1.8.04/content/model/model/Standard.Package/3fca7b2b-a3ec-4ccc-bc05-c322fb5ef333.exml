@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="commentelement" version="4">
+  <OBJECT>
+    <ID name="commentelement" mc="Standard.Package" uid="3fca7b2b-a3ec-4ccc-bc05-c322fb5ef333"/>
+    <PID name="internal" mc="Standard.Package" uid="e9152071-ab45-4e26-8cf6-708827cd7d86"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[commentelement]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="CommentElementAdapter" mc="Standard.Class" uid="b196a949-e6d5-4adf-9275-4f70e1fd655e"/>
+        <COMPID name="CommentElementHandler" mc="Standard.Interface" uid="25ea3cf8-6ad5-4a4d-881a-84edb7e64e65"/>
+        <COMPID name="impl" mc="Standard.Package" uid="afbf9a6c-4088-46b6-ac52-b0ffa5c512d2"/>
+        <COMPID name="util" mc="Standard.Package" uid="2a786c20-a1e5-4b41-a62d-bff635199547"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="launchConfigurations" version="4">
+  <OBJECT>
+    <ID name="launchConfigurations" mc="Standard.Package" uid="00755d6e-0bc8-112e-9071-001e4fea2d8b"/>
+    <PID name="ui" mc="Standard.Package" uid="0072c054-0bc8-112e-9071-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[launchConfigurations]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractVMInstallPage" mc="Standard.Class" uid="00756386-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AppletArgumentsTab" mc="Standard.Class" uid="00756a5c-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AppletMainTab" mc="Standard.Class" uid="00757132-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="AppletParametersTab" mc="Standard.Class" uid="00757812-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaAppletLaunchShortcut" mc="Standard.Class" uid="007585a0-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaApplicationLaunchShortcut" mc="Standard.Class" uid="00758cda-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaArgumentsTab" mc="Standard.Class" uid="00759482-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaClasspathTab" mc="Standard.Class" uid="00759c5c-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaConnectTab" mc="Standard.Class" uid="0075a42c-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaJRETab" mc="Standard.Class" uid="0075acce-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaLaunchShortcut" mc="Standard.Class" uid="0075b552-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaLaunchTab" mc="Standard.Class" uid="0075bdae-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaMainTab" mc="Standard.Class" uid="0075c682-0bc8-112e-9071-001e4fea2d8b"/>
+        <COMPID name="JavaSourceLookupTab" mc="Standard.Class" uid="0075cf74-0bc8-112e-9071-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

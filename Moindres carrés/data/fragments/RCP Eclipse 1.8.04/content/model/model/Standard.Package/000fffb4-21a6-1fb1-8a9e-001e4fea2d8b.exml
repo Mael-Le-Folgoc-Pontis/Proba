@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="css2" version="4">
+  <OBJECT>
+    <ID name="css2" mc="Standard.Package" uid="000fffb4-21a6-1fb1-8a9e-001e4fea2d8b"/>
+    <PID name="properties" mc="Standard.Package" uid="000a268e-21a6-1fb1-8a9e-001e4fea2d8b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[css2]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractCSSPropertyBackgroundCompositeHandler" mc="Standard.Class" uid="00169bb2-21a6-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="AbstractCSSPropertyBackgroundHandler" mc="Standard.Class" uid="00119888-21a6-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="AbstractCSSPropertyBorderCompositeHandler" mc="Standard.Class" uid="00147c74-21a6-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="AbstractCSSPropertyBorderHandler" mc="Standard.Class" uid="001512b0-21a6-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="AbstractCSSPropertyClassificationHandler" mc="Standard.Class" uid="001048c0-21a6-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="AbstractCSSPropertyDimensionHandler" mc="Standard.Class" uid="00110ad0-21a6-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="AbstractCSSPropertyFontCompositeHandler" mc="Standard.Class" uid="0015d4de-21a6-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="AbstractCSSPropertyFontHandler" mc="Standard.Class" uid="00129260-21a6-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="AbstractCSSPropertyMarginHandler" mc="Standard.Class" uid="0015a46e-21a6-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="AbstractCSSPropertyPaddingHandler" mc="Standard.Class" uid="001169d0-21a6-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="AbstractCSSPropertyTextHandler" mc="Standard.Class" uid="0013b9d8-21a6-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="CSS2FontProperties" mc="Standard.Interface" uid="00179328-21a6-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="CSS2FontPropertiesImpl" mc="Standard.Class" uid="00141b1c-21a6-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="CSS2PaddingPropertiesImpl" mc="Standard.Class" uid="001762d6-21a6-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ICSSPropertyBackgroundHandler" mc="Standard.Interface" uid="00166ade-21a6-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ICSSPropertyBorderHandler" mc="Standard.Interface" uid="0012640c-21a6-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ICSSPropertyClassificationHandler" mc="Standard.Interface" uid="001731c6-21a6-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ICSSPropertyDimensionHandler" mc="Standard.Interface" uid="00157444-21a6-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ICSSPropertyFontHandler" mc="Standard.Interface" uid="00135c68-21a6-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ICSSPropertyMarginHandler" mc="Standard.Interface" uid="00138b7a-21a6-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ICSSPropertyPaddingHandler" mc="Standard.Interface" uid="0010dd94-21a6-1fb1-8a9e-001e4fea2d8b"/>
+        <COMPID name="ICSSPropertyTextHandler" mc="Standard.Interface" uid="00101c74-21a6-1fb1-8a9e-001e4fea2d8b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

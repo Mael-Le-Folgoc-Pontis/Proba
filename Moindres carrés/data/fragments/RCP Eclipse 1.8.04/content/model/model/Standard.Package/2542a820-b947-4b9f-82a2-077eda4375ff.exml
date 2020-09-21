@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="methods" version="4">
+  <OBJECT>
+    <ID name="methods" mc="Standard.Package" uid="2542a820-b947-4b9f-82a2-077eda4375ff"/>
+    <PID name="client" mc="Standard.Package" uid="139da6c5-3b11-48bb-99e5-c2f3faab23d5"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[methods]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbortableHttpRequest" mc="Standard.Interface" uid="19334352-b315-4830-8404-57a1466052c6"/>
+        <COMPID name="AbstractExecutionAwareRequest" mc="Standard.Class" uid="11af8618-f6dc-4410-ac4f-0e63ba22cf88"/>
+        <COMPID name="CloseableHttpResponse" mc="Standard.Interface" uid="29f99db9-abaf-4851-862f-261fbe575a2f"/>
+        <COMPID name="Configurable" mc="Standard.Interface" uid="d4fe0e11-ff2c-4d96-806d-3e29e9b85e6e"/>
+        <COMPID name="HttpDelete" mc="Standard.Class" uid="88c96955-02a4-41ed-b869-072b080138ad"/>
+        <COMPID name="HttpEntityEnclosingRequestBase" mc="Standard.Class" uid="01a5f925-0ddd-4a54-ac0f-8af71544adf2"/>
+        <COMPID name="HttpExecutionAware" mc="Standard.Interface" uid="5649eb7f-4a91-4ecd-bf4e-52808482ada9"/>
+        <COMPID name="HttpGet" mc="Standard.Class" uid="fbda3d50-ede8-4a7d-afbf-a6818baf70f6"/>
+        <COMPID name="HttpHead" mc="Standard.Class" uid="641ba970-a468-4d19-9008-9d258ecf9dbb"/>
+        <COMPID name="HttpOptions" mc="Standard.Class" uid="9ff30ab7-03fe-41ae-9a7d-a8f4bd087dc9"/>
+        <COMPID name="HttpPatch" mc="Standard.Class" uid="9cebcc5d-f6b8-43d4-afd8-3ca6404d8e47"/>
+        <COMPID name="HttpPost" mc="Standard.Class" uid="b944a03f-a372-4bc2-9c14-eaf762dc737c"/>
+        <COMPID name="HttpPut" mc="Standard.Class" uid="96fc569c-35c4-43b4-a09a-a6ccc44bc2dd"/>
+        <COMPID name="HttpRequestBase" mc="Standard.Class" uid="57021021-a0fd-46e2-83ee-7dbded9b3bd1"/>
+        <COMPID name="HttpRequestWrapper" mc="Standard.Class" uid="d6a42d1d-ed49-460c-b2aa-4109e5fc6816"/>
+        <COMPID name="HttpTrace" mc="Standard.Class" uid="9d605512-b71e-4ca3-9cea-33a578b453d3"/>
+        <COMPID name="HttpUriRequest" mc="Standard.Interface" uid="f9b134ee-b342-4dfd-836c-15a698d44ae4"/>
+        <COMPID name="RequestBuilder" mc="Standard.Class" uid="1be37709-45a1-4b01-bb96-54e81497fcb2"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

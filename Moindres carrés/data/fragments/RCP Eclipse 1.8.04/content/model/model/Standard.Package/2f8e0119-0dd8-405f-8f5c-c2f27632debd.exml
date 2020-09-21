@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="storage" version="4">
+  <OBJECT>
+    <ID name="storage" mc="Standard.Package" uid="2f8e0119-0dd8-405f-8f5c-c2f27632debd"/>
+    <PID name="internal" mc="Standard.Package" uid="4cf20e63-bbc4-4db1-9986-a242dfadfbfa"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[storage]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractGitResourceVariant" mc="Standard.Class" uid="3cbb1819-4f4d-42f6-b96e-e58afa1e0108"/>
+        <COMPID name="CommitBlobStorage" mc="Standard.Class" uid="e7d5c435-a6a6-4d7b-a06e-9f86c74e9982"/>
+        <COMPID name="CommitFileRevision" mc="Standard.Class" uid="6e21edaa-70d9-4168-8333-e530ff7b9488"/>
+        <COMPID name="GitFileHistoryProvider" mc="Standard.Class" uid="25d95535-5af2-43ad-9fcc-ffa07fd5b052"/>
+        <COMPID name="GitFileRevision" mc="Standard.Class" uid="b4736a44-7868-44b0-b6de-be512a88b4da"/>
+        <COMPID name="IndexBlobStorage" mc="Standard.Class" uid="0d8c0596-c720-411e-9b7d-cd1e5ea220a5"/>
+        <COMPID name="IndexFileRevision" mc="Standard.Class" uid="54b84b05-147a-48e4-b6ba-3a990b66e8c0"/>
+        <COMPID name="IndexResourceVariant" mc="Standard.Class" uid="3c035a80-ea06-4157-bb99-97e271f718b4"/>
+        <COMPID name="OpenWorkspaceVersionEnabled" mc="Standard.Interface" uid="3d8fd21e-ca9a-4ded-ad57-e824c615b553"/>
+        <COMPID name="TreeParserResourceVariant" mc="Standard.Class" uid="0a3ebba1-0573-478f-a981-b9f6c509e94d"/>
+        <COMPID name="WorkingTreeFileRevision" mc="Standard.Class" uid="ae132f8f-7202-4358-8f0d-42578fc0e995"/>
+        <COMPID name="WorkspaceFileRevision" mc="Standard.Class" uid="b4a1a882-e31b-45c7-941b-c01d9e73e8d5"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

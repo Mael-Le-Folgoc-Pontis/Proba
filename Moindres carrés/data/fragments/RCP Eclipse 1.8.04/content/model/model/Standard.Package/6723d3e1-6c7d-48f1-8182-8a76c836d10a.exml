@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="binder" version="4">
+  <OBJECT>
+    <ID name="binder" mc="Standard.Package" uid="6723d3e1-6c7d-48f1-8182-8a76c836d10a"/>
+    <PID name="inject" mc="Standard.Package" uid="8ae47951-ec4b-4139-8eb5-d40d8d278ac2"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[binder]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AnnotatedBindingBuilder" mc="Standard.Interface" uid="ce90f8d9-971a-437f-b52a-da925ce7f822"/>
+        <COMPID name="AnnotatedConstantBindingBuilder" mc="Standard.Interface" uid="1fb8fde5-a993-4d31-bfb7-eb9e0d4c28e5"/>
+        <COMPID name="AnnotatedElementBuilder" mc="Standard.Interface" uid="7b37b589-9110-4615-8034-177fdf4fa36c"/>
+        <COMPID name="ConstantBindingBuilder" mc="Standard.Interface" uid="c2304b58-6a63-4aab-8eae-dcbf5802e5ec"/>
+        <COMPID name="LinkedBindingBuilder" mc="Standard.Interface" uid="91d62311-192d-4388-bb89-e186c00403d3"/>
+        <COMPID name="ScopedBindingBuilder" mc="Standard.Interface" uid="84ea4ace-e083-4903-a657-6a4d7cc85508"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

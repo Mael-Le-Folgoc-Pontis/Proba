@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="command" version="4">
+  <OBJECT>
+    <ID name="command" mc="Standard.Package" uid="4e4bd497-9323-49a9-8562-94ec85435e23"/>
+    <PID name="edit" mc="Standard.Package" uid="52d690c6-ec15-4e9c-bb72-a3d642d1e840"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[command]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractOverrideableCommand" mc="Standard.Class" uid="6c1f7e7a-b606-46b2-a2fd-74b992b0e7cf"/>
+        <COMPID name="AddCommand" mc="Standard.Class" uid="8eb257f4-0588-4c3f-8699-cffca235e7fa"/>
+        <COMPID name="ChangeCommand" mc="Standard.Class" uid="8d7a9aa0-f297-4bf6-b132-9ed5281ea257"/>
+        <COMPID name="ChildrenToCopyProvider" mc="Standard.Interface" uid="64ad87b9-bf45-4f83-a618-5adbb1ab5145"/>
+        <COMPID name="CommandActionDelegate" mc="Standard.Interface" uid="b50ae240-7267-4418-ba20-f864aede5792"/>
+        <COMPID name="CommandParameter" mc="Standard.Class" uid="49e3b95a-c68f-409b-852e-13a4576096ea"/>
+        <COMPID name="CopyCommand" mc="Standard.Class" uid="82fb6c13-0270-43e2-b4e3-cf107c657583"/>
+        <COMPID name="CopyToClipboardCommand" mc="Standard.Class" uid="72eb3b85-f19f-4e14-bf5b-6efe5b74351f"/>
+        <COMPID name="CreateChildCommand" mc="Standard.Class" uid="970abc6e-a652-4618-9f0c-9ff78797a3fe"/>
+        <COMPID name="CreateCopyCommand" mc="Standard.Class" uid="ad5eba99-485b-41b0-8abc-4cfba6565374"/>
+        <COMPID name="CutToClipboardCommand" mc="Standard.Class" uid="cf20f954-8d9c-4b5a-90f0-821adb524524"/>
+        <COMPID name="DeleteCommand" mc="Standard.Class" uid="876c9900-b0ea-4b40-bcd2-cf731e26138c"/>
+        <COMPID name="DragAndDropCommand" mc="Standard.Class" uid="7f19cc3d-1cda-4bf6-8328-440e0898bbaf"/>
+        <COMPID name="DragAndDropFeedback" mc="Standard.Interface" uid="f2960723-5ca1-4447-983c-5fc1fc20938a"/>
+        <COMPID name="InitializeCopyCommand" mc="Standard.Class" uid="7aec09b8-8a00-4c16-9827-8bb8dcdb490b"/>
+        <COMPID name="MoveCommand" mc="Standard.Class" uid="9994ee84-a958-42a3-8788-867ecc387109"/>
+        <COMPID name="OverrideableCommand" mc="Standard.Interface" uid="11307fac-2a54-4462-b1ac-50c83923b206"/>
+        <COMPID name="PasteFromClipboardCommand" mc="Standard.Class" uid="e2f829ee-b98b-40b6-93f2-1df9b9b534d9"/>
+        <COMPID name="RemoveCommand" mc="Standard.Class" uid="86d28cb4-12fc-4529-acdd-028598aac0e5"/>
+        <COMPID name="ReplaceCommand" mc="Standard.Class" uid="eab838e6-7bd6-4cdc-8d6b-2f159e0a0f13"/>
+        <COMPID name="SetCommand" mc="Standard.Class" uid="a064267f-49b7-4527-b1ab-8c9c71e0c2f2"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="binding" version="4">
+  <OBJECT>
+    <ID name="binding" mc="Standard.Package" uid="f9ff91b5-452c-43e3-89e9-91885e119116"/>
+    <PID name="toolingutils" mc="Standard.Package" uid="f8308fd1-4c8d-415a-98b7-91e2704157b6"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[binding]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Property" mc="Standard.Class" uid="2b233ddb-6543-4e98-bc05-4a26239bb316"/>
+        <COMPID name="ValidationListener" mc="Standard.Interface" uid="e13c4998-5585-4b8b-988e-64f3c186f0b8"/>
+        <COMPID name="Validator" mc="Standard.Interface" uid="d1f1eba6-cbb0-4db3-999e-ae8183a40d79"/>
+        <COMPID name="Validators" mc="Standard.Class" uid="946d0802-901f-4851-9e9d-f138b550fe59"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

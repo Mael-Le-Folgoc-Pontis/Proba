@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="contentmodel" version="4">
+  <OBJECT>
+    <ID name="contentmodel" mc="Standard.Package" uid="18db30f5-6f50-44d7-8824-6d966043c6c0"/>
+    <PID name="internal" mc="Standard.Package" uid="fed72978-bb15-4d8f-baa5-a833797392d0"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[contentmodel]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="CMDocumentFactoryDTD" mc="Standard.Class" uid="34eeffd0-cbdb-4457-8721-259d1cea2e09"/>
+        <COMPID name="CMNodeImpl" mc="Standard.Class" uid="4b99783b-40bb-495b-bf7e-b89a72e5597c"/>
+        <COMPID name="DTDImpl" mc="Standard.Class" uid="68ffb026-054a-412a-8445-8027a0ebf6c7"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
