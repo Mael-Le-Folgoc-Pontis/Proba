@@ -19,8 +19,8 @@ public class Equipe {
 		return match;
 	}
 
-	public void setMatch(ArrayList<Match> match) {
-		this.match = match;
+	public void ajouterMatch(Match match) {
+		// this.match.add(match);
 	}
 
 	public String getNomEquipe() {
