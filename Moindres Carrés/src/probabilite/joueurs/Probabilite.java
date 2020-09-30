@@ -35,19 +35,27 @@ public class Probabilite {
 	 * Fais les 8 premiers matchs
 	 */
 	private static void faireMatch1() {
+		/* Initialise la variable match */
 		Match match = null;
 		for (int i = 0; i < NOM_EQUIPE.length; i++) {
+			/* Si le nombre est pair */
 			if (i%2 == 0) {
-				match = new Match(equipe.get(i).getNomEquipe(), equipe.get(i+1).getNomEquipe(), (int)(Math.random() * ((5 - 0) + 1)), (int)(Math.random() * ((5 - 0) + 1)));
-				equipe.get(i).ajouterMatch(match);
-				equipe.get(i+1).ajouterMatch(match);
+				do {
+					/* Création d'une nouvelle instance de match */
+					match = new Match(equipe.get(i).getNomEquipe(), equipe.get(i+1).getNomEquipe(), (int) Math.random()*(5-0), (int) Math.random()*(5-0));
+				/* Tant qu'il y a égalité */
+				} while(match.getScore1() == match.getScore2());
+				/* Si équipe1 gagne */
 				if (match.getScore1() > match.getScore2()) {
-					equipe.remove(i);
-				} else {
 					equipe.remove(i+1);
+					equipe.get(i).ajouterMatch(match);
+				/* Si équipe2 gagne */
+				} else {
+					equipe.remove(i);
+					equipe.get(i+1).ajouterMatch(match);
 				}
-				System.out.println(match.toString());
 			}
+			System.out.println(match.toString());
 		}
 	}
 	

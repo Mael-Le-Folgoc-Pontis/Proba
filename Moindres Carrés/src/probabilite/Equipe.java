@@ -20,7 +20,7 @@ public class Equipe {
 	}
 
 	public void ajouterMatch(Match match) {
-		// this.match.add(match);
+		this.match.add(match);
 	}
 
 	public String getNomEquipe() {
