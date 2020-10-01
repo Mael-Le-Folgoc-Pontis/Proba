@@ -46,7 +46,7 @@ public class Championat {
 		
 		// Création des matchs entre les équipes
 		for (int i = 0; i < NOMS_EQUIPES.length / 2; i++) {
-			matchs.add(new Match(equipes.get(i), equipes.get(i+1)));
+			matchs.add(new Match(equipes.get(i*2), equipes.get(i*2+1)));
 			matchs.get(i).jouerMatch();
 		}
 	}
