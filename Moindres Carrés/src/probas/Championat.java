@@ -5,6 +5,8 @@ package probas;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import probas.Equipe;
+import probas.Match;
 
 /**
  * Gestion d'um championat de footbal, composé de différents matchs joués par des équipes
